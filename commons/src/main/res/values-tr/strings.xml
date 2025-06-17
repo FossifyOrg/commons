@@ -845,7 +845,11 @@
     <string name="additional_info">Ek bilgiler</string>
     <string name="app_version">Uygulama sürümü: %s</string>
     <string name="device_os">Aygıt İS: %s</string>
-    <string name="donate_please">Merhaba,&lt;br&gt;&lt;br&gt; umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor, bu yüzden lütfen &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alarak geliştirmeyi destekleyip, bu pencerenin tekrar görünmesini de önleyin.&lt;br&gt;&lt;br&gt; Teşekkürler!</string>
+    <string name="donate_please"><![CDATA[
+            Merhaba, <br><br>
+            Umarım uygulamanın tadını çıkarırsınız. Hiçbir reklam içermiyor, bu yüzden lütfen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Teşekkürler</a> uygulamasını satın alarak geliştirmeyi destekleyip, bu pencerenin tekrar görünmesini sağlayabilirsiniz.<br><br>
+            Teşekkür ederim!
+        ]]></string>
     <string name="donate_new">Merhaba,&lt;br&gt;&lt;br&gt; umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor ve verilerinizi de toplamıyoruz, lütfen &lt;href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alarak geliştirmeyi destekleyin. Ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.&lt;br&gt;&lt;br&gt; Teşekkürler!</string>
     <string name="donate_short">Lütfen &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alarak bizi destekleyin, ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.</string>
     <string name="purchase">Satın al</string>
