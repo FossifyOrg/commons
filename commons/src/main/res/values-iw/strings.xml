@@ -283,7 +283,7 @@
     <string name="remove_all">להסיר הכל</string>
     <string name="remove_all_description">להסיר את כל התיקיות מרשימת החרגות\? פעולה זו לא תמחק את התיקיות.</string>
     <string name="temporarily_show_excluded">הצג זמנית פריטים מוחרגים</string>
-    <string name="stop_showing_excluded">הפסק את הצגת החרגות</string>
+    <string name="stop_showing_excluded">הפסק להציג החרגות</string>
     <string name="default_tab_to_open">לשונית פתיחה בהפעלת האפליקציה</string>
     <string name="contacts_tab">אנשי קשר</string>
     <string name="favorites_tab">מועדפים</string>
@@ -1070,7 +1070,7 @@
     <string name="allow_full_screen_notifications_reminders">עליך לאפשר לאפליקציה להציג התראות במסך מלא, אחרת אתה עלול לפספס תזכורות מסוימות.</string>
     <string name="app_on_sd_card">נראה שהאפליקציה מותקנת על כרטיס SD, מה שהופך את הווידג\'טים של האפליקציה ללא זמינים. לא תוכל לראות אותם ברשימת הווידג\'טים הזמינים. זוהי מגבלה של המערכת, כך שאם אתה רוצה להשתמש בווידג\'טים, עליך להעביר את האפליקציה בחזרה לאחסון הפנימי.</string>
     <string name="allow_notifications_incoming_messages">עליך לאפשר לאפליקציה לשלוח התראות, אחרת היא לא תוכל להציג הודעות נכנסות.</string>
-    <string name="access_storage_prompt">אנא הענק לאפליקציה גישה לכל הקבצים שלך, ייתכן שהיא לא תעבוד טוב בלעדיה.</string>
+    <string name="access_storage_prompt">אנא הענק לאפליקציה גישה לכל הקבצים שלך, ייתכן שהיישום לא יעבוד תקין בלי זה.</string>
     <string name="all_fossify_apps">כל אפליקציות Fossify</string>
     <string name="allow_full_screen_notifications_incoming_calls">עליך לאפשר לאפליקציה לשלוח התראות במסך מלא, אחרת אתה עלול לפספס שיחות נכנסות.</string>
     <string name="app_icon_color_warning">זהירות: ייתכן שחלק מהמשגרים לא יטפלו בהתאמה אישית של סמלי אפליקציה בצורה נכונה. אם הסמל נעלם, נסו להפעיל את האפליקציה דרך Google Play או ווידג\'ט, אם זמין. לאחר ההפעלה, שחזרו את צבע הסמל הירוק המוגדר כברירת מחדל #106D1F. במקרים קיצוניים, ייתכן שיהיה צורך להתקין מחדש את האפליקציה.</string>
