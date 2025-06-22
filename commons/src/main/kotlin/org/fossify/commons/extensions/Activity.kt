@@ -556,8 +556,9 @@ fun Activity.openEditorIntent(path: String, forceChooser: Boolean, applicationId
         Intent().apply {
             action = Intent.ACTION_EDIT
             setDataAndType(newUri, getUriMimeType(path, newUri))
+            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             if (!isRPlus() || (isRPlus() && (hasProperStoredDocumentUriSdk30(path) || Environment.isExternalStorageManager()))) {
-                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION or Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
+                addFlags(Intent.FLAG_GRANT_WRITE_URI_PERMISSION)
             }
 
             val parent = path.getParentPath()
