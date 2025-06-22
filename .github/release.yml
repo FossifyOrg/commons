@@ -1,0 +1,39 @@
+name: Release
+
+on:
+  workflow_dispatch:
+
+jobs:
+  release:
+    name: Create release
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683
+        with:
+          fetch-depth: 0
+
+      - name: Get next version
+        id: version
+        uses: ietf-tools/semver-action@000ddb2ebacad350ff2a15382a344dc05ea4c0a4
+        with:
+          token: ${{ github.token }}
+          branch: ${{ github.event.repository.default_branch }}
+          noNewCommitBehavior: 'warn'
+          noVersionBumpBehavior: 'warn'
+
+      - name: Create and push tag
+        if: ${{ steps.version.outputs.nextStrict }}
+        run: |
+          set -euo pipefail
+          git config user.name  "fossifybot[bot]"
+          git config user.email "212866877+fossifybot[bot]@users.noreply.github.com"
+          new_version="${{ steps.version.outputs.nextStrict }}"
+          echo "Creating tag: $new_version"
+          git tag -a "$new_version" -m "$new_version"
+          git push origin "$new_version"
+          echo "Created and pushed tag: $new_version"
