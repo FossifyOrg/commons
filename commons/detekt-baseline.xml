@@ -1,10 +1,11 @@
 <?xml version="1.0" ?>
 <SmellBaseline>
-  <ManuallySuppressedIssues></ManuallySuppressedIssues>
+  <ManuallySuppressedIssues/>
   <CurrentIssues>
     <ID>ComplexCondition:Activity.kt$!isRPlus() &amp;&amp; isPathOnOTG(path) &amp;&amp; (baseConfig.OTGTreeUri.isEmpty() || !hasProperStoredTreeUri(true))</ID>
     <ID>ComplexCondition:Activity.kt$!isRPlus() || (isRPlus() &amp;&amp; (hasProperStoredDocumentUriSdk30(path) || Environment.isExternalStorageManager()))</ID>
     <ID>ComplexCondition:Activity.kt$(!isRPlus() &amp;&amp; isPathOnSD(path) &amp;&amp; !isSDCardSetAsDefaultStorage() &amp;&amp; (baseConfig.sdTreeUri.isEmpty() || !hasProperStoredTreeUri(false)))</ID>
+    <ID>ComplexCondition:Activity.kt$startIntentForUriAction( uri, "android.intent.action.VIEW", ComponentName("com.google.android.documentsui", "com.android.documentsui.files.FilesActivity") ) || startIntentForUriAction( uri, "android.intent.action.VIEW", ComponentName("com.android.documentsui", "com.android.documentsui.files.FilesActivity") ) || startIntentForUriAction( uri, "android.intent.action.VIEW", ComponentName("com.android.documentsui", "com.android.documentsui.FilesActivity") ) || startIntentForUriAction(uri, "android.intent.action.VIEW", null) || startIntentForUriAction(uri, "android.provider.action.BROWSE", null) || startIntentForUriAction(uri, "android.provider.action.BROWSE_DOCUMENT_ROOT", null)</ID>
     <ID>ComplexCondition:BaseSimpleActivity.kt$BaseSimpleActivity$isPathOnOTG(source) || isPathOnOTG(destination) || isPathOnSD(source) || isPathOnSD(destination) || isRestrictedSAFOnlyRoot(source) || isRestrictedSAFOnlyRoot(destination) || isAccessibleWithSAFSdk30(source) || isAccessibleWithSAFSdk30(destination) || fileDirItems.first().isDirectory</ID>
     <ID>ComplexCondition:BaseSimpleActivity.kt$BaseSimpleActivity$requestCode == SELECT_EXPORT_SETTINGS_FILE_INTENT &amp;&amp; resultCode == Activity.RESULT_OK &amp;&amp; resultData != null &amp;&amp; resultData.data != null</ID>
     <ID>ComplexCondition:Contact.kt$Contact$firstValue.isEmpty() &amp;&amp; firstName.isEmpty() &amp;&amp; middleName.isEmpty() &amp;&amp; surname.isEmpty()</ID>
@@ -45,7 +46,7 @@
     <ID>CyclomaticComplexMethod:FileDirItem.kt$FileDirItem$override fun compareTo(other: FileDirItem): Int</ID>
     <ID>CyclomaticComplexMethod:LineColorPickerDialog.kt$LineColorPickerDialog$private fun getColorsForIndex(index: Int)</ID>
     <ID>CyclomaticComplexMethod:LineColorPickerDialog.kt$private fun Context.getColorsForIndex(index: Int)</ID>
-    <ID>CyclomaticComplexMethod:ManageBlockedNumbersScreen.kt$@Composable internal fun ManageBlockedNumbersScreen( goBack: () -&gt; Unit, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, setAsDefault: () -&gt; Unit, isDialer: Boolean, hasGivenPermissionToBlock: Boolean, isBlockUnknownSelected: Boolean, onBlockUnknownSelectedChange: (Boolean) -&gt; Unit, isHiddenSelected: Boolean, onHiddenSelectedChange: (Boolean) -&gt; Unit, blockedNumbers: ImmutableList&lt;BlockedNumber&gt;?, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onEdit: (BlockedNumber) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, )</ID>
+    <ID>CyclomaticComplexMethod:ManageBlockedNumbersScreen.kt$@Composable internal fun ManageBlockedNumbersScreen( goBack: () -&gt; Unit, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, setAsDefault: () -&gt; Unit, isDialer: Boolean, hasGivenPermissionToBlock: Boolean, isBlockUnknownSelected: Boolean, showCheckmarksOnSwitches: Boolean, onBlockUnknownSelectedChange: (Boolean) -&gt; Unit, isHiddenSelected: Boolean, onHiddenSelectedChange: (Boolean) -&gt; Unit, blockedNumbers: ImmutableList&lt;BlockedNumber&gt;?, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onEdit: (BlockedNumber) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, )</ID>
     <ID>CyclomaticComplexMethod:MyContactsContentProvider.kt$MyContactsContentProvider.Companion$fun getContacts(context: Context, cursor: Cursor?): ArrayList&lt;Contact&gt;</ID>
     <ID>CyclomaticComplexMethod:MyRecyclerView.kt$MyRecyclerView$override fun dispatchTouchEvent(ev: MotionEvent): Boolean</ID>
     <ID>CyclomaticComplexMethod:MyRecyclerViewAdapter.kt$MyRecyclerViewAdapter$protected fun selectItemRange(from: Int, to: Int, min: Int, max: Int)</ID>
@@ -53,6 +54,7 @@
     <ID>CyclomaticComplexMethod:PropertiesDialog.kt$PropertiesDialog$private fun addProperties(path: String)</ID>
     <ID>CyclomaticComplexMethod:RenamePatternTab.kt$RenamePatternTab$override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -&gt; Unit)</ID>
     <ID>CyclomaticComplexMethod:RenameSimpleTab.kt$RenameSimpleTab$override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -&gt; Unit)</ID>
+    <ID>CyclomaticComplexMethod:SettingsListItem.kt$@Composable fun SettingsListItem( modifier: Modifier = Modifier, text: String, description: String? = null, fontSize: TextUnit = TextUnit.Unspecified, maxLines: Int = Int.MAX_VALUE, overflow: TextOverflow = TextOverflow.Clip, @DrawableRes icon: Int? = null, isImage: Boolean = false, click: (() -&gt; Unit)? = null, tint: Color? = null )</ID>
     <ID>CyclomaticComplexMethod:SimpleContactsHelper.kt$SimpleContactsHelper$private fun getContactNames(favoritesOnly: Boolean): List&lt;SimpleContact&gt;</ID>
     <ID>CyclomaticComplexMethod:VcfExporter.kt$VcfExporter$fun exportContacts( activity: BaseSimpleActivity, outputStream: OutputStream?, contacts: ArrayList&lt;Contact&gt;, showExportingToast: Boolean, callback: (result: ExportResult) -&gt; Unit )</ID>
     <ID>EmptyCatchBlock:Context-storage.kt${ }</ID>
@@ -80,9 +82,9 @@
     <ID>ForbiddenComment:Int.kt$// TODO: how to do "bits &amp; ~bit" in kotlin?</ID>
     <ID>ForbiddenComment:String.kt$// TODO: Use KMP search algorithm</ID>
     <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun AboutScreen( goBack: () -&gt; Unit, helpUsSection: @Composable () -&gt; Unit, aboutSection: @Composable () -&gt; Unit, socialSection: @Composable () -&gt; Unit, otherSection: @Composable () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun AboutSection( setupFAQ: Boolean, onFAQClick: () -&gt; Unit, onEmailClick: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun HelpUsSection( onRateUsClick: () -&gt; Unit, onInviteClick: () -&gt; Unit, onContributorsClick: () -&gt; Unit, showRateUs: Boolean, showInvite: Boolean, showDonate: Boolean, onDonateClick: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun OtherSection( showMoreApps: Boolean, onMoreAppsClick: () -&gt; Unit, onWebsiteClick: () -&gt; Unit, showWebsite: Boolean, showPrivacyPolicy: Boolean, onPrivacyPolicyClick: () -&gt; Unit, onLicenseClick: () -&gt; Unit, version: String, onVersionClick: () -&gt; Unit, )</ID>
+    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun AboutSection( setupFAQ: Boolean, setupKnownIssues: Boolean, onFAQClick: () -&gt; Unit, onKnownIssuesClick: () -&gt; Unit, onEmailClick: () -&gt; Unit, )</ID>
+    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun HelpUsSection( onRateThisAppClick: () -&gt; Unit, onInviteClick: () -&gt; Unit, onContributorsClick: () -&gt; Unit, showRateUs: Boolean, showInvite: Boolean, showDonate: Boolean, onDonateClick: () -&gt; Unit, )</ID>
+    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun OtherSection( showMoreApps: Boolean, onMoreAppsClick: () -&gt; Unit, onPrivacyPolicyClick: () -&gt; Unit, onLicenseClick: () -&gt; Unit, versionName: String, packageName: String, onVersionClick: () -&gt; Unit, )</ID>
     <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun SocialSection( onGithubClick: () -&gt; Unit, onRedditClick: () -&gt; Unit, onTelegramClick: () -&gt; Unit, )</ID>
     <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun SocialText( text: String, icon: Int, tint: Color? = null, click: () -&gt; Unit, )</ID>
     <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun TwoLinerTextItem(text: String, icon: Int, click: () -&gt; Unit)</ID>
@@ -125,7 +127,7 @@
     <ID>FunctionNaming:ConfirmationDialog.kt$@Composable @MyDevices private fun ConfirmationAlertDialogPreview()</ID>
     <ID>FunctionNaming:ConfirmationDialog.kt$@Composable fun ConfirmationAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, message: String = "", messageId: Int? = R.string.proceed_with_deletion, positive: Int? = R.string.yes, negative: Int? = R.string.no, cancelOnTouchOutside: Boolean = true, dialogTitle: String = "", callback: () -&gt; Unit )</ID>
     <ID>FunctionNaming:ContributorsScreen.kt$@Composable @MyDevices private fun ContributorsScreenPreview()</ID>
-    <ID>FunctionNaming:ContributorsScreen.kt$@Composable internal fun ContributorsScreen( goBack: () -&gt; Unit, showContributorsLabel: Boolean, contributors: ImmutableList&lt;LanguageContributor&gt; )</ID>
+    <ID>FunctionNaming:ContributorsScreen.kt$@Composable internal fun ContributorsScreen( goBack: () -&gt; Unit, contributors: ImmutableList&lt;LanguageContributor&gt; )</ID>
     <ID>FunctionNaming:ContributorsScreen.kt$@Composable private fun ContributorItem( modifier: Modifier = Modifier, languageContributor: LanguageContributor )</ID>
     <ID>FunctionNaming:CreateNewFolderDialog.kt$@Composable fun CreateNewFolderAlertDialog( alertDialogState: AlertDialogState, path: String, modifier: Modifier = Modifier, callback: (path: String) -&gt; Unit )</ID>
     <ID>FunctionNaming:CreateNewFolderDialog.kt$@MyDevices @Composable private fun CreateNewFolderAlertDialogPreview()</ID>
@@ -155,7 +157,7 @@
     <ID>FunctionNaming:LineColorPickerDialog.kt$@Composable fun LineColorPickerAlertDialog( alertDialogState: AlertDialogState, @ColorInt color: Int, isPrimaryColorPicker: Boolean, modifier: Modifier = Modifier, primaryColors: Int = R.array.md_primary_colors, appIconIDs: ArrayList&lt;Int&gt;? = null, onActiveColorChange: (color: Int) -&gt; Unit, onButtonPressed: (wasPositivePressed: Boolean, color: Int) -&gt; Unit )</ID>
     <ID>FunctionNaming:LinkifyTextComponent.kt$@Composable @MyDevices private fun LinkifyTextComponentPreview()</ID>
     <ID>FunctionNaming:LinkifyTextComponent.kt$@Composable fun LinkifyTextComponent( modifier: Modifier = Modifier, fontSize: TextUnit = 14.sp, removeUnderlines: Boolean = true, textAlignment: Int = TextView.TEXT_ALIGNMENT_TEXT_START, text: () -&gt; Spanned )</ID>
-    <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable internal fun ManageBlockedNumbersScreen( goBack: () -&gt; Unit, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, setAsDefault: () -&gt; Unit, isDialer: Boolean, hasGivenPermissionToBlock: Boolean, isBlockUnknownSelected: Boolean, onBlockUnknownSelectedChange: (Boolean) -&gt; Unit, isHiddenSelected: Boolean, onHiddenSelectedChange: (Boolean) -&gt; Unit, blockedNumbers: ImmutableList&lt;BlockedNumber&gt;?, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onEdit: (BlockedNumber) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, )</ID>
+    <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable internal fun ManageBlockedNumbersScreen( goBack: () -&gt; Unit, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, setAsDefault: () -&gt; Unit, isDialer: Boolean, hasGivenPermissionToBlock: Boolean, isBlockUnknownSelected: Boolean, showCheckmarksOnSwitches: Boolean, onBlockUnknownSelectedChange: (Boolean) -&gt; Unit, isHiddenSelected: Boolean, onHiddenSelectedChange: (Boolean) -&gt; Unit, blockedNumbers: ImmutableList&lt;BlockedNumber&gt;?, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onEdit: (BlockedNumber) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, )</ID>
     <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable private fun ActionModeToolbar( modifier: Modifier = Modifier, selectedIdsCount: Int, blockedNumbersCount: Int, onBackClick: () -&gt; Unit, onCopy: () -&gt; Unit, onDelete: () -&gt; Unit, onSelectAll: () -&gt; Unit, )</ID>
     <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable private fun BlockedNumber( modifier: Modifier = Modifier, blockedNumber: BlockedNumber, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, isSelected: Boolean, )</ID>
     <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable private fun BlockedNumberActionMenu( selectedIdsCount: Int, onDelete: () -&gt; Unit, onCopy: () -&gt; Unit, iconColor: Color? = null, )</ID>
@@ -175,9 +177,6 @@
     <ID>FunctionNaming:RadioGroupDialog.kt$@Composable fun RadioGroupAlertDialog( alertDialogState: AlertDialogState, items: ImmutableList&lt;RadioItem&gt;, modifier: Modifier = Modifier, selectedItemId: Int = -1, titleId: Int = 0, showOKButton: Boolean = false, cancelCallback: (() -&gt; Unit)? = null, callback: (newValue: Any) -&gt; Unit )</ID>
     <ID>FunctionNaming:RadioGroupDialogComponent.kt$@Composable @MyDevices private fun RadioGroupDialogComponentPreview()</ID>
     <ID>FunctionNaming:RadioGroupDialogComponent.kt$@Composable fun RadioGroupDialogComponent( modifier: Modifier = Modifier, items: List&lt;String&gt;, selected: String?, verticalPadding: Dp = 10.dp, horizontalPadding: Dp = 20.dp, setSelected: (selected: String) -&gt; Unit, )</ID>
-    <ID>FunctionNaming:RateStarsDialog.kt$@Composable @MyDevices private fun RateStarsAlertDialogPreview()</ID>
-    <ID>FunctionNaming:RateStarsDialog.kt$@Composable fun RateStarsAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, onRating: (stars: Int) -&gt; Unit )</ID>
-    <ID>FunctionNaming:RateStarsDialog.kt$@Composable private fun StarRating( modifier: Modifier = Modifier, maxRating: Int = 5, currentRating: Int, onRatingChanged: (Int) -&gt; Unit, starsColor: Color = SimpleTheme.colorScheme.primary, )</ID>
     <ID>FunctionNaming:SettingsCheckBoxComponent.kt$@Composable fun SettingsCheckBoxComponent( modifier: Modifier = Modifier, label: String, value: String? = null, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, onChange: ((Boolean) -&gt; Unit)? = null, checkboxColors: CheckboxColors = CheckboxDefaults.colors( checkedColor = SimpleTheme.colorScheme.primary, checkmarkColor = SimpleTheme.colorScheme.surface, ) )</ID>
     <ID>FunctionNaming:SettingsCheckBoxComponent.kt$@MyDevices @Composable private fun SettingsCheckBoxComponentPreview(@PreviewParameter(BooleanPreviewParameterProvider::class) isChecked: Boolean)</ID>
     <ID>FunctionNaming:SettingsDivider.kt$@Composable @MyDevices private fun SettingsHorizontalDividerPreview()</ID>
@@ -188,13 +187,13 @@
     <ID>FunctionNaming:SettingsLazyGroup.kt$@Composable fun SettingsLazyGroup( modifier: Modifier = Modifier, title: @Composable (() -&gt; Unit)? = null, state: LazyListState = rememberLazyListState(), contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, content: LazyListScope.() -&gt; Unit )</ID>
     <ID>FunctionNaming:SettingsLazyGroup.kt$@MyDevices @Composable private fun SettingsLazyGroupPreview()</ID>
     <ID>FunctionNaming:SettingsListItem.kt$@Composable fun SettingsListItem( modifier: Modifier = Modifier, text: @Composable () -&gt; Unit, @DrawableRes icon: Int? = null, isImage: Boolean = false, click: (() -&gt; Unit)? = null, tint: Color? = null )</ID>
-    <ID>FunctionNaming:SettingsListItem.kt$@Composable fun SettingsListItem( modifier: Modifier = Modifier, text: String, fontSize: TextUnit = TextUnit.Unspecified, maxLines: Int = Int.MAX_VALUE, overflow: TextOverflow = TextOverflow.Clip, @DrawableRes icon: Int? = null, isImage: Boolean = false, click: (() -&gt; Unit)? = null, tint: Color? = null )</ID>
-    <ID>FunctionNaming:SettingsListItem.kt$@MyDevices @Composable private fun SettingsListItem(@PreviewParameter(BooleanPreviewParameterProvider::class) isImage: Boolean)</ID>
+    <ID>FunctionNaming:SettingsListItem.kt$@Composable fun SettingsListItem( modifier: Modifier = Modifier, text: String, description: String? = null, fontSize: TextUnit = TextUnit.Unspecified, maxLines: Int = Int.MAX_VALUE, overflow: TextOverflow = TextOverflow.Clip, @DrawableRes icon: Int? = null, isImage: Boolean = false, click: (() -&gt; Unit)? = null, tint: Color? = null )</ID>
+    <ID>FunctionNaming:SettingsListItem.kt$@MyDevices @Composable private fun PreviewSettingsListItem(@PreviewParameter(BooleanPreviewParameterProvider::class) isImage: Boolean)</ID>
     <ID>FunctionNaming:SettingsPreferenceComponent.kt$@Composable fun SettingsPreferenceComponent( modifier: Modifier = Modifier, label: String, value: String? = null, isPreferenceEnabled: Boolean = true, doOnPreferenceLongClick: (() -&gt; Unit)? = null, doOnPreferenceClick: (() -&gt; Unit)? = null, preferenceValueColor: Color = preferenceValueColor(isEnabled = isPreferenceEnabled), preferenceLabelColor: Color = preferenceLabelColor(isEnabled = isPreferenceEnabled) )</ID>
     <ID>FunctionNaming:SettingsPreferenceComponent.kt$@MyDevices @Composable private fun SettingsPreferencePreview()</ID>
     <ID>FunctionNaming:SettingsScaffoldExtensions.kt$@Composable internal fun ScreenBoxSettingsScaffold(paddingValues: PaddingValues, modifier: Modifier = Modifier, content: @Composable BoxScope.() -&gt; Unit)</ID>
     <ID>FunctionNaming:SettingsScaffoldExtensions.kt$@Composable internal fun SystemUISettingsScaffoldStatusBarColor(scrolledColor: Color)</ID>
-    <ID>FunctionNaming:SettingsSwitchComponent.kt$@Composable fun SettingsSwitchComponent( modifier: Modifier = Modifier, label: String, value: String? = null, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, showCheckmark: Boolean = false, onChange: ((Boolean) -&gt; Unit)? = null, switchColors: SwitchColors = SwitchDefaults.colors() )</ID>
+    <ID>FunctionNaming:SettingsSwitchComponent.kt$@Composable fun SettingsSwitchComponent( modifier: Modifier = Modifier, label: String, value: String? = null, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, showCheckmark: Boolean, onChange: ((Boolean) -&gt; Unit)? = null, switchColors: SwitchColors = SwitchDefaults.colors() )</ID>
     <ID>FunctionNaming:SettingsSwitchComponent.kt$@MyDevices @Composable private fun SettingsSwitchComponentPreview(@PreviewParameter(BooleanPreviewParameterProvider::class) isChecked: Boolean)</ID>
     <ID>FunctionNaming:SettingsTitleTextComponent.kt$@Composable fun SettingsTitleTextComponent( modifier: Modifier = Modifier, text: String, color: Color = SimpleTheme.colorScheme.primary, maxLines: Int = 1, overflow: TextOverflow = TextOverflow.Ellipsis )</ID>
     <ID>FunctionNaming:SettingsTitleTextComponent.kt$@MyDevices @Composable private fun SettingsTitleTextComponentPreview()</ID>
@@ -258,7 +257,7 @@
     <ID>LongMethod:ContactsHelper.kt$ContactsHelper$fun insertContact(contact: Contact): Boolean</ID>
     <ID>LongMethod:ContactsHelper.kt$ContactsHelper$fun updateContact(contact: Contact, photoUpdateStatus: Int): Boolean</ID>
     <ID>LongMethod:ContactsHelper.kt$ContactsHelper$private fun getDeviceContacts(contacts: SparseArray&lt;Contact&gt;, ignoredContactSources: HashSet&lt;String&gt;?, gettingDuplicates: Boolean)</ID>
-    <ID>LongMethod:ContributorsScreen.kt$@Composable internal fun ContributorsScreen( goBack: () -&gt; Unit, showContributorsLabel: Boolean, contributors: ImmutableList&lt;LanguageContributor&gt; )</ID>
+    <ID>LongMethod:ContributorsScreen.kt$@Composable internal fun ContributorsScreen( goBack: () -&gt; Unit, contributors: ImmutableList&lt;LanguageContributor&gt; )</ID>
     <ID>LongMethod:CopyMoveTask.kt$CopyMoveTask$private fun copyDirectory(source: FileDirItem, destinationPath: String)</ID>
     <ID>LongMethod:CreateNewFolderDialog.kt$@Composable fun CreateNewFolderAlertDialog( alertDialogState: AlertDialogState, path: String, modifier: Modifier = Modifier, callback: (path: String) -&gt; Unit )</ID>
     <ID>LongMethod:CustomIntervalPickerDialog.kt$@Composable fun CustomIntervalPickerAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, selectedSeconds: Int = 0, showSeconds: Boolean = false, callback: (minutes: Int) -&gt; Unit )</ID>
@@ -270,7 +269,7 @@
     <ID>LongMethod:FileConflictDialog.kt$@Composable fun FileConflictAlertDialog( alertDialogState: AlertDialogState, fileDirItem: FileDirItemReadOnly, showApplyToAll: Boolean, modifier: Modifier = Modifier, callback: (resolution: Int, applyForAll: Boolean) -&gt; Unit )</ID>
     <ID>LongMethod:LineColorPickerDialog.kt$@Composable fun LineColorPickerAlertDialog( alertDialogState: AlertDialogState, @ColorInt color: Int, isPrimaryColorPicker: Boolean, modifier: Modifier = Modifier, primaryColors: Int = R.array.md_primary_colors, appIconIDs: ArrayList&lt;Int&gt;? = null, onActiveColorChange: (color: Int) -&gt; Unit, onButtonPressed: (wasPositivePressed: Boolean, color: Int) -&gt; Unit )</ID>
     <ID>LongMethod:ManageBlockedNumbersActivity.kt$ManageBlockedNumbersActivity$override fun onCreate(savedInstanceState: Bundle?)</ID>
-    <ID>LongMethod:ManageBlockedNumbersScreen.kt$@Composable internal fun ManageBlockedNumbersScreen( goBack: () -&gt; Unit, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, setAsDefault: () -&gt; Unit, isDialer: Boolean, hasGivenPermissionToBlock: Boolean, isBlockUnknownSelected: Boolean, onBlockUnknownSelectedChange: (Boolean) -&gt; Unit, isHiddenSelected: Boolean, onHiddenSelectedChange: (Boolean) -&gt; Unit, blockedNumbers: ImmutableList&lt;BlockedNumber&gt;?, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onEdit: (BlockedNumber) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, )</ID>
+    <ID>LongMethod:ManageBlockedNumbersScreen.kt$@Composable internal fun ManageBlockedNumbersScreen( goBack: () -&gt; Unit, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, setAsDefault: () -&gt; Unit, isDialer: Boolean, hasGivenPermissionToBlock: Boolean, isBlockUnknownSelected: Boolean, showCheckmarksOnSwitches: Boolean, onBlockUnknownSelectedChange: (Boolean) -&gt; Unit, isHiddenSelected: Boolean, onHiddenSelectedChange: (Boolean) -&gt; Unit, blockedNumbers: ImmutableList&lt;BlockedNumber&gt;?, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onEdit: (BlockedNumber) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, )</ID>
     <ID>LongMethod:MyRecyclerView.kt$MyRecyclerView$override fun dispatchTouchEvent(ev: MotionEvent): Boolean</ID>
     <ID>LongMethod:PropertiesDialog.kt$PropertiesDialog$private fun addProperties(path: String)</ID>
     <ID>LongMethod:RadioGroupDialog.kt$@Composable fun RadioGroupAlertDialog( alertDialogState: AlertDialogState, items: ImmutableList&lt;RadioItem&gt;, modifier: Modifier = Modifier, selectedItemId: Int = -1, titleId: Int = 0, showOKButton: Boolean = false, cancelCallback: (() -&gt; Unit)? = null, callback: (newValue: Any) -&gt; Unit )</ID>
@@ -283,8 +282,8 @@
     <ID>LongMethod:Theme.kt$@Composable internal fun Theme( theme: Theme = systemDefaultMaterialYou(), content: @Composable () -&gt; Unit, )</ID>
     <ID>LongMethod:VcfExporter.kt$VcfExporter$fun exportContacts( activity: BaseSimpleActivity, outputStream: OutputStream?, contacts: ArrayList&lt;Contact&gt;, showExportingToast: Boolean, callback: (result: ExportResult) -&gt; Unit )</ID>
     <ID>LongMethod:WritePermissionDialog.kt$@Composable fun WritePermissionAlertDialog( alertDialogState: AlertDialogState, writePermissionDialogMode: WritePermissionDialog.WritePermissionDialogMode, modifier: Modifier = Modifier, callback: () -&gt; Unit, onCancelCallback: () -&gt; Unit )</ID>
-    <ID>LongParameterList:AboutScreen.kt$( onRateUsClick: () -&gt; Unit, onInviteClick: () -&gt; Unit, onContributorsClick: () -&gt; Unit, showRateUs: Boolean, showInvite: Boolean, showDonate: Boolean, onDonateClick: () -&gt; Unit, )</ID>
-    <ID>LongParameterList:AboutScreen.kt$( showMoreApps: Boolean, onMoreAppsClick: () -&gt; Unit, onWebsiteClick: () -&gt; Unit, showWebsite: Boolean, showPrivacyPolicy: Boolean, onPrivacyPolicyClick: () -&gt; Unit, onLicenseClick: () -&gt; Unit, version: String, onVersionClick: () -&gt; Unit, )</ID>
+    <ID>LongParameterList:AboutScreen.kt$( onRateThisAppClick: () -&gt; Unit, onInviteClick: () -&gt; Unit, onContributorsClick: () -&gt; Unit, showRateUs: Boolean, showInvite: Boolean, showDonate: Boolean, onDonateClick: () -&gt; Unit, )</ID>
+    <ID>LongParameterList:AboutScreen.kt$( showMoreApps: Boolean, onMoreAppsClick: () -&gt; Unit, onPrivacyPolicyClick: () -&gt; Unit, onLicenseClick: () -&gt; Unit, versionName: String, packageName: String, onVersionClick: () -&gt; Unit, )</ID>
     <ID>LongParameterList:Activity.kt$( curMinutes: Int, isSnoozePicker: Boolean = false, showSecondsAtCustomDialog: Boolean = false, showDuringDayOption: Boolean = false, cancelCallback: (() -&gt; Unit)? = null, callback: (seconds: Int) -&gt; Unit )</ID>
     <ID>LongParameterList:Activity.kt$( curSeconds: Int, isSnoozePicker: Boolean = false, showSecondsAtCustomDialog: Boolean = false, showDuringDayOption: Boolean = false, cancelCallback: (() -&gt; Unit)? = null, callback: (seconds: Int) -&gt; Unit )</ID>
     <ID>LongParameterList:Activity.kt$( view: View, dialog: AlertDialog.Builder, titleId: Int = 0, titleText: String = "", cancelOnTouchOutside: Boolean = true, callback: ((alertDialog: AlertDialog) -&gt; Unit)? = null )</ID>
@@ -300,10 +299,10 @@
     <ID>LongParameterList:DragHandler.kt$( lazyListState: LazyListState, haptics: HapticFeedback, selectedIds: MutableState&lt;Set&lt;Long&gt;&gt;, autoScrollSpeed: MutableState&lt;Float&gt;, autoScrollThreshold: Float, dragUpdate: (Boolean) -&gt; Unit, ids: List&lt;Long&gt;, isScrollingUp: Boolean )</ID>
     <ID>LongParameterList:FileDirItem.kt$FileDirItem$( val path: String, val name: String = "", var isDirectory: Boolean = false, var children: Int = 0, var size: Long = 0L, var modified: Long = 0L, var mediaStoreId: Long = 0L )</ID>
     <ID>LongParameterList:FileDirItem.kt$FileDirItemReadOnly$( path: String, name: String = "", isDirectory: Boolean = false, children: Int = 0, size: Long = 0L, modified: Long = 0L, mediaStoreId: Long = 0L )</ID>
-    <ID>LongParameterList:FilePickerDialog.kt$FilePickerDialog$( val activity: BaseSimpleActivity, var currPath: String = Environment.getExternalStorageDirectory().toString(), val pickFile: Boolean = true, var showHidden: Boolean = false, val showFAB: Boolean = false, val canAddShowHiddenButton: Boolean = false, val forceShowRoot: Boolean = false, val showFavoritesButton: Boolean = false, private val enforceStorageRestrictions: Boolean = true, val callback: (pickedPath: String) -&gt; Unit )</ID>
+    <ID>LongParameterList:FilePickerDialog.kt$FilePickerDialog$( private val activity: BaseSimpleActivity, private var currPath: String = Environment.getExternalStorageDirectory().toString(), private val pickFile: Boolean = true, private var showHidden: Boolean = false, private val showFAB: Boolean = false, private val canAddShowHiddenButton: Boolean = false, private val forceShowRoot: Boolean = false, private val showFavoritesButton: Boolean = false, private val showRationale: Boolean = true, private val enforceStorageRestrictions: Boolean = true, private val callback: (pickedPath: String) -&gt; Unit )</ID>
     <ID>LongParameterList:LineColorPickerDialog.kt$( alertDialogState: AlertDialogState, @ColorInt color: Int, isPrimaryColorPicker: Boolean, modifier: Modifier = Modifier, primaryColors: Int = R.array.md_primary_colors, appIconIDs: ArrayList&lt;Int&gt;? = null, onActiveColorChange: (color: Int) -&gt; Unit, onButtonPressed: (wasPositivePressed: Boolean, color: Int) -&gt; Unit )</ID>
     <ID>LongParameterList:LineColorPickerDialog.kt$LineColorPickerDialog$( val activity: BaseSimpleActivity, val color: Int, val isPrimaryColorPicker: Boolean, val primaryColors: Int = R.array.md_primary_colors, val appIconIDs: ArrayList&lt;Int&gt;? = null, val toolbar: MaterialToolbar? = null, val callback: (wasPositivePressed: Boolean, color: Int) -&gt; Unit )</ID>
-    <ID>LongParameterList:ManageBlockedNumbersScreen.kt$( goBack: () -&gt; Unit, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, setAsDefault: () -&gt; Unit, isDialer: Boolean, hasGivenPermissionToBlock: Boolean, isBlockUnknownSelected: Boolean, onBlockUnknownSelectedChange: (Boolean) -&gt; Unit, isHiddenSelected: Boolean, onHiddenSelectedChange: (Boolean) -&gt; Unit, blockedNumbers: ImmutableList&lt;BlockedNumber&gt;?, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onEdit: (BlockedNumber) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, )</ID>
+    <ID>LongParameterList:ManageBlockedNumbersScreen.kt$( goBack: () -&gt; Unit, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, setAsDefault: () -&gt; Unit, isDialer: Boolean, hasGivenPermissionToBlock: Boolean, isBlockUnknownSelected: Boolean, showCheckmarksOnSwitches: Boolean, onBlockUnknownSelectedChange: (Boolean) -&gt; Unit, isHiddenSelected: Boolean, onHiddenSelectedChange: (Boolean) -&gt; Unit, blockedNumbers: ImmutableList&lt;BlockedNumber&gt;?, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onEdit: (BlockedNumber) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, )</ID>
     <ID>LongParameterList:ManageBlockedNumbersScreen.kt$( modifier: Modifier = Modifier, selectedIdsCount: Int, blockedNumbersCount: Int, onBackClick: () -&gt; Unit, onCopy: () -&gt; Unit, onDelete: () -&gt; Unit, onSelectAll: () -&gt; Unit, )</ID>
     <ID>LongParameterList:ManageBlockedNumbersScreen.kt$( scrolledColor: Color, navigationInteractionSource: MutableInteractionSource, goBack: () -&gt; Unit, scrollBehavior: TopAppBarScrollBehavior, statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, )</ID>
     <ID>LongParameterList:PasswordTypesAdapter.kt$PasswordTypesAdapter$( private val context: Context, private val requiredHash: String, private val hashListener: HashListener, private val scrollView: MyScrollView, private val biometricPromptHost: AuthPromptHost, private val showBiometricIdTab: Boolean, private val showBiometricAuthentication: Boolean )</ID>
@@ -314,9 +313,9 @@
     <ID>LongParameterList:SettingsCheckBoxComponent.kt$( modifier: Modifier = Modifier, label: String, value: String? = null, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, onChange: ((Boolean) -&gt; Unit)? = null, checkboxColors: CheckboxColors = CheckboxDefaults.colors( checkedColor = SimpleTheme.colorScheme.primary, checkmarkColor = SimpleTheme.colorScheme.surface, ) )</ID>
     <ID>LongParameterList:SettingsLazyGroup.kt$( modifier: Modifier = Modifier, title: @Composable (() -&gt; Unit)? = null, state: LazyListState = rememberLazyListState(), contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, content: LazyListScope.() -&gt; Unit )</ID>
     <ID>LongParameterList:SettingsListItem.kt$( modifier: Modifier = Modifier, text: @Composable () -&gt; Unit, @DrawableRes icon: Int? = null, isImage: Boolean = false, click: (() -&gt; Unit)? = null, tint: Color? = null )</ID>
-    <ID>LongParameterList:SettingsListItem.kt$( modifier: Modifier = Modifier, text: String, fontSize: TextUnit = TextUnit.Unspecified, maxLines: Int = Int.MAX_VALUE, overflow: TextOverflow = TextOverflow.Clip, @DrawableRes icon: Int? = null, isImage: Boolean = false, click: (() -&gt; Unit)? = null, tint: Color? = null )</ID>
+    <ID>LongParameterList:SettingsListItem.kt$( modifier: Modifier = Modifier, text: String, description: String? = null, fontSize: TextUnit = TextUnit.Unspecified, maxLines: Int = Int.MAX_VALUE, overflow: TextOverflow = TextOverflow.Clip, @DrawableRes icon: Int? = null, isImage: Boolean = false, click: (() -&gt; Unit)? = null, tint: Color? = null )</ID>
     <ID>LongParameterList:SettingsPreferenceComponent.kt$( modifier: Modifier = Modifier, label: String, value: String? = null, isPreferenceEnabled: Boolean = true, doOnPreferenceLongClick: (() -&gt; Unit)? = null, doOnPreferenceClick: (() -&gt; Unit)? = null, preferenceValueColor: Color = preferenceValueColor(isEnabled = isPreferenceEnabled), preferenceLabelColor: Color = preferenceLabelColor(isEnabled = isPreferenceEnabled) )</ID>
-    <ID>LongParameterList:SettingsSwitchComponent.kt$( modifier: Modifier = Modifier, label: String, value: String? = null, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, showCheckmark: Boolean = false, onChange: ((Boolean) -&gt; Unit)? = null, switchColors: SwitchColors = SwitchDefaults.colors() )</ID>
+    <ID>LongParameterList:SettingsSwitchComponent.kt$( modifier: Modifier = Modifier, label: String, value: String? = null, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, showCheckmark: Boolean, onChange: ((Boolean) -&gt; Unit)? = null, switchColors: SwitchColors = SwitchDefaults.colors() )</ID>
     <ID>LongParameterList:SimpleColumnScaffold.kt$( modifier: Modifier = Modifier, customTopBar: @Composable (scrolledColor: Color, navigationInteractionSource: MutableInteractionSource, scrollBehavior: TopAppBarScrollBehavior, statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color) -&gt; Unit, goBack: () -&gt; Unit, reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, scrollState: ScrollState = rememberScrollState(), content: @Composable() (ColumnScope.(PaddingValues) -&gt; Unit) )</ID>
     <ID>LongParameterList:SimpleColumnScaffold.kt$( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, actions: @Composable() (RowScope.() -&gt; Unit), goBack: () -&gt; Unit, reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, scrollState: ScrollState = rememberScrollState(), content: @Composable (ColumnScope.(PaddingValues) -&gt; Unit) )</ID>
     <ID>LongParameterList:SimpleColumnScaffold.kt$( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, goBack: () -&gt; Unit, reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, scrollState: ScrollState = rememberScrollState(), content: @Composable (ColumnScope.(PaddingValues) -&gt; Unit) )</ID>
@@ -508,13 +507,11 @@
     <ID>MagicNumber:Activity.kt$3</ID>
     <ID>MagicNumber:Activity.kt$30</ID>
     <ID>MagicNumber:Activity.kt$3600</ID>
-    <ID>MagicNumber:Activity.kt$40</ID>
     <ID>MagicNumber:Activity.kt$5</ID>
     <ID>MagicNumber:Activity.kt$60</ID>
     <ID>MagicNumber:ActivityExtensions.kt$10</ID>
     <ID>MagicNumber:ActivityExtensions.kt$100</ID>
     <ID>MagicNumber:ActivityExtensions.kt$30</ID>
-    <ID>MagicNumber:ActivityExtensions.kt$40</ID>
     <ID>MagicNumber:ActivityExtensions.kt$50</ID>
     <ID>MagicNumber:AppLockAdapter.kt$AppLockAdapter$3</ID>
     <ID>MagicNumber:BaseConfig.kt$BaseConfig$10</ID>
@@ -533,7 +530,6 @@
     <ID>MagicNumber:BottomActionMenuItemPopup.kt$BottomActionMenuItemPopup$0.8</ID>
     <ID>MagicNumber:BottomActionMenuItemPopup.kt$BottomActionMenuItemPopup$3f</ID>
     <ID>MagicNumber:BottomSheetChooserDialog.kt$4</ID>
-    <ID>MagicNumber:Breadcrumbs.kt$Breadcrumbs$0.6f</ID>
     <ID>MagicNumber:CallConfirmationDialog.kt$1000</ID>
     <ID>MagicNumber:CallConfirmationDialog.kt$200</ID>
     <ID>MagicNumber:CallConfirmationDialog.kt$50</ID>
@@ -914,6 +910,8 @@
     <ID>MagicNumber:Constants.kt$0xCCD32F2F</ID>
     <ID>MagicNumber:Constants.kt$0xCCE64A19</ID>
     <ID>MagicNumber:Constants.kt$0xCCF57C00</ID>
+    <ID>MagicNumber:Constants.kt$5</ID>
+    <ID>MagicNumber:Constants.kt$7</ID>
     <ID>MagicNumber:ContactsDatabase.kt$ContactsDatabase.Companion.&lt;no name provided&gt;$3</ID>
     <ID>MagicNumber:ContactsHelper.kt$ContactsHelper$50</ID>
     <ID>MagicNumber:Context-contacts.kt$3</ID>
@@ -925,7 +923,6 @@
     <ID>MagicNumber:Context.kt$24</ID>
     <ID>MagicNumber:Context.kt$360</ID>
     <ID>MagicNumber:Context.kt$60</ID>
-    <ID>MagicNumber:ContextComposeExtensions.kt$5</ID>
     <ID>MagicNumber:CopyMoveTask.kt$CopyMoveTask$1000</ID>
     <ID>MagicNumber:CopyMoveTask.kt$CopyMoveTask$3000L</ID>
     <ID>MagicNumber:CopyMoveTask.kt$CopyMoveTask$500L</ID>
@@ -1108,22 +1105,21 @@
     <ID>MagicNumber:ImageView.kt$2</ID>
     <ID>MagicNumber:InputStream.kt$8192</ID>
     <ID>MagicNumber:Int.kt$.5</ID>
+    <ID>MagicNumber:Int.kt$0.05f</ID>
+    <ID>MagicNumber:Int.kt$0.5</ID>
     <ID>MagicNumber:Int.kt$0xFFFFFF</ID>
-    <ID>MagicNumber:Int.kt$1000</ID>
     <ID>MagicNumber:Int.kt$1000L</ID>
     <ID>MagicNumber:Int.kt$100f</ID>
     <ID>MagicNumber:Int.kt$1024.0</ID>
-    <ID>MagicNumber:Int.kt$114</ID>
-    <ID>MagicNumber:Int.kt$149</ID>
     <ID>MagicNumber:Int.kt$180</ID>
     <ID>MagicNumber:Int.kt$270</ID>
-    <ID>MagicNumber:Int.kt$299</ID>
     <ID>MagicNumber:Int.kt$3</ID>
     <ID>MagicNumber:Int.kt$3600</ID>
-    <ID>MagicNumber:Int.kt$587</ID>
     <ID>MagicNumber:Int.kt$60</ID>
     <ID>MagicNumber:Int.kt$8</ID>
     <ID>MagicNumber:Int.kt$90</ID>
+    <ID>MagicNumber:KeypadHelper.kt$KeypadHelper$4</ID>
+    <ID>MagicNumber:KeypadHelper.kt$KeypadHelper$5</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$0.95f</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$10</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$11</ID>
@@ -1178,7 +1174,6 @@
     <ID>MagicNumber:Point.kt$10f</ID>
     <ID>MagicNumber:PropertiesDialog.kt$PropertiesDialog$1000L</ID>
     <ID>MagicNumber:RadioGroupDialog.kt$3</ID>
-    <ID>MagicNumber:RateStarsDialog.kt$500L</ID>
     <ID>MagicNumber:RenamePatternTab.kt$RenamePatternTab$4</ID>
     <ID>MagicNumber:RenamePatternTab.kt$RenamePatternTab$5</ID>
     <ID>MagicNumber:SelectAlarmSoundDialog.kt$SelectAlarmSoundDialog$2</ID>
@@ -1197,12 +1192,8 @@
     <ID>MagicNumber:WhatsNewDialog.kt$3</ID>
     <ID>MagicNumber:WritePermissionDialog.kt$0.9f</ID>
     <ID>MagicNumber:WritePermissionDialog.kt$350</ID>
-    <ID>MatchingDeclarationName:DonationData.kt$Donation</ID>
     <ID>MatchingDeclarationName:RecyclerViewPayloads.kt$RecyclerSelectionPayload</ID>
     <ID>MaxLineLength:AboutActivity.kt$AboutActivity$message = "${getString(R.string.before_asking_question_read_faq)}\n\n${getString(R.string.make_sure_latest)}"</ID>
-    <ID>MaxLineLength:AboutActivity.kt$AboutActivity$private</ID>
-    <ID>MaxLineLength:AboutScreen.kt$TwoLinerTextItem(text = stringResource(id = R.string.invite_friends), icon = R.drawable.ic_add_person_vector, click = onInviteClick)</ID>
-    <ID>MaxLineLength:AboutScreen.kt$TwoLinerTextItem(text = stringResource(id = R.string.rate_us), icon = R.drawable.ic_star_vector, click = onRateUsClick)</ID>
     <ID>MaxLineLength:ActionMenu.kt$ActionItem(R.string.export_blocked_numbers, doAction = { }, overflowMode = OverflowMode.ALWAYS_OVERFLOW)</ID>
     <ID>MaxLineLength:ActionMenu.kt$ActionMenu(items = actionMenus, numIcons = 2, isMenuVisible = true, onMenuToggle = { }, iconsColor = Color.Black)</ID>
     <ID>MaxLineLength:ActionMenu.kt$Icon(imageVector = Icons.Default.MoreVert, contentDescription = stringResource(id = R.string.more_options))</ID>
@@ -1210,7 +1201,6 @@
     <ID>MaxLineLength:Activity.kt$// if we are renaming multiple files at once, we should give the Android 30+ permission dialog all uris together, not one by one</ID>
     <ID>MaxLineLength:Activity.kt$&lt;no name provided&gt;$override</ID>
     <ID>MaxLineLength:Activity.kt$&lt;no name provided&gt;$val isCanceledByUser = errorCode == BiometricPrompt.ERROR_NEGATIVE_BUTTON || errorCode == BiometricPrompt.ERROR_USER_CANCELED</ID>
-    <ID>MaxLineLength:Activity.kt$ConfirmationAdvancedDialog</ID>
     <ID>MaxLineLength:Activity.kt$DocumentsContract.renameDocument(applicationContext.contentResolver, document.uri, newPath.getFilenameFromPath())</ID>
     <ID>MaxLineLength:Activity.kt$SecurityDialog</ID>
     <ID>MaxLineLength:Activity.kt$WritePermissionDialog</ID>
@@ -1264,14 +1254,10 @@
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$// synchronous return value determines only if we are showing the SAF dialog, callback result tells if the SD or OTG permission has been granted</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$// this file is guaranteed to be on the internal storage, so just delete it this way</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$ActivityCompat.requestPermissions(this, permissionIds.map { getPermissionString(it) }.toTypedArray(), GENERIC_PERM_HANDLER)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$CopyMoveTask(this, isCopyOperation, copyPhotoVideoOnly, it, copyMoveListener, copyHidden).execute(pair)</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$Intent(TelecomManager.ACTION_CHANGE_DEFAULT_DIALER).putExtra(TelecomManager.EXTRA_CHANGE_DEFAULT_DIALER_PACKAGE_NAME, packageName)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$PermissionRequiredDialog(this, R.string.allow_notifications_files, { openNotificationSettings() })</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$baseConfig.OTGPartition = baseConfig.OTGTreeUri.removeSuffix("%3A").substringAfterLast('/').trimEnd('/')</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$copyMoveListener.copySucceeded(false, fileCountToCopy &lt;= updatedPaths.size, destination, updatedPaths.size == 1)</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$copyMoveListener.copySucceeded(false, fileCountToCopy == 0, destination, false)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$fileDirItems: ArrayList&lt;FileDirItem&gt;</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$files: ArrayList&lt;FileDirItem&gt;</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$fun</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$getConflictResolution(it, newFile.absolutePath) == CONFLICT_KEEP_BOTH -&gt; newFile = getAlternativeFile(newFile)</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$getConflictResolution(it, newFile.absolutePath) == CONFLICT_SKIP -&gt; fileCountToCopy--</ID>
@@ -1292,7 +1278,6 @@
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.removeBit(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION)</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$window.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION, WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION)</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$}</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity.&lt;no name provided&gt;$override</ID>
     <ID>MaxLineLength:BaseSplashActivity.kt$BaseSplashActivity$resources.getColor(if (isUsingSystemDarkTheme) R.color.theme_dark_background_color else R.color.theme_light_background_color)</ID>
     <ID>MaxLineLength:BaseSplashActivity.kt$BaseSplashActivity$textColor = resources.getColor(if (isUsingSystemDarkTheme) R.color.theme_dark_text_color else R.color.theme_light_text_color)</ID>
     <ID>MaxLineLength:BlockedNumber.kt$BlockedNumber$data</ID>
@@ -1306,10 +1291,6 @@
     <ID>MaxLineLength:ComposeExtensions.kt$fun</ID>
     <ID>MaxLineLength:ConfirmationAdvancedDialog.kt$ConfirmationAdvancedDialog$activity: Activity</ID>
     <ID>MaxLineLength:ConfirmationDialog.kt$ConfirmationDialog$activity</ID>
-    <ID>MaxLineLength:Constants.kt$const val EVERY_DAY_BIT = MONDAY_BIT or TUESDAY_BIT or WEDNESDAY_BIT or THURSDAY_BIT or FRIDAY_BIT or SATURDAY_BIT or SUNDAY_BIT</ID>
-    <ID>MaxLineLength:Constants.kt$const val SORT_FOLDER_PREFIX = "sort_folder_" // storing folder specific values at using "Use for this folder only"</ID>
-    <ID>MaxLineLength:Constants.kt$val audioExtensions: Array&lt;String&gt; get() = arrayOf(".mp3", ".wav", ".wma", ".ogg", ".m4a", ".opus", ".flac", ".aac", ".m4b")</ID>
-    <ID>MaxLineLength:Constants.kt$val photoExtensions: Array&lt;String&gt; get() = arrayOf(".jpg", ".png", ".jpeg", ".bmp", ".webp", ".heic", ".heif", ".apng", ".avif", ".jxl")</ID>
     <ID>MaxLineLength:Contact.kt$Contact$// photos stored locally always have different hashcodes. Avoid constantly refreshing the contact lists as the app thinks something changed.</ID>
     <ID>MaxLineLength:Contact.kt$Contact$events.filter { it.type == ContactsContract.CommonDataKinds.Event.TYPE_ANNIVERSARY }.map { it.value }.toMutableList() as ArrayList&lt;String&gt;</ID>
     <ID>MaxLineLength:Contact.kt$Contact$if</ID>
@@ -1374,6 +1355,7 @@
     <ID>MaxLineLength:Context.kt$fun Context.getFormattedMinutes(minutes: Int, showBefore: Boolean = true)</ID>
     <ID>MaxLineLength:Context.kt$fun Context.getMyContentProviderCursorLoader()</ID>
     <ID>MaxLineLength:Context.kt$fun Context.hasPermission(permId: Int)</ID>
+    <ID>MaxLineLength:Context.kt$return isThankYouInstalled() &amp;&amp; ContextCompat.checkSelfPermission(this, PERMISSION_WRITE_GLOBAL_SETTINGS) == PERMISSION_GRANTED</ID>
     <ID>MaxLineLength:Context.kt$val Context.areSystemAnimationsEnabled: Boolean get() = Settings.Global.getFloat(contentResolver, Settings.Global.ANIMATOR_DURATION_SCALE, 0f) &gt; 0f</ID>
     <ID>MaxLineLength:Context.kt$val Context.navigationBarHeight: Int get() = if (navigationBarOnBottom &amp;&amp; navigationBarSize.y != usableScreenSize.y) navigationBarSize.y else 0</ID>
     <ID>MaxLineLength:Context.kt$val Context.navigationBarOnSide: Boolean get() = usableScreenSize.x &lt; realScreenSize.x &amp;&amp; usableScreenSize.x &gt; usableScreenSize.y</ID>
@@ -1404,10 +1386,6 @@
     <ID>MaxLineLength:ContributorsActivity.kt$ContributorsActivity$LanguageContributor(R.drawable.ic_flag_swedish_vector, R.string.translation_swedish, R.string.translators_swedish)</ID>
     <ID>MaxLineLength:ContributorsActivity.kt$ContributorsActivity$LanguageContributor(R.drawable.ic_flag_turkish_vector, R.string.translation_turkish, R.string.translators_turkish)</ID>
     <ID>MaxLineLength:ContributorsActivity.kt$ContributorsActivity$LanguageContributor(R.drawable.ic_flag_ukrainian_vector, R.string.translation_ukrainian, R.string.translators_ukrainian)</ID>
-    <ID>MaxLineLength:ContributorsScreen.kt$LanguageContributor(R.drawable.ic_flag_arabic_vector, R.string.translation_arabic, R.string.translators_arabic)</ID>
-    <ID>MaxLineLength:ContributorsScreen.kt$LanguageContributor(R.drawable.ic_flag_azerbaijani_vector, R.string.translation_azerbaijani, R.string.translators_azerbaijani)</ID>
-    <ID>MaxLineLength:ContributorsScreen.kt$LanguageContributor(R.drawable.ic_flag_bengali_vector, R.string.translation_bengali, R.string.translators_bengali)</ID>
-    <ID>MaxLineLength:ContributorsScreen.kt$LanguageContributor(R.drawable.ic_flag_catalan_vector, R.string.translation_catalan, R.string.translators_catalan)</ID>
     <ID>MaxLineLength:Converters.kt$Converters$// convert [{"a":"678910","b":2,"c":"","d":"678910","e":false}] to PhoneNumber(value=678910, type=2, label=, normalizedNumber=678910, isPrimary=false)</ID>
     <ID>MaxLineLength:Converters.kt$Converters$// some hacky converting is needed since PhoneNumber model has been added to proguard rules, but obfuscated json was stored in database</ID>
     <ID>MaxLineLength:CopyMoveTask.kt$CopyMoveTask$// if we delete multiple files from Downloads folder on Android 11 or 12 without being a Media Management app, show the confirmation dialog just once</ID>
@@ -1487,10 +1465,9 @@
     <ID>MaxLineLength:LocalContactsHelper.kt$LocalContactsHelper.Companion$SimpleContact(contact.id, contact.id, contact.getNameToDisplay(), contact.photoUri, contact.phoneNumbers, birthdays, anniversaries)</ID>
     <ID>MaxLineLength:LocalContactsHelper.kt$LocalContactsHelper.Companion$val anniversaries = contact.events.filter { it.type == Event.TYPE_ANNIVERSARY }.map { it.value }.toMutableList() as ArrayList&lt;String&gt;</ID>
     <ID>MaxLineLength:LocalContactsHelper.kt$LocalContactsHelper.Companion$val birthdays = contact.events.filter { it.type == Event.TYPE_BIRTHDAY }.map { it.value }.toMutableList() as ArrayList&lt;String&gt;</ID>
-    <ID>MaxLineLength:ManageBlockedNumbersActivity.kt$ManageBlockedNumbersActivity$requestCode == PICK_EXPORT_FILE_INTENT &amp;&amp; resultCode == Activity.RESULT_OK &amp;&amp; resultData != null &amp;&amp; resultData.data != null</ID>
-    <ID>MaxLineLength:ManageBlockedNumbersActivity.kt$ManageBlockedNumbersActivity$requestCode == PICK_IMPORT_SOURCE_INTENT &amp;&amp; resultCode == Activity.RESULT_OK &amp;&amp; resultData != null &amp;&amp; resultData.data != null</ID>
     <ID>MaxLineLength:ManageBlockedNumbersActivity.kt$ManageBlockedNumbersActivity$val isBlockingHiddenNumbers by config.isBlockingHiddenNumbers.collectAsStateWithLifecycle(initialValue = config.blockHiddenNumbers)</ID>
     <ID>MaxLineLength:ManageBlockedNumbersActivity.kt$ManageBlockedNumbersActivity$val isBlockingUnknownNumbers by config.isBlockingUnknownNumbers.collectAsStateWithLifecycle(initialValue = config.blockUnknownNumbers)</ID>
+    <ID>MaxLineLength:ManageBlockedNumbersActivity.kt$ManageBlockedNumbersActivity$val showCheckmarksOnSwitches by config.showCheckmarksOnSwitchesFlow.collectAsStateWithLifecycle(initialValue = config.showCheckmarksOnSwitches)</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$//https://github.com/JetBrains/compose-multiplatform/issues/1878 same in M3, remove the top and bottom margin blocker</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$ActionItem(R.string.add_a_blocked_number, icon = Icons.Filled.Add, doAction = onAdd, overflowMode = OverflowMode.ALWAYS_OVERFLOW)</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$ActionItem(R.string.export_blocked_numbers, doAction = onExportBlockedNumbers, overflowMode = OverflowMode.ALWAYS_OVERFLOW)</ID>
@@ -1506,13 +1483,10 @@
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$BlockedNumber(id = 7, number = "2223334444", normalizedNumber = "2223334444", numberToCompare = "2223334444")</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$BlockedNumber(id = 8, number = "5552221111", normalizedNumber = "5552221111", numberToCompare = "5552221111")</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$BlockedNumberActionMenu(selectedIdsCount = selectedIdsCount, onDelete = onDelete, onCopy = onCopy, iconColor = textColor)</ID>
-    <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$Crossfade</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$SimpleNavigationIcon(navigationIconInteractionSource = navigationIconInteractionSource, goBack = onBackClick, iconColor = textColor)</ID>
-    <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$Text(text = "$selectedIdsCount / $blockedNumbersCount", color = textColor, maxLines = 1, overflow = TextOverflow.Ellipsis)</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$itemsIndexed</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$label = if (isDialer) stringResource(id = R.string.block_hidden_calls) else stringResource(id = R.string.block_hidden_messages)</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$label = if (isDialer) stringResource(id = R.string.block_unknown_calls) else stringResource(id = R.string.block_unknown_messages)</ID>
-    <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$modifier = modifier.padding(horizontal = SimpleTheme.dimens.padding.medium, vertical = SimpleTheme.dimens.padding.extraSmall)</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$onCopy(blockedNumbers.first { blockedNumber -&gt; blockedNumber.id == selectedIds.value.first() })</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$private</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$style = TextStyle(fontStyle = FontStyle.Italic, textAlign = TextAlign.Center, color = SimpleTheme.colorScheme.onSurface)</ID>
@@ -1549,14 +1523,13 @@
     <ID>MaxLineLength:PreviewExtensions.kt$MyDevicesDarkOnly$@Preview(showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_YES, device = Devices.PIXEL_4_XL, name = "6.3 inches dark", group = DARK)</ID>
     <ID>MaxLineLength:PreviewExtensions.kt$MyDevicesDarkOnly$@Preview(showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_YES, device = Devices.TABLET, name = "Tablet", group = DARK)</ID>
     <ID>MaxLineLength:PropertiesDialog.kt$PropertiesDialog$(mDialogView.propertiesHolder.findViewById&lt;LinearLayout&gt;(R.id.properties_file_count).findViewById&lt;MyTextView&gt;(R.id.property_value)).text</ID>
-    <ID>MaxLineLength:PropertiesDialog.kt$PropertiesDialog$(mDialogView.propertiesHolder.findViewById&lt;LinearLayout&gt;(R.id.properties_md5).findViewById&lt;MyTextView&gt;(R.id.property_value)).text</ID>
     <ID>MaxLineLength:PropertiesDialog.kt$PropertiesDialog$(mDialogView.propertiesHolder.findViewById&lt;LinearLayout&gt;(R.id.properties_size).findViewById&lt;MyTextView&gt;(R.id.property_value)).text = size</ID>
+    <ID>MaxLineLength:PropertiesDialog.kt$PropertiesDialog$(mDialogView.propertiesHolder.findViewById&lt;LinearLayout&gt;(propertyId).findViewById&lt;MyTextView&gt;(R.id.property_value)).text</ID>
     <ID>MaxLineLength:PropertiesDialog.kt$PropertiesDialog$(view.findViewById&lt;LinearLayout&gt;(R.id.properties_last_modified).findViewById&lt;MyTextView&gt;(R.id.property_value)).text = timestamp.formatDate(activity)</ID>
     <ID>MaxLineLength:PropertiesDialog.kt$PropertiesDialog$*</ID>
     <ID>MaxLineLength:PropertiesDialog.kt$PropertiesDialog$if</ID>
     <ID>MaxLineLength:RadioGroupDialog.kt$RadioGroupDialog$addView(radioButton, RadioGroup.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT))</ID>
     <ID>MaxLineLength:RadioGroupDialog.kt$private</ID>
-    <ID>MaxLineLength:RateStarsDialog.kt$.</ID>
     <ID>MaxLineLength:RenameDialog.kt$RenameDialog$alertDialog.window?.clearFlags(WindowManager.LayoutParams.FLAG_NOT_FOCUSABLE or WindowManager.LayoutParams.FLAG_ALT_FOCUSABLE_IM)</ID>
     <ID>MaxLineLength:RenameDialog.kt$RenameDialog$class</ID>
     <ID>MaxLineLength:RenameDialog.kt$RenameDialog$it.text.toString().equals(root.context.resources.getString(R.string.simple_renaming), true) -&gt; RENAME_SIMPLE</ID>
@@ -1642,11 +1615,13 @@
     <ID>NestedBlockDepth:MyRecyclerView.kt$MyRecyclerView$override fun onScrollChanged(l: Int, t: Int, oldl: Int, oldt: Int)</ID>
     <ID>NestedBlockDepth:SelectAlarmSoundDialog.kt$SelectAlarmSoundDialog$private fun alarmClicked(alarmSound: AlarmSound)</ID>
     <ID>NestedBlockDepth:VcfExporter.kt$VcfExporter$fun exportContacts( activity: BaseSimpleActivity, outputStream: OutputStream?, contacts: ArrayList&lt;Contact&gt;, showExportingToast: Boolean, callback: (result: ExportResult) -&gt; Unit )</ID>
+    <ID>NewLineAtEndOfFile:Context-styling.kt$org.fossify.commons.extensions.Context-styling.kt</ID>
     <ID>PackageNaming:AlertDialogState.kt$package org.fossify.commons.compose.alert_dialog</ID>
     <ID>PackageNaming:AlertDialogsExtensions.kt$package org.fossify.commons.compose.alert_dialog</ID>
     <ID>PackageNaming:BottomSheetDialogState.kt$package org.fossify.commons.compose.bottom_sheet</ID>
     <ID>PackageNaming:BottomSheetDialogsExtensions.kt$package org.fossify.commons.compose.bottom_sheet</ID>
     <ID>PackageNaming:SystemUIController.kt$package org.fossify.commons.compose.system_ui_controller</ID>
+    <ID>PrintStackTrace:Activity.kt$e</ID>
     <ID>ReturnCount:Activity.kt$fun Activity.getFinalUriFromPath(path: String, applicationId: String): Uri?</ID>
     <ID>ReturnCount:AlphanumericComparator.kt$AlphanumericComparator$fun compare(string1: String, string2: String): Int</ID>
     <ID>ReturnCount:BaseSecurityTab.kt$BaseSecurityTab$private fun getCountdown(): Int</ID>
@@ -1664,6 +1639,7 @@
     <ID>ReturnCount:CopyMoveTask.kt$CopyMoveTask$override fun doInBackground(vararg params: Pair&lt;ArrayList&lt;FileDirItem&gt;, String&gt;): Boolean</ID>
     <ID>ReturnCount:CopyMoveTask.kt$CopyMoveTask$private fun copyDirectory(source: FileDirItem, destinationPath: String)</ID>
     <ID>ReturnCount:ExternalStorageProviderHack.kt$ExternalStorageProviderHack$fun transformQueryResult(rootDocId: String, uri: Uri, cursor: Cursor): Cursor</ID>
+    <ID>ReturnCount:Fossify.kt$@ExperimentalStdlibApi fun PackageManager.checkSignature(packageName: String?): Boolean</ID>
     <ID>ReturnCount:LineColorPickerDialog.kt$LineColorPickerDialog$private fun getColorIndexes(color: Int): Pair&lt;Int, Int&gt;</ID>
     <ID>ReturnCount:LineColorPickerDialog.kt$private fun Context.getColorIndexes(color: Int, defaultColor: Int): Pair&lt;Int, Int&gt;</ID>
     <ID>ReturnCount:MyDialogViewPager.kt$MyDialogViewPager$override fun onTouchEvent(ev: MotionEvent): Boolean</ID>
@@ -1685,6 +1661,7 @@
     <ID>SwallowedException:BaseSimpleActivity.kt$BaseSimpleActivity$e: ActivityNotFoundException</ID>
     <ID>SwallowedException:BaseSimpleActivity.kt$BaseSimpleActivity$e: Exception</ID>
     <ID>SwallowedException:BlockedNumbersExporter.kt$BlockedNumbersExporter$e: Exception</ID>
+    <ID>SwallowedException:Contact.kt$Contact$e: Exception</ID>
     <ID>SwallowedException:Context-contacts.kt$e: Exception</ID>
     <ID>SwallowedException:Context-storage.kt$e: Exception</ID>
     <ID>SwallowedException:Context-styling.kt$e: Exception</ID>
@@ -1694,7 +1671,6 @@
     <ID>SwallowedException:File.kt$e: Exception</ID>
     <ID>SwallowedException:FileDirItem.kt$FileDirItem$e: Exception</ID>
     <ID>SwallowedException:LocalContactsHelper.kt$LocalContactsHelper$e: OutOfMemoryError</ID>
-    <ID>SwallowedException:ManageBlockedNumbersActivity.kt$ManageBlockedNumbersActivity$e: ActivityNotFoundException</ID>
     <ID>SwallowedException:MyTextInputLayout.kt$MyTextInputLayout$e: Exception</ID>
     <ID>SwallowedException:PropertiesDialog.kt$PropertiesDialog$e: Exception</ID>
     <ID>SwallowedException:RenamePatternTab.kt$RenamePatternTab$e: Exception</ID>
@@ -1707,6 +1683,7 @@
     <ID>TooGenericExceptionCaught:BaseSimpleActivity.kt$BaseSimpleActivity$e: Exception</ID>
     <ID>TooGenericExceptionCaught:BlockedNumbersExporter.kt$BlockedNumbersExporter$e: Exception</ID>
     <ID>TooGenericExceptionCaught:BlockedNumbersImporter.kt$BlockedNumbersImporter$e: Exception</ID>
+    <ID>TooGenericExceptionCaught:Contact.kt$Contact$e: Exception</ID>
     <ID>TooGenericExceptionCaught:ContactsHelper.kt$ContactsHelper$e: Exception</ID>
     <ID>TooGenericExceptionCaught:Context-contacts.kt$e: Exception</ID>
     <ID>TooGenericExceptionCaught:Context-storage-sdk30.kt$e: Exception</ID>
@@ -1812,11 +1789,11 @@
     <ID>UnusedPrivateMember:RadioButtonDialogComponent.kt$@Composable @MyDevices private fun RadioButtonDialogComponentPreview()</ID>
     <ID>UnusedPrivateMember:RadioGroupDialog.kt$@Composable @MyDevices private fun RadioGroupDialogAlertDialogPreview(@PreviewParameter(BooleanPreviewParameterProvider::class) showOKButton: Boolean)</ID>
     <ID>UnusedPrivateMember:RadioGroupDialogComponent.kt$@Composable @MyDevices private fun RadioGroupDialogComponentPreview()</ID>
-    <ID>UnusedPrivateMember:RateStarsDialog.kt$@Composable @MyDevices private fun RateStarsAlertDialogPreview()</ID>
     <ID>UnusedPrivateMember:SettingsCheckBoxComponent.kt$@MyDevices @Composable private fun SettingsCheckBoxComponentPreview(@PreviewParameter(BooleanPreviewParameterProvider::class) isChecked: Boolean)</ID>
     <ID>UnusedPrivateMember:SettingsDivider.kt$@Composable @MyDevices private fun SettingsHorizontalDividerPreview()</ID>
     <ID>UnusedPrivateMember:SettingsGroup.kt$@MyDevices @Composable private fun SettingsGroupPreview()</ID>
     <ID>UnusedPrivateMember:SettingsLazyGroup.kt$@MyDevices @Composable private fun SettingsLazyGroupPreview()</ID>
+    <ID>UnusedPrivateMember:SettingsListItem.kt$@MyDevices @Composable private fun PreviewSettingsListItem(@PreviewParameter(BooleanPreviewParameterProvider::class) isImage: Boolean)</ID>
     <ID>UnusedPrivateMember:SettingsPreferenceComponent.kt$@MyDevices @Composable private fun SettingsPreferencePreview()</ID>
     <ID>UnusedPrivateMember:SettingsSwitchComponent.kt$@MyDevices @Composable private fun SettingsSwitchComponentPreview(@PreviewParameter(BooleanPreviewParameterProvider::class) isChecked: Boolean)</ID>
     <ID>UnusedPrivateMember:SettingsTitleTextComponent.kt$@MyDevices @Composable private fun SettingsTitleTextComponentPreview()</ID>
@@ -1832,6 +1809,8 @@
     <ID>UnusedPrivateProperty:String.kt$i</ID>
     <ID>UnusedPrivateProperty:Theme.kt$val configuration = LocalConfiguration.current</ID>
     <ID>UseCheckOrError:MyRecyclerView.kt$MyRecyclerView$throw IllegalStateException("Make sure your adapter makes a call to super.onBindViewHolder(), and doesn't override itemView tags.")</ID>
+    <ID>UseRequire:Constants.kt$throw IllegalArgumentException("Invalid ISO day of week: $isoDayOfWeek")</ID>
+    <ID>UseRequire:Constants.kt$throw IllegalArgumentException("Invalid Java day of week: $javaDayOfWeek")</ID>
     <ID>UtilityClassWithPublicConstructor:MyContactsContentProvider.kt$MyContactsContentProvider</ID>
     <ID>VariableNaming:BaseConfig.kt$BaseConfig$var OTGPartition: String get() = prefs.getString(OTG_PARTITION, "")!! set(OTGPartition) = prefs.edit().putString(OTG_PARTITION, OTGPartition).apply()</ID>
     <ID>VariableNaming:BaseConfig.kt$BaseConfig$var OTGPath: String get() = prefs.getString(OTG_REAL_PATH, "")!! set(OTGPath) = prefs.edit().putString(OTG_REAL_PATH, OTGPath).apply()</ID>
@@ -1867,19 +1846,9 @@
     <ID>VariableNaming:StoragePickerDialog.kt$StoragePickerDialog$private val ID_OTG = 3</ID>
     <ID>VariableNaming:StoragePickerDialog.kt$StoragePickerDialog$private val ID_ROOT = 4</ID>
     <ID>VariableNaming:StoragePickerDialog.kt$StoragePickerDialog$private val ID_SD = 2</ID>
-    <ID>WildcardImport:AboutActivity.kt$import android.content.Intent.*</ID>
-    <ID>WildcardImport:AboutActivity.kt$import org.fossify.commons.compose.screens.*</ID>
-    <ID>WildcardImport:AboutActivity.kt$import org.fossify.commons.extensions.*</ID>
-    <ID>WildcardImport:AboutActivity.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:ActionMenu.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:ActionMenu.kt$import androidx.compose.material3.*</ID>
     <ID>WildcardImport:ActionMenu.kt$import androidx.compose.runtime.*</ID>
-    <ID>WildcardImport:Activity.kt$import android.content.*</ID>
-    <ID>WildcardImport:Activity.kt$import java.io.*</ID>
-    <ID>WildcardImport:Activity.kt$import org.fossify.commons.dialogs.*</ID>
-    <ID>WildcardImport:Activity.kt$import org.fossify.commons.helpers.*</ID>
-    <ID>WildcardImport:Activity.kt$import org.fossify.commons.models.*</ID>
-    <ID>WildcardImport:ActivityExtensions.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:AddBlockedNumberDialog.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:AddBlockedNumberDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
     <ID>WildcardImport:AlertDialogState.kt$import androidx.compose.runtime.*</ID>
@@ -1896,7 +1865,6 @@
     <ID>WildcardImport:BottomActionMenuItemPopup.kt$import android.view.*</ID>
     <ID>WildcardImport:BottomSheetDialogState.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:BottomSheetDialogsExtensions.kt$import androidx.compose.foundation.layout.*</ID>
-    <ID>WildcardImport:Breadcrumbs.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:CallConfirmationDialog.kt$import androidx.compose.animation.core.*</ID>
     <ID>WildcardImport:CallConfirmationDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
     <ID>WildcardImport:ChangeDateTimeFormatDialog.kt$import androidx.compose.foundation.layout.*</ID>
@@ -1927,7 +1895,6 @@
     <ID>WildcardImport:Context.kt$import android.os.*</ID>
     <ID>WildcardImport:Context.kt$import android.provider.MediaStore.*</ID>
     <ID>WildcardImport:Context.kt$import org.fossify.commons.helpers.*</ID>
-    <ID>WildcardImport:Converters.kt$import org.fossify.commons.models.contacts.*</ID>
     <ID>WildcardImport:CopyMoveTask.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:CreateNewFolderDialog.kt$import androidx.compose.material3.*</ID>
     <ID>WildcardImport:CreateNewFolderDialog.kt$import androidx.compose.runtime.*</ID>
@@ -1989,9 +1956,6 @@
     <ID>WildcardImport:PurchaseThankYouDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:RadioButtonDialogComponent.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:RadioGroupDialog.kt$import androidx.compose.runtime.*</ID>
-    <ID>WildcardImport:RateStarsDialog.kt$import androidx.compose.foundation.layout.*</ID>
-    <ID>WildcardImport:RateStarsDialog.kt$import androidx.compose.runtime.*</ID>
-    <ID>WildcardImport:RateStarsDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:RenameDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:RenameItemDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:RenameItemsDialog.kt$import org.fossify.commons.extensions.*</ID>
@@ -2000,14 +1964,15 @@
     <ID>WildcardImport:SecurityDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:SecurityDialog.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:SelectAlarmSoundDialog.kt$import org.fossify.commons.extensions.*</ID>
-    <ID>WildcardImport:SettingsCheckBoxComponent.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:SettingsCheckBoxComponent.kt$import androidx.compose.material3.*</ID>
+    <ID>WildcardImport:SettingsCheckBoxComponent.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:SettingsGroup.kt$import androidx.compose.foundation.layout.*</ID>
+    <ID>WildcardImport:SettingsGroup.kt$import androidx.compose.material3.*</ID>
     <ID>WildcardImport:SettingsLazyGroup.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:SettingsScaffoldExtensions.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:SettingsScaffoldExtensions.kt$import androidx.compose.runtime.*</ID>
-    <ID>WildcardImport:SettingsSwitchComponent.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:SettingsSwitchComponent.kt$import androidx.compose.material3.*</ID>
+    <ID>WildcardImport:SettingsSwitchComponent.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:SimpleColumnScaffold.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:SimpleColumnScaffold.kt$import androidx.compose.material3.*</ID>
     <ID>WildcardImport:SimpleContactsHelper.kt$import org.fossify.commons.extensions.*</ID>
