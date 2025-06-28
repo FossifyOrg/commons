@@ -1172,6 +1172,7 @@
     <string name="m3u_parser_title">M3U Parser (m3u playlist file handling)</string>
     <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <string name="zip4j_title">Zip4j (ZIP compression and decompression)</string>
+    <string name="evalex_title">EvalEx (math expression evaluation)</string>
 
     <!-- Trial -->
     <string name="trial_expired">Trial expired</string>
