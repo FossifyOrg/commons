@@ -1098,4 +1098,5 @@
     <string name="days_letter">%dd</string>
     <string name="rate_this_app">Bewerte diese App</string>
     <string name="more_fossify_apps">Mehr Fossify-Apps</string>
+    <string name="evalex_title">EvalEx (Auswertung mathematischer Ausdrücke)</string>
 </resources>

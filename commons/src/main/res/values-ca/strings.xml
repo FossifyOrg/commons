@@ -1138,4 +1138,5 @@
     <string name="confirm_storage_access_restricted_text_not_found">No s\'ha pogut trobar cap aplicació de gestió de fitxers del sistema.</string>
     <string name="more_fossify_apps">Més aplicacions Fossify</string>
     <string name="rate_this_app">Valoreu aquesta aplicació</string>
+    <string name="evalex_title">EvalEx (avaluació d\'expressions matemàtiques)</string>
 </resources>

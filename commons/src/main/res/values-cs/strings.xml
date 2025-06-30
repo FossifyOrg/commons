@@ -1142,4 +1142,5 @@
     <string name="confirm_storage_access_restricted_text_open_system">Otevřít v systémové aplikaci</string>
     <string name="rate_this_app">Ohodnoťte tuto aplikaci</string>
     <string name="more_fossify_apps">Další aplikace Fossify</string>
+    <string name="evalex_title">EvalEx (vyhodnocení matematického výrazu)</string>
 </resources>

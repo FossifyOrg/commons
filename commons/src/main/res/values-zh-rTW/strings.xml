@@ -1044,4 +1044,5 @@
     <string name="confirm_storage_access_restricted_text">由於系統限制，無法使用此資料夾。</string>
     <string name="more_fossify_apps">更多 Fossify 應用程式</string>
     <string name="rate_this_app">為此應用程式評分</string>
+    <string name="evalex_title">EvalEx（數學表達式評估）</string>
 </resources>
