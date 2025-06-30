@@ -1061,4 +1061,5 @@
     <string name="confirm_storage_access_restricted_text">由于系统限制，此文件夹不可用。</string>
     <string name="more_fossify_apps">更多 Fossify 应用</string>
     <string name="rate_this_app">评价此应用</string>
+    <string name="evalex_title">EvalEx (数学表达式计值）</string>
 </resources>
