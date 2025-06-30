@@ -1,7 +1,7 @@
 [versions]
 #jetbrains
 kotlin = "2.1.21"
-kotlin-immutable-collections = "0.3.6"
+kotlin-immutable-collections = "0.4.0"
 #KSP
 kotlinxSerializationJson = "1.6.3"
 ksp = "2.1.21-2.0.1"
