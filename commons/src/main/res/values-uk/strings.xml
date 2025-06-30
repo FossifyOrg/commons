@@ -1165,4 +1165,5 @@
     <string name="confirm_storage_access_restricted_text_not_found">Не вдалося знайти застосунок системний файловий менеджер.</string>
     <string name="more_fossify_apps">Більше застосунків Fossify</string>
     <string name="rate_this_app">Оцініть цей застосунок</string>
+    <string name="evalex_title">EvalEx (оцінка математичного виразу)</string>
 </resources>
