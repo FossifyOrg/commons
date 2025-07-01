@@ -1102,4 +1102,5 @@
     <string name="days_letter">%dd</string>
     <string name="more_fossify_apps">Daha fazla Fossify uygulaması</string>
     <string name="rate_this_app">Uygulamayı değerlendirin</string>
+    <string name="evalex_title">EvalEx (Matematik ifade değerlendirmesi)</string>
 </resources>
