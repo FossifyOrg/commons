@@ -1251,4 +1251,5 @@
     <string name="translation_chinese_hk">الصينية (هونغ كونغ)</string>
     <string name="translation_chinese_cn">الصينية (المبسطة)</string>
     <string name="format_phone_numbers">تنسيق أرقام الهواتف</string>
+    <string name="evalex_title">EvalEx (تقييم التعبيرات الرياضية)</string>
 </resources>
