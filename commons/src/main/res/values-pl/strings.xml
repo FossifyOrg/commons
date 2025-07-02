@@ -345,7 +345,7 @@
     <string name="global_theme_success">Obecny motyw został zastosowany do wszystkich aplikacji Fossify. Wszelkie przyszłe zmiany tego motywu będą synchronizowane automatycznie.</string>
     <string name="shared_theme_note">Pamiętaj, że nawet jeśli używasz wersji Pro aplikacji, nadal potrzebujesz aplikacji „Fossify Thank You” z powodów technicznych. Zajmuje się ona synchronizacją kolorów.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Aby odblokować tę funkcję (i przy okazji wesprzeć rozwój niniejszej aplikacji), kup aplikację <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>. Dzięki!
+            Aby odblokować tę funkcję (i przy okazji wesprzeć rozwój niniejszej aplikacji), kup aplikację <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>. Dziękujemy!
         ]]></string>
     <string name="light_theme">Jasny</string>
     <string name="dark_theme">Ciemny</string>
@@ -1163,4 +1163,5 @@
     <string name="more_fossify_apps">Więcej aplikacji Fossify</string>
     <string name="rate_this_app">Oceń tę aplikację</string>
     <string name="evalex_title">EvalEx (obliczanie wyrażeń matematycznych)</string>
+    <string name="requires_fossify_thank_you">Wymaga aplikacji „Fossify Thank You”</string>
 </resources>
