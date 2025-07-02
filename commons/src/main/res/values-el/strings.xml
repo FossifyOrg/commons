@@ -331,11 +331,9 @@
     <string name="cannot_be_undone">Αυτή η ενέργεια δεν μπορεί να αναιρεθεί.</string>
     <string name="save_before_closing">Έχετε αλλαγές που δεν έχουν αποθηκευτεί. Αποθήκευση πριν από την έξοδο?</string>
     <string name="global_theme_success">Τα χρώματα ενημερώθηκαν με επιτυχία. Ένα νέο θέμα που ονομάζεται  \"Κοινόχρηστο\" έχει προστεθεί, παρακαλούμε να χρησιμοποιήστε το για την ενημέρωση των χρωμάτων όλων των εφαρμ. στο μέλλον.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Παρακαλώ αγοράστε την <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Απλά Σας Ευχαριστώ</a> για να ξεκλειδώσετε αυτή τη λειτουργία για να υποστηρίξετε την ανάπτυξη. Ευχαριστώ!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Φωτεινό</string>
     <string name="dark_theme">Σκοτεινό</string>
     <string name="auto_theme">Αυτόματο</string>
