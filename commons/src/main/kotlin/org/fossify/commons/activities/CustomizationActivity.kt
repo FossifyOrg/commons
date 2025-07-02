@@ -691,16 +691,16 @@ class CustomizationActivity : BaseSimpleActivity() {
 
             canAccessGlobalConfig() -> {
                 binding.applyToAllSwitch.isChecked = true
+                updateColorTheme(getCurrentThemeId())
+                saveChanges(false)
                 ConfirmationDialog(
                     activity = this,
                     message = "",
                     messageId = R.string.global_theme_success,
                     positive = R.string.ok,
-                    negative = 0
-                ) {
-                    updateColorTheme(getCurrentThemeId())
-                    saveChanges(false)
-                }
+                    negative = 0,
+                    callback = {}
+                )
             }
 
             else -> {
