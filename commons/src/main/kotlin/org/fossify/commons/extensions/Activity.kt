@@ -392,11 +392,7 @@ fun BaseSimpleActivity.showOTGPermissionDialog(path: String) {
 
 fun Activity.launchPurchaseThankYouIntent() {
     hideKeyboard()
-    try {
-        launchViewIntent("market://details?id=org.fossify.thankyou")
-    } catch (ignored: Exception) {
-        launchViewIntent(getString(R.string.thank_you_url))
-    }
+    launchViewIntent(getString(R.string.thank_you_url))
 }
 
 fun Activity.launchUpgradeToProIntent() {

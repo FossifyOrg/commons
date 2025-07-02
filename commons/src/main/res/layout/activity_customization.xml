@@ -219,11 +219,37 @@
                 tools:visibility="visible">
 
                 <org.fossify.commons.views.MyMaterialSwitch
-                    android:id="@+id/apply_to_all"
+                    android:id="@+id/apply_to_all_switch"
                     style="@style/SettingsSwitchStyle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true" />
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="@string/apply_to_all_apps" />
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:layout_toStartOf="@id/apply_to_all_switch"
+                    android:orientation="vertical">
+
+                    <org.fossify.commons.views.MyTextView
+                        android:id="@+id/apply_to_all_label"
+                        style="@style/SettingsTextLabelStyle"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/apply_to_all_apps" />
+
+                    <org.fossify.commons.views.MyTextView
+                        android:id="@+id/apply_to_all_note"
+                        style="@style/SettingsTextValueStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/requires_fossify_thank_you"
+                        android:visibility="gone"
+                        tools:visibility="visible" />
+                </LinearLayout>
 
             </RelativeLayout>
 

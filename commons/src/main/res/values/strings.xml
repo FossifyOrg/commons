@@ -385,7 +385,7 @@
     <string name="shared_theme_note">Note that even though you are using the Pro app version, you still need Fossify Thank You for technical reasons. It takes care of the color synchronization.</string>
     <string name="purchase_thank_you">
         <![CDATA[
-            Please purchase <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> to unlock this function and support the development. Thanks!
+            Please purchase <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> to unlock this feature and support development. Thank you!
         ]]>
     </string>
 
@@ -690,6 +690,7 @@
     <!-- Settings -->
     <string name="settings">Settings</string>
     <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
+    <string name="requires_fossify_thank_you">Requires Fossify Thank You</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Color customization</string>
     <string name="improved_color_customization">Improved color customization</string>
