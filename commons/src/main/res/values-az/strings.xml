@@ -164,11 +164,9 @@
     <string name="undo_changes_confirmation">Dəyişiklikləri geri almaq istədiyinizə əminsiniz?</string>
     <string name="save_before_closing">Yadda saxlamadığınız dəyişikliklər var. Çıxmazdan əvvəl saxlanılsın?</string>
     <string name="global_theme_success">Rənglər uğurla yeniləndi. \'Paylanmış\' adlı yeni tema əlavə edildi, xahiş olunur gələcəkdə bütün tətbiqlərin yeniləmələri üçün bundan istifadə edin.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Lütfən bağış edin <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Bu funksiyanı açdığınız və təkmilləşdirməni dəstəklədiyiniz üçün Sadə Təşəkkür</a>. Çox Sağolun!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">İşıqlı</string>
     <string name="dark_theme">Qaranlıq</string>
     <string name="solarized">Közərmiş</string>
