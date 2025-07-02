@@ -269,11 +269,9 @@
     <string name="undo_changes_confirmation">Sunteți sigur că vreţi să anulați modificările?</string>
     <string name="save_before_closing">Aveți modificări nesalvate. Salvați înainte de a ieși?</string>
     <string name="global_theme_success">Culorile au fost actualizate cu succes. A fost adăugată o nouă temă numită \'Partajată\', vă rugăm să o folosiți pentru actualizarea tuturor culorilor aplicației în viitor.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Vă rugăm cumpăraţi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pentru a debloca această funcţie şi pentru a sprijini dezvoltatorii. Vă mulţumim!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Luminoasă</string>
     <string name="dark_theme">Întunecată</string>
     <string name="auto_theme">Automatic</string>
