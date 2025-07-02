@@ -323,11 +323,9 @@
     <string name="cannot_be_undone">Handlingen kan ikke fortrydes.</string>
     <string name="save_before_closing">Du har ændringer der ikke er gemt. Vil du gemme dem?</string>
     <string name="global_theme_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Køb <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Lys</string>
     <string name="dark_theme">Mørk</string>
     <string name="auto_light_dark_theme">Auto lyst / mørkt</string>
