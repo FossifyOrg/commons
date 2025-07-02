@@ -327,11 +327,9 @@
     <string name="cannot_be_undone">Ekintza hau ezin da desegin.</string>
     <string name="save_before_closing">Gorde gabeko aldaketak dituzu. Gorde atera baino lehen?</string>
     <string name="global_theme_success">Koloreak ondo eguneratu dira. \'Shared\' deituriko gai berria gehitu da, erabili hori aplikazio guztien koloreak eguneratzeko etorkizunean.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Erosi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> funtzio hau desblokeatzeko eta garatzaileari laguntzeko. Eskerrik asko!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Argia</string>
     <string name="dark_theme">Iluna</string>
     <string name="auto_light_dark_theme">Argia / Iluna automatikoa</string>
