@@ -988,7 +988,7 @@
     <string name="deletion_confirmation_short">Excluir %s?</string>
     <string name="website">Site</string>
     <string name="social">Social</string>
-    <string name="update_thank_you">Por favor, atualize o Fossify Thank You para a versão mais recente</string>
+    <string name="update_thank_you">Por favor, atualize o Agradecimento Fossify para a versão mais recente</string>
     <string name="all_fossify_apps">Todos os aplicativos Fossify</string>
     <string name="faq_6_text_commons">Este problema surge quando seu lançador não suporta totalmente a personalização de ícones. Tente iniciar o aplicativo pelo Google Play ou um widget, se acessível. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar o aplicativo.</string>
     <string name="translation_czech">Checo</string>
@@ -1010,7 +1010,7 @@
     <string name="number_of_items">Número de itens</string>
     <string name="date_added">Data adicionada</string>
     <string name="pin_must_be_4_digits_long">O PIN deve ter pelo menos 4 dígitos</string>
-    <string name="features_locked">Este recurso está bloqueado. Compre &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; para desbloquear o aplicativo completo.&lt;br&gt;&lt;br&gt;É um pagamento único e, se você não ficar satisfeito, podemos reembolsá-lo.</string>
+    <string name="features_locked">Este recurso está bloqueado. Compre &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Agradecimento Fossify&lt;/a&gt; para desbloquear o aplicativo completo.&lt;br&gt;&lt;br&gt;É um pagamento único e, se você não ficar satisfeito, podemos reembolsá-lo.</string>
     <string name="translation_italian">Italiano</string>
     <string name="translation_serbian">Sérvio</string>
     <string name="translation_russian">Russo</string>
@@ -1021,12 +1021,12 @@
     <string name="translation_vietnamese">Vietnamita</string>
     <string name="purchase_simple_thank_you">Compre Agradecimento Fossify</string>
     <string name="upgraded_from_free_contacts">Olá,\n\nParece que você acabou de atualizar da versão gratuita. Se você tinha algum contato armazenado em \"%s\", você tem que migrá-lo manualmente exportando em um arquivo .vcf da versão gratuita do aplicativo e importando aqui pelo menu superior.\n\nQuando estiver satisfeito com sua configuração na versão Pro, você pode desinstalar a versão gratuita antiga, pois não precisará mais dela, isso também impedirá que esta caixa de diálogo apareça.\n\nObrigado!</string>
-    <string name="donate_new">Olá,&lt;br&gt;&lt;br&gt;Espero que esteja gostando do aplicativo. Ele não contém anúncios e também não estamos coletando seus dados, por favor, apoie seu desenvolvimento comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Você também terá todos os recursos do aplicativo, incluindo personalização de cores, desbloqueados.&lt;br&gt;&lt;br&gt;Obrigado!</string>
+    <string name="donate_new">Olá,&lt;br&gt;&lt;br&gt;Espero que esteja gostando do aplicativo. Ele não contém anúncios e também não estamos coletando seus dados, por favor, apoie seu desenvolvimento comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Agradecimento Fossify&lt;/a&gt;. Você também terá todos os recursos do aplicativo, incluindo personalização de cores, desbloqueados.&lt;br&gt;&lt;br&gt;Obrigado!</string>
     <string name="faq_2_text_commons"><![CDATA[
 Sim, claro. Você pode espalhar a informação sobre os aplicativos ou dar um bom feedback e avaliações. Você também pode ajudar traduzindo os aplicativos para um novo idioma ou apenas atualizando algumas traduções existentes.
 O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
 ]]></string>
-    <string name="donate_short">Apoie-nos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, isso também desbloqueará todos os recursos do aplicativo, incluindo personalização de cores.</string>
+    <string name="donate_short">Apoie-nos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Agradecimento Fossify&lt;/a&gt;, isso também desbloqueará todos os recursos do aplicativo, incluindo personalização de cores.</string>
     <string name="upgraded_to_pro_gallery">Olá,\n\nParece que você já tem a versão Pro do aplicativo também. Quando estiver satisfeito com ele e talvez tiver migrado suas configurações e favoritos, você pode desinstalar este para evitar iniciá-lo acidentalmente, pois não precisará mais dele.\n\nObrigado!</string>
     <string name="translation_slovenian">Esloveno</string>
     <string name="upgraded_from_free_notes">Olá,\n\nParece que você acabou de atualizar da versão gratuita. Se quiser migrar suas notas, você tem que fazer isso manualmente exportando-as para um arquivo na versão gratuita do aplicativo e importando aqui pelo menu superior.\n\nQuando estiver satisfeito com sua configuração na versão Pro, você pode desinstalar a antiga versão gratuita, pois não precisará mais dela, isso também impedirá que esta caixa de diálogo apareça.\n\nObrigado!</string>
