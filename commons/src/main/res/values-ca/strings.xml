@@ -1077,7 +1077,7 @@
     <string name="genre">Gènere</string>
     <string name="apply_to_all_apps">Aplicar els colors a totes les aplicacions de Fossify</string>
     <string name="purchase_thank_you"><![CDATA[
-            Compreu la <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> per a desbloquejar aquesta funció i col·laborar amb el desenvolupament. Gràcies!!
+            Compreu la <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> per a desbloquejar aquesta característica i col·laborar amb el desenvolupament. Gràcies!
         ]]></string>
     <string name="enter_password">Introduïu la contrasenya</string>
     <string name="password">Contrasenya</string>
@@ -1139,4 +1139,5 @@
     <string name="more_fossify_apps">Més aplicacions Fossify</string>
     <string name="rate_this_app">Valoreu aquesta aplicació</string>
     <string name="evalex_title">EvalEx (avaluació d\'expressions matemàtiques)</string>
+    <string name="requires_fossify_thank_you">Cal Fossify Thank You</string>
 </resources>
