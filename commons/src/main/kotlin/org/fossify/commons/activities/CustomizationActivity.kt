@@ -48,6 +48,7 @@ import org.fossify.commons.models.GlobalConfig
 import org.fossify.commons.models.MyTheme
 import org.fossify.commons.models.RadioItem
 import org.fossify.commons.models.isGlobalThemingEnabled
+import kotlin.math.abs
 
 class CustomizationActivity : BaseSimpleActivity() {
     companion object {
@@ -241,7 +242,13 @@ class CustomizationActivity : BaseSimpleActivity() {
             if (baseConfig.wasAppIconCustomizationWarningShown) {
                 themePickerClicked()
             } else {
-                ConfirmationDialog(this, "", R.string.app_icon_color_warning, R.string.ok, 0) {
+                ConfirmationDialog(
+                    activity = this,
+                    message = "",
+                    messageId = R.string.app_icon_color_warning,
+                    positive = R.string.ok,
+                    negative = 0
+                ) {
                     baseConfig.wasAppIconCustomizationWarningShown = true
                     themePickerClicked()
                 }
@@ -516,7 +523,13 @@ class CustomizationActivity : BaseSimpleActivity() {
             if (baseConfig.wasAppIconCustomizationWarningShown) {
                 pickAppIconColor()
             } else {
-                ConfirmationDialog(this, "", R.string.app_icon_color_warning, R.string.ok, 0) {
+                ConfirmationDialog(
+                    activity = this,
+                    message = "",
+                    messageId = R.string.app_icon_color_warning,
+                    positive = R.string.ok,
+                    negative = 0
+                ) {
                     baseConfig.wasAppIconCustomizationWarningShown = true
                     pickAppIconColor()
                 }
@@ -524,7 +537,7 @@ class CustomizationActivity : BaseSimpleActivity() {
         }
     }
 
-    private fun hasColorChanged(old: Int, new: Int) = Math.abs(old - new) > 1
+    private fun hasColorChanged(old: Int, new: Int) = abs(old - new) > 1
 
     private fun colorChanged() {
         hasUnsavedChanges = true
