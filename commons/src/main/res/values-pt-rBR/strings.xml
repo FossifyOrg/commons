@@ -304,7 +304,7 @@
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
     <string name="global_theme_success">O tema atual foi aplicado com sucesso a todos os aplicativos Fossify. Quaisquer alterações futuras neste tema serão sincronizadas automaticamente.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Por favor, compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> para desbloquear essa função e apoiar o desenvolvimento. Obrigado!
+            Compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Agradecimento Fossify</a> para desbloquear essa função e apoiar o desenvolvimento. Obrigado!
         ]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
@@ -760,13 +760,11 @@
     <string name="additional_info">Informações adicionais</string>
     <string name="app_version">Versão do app: %s</string>
     <string name="device_os">Sistema operacional: %s</string>
-    <string name="donate_please">
-        <![CDATA[
+    <string name="donate_please"><![CDATA[
             Olá,<br><br>
-            Esperamos que esteja gostando do app. Ele não contém anúncios, então apoie o desenvolvimento adquirindo o <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, ele também impede este diálogo de aparecer novamente.<br><br>
+            Esperamos que esteja gostando do app. Ele não contém anúncios, então apoie o desenvolvimento adquirindo o <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Agradecimento Fossify</a>, ele também impede este diálogo de aparecer novamente.<br><br>
             Obrigado!
-        ]]>
-    </string>
+        ]]></string>
     <string name="purchase">Comprar</string>
     <string name="before_asking_question_read_faq">Antes de fazer uma pergunta, por favor verifique as configurações do aplicativo e leia a lista de Perguntas Frequentes.</string>
     <string name="make_sure_latest">Verifique também se você está usando a versão mais recente do aplicativo.</string>
@@ -1021,7 +1019,7 @@
     <string name="app_icon_color_warning">Cuidado: Certos lançadores podem não lidar corretamente com a personalização do ícone do aplicativo. Se o ícone desaparecer, tente iniciar o aplicativo pelo Google Play ou por um widget, se acessível. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar o aplicativo.</string>
     <string name="shared_theme_note">Note que, mesmo que você esteja usando a versão Pro do aplicativo, você ainda precisa do Fossify Thank You por razões técnicas. Ele cuida da sincronização de cores.</string>
     <string name="translation_vietnamese">Vietnamita</string>
-    <string name="purchase_simple_thank_you">Compre Fossify Thank You</string>
+    <string name="purchase_simple_thank_you">Compre Agradecimento Fossify</string>
     <string name="upgraded_from_free_contacts">Olá,\n\nParece que você acabou de atualizar da versão gratuita. Se você tinha algum contato armazenado em \"%s\", você tem que migrá-lo manualmente exportando em um arquivo .vcf da versão gratuita do aplicativo e importando aqui pelo menu superior.\n\nQuando estiver satisfeito com sua configuração na versão Pro, você pode desinstalar a versão gratuita antiga, pois não precisará mais dela, isso também impedirá que esta caixa de diálogo apareça.\n\nObrigado!</string>
     <string name="donate_new">Olá,&lt;br&gt;&lt;br&gt;Espero que esteja gostando do aplicativo. Ele não contém anúncios e também não estamos coletando seus dados, por favor, apoie seu desenvolvimento comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Você também terá todos os recursos do aplicativo, incluindo personalização de cores, desbloqueados.&lt;br&gt;&lt;br&gt;Obrigado!</string>
     <string name="faq_2_text_commons"><![CDATA[
@@ -1099,4 +1097,6 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <string name="days_letter">%dd</string>
     <string name="more_fossify_apps">Mais apps do Fossify</string>
     <string name="rate_this_app">Avalie esse app</string>
+    <string name="evalex_title">EvalEx (avaliação de expressões matemáticas)</string>
+    <string name="requires_fossify_thank_you">Requer Agradecimento Fossify</string>
 </resources>
