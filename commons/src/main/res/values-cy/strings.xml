@@ -215,11 +215,9 @@
     <string name="undo_changes_confirmation">Wyt ti yn bendant eisiau dad-wneud a cholli dy newidiadau?</string>
     <string name="save_before_closing">Mae gennyt newidiadau heb eu cadw. Cadw cyn gadael?</string>
     <string name="global_theme_success">Diweddarwyd y lliwiau yn llwyddiannus. Mae thema newydd o\'r enw \'Rhennir\' wedi ei ychwanegu. Defnyddia honno i ddiweddaru lliwiau pob ap yn y dyfodol.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Pryna <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> i ddatgloi’r nodwedd hon a chefnogi datblygiad, os gweli’n dda. Diolch!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Golau</string>
     <string name="dark_theme">Tywyll</string>
     <string name="solarized">Solareiddiwyd</string>
