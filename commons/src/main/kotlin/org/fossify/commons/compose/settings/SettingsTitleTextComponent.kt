@@ -22,7 +22,7 @@ fun SettingsTitleTextComponent(
 ) {
     Box(modifier = Modifier.padding(top = SimpleTheme.dimens.padding.large)) {
         Text(
-            text = text.uppercase(),
+            text = text,
             modifier = modifier,
             color = color,
             fontSize = 14.sp,
