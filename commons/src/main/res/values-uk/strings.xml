@@ -1124,7 +1124,7 @@
             Посібник з перекладів доступний <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">тут</a>, або просто напишіть нам на <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас є будь-які питання.
         ]]></string>
     <string name="purchase_thank_you"><![CDATA[
-            Будь ласка, придбайте <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, щоб розблокувати цю функцію та підтримати розробку. Дякуємо!
+            Будь ласка, придбайте <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Дякую вам</a> щоб розблокувати цю функцію та підтримати розробку. Дякуємо вам!
         ]]></string>
     <string name="donate_short">Будь ласка, підтримайте нас, придбавши &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, також це розблокує всі функції застосунку, включно з налаштуванням кольорів.</string>
     <string name="pin">PIN</string>
@@ -1166,4 +1166,5 @@
     <string name="more_fossify_apps">Більше застосунків Fossify</string>
     <string name="rate_this_app">Оцініть цей застосунок</string>
     <string name="evalex_title">EvalEx (оцінка математичного виразу)</string>
+    <string name="requires_fossify_thank_you">Потрібно Fossify Дякую</string>
 </resources>
