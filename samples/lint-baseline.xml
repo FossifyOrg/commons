@@ -87,23 +87,12 @@
 
     <issue
         id="UnusedResources"
-        message="The resource `R.bool.show_donate_in_about` appears to be unused"
-        errorLine1="    &lt;bool name=&quot;show_donate_in_about&quot;>true&lt;/bool>"
-        errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="src/foss/res/values/bools.xml"
-            line="3"
-            column="11"/>
-    </issue>
-
-    <issue
-        id="UnusedResources"
         message="The resource `R.bool.pretend_thank_you_installed` appears to be unused"
         errorLine1="    &lt;bool name=&quot;pretend_thank_you_installed&quot;>true&lt;/bool>"
         errorLine2="          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/foss/res/values/bools.xml"
-            line="5"
+            line="4"
             column="11"/>
     </issue>
 

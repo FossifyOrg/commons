@@ -240,6 +240,7 @@
     <ID>InstanceOfCheckForException:Activity.kt$exception is java.nio.file.FileSystemException</ID>
     <ID>LargeClass:BaseSimpleActivity.kt$BaseSimpleActivity : AppCompatActivity</ID>
     <ID>LargeClass:ContactsHelper.kt$ContactsHelper</ID>
+    <ID>LargeClass:CustomizationActivity.kt$CustomizationActivity : BaseSimpleActivity</ID>
     <ID>LongMethod:AboutActivity.kt$AboutActivity$override fun onCreate(savedInstanceState: Bundle?)</ID>
     <ID>LongMethod:ActionMenu.kt$@Composable fun ActionMenu( items: ImmutableList&lt;ActionItem&gt;, numIcons: Int = 2, // includes overflow menu icon; may be overridden by NEVER_OVERFLOW isMenuVisible: Boolean, iconsColor: Color? = null, onMenuToggle: (isVisible: Boolean) -&gt; Unit )</ID>
     <ID>LongMethod:Activity-themes.kt$fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop: Boolean = false)</ID>
@@ -1396,14 +1397,6 @@
     <ID>MaxLineLength:CreateNewFolderDialog.kt$CreateNewFolderDialog$isRPlus() &amp;&amp; activity.isAStorageRootFolder(path.getParentPath())</ID>
     <ID>MaxLineLength:CreateNewFolderDialog.kt$CreateNewFolderDialog$val newDir = documentFile?.createDirectory(path.getFilenameFromPath()) ?: activity.getDocumentFile(path)</ID>
     <ID>MaxLineLength:CustomIntervalPickerDialog.kt$CustomIntervalPickerDialog$class</ID>
-    <ID>MaxLineLength:CustomizationActivity.kt$CustomizationActivity$// doesn't really matter what colors we use here, everything will be taken from the system. Use the default dark theme values here.</ID>
-    <ID>MaxLineLength:CustomizationActivity.kt$CustomizationActivity$LineColorPickerDialog</ID>
-    <ID>MaxLineLength:CustomizationActivity.kt$CustomizationActivity$binding.customizationAccentColorHolder.beVisibleIf(curSelectedThemeId == THEME_WHITE || isCurrentWhiteTheme() || curSelectedThemeId == THEME_BLACK_WHITE || isCurrentBlackAndWhiteTheme())</ID>
-    <ID>MaxLineLength:CustomizationActivity.kt$CustomizationActivity$curPrimaryLineColorPicker</ID>
-    <ID>MaxLineLength:CustomizationActivity.kt$CustomizationActivity$private fun isCurrentBlackAndWhiteTheme()</ID>
-    <ID>MaxLineLength:CustomizationActivity.kt$CustomizationActivity$private fun isCurrentWhiteTheme()</ID>
-    <ID>MaxLineLength:CustomizationActivity.kt$CustomizationActivity$updateMaterialActivityViews(binding.customizationCoordinator, binding.customizationHolder, useTransparentNavigation = true, useTopSearchMenu = false)</ID>
-    <ID>MaxLineLength:CustomizationActivity.kt$CustomizationActivity$val backgroundColor = if (isDarkTheme) R.color.theme_dark_background_color else R.color.theme_light_background_color</ID>
     <ID>MaxLineLength:EditText.kt$fun</ID>
     <ID>MaxLineLength:EnterPasswordDialog.kt$EnterPasswordDialog$private val view: DialogEnterPasswordBinding = DialogEnterPasswordBinding.inflate(activity.layoutInflater, null, false)</ID>
     <ID>MaxLineLength:ExifInterface.kt$// ExifInterface.TAG_ORIENTATION, // do not remove the orientation, it could lead to unexpected behaviour at displaying the file</ID>
@@ -1903,9 +1896,6 @@
     <ID>WildcardImport:CustomIntervalPickerDialog.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:CustomIntervalPickerDialog.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:CustomIntervalPickerDialog.kt$import org.fossify.commons.extensions.*</ID>
-    <ID>WildcardImport:CustomizationActivity.kt$import org.fossify.commons.dialogs.*</ID>
-    <ID>WildcardImport:CustomizationActivity.kt$import org.fossify.commons.extensions.*</ID>
-    <ID>WildcardImport:CustomizationActivity.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:DonateDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
     <ID>WildcardImport:DonateDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:DragHandler.kt$import androidx.compose.runtime.*</ID>
