@@ -30,8 +30,10 @@ import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.dialogs.ConfirmationAdvancedAlertDialog
 import org.fossify.commons.extensions.baseConfig
 import org.fossify.commons.extensions.getStoreUrl
+import org.fossify.commons.extensions.isThankYouInstalled
 import org.fossify.commons.extensions.launchAppRatingPage
 import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
+import org.fossify.commons.extensions.launchPurchaseThankYouIntent
 import org.fossify.commons.extensions.launchViewIntent
 import org.fossify.commons.extensions.showErrorToast
 import org.fossify.commons.extensions.toast
@@ -67,8 +69,7 @@ class AboutActivity : BaseComposeActivity() {
                 val showGoogleRelations =
                     remember { !resources.getBoolean(R.bool.hide_google_relations) }
                 val showGithubRelations = showGithubRelations()
-                val showDonationLinks =
-                    remember { resources.getBoolean(R.bool.show_donate_in_about) }
+                val showDonationLinks = remember { !isThankYouInstalled() || !showGoogleRelations }
                 val onEmailClickAlertDialogState = getOnEmailClickAlertDialogState()
                 AboutScreen(
                     goBack = ::finish,
@@ -258,7 +259,11 @@ class AboutActivity : BaseComposeActivity() {
     }
 
     private fun onDonateClick() {
-        startActivity(Intent(applicationContext, DonationActivity::class.java))
+        if (resources.getBoolean(R.bool.hide_google_relations)) {
+            startActivity(Intent(applicationContext, DonationActivity::class.java))
+        } else {
+            launchPurchaseThankYouIntent()
+        }
     }
 
     private fun onGithubClick() {
