@@ -330,11 +330,9 @@
     <string name="cannot_be_undone">Toimintoa ei ole mahdollista kumota.</string>
     <string name="save_before_closing">Sinulla on tallentamattomia muutoksia. Tallennetaanko ennen sulkemista?</string>
     <string name="global_theme_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             Osta <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">Vaalea</string>
     <string name="dark_theme">Tumma</string>
     <string name="auto_theme">Automaattinen</string>
