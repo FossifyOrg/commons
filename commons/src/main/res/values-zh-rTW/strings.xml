@@ -209,11 +209,9 @@
     <string name="cannot_be_undone">此操作無法撤消。</string>
     <string name="save_before_closing">尚未儲存變更。離開前是否儲存?</string>
     <string name="global_theme_success">色彩更新成功。新增了一個名為 \'Shared\' 的新主題，以後請使用那個來更新全部應用程式顏色。</string>
-    <string name="purchase_thank_you">
-        <![CDATA[
+    <string name="purchase_thank_you"><![CDATA[
             請購買 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 來解鎖此功能及支持開發者。謝謝!
-        ]]>
-    </string>
+        ]]></string>
     <string name="light_theme">淺色主題</string>
     <string name="dark_theme">深色主題</string>
     <string name="dark_red">暗紅主題</string>
