@@ -7,6 +7,7 @@ kotlinxSerializationJson = "1.6.3"
 ksp = "2.1.21-2.0.1"
 #Detekt
 detekt = "1.23.8"
+detektCompose = "0.4.22"
 #Androidx
 androidx-customView = "1.2.0-alpha02"
 androidx-customViewPooling = "1.1.0"
@@ -84,6 +85,7 @@ compose-runtime = { module = "androidx.compose.runtime:runtime", version.ref = "
 compose-uiTooling-debug = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
 compose-uiTooling-preview = { module = "androidx.compose.ui:ui-tooling-preview", version.ref = "compose" }
 compose-view-binding = { module = "androidx.compose.ui:ui-viewbinding", version.ref = "compose" }
+compose-detekt = { module = "io.nlopez.compose.rules:detekt", version.ref = "detektCompose" }
 #Glide
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
 glide-compose = { module = "com.github.bumptech.glide:compose", version.ref = "glideCompose" }

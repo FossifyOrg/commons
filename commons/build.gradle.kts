@@ -94,6 +94,9 @@ publishing.publications {
 
 detekt {
     baseline = file("detekt-baseline.xml")
+    config.setFrom("$rootDir/detekt.yml")
+    buildUponDefaultConfig = true
+    allRules = false
 }
 
 dependencies {
@@ -128,4 +131,5 @@ dependencies {
 
     api(libs.bundles.room)
     ksp(libs.androidx.room.compiler)
+    detektPlugins(libs.compose.detekt)
 }
