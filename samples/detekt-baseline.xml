@@ -2,18 +2,6 @@
 <SmellBaseline>
   <ManuallySuppressedIssues/>
   <CurrentIssues>
-    <ID>FunctionNaming:MainActivity.kt$MainActivity$@Composable private fun AppLaunched( donateAlertDialogState: AlertDialogState = getDonateAlertDialogState(), )</ID>
-    <ID>FunctionNaming:MainScreen.kt$@Composable @MyDevices private fun MainScreenPreview()</ID>
-    <ID>FunctionNaming:MainScreen.kt$@Composable fun MainScreen( openColorCustomization: () -&gt; Unit, manageBlockedNumbers: () -&gt; Unit, showComposeDialogs: () -&gt; Unit, openTestButton: () -&gt; Unit, showMoreApps: Boolean, openAbout: () -&gt; Unit, moreAppsFromUs: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:TestDialogActivity.kt$TestDialogActivity$@Composable private fun ShowButton(alertDialogState: AlertDialogState, text: String)</ID>
-    <ID>FunctionNaming:TestDialogActivity.kt$TestDialogActivity$@Composable private fun ShowButton(appSideLoadedDialogState: BottomSheetDialogState, text: String)</ID>
-    <ID>LongMethod:MainScreen.kt$@Composable fun MainScreen( openColorCustomization: () -&gt; Unit, manageBlockedNumbers: () -&gt; Unit, showComposeDialogs: () -&gt; Unit, openTestButton: () -&gt; Unit, showMoreApps: Boolean, openAbout: () -&gt; Unit, moreAppsFromUs: () -&gt; Unit, )</ID>
-    <ID>LongParameterList:MainScreen.kt$( openColorCustomization: () -&gt; Unit, manageBlockedNumbers: () -&gt; Unit, showComposeDialogs: () -&gt; Unit, openTestButton: () -&gt; Unit, showMoreApps: Boolean, openAbout: () -&gt; Unit, moreAppsFromUs: () -&gt; Unit, )</ID>
-    <ID>MagicNumber:TestDialogActivity.kt$TestDialogActivity$14</ID>
-    <ID>MagicNumber:TestDialogActivity.kt$TestDialogActivity$3</ID>
-    <ID>MagicNumber:TestDialogActivity.kt$TestDialogActivity$4</ID>
-    <ID>MagicNumber:TestDialogActivity.kt$TestDialogActivity$5</ID>
-    <ID>MagicNumber:TestDialogActivity.kt$TestDialogActivity$6</ID>
     <ID>MaxLineLength:MainActivity.kt$MainActivity$faqItems.add(FAQItem(org.fossify.commons.R.string.faq_2_title_commons, org.fossify.commons.R.string.faq_2_text_commons))</ID>
     <ID>MaxLineLength:MainActivity.kt$MainActivity$faqItems.add(FAQItem(org.fossify.commons.R.string.faq_6_title_commons, org.fossify.commons.R.string.faq_6_text_commons))</ID>
     <ID>MaxLineLength:MainActivity.kt$MainActivity$val showMoreApps = onEventValue { !resources.getBoolean(org.fossify.commons.R.bool.hide_google_relations) }</ID>
@@ -22,6 +10,7 @@
     <ID>MaxLineLength:TestDialogActivity.kt$TestDialogActivity$AddOrEditBlockedNumberAlertDialog(alertDialogState = this, blockedNumber = null, deleteBlockedNumber = {}) {}</ID>
     <ID>MaxLineLength:TestDialogActivity.kt$TestDialogActivity$ChangeDateTimeFormatAlertDialog</ID>
     <ID>MaxLineLength:TestDialogActivity.kt$TestDialogActivity$Log.d("getLineColorPickerAlertDialogState", "wasPositivePressed=$wasPositivePressed color=${color.toHex()}")</ID>
+    <ID>ModifierMissing:MainScreen.kt$MainScreen</ID>
     <ID>TooManyFunctions:TestDialogActivity.kt$TestDialogActivity : ComponentActivity</ID>
     <ID>UnusedPrivateMember:MainScreen.kt$@Composable @MyDevices private fun MainScreenPreview()</ID>
     <ID>WildcardImport:MainScreen.kt$import androidx.compose.runtime.*</ID>

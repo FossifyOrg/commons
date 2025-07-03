@@ -18,6 +18,39 @@
     <ID>ComplexCondition:MyRecyclerViewListAdapter.kt$MyRecyclerViewListAdapter$(select &amp;&amp; selectedKeys.contains(itemKey)) || (!select &amp;&amp; !selectedKeys.contains(itemKey))</ID>
     <ID>ComplexCondition:PropertiesDialog.kt$PropertiesDialog$(isRPlus() &amp;&amp; Environment.isExternalStorageManager()) || (!isRPlus() &amp;&amp; activity.hasPermission(PERMISSION_WRITE_STORAGE))</ID>
     <ID>ComplexCondition:RenamePatternTab.kt$RenamePatternTab$(!newName.contains(".") &amp;&amp; path.contains(".")) || (useMediaFileExtension &amp;&amp; !".${newName.substringAfterLast(".")}".isMediaFile())</ID>
+    <ID>ComposableParamOrder:ActionMenu.kt$ActionIconButton</ID>
+    <ID>ComposableParamOrder:ActionMenu.kt$ActionMenu</ID>
+    <ID>ComposableParamOrder:AddBlockedNumberDialog.kt$AddOrEditBlockedNumberAlertDialog</ID>
+    <ID>ComposableParamOrder:AlertDialogsExtensions.kt$ShowKeyboardWhenDialogIsOpenedAndRequestFocus</ID>
+    <ID>ComposableParamOrder:AppSideloadedDialog.kt$AppSideLoadedAlertDialog</ID>
+    <ID>ComposableParamOrder:ChangeDateTimeFormatDialog.kt$DialogCheckBoxWithRadioAlignmentComponent</ID>
+    <ID>ComposableParamOrder:ColorPickerDialog.kt$ColorPickerAlertDialog</ID>
+    <ID>ComposableParamOrder:ContributorsScreen.kt$ContributorItem</ID>
+    <ID>ComposableParamOrder:EnterPasswordDialog.kt$EnterPasswordAlertDialog</ID>
+    <ID>ComposableParamOrder:LineColorPickerDialog.kt$LineColorPickerAlertDialog</ID>
+    <ID>ComposableParamOrder:ManageBlockedNumbersScreen.kt$ActionModeToolbar</ID>
+    <ID>ComposableParamOrder:ManageBlockedNumbersScreen.kt$BlockedNumber</ID>
+    <ID>ComposableParamOrder:ManageBlockedNumbersScreen.kt$BlockedNumberHeadlineContent</ID>
+    <ID>ComposableParamOrder:ManageBlockedNumbersScreen.kt$BlockedNumberTrailingContent</ID>
+    <ID>ComposableParamOrder:RadioButtonDialogComponent.kt$RadioButtonDialogComponent</ID>
+    <ID>ComposableParamOrder:RadioGroupDialogComponent.kt$RadioGroupDialogComponent</ID>
+    <ID>ComposableParamOrder:SettingsCheckBoxComponent.kt$SettingsCheckBoxComponent</ID>
+    <ID>ComposableParamOrder:SettingsListItem.kt$SettingsListItem</ID>
+    <ID>ComposableParamOrder:SettingsPreferenceComponent.kt$SettingsPreferenceComponent</ID>
+    <ID>ComposableParamOrder:SettingsSwitchComponent.kt$SettingsSwitchComponent</ID>
+    <ID>ComposableParamOrder:SettingsTitleTextComponent.kt$SettingsTitleTextComponent</ID>
+    <ID>ComposableParamOrder:SimpleColumnScaffold.kt$SimpleColumnScaffold</ID>
+    <ID>ComposableParamOrder:SimpleDropDownMenuItem.kt$SimpleDropDownMenuItem</ID>
+    <ID>ComposableParamOrder:SimpleLazyListScaffold.kt$SimpleLazyListScaffold</ID>
+    <ID>ComposableParamOrder:SimpleLazyListScaffold.kt$SimpleScaffold</ID>
+    <ID>ComposableParamOrder:SimpleScaffoldTopBar.kt$SimpleNavigationIcon</ID>
+    <ID>ComposableParamOrder:SimpleScaffoldTopBar.kt$SimpleScaffoldTopBar</ID>
+    <ID>ComposableParamOrder:UpgradeToProDialog.kt$UpgradeToProAlertDialog</ID>
+    <ID>ComposableParamOrder:WhatsNewDialog.kt$WhatsNewAlertDialog</ID>
+    <ID>ComposableParamOrder:WritePermissionDialog.kt$WritePermissionAlertDialog</ID>
+    <ID>ComposableParamOrder:WritePermissionDialog.kt$WritePermissionImage</ID>
+    <ID>CompositionLocalAllowlist:Dimensions.kt$LocalDimensions</ID>
+    <ID>CompositionLocalAllowlist:Theme.kt$LocalTheme</ID>
     <ID>ConstructorParameterNaming:Contact.kt$Contact$var IMs: ArrayList&lt;IM&gt; = arrayListOf()</ID>
     <ID>ConstructorParameterNaming:LocalContact.kt$LocalContact$@ColumnInfo(name = "ims") var IMs: ArrayList&lt;IM&gt;</ID>
     <ID>CyclomaticComplexMethod:Activity-themes.kt$fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop: Boolean = false)</ID>
@@ -81,257 +114,33 @@
     <ID>ForEachOnRange:MyRecyclerViewListAdapter.kt$MyRecyclerViewListAdapter$(to + 1..max).filter { it != from }</ID>
     <ID>ForbiddenComment:Int.kt$// TODO: how to do "bits &amp; ~bit" in kotlin?</ID>
     <ID>ForbiddenComment:String.kt$// TODO: Use KMP search algorithm</ID>
-    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun AboutScreen( goBack: () -&gt; Unit, helpUsSection: @Composable () -&gt; Unit, aboutSection: @Composable () -&gt; Unit, socialSection: @Composable () -&gt; Unit, otherSection: @Composable () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun AboutSection( setupFAQ: Boolean, setupKnownIssues: Boolean, onFAQClick: () -&gt; Unit, onKnownIssuesClick: () -&gt; Unit, onEmailClick: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun HelpUsSection( onRateThisAppClick: () -&gt; Unit, onInviteClick: () -&gt; Unit, onContributorsClick: () -&gt; Unit, showRateUs: Boolean, showInvite: Boolean, showDonate: Boolean, onDonateClick: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun OtherSection( showMoreApps: Boolean, onMoreAppsClick: () -&gt; Unit, onPrivacyPolicyClick: () -&gt; Unit, onLicenseClick: () -&gt; Unit, versionName: String, packageName: String, onVersionClick: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun SocialSection( onGithubClick: () -&gt; Unit, onRedditClick: () -&gt; Unit, onTelegramClick: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun SocialText( text: String, icon: Int, tint: Color? = null, click: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:AboutScreen.kt$@Composable internal fun TwoLinerTextItem(text: String, icon: Int, click: () -&gt; Unit)</ID>
-    <ID>FunctionNaming:AboutScreen.kt$@MyDevices @Composable private fun AboutScreenPreview()</ID>
-    <ID>FunctionNaming:ActionMenu.kt$@Composable fun ActionMenu( items: ImmutableList&lt;ActionItem&gt;, numIcons: Int = 2, // includes overflow menu icon; may be overridden by NEVER_OVERFLOW isMenuVisible: Boolean, iconsColor: Color? = null, onMenuToggle: (isVisible: Boolean) -&gt; Unit )</ID>
-    <ID>FunctionNaming:ActionMenu.kt$@Composable internal fun ActionIconButton( onClick: () -&gt; Unit, modifier: Modifier = Modifier, interactionSource: MutableInteractionSource = rememberMutableInteractionSource(), contentColor: Color, content: @Composable () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:ActionMenu.kt$@MyDevices @Composable private fun ActionMenuPreview()</ID>
-    <ID>FunctionNaming:AddBlockedNumberDialog.kt$@Composable @MyDevices private fun AddOrEditBlockedNumberAlertDialogPreview()</ID>
-    <ID>FunctionNaming:AddBlockedNumberDialog.kt$@Composable fun AddOrEditBlockedNumberAlertDialog( alertDialogState: AlertDialogState, blockedNumber: BlockedNumber?, modifier: Modifier = Modifier, deleteBlockedNumber: (String) -&gt; Unit, addBlockedNumber: (String) -&gt; Unit )</ID>
-    <ID>FunctionNaming:AlertDialogState.kt$AlertDialogState$@Composable fun DialogMember( content: @Composable () -&gt; Unit )</ID>
-    <ID>FunctionNaming:AlertDialogsExtensions.kt$@Composable fun DialogSurface( modifier: Modifier = Modifier, content: @Composable () -&gt; Unit )</ID>
-    <ID>FunctionNaming:AlertDialogsExtensions.kt$@Composable fun ShowKeyboardWhenDialogIsOpenedAndRequestFocus( keyboardController: SoftwareKeyboardController? = LocalSoftwareKeyboardController.current, focusRequester: FocusRequester? )</ID>
-    <ID>FunctionNaming:AppSideloadedDialog.kt$@Composable @MyDevices private fun AppSideLoadedAlertDialogPreview()</ID>
-    <ID>FunctionNaming:AppSideloadedDialog.kt$@Composable fun AppSideLoadedAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, onDownloadClick: (url: String) -&gt; Unit, onCancelClick: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:AppTheme.kt$@Composable fun AppTheme( content: @Composable () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:AppTheme.kt$@Composable fun AppThemeSurface( modifier: Modifier = Modifier, content: @Composable () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:AppTheme.kt$@Composable private fun OnContentDisplayed()</ID>
-    <ID>FunctionNaming:BottomSheetChooserDialog.kt$@Composable fun ChooserBottomSheetDialog( bottomSheetDialogState: BottomSheetDialogState, items: ImmutableList&lt;SimpleListItem&gt;, modifier: Modifier = Modifier, onItemClicked: (SimpleListItem) -&gt; Unit )</ID>
-    <ID>FunctionNaming:BottomSheetChooserDialog.kt$@MyDevices @Composable private fun ChooserBottomSheetDialogPreview()</ID>
-    <ID>FunctionNaming:BottomSheetDialogState.kt$BottomSheetDialogState$@Composable fun BottomSheetContent( modifier: Modifier = Modifier, content: @Composable () -&gt; Unit )</ID>
-    <ID>FunctionNaming:BottomSheetDialogsExtensions.kt$@Composable fun BottomSheetBoxDialogSurface( modifier: Modifier = Modifier, content: @Composable BoxScope.() -&gt; Unit )</ID>
-    <ID>FunctionNaming:BottomSheetDialogsExtensions.kt$@Composable fun BottomSheetColumnDialogSurface( modifier: Modifier = Modifier, content: @Composable ColumnScope.() -&gt; Unit )</ID>
-    <ID>FunctionNaming:BottomSheetDialogsExtensions.kt$@Composable fun BottomSheetDialogSurface( modifier: Modifier = Modifier, content: @Composable (backgroundColor: Color) -&gt; Unit )</ID>
-    <ID>FunctionNaming:BottomSheetDialogsExtensions.kt$@Composable fun BottomSheetSpacerEdgeToEdge()</ID>
-    <ID>FunctionNaming:CallConfirmationDialog.kt$@Composable @MyDevices private fun CallConfirmationAlertDialogPreview()</ID>
-    <ID>FunctionNaming:CallConfirmationDialog.kt$@Composable fun CallConfirmationAlertDialog( alertDialogState: AlertDialogState, callee: String, modifier: Modifier = Modifier, callback: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:ChangeDateTimeFormatDialog.kt$@Composable @MyDevices private fun ChangeDateTimeFormatAlertDialogPreview()</ID>
-    <ID>FunctionNaming:ChangeDateTimeFormatDialog.kt$@Composable fun ChangeDateTimeFormatAlertDialog( alertDialogState: AlertDialogState, is24HourChecked: Boolean, modifier: Modifier = Modifier, callback: (selectedFormat: String, is24HourChecked: Boolean) -&gt; Unit )</ID>
-    <ID>FunctionNaming:ChangeDateTimeFormatDialog.kt$@Composable internal fun DialogCheckBoxWithRadioAlignmentComponent( modifier: Modifier = Modifier, label: String, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, onChange: ((Boolean) -&gt; Unit)? = null, checkboxColors: CheckboxColors = CheckboxDefaults.colors( checkedColor = SimpleTheme.colorScheme.primary, checkmarkColor = SimpleTheme.colorScheme.surface, ) )</ID>
-    <ID>FunctionNaming:ChangeViewTypeDialog.kt$@Composable fun ChangeViewTypeAlertDialog( alertDialogState: AlertDialogState, selectedViewType: Int, modifier: Modifier = Modifier, onTypeChosen: (type: Int) -&gt; Unit )</ID>
-    <ID>FunctionNaming:ChangeViewTypeDialog.kt$@MyDevices @Composable private fun ChangeViewTypeAlertDialogPreview()</ID>
-    <ID>FunctionNaming:ColorPickerDialog.kt$@Composable @MyDevices private fun ColorPickerAlertDialogPreview()</ID>
-    <ID>FunctionNaming:ColorPickerDialog.kt$@Composable fun ColorPickerAlertDialog( alertDialogState: AlertDialogState, @ColorInt color: Int, modifier: Modifier = Modifier, removeDimmedBackground: Boolean = false, addDefaultColorButton: Boolean = false, onActiveColorChange: (color: Int) -&gt; Unit, onButtonPressed: (wasPositivePressed: Boolean, color: Int) -&gt; Unit )</ID>
-    <ID>FunctionNaming:ComposeActivityExtensions.kt$@Composable fun CheckAppOnSdCard()</ID>
-    <ID>FunctionNaming:ComposeActivityExtensions.kt$@Composable fun FakeVersionCheck()</ID>
-    <ID>FunctionNaming:ComposeExtensions.kt$@Composable fun AdjustNavigationBarColors()</ID>
-    <ID>FunctionNaming:ComposeExtensions.kt$@Composable internal fun TransparentSystemBars(darkIcons: Boolean = !isSystemInDarkTheme())</ID>
-    <ID>FunctionNaming:ConfirmationAdvancedDialog.kt$@Composable @MyDevices private fun ConfirmationAdvancedAlertDialogPreview()</ID>
-    <ID>FunctionNaming:ConfirmationAdvancedDialog.kt$@Composable fun ConfirmationAdvancedAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, message: String = "", messageId: Int? = R.string.proceed_with_deletion, positive: Int? = R.string.yes, negative: Int? = R.string.no, cancelOnTouchOutside: Boolean = true, callback: (result: Boolean) -&gt; Unit )</ID>
-    <ID>FunctionNaming:ConfirmationDialog.kt$@Composable @MyDevices private fun ConfirmationAlertDialogPreview()</ID>
-    <ID>FunctionNaming:ConfirmationDialog.kt$@Composable fun ConfirmationAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, message: String = "", messageId: Int? = R.string.proceed_with_deletion, positive: Int? = R.string.yes, negative: Int? = R.string.no, cancelOnTouchOutside: Boolean = true, dialogTitle: String = "", callback: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:ContributorsScreen.kt$@Composable @MyDevices private fun ContributorsScreenPreview()</ID>
-    <ID>FunctionNaming:ContributorsScreen.kt$@Composable internal fun ContributorsScreen( goBack: () -&gt; Unit, contributors: ImmutableList&lt;LanguageContributor&gt; )</ID>
-    <ID>FunctionNaming:ContributorsScreen.kt$@Composable private fun ContributorItem( modifier: Modifier = Modifier, languageContributor: LanguageContributor )</ID>
-    <ID>FunctionNaming:CreateNewFolderDialog.kt$@Composable fun CreateNewFolderAlertDialog( alertDialogState: AlertDialogState, path: String, modifier: Modifier = Modifier, callback: (path: String) -&gt; Unit )</ID>
-    <ID>FunctionNaming:CreateNewFolderDialog.kt$@MyDevices @Composable private fun CreateNewFolderAlertDialogPreview()</ID>
-    <ID>FunctionNaming:CustomIntervalPickerDialog.kt$@Composable @MyDevices private fun CustomIntervalPickerAlertDialogPreview()</ID>
-    <ID>FunctionNaming:CustomIntervalPickerDialog.kt$@Composable fun CustomIntervalPickerAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, selectedSeconds: Int = 0, showSeconds: Boolean = false, callback: (minutes: Int) -&gt; Unit )</ID>
-    <ID>FunctionNaming:DonateDialog.kt$@Composable @MyDevices private fun DonateAlertDialogPreview()</ID>
-    <ID>FunctionNaming:DonateDialog.kt$@Composable fun DonateAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier )</ID>
-    <ID>FunctionNaming:DonationScreen.kt$@Composable @Preview fun PreviewDonationScreen()</ID>
-    <ID>FunctionNaming:DonationScreen.kt$@Composable fun DonationCryptos( options: List&lt;Donation.Crypto&gt;, copyToClipboard: (String) -&gt; Unit, )</ID>
-    <ID>FunctionNaming:DonationScreen.kt$@Composable fun DonationListItem( name: String, description: String, @DrawableRes icon: Int, onClick: () -&gt; Unit, onCopyClick: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:DonationScreen.kt$@Composable fun DonationPlatforms( options: List&lt;Donation.Platform&gt;, openWebsite: (String) -&gt; Unit, copyToClipboard: (String) -&gt; Unit, )</ID>
-    <ID>FunctionNaming:DonationScreen.kt$@Composable fun DonationScreen( donationOptions: List&lt;Donation.Platform&gt;, cryptoAddresses: List&lt;Donation.Crypto&gt;, goBack: () -&gt; Unit, openWebsite: (String) -&gt; Unit, copyToClipboard: (String) -&gt; Unit, )</ID>
-    <ID>FunctionNaming:EnterPasswordDialog.kt$@Composable fun EnterPasswordAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, callback: (password: String) -&gt; Unit, cancelCallback: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:EnterPasswordDialog.kt$@MyDevices @Composable private fun EnterPasswordAlertDialogPreview()</ID>
-    <ID>FunctionNaming:FAQScreen.kt$@Composable internal fun FAQScreen( goBack: () -&gt; Unit, faqItems: ImmutableList&lt;FAQItem&gt;, )</ID>
-    <ID>FunctionNaming:FAQScreen.kt$@MyDevices @Composable private fun FAQScreenPreview()</ID>
-    <ID>FunctionNaming:FeatureLockedDialog.kt$@Composable @MyDevices private fun FeatureLockedAlertDialogPreview()</ID>
-    <ID>FunctionNaming:FeatureLockedDialog.kt$@Composable fun FeatureLockedAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, cancelCallback: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:FileConflictDialog.kt$@Composable fun FileConflictAlertDialog( alertDialogState: AlertDialogState, fileDirItem: FileDirItemReadOnly, showApplyToAll: Boolean, modifier: Modifier = Modifier, callback: (resolution: Int, applyForAll: Boolean) -&gt; Unit )</ID>
-    <ID>FunctionNaming:FileConflictDialog.kt$@MyDevices @Composable private fun FileConflictAlertDialogPreview()</ID>
-    <ID>FunctionNaming:FolderLockingNoticeDialog.kt$@Composable @MyDevices private fun FolderLockingNoticeAlertDialogPreview()</ID>
-    <ID>FunctionNaming:FolderLockingNoticeDialog.kt$@Composable fun FolderLockingNoticeAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, callback: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:LicenseScreen.kt$@Composable @MyDevices private fun LicenseScreenPreview()</ID>
-    <ID>FunctionNaming:LicenseScreen.kt$@Composable internal fun LicenseScreen( goBack: () -&gt; Unit, thirdPartyLicenses: ImmutableList&lt;License&gt;, onLicenseClick: (urlId: Int) -&gt; Unit, )</ID>
-    <ID>FunctionNaming:LicenseScreen.kt$@Composable private fun LicenseItem( license: License, onLicenseClick: (urlId: Int) -&gt; Unit )</ID>
-    <ID>FunctionNaming:LineColorPickerDialog.kt$@Composable @MyDevices private fun LineColorPickerAlertDialogPreview()</ID>
-    <ID>FunctionNaming:LineColorPickerDialog.kt$@Composable fun LineColorPickerAlertDialog( alertDialogState: AlertDialogState, @ColorInt color: Int, isPrimaryColorPicker: Boolean, modifier: Modifier = Modifier, primaryColors: Int = R.array.md_primary_colors, appIconIDs: ArrayList&lt;Int&gt;? = null, onActiveColorChange: (color: Int) -&gt; Unit, onButtonPressed: (wasPositivePressed: Boolean, color: Int) -&gt; Unit )</ID>
-    <ID>FunctionNaming:LinkifyTextComponent.kt$@Composable @MyDevices private fun LinkifyTextComponentPreview()</ID>
-    <ID>FunctionNaming:LinkifyTextComponent.kt$@Composable fun LinkifyTextComponent( modifier: Modifier = Modifier, fontSize: TextUnit = 14.sp, removeUnderlines: Boolean = true, textAlignment: Int = TextView.TEXT_ALIGNMENT_TEXT_START, text: () -&gt; Spanned )</ID>
-    <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable internal fun ManageBlockedNumbersScreen( goBack: () -&gt; Unit, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, setAsDefault: () -&gt; Unit, isDialer: Boolean, hasGivenPermissionToBlock: Boolean, isBlockUnknownSelected: Boolean, showCheckmarksOnSwitches: Boolean, onBlockUnknownSelectedChange: (Boolean) -&gt; Unit, isHiddenSelected: Boolean, onHiddenSelectedChange: (Boolean) -&gt; Unit, blockedNumbers: ImmutableList&lt;BlockedNumber&gt;?, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onEdit: (BlockedNumber) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, )</ID>
-    <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable private fun ActionModeToolbar( modifier: Modifier = Modifier, selectedIdsCount: Int, blockedNumbersCount: Int, onBackClick: () -&gt; Unit, onCopy: () -&gt; Unit, onDelete: () -&gt; Unit, onSelectAll: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable private fun BlockedNumber( modifier: Modifier = Modifier, blockedNumber: BlockedNumber, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, isSelected: Boolean, )</ID>
-    <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable private fun BlockedNumberActionMenu( selectedIdsCount: Int, onDelete: () -&gt; Unit, onCopy: () -&gt; Unit, iconColor: Color? = null, )</ID>
-    <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable private fun BlockedNumberHeadlineContent(modifier: Modifier = Modifier, blockedNumber: BlockedNumber, hasContactName: Boolean)</ID>
-    <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable private fun BlockedNumberTrailingContent(modifier: Modifier = Modifier, onDelete: () -&gt; Unit, onCopy: () -&gt; Unit)</ID>
-    <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@Composable private fun NonActionModeToolbar( scrolledColor: Color, navigationInteractionSource: MutableInteractionSource, goBack: () -&gt; Unit, scrollBehavior: TopAppBarScrollBehavior, statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:ManageBlockedNumbersScreen.kt$@MyDevices @Composable private fun ManageBlockedNumbersScreenPreview(@PreviewParameter(BooleanPreviewParameterProvider::class) isDialer: Boolean)</ID>
-    <ID>FunctionNaming:OpenDeviceSettingsDialog.kt$@Composable @MyDevices private fun OpenDeviceSettingsAlertDialogPreview()</ID>
-    <ID>FunctionNaming:OpenDeviceSettingsDialog.kt$@Composable fun OpenDeviceSettingsAlertDialog( alertDialogState: AlertDialogState, message: String, modifier: Modifier = Modifier )</ID>
-    <ID>FunctionNaming:PermissionRequiredDialog.kt$@Composable @MyDevices private fun PermissionRequiredAlertDialogPreview()</ID>
-    <ID>FunctionNaming:PermissionRequiredDialog.kt$@Composable fun PermissionRequiredAlertDialog( alertDialogState: AlertDialogState, text: String, modifier: Modifier = Modifier, negativeActionCallback: (() -&gt; Unit)? = null, positiveActionCallback: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:PurchaseThankYouDialog.kt$@Composable @MyDevices private fun PurchaseThankYouAlertDialogPreview()</ID>
-    <ID>FunctionNaming:PurchaseThankYouDialog.kt$@Composable fun PurchaseThankYouAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, )</ID>
-    <ID>FunctionNaming:RadioButtonDialogComponent.kt$@Composable @MyDevices private fun RadioButtonDialogComponentPreview()</ID>
-    <ID>FunctionNaming:RadioButtonDialogComponent.kt$@Composable fun RadioButtonDialogComponent( modifier: Modifier = Modifier, setSelected: (selected: String) -&gt; Unit, item: String, selected: String? )</ID>
-    <ID>FunctionNaming:RadioGroupDialog.kt$@Composable @MyDevices private fun RadioGroupDialogAlertDialogPreview(@PreviewParameter(BooleanPreviewParameterProvider::class) showOKButton: Boolean)</ID>
-    <ID>FunctionNaming:RadioGroupDialog.kt$@Composable fun RadioGroupAlertDialog( alertDialogState: AlertDialogState, items: ImmutableList&lt;RadioItem&gt;, modifier: Modifier = Modifier, selectedItemId: Int = -1, titleId: Int = 0, showOKButton: Boolean = false, cancelCallback: (() -&gt; Unit)? = null, callback: (newValue: Any) -&gt; Unit )</ID>
-    <ID>FunctionNaming:RadioGroupDialogComponent.kt$@Composable @MyDevices private fun RadioGroupDialogComponentPreview()</ID>
-    <ID>FunctionNaming:RadioGroupDialogComponent.kt$@Composable fun RadioGroupDialogComponent( modifier: Modifier = Modifier, items: List&lt;String&gt;, selected: String?, verticalPadding: Dp = 10.dp, horizontalPadding: Dp = 20.dp, setSelected: (selected: String) -&gt; Unit, )</ID>
-    <ID>FunctionNaming:SettingsCheckBoxComponent.kt$@Composable fun SettingsCheckBoxComponent( modifier: Modifier = Modifier, label: String, value: String? = null, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, onChange: ((Boolean) -&gt; Unit)? = null, checkboxColors: CheckboxColors = CheckboxDefaults.colors( checkedColor = SimpleTheme.colorScheme.primary, checkmarkColor = SimpleTheme.colorScheme.surface, ) )</ID>
-    <ID>FunctionNaming:SettingsCheckBoxComponent.kt$@MyDevices @Composable private fun SettingsCheckBoxComponentPreview(@PreviewParameter(BooleanPreviewParameterProvider::class) isChecked: Boolean)</ID>
-    <ID>FunctionNaming:SettingsDivider.kt$@Composable @MyDevices private fun SettingsHorizontalDividerPreview()</ID>
-    <ID>FunctionNaming:SettingsDivider.kt$@Composable fun SettingsHorizontalDivider( modifier: Modifier = Modifier, color: Color = divider_grey, thickness: Dp = DividerDefaults.Thickness, )</ID>
-    <ID>FunctionNaming:SettingsGroup.kt$@Composable fun SettingsGroup( modifier: Modifier = Modifier, title: @Composable (() -&gt; Unit)? = null, content: @Composable ColumnScope.() -&gt; Unit, )</ID>
-    <ID>FunctionNaming:SettingsGroup.kt$@Composable fun SettingsGroupTitle( modifier: Modifier = Modifier, title: @Composable () -&gt; Unit )</ID>
-    <ID>FunctionNaming:SettingsGroup.kt$@MyDevices @Composable private fun SettingsGroupPreview()</ID>
-    <ID>FunctionNaming:SettingsLazyGroup.kt$@Composable fun SettingsLazyGroup( modifier: Modifier = Modifier, title: @Composable (() -&gt; Unit)? = null, state: LazyListState = rememberLazyListState(), contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, content: LazyListScope.() -&gt; Unit )</ID>
-    <ID>FunctionNaming:SettingsLazyGroup.kt$@MyDevices @Composable private fun SettingsLazyGroupPreview()</ID>
-    <ID>FunctionNaming:SettingsListItem.kt$@Composable fun SettingsListItem( modifier: Modifier = Modifier, text: @Composable () -&gt; Unit, @DrawableRes icon: Int? = null, isImage: Boolean = false, click: (() -&gt; Unit)? = null, tint: Color? = null )</ID>
-    <ID>FunctionNaming:SettingsListItem.kt$@Composable fun SettingsListItem( modifier: Modifier = Modifier, text: String, description: String? = null, fontSize: TextUnit = TextUnit.Unspecified, maxLines: Int = Int.MAX_VALUE, overflow: TextOverflow = TextOverflow.Clip, @DrawableRes icon: Int? = null, isImage: Boolean = false, click: (() -&gt; Unit)? = null, tint: Color? = null )</ID>
-    <ID>FunctionNaming:SettingsListItem.kt$@MyDevices @Composable private fun PreviewSettingsListItem(@PreviewParameter(BooleanPreviewParameterProvider::class) isImage: Boolean)</ID>
-    <ID>FunctionNaming:SettingsPreferenceComponent.kt$@Composable fun SettingsPreferenceComponent( modifier: Modifier = Modifier, label: String, value: String? = null, isPreferenceEnabled: Boolean = true, doOnPreferenceLongClick: (() -&gt; Unit)? = null, doOnPreferenceClick: (() -&gt; Unit)? = null, preferenceValueColor: Color = preferenceValueColor(isEnabled = isPreferenceEnabled), preferenceLabelColor: Color = preferenceLabelColor(isEnabled = isPreferenceEnabled) )</ID>
-    <ID>FunctionNaming:SettingsPreferenceComponent.kt$@MyDevices @Composable private fun SettingsPreferencePreview()</ID>
-    <ID>FunctionNaming:SettingsScaffoldExtensions.kt$@Composable internal fun ScreenBoxSettingsScaffold(paddingValues: PaddingValues, modifier: Modifier = Modifier, content: @Composable BoxScope.() -&gt; Unit)</ID>
-    <ID>FunctionNaming:SettingsScaffoldExtensions.kt$@Composable internal fun SystemUISettingsScaffoldStatusBarColor(scrolledColor: Color)</ID>
-    <ID>FunctionNaming:SettingsSwitchComponent.kt$@Composable fun SettingsSwitchComponent( modifier: Modifier = Modifier, label: String, value: String? = null, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, showCheckmark: Boolean, onChange: ((Boolean) -&gt; Unit)? = null, switchColors: SwitchColors = SwitchDefaults.colors() )</ID>
-    <ID>FunctionNaming:SettingsSwitchComponent.kt$@MyDevices @Composable private fun SettingsSwitchComponentPreview(@PreviewParameter(BooleanPreviewParameterProvider::class) isChecked: Boolean)</ID>
-    <ID>FunctionNaming:SettingsTitleTextComponent.kt$@Composable fun SettingsTitleTextComponent( modifier: Modifier = Modifier, text: String, color: Color = SimpleTheme.colorScheme.primary, maxLines: Int = 1, overflow: TextOverflow = TextOverflow.Ellipsis )</ID>
-    <ID>FunctionNaming:SettingsTitleTextComponent.kt$@MyDevices @Composable private fun SettingsTitleTextComponentPreview()</ID>
-    <ID>FunctionNaming:SimpleColumnScaffold.kt$@Composable fun SimpleColumnScaffold( modifier: Modifier = Modifier, customTopBar: @Composable (scrolledColor: Color, navigationInteractionSource: MutableInteractionSource, scrollBehavior: TopAppBarScrollBehavior, statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color) -&gt; Unit, goBack: () -&gt; Unit, reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, scrollState: ScrollState = rememberScrollState(), content: @Composable() (ColumnScope.(PaddingValues) -&gt; Unit) )</ID>
-    <ID>FunctionNaming:SimpleColumnScaffold.kt$@Composable fun SimpleColumnScaffold( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, actions: @Composable() (RowScope.() -&gt; Unit), goBack: () -&gt; Unit, reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, scrollState: ScrollState = rememberScrollState(), content: @Composable (ColumnScope.(PaddingValues) -&gt; Unit) )</ID>
-    <ID>FunctionNaming:SimpleColumnScaffold.kt$@Composable fun SimpleColumnScaffold( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, goBack: () -&gt; Unit, reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, scrollState: ScrollState = rememberScrollState(), content: @Composable (ColumnScope.(PaddingValues) -&gt; Unit) )</ID>
-    <ID>FunctionNaming:SimpleColumnScaffold.kt$@Composable fun SimpleColumnScaffold( title: String, goBack: () -&gt; Unit, modifier: Modifier = Modifier, reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, scrollState: ScrollState = rememberScrollState(), content: @Composable (ColumnScope.(PaddingValues) -&gt; Unit) )</ID>
-    <ID>FunctionNaming:SimpleColumnScaffold.kt$@MyDevices @Composable private fun SimpleColumnScaffoldPreview()</ID>
-    <ID>FunctionNaming:SimpleDropDownMenuItem.kt$@Composable fun SimpleDropDownMenuItem( modifier: Modifier = Modifier, interactionSource: MutableInteractionSource = rememberMutableInteractionSource(), indication: Indication? = LocalIndication.current, @StringRes text: Int, onClick: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:SimpleDropDownMenuItem.kt$@Composable fun SimpleDropDownMenuItem( modifier: Modifier = Modifier, interactionSource: MutableInteractionSource = rememberMutableInteractionSource(), indication: Indication? = LocalIndication.current, text: @Composable BoxScope.() -&gt; Unit, onClick: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:SimpleDropDownMenuItem.kt$@Composable fun SimpleDropDownMenuItem( modifier: Modifier = Modifier, text: String, interactionSource: MutableInteractionSource = rememberMutableInteractionSource(), indication: Indication? = LocalIndication.current, onClick: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:SimpleDropDownMenuItem.kt$@MyDevices @Composable private fun SimpleDropDownMenuItemPreview()</ID>
-    <ID>FunctionNaming:SimpleLazyListScaffold.kt$@Composable fun SimpleLazyListScaffold( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, actions: @Composable() (RowScope.() -&gt; Unit), goBack: () -&gt; Unit, contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, state: LazyListState = rememberLazyListState(), lazyContent: LazyListScope.(PaddingValues) -&gt; Unit )</ID>
-    <ID>FunctionNaming:SimpleLazyListScaffold.kt$@Composable fun SimpleLazyListScaffold( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, goBack: () -&gt; Unit, contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, state: LazyListState = rememberLazyListState(), lazyContent: LazyListScope.(PaddingValues) -&gt; Unit )</ID>
-    <ID>FunctionNaming:SimpleLazyListScaffold.kt$@Composable fun SimpleLazyListScaffold( modifier: Modifier = Modifier, topBar: @Composable (scrolledColor: Color, navigationInteractionSource: MutableInteractionSource, scrollBehavior: TopAppBarScrollBehavior, statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color) -&gt; Unit, contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, state: LazyListState = rememberLazyListState(), lazyContent: LazyListScope.(PaddingValues) -&gt; Unit )</ID>
-    <ID>FunctionNaming:SimpleLazyListScaffold.kt$@Composable fun SimpleLazyListScaffold( title: String, goBack: () -&gt; Unit, modifier: Modifier = Modifier, contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, state: LazyListState = rememberLazyListState(), lazyContent: LazyListScope.(PaddingValues) -&gt; Unit )</ID>
-    <ID>FunctionNaming:SimpleLazyListScaffold.kt$@Composable fun SimpleScaffold( modifier: Modifier = Modifier, darkStatusBarIcons: Boolean = true, customTopBar: @Composable (scrolledColor: Color, navigationInteractionSource: MutableInteractionSource, scrollBehavior: TopAppBarScrollBehavior, statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color) -&gt; Unit, customContent: @Composable (BoxScope.(PaddingValues) -&gt; Unit) )</ID>
-    <ID>FunctionNaming:SimpleLazyListScaffold.kt$@MyDevices @Composable private fun SimpleLazyListScaffoldPreview()</ID>
-    <ID>FunctionNaming:SimpleScaffoldTopBar.kt$@Composable @MyDevices private fun SimpleScaffoldTopBarPreview()</ID>
-    <ID>FunctionNaming:SimpleScaffoldTopBar.kt$@Composable fun SimpleBackIcon(iconColor: Color?)</ID>
-    <ID>FunctionNaming:SimpleScaffoldTopBar.kt$@Composable fun SimpleNavigationIcon( modifier: Modifier = Modifier, navigationIconInteractionSource: MutableInteractionSource = rememberMutableInteractionSource(), goBack: () -&gt; Unit, iconColor: Color? = null )</ID>
-    <ID>FunctionNaming:SimpleScaffoldTopBar.kt$@Composable fun SimpleScaffoldTopBar( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, actions: @Composable RowScope.() -&gt; Unit, scrolledColor: Color, navigationIconInteractionSource: MutableInteractionSource = rememberMutableInteractionSource(), scrollBehavior: TopAppBarScrollBehavior = TopAppBarDefaults.pinnedScrollBehavior(rememberTopAppBarState()), statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color, goBack: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:SimpleScaffoldTopBar.kt$@Composable fun SimpleScaffoldTopBar( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, scrolledColor: Color, navigationIconInteractionSource: MutableInteractionSource = rememberMutableInteractionSource(), scrollBehavior: TopAppBarScrollBehavior = TopAppBarDefaults.pinnedScrollBehavior(rememberTopAppBarState()), statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color, goBack: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:SimpleScaffoldTopBar.kt$@Composable fun SimpleScaffoldTopBar( modifier: Modifier = Modifier, title: String, scrolledColor: Color, navigationIconInteractionSource: MutableInteractionSource = rememberMutableInteractionSource(), scrollBehavior: TopAppBarScrollBehavior = TopAppBarDefaults.pinnedScrollBehavior(rememberTopAppBarState()), statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color, goBack: () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:Theme.kt$@Composable internal fun Theme( theme: Theme = systemDefaultMaterialYou(), content: @Composable () -&gt; Unit, )</ID>
-    <ID>FunctionNaming:UpgradeToProDialog.kt$@Composable fun UpgradeToProAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, onMoreInfoClick: () -&gt; Unit, onUpgradeClick: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:UpgradeToProDialog.kt$@MyDevices @Composable private fun UpgradeToProAlertDialogPreview()</ID>
-    <ID>FunctionNaming:WhatsNewDialog.kt$@Composable fun WhatsNewAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, releases: ImmutableList&lt;Release&gt; )</ID>
-    <ID>FunctionNaming:WhatsNewDialog.kt$@MyDevices @Composable private fun WhatsNewAlertDialogPreview()</ID>
-    <ID>FunctionNaming:WritePermissionDialog.kt$@Composable @MyDevices private fun WritePermissionAlertDialogPreview(@PreviewParameter(WritePermissionDialogModePreviewParameter::class) mode: WritePermissionDialog.WritePermissionDialogMode)</ID>
-    <ID>FunctionNaming:WritePermissionDialog.kt$@Composable fun WritePermissionAlertDialog( alertDialogState: AlertDialogState, writePermissionDialogMode: WritePermissionDialog.WritePermissionDialogMode, modifier: Modifier = Modifier, callback: () -&gt; Unit, onCancelCallback: () -&gt; Unit )</ID>
-    <ID>FunctionNaming:WritePermissionDialog.kt$@Composable private fun CreateDocumentSDK30(crossFadeTransition: DrawableTransitionOptions, onImageClick: () -&gt; Unit)</ID>
-    <ID>FunctionNaming:WritePermissionDialog.kt$@Composable private fun OTG( crossFadeTransition: DrawableTransitionOptions )</ID>
-    <ID>FunctionNaming:WritePermissionDialog.kt$@Composable private fun OpenDocumentTreeSDK30(crossFadeTransition: DrawableTransitionOptions, onImageClick: () -&gt; Unit, path: String)</ID>
-    <ID>FunctionNaming:WritePermissionDialog.kt$@Composable private fun SDCard(crossFadeTransition: DrawableTransitionOptions)</ID>
-    <ID>FunctionNaming:WritePermissionDialog.kt$@Composable private fun WritePermissionImage( modifier: Modifier = Modifier, crossFadeTransition: DrawableTransitionOptions, @DrawableRes drawable: Int )</ID>
-    <ID>FunctionNaming:WritePermissionDialog.kt$@Composable private fun WritePermissionText(@StringRes text: Int)</ID>
-    <ID>FunctionNaming:WritePermissionDialog.kt$@Composable private fun WritePermissionText(text: Spanned)</ID>
     <ID>ImplicitDefaultLocale:BaseSimpleActivity.kt$BaseSimpleActivity$String.format("%s(%d).%s", file.nameWithoutExtension, fileIndex, file.extension)</ID>
     <ID>ImplicitDefaultLocale:Int.kt$String.format("#%06X", 0xFFFFFF and this)</ID>
     <ID>ImplicitDefaultLocale:RenamePatternTab.kt$RenamePatternTab$String.format("%0${numbersCnt}d", currentIncrementalNumber)</ID>
     <ID>InstanceOfCheckForException:Activity.kt$e is SecurityException</ID>
     <ID>InstanceOfCheckForException:Activity.kt$exception is IOException</ID>
     <ID>InstanceOfCheckForException:Activity.kt$exception is java.nio.file.FileSystemException</ID>
+    <ID>LambdaParameterEventTrailing:BottomSheetChooserDialog.kt$onItemClicked</ID>
+    <ID>LambdaParameterEventTrailing:ManageBlockedNumbersScreen.kt$onCopy</ID>
+    <ID>LambdaParameterEventTrailing:ManageBlockedNumbersScreen.kt$onSelectAll</ID>
+    <ID>LambdaParameterEventTrailing:SimpleDropDownMenuItem.kt$onClick</ID>
     <ID>LargeClass:BaseSimpleActivity.kt$BaseSimpleActivity : AppCompatActivity</ID>
     <ID>LargeClass:ContactsHelper.kt$ContactsHelper</ID>
     <ID>LargeClass:CustomizationActivity.kt$CustomizationActivity : BaseSimpleActivity</ID>
-    <ID>LongMethod:AboutActivity.kt$AboutActivity$override fun onCreate(savedInstanceState: Bundle?)</ID>
-    <ID>LongMethod:ActionMenu.kt$@Composable fun ActionMenu( items: ImmutableList&lt;ActionItem&gt;, numIcons: Int = 2, // includes overflow menu icon; may be overridden by NEVER_OVERFLOW isMenuVisible: Boolean, iconsColor: Color? = null, onMenuToggle: (isVisible: Boolean) -&gt; Unit )</ID>
     <ID>LongMethod:Activity-themes.kt$fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop: Boolean = false)</ID>
-    <ID>LongMethod:Activity.kt$fun Activity.setupDialogStuff( view: View, dialog: AlertDialog.Builder, titleId: Int = 0, titleText: String = "", cancelOnTouchOutside: Boolean = true, callback: ((alertDialog: AlertDialog) -&gt; Unit)? = null )</ID>
-    <ID>LongMethod:Activity.kt$fun BaseSimpleActivity.getFileOutputStream(fileDirItem: FileDirItem, allowCreatingNewFile: Boolean = false, callback: (outputStream: OutputStream?) -&gt; Unit)</ID>
-    <ID>LongMethod:Activity.kt$fun BaseSimpleActivity.renameFile( oldPath: String, newPath: String, isRenamingMultipleFiles: Boolean, callback: ((success: Boolean, android30RenameFormat: Android30RenameFormat) -&gt; Unit)? = null )</ID>
     <ID>LongMethod:Activity.kt$private fun BaseSimpleActivity.renameCasually( oldPath: String, newPath: String, isRenamingMultipleFiles: Boolean, callback: ((success: Boolean, android30RenameFormat: Android30RenameFormat) -&gt; Unit)? )</ID>
-    <ID>LongMethod:AddBlockedNumberDialog.kt$@Composable fun AddOrEditBlockedNumberAlertDialog( alertDialogState: AlertDialogState, blockedNumber: BlockedNumber?, modifier: Modifier = Modifier, deleteBlockedNumber: (String) -&gt; Unit, addBlockedNumber: (String) -&gt; Unit )</ID>
-    <ID>LongMethod:BaseSimpleActivity.kt$BaseSimpleActivity$fun copyMoveFilesTo( fileDirItems: ArrayList&lt;FileDirItem&gt;, source: String, destination: String, isCopyOperation: Boolean, copyPhotoVideoOnly: Boolean, copyHidden: Boolean, callback: (destinationPath: String) -&gt; Unit, )</ID>
     <ID>LongMethod:BaseSimpleActivity.kt$BaseSimpleActivity$override fun onActivityResult(requestCode: Int, resultCode: Int, resultData: Intent?)</ID>
-    <ID>LongMethod:CallConfirmationDialog.kt$@Composable fun CallConfirmationAlertDialog( alertDialogState: AlertDialogState, callee: String, modifier: Modifier = Modifier, callback: () -&gt; Unit )</ID>
-    <ID>LongMethod:ChangeDateTimeFormatDialog.kt$@Composable fun ChangeDateTimeFormatAlertDialog( alertDialogState: AlertDialogState, is24HourChecked: Boolean, modifier: Modifier = Modifier, callback: (selectedFormat: String, is24HourChecked: Boolean) -&gt; Unit )</ID>
-    <ID>LongMethod:ColorPickerDialog.kt$@Composable fun ColorPickerAlertDialog( alertDialogState: AlertDialogState, @ColorInt color: Int, modifier: Modifier = Modifier, removeDimmedBackground: Boolean = false, addDefaultColorButton: Boolean = false, onActiveColorChange: (color: Int) -&gt; Unit, onButtonPressed: (wasPositivePressed: Boolean, color: Int) -&gt; Unit )</ID>
-    <ID>LongMethod:ColorPickerDialog.kt$private fun DialogColorPickerBinding.init( color: Int, backgroundColor: Int, recentColors: List&lt;Int&gt;, hsv: Hsv, currentColorCallback: ((color: Int) -&gt; Unit) )</ID>
     <ID>LongMethod:ContactsHelper.kt$ContactsHelper$fun insertContact(contact: Contact): Boolean</ID>
     <ID>LongMethod:ContactsHelper.kt$ContactsHelper$fun updateContact(contact: Contact, photoUpdateStatus: Int): Boolean</ID>
     <ID>LongMethod:ContactsHelper.kt$ContactsHelper$private fun getDeviceContacts(contacts: SparseArray&lt;Contact&gt;, ignoredContactSources: HashSet&lt;String&gt;?, gettingDuplicates: Boolean)</ID>
-    <ID>LongMethod:ContributorsScreen.kt$@Composable internal fun ContributorsScreen( goBack: () -&gt; Unit, contributors: ImmutableList&lt;LanguageContributor&gt; )</ID>
-    <ID>LongMethod:CopyMoveTask.kt$CopyMoveTask$private fun copyDirectory(source: FileDirItem, destinationPath: String)</ID>
-    <ID>LongMethod:CreateNewFolderDialog.kt$@Composable fun CreateNewFolderAlertDialog( alertDialogState: AlertDialogState, path: String, modifier: Modifier = Modifier, callback: (path: String) -&gt; Unit )</ID>
-    <ID>LongMethod:CustomIntervalPickerDialog.kt$@Composable fun CustomIntervalPickerAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, selectedSeconds: Int = 0, showSeconds: Boolean = false, callback: (minutes: Int) -&gt; Unit )</ID>
-    <ID>LongMethod:CustomizationActivity.kt$CustomizationActivity$private fun setupThemes()</ID>
-    <ID>LongMethod:DonateDialog.kt$@Composable fun DonateAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier )</ID>
     <ID>LongMethod:DynamicTheme.kt$fun getTheme(context: Context, materialYouTheme: Theme.SystemDefaultMaterialYou): Theme</ID>
-    <ID>LongMethod:EnterPasswordDialog.kt$@Composable fun EnterPasswordAlertDialog( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, callback: (password: String) -&gt; Unit, cancelCallback: () -&gt; Unit )</ID>
-    <ID>LongMethod:ExternalStorageProviderHack.kt$ExternalStorageProviderHack$fun transformQueryResult(rootDocId: String, uri: Uri, cursor: Cursor): Cursor</ID>
-    <ID>LongMethod:FileConflictDialog.kt$@Composable fun FileConflictAlertDialog( alertDialogState: AlertDialogState, fileDirItem: FileDirItemReadOnly, showApplyToAll: Boolean, modifier: Modifier = Modifier, callback: (resolution: Int, applyForAll: Boolean) -&gt; Unit )</ID>
-    <ID>LongMethod:LineColorPickerDialog.kt$@Composable fun LineColorPickerAlertDialog( alertDialogState: AlertDialogState, @ColorInt color: Int, isPrimaryColorPicker: Boolean, modifier: Modifier = Modifier, primaryColors: Int = R.array.md_primary_colors, appIconIDs: ArrayList&lt;Int&gt;? = null, onActiveColorChange: (color: Int) -&gt; Unit, onButtonPressed: (wasPositivePressed: Boolean, color: Int) -&gt; Unit )</ID>
-    <ID>LongMethod:ManageBlockedNumbersActivity.kt$ManageBlockedNumbersActivity$override fun onCreate(savedInstanceState: Bundle?)</ID>
-    <ID>LongMethod:ManageBlockedNumbersScreen.kt$@Composable internal fun ManageBlockedNumbersScreen( goBack: () -&gt; Unit, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, setAsDefault: () -&gt; Unit, isDialer: Boolean, hasGivenPermissionToBlock: Boolean, isBlockUnknownSelected: Boolean, showCheckmarksOnSwitches: Boolean, onBlockUnknownSelectedChange: (Boolean) -&gt; Unit, isHiddenSelected: Boolean, onHiddenSelectedChange: (Boolean) -&gt; Unit, blockedNumbers: ImmutableList&lt;BlockedNumber&gt;?, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onEdit: (BlockedNumber) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, )</ID>
-    <ID>LongMethod:MyRecyclerView.kt$MyRecyclerView$override fun dispatchTouchEvent(ev: MotionEvent): Boolean</ID>
     <ID>LongMethod:PropertiesDialog.kt$PropertiesDialog$private fun addProperties(path: String)</ID>
-    <ID>LongMethod:RadioGroupDialog.kt$@Composable fun RadioGroupAlertDialog( alertDialogState: AlertDialogState, items: ImmutableList&lt;RadioItem&gt;, modifier: Modifier = Modifier, selectedItemId: Int = -1, titleId: Int = 0, showOKButton: Boolean = false, cancelCallback: (() -&gt; Unit)? = null, callback: (newValue: Any) -&gt; Unit )</ID>
-    <ID>LongMethod:RenamePatternTab.kt$RenamePatternTab$override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -&gt; Unit)</ID>
-    <ID>LongMethod:RenameSimpleTab.kt$RenameSimpleTab$override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -&gt; Unit)</ID>
-    <ID>LongMethod:RenameSimpleTab.kt$RenameSimpleTab$private fun renameAllFiles( paths: List&lt;String&gt;, appendString: Boolean, stringToAdd: String, android30Format: Android30RenameFormat, callback: (success: Boolean) -&gt; Unit )</ID>
-    <ID>LongMethod:SimpleContactsHelper.kt$SimpleContactsHelper$private fun getContactNames(favoritesOnly: Boolean): List&lt;SimpleContact&gt;</ID>
-    <ID>LongMethod:StoragePickerDialog.kt$StoragePickerDialog$private fun initDialog()</ID>
     <ID>LongMethod:String.kt$fun String.getMimeType(): String</ID>
-    <ID>LongMethod:Theme.kt$@Composable internal fun Theme( theme: Theme = systemDefaultMaterialYou(), content: @Composable () -&gt; Unit, )</ID>
     <ID>LongMethod:VcfExporter.kt$VcfExporter$fun exportContacts( activity: BaseSimpleActivity, outputStream: OutputStream?, contacts: ArrayList&lt;Contact&gt;, showExportingToast: Boolean, callback: (result: ExportResult) -&gt; Unit )</ID>
-    <ID>LongMethod:WritePermissionDialog.kt$@Composable fun WritePermissionAlertDialog( alertDialogState: AlertDialogState, writePermissionDialogMode: WritePermissionDialog.WritePermissionDialogMode, modifier: Modifier = Modifier, callback: () -&gt; Unit, onCancelCallback: () -&gt; Unit )</ID>
-    <ID>LongParameterList:AboutScreen.kt$( onRateThisAppClick: () -&gt; Unit, onInviteClick: () -&gt; Unit, onContributorsClick: () -&gt; Unit, showRateUs: Boolean, showInvite: Boolean, showDonate: Boolean, onDonateClick: () -&gt; Unit, )</ID>
-    <ID>LongParameterList:AboutScreen.kt$( showMoreApps: Boolean, onMoreAppsClick: () -&gt; Unit, onPrivacyPolicyClick: () -&gt; Unit, onLicenseClick: () -&gt; Unit, versionName: String, packageName: String, onVersionClick: () -&gt; Unit, )</ID>
-    <ID>LongParameterList:Activity.kt$( curMinutes: Int, isSnoozePicker: Boolean = false, showSecondsAtCustomDialog: Boolean = false, showDuringDayOption: Boolean = false, cancelCallback: (() -&gt; Unit)? = null, callback: (seconds: Int) -&gt; Unit )</ID>
-    <ID>LongParameterList:Activity.kt$( curSeconds: Int, isSnoozePicker: Boolean = false, showSecondsAtCustomDialog: Boolean = false, showDuringDayOption: Boolean = false, cancelCallback: (() -&gt; Unit)? = null, callback: (seconds: Int) -&gt; Unit )</ID>
-    <ID>LongParameterList:Activity.kt$( view: View, dialog: AlertDialog.Builder, titleId: Int = 0, titleText: String = "", cancelOnTouchOutside: Boolean = true, callback: ((alertDialog: AlertDialog) -&gt; Unit)? = null )</ID>
-    <ID>LongParameterList:AppLockAdapter.kt$AppLockAdapter$( private val context: Context, private val requiredHash: String, private val hashListener: HashListener, private val viewPager: ViewPager2, private val biometricPromptHost: AuthPromptHost, private val showBiometricIdTab: Boolean, private val showBiometricAuthentication: Boolean )</ID>
-    <ID>LongParameterList:BaseSimpleActivity.kt$BaseSimpleActivity$( fileDirItems: ArrayList&lt;FileDirItem&gt;, source: String, destination: String, isCopyOperation: Boolean, copyPhotoVideoOnly: Boolean, copyHidden: Boolean, callback: (destinationPath: String) -&gt; Unit, )</ID>
-    <ID>LongParameterList:ChangeDateTimeFormatDialog.kt$( modifier: Modifier = Modifier, label: String, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, onChange: ((Boolean) -&gt; Unit)? = null, checkboxColors: CheckboxColors = CheckboxDefaults.colors( checkedColor = SimpleTheme.colorScheme.primary, checkmarkColor = SimpleTheme.colorScheme.surface, ) )</ID>
-    <ID>LongParameterList:ColorPickerDialog.kt$( alertDialogState: AlertDialogState, @ColorInt color: Int, modifier: Modifier = Modifier, removeDimmedBackground: Boolean = false, addDefaultColorButton: Boolean = false, onActiveColorChange: (color: Int) -&gt; Unit, onButtonPressed: (wasPositivePressed: Boolean, color: Int) -&gt; Unit )</ID>
-    <ID>LongParameterList:ConfirmationAdvancedDialog.kt$( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, message: String = "", messageId: Int? = R.string.proceed_with_deletion, positive: Int? = R.string.yes, negative: Int? = R.string.no, cancelOnTouchOutside: Boolean = true, callback: (result: Boolean) -&gt; Unit )</ID>
-    <ID>LongParameterList:ConfirmationAdvancedDialog.kt$ConfirmationAdvancedDialog$( activity: Activity, message: String = "", messageId: Int = R.string.proceed_with_deletion, positive: Int = R.string.yes, negative: Int = R.string.no, val cancelOnTouchOutside: Boolean = true, val callback: (result: Boolean) -&gt; Unit )</ID>
-    <ID>LongParameterList:ConfirmationDialog.kt$( alertDialogState: AlertDialogState, modifier: Modifier = Modifier, message: String = "", messageId: Int? = R.string.proceed_with_deletion, positive: Int? = R.string.yes, negative: Int? = R.string.no, cancelOnTouchOutside: Boolean = true, dialogTitle: String = "", callback: () -&gt; Unit )</ID>
-    <ID>LongParameterList:ConfirmationDialog.kt$ConfirmationDialog$( activity: Activity, message: String = "", messageId: Int = R.string.proceed_with_deletion, positive: Int = R.string.yes, negative: Int = R.string.no, val cancelOnTouchOutside: Boolean = true, dialogTitle: String = "", val callback: () -&gt; Unit )</ID>
-    <ID>LongParameterList:Context.kt$( uri: Uri, projection: Array&lt;String&gt;, selection: String? = null, selectionArgs: Array&lt;String&gt;? = null, sortOrder: String? = null, showErrors: Boolean = false, callback: (cursor: Cursor) -&gt; Unit )</ID>
-    <ID>LongParameterList:DragHandler.kt$( lazyListState: LazyListState, haptics: HapticFeedback, selectedIds: MutableState&lt;Set&lt;Long&gt;&gt;, autoScrollSpeed: MutableState&lt;Float&gt;, autoScrollThreshold: Float, dragUpdate: (Boolean) -&gt; Unit, ids: List&lt;Long&gt;, isScrollingUp: Boolean )</ID>
-    <ID>LongParameterList:FileDirItem.kt$FileDirItem$( val path: String, val name: String = "", var isDirectory: Boolean = false, var children: Int = 0, var size: Long = 0L, var modified: Long = 0L, var mediaStoreId: Long = 0L )</ID>
-    <ID>LongParameterList:FileDirItem.kt$FileDirItemReadOnly$( path: String, name: String = "", isDirectory: Boolean = false, children: Int = 0, size: Long = 0L, modified: Long = 0L, mediaStoreId: Long = 0L )</ID>
-    <ID>LongParameterList:FilePickerDialog.kt$FilePickerDialog$( private val activity: BaseSimpleActivity, private var currPath: String = Environment.getExternalStorageDirectory().toString(), private val pickFile: Boolean = true, private var showHidden: Boolean = false, private val showFAB: Boolean = false, private val canAddShowHiddenButton: Boolean = false, private val forceShowRoot: Boolean = false, private val showFavoritesButton: Boolean = false, private val showRationale: Boolean = true, private val enforceStorageRestrictions: Boolean = true, private val callback: (pickedPath: String) -&gt; Unit )</ID>
-    <ID>LongParameterList:LineColorPickerDialog.kt$( alertDialogState: AlertDialogState, @ColorInt color: Int, isPrimaryColorPicker: Boolean, modifier: Modifier = Modifier, primaryColors: Int = R.array.md_primary_colors, appIconIDs: ArrayList&lt;Int&gt;? = null, onActiveColorChange: (color: Int) -&gt; Unit, onButtonPressed: (wasPositivePressed: Boolean, color: Int) -&gt; Unit )</ID>
-    <ID>LongParameterList:LineColorPickerDialog.kt$LineColorPickerDialog$( val activity: BaseSimpleActivity, val color: Int, val isPrimaryColorPicker: Boolean, val primaryColors: Int = R.array.md_primary_colors, val appIconIDs: ArrayList&lt;Int&gt;? = null, val toolbar: MaterialToolbar? = null, val callback: (wasPositivePressed: Boolean, color: Int) -&gt; Unit )</ID>
-    <ID>LongParameterList:ManageBlockedNumbersScreen.kt$( goBack: () -&gt; Unit, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, setAsDefault: () -&gt; Unit, isDialer: Boolean, hasGivenPermissionToBlock: Boolean, isBlockUnknownSelected: Boolean, showCheckmarksOnSwitches: Boolean, onBlockUnknownSelectedChange: (Boolean) -&gt; Unit, isHiddenSelected: Boolean, onHiddenSelectedChange: (Boolean) -&gt; Unit, blockedNumbers: ImmutableList&lt;BlockedNumber&gt;?, onDelete: (Set&lt;Long&gt;) -&gt; Unit, onEdit: (BlockedNumber) -&gt; Unit, onCopy: (BlockedNumber) -&gt; Unit, )</ID>
-    <ID>LongParameterList:ManageBlockedNumbersScreen.kt$( modifier: Modifier = Modifier, selectedIdsCount: Int, blockedNumbersCount: Int, onBackClick: () -&gt; Unit, onCopy: () -&gt; Unit, onDelete: () -&gt; Unit, onSelectAll: () -&gt; Unit, )</ID>
-    <ID>LongParameterList:ManageBlockedNumbersScreen.kt$( scrolledColor: Color, navigationInteractionSource: MutableInteractionSource, goBack: () -&gt; Unit, scrollBehavior: TopAppBarScrollBehavior, statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color, onAdd: () -&gt; Unit, onImportBlockedNumbers: () -&gt; Unit, onExportBlockedNumbers: () -&gt; Unit, )</ID>
-    <ID>LongParameterList:PasswordTypesAdapter.kt$PasswordTypesAdapter$( private val context: Context, private val requiredHash: String, private val hashListener: HashListener, private val scrollView: MyScrollView, private val biometricPromptHost: AuthPromptHost, private val showBiometricIdTab: Boolean, private val showBiometricAuthentication: Boolean )</ID>
-    <ID>LongParameterList:RadioGroupDialog.kt$( alertDialogState: AlertDialogState, items: ImmutableList&lt;RadioItem&gt;, modifier: Modifier = Modifier, selectedItemId: Int = -1, titleId: Int = 0, showOKButton: Boolean = false, cancelCallback: (() -&gt; Unit)? = null, callback: (newValue: Any) -&gt; Unit )</ID>
-    <ID>LongParameterList:RadioGroupDialog.kt$RadioGroupDialog$( val activity: Activity, val items: ArrayList&lt;RadioItem&gt;, val checkedItemId: Int = -1, val titleId: Int = 0, showOKButton: Boolean = false, val cancelCallback: (() -&gt; Unit)? = null, val callback: (newValue: Any) -&gt; Unit )</ID>
-    <ID>LongParameterList:RadioGroupDialogComponent.kt$( modifier: Modifier = Modifier, items: List&lt;String&gt;, selected: String?, verticalPadding: Dp = 10.dp, horizontalPadding: Dp = 20.dp, setSelected: (selected: String) -&gt; Unit, )</ID>
     <ID>LongParameterList:SelectAlarmSoundDialog.kt$SelectAlarmSoundDialog$( val activity: BaseSimpleActivity, val currentUri: String, val audioStream: Int, val pickAudioIntentId: Int, val type: Int, val loopAudio: Boolean, val onAlarmPicked: (alarmSound: AlarmSound?) -&gt; Unit, val onAlarmSoundDeleted: (alarmSound: AlarmSound) -&gt; Unit )</ID>
-    <ID>LongParameterList:SettingsCheckBoxComponent.kt$( modifier: Modifier = Modifier, label: String, value: String? = null, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, onChange: ((Boolean) -&gt; Unit)? = null, checkboxColors: CheckboxColors = CheckboxDefaults.colors( checkedColor = SimpleTheme.colorScheme.primary, checkmarkColor = SimpleTheme.colorScheme.surface, ) )</ID>
-    <ID>LongParameterList:SettingsLazyGroup.kt$( modifier: Modifier = Modifier, title: @Composable (() -&gt; Unit)? = null, state: LazyListState = rememberLazyListState(), contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, content: LazyListScope.() -&gt; Unit )</ID>
-    <ID>LongParameterList:SettingsListItem.kt$( modifier: Modifier = Modifier, text: @Composable () -&gt; Unit, @DrawableRes icon: Int? = null, isImage: Boolean = false, click: (() -&gt; Unit)? = null, tint: Color? = null )</ID>
-    <ID>LongParameterList:SettingsListItem.kt$( modifier: Modifier = Modifier, text: String, description: String? = null, fontSize: TextUnit = TextUnit.Unspecified, maxLines: Int = Int.MAX_VALUE, overflow: TextOverflow = TextOverflow.Clip, @DrawableRes icon: Int? = null, isImage: Boolean = false, click: (() -&gt; Unit)? = null, tint: Color? = null )</ID>
-    <ID>LongParameterList:SettingsPreferenceComponent.kt$( modifier: Modifier = Modifier, label: String, value: String? = null, isPreferenceEnabled: Boolean = true, doOnPreferenceLongClick: (() -&gt; Unit)? = null, doOnPreferenceClick: (() -&gt; Unit)? = null, preferenceValueColor: Color = preferenceValueColor(isEnabled = isPreferenceEnabled), preferenceLabelColor: Color = preferenceLabelColor(isEnabled = isPreferenceEnabled) )</ID>
-    <ID>LongParameterList:SettingsSwitchComponent.kt$( modifier: Modifier = Modifier, label: String, value: String? = null, initialValue: Boolean = false, isPreferenceEnabled: Boolean = true, showCheckmark: Boolean, onChange: ((Boolean) -&gt; Unit)? = null, switchColors: SwitchColors = SwitchDefaults.colors() )</ID>
-    <ID>LongParameterList:SimpleColumnScaffold.kt$( modifier: Modifier = Modifier, customTopBar: @Composable (scrolledColor: Color, navigationInteractionSource: MutableInteractionSource, scrollBehavior: TopAppBarScrollBehavior, statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color) -&gt; Unit, goBack: () -&gt; Unit, reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, scrollState: ScrollState = rememberScrollState(), content: @Composable() (ColumnScope.(PaddingValues) -&gt; Unit) )</ID>
-    <ID>LongParameterList:SimpleColumnScaffold.kt$( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, actions: @Composable() (RowScope.() -&gt; Unit), goBack: () -&gt; Unit, reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, scrollState: ScrollState = rememberScrollState(), content: @Composable (ColumnScope.(PaddingValues) -&gt; Unit) )</ID>
-    <ID>LongParameterList:SimpleColumnScaffold.kt$( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, goBack: () -&gt; Unit, reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, scrollState: ScrollState = rememberScrollState(), content: @Composable (ColumnScope.(PaddingValues) -&gt; Unit) )</ID>
-    <ID>LongParameterList:SimpleColumnScaffold.kt$( title: String, goBack: () -&gt; Unit, modifier: Modifier = Modifier, reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, scrollState: ScrollState = rememberScrollState(), content: @Composable (ColumnScope.(PaddingValues) -&gt; Unit) )</ID>
-    <ID>LongParameterList:SimpleLazyListScaffold.kt$( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, actions: @Composable() (RowScope.() -&gt; Unit), goBack: () -&gt; Unit, contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, state: LazyListState = rememberLazyListState(), lazyContent: LazyListScope.(PaddingValues) -&gt; Unit )</ID>
-    <ID>LongParameterList:SimpleLazyListScaffold.kt$( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, goBack: () -&gt; Unit, contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, state: LazyListState = rememberLazyListState(), lazyContent: LazyListScope.(PaddingValues) -&gt; Unit )</ID>
-    <ID>LongParameterList:SimpleLazyListScaffold.kt$( modifier: Modifier = Modifier, topBar: @Composable (scrolledColor: Color, navigationInteractionSource: MutableInteractionSource, scrollBehavior: TopAppBarScrollBehavior, statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color) -&gt; Unit, contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, state: LazyListState = rememberLazyListState(), lazyContent: LazyListScope.(PaddingValues) -&gt; Unit )</ID>
-    <ID>LongParameterList:SimpleLazyListScaffold.kt$( title: String, goBack: () -&gt; Unit, modifier: Modifier = Modifier, contentPadding: PaddingValues = PaddingValues(0.dp), reverseLayout: Boolean = false, verticalArrangement: Arrangement.Vertical = if (!reverseLayout) Arrangement.Top else Arrangement.Bottom, horizontalAlignment: Alignment.Horizontal = Alignment.Start, flingBehavior: FlingBehavior = ScrollableDefaults.flingBehavior(), userScrollEnabled: Boolean = true, state: LazyListState = rememberLazyListState(), lazyContent: LazyListScope.(PaddingValues) -&gt; Unit )</ID>
-    <ID>LongParameterList:SimpleScaffoldTopBar.kt$( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, actions: @Composable RowScope.() -&gt; Unit, scrolledColor: Color, navigationIconInteractionSource: MutableInteractionSource = rememberMutableInteractionSource(), scrollBehavior: TopAppBarScrollBehavior = TopAppBarDefaults.pinnedScrollBehavior(rememberTopAppBarState()), statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color, goBack: () -&gt; Unit, )</ID>
-    <ID>LongParameterList:SimpleScaffoldTopBar.kt$( modifier: Modifier = Modifier, title: @Composable (scrolledColor: Color) -&gt; Unit, scrolledColor: Color, navigationIconInteractionSource: MutableInteractionSource = rememberMutableInteractionSource(), scrollBehavior: TopAppBarScrollBehavior = TopAppBarDefaults.pinnedScrollBehavior(rememberTopAppBarState()), statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color, goBack: () -&gt; Unit, )</ID>
-    <ID>LongParameterList:SimpleScaffoldTopBar.kt$( modifier: Modifier = Modifier, title: String, scrolledColor: Color, navigationIconInteractionSource: MutableInteractionSource = rememberMutableInteractionSource(), scrollBehavior: TopAppBarScrollBehavior = TopAppBarDefaults.pinnedScrollBehavior(rememberTopAppBarState()), statusBarColor: Int, colorTransitionFraction: Float, contrastColor: Color, goBack: () -&gt; Unit, )</ID>
     <ID>LoopWithTooManyJumpStatements:Context-contacts.kt$for</ID>
     <ID>LoopWithTooManyJumpStatements:Context-storage.kt$for</ID>
     <ID>LoopWithTooManyJumpStatements:File.kt$while</ID>
-    <ID>MagicNumber:ActionMenu.kt$50</ID>
     <ID>MagicNumber:Activity-themes.kt$10011977</ID>
     <ID>MagicNumber:Activity-themes.kt$10176442</ID>
     <ID>MagicNumber:Activity-themes.kt$10177034</ID>
@@ -503,7 +312,6 @@
     <ID>MagicNumber:Activity-themes.kt$985917</ID>
     <ID>MagicNumber:Activity-themes.kt$9920712</ID>
     <ID>MagicNumber:Activity.kt$10</ID>
-    <ID>MagicNumber:Activity.kt$1000</ID>
     <ID>MagicNumber:Activity.kt$2</ID>
     <ID>MagicNumber:Activity.kt$3</ID>
     <ID>MagicNumber:Activity.kt$30</ID>
@@ -516,7 +324,6 @@
     <ID>MagicNumber:ActivityExtensions.kt$50</ID>
     <ID>MagicNumber:AppLockAdapter.kt$AppLockAdapter$3</ID>
     <ID>MagicNumber:BaseConfig.kt$BaseConfig$10</ID>
-    <ID>MagicNumber:BaseSecurityTab.kt$BaseSecurityTab$1000L</ID>
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$10</ID>
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$100</ID>
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$18</ID>
@@ -530,14 +337,7 @@
     <ID>MagicNumber:Bitmap.kt$80</ID>
     <ID>MagicNumber:BottomActionMenuItemPopup.kt$BottomActionMenuItemPopup$0.8</ID>
     <ID>MagicNumber:BottomActionMenuItemPopup.kt$BottomActionMenuItemPopup$3f</ID>
-    <ID>MagicNumber:BottomSheetChooserDialog.kt$4</ID>
-    <ID>MagicNumber:CallConfirmationDialog.kt$1000</ID>
-    <ID>MagicNumber:CallConfirmationDialog.kt$200</ID>
-    <ID>MagicNumber:CallConfirmationDialog.kt$50</ID>
-    <ID>MagicNumber:CallConfirmationDialog.kt$500</ID>
     <ID>MagicNumber:ColorPickerDialog.kt$0.001f</ID>
-    <ID>MagicNumber:ColorPickerDialog.kt$0.95f</ID>
-    <ID>MagicNumber:ColorPickerDialog.kt$3</ID>
     <ID>MagicNumber:ColorPickerDialog.kt$360f</ID>
     <ID>MagicNumber:ColorPickerDialog.kt$6</ID>
     <ID>MagicNumber:ColorPickerDialog.kt$ColorPickerDialog$3</ID>
@@ -900,7 +700,6 @@
     <ID>MagicNumber:Colors.kt$0xFFFFF59B</ID>
     <ID>MagicNumber:Colors.kt$0xFFFFF9C4</ID>
     <ID>MagicNumber:Colors.kt$0xFFFFFFFF</ID>
-    <ID>MagicNumber:ColorsExtensions.kt$0.6f</ID>
     <ID>MagicNumber:Constants.kt$0xCC00796B</ID>
     <ID>MagicNumber:Constants.kt$0xCC0097A7</ID>
     <ID>MagicNumber:Constants.kt$0xCC0288D1</ID>
@@ -916,18 +715,12 @@
     <ID>MagicNumber:ContactsDatabase.kt$ContactsDatabase.Companion.&lt;no name provided&gt;$3</ID>
     <ID>MagicNumber:ContactsHelper.kt$ContactsHelper$50</ID>
     <ID>MagicNumber:Context-contacts.kt$3</ID>
-    <ID>MagicNumber:Context-storage.kt$1000</ID>
-    <ID>MagicNumber:Context-storage.kt$1000L</ID>
     <ID>MagicNumber:Context-styling.kt$4</ID>
-    <ID>MagicNumber:Context.kt$1000</ID>
-    <ID>MagicNumber:Context.kt$1000f</ID>
     <ID>MagicNumber:Context.kt$24</ID>
     <ID>MagicNumber:Context.kt$360</ID>
     <ID>MagicNumber:Context.kt$60</ID>
-    <ID>MagicNumber:CopyMoveTask.kt$CopyMoveTask$1000</ID>
     <ID>MagicNumber:CopyMoveTask.kt$CopyMoveTask$3000L</ID>
     <ID>MagicNumber:CopyMoveTask.kt$CopyMoveTask$500L</ID>
-    <ID>MagicNumber:CustomIntervalPickerDialog.kt$0.95f</ID>
     <ID>MagicNumber:CustomizationActivity.kt$CustomizationActivity$50</ID>
     <ID>MagicNumber:DynamicTheme.kt$10011977</ID>
     <ID>MagicNumber:DynamicTheme.kt$10176442</ID>
@@ -1109,7 +902,6 @@
     <ID>MagicNumber:Int.kt$0.05f</ID>
     <ID>MagicNumber:Int.kt$0.5</ID>
     <ID>MagicNumber:Int.kt$0xFFFFFF</ID>
-    <ID>MagicNumber:Int.kt$1000L</ID>
     <ID>MagicNumber:Int.kt$100f</ID>
     <ID>MagicNumber:Int.kt$1024.0</ID>
     <ID>MagicNumber:Int.kt$180</ID>
@@ -1121,7 +913,6 @@
     <ID>MagicNumber:Int.kt$90</ID>
     <ID>MagicNumber:KeypadHelper.kt$KeypadHelper$4</ID>
     <ID>MagicNumber:KeypadHelper.kt$KeypadHelper$5</ID>
-    <ID>MagicNumber:LineColorPickerDialog.kt$0.95f</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$10</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$11</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$12</ID>
@@ -1157,7 +948,6 @@
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$9</ID>
     <ID>MagicNumber:LocalContactsHelper.kt$LocalContactsHelper$30</ID>
     <ID>MagicNumber:Long.kt$1024.0</ID>
-    <ID>MagicNumber:ManageBlockedNumbersScreen.kt$10</ID>
     <ID>MagicNumber:MyAppCompatCheckbox.kt$MyAppCompatCheckbox$0.6f</ID>
     <ID>MagicNumber:MyAutoCompleteTextView.kt$MyAutoCompleteTextView$0.5f</ID>
     <ID>MagicNumber:MyCompatRadioButton.kt$MyCompatRadioButton$0.6f</ID>
@@ -1167,32 +957,23 @@
     <ID>MagicNumber:MyRecyclerView.kt$MyRecyclerView$25L</ID>
     <ID>MagicNumber:MyRecyclerView.kt$MyRecyclerView.GestureListener$0.15f</ID>
     <ID>MagicNumber:MyRecyclerView.kt$MyRecyclerView.GestureListener$0.4f</ID>
-    <ID>MagicNumber:MyRecyclerView.kt$MyRecyclerView.GestureListener$1000</ID>
     <ID>MagicNumber:PasswordTypesAdapter.kt$PasswordTypesAdapter$3</ID>
     <ID>MagicNumber:PinTab.kt$PinTab$10</ID>
     <ID>MagicNumber:Point.kt$10</ID>
     <ID>MagicNumber:Point.kt$1000000f</ID>
     <ID>MagicNumber:Point.kt$10f</ID>
-    <ID>MagicNumber:PropertiesDialog.kt$PropertiesDialog$1000L</ID>
-    <ID>MagicNumber:RadioGroupDialog.kt$3</ID>
     <ID>MagicNumber:RenamePatternTab.kt$RenamePatternTab$4</ID>
     <ID>MagicNumber:RenamePatternTab.kt$RenamePatternTab$5</ID>
     <ID>MagicNumber:SelectAlarmSoundDialog.kt$SelectAlarmSoundDialog$2</ID>
     <ID>MagicNumber:SimpleContactsHelper.kt$SimpleContactsHelper$30</ID>
     <ID>MagicNumber:SimpleContactsHelper.kt$SimpleContactsHelper$9</ID>
-    <ID>MagicNumber:SimpleScaffoldTopBar.kt$50</ID>
     <ID>MagicNumber:StoragePickerDialog.kt$StoragePickerDialog$3</ID>
     <ID>MagicNumber:StoragePickerDialog.kt$StoragePickerDialog$4</ID>
     <ID>MagicNumber:String.kt$9</ID>
     <ID>MagicNumber:SystemUIController.kt$0.3f</ID>
     <ID>MagicNumber:SystemUIController.kt$AndroidSystemUiController$29</ID>
     <ID>MagicNumber:SystemUIController.kt$SystemUiController$0.5f</ID>
-    <ID>MagicNumber:UpgradeToProDialog.kt$0.2f</ID>
     <ID>MagicNumber:VcfExporter.kt$VcfExporter$1900</ID>
-    <ID>MagicNumber:WhatsNewDialog.kt$14</ID>
-    <ID>MagicNumber:WhatsNewDialog.kt$3</ID>
-    <ID>MagicNumber:WritePermissionDialog.kt$0.9f</ID>
-    <ID>MagicNumber:WritePermissionDialog.kt$350</ID>
     <ID>MatchingDeclarationName:RecyclerViewPayloads.kt$RecyclerSelectionPayload</ID>
     <ID>MaxLineLength:AboutActivity.kt$AboutActivity$message = "${getString(R.string.before_asking_question_read_faq)}\n\n${getString(R.string.make_sure_latest)}"</ID>
     <ID>MaxLineLength:ActionMenu.kt$ActionItem(R.string.export_blocked_numbers, doAction = { }, overflowMode = OverflowMode.ALWAYS_OVERFLOW)</ID>
@@ -1583,6 +1364,24 @@
     <ID>MaxLineLength:WritePermissionDialog.kt$WritePermissionDialogModePreviewParameter$private</ID>
     <ID>MaxLineLength:WritePermissionDialog.kt$is WritePermissionDialog.WritePermissionDialogMode.OpenDocumentTreeSDK30</ID>
     <ID>MaxLineLength:WritePermissionDialog.kt$private</ID>
+    <ID>ModifierMissing:ActionMenu.kt$ActionMenu</ID>
+    <ID>ModifierMissing:BottomSheetDialogsExtensions.kt$BottomSheetSpacerEdgeToEdge</ID>
+    <ID>ModifierMissing:DonationScreen.kt$DonationCryptos</ID>
+    <ID>ModifierMissing:DonationScreen.kt$DonationListItem</ID>
+    <ID>ModifierMissing:DonationScreen.kt$DonationPlatforms</ID>
+    <ID>ModifierMissing:SimpleScaffoldTopBar.kt$SimpleBackIcon</ID>
+    <ID>ModifierNotUsedAtRoot:ChangeDateTimeFormatDialog.kt$modifier = modifier .padding(bottom = 64.dp) .verticalScroll(rememberScrollState())</ID>
+    <ID>ModifierNotUsedAtRoot:CustomIntervalPickerDialog.kt$modifier = modifier .padding(bottom = 64.dp) .verticalScroll(rememberScrollState())</ID>
+    <ID>ModifierNotUsedAtRoot:FileConflictDialog.kt$modifier = modifier .padding(bottom = 64.dp) .verticalScroll(rememberScrollState())</ID>
+    <ID>ModifierNotUsedAtRoot:RadioGroupDialog.kt$modifier = modifier .padding(bottom = if (shouldShowOkButton) 64.dp else 18.dp) .verticalScroll(rememberScrollState())</ID>
+    <ID>ModifierNotUsedAtRoot:SettingsTitleTextComponent.kt$modifier = modifier</ID>
+    <ID>ModifierNotUsedAtRoot:WritePermissionDialog.kt$modifier = modifier .padding(bottom = 64.dp) .verticalScroll(rememberScrollState())</ID>
+    <ID>MultipleEmitters:ManageBlockedNumbersScreen.kt$BlockedNumberTrailingContent</ID>
+    <ID>MultipleEmitters:WritePermissionDialog.kt$CreateDocumentSDK30</ID>
+    <ID>MultipleEmitters:WritePermissionDialog.kt$OTG</ID>
+    <ID>MultipleEmitters:WritePermissionDialog.kt$OpenDocumentTreeSDK30</ID>
+    <ID>MultipleEmitters:WritePermissionDialog.kt$SDCard</ID>
+    <ID>MutableParams:LineColorPickerDialog.kt$appIconIDs</ID>
     <ID>NestedBlockDepth:Activity-sdk30.kt$fun BaseSimpleActivity.copySingleFileSdk30(source: FileDirItem, destination: FileDirItem): Boolean</ID>
     <ID>NestedBlockDepth:Activity.kt$fun Activity.setupDialogStuff( view: View, dialog: AlertDialog.Builder, titleId: Int = 0, titleText: String = "", cancelOnTouchOutside: Boolean = true, callback: ((alertDialog: AlertDialog) -&gt; Unit)? = null )</ID>
     <ID>NestedBlockDepth:Activity.kt$fun BaseSimpleActivity.deleteFileBg( fileDirItem: FileDirItem, allowDeleteFolder: Boolean = false, isDeletingMultipleFiles: Boolean, callback: ((wasSuccess: Boolean) -&gt; Unit)? = null, )</ID>
@@ -1614,6 +1413,13 @@
     <ID>PackageNaming:BottomSheetDialogState.kt$package org.fossify.commons.compose.bottom_sheet</ID>
     <ID>PackageNaming:BottomSheetDialogsExtensions.kt$package org.fossify.commons.compose.bottom_sheet</ID>
     <ID>PackageNaming:SystemUIController.kt$package org.fossify.commons.compose.system_ui_controller</ID>
+    <ID>ParameterNaming:BottomSheetChooserDialog.kt$onItemClicked</ID>
+    <ID>ParameterNaming:ChangeViewTypeDialog.kt$onTypeChosen</ID>
+    <ID>ParameterNaming:ColorPickerDialog.kt$onButtonPressed</ID>
+    <ID>ParameterNaming:LineColorPickerDialog.kt$onButtonPressed</ID>
+    <ID>PreviewAnnotationNaming:PreviewExtensions.kt$MyDevicesDarkOnly$MyDevicesDarkOnly</ID>
+    <ID>PreviewAnnotationNaming:PreviewExtensions.kt$MyDevicesLightOnly$MyDevicesLightOnly</ID>
+    <ID>PreviewPublic:DonationScreen.kt$PreviewDonationScreen</ID>
     <ID>PrintStackTrace:Activity.kt$e</ID>
     <ID>ReturnCount:Activity.kt$fun Activity.getFinalUriFromPath(path: String, applicationId: String): Uri?</ID>
     <ID>ReturnCount:AlphanumericComparator.kt$AlphanumericComparator$fun compare(string1: String, string2: String): Int</ID>
