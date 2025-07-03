@@ -3,4 +3,9 @@
     <string name="updating">Atjaunina…</string>
     <string name="phone_storage">Tālruņa krātuve</string>
     <string name="phone_storage_hidden">Tālruņa krātuve (nav redzama citām lietotnēm)</string>
+    <string name="requires_fossify_thank_you">Nepieciešama lietotne \"Fossify paldies\"</string>
+    <string name="general_settings">Vispārīgi</string>
+    <string name="color_customization">Krāsu pielāgošana</string>
+    <string name="improved_color_customization">Uzlabota krāsu pielāgošana</string>
+    <string name="customize_colors">Pielāgot krāsas</string>
 </resources>
