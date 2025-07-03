@@ -1025,7 +1025,7 @@
     <string name="apply_to_all_apps">Kasuta neid värve kõikides Fossify rakendustes</string>
     <string name="shared_theme_note">Palun arvesta, et kuigi kasutad selle rakenduse Pro-versiooni, siis tehnilistel põhjustel palun paigalda ka rakendus Fossify Suur tänu. See tagab, et värvid on sünkroonis üle kõikide Fossify rakenduste.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Selle funktsionaalsuse kasutamiseks ja meie arendustöö toetamiseks palun osta <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Suur Tänu</a>. Aitäh juba ette!
+            Selle funktsionaalsuse kasutamiseks ja meie arendustöö toetamiseks palun osta <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Suur Tänu</a>. Täname sind juba ette!
         ]]></string>
     <string name="deletion_confirmation_short">Kas kustutame %s?</string>
     <string name="pin">PIN</string>
@@ -1085,4 +1085,5 @@
     <string name="rate_this_app">Hinda seda rakendust</string>
     <string name="more_fossify_apps">Vaata teisi Fossify rakendusi</string>
     <string name="evalex_title">EvalEx (matemaatilise avaldise hindamine)</string>
+    <string name="requires_fossify_thank_you">Eeldab rakenduse „Fossify suur tänu“ olemasolu</string>
 </resources>
