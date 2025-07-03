@@ -1144,4 +1144,5 @@
     <string name="more_fossify_apps">Другие приложения Fossify</string>
     <string name="rate_this_app">Оценить приложение</string>
     <string name="evalex_title">EvalEx (вычисление математических выражений)</string>
+    <string name="requires_fossify_thank_you">Требуется Fossify Thank You</string>
 </resources>
