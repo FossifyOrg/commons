@@ -1040,4 +1040,5 @@
     <string name="confirm_storage_access_restricted_text">Deze map is door systeembeperkingen niet beschikbaar.</string>
     <string name="rate_this_app">Beoordeel deze app</string>
     <string name="more_fossify_apps">Meer Fossify-apps</string>
+    <string name="requires_fossify_thank_you">Vereist Fossify Bedankje</string>
 </resources>
