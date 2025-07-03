@@ -339,7 +339,7 @@
     <string name="global_theme_success">颜色已成功更新。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
     <string name="shared_theme_note">请注意：即便你使用的是专业版的应用，你仍要需要通过 Fossify Thank You 应用来同步颜色。</string>
     <string name="purchase_thank_you"><![CDATA[
-            请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 解锁此功能并支持开发。谢谢！
+            请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 以解锁此功能并支持开发。谢谢！
         ]]></string>
     <string name="light_theme">浅色主题</string>
     <string name="dark_theme">深色主题</string>
@@ -1062,4 +1062,5 @@
     <string name="more_fossify_apps">更多 Fossify 应用</string>
     <string name="rate_this_app">评价此应用</string>
     <string name="evalex_title">EvalEx (数学表达式计值）</string>
+    <string name="requires_fossify_thank_you">需要 Fossify Thank You</string>
 </resources>
