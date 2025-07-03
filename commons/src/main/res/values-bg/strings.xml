@@ -1030,4 +1030,5 @@
     <string name="more_fossify_apps">Други приложения на Fossify</string>
     <string name="rate_this_app">Оценете приложението</string>
     <string name="evalex_title">EvalEx (изчсляване на математически изрази)</string>
+    <string name="requires_fossify_thank_you">Изисква Fossify Thank You</string>
 </resources>
