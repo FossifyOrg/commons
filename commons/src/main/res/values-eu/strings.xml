@@ -617,7 +617,7 @@
     <string name="widgets">Trepetak</string>
     <string name="use_same_snooze">Erabili atzeratze-denbora berdina beti</string>
     <string name="snooze_time">Atzeratze-denbora</string>
-    <string name="vibrate_on_button_press">Egin dar-dar botoia sakatzerakoan</string>
+    <string name="vibrate_on_button_press">Dardara egin botoia sakatzean</string>
     <string name="move_items_into_recycle_bin">Mugitu elementuak zakarrontzira ezabatu ordez</string>
     <string name="recycle_bin_cleaning_interval">Zakarrontzia garbitzeko tartea</string>
     <string name="empty_recycle_bin">Hustu zakarrontzia</string>
