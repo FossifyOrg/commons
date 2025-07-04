@@ -39,7 +39,7 @@ glideCompose = "1.0.0-beta01"
 #Room
 room = "2.7.1"
 #ezVcard
-ezVcard = "0.11.3"
+ezVcard = "0.12.1"
 #gson
 gson = "2.10.1"
 #jodaTime
