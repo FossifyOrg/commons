@@ -582,4 +582,8 @@
     <string name="search_favorites">Søk i favoritter</string>
     <string name="search_groups">Søk i grupper</string>
     <string name="format_phone_numbers">Formatere telefonnumre</string>
+    <string name="storage">Lagring</string>
+    <string name="internal_storage">Intern lagring</string>
+    <string name="files_tab">Filer</string>
+    <string name="recent_files_tab">Nylige filer</string>
 </resources>
