@@ -1047,4 +1047,6 @@
     <string name="confirm_storage_access_restricted_text_not_found">Neniu sistema dosieradministrilo-aplikaĵo estis trovita.</string>
     <string name="more_fossify_apps">Pli da aplikaĵoj de Fossify</string>
     <string name="rate_this_app">Taksi tiun ĉi aplikaĵon</string>
+    <string name="requires_fossify_thank_you">Postulas Fossify Dankon</string>
+    <string name="evalex_title">EvalEx (taksado de matematika esprimo)</string>
 </resources>
