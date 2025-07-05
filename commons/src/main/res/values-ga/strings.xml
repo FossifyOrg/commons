@@ -1040,8 +1040,8 @@
         <item quantity="other">%d míreanna á scriosadh</item>
     </plurals>
     <string name="purchase_thank_you"><![CDATA[
- Ceannaigh <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Go raibh maith agat le Fossify</a> chun an fheidhm seo a dhíghlasáil agus tacú leis an bhforbairt. Go raibh maith agat!
- ]]></string>
+            Ceannaigh <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Go raibh maith agat</a> le do thoil chun an ghné seo a dhíghlasáil agus tacú le forbairt. Go raibh maith agat!
+        ]]></string>
     <string name="faq_9_text_commons">Tá bealaí éagsúla ann chun é sin a dhéanamh. Tá an chéad cheann ag tosú ar an modh roghnúcháin trí mhír amháin a bhrú le fada, ansin cliceáil gearr ar dhaoine eile chun iad a roghnú. Tá an dara bealach cosúil le míreanna a roghnú ar ríomhairí pearsanta le luch, ach tús a chur leis an modh roghnúcháin trí mhír amháin a bhrú le fada, ansin le do mhéar fós síos tarraing é thar mhíreanna eile le roghnú. Is é an tríú bealach chun míreanna iolracha a roghnú ná mír amháin a bhrú le fada, ansin brú fada ar cheann eile agus roghnaítear gach rud idir eatarthu. Más mian leat gach mír a roghnú, brúigh mír amháin le fada, ansin cliceáil ar an gcuntar míre roghnaithe ag an gcúinne ag barr na láimhe clé. Roghnóidh sé sin gach rud nó díroghnaigh é.</string>
     <string name="faq_10_title_commons">Cheannaigh mé an aip, ach ní féidir liom é a íoslódáil ar ghléas eile.</string>
     <string name="faq_10_text_commons">Bain triail as do thaisce app Google Play a ghlanadh agus do ghléas a atosú. Tá sé roinnt glitch Google Play, nach bhfuil baint i ndáiríre leis an app féin.</string>
@@ -1158,4 +1158,6 @@
     <string name="confirm_storage_access_restricted_text_open_system">Oscail san aip córais</string>
     <string name="more_fossify_apps">Tuilleadh aipeanna Fossify</string>
     <string name="rate_this_app">Rátáil an aip seo</string>
+    <string name="requires_fossify_thank_you">Éilíonn Fossify Go raibh maith agat</string>
+    <string name="evalex_title">EvalEx (meastóireacht ar shloinnt mhatamaitice)</string>
 </resources>
