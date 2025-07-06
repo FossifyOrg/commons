@@ -316,7 +316,7 @@
     <string name="discard">Odbaci</string>
     <string name="undo_changes">Poništi promjene</string>
     <string name="undo_changes_confirmation">Stvarno želitš poništiti tvoje promjene?</string>
-    <string name="cannot_be_undone">Ovo je nepovratna radnja.</string>
+    <string name="cannot_be_undone">Ova se radnja ne može poništiti.</string>
     <string name="save_before_closing">Imaš nespremljene promjene. Želiš li ih spremiti prije izlaska?</string>
     <string name="global_theme_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
     <string name="purchase_thank_you"><![CDATA[
@@ -377,7 +377,7 @@
     <string name="sort_by">Sortiraj po</string>
     <string name="name">Naziv</string>
     <string name="size">Veličina</string>
-    <string name="last_modified">Datum zadnje izmjenjene</string>
+    <string name="last_modified">Datum zadnje promjene</string>
     <string name="date_created">Datum stvaranja</string>
     <string name="date_taken">Datum snimanja</string>
     <string name="title">Naslov</string>
@@ -450,7 +450,7 @@
     <string name="minutes_raw">minute</string>
     <string name="hours_raw">sati</string>
     <string name="days_raw">dani</string>
-    <string name="minutes_letter">%dmin</string>
+    <string name="minutes_letter">%d min</string>
     <string name="week_number_short">tj.</string>
     <plurals name="seconds">
         <item quantity="one">%d sekunda</item>
@@ -1083,8 +1083,8 @@
     <string name="pin">PIN</string>
     <string name="too_many_incorrect_attempts">Previše netočnih pokušaja otključavanja.
 \nPokušaj ponovo za %d sekunde.</string>
-    <string name="seconds_letter">%ds</string>
-    <string name="hours_letter">%dh</string>
+    <string name="seconds_letter">%d s</string>
+    <string name="hours_letter">%d h</string>
     <string name="alarm">Alarm</string>
     <string name="start_week_on">Početak tjedna je</string>
     <string name="files_tab">Datoteke</string>
@@ -1128,4 +1128,10 @@
     <string name="all_fossify_apps">Sve Fossify aplikacije</string>
     <string name="translation_central_kurdish">Centralnokurdski</string>
     <string name="known_issues">Poznati problemi</string>
+    <string name="confirm_storage_access_restricted_text">Zbog sustavskih ograničenja ova mapa nije dostupna.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Otvori u aplikaciji sustava</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Aplikacija za upravljanje datotekama sustava nije pronađena.</string>
+    <string name="number_of_items">Broj stavki</string>
+    <string name="reorder_items_by_dragging">Promijeni redoslijed stavki povlačenjem</string>
+    <string name="days_letter">%dd</string>
 </resources>
