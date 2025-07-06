@@ -1133,5 +1133,9 @@
     <string name="confirm_storage_access_restricted_text_not_found">Aplikacija za upravljanje datotekama sustava nije pronađena.</string>
     <string name="number_of_items">Broj stavki</string>
     <string name="reorder_items_by_dragging">Promijeni redoslijed stavki povlačenjem</string>
-    <string name="days_letter">%dd</string>
+    <string name="days_letter">%d d</string>
+    <string name="requires_fossify_thank_you">Zahtijeva Fossify Hvala</string>
+    <string name="more_fossify_apps">Još Fossify aplikacija</string>
+    <string name="rate_this_app">Ocijeni ovu aplikaciju</string>
+    <string name="evalex_title">EvalEx (evaluacija matematičkog izraza)</string>
 </resources>
