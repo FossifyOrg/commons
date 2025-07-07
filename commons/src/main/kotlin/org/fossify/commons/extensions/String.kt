@@ -553,6 +553,7 @@ fun String.getMimeType(): String {
         put("library-ms", "application/windows-library+xml")
         put("lit", "application/x-ms-reader")
         put("loadtest", "application/xml")
+        put("log", "text/plain")
         put("lpk", "application/octet-stream")
         put("lsf", "video/x-la-asf")
         put("lst", "text/plain")
