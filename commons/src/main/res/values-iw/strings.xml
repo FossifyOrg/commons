@@ -626,8 +626,8 @@
     <string name="duration">משך</string>
     <string name="shared_theme_note">שימו לב שגם אם אתם משתמשים בגרסת האפליקציה Pro, אתם עדיין צריכים את Fossify Thank You מסיבות טכניות. הוא מטפל בסנכרון הצבעים.</string>
     <string name="purchase_thank_you"><![CDATA[
-            אנא רכוש את <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> כדי לפתוח פונקציה זו ולתמוך בפיתוח. תודה!
-        ]]></string>
+אנא רכשו <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">תודה Fossify</a> כדי לפתוח תכונה זו ולתמוך בפיתוח. תודה!
+]]></string>
     <string name="apply_to_all_apps">החלת צבעים על כל אפליקציות Fossify</string>
     <string name="solarized">‌</string>
     <string name="whats_new_disclaimer">* רק העדכונים הגדולים יותר מופיעים כאן, תמיד יש גם כמה שיפורים קטנים יותר</string>
@@ -1084,4 +1084,6 @@
             ספרו לנו אם גם אתם רוצים לעזור. המדריך לתרגום נמצא בכתובת <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">באתר זה</a>, או פשוט צרו איתנו קשר בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש לכם שאלות.
             תודה לכל התורמים ולתומכים אחרים!
         ]]></string>
+    <string name="requires_fossify_thank_you">דורש Fossify תודה</string>
+    <string name="evalex_title">EvalEx (הערכה של ביטויים מתמטיים)</string>
 </resources>
