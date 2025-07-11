@@ -28,7 +28,7 @@
     <string name="never">Nunca</string>
     <string name="details">Detalles</string>
     <string name="notes">Notas</string>
-    <string name="deleting_folder">Eliminando carpeta \'%s\'</string>
+    <string name="deleting_folder">Eliminando carpeta «%s»</string>
     <string name="none">Ninguno</string>
     <string name="label">Etiqueta</string>
     <string name="transparent">Transparente</string>
@@ -74,7 +74,7 @@
     <string name="record_video">Grabar vídeo</string>
     <string name="updating">Actualizando…</string>
     <string name="phone_storage">Almacenamiento del teléfono</string>
-    <string name="phone_storage_hidden">Almacenamiento del teléfono (No visible para otras aplicaciones)</string>
+    <string name="phone_storage_hidden">Almacenamiento del teléfono (no visible para otras aplicaciones)</string>
     <string name="scanning">Escaneando…</string>
     <string name="birthday">Cumpleaños</string>
     <string name="anniversary">Aniversario</string>
@@ -139,11 +139,11 @@
     <string name="search_in_placeholder">Buscar en %s</string>
     <string name="type_2_characters">Escribe por lo menos dos caracteres para iniciar la búsqueda.</string>
     <string name="show_search">Mostrar una barra de búsqueda</string>
-    <string name="search_contacts">Buscar los contactos</string>
-    <string name="search_favorites">Buscar los favoritos</string>
+    <string name="search_contacts">Buscar contactos</string>
+    <string name="search_favorites">Buscar favoritos</string>
     <string name="search_apps">Buscar las aplicaciones</string>
     <string name="search_events">Buscar los eventos</string>
-    <string name="search_groups">Buscar los grupos</string>
+    <string name="search_groups">Buscar grupos</string>
     <string name="search_history">Historial de las búsquedas</string>
     <string name="search_calls">Buscar las llamadas</string>
     <string name="search_files">Buscar los archivos</string>
@@ -189,7 +189,7 @@
     <string name="renaming_folder">Renombrando carpeta</string>
     <string name="filename_cannot_be_empty">El nombre del archivo no puede estar vacío</string>
     <string name="filename_invalid_characters">El nombre del archivo contiene caracteres no válidos</string>
-    <string name="filename_invalid_characters_placeholder">El nombre del archivo \'%s\' contiene caracteres no válidos</string>
+    <string name="filename_invalid_characters_placeholder">El nombre del archivo «%s» contiene caracteres no válidos</string>
     <string name="extension_cannot_be_empty">La extensión no puede estar vacía</string>
     <string name="source_file_doesnt_exist">El archivo %s no existe</string>
     <string name="prepend_filenames">Anteponer los nombres de los archivo</string>
@@ -237,16 +237,16 @@
     <string name="create_new_folder">Crear nueva carpeta</string>
     <string name="name_taken">Ya existe un archivo o carpeta con ese nombre</string>
     <string name="invalid_name">El nombre contiene caracteres no válidos</string>
-    <string name="empty_name">Por favor introduce un nombre</string>
+    <string name="empty_name">Introduzca un nombre</string>
     <string name="unknown_error_occurred">Ocurrió un error desconocido</string>
-    <string name="file_already_exists">El archivo \"%s\" ya existe</string>
-    <string name="file_already_exists_overwrite">El archivo \"%s\" ya existe. ¿Sobreescribir?</string>
-    <string name="folder_already_exists">La carpeta \"%s\" ya existe</string>
+    <string name="file_already_exists">El archivo «%s» ya existe</string>
+    <string name="file_already_exists_overwrite">El archivo «%s» ya existe. ¿Quiere sobrescribirlo?</string>
+    <string name="folder_already_exists">La carpeta «%s» ya existe</string>
     <string name="merge">Fusionar</string>
     <string name="keep_both">Mantener ambos</string>
     <string name="overwrite">Sobreescribir</string>
     <string name="skip">Saltar</string>
-    <string name="append">Agregar con \'_1\'</string>
+    <string name="append">Sufijar «_1»</string>
     <string name="apply_to_all">Aplicar a todo</string>
     <string name="system_folder_restriction">El sistema no permite la operación en esta carpeta, por favor elija otra</string>
     <string name="system_folder_copy_restriction">El sistema no permite copiar en esta carpeta, por favor elija otra</string>
@@ -259,9 +259,9 @@
     <string name="confirm_folder_access_title">Confirmar el acceso a la carpeta</string>
     <string name="confirm_storage_access_text">Por favor, elija la carpeta raíz de la tarjeta SD en la próxima pantalla para conceder el acceso de escritura</string>
     <string name="confirm_storage_access_text_sd">Si no ve la tarjeta SD, pruebe esto</string>
-    <string name="confirm_storage_access_android_text">Por favor permita a la aplicacion acceder al almacenamiento seleccionado en la siguiente pantalla presionando \'Usar esta carpeta\' en la parte inferior.</string>
-    <string name="confirm_storage_access_android_text_specific">Permita el acceso a \'<b>%s</b>\' en la siguiente pantalla presionando \'<b>Usar esta carpeta</b>\' en la parte inferior.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Presione \'<b>Guardar</b>\' en la parte inferior de la siguiente pantalla para crear la nueva carpeta.</string>
+    <string name="confirm_storage_access_android_text">Permita a la aplicacion acceder al almacenamiento seleccionado en la pantalla siguiente presionando «Usar esta carpeta» en la parte inferior.</string>
+    <string name="confirm_storage_access_android_text_specific">Permita el acceso a «<b>%s</b>» en la siguiente pantalla presionando «<b>Usar esta carpeta</b>» en la parte inferior.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Presione «<b>Guardar</b>» en la parte inferior de la pantalla siguiente para crear la carpeta nueva.</string>
     <string name="confirm_selection">Confirmar la selección</string>
     <string name="loading">Cargando…</string>
     <string name="access_storage_prompt">Por favor conceda a nuestra aplicación el acceso a todos los archivos, es posible que no funcione bien sin ella.</string>
@@ -295,7 +295,7 @@
     <string name="sd_card_usb_same">Las rutas de la tarjeta SD y del dispositivo USB no pueden ser las mismas</string>
     <string name="app_on_sd_card">Parece que tienes la aplicación instalada en una tarjeta SD, lo que hace que los widgets de la aplicación no estén disponibles. Ni siquiera los verás en la lista de widgets disponibles.
         Es una limitación del sistema, por lo que si deseas usar los widgets, debes volver a colocar la aplicación en el almacenamiento interno.</string>
-    <string name="wrong_folder_selected">Carpeta incorrecta seleccionada, por favor seleccione la ruta \'%s\'</string>
+    <string name="wrong_folder_selected">Se seleccionó una carpeta incorrecta; seleccione la ruta «%s»</string>
     <string name="properties">Propiedades</string>
     <string name="path">Ruta</string>
     <string name="items_selected">Elementos seleccionados</string>
@@ -337,9 +337,9 @@
     <string name="cannot_be_undone">Esta acción no se puede deshacer.</string>
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
     <string name="app_icon_color_warning">Precaución: Es posible que algunos lanzadores no gestionen correctamente la personalización de los iconos de las aplicaciones. Si el icono desaparece, intente iniciar la aplicación a través de Google Play o un widget, si es accesible. Una vez iniciada, restaura el icono verde #106D1F predeterminado. En casos extremos, puede ser necesario reinstalar la aplicación.</string>
-    <string name="global_theme_success">Colores actualizados correctamente. Se ha añadido un nuevo tema llamado \'Compartido\', por favor utilicelo para actualizar los colores de todas las aplicaciones en el futuro.</string>
+    <string name="global_theme_success">El tema actual se ha aplicado correctamente a todas las aplicaciones de Fossify. Cualquier cambio futuro en este tema se sincronizará automáticamente.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Por favor compra <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta función y ayudar al desarrollo. ¡Gracias!
+            Compre <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta funcionalidad y apoyar el desarrollo. ¡Gracias!
         ]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>
@@ -1062,10 +1062,10 @@
     <string name="android_lame_title">AndroidLame (codificador de mp3)</string>
     <string name="zip4j_title">Zip4j (compresión y descompresión de los ZIP)</string>
     <string name="trial_expired">La prueba ha caducado</string>
-    <string name="start_free_trial">Comienza tu prueba gratuita</string>
+    <string name="start_free_trial">Comenzar prueba gratuita</string>
     <string name="trial_expires_soon">Su período de prueba está a punto de expirar.</string>
-    <string name="unlock_for_one_final_day">Desbloquea la aplicación un último día</string>
-    <string name="welcome_to_app_name">¡Bienvenido a %s!</string>
+    <string name="unlock_for_one_final_day">Desbloquear aplicación un último día</string>
+    <string name="welcome_to_app_name">Le damos la bienvenida a %s.</string>
     <string name="trial_start_description">Gracias por usar nuestra aplicación . Puedes usar esta versión desbloqueada durante <font color="#FFFFFF">%ddías</font> . Una vez que finalice la prueba, considera actualizar a la versión Pro . Tiene una gran cantidad de nuevas funciones, diseño moderno, sin anuncios y muchas otras mejoras. \n\nSolo tienes que pagarlo una vez en la vida y si no quedas satisfecho, puedes desinstalarlo y obtener un reembolso.\n\nEspero que te guste :)</string>
     <string name="trial_end_description">Por favor, actualice a la versión Pro para disfrutar de la aplicación al máximo.
 \n
@@ -1148,4 +1148,5 @@
     <string name="confirm_storage_access_restricted_text_not_found">No se pudo encontrar una aplicación de administrador de archivos del sistema.</string>
     <string name="more_fossify_apps">Más aplicaciones Fossify</string>
     <string name="rate_this_app">Valorar esta aplicación</string>
+    <string name="requires_fossify_thank_you">Requiere Fossify Thank You</string>
 </resources>
