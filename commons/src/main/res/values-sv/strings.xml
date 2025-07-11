@@ -175,7 +175,7 @@
     <string name="allow_notifications_incoming_messages">Du måste tillåta att appen visar aviseringar, annars kan den inte visa inkommande meddelanden.</string>
     <string name="allow_alarm_scheduled_messages">Du måste ge appen åtkomst till interna alarm, annars kan den inte skicka schemalagda meddelanden.</string>
     <string name="allow_alarm_sleep_timer">Du måste ge appen åtkomst till interna alarm, annars kan den inte stänga av appen efter sovtimern.</string>
-    <string name="allow_location_permission">Du måste tillåta att appen kommer åt din plats, annars känner den inte till det.</string>
+    <string name="allow_location_permission">Du måste ge appen åtkomst till din plats, annars vet den inte var du befinner dig.</string>
     <string name="grant_permission">Bevilja behörighet</string>
     <string name="permission_required">Behörighet krävs</string>
     <string name="rename_file">Byt namn på fil</string>
@@ -1081,4 +1081,5 @@
     <string name="support">Support</string>
     <string name="confirm_storage_access_restricted_text_not_found">Det gick inte att hitta någon systemapp för filhantering.</string>
     <string name="evalex_title">EvalEx (utvärdering av matematiska uttryck)</string>
+    <string name="requires_fossify_thank_you">Kräver Fossify Thank You</string>
 </resources>
