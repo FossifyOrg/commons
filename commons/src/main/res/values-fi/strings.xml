@@ -331,6 +331,7 @@
     <string name="save_before_closing">Sinulla on tallentamattomia muutoksia. Tallennetaanko ennen sulkemista?</string>
     <string name="global_theme_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
     <string name="purchase_thank_you"><![CDATA[
+            Please purchase <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou"><![CDATA[
             Osta <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
         ]]></string>
     <string name="light_theme">Vaalea</string>
@@ -1103,4 +1104,6 @@
         ]]></string>
     <string name="more_fossify_apps">Lisää Fossify-sovelluksia</string>
     <string name="rate_this_app">Arvostele sovellus</string>
+    <string name="requires_fossify_thank_you">Vaatii Fossify Thank You:n</string>
+    <string name="evalex_title">EvalEx (matemaattisen lausekkeen arviointi)</string>
 </resources>
