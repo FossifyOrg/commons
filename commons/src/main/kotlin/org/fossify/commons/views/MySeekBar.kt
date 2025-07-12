@@ -5,7 +5,7 @@ import android.util.AttributeSet
 import android.widget.SeekBar
 import org.fossify.commons.extensions.applyColorFilter
 
-class MySeekBar : SeekBar {
+open class MySeekBar : SeekBar {
     constructor(context: Context) : super(context)
 
     constructor(context: Context, attrs: AttributeSet) : super(context, attrs)

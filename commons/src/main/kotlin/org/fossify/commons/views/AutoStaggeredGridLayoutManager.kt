@@ -10,7 +10,7 @@ import kotlin.math.max
  * @param context The initiating view's context.
  * @param itemSize: Grid item size (width or height, depending on orientation) in pixels. Will be used to calculate span count.
  */
-class AutoStaggeredGridLayoutManager(
+open class AutoStaggeredGridLayoutManager(
     private var itemSize: Int,
     orientation: Int,
 ) : StaggeredGridLayoutManager(1, orientation) {

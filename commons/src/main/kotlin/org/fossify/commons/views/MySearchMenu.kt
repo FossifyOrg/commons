@@ -12,7 +12,7 @@ import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.LOWER_ALPHA
 import org.fossify.commons.helpers.MEDIUM_ALPHA
 
-class MySearchMenu(context: Context, attrs: AttributeSet) : AppBarLayout(context, attrs) {
+open class MySearchMenu(context: Context, attrs: AttributeSet) : AppBarLayout(context, attrs) {
     var isSearchOpen = false
     var useArrowIcon = false
     var onSearchOpenListener: (() -> Unit)? = null

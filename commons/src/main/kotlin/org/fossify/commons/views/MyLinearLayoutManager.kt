@@ -4,7 +4,7 @@ import android.content.Context
 import android.util.AttributeSet
 import androidx.recyclerview.widget.LinearLayoutManager
 
-class MyLinearLayoutManager : LinearLayoutManager {
+open class MyLinearLayoutManager : LinearLayoutManager {
     constructor(context: Context) : super(context)
 
     constructor(context: Context, attrs: AttributeSet, defStyleAttr: Int, defStyleRes: Int) : super(context, attrs, defStyleAttr, defStyleRes)

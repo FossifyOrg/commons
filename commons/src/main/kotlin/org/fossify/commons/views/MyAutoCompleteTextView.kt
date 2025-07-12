@@ -6,7 +6,7 @@ import android.widget.AutoCompleteTextView
 import org.fossify.commons.extensions.adjustAlpha
 import org.fossify.commons.extensions.applyColorFilter
 
-class MyAutoCompleteTextView : AutoCompleteTextView {
+open class MyAutoCompleteTextView : AutoCompleteTextView {
     constructor(context: Context) : super(context)
 
     constructor(context: Context, attrs: AttributeSet) : super(context, attrs)

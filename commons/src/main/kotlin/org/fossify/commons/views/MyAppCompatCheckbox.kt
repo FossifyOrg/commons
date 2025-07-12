@@ -6,7 +6,7 @@ import android.util.AttributeSet
 import androidx.appcompat.widget.AppCompatCheckBox
 import org.fossify.commons.extensions.adjustAlpha
 
-class MyAppCompatCheckbox : AppCompatCheckBox {
+open class MyAppCompatCheckbox : AppCompatCheckBox {
     constructor(context: Context) : super(context)
 
     constructor(context: Context, attrs: AttributeSet) : super(context, attrs)

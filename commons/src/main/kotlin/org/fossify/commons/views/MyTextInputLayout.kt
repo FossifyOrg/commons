@@ -9,7 +9,7 @@ import org.fossify.commons.extensions.value
 import org.fossify.commons.helpers.HIGHER_ALPHA
 import org.fossify.commons.helpers.MEDIUM_ALPHA
 
-class MyTextInputLayout : TextInputLayout {
+open class MyTextInputLayout : TextInputLayout {
     constructor(context: Context) : super(context)
 
     constructor(context: Context, attrs: AttributeSet) : super(context, attrs)

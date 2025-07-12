@@ -10,7 +10,7 @@ import org.fossify.commons.extensions.adjustAlpha
 import org.fossify.commons.extensions.baseConfig
 import org.fossify.commons.extensions.getContrastColor
 
-class MyMaterialSwitch : MaterialSwitch {
+open class MyMaterialSwitch : MaterialSwitch {
     constructor(context: Context) : super(context)
 
     constructor(context: Context, attrs: AttributeSet) : super(context, attrs)
