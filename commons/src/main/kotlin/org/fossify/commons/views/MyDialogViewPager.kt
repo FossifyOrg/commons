@@ -6,7 +6,7 @@ import android.view.MotionEvent
 import android.view.View
 import androidx.viewpager.widget.ViewPager
 
-class MyDialogViewPager : ViewPager {
+open class MyDialogViewPager : ViewPager {
     var allowSwiping = true
 
     constructor(context: Context) : super(context)

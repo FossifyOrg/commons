@@ -10,7 +10,7 @@ import org.fossify.commons.R
 import org.fossify.commons.adapters.MyArrayAdapter
 import org.fossify.commons.extensions.applyColorFilter
 
-class MyAppCompatSpinner : AppCompatSpinner {
+open class MyAppCompatSpinner : AppCompatSpinner {
     constructor(context: Context) : super(context)
 
     constructor(context: Context, attrs: AttributeSet) : super(context, attrs)

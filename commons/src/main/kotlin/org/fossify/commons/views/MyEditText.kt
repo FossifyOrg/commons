@@ -7,7 +7,7 @@ import org.fossify.commons.extensions.adjustAlpha
 import org.fossify.commons.extensions.applyColorFilter
 import org.fossify.commons.helpers.MEDIUM_ALPHA
 
-class MyEditText : AppCompatEditText {
+open class MyEditText : AppCompatEditText {
     constructor(context: Context) : super(context)
 
     constructor(context: Context, attrs: AttributeSet) : super(context, attrs)

@@ -10,7 +10,7 @@ import kotlin.math.max
  * @param context The initiating view's context.
  * @param itemWidth: Grid item width in pixels. Will be used to calculate span count.
  */
-class AutoGridLayoutManager(
+open class AutoGridLayoutManager(
     context: Context,
     private var itemWidth: Int
 ) : MyGridLayoutManager(context, 1) {
