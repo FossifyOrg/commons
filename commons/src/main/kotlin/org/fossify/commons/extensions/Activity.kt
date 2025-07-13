@@ -1675,6 +1675,9 @@ fun BaseSimpleActivity.getAlarmSounds(type: Int, callback: (ArrayList<AlarmSound
     try {
         val cursor = manager.cursor
         var curId = 1
+        val defaultAlarmSound = getDefaultAlarmSound(type)
+        val defaultAlarm = AlarmSound(curId++, defaultAlarmSound.title, defaultAlarmSound.uri)
+        alarms.add(defaultAlarm)
         val silentAlarm = AlarmSound(curId++, getString(R.string.no_sound), SILENT)
         alarms.add(silentAlarm)
 
