@@ -247,7 +247,7 @@
     <string name="confirm_storage_access_text">Выберыце верхнюю папку SD-карты на наступным экране, каб даць доступ для запісу</string>
     <string name="confirm_storage_access_text_sd">Калі вы не бачыце SD-карту, паспрабуйце гэта</string>
     <string name="confirm_storage_access_android_text">Калі ласка, дазвольце праграме доступ да выбранага сховішча на наступным экране, націснуўшы \"Выкарыстоўваць гэту тэчку\" ўнізе.</string>
-    <string name="confirm_storage_access_android_text_specific">Калі ласка, дазвольце доступ \'<b>%s</b>\' на наступным экране, націснуўшы \'<b>Выкарыстоўвайце гэтую тэчку</b>\' на дне.</string>
+    <string name="confirm_storage_access_android_text_specific">Калі ласка, дазвольце доступ \'<b>%s</b>\' на наступным экране, націснуўшы \'<b>Выкарыстоўвайце гэтую папку</b>\' у нізе.</string>
     <string name="confirm_create_doc_for_new_folder_text">Калі ласка, націсніце \'<b>Захаваць</b>\' унізе наступнага экрана, каб стварыць новую тэчку.</string>
     <string name="confirm_selection">Пацвердзіце выбар</string>
     <string name="loading">Загрузка…</string>
