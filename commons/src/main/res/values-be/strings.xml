@@ -11,8 +11,8 @@
     <string name="out_of_memory_error">Памылка недахопу памяці</string>
     <string name="an_error_occurred">Адбылася памылка: %s</string>
     <string name="error">Памылка: %s</string>
-    <string name="open_with">Адкрыць у…</string>
-    <string name="edit_with">Рэдагаваць у…</string>
+    <string name="open_with">Адкрыць праз</string>
+    <string name="edit_with">Рэдагаваць праз</string>
     <string name="edit">Рэдагаваць</string>
     <string name="no_app_found">Не знойдзена сапраўднае прыкладанне</string>
     <string name="no_browser_found">Браўзер не знойдзены</string>
@@ -192,8 +192,8 @@
     <string name="copy">Капіяваць</string>
     <string name="move">Перамясціць</string>
     <string name="copy_move">Капіяваць/перамясціць</string>
-    <string name="copy_to">Капіяваць у…</string>
-    <string name="move_to">Перамясціць у…</string>
+    <string name="copy_to">Капіяваць у</string>
+    <string name="move_to">Перамясціць у</string>
     <string name="source">Крыніца</string>
     <string name="destination">Мэта</string>
     <string name="select_destination">Выберыце пункт прызначэння</string>
@@ -247,7 +247,7 @@
     <string name="confirm_storage_access_text">Выберыце верхнюю папку SD-карты на наступным экране, каб даць доступ для запісу</string>
     <string name="confirm_storage_access_text_sd">Калі вы не бачыце SD-карту, паспрабуйце гэта</string>
     <string name="confirm_storage_access_android_text">Калі ласка, дазвольце праграме доступ да выбранага сховішча на наступным экране, націснуўшы \"Выкарыстоўваць гэту тэчку\" ўнізе.</string>
-    <string name="confirm_storage_access_android_text_specific">Калі ласка, дазвольце доступ \'<b>%s</b>\' на наступным экране, націснуўшы \'<b>Выкарыстоўвайце гэтую папку</b>\' у нізе.</string>
+    <string name="confirm_storage_access_android_text_specific">Калі ласка, дазвольце доступ \'<b>%s</b>\' на наступным экране, націснуўшы \'<b>Выкарыстоўвайце гэтую папку</b>\' ў нізе.</string>
     <string name="confirm_create_doc_for_new_folder_text">Калі ласка, націсніце \'<b>Захаваць</b>\' унізе наступнага экрана, каб стварыць новую тэчку.</string>
     <string name="confirm_selection">Пацвердзіце выбар</string>
     <string name="loading">Загрузка…</string>
@@ -343,7 +343,7 @@
     <string name="remove">Зняць</string>
     <string name="rename">Перайменаваць</string>
     <string name="share">Абагуліць</string>
-    <string name="share_via">Абагуліць праз…</string>
+    <string name="share_via">Абагуліць праз</string>
     <string name="resize">Змяніць памер</string>
     <string name="select_all">Выбраць усё</string>
     <string name="select_text">Выбраць тэкст</string>
@@ -376,7 +376,7 @@
     <string name="call">Выклік</string>
     <string name="wallpapers">Шпалеры</string>
     <string name="sleep_timer">Таймер сну</string>
-    <string name="sort_by">Сартаваць па…</string>
+    <string name="sort_by">Сартаваць па</string>
     <string name="name">Назва</string>
     <string name="size">Памер</string>
     <string name="last_modified">Апошні раз зменена</string>
@@ -433,7 +433,7 @@
     <string name="no_fingerprints_registered">У вас няма зарэгістраваных адбіткаў пальцаў, дадайце іх у наладах вашай прылады</string>
     <string name="go_to_settings">Перайдзіце ў Налады</string>
     <string name="protection_setup_successfully">Ўстаноўка пароля прайшла паспяхова. Калі ласка, пераўсталюеце прыкладанне на выпадак, калі вы яго забудзецеся.</string>
-    <string name="fingerprint_setup_successfully">Налада абароны выканана паспяхова. Калі ласка, пераўсталюеце прыкладанне ў выпадку ўзнікнення праблем з яго скідам.</string>
+    <string name="fingerprint_setup_successfully">Налада абароны выканана паспяхова. Калі ласка, пераўсталюеце праграму ў выпадку ўзнікнення праблем з яго скідам.</string>
     <string name="lock_folder">Заблакіраваць тэчку</string>
     <string name="lock_folder_pro">Заблакіраваць тэчку (Pro)</string>
     <string name="unlock_folder">Разблакіраваць тэчку</string>
@@ -886,7 +886,9 @@
     <string name="sms_messenger_short">Паведамленні</string>
     <string name="thank_you_short">Падзяка</string>
     <string name="voice_recorder_short">Дыктафон</string>
-    <string name="sideloaded_app">Падобна на тое, што версія вашага прыкладання пашкоджана. Калі ласка, запампуйце арыгінальную версію &lt;a href=%s&gt;тут&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[
+            Выглядае так, што версія ваша праграмы нядзейная. Калі ласка, спампуйце арыгінальнкю версію <a href="%s">here</a>.
+        ]]></string>
     <string name="frequently_asked_questions">Часта задаюць пытанні</string>
     <string name="before_asking_question">Перш чым задаць пытанне, прачытайце</string>
     <string name="faq_1_title_commons">Чаму я не бачу гэты віджэт праграм у спісе віджэтаў\?</string>
@@ -978,4 +980,6 @@
     <string name="deprecated_app">САСТАРЕЛА: гэтая версія праграмы больш не падтрымліваецца, атрымайце версію Pro па адрасе https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Не забывайце, што калі вы выдаліце любую платную праграму на працягу 2 гадзін, вам аўтаматычна вернуць грошы. Калі вы хочаце вярнуць грошы ў любы час пазней, проста звяжыцеся з намі па адрасе hello@fossify.org, і вы атрымаеце іх. Гэта дазваляе лёгка паспрабаваць :)</string>
     <string name="developer_description">Група простых праграм для Android з адкрытым зыходным кодам і віджэтамі, якія можна наладзіць, без рэкламы і непатрэбных дазволаў.</string>
+    <string name="app_icon_color_warning">Увага: екаторыя лаўнчаоы могуць не каррэктна адлюстроўваць іконку праграмы. Калі іконка знікае, паспрабуйце запусціць праграму праз Google Play ці віджэт, калі гэта магчыма. Пасля запуску, аднавіце стандартную зялёную іконку #106D1F. Калі гэта не дапамагло, пераўстанавіце праграму.</string>
+    <string name="faq_6_text_commons">Гэта хібнасць з\'яўляецца, калі ваш лаўнчар не цалкам падтрымлівае кастамізацыю іконак. Паспрабуйце запусціць праграму праз Google Play ці віджэт. Пасля запуску, аднавіце стандартную зялёную іконку #106D1F. Калі гэта не дапамагло, пераўсталюйце праграму.</string>
 </resources>
