@@ -44,7 +44,7 @@
     <string name="number">Nummer</string>
     <string name="no_contacts_found">Inga kontakter hittades</string>
     <string name="request_the_required_permissions">Begär de behörigheter som krävs</string>
-    <string name="no_access_to_contacts">Appen kunde inte nå dina kontakter</string>
+    <string name="no_access_to_contacts">Appen kunde inte komma åt dina kontakter</string>
     <string name="no_phone_call_permission">Appen har inte behörighet att ringa telefonsamtal, ge den behörighet i din apparats inställningar</string>
     <string name="insert_text_here">Skriv här</string>
     <string name="call_person">Ring %s</string>
@@ -1083,4 +1083,5 @@
     <string name="evalex_title">EvalEx (utvärdering av matematiska uttryck)</string>
     <string name="requires_fossify_thank_you">Kräver Fossify Thank You</string>
     <string name="string_to_add">Sträng som ska läggas till</string>
+    <string name="donate_short">Stöd oss genom att köpa &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, detta låser också upp alla appfunktioner inklusive färganpassning.</string>
 </resources>
