@@ -921,7 +921,7 @@
     <string name="why_upgrade_background_color_customization">自定义背景色</string>
     <string name="why_upgrade_file_importing">支持导入文件</string>
     <string name="why_upgrade_zooming">缩放</string>
-    <string name="notice">本应用使用了下列的第三方程序库。非常感谢他们的贡献。</string>
+    <string name="notice">本应用使用了以下第三方库。非常感谢他们的贡献。</string>
     <string name="third_party_licences">第三方许可</string>
     <string name="kotlin_title">Kotlin (编程语言)</string>
     <string name="subsampling_title">Subsampling Scale Image View (可缩放图像视图)</string>
