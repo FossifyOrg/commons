@@ -723,7 +723,6 @@
     <string name="picasso_title">Picasso (טעינה ושמירת תמונות במטמון)</string>
     <string name="pattern_title">PatternLockView (הגנת נעילה באמצעות דפוס)</string>
     <string name="reprint_title">Reprint (הגנה באמצעות טביעת אצבע)</string>
-    <string name="notice">אפליקציה זו משתמשת בספריות צד שלישי הבאות כדי להקל עליי את החיים. תודה.</string>
     <string name="trial_expires_soon">תקופת הניסיון שלך תסתיים בקרוב.</string>
     <string name="espresso_title">Espresso (כלי עזר לבדיקות)</string>
     <string name="leak_canary_title">Leak Canary (מאתר דליפות זיכרון)</string>

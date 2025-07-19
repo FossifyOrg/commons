@@ -1020,7 +1020,6 @@
     <string name="why_upgrade_background_color_customization">Personalizzazione del colore di sfondo</string>
     <string name="why_upgrade_file_importing">Supporto per l`importazione di file</string>
     <string name="why_upgrade_zooming">Zoom</string>
-    <string name="notice">Questa app usa le seguenti librerie di terze parti per semplificarmi la vita. Vi ringrazio.</string>
     <string name="third_party_licences">Licenze di terze parti</string>
     <string name="kotlin_title">Kotlin (linguaggio di programmazione)</string>
     <string name="subsampling_title">PhotoView (immagini ingrandibili)</string>
