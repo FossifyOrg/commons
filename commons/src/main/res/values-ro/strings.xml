@@ -867,7 +867,6 @@
     <string name="why_upgrade_background_color_customization">Personalizarea culorii de fundal</string>
     <string name="why_upgrade_file_importing">Suport pentru importul de fișiere</string>
     <string name="why_upgrade_zooming">Mărire</string>
-    <string name="notice">Această aplicație utilizează următoarele biblioteci terțe pentru a îmi face viața mai ușoară. Îţi mulțumesc.</string>
     <string name="third_party_licences">Licențe ale părţilor terți</string>
     <string name="kotlin_title">Kotlin (Limbaj de programare)</string>
     <string name="subsampling_title">Subsampling Scale Image View (Vizualizări de imagini cu zoom)</string>

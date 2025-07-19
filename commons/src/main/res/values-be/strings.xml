@@ -943,7 +943,6 @@
     <string name="why_upgrade_recents_tab">Укладка з апошнімі файламі</string>
     <string name="why_upgrade_background_color_customization">Настройка колеру фону</string>
     <string name="why_upgrade_file_importing">Падтрымка імпарту файлаў</string>
-    <string name="notice">Гэта дадатак выкарыстоўвае наступныя іншыя бібліятэкі, каб палегчыць мне жыццё. Дзякуй.</string>
     <string name="third_party_licences">Ліцэнзіі трэціх асоб</string>
     <string name="kotlin_title">Kotlin (мова праграмавання)</string>
     <string name="subsampling_title">Шкала падвыбаркі. Прагляд выявы (прагляды малюнкаў з магчымасцю маштабавання)</string>

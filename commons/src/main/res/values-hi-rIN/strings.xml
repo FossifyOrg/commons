@@ -57,7 +57,6 @@
     <string name="why_upgrade_file_compression">फाइल संपीड़न समर्थन</string>
     <string name="why_upgrade_background_color_customization">पृष्ठभूमि रंग अनुकूलन</string>
     <string name="why_upgrade_file_importing">फाइल आयात समर्थन</string>
-    <string name="notice">यह ऐप मेरे जीवन को आसान बनाने के लिए निम्नलिखित तृतीय पक्ष लाइब्रेरी का उपयोग करता है। धन्यवाद।</string>
     <string name="third_party_licences">तृतीय पक्ष लाइसेंस</string>
     <string name="joda_title">Joda-Time (जावा दिनांक प्रतिस्थापन)</string>
     <string name="audio">ऑडियो</string>

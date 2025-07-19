@@ -856,7 +856,6 @@
     <string name="faq_1_title_commons">Zer dela eta ez dut aplikazioen trepeta hau trepeten zerrendan ikusten\?</string>
     <string name="faq_1_text_commons">Litekeena da aplikazioa SD txartelera eraman duzulako. Kasu horretan, emandako aplikazioen trepetak ezkutatzen dituen Android sistemaren muga bat dago. Irtenbide bakarra zure gailuaren ezarpenen bidez aplikazioa Barne Biltegira eramatea da.</string>
     <string name="faq_2_title_commons">Lagundu nahi zaitut, baina ezin dut dirurik eman. Ba al dago beste ezer egin dezaket\?</string>
-    <string name="notice">Aplikazio honk hurrengo hirugarrenen liburutegi hauek erabiltzen ditu, nire bizitza errazago egiteko. Eskerrik asko.</string>
     <string name="third_party_licences">Hirugarrenen lizentziak</string>
     <string name="kotlin_title">Kotlin (programazio-hizkuntza)</string>
     <string name="glide_title">Glide (irudiak kargatzea eta cachean gordetzea)</string>

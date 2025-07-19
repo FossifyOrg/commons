@@ -959,7 +959,6 @@
     <string name="why_upgrade_background_color_customization">Anpassning av bakgrundsfärg</string>
     <string name="why_upgrade_file_importing">Stöd för filimport</string>
     <string name="why_upgrade_zooming">Zoomning</string>
-    <string name="notice">Denna app använder följande tredjepartsbibliotek för att göra mitt liv enklare. Tack.</string>
     <string name="third_party_licences">Tredjepartslicenser</string>
     <string name="kotlin_title">Kotlin (programmeringsspråk)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoombara bildvyer)</string>

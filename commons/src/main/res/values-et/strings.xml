@@ -930,7 +930,6 @@
     <string name="why_upgrade_background_color_customization">Taustavärvi kohandamine</string>
     <string name="why_upgrade_file_importing">Failide impordi tugi</string>
     <string name="why_upgrade_zooming">Suumimine</string>
-    <string name="notice">Et arendajate töö oleks tõhusam ja lihtsam, on selles rakenduses kasutusel järgnevad kolmandate osapoolte teegid. Tänud.</string>
     <string name="third_party_licences">Kolmandate osapoolte litsentsid</string>
     <string name="kotlin_title">Kotlin (programmeerimiskeel)</string>
     <string name="subsampling_title">Subsampling Scale Image View (piltide suumitavad vaated)</string>
