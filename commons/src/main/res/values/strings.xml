@@ -1138,7 +1138,6 @@
     <string name="why_upgrade_zooming">Zooming</string>
 
     <!-- License -->
-    <string name="notice">This app uses the following third-party libraries to make my life easier. Thank you.</string>
     <string name="third_party_licences">Third-party licences</string>
     <string name="kotlin_title">Kotlin (programming language)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoomable imageviews)</string>
