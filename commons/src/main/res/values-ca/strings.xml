@@ -1005,7 +1005,6 @@
     <string name="why_upgrade_background_color_customization">Personalització del color de fons</string>
     <string name="why_upgrade_file_importing">Implementació de la importació de fitxers</string>
     <string name="why_upgrade_zooming">Zoom</string>
-    <string name="notice">Aquesta aplicació fa servir les biblioteques següents de tercers que ens faciliten la feina. Gràcies.</string>
     <string name="third_party_licences">Llicències de tercers</string>
     <string name="kotlin_title">Kotlin (llenguatge de programació)</string>
     <string name="subsampling_title">Subsampling Scale Image View (visualització d\'imatges amb zoom)</string>

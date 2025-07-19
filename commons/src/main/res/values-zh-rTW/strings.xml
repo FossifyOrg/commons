@@ -627,7 +627,6 @@
     <string name="faq_8_text_commons">由於你的程式版本不再更新，將永遠不會修復可能遇到的錯誤，也不會再添加新功能。你可以在Google Play上用一小筆錢購買專業版。
         這是一次性付款。也就是說，一旦你購買了將不必再次付費，即使之後有新裝置也不用。如果你不喜歡專業版，則可以在幾個小時內解除安裝，將自動拿回你的錢。
         之後如果何時想退款，只要你以 hello@fossify.org 聯絡我們然後就能獲得退款了。</string>
-    <string name="notice">這程式使用了下列的第三方函式庫來讓我工作簡化。感謝。</string>
     <string name="third_party_licences">第三方授權</string>
     <string name="kotlin_title">Kotlin（程式語言）</string>
     <string name="subsampling_title">Subsampling Scale Image View（可縮放圖片檢視）</string>

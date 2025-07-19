@@ -44,7 +44,7 @@
     <string name="number">Nummer</string>
     <string name="no_contacts_found">Inga kontakter hittades</string>
     <string name="request_the_required_permissions">Begär de behörigheter som krävs</string>
-    <string name="no_access_to_contacts">Appen kunde inte nå dina kontakter</string>
+    <string name="no_access_to_contacts">Appen kunde inte komma åt dina kontakter</string>
     <string name="no_phone_call_permission">Appen har inte behörighet att ringa telefonsamtal, ge den behörighet i din apparats inställningar</string>
     <string name="insert_text_here">Skriv här</string>
     <string name="call_person">Ring %s</string>
@@ -196,7 +196,7 @@
     <string name="append_filenames">Lägg till efter filnamnen</string>
     <string name="simple_renaming">Enkel namnändring</string>
     <string name="pattern_renaming">Mönster</string>
-    <string name="rename_date_time_pattern">%Y - år\n%M - månad\n%D - dag\n%h - timme\n%m - minut\n%s - sekund\n%i - number increasing from 1</string>
+    <string name="rename_date_time_pattern">%Y - år\n%M - månad\n%D - dag\n%h - timme\n%m - minut\n%s - sekund\n%i - tal som ökar från 1</string>
     <string name="filename_without_txt">Filnamn (utan .txt)</string>
     <string name="filename_without_json">Filnamn (utan .json)</string>
     <string name="filename_without_zip">Filnamn (utan .zip)</string>
@@ -959,7 +959,6 @@
     <string name="why_upgrade_background_color_customization">Anpassning av bakgrundsfärg</string>
     <string name="why_upgrade_file_importing">Stöd för filimport</string>
     <string name="why_upgrade_zooming">Zoomning</string>
-    <string name="notice">Denna app använder följande tredjepartsbibliotek för att göra mitt liv enklare. Tack.</string>
     <string name="third_party_licences">Tredjepartslicenser</string>
     <string name="kotlin_title">Kotlin (programmeringsspråk)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoombara bildvyer)</string>
@@ -1082,4 +1081,6 @@
     <string name="confirm_storage_access_restricted_text_not_found">Det gick inte att hitta någon systemapp för filhantering.</string>
     <string name="evalex_title">EvalEx (utvärdering av matematiska uttryck)</string>
     <string name="requires_fossify_thank_you">Kräver Fossify Thank You</string>
+    <string name="string_to_add">Sträng som ska läggas till</string>
+    <string name="donate_short">Stöd oss genom att köpa &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, detta låser också upp alla appfunktioner inklusive färganpassning.</string>
 </resources>

@@ -991,7 +991,6 @@
     <string name="why_upgrade_background_color_customization">Meniteľná farba pozadia</string>
     <string name="why_upgrade_file_importing">Podpora importovania súborov</string>
     <string name="why_upgrade_zooming">Zoomovanie</string>
-    <string name="notice">Táto aplikácia používa na uľahčenie práce nasledovné knižnice tretích strán. Ďakujeme.</string>
     <string name="third_party_licences">Knižnice tretích strán</string>
     <string name="kotlin_title">Kotlin (programovací jazyk)</string>
     <string name="subsampling_title">Subsampling Scale Image View (priblížiteľné obrázky)</string>
@@ -1041,4 +1040,5 @@
     <string name="deprecated_app">ZASTARALÁ: Táto verzia aplikácie už nie je podporovaná. Stiahnite si Pro verziu na https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Nezabudnite, že ak odinštalujete platenú verziu do 2 hodín, peniaze vám budú automaticky vrátené. Ak ich budete chcieť späť hocikedy neskôr, len nám dajte vedieť na hello@fossify.org. To vám zabezpečí jednoduchý spôsob na ich vyskúšanie :)</string>
     <string name="developer_description">Skupina jednoduchých, open source Android apiek s nastaviteľnými widgetmi, bez reklám a nepotrebných oprávnení.</string>
+    <string name="ok">OK</string>
 </resources>

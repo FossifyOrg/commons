@@ -897,7 +897,6 @@
     <string name="why_upgrade_recents_tab">Раздел със последно използваните файлове</string>
     <string name="why_upgrade_file_importing">Възможност за внасяне на файлове</string>
     <string name="why_upgrade_zooming">Мащабиране</string>
-    <string name="notice">Приложението използва следните библиотеки от трети страни, за да улесни живота ми. Благодаря им.</string>
     <string name="third_party_licences">Лицензи на трети страни</string>
     <string name="welcome_to_app_name">Добре дошли при %s!</string>
     <string name="pro_app_refund">Не забравяйте, че ако премахнете някое платено приложение в рамките на 2 часа след плащането, сумата автоматично ще бъде възстановена. Ако желаете възстановяване на сумата след този период, просто се свържете с нас на hello@fossify.org и ще ви ги върнем. Така е по-лесно да изпробвате приложенията :)</string>
