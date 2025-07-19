@@ -26,8 +26,8 @@ val Modifier.bottomSheetDialogBorder: Modifier
     @ReadOnlyComposable
     @Composable get() =
         when (LocalTheme.current) {
-            is Theme.BlackAndWhite -> then(Modifier.border(2.dp, light_grey_stroke, bottomSheetDialogShape))
-            else -> Modifier
+            is Theme.BlackAndWhite -> this.border(2.dp, light_grey_stroke, bottomSheetDialogShape)
+            else -> this
         }
 
 @Composable

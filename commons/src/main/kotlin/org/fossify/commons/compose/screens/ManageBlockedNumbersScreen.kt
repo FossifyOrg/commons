@@ -184,7 +184,7 @@ internal fun ManageBlockedNumbersScreen(
         LazyColumn(
             state = state,
             modifier = Modifier.ifFalse(blockedNumbers.isNullOrEmpty()) {
-                Modifier.listDragHandlerLongKey(
+                listDragHandlerLongKey(
                     isScrollingUp = state.isScrollingUp(),
                     lazyListState = state,
                     haptics = hapticFeedback,
@@ -227,7 +227,7 @@ internal fun ManageBlockedNumbersScreen(
                                     }
                                 }
                                 .ifTrue(!isInActionMode) {
-                                    Modifier.combinedClickable(onLongClick = {
+                                    combinedClickable(onLongClick = {
                                         val selectable = longPressSelectableValue(lastClickedValue, blockedNumber, triggerReset) { bNumber1, bNumber2 ->
                                             updateSelectedIndices(blockedNumbers, bNumber1, bNumber2, selectedIds)
                                         }
@@ -238,7 +238,7 @@ internal fun ManageBlockedNumbersScreen(
                                     })
                                 }
                                 .ifTrue(isInActionMode) {
-                                    Modifier.combinedClickable(
+                                    combinedClickable(
                                         interactionSource = rememberMutableInteractionSource(),
                                         indication = null,
                                         enabled = !hasDraggingStarted,

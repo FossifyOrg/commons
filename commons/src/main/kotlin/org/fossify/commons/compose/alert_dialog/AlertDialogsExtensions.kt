@@ -38,12 +38,10 @@ val dialogContainerColor
 
 val Modifier.dialogBackgroundShapeAndBorder: Modifier
     @ReadOnlyComposable
-    @Composable get() = then(
-        Modifier
-            .fillMaxWidth()
-            .background(dialogContainerColor, dialogShape)
-            .dialogBorder
-    )
+    @Composable get() = this
+        .fillMaxWidth()
+        .background(dialogContainerColor, dialogShape)
+        .dialogBorder
 
 val dialogShape = Shapes.extraLarge
 
@@ -55,8 +53,8 @@ val Modifier.dialogBorder: Modifier
     @ReadOnlyComposable
     @Composable get() =
         when (LocalTheme.current) {
-            is Theme.BlackAndWhite -> then(Modifier.border(1.dp, light_grey_stroke, dialogShape))
-            else -> Modifier
+            is Theme.BlackAndWhite -> this.border(1.dp, light_grey_stroke, dialogShape)
+            else -> this
         }
 
 @Composable
