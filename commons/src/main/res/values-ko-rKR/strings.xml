@@ -550,7 +550,6 @@
     <string name="why_upgrade_file_compression">파일 압축 기능 지원 </string>
     <string name="why_upgrade_background_color_customization">바탕화면 설정 가능</string>
     <string name="why_upgrade_file_importing">파일 가져오기 지원</string>
-    <string name="notice">이 앱은 삶을 간편하게 만들어주는 다음의 서드파티 라이브버리를 사용합니다. 감사합니다.</string>
     <string name="third_party_licences">서드파티 라이선스</string>
     <string name="kotlin_title">Kotlin (프로그래밍 언어)</string>
     <string name="subsampling_title">Subsampling Scale Image View (확대 가능한 이미지 보기)</string>

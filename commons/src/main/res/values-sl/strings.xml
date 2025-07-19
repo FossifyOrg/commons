@@ -956,7 +956,6 @@
     <string name="why_upgrade_background_color_customization">Prilagajanje barv ozadja</string>
     <string name="why_upgrade_file_importing">Podpora za uvoz datotek</string>
     <string name="why_upgrade_zooming">Povečava</string>
-    <string name="notice">Da si olajšamo delo, aplikacija uporablja naslednje programske knjižnice. Hvala.</string>
     <string name="third_party_licences">Licence tretjih oseb</string>
     <string name="kotlin_title">Kotlin (programski jezik)</string>
     <string name="subsampling_title">Subsampling Scale Image View (pogled slik z povečevanjem)</string>

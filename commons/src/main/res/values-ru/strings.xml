@@ -1044,7 +1044,6 @@
     <string name="why_upgrade_background_color_customization">Настройка цвета фона</string>
     <string name="why_upgrade_file_importing">Поддержка импорта файлов</string>
     <string name="why_upgrade_zooming">Масштабирование</string>
-    <string name="notice">Это приложение использует следующие библиотеки сторонних разработчиков, облегчающие наш труд. Спасибо им.</string>
     <string name="third_party_licences">Лицензии третьих лиц</string>
     <string name="kotlin_title">Kotlin (язык программирования)</string>
     <string name="subsampling_title">Subsampling Scale Image View (возможность масштабирования изображений)</string>

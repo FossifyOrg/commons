@@ -921,7 +921,6 @@
     <string name="why_upgrade_background_color_customization">Achtergrondkleur aanpassen</string>
     <string name="why_upgrade_file_importing">Ondersteuning voor het importeren van bestanden</string>
     <string name="why_upgrade_zooming">Zoomen</string>
-    <string name="notice">Deze app gebruikt de volgende bibliotheken van derden om het leven gemakkelijker te maken. Dank hiervoor.</string>
     <string name="third_party_licences">Licenties van derden</string>
     <string name="kotlin_title">Kotlin (programmeertaal)</string>
     <string name="trial_expired">Proefperiode verlopen</string>

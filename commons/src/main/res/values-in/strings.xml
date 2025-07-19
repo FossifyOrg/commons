@@ -813,7 +813,6 @@
     <string name="why_upgrade_background_color_customization">Kustomisasi warna latar belakang</string>
     <string name="why_upgrade_file_importing">Mendukung pengimporan file</string>
     <string name="why_upgrade_zooming">Memperbesar</string>
-    <string name="notice">Aplikasi ini menggunakan pustaka pihak ketiga berikut untuk mempermudah pekerjaan. Terima kasih.</string>
     <string name="third_party_licences">Lisensi pihak ketiga</string>
     <string name="kotlin_title">Kotlin (bahasa pemrograman)</string>
     <string name="subsampling_title">Tampilan Gambar Skala Subsampling (tampilan gambar yang dapat diperbesar)</string>

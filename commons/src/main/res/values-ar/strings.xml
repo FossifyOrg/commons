@@ -1055,7 +1055,6 @@
     <string name="why_upgrade_background_color_customization">تخصيص لون الخلفية</string>
     <string name="why_upgrade_file_importing">دعم استيراد الملفات</string>
     <string name="why_upgrade_zooming">التكبير</string>
-    <string name="notice">يستخدم هذا التطبيق مكتبات الجهات الخارجية التالية لتسهيل حياتي.شكراً.</string>
     <string name="third_party_licences">تراخيص الجهات الخارجية</string>
     <string name="kotlin_title">كوتلن(لغة البرمجة)</string>
     <string name="subsampling_title">الصور القابلة للتكبير</string>

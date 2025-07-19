@@ -1000,7 +1000,6 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="why_upgrade_background_color_customization">Personnalisation de la couleur d’arrière-plan</string>
     <string name="why_upgrade_file_importing">Prise en charge de l\'importation de fichiers</string>
     <string name="why_upgrade_zooming">Zoom</string>
-    <string name="notice">Cette application utilise les bibliothèques tierces suivantes pour me simplifier la vie. Merci.</string>
     <string name="third_party_licences">Licences tierces</string>
     <string name="kotlin_title">Kotlin (langage de programmation)</string>
     <string name="subsampling_title">Subsampling Scale Image View (affichage des images par zoom)</string>

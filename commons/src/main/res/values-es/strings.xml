@@ -1026,7 +1026,6 @@
     <string name="why_upgrade_background_color_customization">Personalización del color de fondo</string>
     <string name="why_upgrade_file_importing">Soporte de importación de archivos</string>
     <string name="why_upgrade_zooming">Zoom</string>
-    <string name="notice">Esta aplicación usa las siguientes bibliotecas de terceros que hacen mi vida más fácil. Gracias.</string>
     <string name="third_party_licences">Licencias de terceros</string>
     <string name="kotlin_title">Kotlin (Lenguaje de programación)</string>
     <string name="subsampling_title">Subsampling Scale Image View (Visor de imágenes con zoom)</string>

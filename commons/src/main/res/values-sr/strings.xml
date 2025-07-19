@@ -878,7 +878,6 @@
     <string name="why_upgrade_background_color_customization">Прилагођавање боје позадине</string>
     <string name="why_upgrade_file_importing">Подршка за увоз датотека</string>
     <string name="why_upgrade_zooming">Зумирање</string>
-    <string name="notice">Ова апликација користи следеће библиотеке које припадају трећим лицима, како би учинили наш живот лакшим. Хвала вам.</string>
     <string name="third_party_licences">Лиценце трећих лица</string>
     <string name="kotlin_title">Kotlin (програмски језик)</string>
     <string name="subsampling_title">Subsampling Scale Image View (погледи на слике са зумирањем)</string>

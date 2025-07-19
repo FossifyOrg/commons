@@ -991,7 +991,6 @@
     <string name="why_upgrade_background_color_customization">Meniteľná farba pozadia</string>
     <string name="why_upgrade_file_importing">Podpora importovania súborov</string>
     <string name="why_upgrade_zooming">Zoomovanie</string>
-    <string name="notice">Táto aplikácia používa na uľahčenie práce nasledovné knižnice tretích strán. Ďakujeme.</string>
     <string name="third_party_licences">Knižnice tretích strán</string>
     <string name="kotlin_title">Kotlin (programovací jazyk)</string>
     <string name="subsampling_title">Subsampling Scale Image View (priblížiteľné obrázky)</string>
