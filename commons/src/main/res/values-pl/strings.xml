@@ -193,11 +193,11 @@
     <string name="filename_invalid_characters_placeholder">Nazwa pliku „%s” zawiera niedozwolone znaki</string>
     <string name="extension_cannot_be_empty">Rozszerzenie nie może być puste</string>
     <string name="source_file_doesnt_exist">Plik źródłowy %s nie istnieje</string>
-    <string name="prepend_filenames">Poprzedź nazwy plików</string>
-    <string name="append_filenames">Dołącz do nazw plików</string>
+    <string name="prepend_filenames">Dodaj tekst przed nazwami plików</string>
+    <string name="append_filenames">Dodaj tekst po nazwach plików</string>
     <string name="simple_renaming">Prosta zmiana nazwy</string>
     <string name="pattern_renaming">Wzorzec</string>
-    <string name="string_to_add">Ciąg do dodania</string>
+    <string name="string_to_add">Tekst do dodania</string>
     <string name="rename_date_time_pattern">%Y — rok\n%M — miesiąc\n%D — dzień\n%h — godzina\n%m — minuta\n%s — sekunda\n%i — numer rosnący od 1</string>
     <string name="filename_without_txt">Nazwa pliku (bez .txt)</string>
     <string name="filename_without_json">Nazwa pliku (bez .json)</string>
