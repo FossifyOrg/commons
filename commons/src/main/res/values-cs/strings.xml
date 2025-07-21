@@ -186,11 +186,11 @@
     <string name="filename_invalid_characters_placeholder">Název souboru „%s“ obsahuje neplatné znaky</string>
     <string name="extension_cannot_be_empty">Přípona nemůže být prázdná</string>
     <string name="source_file_doesnt_exist">Zdrojový soubor %s neexistuje</string>
-    <string name="prepend_filenames">Přidat před názvy souborů</string>
-    <string name="append_filenames">Přidat za názvy souborů</string>
+    <string name="prepend_filenames">Přidat text před názvy souborů</string>
+    <string name="append_filenames">Přidat text za názvy souborů</string>
     <string name="simple_renaming">Jednoduché přejmenování</string>
     <string name="pattern_renaming">Vzor</string>
-    <string name="string_to_add">Přidat řetězec</string>
+    <string name="string_to_add">Text k přidání</string>
     <string name="rename_date_time_pattern">%Y – rok
 \n%M – měsíc
 \n%D – den
