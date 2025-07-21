@@ -185,8 +185,8 @@
     <string name="filename_invalid_characters_placeholder">Името на файла „%s“ съдържа непозволени знаци</string>
     <string name="extension_cannot_be_empty">Разширението не може да бъде празно</string>
     <string name="source_file_doesnt_exist">Изходният файл „%s“ не съществува</string>
-    <string name="prepend_filenames">Представка на файлови имена</string>
-    <string name="append_filenames">Прибавяне на файлови имена</string>
+    <string name="prepend_filenames">Добавяне на низ преди името на файла</string>
+    <string name="append_filenames">Добавяне на низ след името на файла</string>
     <string name="simple_renaming">Обикновено преименуване</string>
     <string name="pattern_renaming">Шаблон</string>
     <string name="string_to_add">Низ, който да бъде добавен</string>
