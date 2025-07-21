@@ -196,11 +196,11 @@
     <string name="filename_invalid_characters_placeholder">Ім\'я файлу \'%s\' містить недопустимі символи</string>
     <string name="extension_cannot_be_empty">Розширення не може бути порожнім</string>
     <string name="source_file_doesnt_exist">Вихідний файл %s не існує</string>
-    <string name="prepend_filenames">Префікс імен файлів</string>
-    <string name="append_filenames">Суфікс імен файлів</string>
+    <string name="prepend_filenames">Додати текст перед іменами файлів</string>
+    <string name="append_filenames">Додати текст після назв файлів</string>
     <string name="simple_renaming">Просте перейменування</string>
     <string name="pattern_renaming">Шаблон</string>
-    <string name="string_to_add">Рядок для додавання</string>
+    <string name="string_to_add">Текст для додавання</string>
     <string name="rename_date_time_pattern">%Y - рік\n%M - місяць\n%D - день\n%h - година\n%m - хвилина\n%s - секунда\n%i - номер від 1</string>
     <string name="filename_without_txt">Ім\'я файлу (без .txt)</string>
     <string name="filename_without_json">Ім\'я файлу (без .json)</string>
