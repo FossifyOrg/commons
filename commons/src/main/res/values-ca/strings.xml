@@ -189,11 +189,11 @@
     <string name="filename_invalid_characters_placeholder">El nom de fitxer «%s» conté caràcters no vàlids</string>
     <string name="extension_cannot_be_empty">L\'extensió no pot estar buida</string>
     <string name="source_file_doesnt_exist">El fitxer d\'origen %s no existeix</string>
-    <string name="prepend_filenames">Preposa als noms de fitxer</string>
-    <string name="append_filenames">Afegeix els noms de fitxer</string>
+    <string name="prepend_filenames">Afegeix text abans dels noms de fitxers</string>
+    <string name="append_filenames">Afegeix text després dels noms de fitxers</string>
     <string name="simple_renaming">Canvi de nom senzill</string>
     <string name="pattern_renaming">Patró</string>
-    <string name="string_to_add">Cadena a afegir</string>
+    <string name="string_to_add">Text a afegir</string>
     <string name="rename_date_time_pattern">%Y - any
 \n%M - mes
 \n%D - dia
