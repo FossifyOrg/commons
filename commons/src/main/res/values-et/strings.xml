@@ -190,11 +190,11 @@
     <string name="filename_invalid_characters_placeholder">„%s“ faili nimes on valesid tähemärke</string>
     <string name="extension_cannot_be_empty">Faililaiend ei tohi olla puudu</string>
     <string name="source_file_doesnt_exist">Lähtefaili %s pole olemas</string>
-    <string name="prepend_filenames">Lisa faili nimele prefiks</string>
-    <string name="append_filenames">Lisa faili nimele suffiks</string>
+    <string name="prepend_filenames">Lisa tekst enne failinime</string>
+    <string name="append_filenames">Lisa tekst peale failinime</string>
     <string name="simple_renaming">Lihtne ümbernimetamine</string>
     <string name="pattern_renaming">Muster</string>
-    <string name="string_to_add">Lisa sõne</string>
+    <string name="string_to_add">Lisatav tekst</string>
     <string name="rename_date_time_pattern">%Y - aasta
 \n%M - kuu
 \n%D - päev
