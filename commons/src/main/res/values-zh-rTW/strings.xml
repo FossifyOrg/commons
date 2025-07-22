@@ -96,11 +96,11 @@
     <string name="filename_invalid_characters_placeholder">檔名 \'%s\' 包含無效字元</string>
     <string name="extension_cannot_be_empty">副檔名不得空白</string>
     <string name="source_file_doesnt_exist">原始檔案 %s 不存在</string>
-    <string name="prepend_filenames">檔名前綴</string>
-    <string name="append_filenames">附加檔名</string>
+    <string name="prepend_filenames">在檔案名稱前新增文字</string>
+    <string name="append_filenames">在檔案名稱後新增文字</string>
     <string name="simple_renaming">簡易重新命名</string>
     <string name="pattern_renaming">格式重新命名</string>
-    <string name="string_to_add">新增文字</string>
+    <string name="string_to_add">要新增的文字</string>
     <string name="rename_date_time_pattern">%Y - 年\n%M - 月\n%D - 日\n%h - 小時\n%m - 分鐘\n%s - 秒鐘\n%i - 數字從1增加起</string>
     <string name="copy">複製</string>
     <string name="move">移動</string>
