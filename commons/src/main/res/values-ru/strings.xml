@@ -195,11 +195,11 @@
     <string name="filename_invalid_characters_placeholder">Имя файла \"%s\" содержит недопустимые символы</string>
     <string name="extension_cannot_be_empty">Расширение не может быть пустым</string>
     <string name="source_file_doesnt_exist">Исходный файл \"%s\" не существует</string>
-    <string name="prepend_filenames">Перед именем файла</string>
-    <string name="append_filenames">После имени файла</string>
+    <string name="prepend_filenames">Добавить текст перед именем файла</string>
+    <string name="append_filenames">Добавить текст после имени файла</string>
     <string name="simple_renaming">Простое переименование</string>
     <string name="pattern_renaming">Шаблон</string>
-    <string name="string_to_add">Строка для добавления</string>
+    <string name="string_to_add">Текст для добавления</string>
     <string name="rename_date_time_pattern">%Y — год
 \n%M — месяц
 \n%D — день
