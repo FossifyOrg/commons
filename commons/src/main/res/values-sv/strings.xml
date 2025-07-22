@@ -192,8 +192,8 @@
     <string name="filename_invalid_characters_placeholder">Filnamnet \'%s\' innehåller ogiltiga tecken</string>
     <string name="extension_cannot_be_empty">Filnamnstillägget får inte vara tomt</string>
     <string name="source_file_doesnt_exist">Källfilen %s finns inte</string>
-    <string name="prepend_filenames">Lägg till före filnamnen</string>
-    <string name="append_filenames">Lägg till efter filnamnen</string>
+    <string name="prepend_filenames">Lägg till text före filnamnen</string>
+    <string name="append_filenames">Lägg till text efter filnamnen</string>
     <string name="simple_renaming">Enkel namnändring</string>
     <string name="pattern_renaming">Mönster</string>
     <string name="rename_date_time_pattern">%Y - år\n%M - månad\n%D - dag\n%h - timme\n%m - minut\n%s - sekund\n%i - tal som ökar från 1</string>
