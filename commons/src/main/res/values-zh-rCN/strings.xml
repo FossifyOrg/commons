@@ -191,11 +191,11 @@
     <string name="filename_invalid_characters_placeholder">文件名“%s“包含无效字符</string>
     <string name="extension_cannot_be_empty">扩展名不能为空</string>
     <string name="source_file_doesnt_exist">源文件 %s 不存在</string>
-    <string name="prepend_filenames">文件名前缀</string>
-    <string name="append_filenames">文件名后缀</string>
+    <string name="prepend_filenames">文件名前添加文本</string>
+    <string name="append_filenames">文件名后添加文本</string>
     <string name="simple_renaming">简单重命名</string>
     <string name="pattern_renaming">格式</string>
-    <string name="string_to_add">要添加的字符串</string>
+    <string name="string_to_add">要添加的文本</string>
     <string name="rename_date_time_pattern">%Y - 年
 \n%M - 月
 \n%D - 日
