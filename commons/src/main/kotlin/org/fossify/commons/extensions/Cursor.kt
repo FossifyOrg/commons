@@ -4,15 +4,21 @@ import android.database.Cursor
 
 fun Cursor.getStringValue(key: String) = getString(getColumnIndexOrThrow(key))
 
-fun Cursor.getStringValueOrNull(key: String) = if (isNull(getColumnIndexOrThrow(key))) null else getString(getColumnIndexOrThrow(key))
+fun Cursor.getStringValueOrNull(key: String): String? {
+    return if (isNull(getColumnIndexOrThrow(key))) null else getString(getColumnIndexOrThrow(key))
+}
 
 fun Cursor.getIntValue(key: String) = getInt(getColumnIndexOrThrow(key))
 
-fun Cursor.getIntValueOrNull(key: String) = if (isNull(getColumnIndexOrThrow(key))) null else getInt(getColumnIndexOrThrow(key))
+fun Cursor.getIntValueOrNull(key: String): Int? {
+    return if (isNull(getColumnIndexOrThrow(key))) null else getInt(getColumnIndexOrThrow(key))
+}
 
 fun Cursor.getLongValue(key: String) = getLong(getColumnIndexOrThrow(key))
 
-fun Cursor.getLongValueOrNull(key: String) = if (isNull(getColumnIndexOrThrow(key))) null else getLong(getColumnIndexOrThrow(key))
+fun Cursor.getLongValueOrNull(key: String): Long? {
+    return if (isNull(getColumnIndexOrThrow(key))) null else getLong(getColumnIndexOrThrow(key))
+}
 
 fun Cursor.getBlobValue(key: String) = getBlob(getColumnIndexOrThrow(key))
 
