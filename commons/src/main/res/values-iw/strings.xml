@@ -83,7 +83,7 @@
     <string name="extension_cannot_be_empty">סיומת לא יכולה להיות ריקה.</string>
     <string name="source_file_doesnt_exist">קובץ מקור %s לא קיים</string>
     <string name="pattern_renaming">דפוס</string>
-    <string name="string_to_add">מחרוזת להוספה</string>
+    <string name="string_to_add">טקסט להוספה</string>
     <string name="copy">העתק</string>
     <string name="move">העבר</string>
     <string name="copy_move">העתק / העבר</string>
@@ -262,7 +262,7 @@
     <string name="move_items_into_recycle_bin">העבר פריטים לאשפה במקום למחוק לצמיתות</string>
     <string name="recycle_bin_cleaning_interval">זמן ריקון אשפה</string>
     <string name="empty_recycle_bin">רוקן את האשפה</string>
-    <string name="force_portrait_mode">אלץ מצב אנכי</string>
+    <string name="force_portrait_mode">כפה מצב אנכי</string>
     <string name="export_settings">ייצא הגדרות</string>
     <string name="import_settings">יבא הגדרות</string>
     <string name="settings_exported_successfully">הגדרות הוצאו בהצלחה</string>
@@ -386,7 +386,7 @@
     <string name="no_email_client_found">לא נמצאה אפלקציית דוא״ל</string>
     <string name="transparent">שקוף</string>
     <string name="deletion_confirmation_short">מחק%s?</string>
-    <string name="ascending">בסדר עולה</string>
+    <string name="ascending">סדר עולה</string>
     <string name="unblock">בטל חסימה</string>
     <string name="auto_theme">אוטומטי</string>
     <string name="copying_success_one">הקובץ הועתק בהצלחה</string>
@@ -396,7 +396,7 @@
     <string name="background_color">צבע הרקע</string>
     <string name="date_added">תאריך הוספה</string>
     <string name="date_created">תאריך יצירה</string>
-    <string name="descending">בסדר יורד</string>
+    <string name="descending">סדר יורד</string>
     <string name="more_options">אפשרויות נוספות</string>
     <string name="change_order">שנה סדר</string>
     <string name="use_custom_sorting">השתמש במיון מותאם אישית</string>
@@ -624,7 +624,7 @@
     </plurals>
     <string name="files_count">סך כל הקבצים</string>
     <string name="duration">משך</string>
-    <string name="shared_theme_note">שימו לב שגם אם אתם משתמשים בגרסת האפליקציה Pro, אתם עדיין צריכים את Fossify Thank You מסיבות טכניות. הוא מטפל בסנכרון הצבעים.</string>
+    <string name="shared_theme_note">שים לב שגם אם אתה משתמש בגרסה המקצועית של האפליקציה, אתה עדיין צריך את Fosify תודה מסיבות טכניות. הוא מטפל בסנכרון הצבעים.</string>
     <string name="purchase_thank_you"><![CDATA[
 אנא רכשו <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">תודה Fossify</a> כדי לפתוח תכונה זו ולתמוך בפיתוח. תודה!
 ]]></string>
@@ -638,7 +638,7 @@
     <string name="hide_line_numbers">הסתר מספרי שורה</string>
     <string name="reorder_items_by_dragging">סידור מחדש של פריטים על ידי גרירה</string>
     <string name="sort_numeric_parts">מיין חלקים מספריים לפי ערך ממשי</string>
-    <string name="do_not_ask_again">אל תשאל שוב בסשיין זה</string>
+    <string name="do_not_ask_again">אל תשאל שוב בהפעלה זו</string>
     <string name="pin">קוד אימות</string>
     <string name="lock_folder_notice">הגנה זו פועלת באפליקציה זו בלבד, היא אינה אמורה להחליף הצפנת תיקיות אמיתית ברחבי המערכת.</string>
     <plurals name="in_minutes">
@@ -718,7 +718,7 @@
     <string name="why_upgrade_background_color_customization">התאמה אישית של צבע הרקע</string>
     <string name="why_upgrade_zooming">זום</string>
     <string name="why_upgrade_shortcuts">קיצורי דרך למסך הבית</string>
-    <string name="third_party_licences">רישיונות צד שלישי</string>
+    <string name="third_party_licences">רישיונות צד-שלישי</string>
     <string name="subsampling_title">תצוגת תמונה עם שינוי קנה מידה בדגימת משנה (תמונות הניתנות להגדלה/הקטנה)</string>
     <string name="picasso_title">Picasso (טעינה ושמירת תמונות במטמון)</string>
     <string name="pattern_title">PatternLockView (הגנת נעילה באמצעות דפוס)</string>
@@ -808,8 +808,8 @@
     <string name="allow_notifications_music_player">עליך לאפשר לאפליקציה לשלוח התראות, אחרת היא לא תוכל להשמיע שירים.</string>
     <string name="allow_notifications_voice_recorder">עליך לאפשר לאפליקציה לשלוח התראות, אחרת היא לא תוכל להקליט שמע.</string>
     <string name="allow_location_permission">עליך לאפשר לאפליקציה גישה למיקומך, אחרת היא לא תדע זאת.</string>
-    <string name="prepend_filenames">הוסף שמות קבצים לפני</string>
-    <string name="append_filenames">הוספת שמות קבצים</string>
+    <string name="prepend_filenames">הוספת טקסט לפני שמות קבצים</string>
+    <string name="append_filenames">הוספת טקסט אחרי שמות קבצים</string>
     <string name="rename_date_time_pattern">* %Y - שנה\n * %M - חודש\n * %D - יום\n * %h - שעה\n * %m - דקה\n * %s - שנייה\n * %i - מספר עולה מ-1</string>
     <string name="filename_without_txt">שם קובץ (ללא .txt)</string>
     <string name="filename_without_json">שם קובץ (ללא .json)</string>
