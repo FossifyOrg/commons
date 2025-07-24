@@ -189,11 +189,11 @@
     <string name="filename_invalid_characters_placeholder">Tiedostonimi \'%s\' sisältää kiellettyjä merkkejä</string>
     <string name="extension_cannot_be_empty">Tiedostomuoto ei voi olla tyhjä</string>
     <string name="source_file_doesnt_exist">Lähdetiedostoa %s ei löydy</string>
-    <string name="prepend_filenames">Lisää tiedostonimien eteen</string>
-    <string name="append_filenames">Lisää tiedostonimien jälkeen</string>
+    <string name="prepend_filenames">Lisää tekstiä tiedostonimen eteen</string>
+    <string name="append_filenames">Lisää tekstiä tiedostonimien taakse</string>
     <string name="simple_renaming">Yksinkertainen uudelleennimeäminen</string>
     <string name="pattern_renaming">Kuvio</string>
-    <string name="string_to_add">Lisättävä merkkijono</string>
+    <string name="string_to_add">Lisättävä teksti</string>
     <string name="rename_date_time_pattern">%Y - vuosi\n%M - kuukausi\n%D - päivä\n%h - tunti\n%m - minuutti\n%s - sekunti\n%i - nouseva numero, alkaen numerosta 1</string>
     <string name="filename_without_txt">Tiedostonimi (ilman .txt-päätettä)</string>
     <string name="filename_without_json">Tiedostonimi (ilman .json-päätettä)</string>
