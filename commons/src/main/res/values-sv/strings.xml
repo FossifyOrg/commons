@@ -264,7 +264,7 @@
     <string name="confirm_create_doc_for_new_folder_text">Vänligen tryck på \'<b>Spara</b>\' längst ned på nästa skärm för att skapa den nya mappen.</string>
     <string name="confirm_selection">Bekräfta val</string>
     <string name="loading">Läser in…</string>
-    <string name="access_storage_prompt">Vänligen ge oss tillgänglighet till dina filer, den kanske inte fungerar väl utan det.</string>
+    <string name="access_storage_prompt">Ge appen åtkomst till alla dina filer, annars kanske den inte fungerar som den ska.</string>
     <plurals name="items">
         <item quantity="one">%d objekt</item>
         <item quantity="other">%d objekt</item>
@@ -1083,4 +1083,5 @@
     <string name="requires_fossify_thank_you">Kräver Fossify Thank You</string>
     <string name="string_to_add">Text som ska läggas till</string>
     <string name="donate_short">Stöd oss genom att köpa &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, detta låser också upp alla appfunktioner inklusive färganpassning.</string>
+    <string name="shared_theme_note">Observera att även om du använder Pro-versionen av appen, behöver du fortfarande Fossify Thank You av tekniska skäl. Den tar hand om färgsynkroniseringen.</string>
 </resources>
