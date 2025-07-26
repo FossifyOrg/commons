@@ -290,7 +290,7 @@
     <string name="wrong_root_selected">Du har valt fel mapp, välj rotmappen på ditt SD-kort</string>
     <string name="sd_card_usb_same">SD-kortets och USB-enhetens sökvägar kan inte vara samma</string>
     <string name="app_on_sd_card">Du verkar ha appen installerad på ett SD-kort, vilket gör appwidgetarna otillgängliga. Du kommer inte ens se dem på listan över tillgängliga widgets. Det är en systembegränsning, så om du vill använda widgetarna måste du flytta tillbaka appen till internminnet.</string>
-    <string name="wrong_folder_selected">Fel mapp vald, vänligen välj sökväg \'%s\'</string>
+    <string name="wrong_folder_selected">Fel mapp har valts, välj sökvägen \'%s\'</string>
     <string name="properties">Egenskaper</string>
     <string name="path">Sökväg</string>
     <string name="items_selected">Valda objekt</string>
@@ -1084,4 +1084,5 @@
     <string name="string_to_add">Text som ska läggas till</string>
     <string name="donate_short">Stöd oss genom att köpa &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, detta låser också upp alla appfunktioner inklusive färganpassning.</string>
     <string name="shared_theme_note">Observera att även om du använder Pro-versionen av appen, behöver du fortfarande Fossify Thank You av tekniska skäl. Den tar hand om färgsynkroniseringen.</string>
+    <string name="features_locked">Den här funktionen är låst, köp &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; för att låsa upp hela appen.&lt;br&gt;&lt;br&gt;Det är en engångsbetalning och om du inte är nöjd kan vi återbetala dig.</string>
 </resources>
