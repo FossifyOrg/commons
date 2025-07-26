@@ -732,11 +732,11 @@
     <string name="filename_invalid_characters_placeholder">Tá carachtair neamhbhailí in ainm comhaid \'%s\'</string>
     <string name="extension_cannot_be_empty">Ní féidir leis an síneadh a bheith folamh</string>
     <string name="source_file_doesnt_exist">Níl comhad foinseach %s ann</string>
-    <string name="prepend_filenames">Prepend comhadainmneacha</string>
-    <string name="append_filenames">Iarcheangail comhadainmneacha</string>
+    <string name="prepend_filenames">Cuir téacs roimh ainmneacha comhad</string>
+    <string name="append_filenames">Cuir téacs i ndiaidh ainmneacha comhad</string>
     <string name="simple_renaming">Athainmniú simplí</string>
     <string name="pattern_renaming">Patrún</string>
-    <string name="string_to_add">Teaghrán le cur leis</string>
+    <string name="string_to_add">Téacs le cur leis</string>
     <string name="filename_without_txt">Ainm comhaid (gan .txt)</string>
     <string name="filename_without_json">Ainm comhaid (gan .json)</string>
     <string name="filename_without_zip">Ainm comhaid (gan .zip)</string>

@@ -402,7 +402,7 @@
     <string name="hide_line_numbers">Не показывать номера строк</string>
     <string name="sleep_timer">Таймер сна</string>
     <string name="unblock">Разблокировать</string>
-    <string name="sort_by">Сортировать по…</string>
+    <string name="sort_by">Сортировка</string>
     <string name="name">Имя</string>
     <string name="size">Размер</string>
     <string name="last_modified">Дата изменения</string>
@@ -1044,7 +1044,7 @@
     <string name="why_upgrade_background_color_customization">Настройка цвета фона</string>
     <string name="why_upgrade_file_importing">Поддержка импорта файлов</string>
     <string name="why_upgrade_zooming">Масштабирование</string>
-    <string name="third_party_licences">Лицензии третьих лиц</string>
+    <string name="third_party_licences">Лицензии третьих сторон</string>
     <string name="kotlin_title">Kotlin (язык программирования)</string>
     <string name="subsampling_title">Subsampling Scale Image View (возможность масштабирования изображений)</string>
     <string name="glide_title">Glide (загрузка и кэширование изображений)</string>
