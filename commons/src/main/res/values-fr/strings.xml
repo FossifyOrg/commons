@@ -188,11 +188,11 @@
     <string name="filename_invalid_characters_placeholder">Le nom de fichier \"%s\" contient des caractères non autorisés</string>
     <string name="extension_cannot_be_empty">L\'extension ne peut pas être vide</string>
     <string name="source_file_doesnt_exist">Le fichier source \"%s\" n\'existe pas</string>
-    <string name="prepend_filenames">Ajouter un préfixe aux noms de fichiers</string>
-    <string name="append_filenames">Ajouter un suffixe aux noms de fichiers</string>
+    <string name="prepend_filenames">Ajouter du texte avant les noms de fichiers</string>
+    <string name="append_filenames">Ajouter du texte après les noms de fichiers</string>
     <string name="simple_renaming">Renommer simplement</string>
     <string name="pattern_renaming">Modèle</string>
-    <string name="string_to_add">Chaîne à ajouter</string>
+    <string name="string_to_add">Texte à ajouter</string>
     <string name="rename_date_time_pattern">%Y - année
 \n%M - mois
 \n%D - jour
@@ -337,7 +337,7 @@
     <string name="app_icon_color_warning">Attention : Certains lanceurs peuvent ne pas manipuler correctement la personnalisation de l\'icône d\'application. Si l\'icône disparaît, essayez de lancer l\'application via Google Play ou un widget, si accessible. Après le lancement, restaurer la couleur d\'icône verte par défaut #106D1F. Dans les cas extrêmes, réinstaller l\'application peut être nécessaire.</string>
     <string name="global_theme_success">Actualisation des couleurs réussie. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser dorénavant ce thème pour actualiser les couleurs de toutes les applications.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Achetez s\'il vous plait <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pour déverrouiller cette fonction et soutenir le développement. Merci !
+            Achetez s\'il vous plait <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pour déverrouiller cette fonctionnalité et soutenir le développement. Merci !
         ]]></string>
     <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>
@@ -1127,4 +1127,5 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="more_fossify_apps">Plus d\'applications Fossify</string>
     <string name="rate_this_app">Évaluer cette appli</string>
     <string name="evalex_title">EvalEx (évaluation d\'une expression mathématique)</string>
+    <string name="requires_fossify_thank_you">Nécessite Fossify Thank You</string>
 </resources>
