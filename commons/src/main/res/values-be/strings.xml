@@ -173,11 +173,11 @@
     <string name="filename_invalid_characters_placeholder">Імя файла\'%s\' змяшчае недапушчальныя сімвалы</string>
     <string name="extension_cannot_be_empty">Пашырэнне не можа быць пустым</string>
     <string name="source_file_doesnt_exist">Зыходны файл %s не існуе</string>
-    <string name="prepend_filenames">Перад назвай файла</string>
-    <string name="append_filenames">Пасля назвы файла</string>
+    <string name="prepend_filenames">Дадайце тэкст перад назвай файла</string>
+    <string name="append_filenames">Дадайце тэкст пасля назвы файла</string>
     <string name="simple_renaming">Простае перайменаванне</string>
     <string name="pattern_renaming">Шаблон</string>
-    <string name="string_to_add">Радок для дадання</string>
+    <string name="string_to_add">Тэкст для дадання</string>
     <string name="rename_date_time_pattern">%Y - год
 \n%M - месяц
 \n%D - дзень
