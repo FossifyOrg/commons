@@ -11,7 +11,7 @@ detektCompose = "0.4.22"
 #Androidx
 androidx-customView = "1.2.0-alpha02"
 androidx-customViewPooling = "1.1.0"
-androidx-lifecycle = "2.8.7"
+androidx-lifecycle = "2.9.2"
 androidx-constraintlayout = "2.2.1"
 androidx-documentfile = "1.0.1"
 androidx-biometricKtx = "1.2.0-alpha05"
