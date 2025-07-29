@@ -701,7 +701,7 @@
     <string name="migrating">Перенос</string>
     <string name="quality">Качество</string>
     <string name="main_screen">Главный экран</string>
-    <string name="thumbnails">Эскизы</string>
+    <string name="thumbnails">Миниатюры</string>
     <string name="list_view">Вид списка</string>
     <string name="exclude">Исключить</string>
     <string name="exclude_folder">Исключить папку</string>
