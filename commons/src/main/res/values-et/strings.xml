@@ -645,7 +645,7 @@
     <string name="scrolling">Kerimine</string>
     <string name="file_operations">Tegevused failidega</string>
     <string name="recycle_bin">Prügikast</string>
-    <string name="saving_label">Salvestame</string>
+    <string name="saving_label">Salvestamine</string>
     <string name="startup">Käivitamine</string>
     <string name="text">Tekst</string>
     <string name="migrating">Andmete ümbertõstmine</string>
