@@ -189,11 +189,11 @@
     <string name="filename_invalid_characters_placeholder">Il nome del file \'%s\' contiene caratteri non validi</string>
     <string name="extension_cannot_be_empty">L\'estensione non può essere vuota</string>
     <string name="source_file_doesnt_exist">Il file di origine %s non esiste</string>
-    <string name="prepend_filenames">Anteponi i nomi dei file</string>
-    <string name="append_filenames">Aggiungi i nomi dei file</string>
+    <string name="prepend_filenames">Aggiungi testo prima dei nomi dei file</string>
+    <string name="append_filenames">Aggiungi testo dopo i nomi dei file</string>
     <string name="simple_renaming">Rinominazione semplice</string>
     <string name="pattern_renaming">Modello</string>
-    <string name="string_to_add">Stringa da aggiungere</string>
+    <string name="string_to_add">Testo da aggiungere</string>
     <string name="rename_date_time_pattern">%Y - anno\n%M - mese\n%D - giorno\n%h - ora\n%m - minuto\n%s - secondo\n%i - number increasing from 1</string>
     <string name="filename_without_txt">Nome del file (senza .txt)</string>
     <string name="filename_without_json">Nome del file (senza .json)</string>
@@ -1142,4 +1142,6 @@
     <string name="days_letter">%dg</string>
     <string name="more_fossify_apps">Più app Fossify</string>
     <string name="rate_this_app">Valuta quest\'app</string>
+    <string name="requires_fossify_thank_you">Richiede Grazie Fossify</string>
+    <string name="evalex_title">EvalEx (valutazione di espressioni matematiche)</string>
 </resources>
