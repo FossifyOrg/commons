@@ -835,7 +835,7 @@ class ContactsHelper(val context: Context) {
 
         val accounts = AccountManager.get(context).accounts
         accounts.forEach {
-            if (ContentResolver.getIsSyncable(it, AUTHORITY) > 0) {
+            if (ContentResolver.getIsSyncable(it, AUTHORITY) >= 0) {
                 var publicName = it.name
                 if (it.type == TELEGRAM_PACKAGE) {
                     publicName = context.getString(R.string.telegram)
