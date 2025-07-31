@@ -1041,4 +1041,8 @@
     <string name="pro_app_refund">Nezabudnite, že ak odinštalujete platenú verziu do 2 hodín, peniaze vám budú automaticky vrátené. Ak ich budete chcieť späť hocikedy neskôr, len nám dajte vedieť na hello@fossify.org. To vám zabezpečí jednoduchý spôsob na ich vyskúšanie :)</string>
     <string name="developer_description">Skupina jednoduchých, open source Android apiek s nastaviteľnými widgetmi, bez reklám a nepotrebných oprávnení.</string>
     <string name="ok">OK</string>
+    <string name="audio">Zvuk</string>
+    <string name="email">E-mail</string>
+    <string name="format_phone_numbers">Formátovať telefónne čísla</string>
+    <string name="pager">Pager</string>
 </resources>
