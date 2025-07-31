@@ -87,12 +87,13 @@ fun Context.hasOTGConnected(): Boolean {
 
 fun Context.getStorageDirectories(): Array<String> {
     val paths = HashSet<String>()
-    val rawExternalStorage = System.getenv("EXTERNAL_STORAGE")
     val rawSecondaryStoragesStr = System.getenv("SECONDARY_STORAGE")
     val rawEmulatedStorageTarget = System.getenv("EMULATED_STORAGE_TARGET")
-    if (TextUtils.isEmpty(rawEmulatedStorageTarget)) {
-        getExternalFilesDirs(null).filterNotNull().map { it.absolutePath }
-            .mapTo(paths) { it.substring(0, it.indexOf("Android/data")) }
+    if (rawEmulatedStorageTarget.isNullOrEmpty()) {
+        val androidData = "Android/data"
+        getExternalFilesDirs(null)
+            .filterNotNull()
+            .mapTo(paths) { it.absolutePath.substringBefore(androidData) }
     } else {
         val path = Environment.getExternalStorageDirectory().absolutePath
         val folders = Pattern.compile("/").split(path)
@@ -106,14 +107,15 @@ fun Context.getStorageDirectories(): Array<String> {
 
         val rawUserId = if (isDigit) lastFolder else ""
         if (TextUtils.isEmpty(rawUserId)) {
-            paths.add(rawEmulatedStorageTarget!!)
+            paths.add(rawEmulatedStorageTarget)
         } else {
             paths.add(rawEmulatedStorageTarget + File.separator + rawUserId)
         }
     }
 
-    if (!TextUtils.isEmpty(rawSecondaryStoragesStr)) {
-        val rawSecondaryStorages = rawSecondaryStoragesStr!!.split(File.pathSeparator.toRegex()).dropLastWhile(String::isEmpty).toTypedArray()
+    if (!rawSecondaryStoragesStr.isNullOrEmpty()) {
+        val rawSecondaryStorages = rawSecondaryStoragesStr
+            .split(File.pathSeparator.toRegex()).dropLastWhile(String::isEmpty).toTypedArray()
         Collections.addAll(paths, *rawSecondaryStorages)
     }
     return paths.map { it.trimEnd('/') }.toTypedArray()
