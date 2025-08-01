@@ -973,7 +973,6 @@
     <ID>MagicNumber:SystemUIController.kt$0.3f</ID>
     <ID>MagicNumber:SystemUIController.kt$AndroidSystemUiController$29</ID>
     <ID>MagicNumber:SystemUIController.kt$SystemUiController$0.5f</ID>
-    <ID>MagicNumber:VcfExporter.kt$VcfExporter$1900</ID>
     <ID>MatchingDeclarationName:RecyclerViewPayloads.kt$RecyclerSelectionPayload</ID>
     <ID>MaxLineLength:AboutActivity.kt$AboutActivity$message = "${getString(R.string.before_asking_question_read_faq)}\n\n${getString(R.string.make_sure_latest)}"</ID>
     <ID>MaxLineLength:ActionMenu.kt$ActionItem(R.string.export_blocked_numbers, doAction = { }, overflowMode = OverflowMode.ALWAYS_OVERFLOW)</ID>
@@ -1124,7 +1123,6 @@
     <ID>MaxLineLength:Context-storage.kt$return trimmed.isEmpty() || trimmed.equals(internalStoragePath, true) || trimmed.equals(sdCardPath, true) || trimmed.equals(otgPath, true)</ID>
     <ID>MaxLineLength:Context-storage.kt$val fileDeleted = (document!!.isFile || allowDeleteFolder) &amp;&amp; DocumentsContract.deleteDocument(applicationContext.contentResolver, document.uri)</ID>
     <ID>MaxLineLength:Context-storage.kt$val projection = arrayOf(Document.COLUMN_DOCUMENT_ID, Document.COLUMN_DISPLAY_NAME, Document.COLUMN_MIME_TYPE, Document.COLUMN_LAST_MODIFIED)</ID>
-    <ID>MaxLineLength:Context-storage.kt$val rawSecondaryStorages = rawSecondaryStoragesStr!!.split(File.pathSeparator.toRegex()).dropLastWhile(String::isEmpty).toTypedArray()</ID>
     <ID>MaxLineLength:Context-storage.kt$val selection = "${Images.Media.DATA} LIKE ? AND ${Images.Media.DATA} NOT LIKE ? AND ${Images.Media.MIME_TYPE} IS NOT NULL" // avoid selecting folders</ID>
     <ID>MaxLineLength:Context-styling.kt$fun Context.isBlackAndWhiteTheme()</ID>
     <ID>MaxLineLength:Context-styling.kt$fun Context.isWhiteTheme()</ID>
@@ -1603,7 +1601,6 @@
     <ID>UnusedPrivateMember:UpgradeToProDialog.kt$@MyDevices @Composable private fun UpgradeToProAlertDialogPreview()</ID>
     <ID>UnusedPrivateMember:WhatsNewDialog.kt$@MyDevices @Composable private fun WhatsNewAlertDialogPreview()</ID>
     <ID>UnusedPrivateMember:WritePermissionDialog.kt$@Composable @MyDevices private fun WritePermissionAlertDialogPreview(@PreviewParameter(WritePermissionDialogModePreviewParameter::class) mode: WritePermissionDialog.WritePermissionDialogMode)</ID>
-    <ID>UnusedPrivateProperty:Context-storage.kt$val rawExternalStorage = System.getenv("EXTERNAL_STORAGE")</ID>
     <ID>UnusedPrivateProperty:CustomizationActivity.kt$CustomizationActivity.Companion$private const val THEME_SOLARIZED = 2</ID>
     <ID>UnusedPrivateProperty:String.kt$i</ID>
     <ID>UnusedPrivateProperty:Theme.kt$val configuration = LocalConfiguration.current</ID>
@@ -1783,7 +1780,6 @@
     <ID>WildcardImport:Theme.kt$import androidx.compose.material3.*</ID>
     <ID>WildcardImport:Theme.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:UpgradeToProDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
-    <ID>WildcardImport:VcfExporter.kt$import ezvcard.property.*</ID>
     <ID>WildcardImport:WhatsNewDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
     <ID>WildcardImport:WritePermissionDialog.kt$import androidx.compose.foundation.layout.*</ID>
   </CurrentIssues>
