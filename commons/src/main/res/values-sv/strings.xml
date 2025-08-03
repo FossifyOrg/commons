@@ -249,7 +249,7 @@
     <string name="append">Lägg till \'_1\'</string>
     <string name="apply_to_all">Använd på alla konflikter</string>
     <string name="system_folder_restriction">Systemet tillåter inte åtgärden i den här mappen, välj en annan</string>
-    <string name="system_folder_copy_restriction">Systemet tillåter inte kopiering till denna mapp, välj någon annan</string>
+    <string name="system_folder_copy_restriction">Systemet tillåter inte kopiering till den här mappen, välj en annan</string>
     <string name="rename_in_sd_card_system_restriction">Systemet tillåter inte namnändring i denna mapp</string>
     <string name="rename_internal_system_restriction">Kan inte ändra namn på mappar direkt på det interna lagringsutrymmet, endast undermappar</string>
     <string name="cannot_rename_folder">Går ej att ändra namn på denna mapp</string>
@@ -1086,4 +1086,5 @@
     <string name="shared_theme_note">Observera att även om du använder Pro-versionen av appen, behöver du fortfarande Fossify Thank You av tekniska skäl. Den tar hand om färgsynkroniseringen.</string>
     <string name="features_locked">Den här funktionen är låst, köp &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; för att låsa upp hela appen.&lt;br&gt;&lt;br&gt;Det är en engångsbetalning och om du inte är nöjd kan vi återbetala dig.</string>
     <string name="donate_new">Hej,&lt;br&gt;&lt;br&gt;hoppas du gillar appen. Den innehåller ingen reklam och vi samlar inte heller in din data, stöd utvecklingen genom att köpa &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Du får också tillgång till alla appfunktioner, inklusive färganpassning.&lt;br&gt;&lt;br&gt;Tack!</string>
+    <string name="app_icon_color_warning">Varning! Vissa startprogram hanterar kanske inte anpassning av appikoner korrekt. Om ikonen försvinner kan du, om det är möjligt, prova att starta appen via Google Play eller en widget. När du har startat appen återställer du ikonens gröna standardfärg #106D1F. I extrema fall kan det vara nödvändigt att installera om appen.</string>
 </resources>
