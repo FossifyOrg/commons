@@ -273,7 +273,7 @@
     <string name="move">Movi</string>
     <string name="merge">Kunfandi</string>
     <string name="could_not_create_folder">Ne povis krei la dosierujon \"%s\"</string>
-    <string name="append_filenames">Aldoni sufikson al dosiernomoj</string>
+    <string name="append_filenames">Aldoni tekston post dosiernomoj</string>
     <string name="filename_invalid_characters">Dosiernomo enhavas nevalidajn karakterojn</string>
     <string name="moving_success_one">Dosiero sukcese movita</string>
     <string name="filename_cannot_be_empty">Dosiernomo ne devas esti malplena</string>
@@ -304,9 +304,9 @@
     <string name="filename_invalid_characters_placeholder">La dosiernomo \"%s\" enhavas nevalidajn karakterojn</string>
     <string name="extension_cannot_be_empty">Dosiersufikso ne devas esti malplena</string>
     <string name="source_file_doesnt_exist">La fonta dosiero \"%s\" ne ekzistas</string>
-    <string name="prepend_filenames">Aldoni prefikson al dosiernomoj</string>
+    <string name="prepend_filenames">Aldoni tekston antaŭ dosiernomoj</string>
     <string name="pattern_renaming">Ŝablono</string>
-    <string name="string_to_add">Ĉeno por aldoni</string>
+    <string name="string_to_add">Teksto por aldoni</string>
     <string name="rename_date_time_pattern">%Y - jaro\n%M - monato\n%D - tago\n%h - horo\n%m - minuto\n%s - sekundo\n%i - nombro pliiĝanta el 1</string>
     <string name="filename_without_txt">Dosiernomo (sen .txt)</string>
     <string name="filename_without_json">Dosiernomo (sen .json)</string>
