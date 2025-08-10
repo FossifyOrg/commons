@@ -16,7 +16,6 @@ import androidx.compose.foundation.lazy.rememberLazyListState
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ContentCopy
-import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.MoreVert
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
@@ -419,7 +418,7 @@ private fun BlockedNumberTrailingContent(modifier: Modifier = Modifier, onDelete
             dismissMenu()
         }, text = {
             Text(
-                text = stringResource(id = R.string.delete),
+                text = stringResource(id = R.string.unblock),
                 modifier = Modifier.fillMaxWidth(),
                 fontSize = 16.sp,
                 fontWeight = FontWeight.Normal
@@ -513,11 +512,9 @@ private fun BlockedNumberActionMenu(
     val actionMenus = remember(selectedIdsCount) {
         val delete =
             ActionItem(
-                nameRes = R.string.delete,
-                icon = Icons.Default.Delete,
+                nameRes = R.string.unblock,
                 doAction = onDelete,
-                overflowMode = OverflowMode.NEVER_OVERFLOW,
-                iconColor = iconColor
+                overflowMode = OverflowMode.ALWAYS_OVERFLOW,
             )
 
         val list = if (selectedIdsCount == 1) {
@@ -536,7 +533,14 @@ private fun BlockedNumberActionMenu(
         }
         list.toImmutableList()
     }
-    ActionMenu(items = actionMenus, numIcons = if (selectedIdsCount == 1) 2 else 1, isMenuVisible = true, onMenuToggle = { }, iconsColor = iconColor)
+    var isMenuVisible by remember { mutableStateOf(false) }
+    ActionMenu(
+        items = actionMenus,
+        numIcons = if (selectedIdsCount == 1) 2 else 1,
+        isMenuVisible = isMenuVisible,
+        onMenuToggle = { isMenuVisible = it },
+        iconsColor = iconColor
+    )
 }
 
 @Composable
