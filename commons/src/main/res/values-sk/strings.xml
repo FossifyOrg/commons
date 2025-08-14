@@ -1084,4 +1084,23 @@
     <string name="rate_this_app">Ohodnoťte túto aplikáciu</string>
     <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
     <string name="donate_new">Dobrý deň,&lt;br&gt;&lt;br&gt;dúfame, že sa Vám páči táto aplikácia. Neobsahuje žiadne reklamy a nezbiera žiadne Vaše údaje, prosím podporte jej vývoj zakúpením &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Ďakujem&lt;/a&gt;. Odomknete tým všetky funkcie aplikácie vrátane prispôsobenia farieb.&lt;br&gt;&lt;br&gt;Ďakujeme!</string>
+    <string name="donate_short">Prosím, podporte nás zakúpením &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You (Ďakujem)&lt;/a&gt;. Odomknú sa vám taktiež všetky funkcie aplikácií vrátane úpravy farieb.</string>
+    <string name="update_thank_you">Prosím aktualizujte Fossify Ďakujem na najnovšiu verziu</string>
+    <string name="features_locked">Táto funkcia je zamknutá, prosím, zakúpte si &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You (Ďakujem)&lt;/a&gt; pre odomknutie všetkých funkcií aplikácie.&lt;br&gt;&lt;br&gt;Je to jednorazová kúpa; ak nebudete spokojní, vieme vám vrátiť peniaze.</string>
+    <string name="all_fossify_apps">Všetky Fossify aplikácie</string>
+    <string name="donate_to_fossify">Prispieť projektu Fossify</string>
+    <string name="platforms">Platformy</string>
+    <string name="little_to_no_fee">Malý alebo žiadny poplatok</string>
+    <string name="fee_up_to_pct">Poplatok až %1$d%%</string>
+    <string name="cryptocurrency">Kryptomena</string>
+    <string name="faq_6_text_commons">Tento problém nastane, ak váš launcher (spúšťač) nie celkom podporuje prispôsobenie ikon. Skúste otvoriť aplikáciu cez Google Play alebo miniaplikáciu (widget), ak je to možné. Po spustení obnovte predvolenú zelenú farbu ikony #106D1F. V extrémnych prípadoch môže byť potrebné aplikáciu preinštalovať.</string>
+    <string name="translation_belarusian">Bieloruština</string>
+    <string name="translation_central_kurdish">Centrálna kurdčina</string>
+    <string name="translation_chuvash">Čuvaština</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_gujarati">Gudžarátčina</string>
+    <string name="translation_kabyle">Kabylčina</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="otto_title">Otto (zbernica udalostí)</string>
+    <string name="evalex_title">EvalEx (vyhodnotenie matematického výrazu)</string>
 </resources>
