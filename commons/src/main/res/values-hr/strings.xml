@@ -171,11 +171,11 @@
     <string name="filename_invalid_characters_placeholder">Ime datoteke \'%s\' sadrži neispravne znakove</string>
     <string name="extension_cannot_be_empty">Ekstenzija ne smije biti prazna</string>
     <string name="source_file_doesnt_exist">Izvorna datoteka %s ne postoji</string>
-    <string name="prepend_filenames">Dodavanje na početak imena datoteke</string>
-    <string name="append_filenames">Dodavanje naziva datoteka</string>
+    <string name="prepend_filenames">Dodaj tekst ispred imena datoteke</string>
+    <string name="append_filenames">Dodaj tekst iza imena datoteke</string>
     <string name="simple_renaming">Jednostavno preimenovanje</string>
     <string name="pattern_renaming">Uzorak</string>
-    <string name="string_to_add">Znakovni niz za dodavanje</string>
+    <string name="string_to_add">Tekst za dodavanje</string>
     <string name="rename_date_time_pattern">%Y – godina
 \n%M – mjesec
 \n%D – dan
