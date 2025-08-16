@@ -191,11 +191,11 @@
     <string name="filename_invalid_characters_placeholder">A(z) „%s” fájlnév érvénytelen karaktereket tartalmaz</string>
     <string name="extension_cannot_be_empty">A kiterjesztés nem lehet üres</string>
     <string name="source_file_doesnt_exist">A(z) %s forrásfájl nem létezik</string>
-    <string name="prepend_filenames">Fájlnevek eléfűzése</string>
-    <string name="append_filenames">Fájlnevek hozzáfűzése</string>
+    <string name="prepend_filenames">Szöveg hozzáadása a fájlnevek elé</string>
+    <string name="append_filenames">Szöveg hozzáadása a fájlnevek után</string>
     <string name="simple_renaming">Egyszerű átnevezés</string>
     <string name="pattern_renaming">Minta</string>
-    <string name="string_to_add">Hozzáadandó karakterlánc</string>
+    <string name="string_to_add">Hozzáadandó szöveg</string>
     <string name="rename_date_time_pattern">%Y – év
 \n%M – hónap
 \n%D – nap
@@ -971,7 +971,7 @@
     <string name="why_upgrade_background_color_customization">Háttérszín testreszabása</string>
     <string name="why_upgrade_file_importing">Fájlimportálás támogatása</string>
     <string name="why_upgrade_zooming">Nagyítás</string>
-    <string name="third_party_licences">Harmadik feles licencek</string>
+    <string name="third_party_licences">Harmadik fél licencei</string>
     <string name="kotlin_title">Kotlin (programnyelv)</string>
     <string name="subsampling_title">Subsampling Scale Image View (nagyítható képnézetek)</string>
     <string name="glide_title">Glide (képbetöltés és gyorsítótárazás)</string>
@@ -1087,4 +1087,13 @@
     <string name="fee_up_to_pct">Legfeljebb %1$d%% díj</string>
     <string name="known_issues">Ismert problémák</string>
     <string name="translation_kabyle">Kabyle</string>
+    <string name="confirm_storage_access_restricted_text">A rendszer megkötései miatt ez a mappa nem elérhető.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Megnyitás rendszeralkalmazásban</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Nem található rendszerfájl-kezelő alkalmazás.</string>
+    <string name="number_of_items">Darabszám</string>
+    <string name="reorder_items_by_dragging">Elemek átrendezése húzással</string>
+    <string name="requires_fossify_thank_you">Fossify Köszönet szükséges hozzá</string>
+    <string name="more_fossify_apps">Még több Fossify alkalmazás</string>
+    <string name="rate_this_app">Értékeld az alkalmazást</string>
+    <string name="evalex_title">EvalEx (matematikai kifejezés értékelése)</string>
 </resources>
