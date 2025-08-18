@@ -16,7 +16,7 @@ androidx-constraintlayout = "2.2.1"
 androidx-documentfile = "1.0.1"
 androidx-biometricKtx = "1.2.0-alpha05"
 androidx-exifinterface = "1.4.1"
-androidx-coreKtx = "1.13.1"
+androidx-coreKtx = "1.17.0"
 androidx-appcompat = "1.7.1"
 androidx-swiperefreshlayout = "1.1.0"
 #Material
