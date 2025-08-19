@@ -861,7 +861,9 @@
     <string name="sms_messenger_short">Meddelanden</string>
     <string name="thank_you_short">Tack</string>
     <string name="voice_recorder_short">Röstinspelare</string>
-    <string name="sideloaded_app">Det verkar som om din appversion är korrupt. Ladda ner originalversionen &lt;a href=%s&gt;här&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[
+            Det verkar som om din appversion är skadad. Ladda ner originalversionen <a href="%s">här</a>.
+        ]]></string>
     <string name="frequently_asked_questions">Frågor och svar</string>
     <string name="before_asking_question">Innan du ställer en fråga, läs först</string>
     <string name="faq_1_title_commons">Hur kommer det sig att jag inte ser den här appwidgeten på listan över widgets\?</string>
@@ -1088,4 +1090,9 @@
     <string name="donate_new">Hej,&lt;br&gt;&lt;br&gt;hoppas du gillar appen. Den innehåller ingen reklam och vi samlar inte heller in din data, stöd utvecklingen genom att köpa &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Du får också tillgång till alla appfunktioner, inklusive färganpassning.&lt;br&gt;&lt;br&gt;Tack!</string>
     <string name="app_icon_color_warning">Varning! Vissa startprogram hanterar kanske inte anpassning av appikoner korrekt. Om ikonen försvinner kan du, om det är möjligt, prova att starta appen via Google Play eller en widget. När du har startat appen återställer du ikonens gröna standardfärg #106D1F. I extrema fall kan det vara nödvändigt att installera om appen.</string>
     <string name="faq_6_text_commons">Det här problemet uppstår när startprogrammet inte har fullt stöd för ikonanpassning. Prova att starta appen via Google Play eller en widget, om det är möjligt. När du har startat appen återställer du ikonens gröna standardfärg #106D1F. I extrema fall kan det vara nödvändigt att installera om appen.</string>
+    <string name="contributors_label"><![CDATA[
+            Den här listan innehåller alla som på ett märkbart sätt har bidragit till någon Fossify-app, inte bara den här. Översättningarna hanteras av volontärer,
+            kontakta oss om du också vill hjälpa till. Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.
+            Tack till alla bidragsgivare och andra supportrar!
+        ]]></string>
 </resources>
