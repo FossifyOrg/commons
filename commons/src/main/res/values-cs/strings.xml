@@ -119,7 +119,7 @@
     <string name="import_blocked_numbers">Importovat blokovaná čísla</string>
     <string name="must_make_default_dialer">Pro použití blokování čísel musíte nastavit tuto aplikaci jako výchozí pro správu hovorů.</string>
     <string name="set_as_default">Nastavit jako výchozí</string>
-    <string name="block_confirmation">Jste si jistí, že chcete zablokovat „%s“?</string>
+    <string name="block_confirmation">Opravdu chcete zablokovat „%s“?</string>
     <string name="block_unknown_calls">Blokovat volání z neznámých čísel</string>
     <string name="block_hidden_calls">Blokovat volání ze skrytých čísel</string>
     <string name="block_unknown_messages">Blokovat zprávy z neznámých čísel</string>
@@ -344,7 +344,7 @@
     <string name="black_white">Černobílý</string>
     <string name="custom">Vlastní</string>
     <string name="shared">Sdílený</string>
-    <string name="system_default">Výchozí systémový</string>
+    <string name="system_default">Podle systému</string>
     <string name="whats_new">Co je nového</string>
     <string name="whats_new_disclaimer">* najdete zde pouze výraznější změny, vždy jsou však doprovázeny i drobnými opravami</string>
     <string name="delete">Smazat</string>
@@ -627,7 +627,7 @@
     <string name="customize_colors">Přizpůsobit barvy</string>
     <string name="customize_colors_locked">Přizpůsobit barvy (Uzamčeno)</string>
     <string name="feature_locked">Uzamčeno</string>
-    <string name="customize_widget_colors">Přizpůsobit barvy widgetů</string>
+    <string name="customize_widget_colors">Přizpůsobit barvy widgetu</string>
     <string name="customize_notifications">Přizpůsobit oznámení</string>
     <string name="use_english_language">Použít angličtinu</string>
     <string name="language">Jazyk</string>
@@ -645,7 +645,7 @@
     <string name="prevent_phone_from_sleeping">Zabránit uspání zařízení dokud je aplikace v popředí</string>
     <string name="skip_delete_confirmation">Vždy přeskočit potvrzení mazání souborů</string>
     <string name="enable_pull_to_refresh">Povolit obnovení seznamu tažením shora</string>
-    <string name="use_24_hour_time_format">Použít 24-hodinový formát času</string>
+    <string name="use_24_hour_time_format">Použít 24hodinový formát času</string>
     <string name="change_date_and_time_format">Změnit formát data a času</string>
     <string name="sunday_first">Začátek týdne v neděli</string>
     <string name="start_week_on">Začátek týdne</string>
