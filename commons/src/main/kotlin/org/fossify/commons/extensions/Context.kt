@@ -6,8 +6,15 @@ import android.app.Activity
 import android.app.Application
 import android.app.NotificationManager
 import android.app.role.RoleManager
-import android.content.*
-import android.content.pm.PackageManager
+import android.content.ActivityNotFoundException
+import android.content.ClipData
+import android.content.ClipboardManager
+import android.content.ContentResolver
+import android.content.ContentUris
+import android.content.ContentValues
+import android.content.Context
+import android.content.ContextWrapper
+import android.content.Intent
 import android.content.pm.PackageManager.PERMISSION_GRANTED
 import android.content.pm.ShortcutManager
 import android.content.res.Configuration
@@ -17,13 +24,21 @@ import android.graphics.Point
 import android.media.MediaMetadataRetriever
 import android.media.RingtoneManager
 import android.net.Uri
-import android.os.*
+import android.os.Build
+import android.os.Bundle
+import android.os.Environment
+import android.os.Handler
+import android.os.Looper
 import android.provider.BaseColumns
 import android.provider.BlockedNumberContract.BlockedNumbers
 import android.provider.ContactsContract.CommonDataKinds.BaseTypes
 import android.provider.ContactsContract.CommonDataKinds.Phone
 import android.provider.DocumentsContract
-import android.provider.MediaStore.*
+import android.provider.MediaStore.Audio
+import android.provider.MediaStore.Files
+import android.provider.MediaStore.Images
+import android.provider.MediaStore.MediaColumns
+import android.provider.MediaStore.Video
 import android.provider.OpenableColumns
 import android.provider.Settings
 import android.telecom.TelecomManager
@@ -45,8 +60,66 @@ import com.github.ajalt.reprint.core.Reprint
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
 import org.fossify.commons.R
-import org.fossify.commons.helpers.*
+import org.fossify.commons.helpers.AppLockManager
+import org.fossify.commons.helpers.BaseConfig
+import org.fossify.commons.helpers.ContactsHelper
+import org.fossify.commons.helpers.DAY_SECONDS
+import org.fossify.commons.helpers.FONT_SIZE_LARGE
+import org.fossify.commons.helpers.FONT_SIZE_MEDIUM
+import org.fossify.commons.helpers.FONT_SIZE_SMALL
+import org.fossify.commons.helpers.FRIDAY_BIT
+import org.fossify.commons.helpers.HOUR_SECONDS
+import org.fossify.commons.helpers.KEY_MAILTO
+import org.fossify.commons.helpers.MINUTE_SECONDS
+import org.fossify.commons.helpers.MONDAY_BIT
+import org.fossify.commons.helpers.MONTH_SECONDS
+import org.fossify.commons.helpers.MyContactsContentProvider
+import org.fossify.commons.helpers.MyContentProvider
 import org.fossify.commons.helpers.MyContentProvider.PERMISSION_WRITE_GLOBAL_SETTINGS
+import org.fossify.commons.helpers.PERMISSION_ACCESS_COARSE_LOCATION
+import org.fossify.commons.helpers.PERMISSION_ACCESS_FINE_LOCATION
+import org.fossify.commons.helpers.PERMISSION_CALL_PHONE
+import org.fossify.commons.helpers.PERMISSION_CAMERA
+import org.fossify.commons.helpers.PERMISSION_GET_ACCOUNTS
+import org.fossify.commons.helpers.PERMISSION_MEDIA_LOCATION
+import org.fossify.commons.helpers.PERMISSION_POST_NOTIFICATIONS
+import org.fossify.commons.helpers.PERMISSION_READ_CALENDAR
+import org.fossify.commons.helpers.PERMISSION_READ_CALL_LOG
+import org.fossify.commons.helpers.PERMISSION_READ_CONTACTS
+import org.fossify.commons.helpers.PERMISSION_READ_MEDIA_AUDIO
+import org.fossify.commons.helpers.PERMISSION_READ_MEDIA_IMAGES
+import org.fossify.commons.helpers.PERMISSION_READ_MEDIA_VIDEO
+import org.fossify.commons.helpers.PERMISSION_READ_MEDIA_VISUAL_USER_SELECTED
+import org.fossify.commons.helpers.PERMISSION_READ_PHONE_STATE
+import org.fossify.commons.helpers.PERMISSION_READ_SMS
+import org.fossify.commons.helpers.PERMISSION_READ_STORAGE
+import org.fossify.commons.helpers.PERMISSION_READ_SYNC_SETTINGS
+import org.fossify.commons.helpers.PERMISSION_RECORD_AUDIO
+import org.fossify.commons.helpers.PERMISSION_SEND_SMS
+import org.fossify.commons.helpers.PERMISSION_WRITE_CALENDAR
+import org.fossify.commons.helpers.PERMISSION_WRITE_CALL_LOG
+import org.fossify.commons.helpers.PERMISSION_WRITE_CONTACTS
+import org.fossify.commons.helpers.PERMISSION_WRITE_STORAGE
+import org.fossify.commons.helpers.PREFS_KEY
+import org.fossify.commons.helpers.SATURDAY_BIT
+import org.fossify.commons.helpers.SUNDAY_BIT
+import org.fossify.commons.helpers.THURSDAY_BIT
+import org.fossify.commons.helpers.TIME_FORMAT_12
+import org.fossify.commons.helpers.TIME_FORMAT_24
+import org.fossify.commons.helpers.TUESDAY_BIT
+import org.fossify.commons.helpers.WEDNESDAY_BIT
+import org.fossify.commons.helpers.WEEK_SECONDS
+import org.fossify.commons.helpers.YEAR_SECONDS
+import org.fossify.commons.helpers.YOUR_ALARM_SOUNDS_MIN_ID
+import org.fossify.commons.helpers.ensureBackgroundThread
+import org.fossify.commons.helpers.isNougatPlus
+import org.fossify.commons.helpers.isOnMainThread
+import org.fossify.commons.helpers.isOreoPlus
+import org.fossify.commons.helpers.isQPlus
+import org.fossify.commons.helpers.isRPlus
+import org.fossify.commons.helpers.isSPlus
+import org.fossify.commons.helpers.isUpsideDownCakePlus
+import org.fossify.commons.helpers.proPackages
 import org.fossify.commons.models.AlarmSound
 import org.fossify.commons.models.BlockedNumber
 import org.joda.time.DateTimeConstants
@@ -236,7 +309,7 @@ private fun isDownloadsDocument(uri: Uri) = uri.authority == "com.android.provid
 
 private fun isExternalStorageDocument(uri: Uri) = uri.authority == "com.android.externalstorage.documents"
 
-fun Context.hasPermission(permId: Int) = ContextCompat.checkSelfPermission(this, getPermissionString(permId)) == PackageManager.PERMISSION_GRANTED
+fun Context.hasPermission(permId: Int) = ContextCompat.checkSelfPermission(this, getPermissionString(permId)) == PERMISSION_GRANTED
 
 fun Context.hasAllPermissions(permIds: Collection<Int>) = permIds.all(this::hasPermission)
 
@@ -496,30 +569,21 @@ fun Context.canAccessGlobalConfig(): Boolean {
     return isThankYouInstalled() && ContextCompat.checkSelfPermission(this, PERMISSION_WRITE_GLOBAL_SETTINGS) == PERMISSION_GRANTED
 }
 
-fun Context.isOrWasThankYouInstalled(): Boolean {
+fun Context.isOrWasThankYouInstalled(allowPretend: Boolean = true): Boolean {
     return when {
-        resources.getBoolean(R.bool.pretend_thank_you_installed) -> true
-        baseConfig.hadThankYouInstalled -> true
         isThankYouInstalled() -> {
-            baseConfig.hadThankYouInstalled = true
+            if (!baseConfig.hadThankYouInstalled) {
+                baseConfig.hadThankYouInstalled = true
+            }
             true
         }
-
+        baseConfig.hadThankYouInstalled -> true
+        resources.getBoolean(R.bool.pretend_thank_you_installed) && allowPretend -> true
         else -> false
     }
 }
 
 fun Context.isAProApp() = packageName.startsWith("org.fossify.") && packageName.removeSuffix(".debug").endsWith(".pro")
-
-fun Context.getCustomizeColorsString(): String {
-    val textId = if (isOrWasThankYouInstalled()) {
-        R.string.customize_colors
-    } else {
-        R.string.customize_colors_locked
-    }
-
-    return getString(textId)
-}
 
 fun Context.addLockedLabelIfNeeded(stringId: Int): String {
     return if (isOrWasThankYouInstalled()) {
@@ -720,7 +784,6 @@ fun Context.storeNewYourAlarmSound(resultData: Intent): AlarmSound {
     return newAlarmSound
 }
 
-@RequiresApi(Build.VERSION_CODES.N)
 fun Context.saveImageRotation(path: String, degrees: Int): Boolean {
     if (!needsStupidWritePermissions(path)) {
         saveExifRotation(ExifInterface(path), degrees)
@@ -1298,15 +1361,21 @@ fun Context.openFullScreenIntentSettings(appId: String) {
 
 fun Context.getDayOfWeekString(dayOfWeek: Int): String {
     val dayOfWeekResId = when (dayOfWeek) {
-        DateTimeConstants.MONDAY -> org.fossify.commons.R.string.monday
-        DateTimeConstants.TUESDAY -> org.fossify.commons.R.string.tuesday
-        DateTimeConstants.WEDNESDAY -> org.fossify.commons.R.string.wednesday
-        DateTimeConstants.THURSDAY -> org.fossify.commons.R.string.thursday
-        DateTimeConstants.FRIDAY -> org.fossify.commons.R.string.friday
-        DateTimeConstants.SATURDAY -> org.fossify.commons.R.string.saturday
-        DateTimeConstants.SUNDAY -> org.fossify.commons.R.string.sunday
+        DateTimeConstants.MONDAY -> R.string.monday
+        DateTimeConstants.TUESDAY -> R.string.tuesday
+        DateTimeConstants.WEDNESDAY -> R.string.wednesday
+        DateTimeConstants.THURSDAY -> R.string.thursday
+        DateTimeConstants.FRIDAY -> R.string.friday
+        DateTimeConstants.SATURDAY -> R.string.saturday
+        DateTimeConstants.SUNDAY -> R.string.sunday
         else -> throw IllegalArgumentException("Invalid day: $dayOfWeek")
     }
 
     return getString(dayOfWeekResId)
+}
+
+fun Context.findActivity(): Activity? = when (this) {
+    is Activity -> this
+    is ContextWrapper -> baseContext.findActivity()
+    else -> null
 }
