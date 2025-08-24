@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/purchase_thank_you_holder"
+    style="@style/SettingsHolderTextViewStyle"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/purchase_thank_you_label"
+        style="@style/SettingsTextLabelStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/purchase_simple_thank_you" />
+
+    <org.fossify.commons.views.MyTextView
+        android:id="@+id/purchase_thank_you_value"
+        style="@style/SettingsTextValueStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/purchase_thank_you_label"
+        android:text="@string/enables_more_customization" />
+
+</RelativeLayout>

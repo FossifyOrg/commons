@@ -691,11 +691,11 @@
     <string name="settings">Settings</string>
     <string name="purchase_simple_thank_you">Purchase Fossify Thank You</string>
     <string name="requires_fossify_thank_you">Requires Fossify Thank You</string>
+    <string name="enables_more_customization">Enables more customization</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Color customization</string>
     <string name="improved_color_customization">Improved color customization</string>
     <string name="customize_colors">Customize colors</string>
-    <string name="customize_colors_locked">Customize colors (Locked)</string>
     <string name="theme_and_colors">Theme and colors</string>
     <string name="feature_locked">Locked</string>
     <string name="customize_widget_colors">Customize widget colors</string>
