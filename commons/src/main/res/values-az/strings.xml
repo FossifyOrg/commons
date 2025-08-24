@@ -325,7 +325,6 @@
     <string name="no_sound">Səs yoxdur</string>
     <string name="settings">Parametrlər</string>
     <string name="customize_colors">Rəngləri dəyiş</string>
-    <string name="customize_colors_locked">Rəngləri dəyiş (Locked)</string>
     <string name="customize_widget_colors">Widget rənglərini dəyiş</string>
     <string name="use_english_language">İngilis dilində işlət</string>
     <string name="show_hidden_items">Gizli faylları göstər</string>

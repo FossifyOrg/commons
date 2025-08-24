@@ -650,7 +650,6 @@
     <string name="color_customization">Настройка цвета</string>
     <string name="improved_color_customization">Улучшенная настройка цвета</string>
     <string name="customize_colors">Настройка интерфейса</string>
-    <string name="customize_colors_locked">Настройка интерфейса (заблокировано)</string>
     <string name="feature_locked">Заблокировано</string>
     <string name="customize_widget_colors">Настройка цветов виджета</string>
     <string name="customize_notifications">Настройка уведомлений</string>

@@ -638,7 +638,6 @@
     <string name="color_customization">Úprava farieb</string>
     <string name="improved_color_customization">Vylepšená úprava farieb</string>
     <string name="customize_colors">Upraviť farby</string>
-    <string name="customize_colors_locked">Upraviť farby (Uzamknuté)</string>
     <string name="feature_locked">Uzamknuté</string>
     <string name="customize_widget_colors">Upraviť farby widgetov</string>
     <string name="customize_notifications">Upraviť pripomienky</string>

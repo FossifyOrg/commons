@@ -519,7 +519,6 @@
     <string name="during_day_at">Durante o dia às %1$02d:%2$02d</string>
     <string name="general_settings">Geral</string>
     <string name="customize_colors">Personalizar cores</string>
-    <string name="customize_colors_locked">Personalizar cores (Locked)</string>
     <string name="feature_locked">Trancado</string>
     <string name="customize_notifications">Personalizar notificações</string>
     <string name="customize_widget_colors">Personalizar cores de widget</string>

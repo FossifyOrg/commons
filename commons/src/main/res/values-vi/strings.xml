@@ -431,7 +431,6 @@
     <string name="color_customization">Cá nhân hóa</string>
     <string name="improved_color_customization">Cải thiện tùy chỉnh màu sắc</string>
     <string name="customize_colors">Màu ứng dụng</string>
-    <string name="customize_colors_locked">Tùy chỉnh màu sắc (Locked)</string>
     <string name="feature_locked">Đã khóa</string>
     <string name="customize_widget_colors">Tùy chỉnh màu widget</string>
     <string name="customize_notifications">Tùy chỉnh thông báo</string>

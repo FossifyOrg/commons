@@ -634,7 +634,6 @@
     <string name="color_customization">Personalización del color</string>
     <string name="improved_color_customization">Personalización mejorada de los colores</string>
     <string name="customize_colors">Cambiar colores</string>
-    <string name="customize_colors_locked">Personalizar colores (Bloqueado)</string>
     <string name="feature_locked">Bloqueado</string>
     <string name="customize_widget_colors">Personaliza los colores del widget</string>
     <string name="customize_notifications">Personaliza las notificaciones</string>

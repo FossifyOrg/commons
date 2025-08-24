@@ -632,7 +632,6 @@
     <string name="color_customization">Personalització del color</string>
     <string name="improved_color_customization">Personalització del color millorada</string>
     <string name="customize_colors">Personalitza els colors</string>
-    <string name="customize_colors_locked">Personalitza els colors (bloquejat)</string>
     <string name="feature_locked">Bloquejat</string>
     <string name="customize_widget_colors">Personalitza els colors dels ginys</string>
     <string name="customize_notifications">Personalitza les notificacions</string>

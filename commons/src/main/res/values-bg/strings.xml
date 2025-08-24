@@ -584,7 +584,6 @@
     <string name="general_settings">Общи</string>
     <string name="color_customization">Настройка на цветовете</string>
     <string name="customize_colors">Настройка на цветовете</string>
-    <string name="customize_colors_locked">Настройка на цветовете (заключено)</string>
     <string name="feature_locked">Заключено</string>
     <string name="customize_widget_colors">Настройка на цветовете на приспособлението</string>
     <string name="customize_notifications">Настройка на известията</string>

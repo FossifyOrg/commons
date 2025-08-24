@@ -600,7 +600,6 @@
     <string name="color_customization">Värien mukautus</string>
     <string name="improved_color_customization">Parannettu värien mukautus</string>
     <string name="customize_colors">Muokkaa sovelluksen värejä</string>
-    <string name="customize_colors_locked">Muokkaa sovelluksen värejä (Locked)</string>
     <string name="feature_locked">Lukittu</string>
     <string name="customize_widget_colors">Mukauta pienoissovelluksen värejä</string>
     <string name="customize_notifications">Mukauta ilmoituksia</string>
