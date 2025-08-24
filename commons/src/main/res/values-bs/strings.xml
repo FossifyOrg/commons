@@ -644,7 +644,6 @@
     <string name="color_customization">Prilagođavanje boja</string>
     <string name="improved_color_customization">Poboljšano prilagođavanje boja</string>
     <string name="customize_colors">Prilagodi boje</string>
-    <string name="customize_colors_locked">Prilagodi boje (zaključano)</string>
     <string name="feature_locked">Zaključano</string>
     <string name="customize_widget_colors">Prilagodi boje widgeta</string>
     <string name="customize_notifications">Prilagodi obavijesti</string>

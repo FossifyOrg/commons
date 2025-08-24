@@ -582,7 +582,6 @@
     <string name="color_customization">Farvetilpasning</string>
     <string name="improved_color_customization">Forbedret farvetilpasning</string>
     <string name="customize_colors">Rediger farver</string>
-    <string name="customize_colors_locked">Rediger farver (Låst)</string>
     <string name="feature_locked">Låst</string>
     <string name="customize_widget_colors">Rediger widget-farver</string>
     <string name="customize_notifications">Tilpas notifikationer</string>

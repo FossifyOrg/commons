@@ -554,7 +554,6 @@
     <string name="color_customization">Persoaliza a cor</string>
     <string name="improved_color_customization">Persoalización mellorada das cores</string>
     <string name="customize_colors">Cambiar cores</string>
-    <string name="customize_colors_locked">Persoalizalas cores (bloqueado)</string>
     <string name="feature_locked">Pechado</string>
     <string name="customize_widget_colors">Persoalizalas cores do widget</string>
     <string name="customize_notifications">Persoalizalas notificacións</string>

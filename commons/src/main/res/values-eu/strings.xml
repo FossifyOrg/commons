@@ -590,7 +590,6 @@
     <string name="color_customization">Koloreen pertsonalizazioa</string>
     <string name="improved_color_customization">Koloreen pertsonalizazio hobetua</string>
     <string name="customize_colors">Pertsonalizatu koloreak</string>
-    <string name="customize_colors_locked">Pertsonalizatu koloreak (Blokeatuta)</string>
     <string name="feature_locked">Blokeatua</string>
     <string name="customize_widget_colors">Pertsonalizatu widgeten koloreak</string>
     <string name="customize_notifications">Pertsonalizatu jakinarazpenak</string>

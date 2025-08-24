@@ -625,7 +625,6 @@
     <string name="color_customization">Přizpůsobení barev</string>
     <string name="improved_color_customization">Vylepšené přizpůsobení barev</string>
     <string name="customize_colors">Přizpůsobit barvy</string>
-    <string name="customize_colors_locked">Přizpůsobit barvy (Uzamčeno)</string>
     <string name="feature_locked">Uzamčeno</string>
     <string name="customize_widget_colors">Přizpůsobit barvy widgetu</string>
     <string name="customize_notifications">Přizpůsobit oznámení</string>

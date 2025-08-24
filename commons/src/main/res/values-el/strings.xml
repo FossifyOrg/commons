@@ -606,7 +606,6 @@
     <string name="color_customization">Προσαρμογή χρώματος</string>
     <string name="improved_color_customization">Βελτιωμένη προσαρμογή χρώματος</string>
     <string name="customize_colors">Προσαρμογή χρωμάτων</string>
-    <string name="customize_colors_locked">Προσαρμογή χρωμάτων (Κλειδωμένο)</string>
     <string name="feature_locked">Κλειδωμένο</string>
     <string name="customize_widget_colors">Προσαρμογή χρωμάτων widget</string>
     <string name="customize_notifications">Προσαρμογή ειδοποιήσεων</string>

@@ -601,7 +601,6 @@
     <string name="color_customization">Värvide kohendamine</string>
     <string name="improved_color_customization">Võimalus värvide detailseks kohendamiseks</string>
     <string name="customize_colors">Muuda rakenduse värve</string>
-    <string name="customize_colors_locked">Muuda rakenduse värve (Lukustatud)</string>
     <string name="feature_locked">Lukus</string>
     <string name="customize_widget_colors">Muuda vidina värve</string>
     <string name="customize_notifications">Kohenda teavitusi</string>

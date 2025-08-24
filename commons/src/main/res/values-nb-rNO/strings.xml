@@ -413,7 +413,6 @@
     <string name="general_settings">Generelt</string>
     <string name="color_customization">Fargetilpasning</string>
     <string name="customize_colors">Tilpass farger</string>
-    <string name="customize_colors_locked">Tilpass farger (låst)</string>
     <string name="customize_widget_colors">Tilpass modulfarger</string>
     <string name="customize_notifications">Tilpass varsler</string>
     <string name="notification_sound">Varslingslyd</string>
