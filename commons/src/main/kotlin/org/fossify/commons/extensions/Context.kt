@@ -785,19 +785,21 @@ fun Context.storeNewYourAlarmSound(resultData: Intent): AlarmSound {
 }
 
 fun Context.saveImageRotation(path: String, degrees: Int): Boolean {
-    if (!needsStupidWritePermissions(path)) {
+    return if (!needsStupidWritePermissions(path)) {
         saveExifRotation(ExifInterface(path), degrees)
-        return true
-    } else if (isNougatPlus()) {
+        true
+    } else {
         val documentFile = getSomeDocumentFile(path)
         if (documentFile != null) {
-            val parcelFileDescriptor = contentResolver.openFileDescriptor(documentFile.uri, "rw")
+            val parcelFileDescriptor =
+                contentResolver.openFileDescriptor(documentFile.uri, "rw")
             val fileDescriptor = parcelFileDescriptor!!.fileDescriptor
             saveExifRotation(ExifInterface(fileDescriptor), degrees)
-            return true
+            true
+        } else {
+            false
         }
     }
-    return false
 }
 
 fun Context.saveExifRotation(exif: ExifInterface, degrees: Int) {
