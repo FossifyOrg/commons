@@ -1061,4 +1061,5 @@
     <string name="rate_this_app">评价此应用</string>
     <string name="evalex_title">EvalEx (数学表达式计值）</string>
     <string name="requires_fossify_thank_you">需要 Fossify Thank You</string>
+    <string name="enables_more_customization">允许更多自定义</string>
 </resources>
