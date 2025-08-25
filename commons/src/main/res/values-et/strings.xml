@@ -1084,4 +1084,5 @@
     <string name="more_fossify_apps">Vaata teisi Fossify rakendusi</string>
     <string name="evalex_title">EvalEx (matemaatilise avaldise hindamine)</string>
     <string name="requires_fossify_thank_you">Eeldab rakenduse „Fossify suur tänu“ olemasolu</string>
+    <string name="enables_more_customization">Võimaldab rakenduse täiendavad kohendamist</string>
 </resources>
