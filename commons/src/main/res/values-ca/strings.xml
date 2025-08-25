@@ -1138,4 +1138,5 @@
     <string name="rate_this_app">Valoreu aquesta aplicació</string>
     <string name="evalex_title">EvalEx (avaluació d\'expressions matemàtiques)</string>
     <string name="requires_fossify_thank_you">Cal Fossify Thank You</string>
+    <string name="enables_more_customization">Habilita més personalització</string>
 </resources>
