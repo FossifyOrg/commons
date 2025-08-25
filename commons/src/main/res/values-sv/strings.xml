@@ -588,7 +588,7 @@
     <string name="time_remaining">Återstående tid:\n%s</string>
     <string name="alarm_warning">Kontrollera att alarmet fungerar som det ska innan du förlitar dig på det. Det kanske inte fungerar som det ska på grund av batterisparrelaterade systembegränsningar.</string>
     <string name="reminder_warning">Kontrollera att påminnelserna fungerar som de ska innan du förlitar dig på dem. De kanske inte fungerar som de ska på grund av batterisparrelaterade systembegränsningar.</string>
-    <string name="notifications_disabled">Aviseringar för denna applikation är inaktiverade. Gå till dina enhetsinställningar för att aktivera dem.</string>
+    <string name="notifications_disabled">Aviseringar är inaktiverade för den här appen. Du kan aktivera dem i enhetens inställningar.</string>
     <string name="snooze">Snooza</string>
     <string name="dismiss">Stäng av</string>
     <string name="no_reminder">Ingen påminnelse</string>
@@ -1094,4 +1094,5 @@
             kontakta oss om du också vill hjälpa till. Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.
             Tack till alla bidragsgivare och andra supportrar!
         ]]></string>
+    <string name="enables_more_customization">Möjliggör mer anpassning</string>
 </resources>
