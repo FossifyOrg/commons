@@ -1163,4 +1163,5 @@
     <string name="evalex_title">EvalEx (obliczanie wyrażeń matematycznych)</string>
     <string name="requires_fossify_thank_you">Wymaga aplikacji „Fossify Thank You”</string>
     <string name="enables_more_customization">Umożliwia większą personalizację</string>
+    <string name="translation_latvian">łotewski</string>
 </resources>
