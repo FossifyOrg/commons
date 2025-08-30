@@ -1074,7 +1074,7 @@
     <string name="days_letter">%dd</string>
     <string name="july_short">Jul</string>
     <string name="august_short">Aug</string>
-    <string name="more_fossify_apps">Fler Fossifyappar</string>
+    <string name="more_fossify_apps">Fler Fossify-appar</string>
     <string name="rate_this_app">Betygsätt denna app</string>
     <string name="artist">Artist</string>
     <string name="hours_letter">%dh</string>
@@ -1095,4 +1095,5 @@
             Tack till alla bidragsgivare och andra supportrar!
         ]]></string>
     <string name="enables_more_customization">Möjliggör mer anpassning</string>
+    <string name="translation_latvian">Lettiska</string>
 </resources>
