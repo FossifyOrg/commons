@@ -1099,4 +1099,5 @@
     <string name="evalex_title">EvalEx (Auswertung mathematischer Ausdrücke)</string>
     <string name="requires_fossify_thank_you">Erfordert Fossify Thank You</string>
     <string name="enables_more_customization">Ermöglicht mehr Personalisierung</string>
+    <string name="translation_latvian">Lettisch</string>
 </resources>
