@@ -986,9 +986,9 @@
     <string name="translation_tamil">泰米尔语</string>
     <string name="translation_turkish">土耳其语</string>
     <string name="translation_ukrainian">乌克兰语</string>
-    <string name="translation_chinese_tw">中文 (繁体)</string>
-    <string name="translation_chinese_hk">中文 (香港特别行政区)</string>
-    <string name="translation_chinese_cn">中文 (简体)</string>
+    <string name="translation_chinese_tw">中文（繁体）</string>
+    <string name="translation_chinese_hk">中文（香港特别行政区）</string>
+    <string name="translation_chinese_cn">中文（简体）</string>
     <string name="week_number_short">周</string>
     <string name="translation_danish">丹麦语</string>
     <string name="translation_vietnamese">越南语</string>
@@ -1062,4 +1062,5 @@
     <string name="evalex_title">EvalEx (数学表达式计值）</string>
     <string name="requires_fossify_thank_you">需要 Fossify Thank You</string>
     <string name="enables_more_customization">允许更多自定义</string>
+    <string name="translation_latvian">拉脱维亚语</string>
 </resources>
