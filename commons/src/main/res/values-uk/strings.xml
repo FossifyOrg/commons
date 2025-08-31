@@ -1166,4 +1166,5 @@
     <string name="evalex_title">EvalEx (оцінка математичного виразу)</string>
     <string name="requires_fossify_thank_you">Потрібно Fossify Дякую</string>
     <string name="enables_more_customization">Дозволяє більше налаштувань</string>
+    <string name="translation_latvian">Латиська</string>
 </resources>
