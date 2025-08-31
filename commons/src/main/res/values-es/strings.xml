@@ -192,8 +192,8 @@
     <string name="filename_invalid_characters_placeholder">El nombre del archivo «%s» contiene caracteres no válidos</string>
     <string name="extension_cannot_be_empty">La extensión no puede estar vacía</string>
     <string name="source_file_doesnt_exist">El archivo %s no existe</string>
-    <string name="prepend_filenames">Anteponer los nombres de los archivo</string>
-    <string name="append_filenames">Agregar los nombres del archivo</string>
+    <string name="prepend_filenames">Añadir texto antes de los nombres de archivo</string>
+    <string name="append_filenames">Añadir texto después de los nombres de archivo</string>
     <string name="simple_renaming">Cambiar el nombre facilmente</string>
     <string name="pattern_renaming">Patrón</string>
     <string name="string_to_add">Texto para agregar</string>
@@ -1063,7 +1063,7 @@
     <string name="start_free_trial">Comenzar prueba gratuita</string>
     <string name="trial_expires_soon">Su período de prueba está a punto de expirar.</string>
     <string name="unlock_for_one_final_day">Desbloquear aplicación un último día</string>
-    <string name="welcome_to_app_name">Le damos la bienvenida a %s.</string>
+    <string name="welcome_to_app_name">¡Bienvenido/a a %s!</string>
     <string name="trial_start_description">Gracias por usar nuestra aplicación . Puedes usar esta versión desbloqueada durante <font color="#FFFFFF">%ddías</font> . Una vez que finalice la prueba, considera actualizar a la versión Pro . Tiene una gran cantidad de nuevas funciones, diseño moderno, sin anuncios y muchas otras mejoras. \n\nSolo tienes que pagarlo una vez en la vida y si no quedas satisfecho, puedes desinstalarlo y obtener un reembolso.\n\nEspero que te guste :)</string>
     <string name="trial_end_description">Por favor, actualice a la versión Pro para disfrutar de la aplicación al máximo.
 \n
@@ -1147,4 +1147,7 @@
     <string name="more_fossify_apps">Más aplicaciones Fossify</string>
     <string name="rate_this_app">Valorar esta aplicación</string>
     <string name="requires_fossify_thank_you">Requiere Fossify Thank You</string>
+    <string name="enables_more_customization">Permite más personalización</string>
+    <string name="translation_latvian">Letón</string>
+    <string name="evalex_title">EvalEx (evaluación de expresiones matemáticas)</string>
 </resources>
