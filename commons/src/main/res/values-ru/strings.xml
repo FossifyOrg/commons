@@ -1144,4 +1144,5 @@
     <string name="evalex_title">EvalEx (вычисление математических выражений)</string>
     <string name="requires_fossify_thank_you">Требуется Fossify Thank You</string>
     <string name="enables_more_customization">Дополнительные настройки</string>
+    <string name="translation_latvian">Латышский</string>
 </resources>
