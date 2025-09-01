@@ -25,6 +25,7 @@ jobs:
           branch: ${{ github.event.repository.default_branch }}
           noNewCommitBehavior: 'warn'
           noVersionBumpBehavior: 'warn'
+          patchList: fix, bugfix, perf, refactor, test, tests, chore
 
       - name: Create and push tag
         if: ${{ steps.version.outputs.nextStrict }}
