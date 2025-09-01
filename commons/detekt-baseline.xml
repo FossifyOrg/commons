@@ -1245,7 +1245,6 @@
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$ActionItem(R.string.export_blocked_numbers, doAction = onExportBlockedNumbers, overflowMode = OverflowMode.ALWAYS_OVERFLOW)</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$ActionItem(R.string.import_blocked_numbers, doAction = onImportBlockedNumbers, overflowMode = OverflowMode.ALWAYS_OVERFLOW)</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$ActionMenu(items = actionMenus, numIcons = 2, isMenuVisible = isMenuVisible, onMenuToggle = { isMenuVisible = it }, iconsColor = scrolledColor)</ID>
-    <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$ActionMenu(items = actionMenus, numIcons = if (selectedIdsCount == 1) 2 else 1, isMenuVisible = true, onMenuToggle = { }, iconsColor = iconColor)</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$BlockedNumber(id = 1, number = "000000000", normalizedNumber = "000000000", numberToCompare = "000000000", contactName = "Test")</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$BlockedNumber(id = 2, number = "111111111", normalizedNumber = "111111111", numberToCompare = "111111111")</ID>
     <ID>MaxLineLength:ManageBlockedNumbersScreen.kt$BlockedNumber(id = 3, number = "5555555555", normalizedNumber = "5555555555", numberToCompare = "5555555555")</ID>
@@ -1431,7 +1430,6 @@
     <ID>ReturnCount:Context-storage.kt$fun Context.createDirectorySync(directory: String): Boolean</ID>
     <ID>ReturnCount:Context-storage.kt$fun Context.getFastDocumentFile(path: String): DocumentFile?</ID>
     <ID>ReturnCount:Context-storage.kt$fun Context.getFileOutputStreamSync(path: String, mimeType: String, parentDocumentFile: DocumentFile? = null): OutputStream?</ID>
-    <ID>ReturnCount:Context.kt$@RequiresApi(Build.VERSION_CODES.N) fun Context.saveImageRotation(path: String, degrees: Int): Boolean</ID>
     <ID>ReturnCount:Context.kt$fun Context.getRealPathFromURI(uri: Uri): String?</ID>
     <ID>ReturnCount:CopyMoveTask.kt$CopyMoveTask$override fun doInBackground(vararg params: Pair&lt;ArrayList&lt;FileDirItem&gt;, String&gt;): Boolean</ID>
     <ID>ReturnCount:CopyMoveTask.kt$CopyMoveTask$private fun copyDirectory(source: FileDirItem, destinationPath: String)</ID>
@@ -1653,9 +1651,6 @@
     <ID>WildcardImport:AppSideloadedDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:AppTheme.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:BaseBottomSheetDialogFragment.kt$import org.fossify.commons.extensions.*</ID>
-    <ID>WildcardImport:BaseSimpleActivity.kt$import org.fossify.commons.dialogs.*</ID>
-    <ID>WildcardImport:BaseSimpleActivity.kt$import org.fossify.commons.extensions.*</ID>
-    <ID>WildcardImport:BaseSimpleActivity.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:BaseSplashActivity.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:BiometricIdTab.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:BottomActionMenuItemPopup.kt$import android.view.*</ID>
@@ -1687,10 +1682,6 @@
     <ID>WildcardImport:Context-storage.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:Context-styling.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:Context-styling.kt$import org.fossify.commons.views.*</ID>
-    <ID>WildcardImport:Context.kt$import android.content.*</ID>
-    <ID>WildcardImport:Context.kt$import android.os.*</ID>
-    <ID>WildcardImport:Context.kt$import android.provider.MediaStore.*</ID>
-    <ID>WildcardImport:Context.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:CopyMoveTask.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:CreateNewFolderDialog.kt$import androidx.compose.material3.*</ID>
     <ID>WildcardImport:CreateNewFolderDialog.kt$import androidx.compose.runtime.*</ID>
