@@ -9,4 +9,31 @@
     <string name="improved_color_customization">Uzlabota krāsu pielāgošana</string>
     <string name="customize_colors">Pielāgot krāsas</string>
     <string name="enables_more_customization">Iespējo vairāk pielāgojumu</string>
+    <plurals name="column_counts">
+        <item quantity="zero">%d sleju</item>
+        <item quantity="one">%d sleja</item>
+        <item quantity="other">%d slejas</item>
+    </plurals>
+    <plurals name="row_counts">
+        <item quantity="zero">%d rindu</item>
+        <item quantity="one">%d rinda</item>
+        <item quantity="other">%d rindas</item>
+    </plurals>
+    <plurals name="items">
+        <item quantity="zero">%d vienumu</item>
+        <item quantity="one">%d vienums</item>
+        <item quantity="other">%d vienumi</item>
+    </plurals>
+    <plurals name="delete_items">
+        <item quantity="zero">%d vienumus</item>
+        <item quantity="one">%d vienumu</item>
+        <item quantity="other">%d vienumus</item>
+    </plurals>
+    <string name="translation_latvian">Latviešu</string>
+    <string name="translation_lithuanian">Lietuviešu</string>
+    <plurals name="deleting_items">
+        <item quantity="zero">Izdzēš %d vienumus</item>
+        <item quantity="one">Izdzēš %d vienumu</item>
+        <item quantity="other">Izdzēš %dvienumus</item>
+    </plurals>
 </resources>
