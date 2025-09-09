@@ -192,11 +192,11 @@
     <string name="filename_invalid_characters_placeholder">Dosya adı \'%s\' geçersiz karakterler içeriyor</string>
     <string name="extension_cannot_be_empty">Uzantı boş olamaz</string>
     <string name="source_file_doesnt_exist">%s kaynak dosyası mevcut değil</string>
-    <string name="prepend_filenames">Ön dosya adları</string>
-    <string name="append_filenames">Dosya adlarını ekle</string>
+    <string name="prepend_filenames">Dosya isimlerinden önce metin ekle</string>
+    <string name="append_filenames">Dosya adlarından sonra metin ekle</string>
     <string name="simple_renaming">Basit yeniden adlandırma</string>
     <string name="pattern_renaming">Desen</string>
-    <string name="string_to_add">Eklenecek dize</string>
+    <string name="string_to_add">Eklenecek metin</string>
     <string name="rename_date_time_pattern">%Y - yıl\n%M - ay\n%D - gün\n%h - saat\n%m - dakika\n%s - saniye\n%i - 1\'den artan sayı</string>
     <string name="filename_without_txt">Dosya adı (.txt olmadan)</string>
     <string name="filename_without_json">Dosya adı (.json olmadan)</string>
@@ -336,7 +336,7 @@
     <string name="global_theme_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
     <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı hala Fossify Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk eşitlemesini o yapar.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Lütfen bu işlevin kilidini açmak ve gelişimi desteklemek için <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Teşekkürler</a>\'i satın alın. Teşekkürler!
+            Lütfen bu özelliğin kilidini açmak ve geliştirme sürecine destek olmak için <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Teşekkürler</a> uygulamasını satın alın. Teşekkür ederiz!
         ]]></string>
     <string name="light_theme">Aydınlık</string>
     <string name="dark_theme">Karanlık</string>
@@ -1101,4 +1101,7 @@
     <string name="more_fossify_apps">Daha fazla Fossify uygulaması</string>
     <string name="rate_this_app">Uygulamayı değerlendirin</string>
     <string name="evalex_title">EvalEx (Matematik ifade değerlendirmesi)</string>
+    <string name="requires_fossify_thank_you">Fossify Teşekkürler uygulamasını gerektirir</string>
+    <string name="enables_more_customization">Daha fazla kişiselleştirme sağlar</string>
+    <string name="translation_latvian">Letonca</string>
 </resources>
