@@ -67,7 +67,7 @@
     <string name="app_corrupt">Развалено приложение</string>
     <string name="disclaimer">Отказ от отговорност</string>
     <string name="take_photo">Снимане</string>
-    <string name="choose_photo">на снимка</string>
+    <string name="choose_photo">Избиране на снимка</string>
     <string name="choose_video">Избиране на видео</string>
     <string name="choose_contact">Избиране на контакт</string>
     <string name="choose_file">Избиране на файл</string>
