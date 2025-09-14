@@ -216,6 +216,7 @@ class AboutActivity : BaseComposeActivity() {
             putExtra(EXTRA_EMAIL, arrayOf(address))
             putExtra(EXTRA_SUBJECT, appName)
             putExtra(EXTRA_TEXT, body)
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             selector = selectorIntent
         }
 
@@ -249,6 +250,7 @@ class AboutActivity : BaseComposeActivity() {
             putExtra(EXTRA_SUBJECT, appName)
             putExtra(EXTRA_TEXT, text)
             type = "text/plain"
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             startActivity(createChooser(this, getString(R.string.invite_via)))
         }
     }

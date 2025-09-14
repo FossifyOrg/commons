@@ -89,6 +89,7 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.io.OutputStream
 import java.util.TreeSet
+import androidx.core.net.toUri
 
 fun Activity.appLaunched(appId: String) {
     baseConfig.internalStoragePath = getInternalStoragePath()
@@ -345,6 +346,7 @@ fun BaseSimpleActivity.startIntentForUriAction(
     if (componentName != null) {
         intent.setComponent(componentName)
     }
+    intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
     return try {
         startActivity(intent)
         true
@@ -413,7 +415,8 @@ fun Activity.launchViewIntent(id: Int) = launchViewIntent(getString(id))
 fun Activity.launchViewIntent(url: String) {
     hideKeyboard()
     ensureBackgroundThread {
-        Intent(Intent.ACTION_VIEW, Uri.parse(url)).apply {
+        Intent(Intent.ACTION_VIEW, url.toUri()).apply {
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             try {
                 startActivity(this)
             } catch (e: ActivityNotFoundException) {
@@ -442,6 +445,7 @@ fun Activity.sharePathIntent(path: String, applicationId: String) {
             putExtra(EXTRA_STREAM, newUri)
             type = getUriMimeType(path, newUri)
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             grantUriPermission("android", newUri, Intent.FLAG_GRANT_READ_URI_PERMISSION)
 
             try {
@@ -482,6 +486,7 @@ fun Activity.sharePathsIntent(paths: List<String>, applicationId: String) {
                 action = Intent.ACTION_SEND_MULTIPLE
                 type = mimeType
                 addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
                 putParcelableArrayListExtra(EXTRA_STREAM, newUris)
 
                 try {
@@ -509,6 +514,7 @@ fun Activity.setAsIntent(path: String, applicationId: String) {
             action = Intent.ACTION_ATTACH_DATA
             setDataAndType(newUri, getUriMimeType(path, newUri))
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             val chooser = Intent.createChooser(this, getString(R.string.set_as))
 
             try {
@@ -528,6 +534,7 @@ fun Activity.shareTextIntent(text: String) {
             action = Intent.ACTION_SEND
             type = "text/plain"
             putExtra(Intent.EXTRA_TEXT, text)
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
 
             try {
                 startActivity(Intent.createChooser(this, getString(R.string.share_via)))
@@ -576,6 +583,7 @@ fun Activity.openEditorIntent(path: String, forceChooser: Boolean, applicationId
             }
 
             putExtra(REAL_FILE_PATH, path)
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
 
             try {
                 val chooser = Intent.createChooser(this, getString(R.string.edit_with))
@@ -598,7 +606,7 @@ fun Activity.openPathIntent(
 ) {
     ensureBackgroundThread {
         val newUri = getFinalUriFromPath(path, applicationId) ?: return@ensureBackgroundThread
-        val mimeType = if (forceMimeType.isNotEmpty()) forceMimeType else getUriMimeType(path, newUri)
+        val mimeType = forceMimeType.ifEmpty { getUriMimeType(path, newUri) }
         Intent().apply {
             action = Intent.ACTION_VIEW
             setDataAndType(newUri, mimeType)
@@ -613,7 +621,7 @@ fun Activity.openPathIntent(
             }
 
             putExtra(REAL_FILE_PATH, path)
-
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             try {
                 val chooser = Intent.createChooser(this, getString(R.string.open_with))
                 startActivity(if (forceChooser) chooser else this)
