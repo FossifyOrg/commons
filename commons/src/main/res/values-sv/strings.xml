@@ -252,7 +252,7 @@
     <string name="system_folder_copy_restriction">Systemet tillåter inte kopiering till den här mappen, välj en annan</string>
     <string name="rename_in_sd_card_system_restriction">Systemet tillåter inte namnändring i denna mapp</string>
     <string name="rename_internal_system_restriction">Kan inte ändra namn på mappar direkt på det interna lagringsutrymmet, endast undermappar</string>
-    <string name="cannot_rename_folder">Går ej att ändra namn på denna mapp</string>
+    <string name="cannot_rename_folder">Det går inte att byta namn på den här mappen</string>
     <string name="select_folder">Välj mapp</string>
     <string name="select_file">Välj fil</string>
     <string name="confirm_storage_access_title">Bekräfta åtkomst till extern lagring</string>
@@ -1096,4 +1096,8 @@
         ]]></string>
     <string name="enables_more_customization">Möjliggör mer anpassning</string>
     <string name="translation_latvian">Lettiska</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Ja, naturligtvis. Du kan sprida information om apparna eller ge bra feedback och betyg. Du kan också hjälpa till genom att översätta apparna till ett nytt språk eller bara uppdatera några befintliga översättningar.
+            Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.
+        ]]></string>
 </resources>
