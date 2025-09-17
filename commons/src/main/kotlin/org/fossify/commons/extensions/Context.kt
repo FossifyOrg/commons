@@ -343,6 +343,7 @@ fun Context.getPermissionString(id: Int) = when (id) {
 
 fun Context.launchActivityIntent(intent: Intent) {
     try {
+        intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
         startActivity(intent)
     } catch (e: ActivityNotFoundException) {
         toast(R.string.no_app_found)
@@ -1301,16 +1302,9 @@ fun Context.sendEmailIntent(recipient: String) {
 }
 
 fun Context.openNotificationSettings() {
-    if (isOreoPlus()) {
-        val intent = Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
-        intent.putExtra(Settings.EXTRA_APP_PACKAGE, packageName)
-        startActivity(intent)
-    } else {
-        // For Android versions below Oreo, you can't directly open the app's notification settings.
-        // You can open the general notification settings instead.
-        val intent = Intent(Settings.ACTION_SETTINGS)
-        startActivity(intent)
-    }
+    val intent = Intent(Settings.ACTION_APP_NOTIFICATION_SETTINGS)
+    intent.putExtra(Settings.EXTRA_APP_PACKAGE, packageName)
+    startActivity(intent)
 }
 
 fun Context.getTempFile(folderName: String, filename: String): File? {
