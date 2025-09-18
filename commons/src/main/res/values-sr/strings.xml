@@ -149,11 +149,11 @@
     <string name="filename_invalid_characters_placeholder">Име датотеке \'%s\' садржи недозвољене карактере</string>
     <string name="extension_cannot_be_empty">Тип датотеке не може бити празан</string>
     <string name="source_file_doesnt_exist">Изворни код датотеке %s не постоји</string>
-    <string name="prepend_filenames">Додај префикс именима датотека</string>
-    <string name="append_filenames">Додај суфикс именима датотека</string>
+    <string name="prepend_filenames">Додај текст пре имена датотека</string>
+    <string name="append_filenames">Додај текст након имена датотека</string>
     <string name="simple_renaming">Једноставно преименовање</string>
     <string name="pattern_renaming">Шаблон</string>
-    <string name="string_to_add">Низ за додавање</string>
+    <string name="string_to_add">Текст за додавање</string>
     <string name="rename_date_time_pattern">%Y - година 
 \n%M - месец 
 \n%D - дан 
@@ -224,7 +224,7 @@
     <string name="confirm_storage_access_text">Изаберите почетну фасциклу СД картице на следећем екрану, да дозволите записивање</string>
     <string name="confirm_storage_access_text_sd">Ако не видите СД картицу, пробајте ово</string>
     <string name="confirm_storage_access_android_text">Дозволите апликацији да приступи изабраном складишту на следећем екрану притиском на „Користи овај фолдер“ на дну.</string>
-    <string name="confirm_storage_access_android_text_specific">Дозволите приступ\'<b>%s</b>\' на следећем екрану притиском на \'<b>Користите ову фасциклу</b>\' на дну.</string>
+    <string name="confirm_storage_access_android_text_specific">Дозволите приступ \'<b>%s</b>\' на следећем екрану притиском на \'<b>Користите ову фасциклу</b>\' на дну.</string>
     <string name="confirm_create_doc_for_new_folder_text">Молимо притисните\'<b>Уштедјети </b>\' на дну следећег екрана да бисте креирали нову фасциклу.</string>
     <string name="confirm_selection">Потврдите одабир</string>
     <string name="loading">Учитавање…</string>
@@ -299,7 +299,7 @@
     <string name="save_before_closing">Имате несачуване измене. Сачувај пре изласка?</string>
     <string name="global_theme_success">Боје су ажуриране успешно. Нова тема под именом \'Shared\' је додата, молимо вас да је користите за ажурирање свих боја у будућности.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Молимо вас пазарите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> да откључате ову функцију и подржите наш развој. Хвала вам!
+            Молимо вас купите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> да бисте откључали ову функцију и подржали наш развој. Хвала вам!
         ]]></string>
     <string name="light_theme">Светла</string>
     <string name="dark_theme">Тамна</string>
@@ -914,4 +914,7 @@
     <string name="deprecated_app">ЗАСТАРЕЛО: Ова верзија апликације се више не одржава, набавите Про верзију на хттпс://плаи.гоогле.цом/сторе/аппс/детаилс\?ид=цом.симплемобилетоолс.ккк.про</string>
     <string name="pro_app_refund">Не заборавите да ако деинсталирате било коју плаћену апликацију у року од 2 сата, новац ће вам аутоматски бити враћен. Ако желите повраћај новца било када касније, само нас контактирајте на hello@fossify.org и добићете га. То олакшава испробавање :)</string>
     <string name="developer_description">Група једноставних Андроид апликација отвореног кода са прилагодљивим виџетима, без огласа и непотребних дозвола.</string>
+    <string name="close">Затвори</string>
+    <string name="error">Грешка: %s</string>
+    <string name="search_contacts">Претражите контакте</string>
 </resources>
