@@ -4,6 +4,7 @@ import android.annotation.SuppressLint
 import android.content.Context
 import android.content.res.ColorStateList
 import android.os.Handler
+import android.os.Looper
 import android.util.AttributeSet
 import android.view.MotionEvent
 import android.widget.TextView
@@ -106,13 +107,19 @@ class PatternTab(context: Context, attrs: AttributeSet) : BaseSecurityTab(contex
             else -> {
                 onIncorrectPassword()
                 binding.patternLockView.setViewMode(PatternLockView.PatternViewMode.WRONG)
-                Handler().postDelayed(delayInMillis = 1000) {
+                binding.patternLockView.isInputEnabled = false
+                Handler(Looper.getMainLooper()).postDelayed(WRONG_PATTERN_CLEAR_DELAY) {
                     binding.patternLockView.clearPattern()
+                    binding.patternLockView.isInputEnabled = !isLockedOut()
                     if (requiredHash.isEmpty()) {
                         computedHash = ""
                     }
                 }
             }
         }
+    }
+
+    companion object {
+        private const val WRONG_PATTERN_CLEAR_DELAY = 300L
     }
 }
