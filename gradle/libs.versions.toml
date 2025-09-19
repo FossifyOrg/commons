@@ -34,7 +34,7 @@ composeActivity = "1.9.3"
 compose = "1.7.6"
 composeMaterial3 = "1.3.2"
 #Glide
-glide = "5.0.4"
+glide = "5.0.5"
 glideCompose = "1.0.0-beta01"
 #Room
 room = "2.7.2"
