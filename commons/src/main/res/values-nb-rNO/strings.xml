@@ -585,4 +585,12 @@
     <string name="internal_storage">Intern lagring</string>
     <string name="files_tab">Filer</string>
     <string name="recent_files_tab">Nylige filer</string>
+    <plurals name="column_counts">
+        <item quantity="one">%d kolonne</item>
+        <item quantity="other">%d kolonner</item>
+    </plurals>
+    <plurals name="row_counts">
+        <item quantity="one">%d rekke</item>
+        <item quantity="other">%d rekker</item>
+    </plurals>
 </resources>
