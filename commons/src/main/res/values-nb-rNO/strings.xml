@@ -593,4 +593,7 @@
         <item quantity="one">%d rekke</item>
         <item quantity="other">%d rekker</item>
     </plurals>
+    <string name="backups">Sikkerhetskopier</string>
+    <string name="enable_automatic_backups">Aktiver automatiske sikkerhetskopier</string>
+    <string name="manage_automatic_backups">Håndter automatiske sikkerhetskopier</string>
 </resources>
