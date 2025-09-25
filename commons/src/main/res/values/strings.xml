@@ -8,6 +8,10 @@
     <string name="later">Later</string>
     <string name="save_as">Save as</string>
     <string name="file_saved">File saved successfully</string>
+    <plurals name="files_saved">
+        <item quantity="one">File saved successfully</item>
+        <item quantity="other">Files saved successfully</item>
+    </plurals>
     <string name="invalid_file_format">Invalid file format</string>
     <string name="out_of_memory_error">Out of memory error</string>
     <string name="an_error_occurred">An error occurred: %s</string>
