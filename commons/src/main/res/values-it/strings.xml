@@ -1143,4 +1143,6 @@
     <string name="rate_this_app">Valuta quest\'app</string>
     <string name="requires_fossify_thank_you">Richiede Grazie Fossify</string>
     <string name="evalex_title">EvalEx (valutazione di espressioni matematiche)</string>
+    <string name="enables_more_customization">Consente una maggiore personalizzazione</string>
+    <string name="translation_latvian">Lettone</string>
 </resources>
