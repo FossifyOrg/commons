@@ -305,7 +305,7 @@ class FilePickerDialog(
             val curName = curPath.getFilenameFromPath()
             val size = file.length()
             var lastModified = lastModifieds.remove(curPath)
-            val isDirectory = if (lastModified != null) false else file.isDirectory
+            val isDirectory = file.isDirectory
             if (lastModified == null) {
                 lastModified = 0    // we don't actually need the real lastModified that badly, do not check file.lastModified()
             }
