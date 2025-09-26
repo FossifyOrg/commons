@@ -1164,4 +1164,10 @@
     <string name="requires_fossify_thank_you">Wymaga aplikacji „Fossify Thank You”</string>
     <string name="enables_more_customization">Umożliwia większą personalizację</string>
     <string name="translation_latvian">łotewski</string>
+    <plurals name="files_saved">
+        <item quantity="one">Plik został zapisany</item>
+        <item quantity="few">Pliki zostały zapisane</item>
+        <item quantity="many">Pliki zostały zapisane</item>
+        <item quantity="other">Pliki zostały zapisane</item>
+    </plurals>
 </resources>
