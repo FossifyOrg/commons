@@ -1086,4 +1086,8 @@
     <string name="requires_fossify_thank_you">Eeldab rakenduse „Fossify suur tänu“ olemasolu</string>
     <string name="enables_more_customization">Võimaldab rakenduse täiendavad kohendamist</string>
     <string name="translation_latvian">läti keel</string>
+    <plurals name="files_saved">
+        <item quantity="one">Faili salvestamine õnnestus</item>
+        <item quantity="other">Failide salvestamine õnnestus</item>
+    </plurals>
 </resources>
