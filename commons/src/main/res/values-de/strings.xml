@@ -1100,4 +1100,8 @@
     <string name="requires_fossify_thank_you">Erfordert Fossify Thank You</string>
     <string name="enables_more_customization">Ermöglicht mehr Personalisierung</string>
     <string name="translation_latvian">Lettisch</string>
+    <plurals name="files_saved">
+        <item quantity="one">Datei erfolgreich gespeichert</item>
+        <item quantity="other">Dateien erfolgreich gespeichert</item>
+    </plurals>
 </resources>
