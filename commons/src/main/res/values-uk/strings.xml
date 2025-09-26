@@ -1167,4 +1167,10 @@
     <string name="requires_fossify_thank_you">Потрібно Fossify Дякую</string>
     <string name="enables_more_customization">Дозволяє більше налаштувань</string>
     <string name="translation_latvian">Латиська</string>
+    <plurals name="files_saved">
+        <item quantity="one">Файл успішно збережено</item>
+        <item quantity="few">Файли успішно збережено</item>
+        <item quantity="many">Файлів успішно збережено</item>
+        <item quantity="other">Файлів успішно збережено</item>
+    </plurals>
 </resources>
