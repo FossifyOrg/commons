@@ -1042,4 +1042,8 @@
     <string name="enables_more_customization">Maakt meer aanpassingen mogelijk</string>
     <string name="translation_latvian">Lets</string>
     <string name="exoplayer_title">ExoPlayer (videospeler)</string>
+    <plurals name="files_saved">
+        <item quantity="one">Bestand is opgeslagen</item>
+        <item quantity="other">Bestanden zijn opgeslagen</item>
+    </plurals>
 </resources>
