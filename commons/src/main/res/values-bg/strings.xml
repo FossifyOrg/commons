@@ -1031,4 +1031,8 @@
     <string name="requires_fossify_thank_you">Изисква Fossify Thank You</string>
     <string name="enables_more_customization">Възможност за повече приспособяване</string>
     <string name="translation_latvian">Латвийски</string>
+    <plurals name="files_saved">
+        <item quantity="one">Файлът е запазен</item>
+        <item quantity="other">Файловете за запазени</item>
+    </plurals>
 </resources>
