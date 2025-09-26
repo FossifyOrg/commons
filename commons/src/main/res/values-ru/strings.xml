@@ -1145,4 +1145,10 @@
     <string name="requires_fossify_thank_you">Требуется Fossify Thank You</string>
     <string name="enables_more_customization">Дополнительные настройки</string>
     <string name="translation_latvian">Латышский</string>
+    <plurals name="files_saved">
+        <item quantity="one">Файл сохранён</item>
+        <item quantity="few">Файлы сохранены</item>
+        <item quantity="many">Файлы сохранены</item>
+        <item quantity="other">Файлы сохранены</item>
+    </plurals>
 </resources>
