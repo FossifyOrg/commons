@@ -1160,4 +1160,11 @@
     <string name="evalex_title">EvalEx (meastóireacht ar shloinnt mhatamaitice)</string>
     <string name="enables_more_customization">Cumasaíonn sé níos mó saincheaptha</string>
     <string name="translation_latvian">Laitvis</string>
+    <plurals name="files_saved">
+        <item quantity="one">Comhad sábháilte go rathúil</item>
+        <item quantity="two">Comhaid sábháilte go rathúil</item>
+        <item quantity="few">Comhaid sábháilte go rathúil</item>
+        <item quantity="many">Comhaid sábháilte go rathúil</item>
+        <item quantity="other">Comhaid sábháilte go rathúil</item>
+    </plurals>
 </resources>
