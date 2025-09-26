@@ -1140,4 +1140,9 @@
     <string name="requires_fossify_thank_you">Cal Fossify Thank You</string>
     <string name="enables_more_customization">Habilita més personalització</string>
     <string name="translation_latvian">Letó</string>
+    <plurals name="files_saved">
+        <item quantity="one">El fitxer s\'ha desat correctament</item>
+        <item quantity="many">Els fitxers s\'han desat correctament</item>
+        <item quantity="other">Els fitxers s\'han desat correctament</item>
+    </plurals>
 </resources>
