@@ -36,4 +36,10 @@
         <item quantity="one">Izdzēš %d vienumu</item>
         <item quantity="other">Izdzēš %dvienumus</item>
     </plurals>
+    <plurals name="files_saved">
+        <item quantity="zero">Datnes sekmīgi saglabātas</item>
+        <item quantity="one">Datne sekmīgi saglabāta</item>
+        <item quantity="other">Datnes sekmīgi saglabātas</item>
+    </plurals>
+    <string name="invalid_file_format">Nederīgs datnes veidols</string>
 </resources>
