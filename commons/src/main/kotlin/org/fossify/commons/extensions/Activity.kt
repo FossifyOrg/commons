@@ -80,6 +80,7 @@ import org.fossify.commons.helpers.isUpsideDownCakePlus
 import org.fossify.commons.models.AlarmSound
 import org.fossify.commons.models.Android30RenameFormat
 import org.fossify.commons.models.FileDirItem
+import org.fossify.commons.models.PhoneNumber
 import org.fossify.commons.models.RadioItem
 import org.fossify.commons.models.Release
 import org.fossify.commons.views.MyTextView
@@ -1755,5 +1756,44 @@ fun Activity.overrideActivityTransition(enterAnim: Int, exitAnim: Int, exiting: 
     } else {
         @Suppress("DEPRECATION")
         overridePendingTransition(enterAnim, exitAnim)
+    }
+}
+
+fun Activity.maybeShowNumberPickerDialog(
+    phoneNumbers: List<PhoneNumber>,
+    respectPrimary: Boolean = false,
+    callback: (number: PhoneNumber) -> Unit
+) {
+    if (phoneNumbers.size > 1) {
+        if (respectPrimary) {
+            val primaryNumber = phoneNumbers.find { it.isPrimary }
+            if (primaryNumber != null) {
+                callback(primaryNumber)
+                return
+            }
+        }
+
+        val items = phoneNumbers.mapIndexed { index, phoneNumber ->
+            val type = getPhoneNumberTypeText(phoneNumber.type, phoneNumber.label)
+            val title = if (phoneNumber.isPrimary) {
+                "${phoneNumber.value} ($type)"
+            } else {
+                "${phoneNumber.value} ($type)"
+            }
+            RadioItem(
+                id = index,
+                title = title,
+                value = phoneNumber
+            )
+        }
+
+        RadioGroupDialog(
+            activity = this,
+            items = ArrayList(items),
+        ) { selectedPhoneNumber ->
+            callback(selectedPhoneNumber as PhoneNumber)
+        }
+    } else {
+        callback(phoneNumbers.first())
     }
 }
