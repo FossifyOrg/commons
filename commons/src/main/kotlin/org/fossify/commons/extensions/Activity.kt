@@ -1764,31 +1764,36 @@ fun Activity.maybeShowNumberPickerDialog(
     respectPrimary: Boolean = false,
     callback: (number: PhoneNumber) -> Unit
 ) {
-    if (phoneNumbers.size > 1) {
-        if (respectPrimary) {
-            val primaryNumber = phoneNumbers.find { it.isPrimary }
-            if (primaryNumber != null) {
-                callback(primaryNumber)
-                return
+    when {
+        phoneNumbers.size == 1 -> callback(phoneNumbers.first())
+        phoneNumbers.size > 1 -> {
+            if (respectPrimary) {
+                val primaryNumber = phoneNumbers.find { it.isPrimary }
+                if (primaryNumber != null) {
+                    callback(primaryNumber)
+                    return
+                }
+            }
+
+            val items = phoneNumbers.mapIndexed { index, phoneNumber ->
+                val type = getPhoneNumberTypeText(phoneNumber.type, phoneNumber.label)
+                RadioItem(
+                    id = index,
+                    title = "${phoneNumber.value} ($type)",
+                    value = phoneNumber
+                )
+            }
+
+            RadioGroupDialog(
+                activity = this,
+                items = ArrayList(items),
+            ) { selectedPhoneNumber ->
+                callback(selectedPhoneNumber as PhoneNumber)
             }
         }
 
-        val items = phoneNumbers.mapIndexed { index, phoneNumber ->
-            val type = getPhoneNumberTypeText(phoneNumber.type, phoneNumber.label)
-            RadioItem(
-                id = index,
-                title = "${phoneNumber.value} ($type)",
-                value = phoneNumber
-            )
+        else -> {
+            toast(R.string.no_phone_number_found)
         }
-
-        RadioGroupDialog(
-            activity = this,
-            items = ArrayList(items),
-        ) { selectedPhoneNumber ->
-            callback(selectedPhoneNumber as PhoneNumber)
-        }
-    } else {
-        callback(phoneNumbers.first())
     }
 }
