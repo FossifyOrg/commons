@@ -74,7 +74,7 @@
     <string name="record_audio">錄音</string>
     <string name="record_video">拍片</string>
     <string name="updating">正在更新…</string>
-    <string name="phone_storage">手機容量</string>
+    <string name="phone_storage">手機儲存空間</string>
     <string name="phone_storage_hidden">手機儲存空間（其他應用程式無法檢視）</string>
     <string name="audio">音訊</string>
     <string name="birthday">生日</string>
@@ -316,7 +316,7 @@
     <string name="shortcut">快捷方式</string>
     <string name="create_shortcut">创建快捷方式</string>
     <string name="create_shortcut_pro">创建快捷方式 (Pro)</string>
-    <string name="add_number_to_contact">添加号码至联系人</string>
+    <string name="add_number_to_contact">將號碼加入聯絡人</string>
     <string name="view_contact_details">查看联系人详情</string>
     <string name="call_from_sim_1">来自 SIM 1 的通话</string>
     <string name="call_from_sim_2">来自 SIM 2 的通话</string>
@@ -811,4 +811,8 @@
     <string name="deprecated_app">已弃用：该应用版本已不再维护，请在以下链接获取专业版 https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">别忘了如果您在2小时内卸载任何付费应用将会自动退款。如果您想在之后退款，只需通过 hello@fossify.org 联系我们即可。这样您就可以放心试用了 :)</string>
     <string name="developer_description">一组简单且开源的 Android 应用程序，可自定义小部件，并且没有广告和不必要的权限。</string>
+    <string name="format_phone_numbers">設定電話號碼格式</string>
+    <string name="search_contacts">搜尋聯絡人</string>
+    <string name="search_favorites">搜尋我的最愛</string>
+    <string name="search_groups">搜尋群組</string>
 </resources>
