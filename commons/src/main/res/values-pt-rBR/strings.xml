@@ -1099,4 +1099,9 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <string name="requires_fossify_thank_you">Requer Agradecimento Fossify</string>
     <string name="enables_more_customization">Permite mais personalização</string>
     <string name="translation_latvian">Letão</string>
+    <plurals name="files_saved">
+        <item quantity="one">Arquivo salvo com sucesso</item>
+        <item quantity="many">Arquivos salvos com sucesso</item>
+        <item quantity="other">Arquivos salvos com sucesso</item>
+    </plurals>
 </resources>
