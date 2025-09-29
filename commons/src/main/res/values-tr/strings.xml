@@ -1104,4 +1104,8 @@
     <string name="requires_fossify_thank_you">Fossify Teşekkürler uygulamasını gerektirir</string>
     <string name="enables_more_customization">Daha fazla kişiselleştirme sağlar</string>
     <string name="translation_latvian">Letonca</string>
+    <plurals name="files_saved">
+        <item quantity="one">Dosya başarıyla kaydedildi</item>
+        <item quantity="other">Dosyalar başarıyla kaydedildi</item>
+    </plurals>
 </resources>
