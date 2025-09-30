@@ -8,7 +8,7 @@
     <string name="save_as">Gem som</string>
     <string name="file_saved">Fil gemt</string>
     <string name="invalid_file_format">Ugyldigt filformat</string>
-    <string name="out_of_memory_error">Fejl, ikke mere plads</string>
+    <string name="out_of_memory_error">Fejl: Ikke mere plads</string>
     <string name="an_error_occurred">Der opstod en fejl: %s</string>
     <string name="error">Fejl: %s</string>
     <string name="open_with">Åbn med</string>
@@ -606,7 +606,7 @@
     <string name="sunday_first">Søndag første ugedag</string>
     <string name="use_same_snooze">Brug altid samme udsættelsestid</string>
     <string name="snooze_time">Udsættelsestid</string>
-    <string name="vibrate_on_button_press">Vibrer ved knaptryk</string>
+    <string name="vibrate_on_button_press">Vibrer ved tryk på knap</string>
     <string name="move_items_into_recycle_bin">Flyt elementer til papirkurven i stedet for at slette dem</string>
     <string name="recycle_bin_cleaning_interval">Interval for tømning af papirkurven</string>
     <string name="empty_recycle_bin">Tøm papirkurven</string>
@@ -1064,4 +1064,8 @@
     <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <string name="evalex_title">EvalEx (math expression evaluation)</string>
     <string name="unlock_for_one_final_day">Lås appen op for én sidste dag</string>
+    <plurals name="files_saved">
+        <item quantity="one">Fil gemt</item>
+        <item quantity="other">Filer gemt</item>
+    </plurals>
 </resources>
