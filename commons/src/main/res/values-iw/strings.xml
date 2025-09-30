@@ -1084,4 +1084,11 @@
         ]]></string>
     <string name="requires_fossify_thank_you">דורש Fossify תודה</string>
     <string name="evalex_title">EvalEx (הערכה של ביטויים מתמטיים)</string>
+    <plurals name="files_saved">
+        <item quantity="one">הקובץ נשמר בהצלחה</item>
+        <item quantity="two">הקבצים נשמרו בהצלחה</item>
+        <item quantity="other">הקבצים נשמרו בהצלחה</item>
+    </plurals>
+    <string name="enables_more_customization">מאפשר התאמה אישית רחבה יותר</string>
+    <string name="translation_latvian">לטבית</string>
 </resources>
