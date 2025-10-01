@@ -58,7 +58,7 @@
     <string name="nine">Nou</string>
     <string name="value">Valor</string>
     <string name="value_cannot_be_empty">El valor no pot estar buit</string>
-    <string name="create_new_contact">Crea un contacte nou</string>
+    <string name="create_new_contact">Crea un contacte</string>
     <string name="add_to_existing_contact">Afegeix a un contacte existent</string>
     <string name="app_corrupt">Aplicació malmesa</string>
     <string name="disclaimer">Exempció de responsabilitat</string>
@@ -234,7 +234,7 @@
     <string name="no_new_items">No s\'ha trobat cap element nou</string>
     <string name="no_space">La destinació no té prou espai disponible.\nNecessari %1$s, disponible %2$s</string>
     <string name="system_service_disabled">El servei del sistema per a seleccionar fitxers i carpetes no està disponible</string>
-    <string name="create_new">Crea nou</string>
+    <string name="create_new">Creació</string>
     <string name="folder">Carpeta</string>
     <string name="file">Fitxer</string>
     <string name="create_new_folder">Crea una carpeta nova</string>
@@ -364,8 +364,8 @@
     <string name="unhide">Mostra</string>
     <string name="hide_folder">Oculta la carpeta</string>
     <string name="unhide_folder">Mostra la carpeta</string>
-    <string name="temporarily_show_hidden">Mostra temporalment el que està ocult</string>
-    <string name="stop_showing_hidden">Deixa de mostrar contingut multimèdia ocult</string>
+    <string name="temporarily_show_hidden">Mostra temporalment els ocults</string>
+    <string name="stop_showing_hidden">Deixa de mostrar els ocults</string>
     <string name="allow_access_more_media">Permet l\'accés a més contingut multimèdia</string>
     <string name="maximum_share_reached">No podeu compartir tot aquest contingut alhora</string>
     <string name="empty_and_disable_recycle_bin">Buida i desactiva la paperera de reciclatge</string>
@@ -412,7 +412,7 @@
     <string name="use_for_this_folder">Utilitza només per a aquesta carpeta</string>
     <string name="sort_numeric_parts">Ordena les parts numèriques pel valor real</string>
     <string name="first_name">Nom</string>
-    <string name="middle_name">Nom del mig</string>
+    <string name="middle_name">Segon nom</string>
     <string name="surname">Cognom</string>
     <string name="full_name">Nom complet</string>
     <string name="use_custom_sorting">Utilitza l\'ordenació personalitzada</string>
@@ -635,8 +635,8 @@
     <string name="feature_locked">Bloquejat</string>
     <string name="customize_widget_colors">Personalitza els colors dels ginys</string>
     <string name="customize_notifications">Personalitza les notificacions</string>
-    <string name="use_english_language">Utilitza l\'idioma anglès</string>
-    <string name="language">Idioma</string>
+    <string name="use_english_language">Utilitza l\'anglès</string>
+    <string name="language">Llengua</string>
     <string name="show_hidden_items">Mostra els elements ocults</string>
     <string name="font_size">Mida de la lletra</string>
     <string name="small">Petita</string>
@@ -669,7 +669,7 @@
     <string name="settings_imported_successfully">La configuració s\'ha importat correctament</string>
     <string name="start_name_with_surname">Comença el nom amb el cognom</string>
     <string name="clear_cache">Neteja la memòria cau</string>
-    <string name="show_call_confirmation_dialog">Mostra un diàleg de confirmació de trucada abans d\'iniciar una trucada</string>
+    <string name="show_call_confirmation_dialog">Mostra un diàleg de confirmació de trucada abans d\'iniciar-la</string>
     <string name="visibility">Visibilitat</string>
     <string name="security">Seguretat</string>
     <string name="scrolling">Desplaçament</string>
@@ -689,8 +689,8 @@
     <string name="manage_excluded_folders">Gestiona les carpetes excloses</string>
     <string name="remove_all">Elimina-ho tot</string>
     <string name="remove_all_description">Elimino totes les carpetes de la llista d\'excloses\? Això no eliminarà les carpetes.</string>
-    <string name="temporarily_show_excluded">Mostra temporalment les excloses</string>
-    <string name="stop_showing_excluded">Deixa de mostrar les excloses</string>
+    <string name="temporarily_show_excluded">Mostra temporalment els exclosos</string>
+    <string name="stop_showing_excluded">Deixa de mostrar els exclosos</string>
     <string name="manage_shown_tabs">Gestiona les pestanyes mostrades</string>
     <string name="default_tab_to_open">Pestanya a obrir en iniciar l\'aplicació</string>
     <string name="contacts_tab">Contactes</string>
@@ -1064,7 +1064,7 @@
     <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;esperem que gaudiu de l\'aplicació. No conté anuncis i tampoc es recopilen les vostres dades. Si us plau, doneu suport al seu desenvolupament comprant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank Tou&lt;/a&gt;. També disposareu de totes les funcions desbloquejades de l\'aplicació, incloent-hi la personalització del color.&lt;br&gt;&lt;br&gt;Gràcies!</string>
     <string name="features_locked">Aquesta característica està bloquejada, compreu &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; per a desbloquejar l\'aplicació completa.&lt;br&gt;&lt;br&gt;És un pagament únic i si no us satisfà, podem reembossar-ho.</string>
     <string name="faq_2_text_commons"><![CDATA[
-            Sí, és clar. Podeu difondre les aplicacions o fer comentaris i valoracions bones. També podeu ajudar traduint les aplicacions a un idioma nou, o simplement actualitzant algunes traduccions existents.
+            Sí, és clar. Podeu difondre les aplicacions o fer comentaris i valoracions bones. També podeu ajudar traduint les aplicacions a una llengua nova, o simplement actualitzant algunes traduccions existents.
             La guia per a traduir es troba en <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">aquest lloc web</a>, o senzillament poseu-vos en contacte amb nosaltres a <a href="mailto:hello@fossify.org">hello@fossify.org</a> si teniu cap pregunta.
         ]]></string>
     <string name="error">Error: %s</string>
@@ -1084,7 +1084,7 @@
     <string name="minutes_letter">%dm</string>
     <string name="hours_letter">%dh</string>
     <string name="week_number_short">st.</string>
-    <string name="purchase_simple_thank_you">Compra de Fossify Thank You</string>
+    <string name="purchase_simple_thank_you">Compreu el Fossify Thank You</string>
     <string name="general_settings">General</string>
     <string name="notification_sound">So de notificació</string>
     <string name="text">Text</string>
