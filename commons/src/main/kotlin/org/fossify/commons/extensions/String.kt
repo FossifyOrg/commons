@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.Bitmap
 import android.graphics.BitmapFactory
 import android.graphics.Point
+import android.icu.text.BreakIterator
 import android.os.Build
 import android.os.StatFs
 import android.provider.MediaStore
@@ -277,7 +278,52 @@ fun String.trimToComparableNumber(): String {
 }
 
 // get the contact names first letter at showing the placeholder without image
-fun String.getNameLetter() = normalizeString().toCharArray().getOrNull(0)?.toString()?.uppercase(Locale.getDefault()) ?: "A"
+fun String.getNameLetter(): String {
+    return firstUserVisibleGrapheme()
+        ?.uppercase(Locale.getDefault())
+        ?: "A"
+}
+
+fun String.firstUserVisibleGrapheme(): String? {
+    val iterator = BreakIterator.getCharacterInstance(Locale.ROOT).also { it.setText(this) }
+    var start = iterator.first()
+    var end = iterator.next()
+    while (end != BreakIterator.DONE) {
+        val cluster = substring(start, end)
+        if (isUserVisibleCluster(cluster)) {
+            return cluster
+        }
+
+        start = end
+        end = iterator.next()
+    }
+    return null
+}
+
+private fun isUserVisibleCluster(text: String): Boolean {
+    if (text.isBlank()) return false
+    var i = 0
+    var substantive = false
+    while (i < text.length) {
+        val codePoint = text.codePointAt(i)
+        when (Character.getType(codePoint)) {
+            Character.NON_SPACING_MARK.toInt(),
+            Character.COMBINING_SPACING_MARK.toInt(),
+            Character.ENCLOSING_MARK.toInt(),
+            Character.FORMAT.toInt(),
+            Character.CONTROL.toInt(),
+            Character.SPACE_SEPARATOR.toInt(),
+            Character.LINE_SEPARATOR.toInt(),
+            Character.PARAGRAPH_SEPARATOR.toInt() -> {
+                // ignore these
+            }
+
+            else -> substantive = true
+        }
+        i += Character.charCount(codePoint)
+    }
+    return substantive
+}
 
 fun String.normalizePhoneNumber() = PhoneNumberUtils.normalizeNumber(this)
 
