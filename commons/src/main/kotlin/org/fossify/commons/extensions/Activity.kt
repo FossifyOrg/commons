@@ -444,7 +444,7 @@ fun Activity.sharePathIntent(path: String, applicationId: String) {
         Intent().apply {
             action = Intent.ACTION_SEND
             putExtra(EXTRA_STREAM, newUri)
-            type = getUriMimeType(path, newUri)
+            type = getUriMimeType(path, newUri).normalizeMimeTypeForSharing()
             addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
             addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
             grantUriPermission("android", newUri, Intent.FLAG_GRANT_READ_URI_PERMISSION)
@@ -482,6 +482,7 @@ fun Activity.sharePathsIntent(paths: List<String>, applicationId: String) {
             if (mimeType.isEmpty() || mimeType == "*/*") {
                 mimeType = paths.getMimeType()
             }
+            mimeType = mimeType.normalizeMimeTypeForSharing()
 
             Intent().apply {
                 action = Intent.ACTION_SEND_MULTIPLE
