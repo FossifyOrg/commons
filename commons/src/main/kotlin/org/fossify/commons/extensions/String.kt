@@ -941,6 +941,14 @@ fun String.getMimeType(): String {
     return typesMap[getFilenameExtension().lowercase(Locale.getDefault())] ?: ""
 }
 
+fun String?.normalizeMimeTypeForSharing(): String {
+    return if (isNullOrBlank() || this == "application/octet-stream") {
+        "*/*"
+    } else {
+        this
+    }
+}
+
 fun String.isBlockedNumberPattern() = contains("*")
 
 fun String?.fromHtml(): Spanned =
