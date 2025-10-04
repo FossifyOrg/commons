@@ -588,7 +588,7 @@
     <string name="settings_exported_successfully">Axustes exportados correctamente</string>
     <string name="settings_imported_successfully">Axustes importados correctamente</string>
     <string name="start_name_with_surname">Empezar o nome cos apelidos</string>
-    <string name="clear_cache">Limpala caché</string>
+    <string name="clear_cache">Limpar memoria tobo</string>
     <string name="show_call_confirmation_dialog">Mostra un diálogo de confirmación da chamada antes de iniciar unha chamada</string>
     <string name="visibility">Visibilidade</string>
     <string name="security">Seguridade</string>
@@ -810,13 +810,13 @@
     <string name="faq_5_text_commons">Se realmente foron eliminados, non podes. Non obstante, hai unha papeleira de reciclaxe activada por defecto, o que fará que os ficheiros só se movan na papeleira en lugar de eliminalos.</string>
     <string name="faq_6_title_commons">A icona do iniciador de aplicacións desapareceu. Que podo facer\?</string>
     <string name="faq_7_title_commons">O diñeiro foi deducido da miña conta bancaria, pero non podo descargala aplicación. Que podo facer\?</string>
-    <string name="faq_7_text_commons">Os pagos son xestionados por enteiro por Google, o seu sistema falla de cando en vez. Só tes que borrala caché da aplicación Google Play e reinicialo dispositivo e, a despois, tentar descargalo de novo.</string>
+    <string name="faq_7_text_commons">Os pagos están xestionados por Google, o seu sistema falla de cando en vez. Só tes que borrar a memoria tobo da aplicación Google Play e reinicialo dispositivo e, despois, tentar descargalo de novo.</string>
     <string name="faq_8_title_commons">Por que debo actualizar á versión Pro?</string>
     <string name="faq_8_text_commons">Como a versión da túa aplicación xa non se actualiza, os erros que quizais detectaches nunca se solucionarán. Tampouco se engadirán novas funcións. Podes mercala versión Pro en Google Play por unha pequena cantidade de diñeiro. É nun pago so, o que compres unha vez, nunca terás que pagalo de novo. Nin sequera despois de conseguir un novo dispositivo. Se non che gusta a versión Pro, podes desinstalala nunhas poucas horas e recuperarás o teu diñeiro automaticamente. Se queres un reembolso máis tarde, póñase en contacto connosco en hello@fossify.org e conseguirao.</string>
     <string name="faq_9_title_commons">Como podo seleccionar varios elementos dunha soa vez\?</string>
     <string name="faq_9_text_commons">Atoparas diferentes formas de facelo. O primeiro é iniciar o modo de selección mantendo presionado un elemento e, a continuación, premendo brevemente sobre outros para seleccionalos. A segunda forma é semellante a seleccionar elementos nos ordenadores cun rato, só tes que iniciar o modo de selección mantendo presionado un elemento e, a continuación, co dedo aínda para abaixo arrástralo por outros elementos para seleccionalo. A terceira forma de seleccionar varios elementos é premendo un elemento durante moito tempo, despois premendo outro e seleccionando todo o que hai entre eles. Se queres seleccionar todos os elementos, só tes que premer un elemento e, a continuación, fai clic no contador de elementos seleccionados na esquina superior esquerda. Isto seleccionará ou deseleccionará todo.</string>
     <string name="faq_10_title_commons">Merquei a aplicación, pero non podo descargala noutro dispositivo.</string>
-    <string name="faq_10_text_commons">Proba a borrar a caché da aplicación Google Play e reinicia o dispositivo. É un fallo de Google Play, que non está realmente relacionado coa propia aplicación.</string>
+    <string name="faq_10_text_commons">Proba a borrar a memoria tobo da aplicación Google Play e reinicia o dispositivo. É un fallo de Google Play, que non está realmente relacionado coa propia aplicación.</string>
     <string name="contributors">Colaboradores</string>
     <string name="translation">Tradución</string>
     <string name="development">Creadores</string>
@@ -901,8 +901,8 @@
     <string name="third_party_licences">Licenzas de terceiros</string>
     <string name="kotlin_title">Kotlin (linguaxe de programación)</string>
     <string name="subsampling_title">Vista da imaxe a escala (vistas da imaxe con zoom)</string>
-    <string name="glide_title">Glide (carga de imaxes e caché)</string>
-    <string name="picasso_title">Picasso (carga das imaxes e caché)</string>
+    <string name="glide_title">Glide (carga de imaxes e memoria)</string>
+    <string name="picasso_title">Picasso (carga das imaxes e memoria)</string>
     <string name="cropper_title">Android Image Cropper (recortar e xirala imaxe)</string>
     <string name="rtl_viewpager_title">RtlViewPager (pasando da dereita a esquerda)</string>
     <string name="joda_title">Joda-Time (substitución da data de Java)</string>

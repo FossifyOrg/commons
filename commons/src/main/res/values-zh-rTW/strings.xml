@@ -446,7 +446,7 @@
     <string name="migrating">搬移</string>
     <string name="exclude">排除</string>
     <string name="excluded_folders">排除資料夾</string>
-    <string name="excluded">（排除）</string>
+    <string name="excluded">（已排除）</string>
     <string name="manage_excluded_folders">管理排除的資料夾</string>
     <string name="remove_all">移除全部</string>
     <string name="remove_all_description">是否將排除列表中的所有資料夾都移除？這不會刪除資料夾。</string>
@@ -1044,4 +1044,7 @@
     <string name="requires_fossify_thank_you">需要 Fossify Thank You</string>
     <string name="enables_more_customization">啟用更多自訂</string>
     <string name="translation_latvian">拉脫維亞語</string>
+    <plurals name="files_saved">
+        <item quantity="other">檔案儲存完成</item>
+    </plurals>
 </resources>

@@ -1049,4 +1049,8 @@
     <string name="evalex_title">EvalEx (taksado de matematika esprimo)</string>
     <string name="enables_more_customization">Ebligas pli da tajlorado</string>
     <string name="translation_latvian">Latva</string>
+    <plurals name="files_saved">
+        <item quantity="one">Dosiero sukcese konservita</item>
+        <item quantity="other">Dosieroj sukcese konservitaj</item>
+    </plurals>
 </resources>
