@@ -1103,4 +1103,10 @@
     <string name="rate_this_app">Arvostele sovellus</string>
     <string name="requires_fossify_thank_you">Vaatii Fossify Thank You:n</string>
     <string name="evalex_title">EvalEx (matemaattisen lausekkeen arviointi)</string>
+    <plurals name="files_saved">
+        <item quantity="one">Tiedosto tallennettu onnistuneesti</item>
+        <item quantity="other">Tiedostot tallennettu onnistuneesti</item>
+    </plurals>
+    <string name="enables_more_customization">Mahdollistaa enemmän mukautettavuutta</string>
+    <string name="translation_latvian">Latvialainen</string>
 </resources>
