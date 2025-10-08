@@ -1145,4 +1145,9 @@
     <string name="evalex_title">EvalEx (valutazione di espressioni matematiche)</string>
     <string name="enables_more_customization">Consente una maggiore personalizzazione</string>
     <string name="translation_latvian">Lettone</string>
+    <plurals name="files_saved">
+        <item quantity="one">File salvato con successo</item>
+        <item quantity="many">File salvati con successo</item>
+        <item quantity="other">File salvati con successo</item>
+    </plurals>
 </resources>
