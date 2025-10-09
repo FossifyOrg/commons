@@ -1186,7 +1186,7 @@
     <string name="add_number_to_contact">أضف رقماً للاتصال</string>
     <string name="view_contact_details">عرض تفاصيل جهة الاتصال</string>
     <string name="notification_sound">صوت الإشعار</string>
-    <string name="features_locked">هذه الميزة مقفلة، يرجى شراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> لفتح التطبيق بالكامل.<br></br><br></br>إنها دفعة لمرة واحدة فقط، وإذا لم تكن راضيًا، يمكننا استرداد أموالك.</string>
+    <string name="features_locked">هذه الميزة مقفلة، يرجى شراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> لفتح التطبيق بالكامل.<br/><br/>إنها دفعة لمرة واحدة فقط، وإذا لم تكن راضيًا، يمكننا استرداد أموالك.</string>
     <string name="translation_arabic">العربية</string>
     <string name="translation_basque">الباسكية</string>
     <string name="translation_croatian">الكرواتية</string>
@@ -1204,7 +1204,7 @@
     <string name="january_short">يناير</string>
     <string name="february_short">فبراير</string>
     <string name="march_short">مارس</string>
-    <string name="donate_new">مرحبًا،<br></br><br></br>نأمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ولا نجمع بياناتك أيضًا، يرجى دعم تطويره بشراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. ستحصل أيضًا على جميع ميزات التطبيق بما في ذلك تخصيص الألوان مفتوحة.<br></br><br></br>شكرًا!</string>
+    <string name="donate_new">مرحبًا،<br/><br/>نأمل أن تستمتع بالتطبيق. لا يحتوي على إعلانات ولا نجمع بياناتك أيضًا، يرجى دعم تطويره بشراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. ستحصل أيضًا على جميع ميزات التطبيق بما في ذلك تخصيص الألوان مفتوحة.<br/><br/>شكرًا!</string>
     <string name="all_fossify_apps">جميع تطبيقات Fossify</string>
     <string name="donate_to_fossify">تبرع لـ Fossify</string>
     <string name="translation_azerbaijani">الأذربيجانية</string>
