@@ -135,9 +135,9 @@
     <string name="set_as_default">Set as default</string>
     <string name="block_confirmation">Are you sure you want to block \"%s\"?</string>
     <string name="block_unknown_calls">Block calls from numbers not in contacts</string>
-    <string name="block_hidden_calls">Block calls from hidden/unknown numbers</string>
+    <string name="block_hidden_calls">Block calls from hidden numbers</string>
     <string name="block_unknown_messages">Block messages from numbers not in contacts</string>
-    <string name="block_hidden_messages">Block messages from hidden/unknown numbers</string>
+    <string name="block_hidden_messages">Block messages from hidden numbers</string>
     <string name="add_blocked_number_helper_text">Enter a number or a pattern (e.g. *12345*, +1*8888) to block all calls and messages from numbers matching the pattern.</string>
     <string name="must_make_default_caller_id_app">Can\'t block unknown numbers without caller ID permission.</string>
     <string name="block_contact">Block contact</string>
