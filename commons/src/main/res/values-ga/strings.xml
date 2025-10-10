@@ -661,9 +661,9 @@
     <string name="must_make_default_dialer">Caithfidh tú an feidhmchlár diailithe réamhshocraithe a dhéanamh den fheidhmchlár seo chun úsáid a bhaint as uimhreacha bactha.</string>
     <string name="set_as_default">Socraigh mar réamhshocrú</string>
     <string name="block_confirmation">An bhfuil tú cinnte go bhfuil fonn ort \"%s\" a bhlocáil?</string>
-    <string name="block_unknown_calls">Cuir bac ar ghlaonna ó uimhreacha anaithnide</string>
+    <string name="block_unknown_calls">Glaonna a bhac ó uimhreacha nach bhfuil sna teagmhálacha</string>
     <string name="block_hidden_calls">Cuir bac ar ghlaonna ó uimhreacha folaithe</string>
-    <string name="block_unknown_messages">Cuir bac ar theachtaireachtaí ó uimhreacha anaithnide</string>
+    <string name="block_unknown_messages">Bac a chur ar theachtaireachtaí ó uimhreacha nach bhfuil i dteagmhálacha</string>
     <string name="block_hidden_messages">Cuir bac ar theachtaireachtaí ó uimhreacha folaithe</string>
     <string name="add_blocked_number_helper_text">Iontráil uimhir nó patrún (m.sh. *12345 *, +1*8888) chun bac a chur ar gach glao agus teachtaireacht ó uimhreacha a mheaitseálann an patrún.</string>
     <string name="must_make_default_caller_id_app">Ní féidir bac a chur ar uimhreacha anaithnide gan cead aitheantais glaoiteora.</string>
