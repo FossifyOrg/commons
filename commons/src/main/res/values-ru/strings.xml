@@ -123,9 +123,9 @@
     <string name="must_make_default_dialer">Чтобы использовать блокировку, необходимо установить это приложение в качестве приложения по умолчанию для набора номера.</string>
     <string name="set_as_default">Установить по умолчанию</string>
     <string name="block_confirmation">Заблокировать \"%s\"?</string>
-    <string name="block_unknown_calls">Блокировать вызовы с неизвестных номеров</string>
+    <string name="block_unknown_calls">Блокировать вызовы с номеров, которых нет в контактах</string>
     <string name="block_hidden_calls">Блокировать вызовы со скрытых номеров</string>
-    <string name="block_unknown_messages">Блокировать сообщения с неизвестных номеров</string>
+    <string name="block_unknown_messages">Блокировать сообщения с номеров, которых нет в контактах</string>
     <string name="block_hidden_messages">Блокировать сообщения со скрытых номеров</string>
     <string name="add_blocked_number_helper_text">Введите номер или шаблон (например: *12345*, +1*8888), чтобы заблокировать все вызовы и сообщения с номеров, соответствующих шаблону.</string>
     <string name="must_make_default_caller_id_app">Невозможно заблокировать неизвестные номера без разрешения идентификации вызывающего абонента.</string>
