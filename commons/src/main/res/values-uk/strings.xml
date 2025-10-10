@@ -123,9 +123,9 @@
     <string name="must_make_default_dialer">Щоб використовувати функцію блокування номерів, вам необхідно встановити цей застосунок як стандартний для роботи з контактами.</string>
     <string name="set_as_default">Встановити застосунок як типовий</string>
     <string name="block_confirmation">Ви впевнені що хочете заблокувати «%s»?</string>
-    <string name="block_unknown_calls">Блокувати дзвінки від не збережених контактів</string>
+    <string name="block_unknown_calls">Блокування дзвінків з номерів, яких немає в контактах</string>
     <string name="block_hidden_calls">Блокувати дзвінки з прихованих номерів</string>
-    <string name="block_unknown_messages">Блокувати повідомлення від не збережених контактів</string>
+    <string name="block_unknown_messages">Блокування повідомлень з номерів, яких немає в контактах</string>
     <string name="block_hidden_messages">Блокувати повідомлення з прихованих номерів</string>
     <string name="add_blocked_number_helper_text">Введіть номер або шаблон (наприклад, *12345*, +1*8888), щоб заблокувати всі дзвінки та повідомлення з номерів, що відповідають шаблону.</string>
     <string name="must_make_default_caller_id_app">Неможливо заблокувати невідомі номери без дозволу ідентифікатора абонента.</string>
