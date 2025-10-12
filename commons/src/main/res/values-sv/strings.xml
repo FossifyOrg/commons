@@ -119,9 +119,9 @@
     <string name="must_make_default_dialer">Du måste ställa in den här appen som standardtelefonapp för att kunna använda blockerade nummer.</string>
     <string name="set_as_default">Ange som standard</string>
     <string name="block_confirmation">Är du säker på att du vill blockera \"%s\"?</string>
-    <string name="block_unknown_calls">Blockera samtal från okända nummer</string>
+    <string name="block_unknown_calls">Blockera samtal från nummer som inte finns i kontakter</string>
     <string name="block_hidden_calls">Blockera samtal från dolda nummer</string>
-    <string name="block_unknown_messages">Blockera meddelanden från okända nummer</string>
+    <string name="block_unknown_messages">Blockera meddelanden från nummer som inte finns i kontakter</string>
     <string name="block_hidden_messages">Blockera meddelanden från dolda nummer</string>
     <string name="add_blocked_number_helper_text">Ange ett nummer eller en nummerserie (exempel *12345*, +1*8888) för att blockera alla samtal och meddelanden som matchar nummret eller nummerserien.</string>
     <string name="must_make_default_caller_id_app">Det går inte att blockera okända nummer utan nummerpresentatörsbehörighet.</string>
