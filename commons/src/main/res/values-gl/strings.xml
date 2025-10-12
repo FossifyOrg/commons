@@ -112,8 +112,8 @@
     <string name="must_make_default_dialer">Para facer uso dos números bloqueados, tes que poñer este aplicativo como o marcador telefónico por defecto.</string>
     <string name="set_as_default">Poñer por defecto</string>
     <string name="block_confirmation">Seguro que queres bloquear a \"%s\"?</string>
-    <string name="block_unknown_calls">Bloquealas chamadas dos contactos non gardados</string>
-    <string name="block_unknown_messages">Bloquealas mensaxes do contactos non gardados</string>
+    <string name="block_unknown_calls">Bloquear as chamadas de números fóra dos contactos</string>
+    <string name="block_unknown_messages">Bloquear as mensaxes de números fóra dos contactos</string>
     <string name="add_blocked_number_helper_text">Introduce un número ou un patrón (por exemplo, *12345*, +1*8888) para bloquear todalas chamadas e mensaxes dos números que coincidan co patrón.</string>
     <string name="must_make_default_caller_id_app">Non se poden bloquealos números descoñecidos sen o permiso do identificador das chamadas.</string>
     <string name="favorites">Favoritos</string>
@@ -163,11 +163,11 @@
     <string name="filename_invalid_characters_placeholder">O nome do ficheiro \'%s\' contén caracteres non válidos</string>
     <string name="extension_cannot_be_empty">A extensión non pode estar baleira</string>
     <string name="source_file_doesnt_exist">O ficheiro %s non existe</string>
-    <string name="prepend_filenames">Antepoñer nomes de ficheiros</string>
-    <string name="append_filenames">Pospoñer nomes de ficheiros</string>
+    <string name="prepend_filenames">Engadir prefixo ao nome dos ficheiros</string>
+    <string name="append_filenames">Engadir sufixo ao nome de ficheiros</string>
     <string name="simple_renaming">Renomeado simple</string>
     <string name="pattern_renaming">Patrón</string>
-    <string name="string_to_add">Cadea a engadir</string>
+    <string name="string_to_add">Texto a engadir</string>
     <string name="rename_date_time_pattern">%Y - ano 
 \n%M - mes 
 \n%D - día 
@@ -237,7 +237,7 @@
     <string name="confirm_storage_access_text">Por favor, escolle a carpeta raíz da tarxeta SD na próxima pantalla para conceder o acceso de escritura</string>
     <string name="confirm_storage_access_text_sd">Se non ves a tarxeta SD, proba isto</string>
     <string name="confirm_storage_access_android_text">Permite que a aplicación acceda ao almacenamento seleccionado na seguinte pantalla premendo \"Usar este cartafol\" na parte inferior.</string>
-    <string name="confirm_storage_access_android_text_specific">Permite acceder a \"<b>%s</b>\" na seguinte pantalla premendo \"<b>Usar este cartafol</b>\" na parte inferior.</string>
+    <string name="confirm_storage_access_android_text_specific">Concede acceso a \'<b>%s</b>\' na seguinte pantalla premendo en \'<b>Usar este cartafol</b>\' na parte inferior.</string>
     <string name="confirm_create_doc_for_new_folder_text">Preme \"<b>Gardar</b>\" na parte inferior da seguinte pantalla para crear o novo cartafol.</string>
     <string name="confirm_selection">Confirmar a selección</string>
     <string name="loading">Cargando…</string>
@@ -898,7 +898,7 @@
     <string name="why_upgrade_background_color_customization">Personalización da cor de fondo</string>
     <string name="why_upgrade_file_importing">Importando o ficheiro de soporte</string>
     <string name="why_upgrade_zooming">Zoom</string>
-    <string name="third_party_licences">Licenzas de terceiros</string>
+    <string name="third_party_licences">Licenzas de terceiras partes</string>
     <string name="kotlin_title">Kotlin (linguaxe de programación)</string>
     <string name="subsampling_title">Vista da imaxe a escala (vistas da imaxe con zoom)</string>
     <string name="glide_title">Glide (carga de imaxes e memoria)</string>
@@ -953,4 +953,88 @@
             Claro que si. Podes falarlle á xente sobre as aplicacións ou valoralas positivamente. Tamén podes colaborar traducíndoas ao teu idioma ou actualizando e mantendo as xa existentes.
             Aquí tes a guía para traducir <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">nesta web</a>, ou contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se queres facer algunha pregunta.
         ]]></string>
+    <plurals name="files_saved">
+        <item quantity="one">Ficheiro gardado correctamente</item>
+        <item quantity="other">Ficheiros gardados correctamente</item>
+    </plurals>
+    <string name="error">Erro: %s</string>
+    <string name="notifications">Notificacións</string>
+    <string name="row_count">Número de filas</string>
+    <plurals name="row_counts">
+        <item quantity="one">%d fila</item>
+        <item quantity="other">%d filas</item>
+    </plurals>
+    <string name="block_hidden_calls">Bloquear chamadas de números ocultos</string>
+    <string name="block_hidden_messages">Bloquear mensaxes de números ocultos</string>
+    <string name="block_contact">Bloquear contacto</string>
+    <string name="block_contact_success">Contacto bloqueado</string>
+    <string name="block_contact_fail">Non se puido bloquear o contacto</string>
+    <string name="unblock_contact">Desbloquear contacto</string>
+    <string name="unblock_contact_success">Contacto desbloqueado</string>
+    <string name="unblock_contact_fail">Non se puido desbloquear o contacto</string>
+    <string name="show_search">Mostrar unha barra de busca</string>
+    <string name="allow_notifications_reminders">Tes que permitir que a app mostre notificacións, se non non poderá mostrar recordatorios.</string>
+    <string name="allow_full_screen_notifications_reminders">Tes que permitir que a app mostre notificacións a pantalla completa, se non poderías perder algúns recordatorios.</string>
+    <string name="allow_notifications_files">Tes que permitir que a app mostre notificacións, se non non pode mostrar a barra de progreso.</string>
+    <string name="allow_notifications_music_player">Tes que permitir que a app mostre notificación, se non non poderá reproducir cancións.</string>
+    <string name="allow_notifications_voice_recorder">Tes que permitir que a app mostre notificacións, se non non pode gravar audio.</string>
+    <string name="allow_notifications_incoming_calls">Tes que permitir que a app mostre notificacións, se non non pode mostrar chamadas entrantes.</string>
+    <string name="grant_permission">Conceder permiso</string>
+    <string name="permission_required">Requírese o permiso</string>
+    <string name="confirm_storage_access_restricted_text">Debido a restricións do sistema, este cartafol non é accesible.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Abrir na app do sistema</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Non se atopou unha app para xestionar ficheiros.</string>
+    <string name="internal_storage">Almacenaxe interna</string>
+    <string name="genre">Xénero</string>
+    <string name="exif">EXIF</string>
+    <string name="altitude">Altitude</string>
+    <string name="apply_to_all_apps">Aplicar cores a todas as apps Fossify</string>
+    <string name="app_icon_color_warning">Precaución: Certos Lanzadores non xestionan correctamente a personalización. Se a icona desparece, intenta iniciar a app a través de Google Play ou un widget, se está accesible. Despois de iniciar, restablece a cor verde #106D1F. En casos extremos pode que precises reinstalar a app.</string>
+    <string name="shared_theme_note">Ten en conta que incluso usando a versión Pro da app, necesitarás Fossify Thank You por razóns técnicas, porque se encarga da sincronización da cor.</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Por favor merca <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta característica e axudar ao desenvolvemento. Grazas!
+        ]]></string>
+    <string name="auto_theme">Auto</string>
+    <string name="white">Branco</string>
+    <string name="allow_access_more_media">Permitir acceso a máis multimedia</string>
+    <string name="view_contact_details">Ver detalles do contacto</string>
+    <string name="pin_item">Fixar elemento</string>
+    <string name="send_sms">Enviar SMS</string>
+    <string name="send_email">Enviar correo electrónico</string>
+    <string name="contact_details">Detalles do contacto</string>
+    <string name="add_contact">Engadir contacto</string>
+    <string name="show_line_numbers">Mostrar números de liña</string>
+    <string name="website">Sitio web</string>
+    <string name="known_issues">Problemas coñecidos</string>
+    <string name="more_fossify_apps">Máis apps Fossify</string>
+    <string name="rate_this_app">Valora esta app</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
+    <string name="social">Social</string>
+    <string name="version_placeholder">Versión %s</string>
+    <string name="donate_please"><![CDATA[
+            Ola,<br><br>
+            agardamos goces da app. Non contén anuncios, por favor considera apoiar o seu desenvolvemento mercando a app <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> , así evitarás tamén volver a ver esta información.<br><br>
+            Grazas!
+        ]]></string>
+    <string name="all_fossify_apps">Todas as apps Fossify</string>
+    <string name="file_manager_short">Xestor de ficheiros</string>
+    <string name="notes_short">Notas</string>
+    <string name="donate_to_fossify">Doar a Fossify</string>
+    <string name="platforms">Plataformas</string>
+    <string name="little_to_no_fee">Pouquiño ou nada</string>
+    <string name="fee_up_to_pct">Ata %1$d%%</string>
+    <string name="cryptocurrency">Criptomoeda</string>
+    <string name="translation_belarusian">Bieloruso</string>
+    <string name="translation_central_kurdish">Central Kurdish</string>
+    <string name="translation_chuvash">Chuvash</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="translation_kabyle">Kabyle</string>
+    <string name="translation_latvian">Latvian</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_many_other_improvements">Moitas máis melloras</string>
+    <string name="zip4j_title">Zip4j (compresión e descompresión ZIP)</string>
+    <string name="evalex_title">EvalEx (evaluación de expresións matemáticas)</string>
+    <string name="unlock_for_one_final_day">Desbloquear a app por último día</string>
 </resources>
