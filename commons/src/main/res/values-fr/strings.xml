@@ -119,7 +119,7 @@
     <string name="block_hidden_calls">Bloquer les appels des numéros masqués</string>
     <string name="block_unknown_messages">Bloquer les messages des contacts non enregistrés</string>
     <string name="block_hidden_messages">Bloquer les messages des numéros masqués</string>
-    <string name="add_blocked_number_helper_text">Saisissez un numéro ou un modèle (par exemple, *12345*, +1*8888) pour bloquer tous les appels et messages provenant de numéros correspondant au modèle.</string>
+    <string name="add_blocked_number_helper_text">Saisissez un numéro ou un modèle (par exemple, *12345*, +1*8888) pour bloquer tous les appels et messages de numéros correspondant au modèle.</string>
     <string name="must_make_default_caller_id_app">Il est impossible de bloquer des numéros inconnus sans avoir autorisé préalablement l\'identification de l\'appelant.</string>
     <string name="block_contact">Bloquer ce contact</string>
     <string name="block_contact_success">Contact bloqué</string>
@@ -1129,4 +1129,9 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="requires_fossify_thank_you">Nécessite Fossify Thank You</string>
     <string name="enables_more_customization">Permettre plus de personnalisation</string>
     <string name="translation_latvian">Estonien</string>
+    <plurals name="files_saved">
+        <item quantity="one">Fichier enregistré avec succès</item>
+        <item quantity="many">Fichiers enregistrés avec succès</item>
+        <item quantity="other"></item>
+    </plurals>
 </resources>
