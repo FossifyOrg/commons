@@ -122,7 +122,7 @@
     <string name="block_confirmation">¿Estás seguro de que quieres bloquear a \"%s\"?</string>
     <string name="block_unknown_calls">Bloquear llamadas de contactos no guardados</string>
     <string name="block_hidden_calls">Bloquear las llamadas de números ocultos</string>
-    <string name="block_unknown_messages">Bloquear los mensajes de los contactos no guardados</string>
+    <string name="block_unknown_messages">"Bloquear  mensajes de contactos no guardados"</string>
     <string name="block_hidden_messages">Bloquear los mensajes de números ocultos</string>
     <string name="add_blocked_number_helper_text">Ingrese un número o un patrón (por ejemplo, *12345*, +1*8888) para bloquear todas las llamadas y mensajes de números que coincidan con el patrón.</string>
     <string name="must_make_default_caller_id_app">No se pueden bloquear los números desconocidos sin el permiso del identificador de llamadas.</string>
