@@ -740,9 +740,9 @@
     <string name="privacy_policy">隱私政策</string>
     <string name="translation_chinese_hk">正體中文（香港）</string>
     <string name="block_confirmation">您確定要封鎖「%s」嗎？</string>
-    <string name="block_unknown_calls">封鎖未儲存聯絡人的來電</string>
+    <string name="block_unknown_calls">封鎖未儲存於通訊錄的號碼來電</string>
     <string name="block_hidden_calls">封鎖隱藏號碼的來電</string>
-    <string name="block_unknown_messages">封鎖未儲存聯絡人的簡訊</string>
+    <string name="block_unknown_messages">封鎖未儲存於通訊錄的號碼的簡訊</string>
     <string name="unblock_contact_success">聯絡人已解除封鎖</string>
     <string name="unblock_contact_fail">聯絡人無法解除封鎖</string>
     <string name="block_contact">封鎖聯絡人</string>
