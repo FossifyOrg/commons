@@ -66,4 +66,28 @@
 
     <dimen name="app_lock_view_max_size">350dp</dimen>
     <dimen name="app_lock_view_min_size">250dp</dimen>
+
+    <!-- List container -->
+    <dimen name="one_line_list_item_min_height">56dp</dimen>
+    <dimen name="two_line_list_item_min_height">72dp</dimen>
+    <dimen name="list_item_padding_horizontal">16dp</dimen>
+    <dimen name="list_item_padding_vertical">8dp</dimen>
+
+    <!-- Leading icon sizes -->
+    <dimen name="list_icon_size_small">24dp</dimen>
+    <dimen name="list_icon_size_medium">40dp</dimen>
+    <dimen name="list_icon_size_large">56dp</dimen>
+    <dimen name="list_icon_size_extra_large">64dp</dimen>
+
+    <!-- List text sizes -->
+    <dimen name="list_primary_text_size">16sp</dimen>
+    <dimen name="list_secondary_text_size">14sp</dimen>
+    <dimen name="list_tertiary_text_size">11sp</dimen>
+
+    <!-- Spacing between elements -->
+    <dimen name="list_item_horizontal_gap">16dp</dimen>
+
+    <!-- Trailing affordances -->
+    <dimen name="list_trailing_icon_size">24dp</dimen>
+    <dimen name="list_touch_target_min">48dp</dimen>
 </resources>
