@@ -458,6 +458,9 @@ const val DATE_FORMAT_FOURTEEN = "yy/MM/dd"
 const val TIME_FORMAT_12 = "hh:mm a"
 const val TIME_FORMAT_24 = "HH:mm"
 
+const val TIME_FORMAT_12_WITH_SECS = "hh:mm:ss a"
+const val TIME_FORMAT_24_WITH_SECS = "HH:mm:ss"
+
 // possible icons at the top left corner
 enum class NavigationIcon(@StringRes val accessibilityResId: Int) {
     Cross(R.string.close),

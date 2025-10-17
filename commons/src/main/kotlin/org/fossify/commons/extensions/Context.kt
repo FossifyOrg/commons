@@ -105,7 +105,9 @@ import org.fossify.commons.helpers.SATURDAY_BIT
 import org.fossify.commons.helpers.SUNDAY_BIT
 import org.fossify.commons.helpers.THURSDAY_BIT
 import org.fossify.commons.helpers.TIME_FORMAT_12
+import org.fossify.commons.helpers.TIME_FORMAT_12_WITH_SECS
 import org.fossify.commons.helpers.TIME_FORMAT_24
+import org.fossify.commons.helpers.TIME_FORMAT_24_WITH_SECS
 import org.fossify.commons.helpers.TUESDAY_BIT
 import org.fossify.commons.helpers.WEDNESDAY_BIT
 import org.fossify.commons.helpers.WEEK_SECONDS
@@ -819,6 +821,8 @@ fun Context.getProUrl() = "https://play.google.com/store/apps/details?id=${baseC
 fun Context.getStoreUrl() = "https://play.google.com/store/apps/details?id=${packageName.removeSuffix(".debug")}"
 
 fun Context.getTimeFormat() = if (baseConfig.use24HourFormat) TIME_FORMAT_24 else TIME_FORMAT_12
+
+fun Context.getTimeFormatWithSeconds() = if (baseConfig.use24HourFormat) TIME_FORMAT_24_WITH_SECS else TIME_FORMAT_12_WITH_SECS
 
 fun Context.getResolution(path: String): Point? {
     return if (path.isImageFast() || path.isImageSlow()) {
