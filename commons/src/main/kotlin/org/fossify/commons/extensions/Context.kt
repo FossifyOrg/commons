@@ -822,7 +822,11 @@ fun Context.getStoreUrl() = "https://play.google.com/store/apps/details?id=${pac
 
 fun Context.getTimeFormat() = if (baseConfig.use24HourFormat) TIME_FORMAT_24 else TIME_FORMAT_12
 
-fun Context.getTimeFormatWithSeconds() = if (baseConfig.use24HourFormat) TIME_FORMAT_24_WITH_SECS else TIME_FORMAT_12_WITH_SECS
+fun Context.getTimeFormatWithSeconds() = if (baseConfig.use24HourFormat) {
+    TIME_FORMAT_24_WITH_SECS
+} else {
+    TIME_FORMAT_12_WITH_SECS
+}
 
 fun Context.getResolution(path: String): Point? {
     return if (path.isImageFast() || path.isImageSlow()) {
