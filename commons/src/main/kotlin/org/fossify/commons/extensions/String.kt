@@ -23,6 +23,7 @@ import java.text.Normalizer
 import java.text.SimpleDateFormat
 import java.util.Locale
 import java.util.regex.Pattern
+import kotlin.math.abs
 
 
 fun String.getFilenameFromPath() = substring(lastIndexOf("/") + 1)
@@ -1000,6 +1001,13 @@ fun String.isBlockedNumberPattern() = contains("*")
 fun String?.fromHtml(): Spanned =
     when {
         this == null -> SpannableString("")
-        Build.VERSION.SDK_INT >= Build.VERSION_CODES.N -> Html.fromHtml(this, Html.FROM_HTML_MODE_LEGACY)
-        else -> Html.fromHtml(this)
+        else -> Html.fromHtml(this, Html.FROM_HTML_MODE_LEGACY)
     }
+
+/**
+ * Returns a consistent background color for contact names based on their hash code.
+ * This is based on the existing logic from SimpleContactHelper.getContactLetterIcon().
+ */
+fun String.getNameColor(): Int {
+    return letterBackgroundColors[abs(this.hashCode()) % letterBackgroundColors.size].toInt()
+}
