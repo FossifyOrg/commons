@@ -145,7 +145,7 @@
     <string name="search_files">Søg i filer</string>
     <string name="search_folders">Søg i mapper</string>
     <string name="search_files_and_folders">Søg i filer og mapper</string>
-    <string name="search_playlists">Søg i spillelister</string>
+    <string name="search_playlists">Søg i playlister</string>
     <string name="search_artists">Søg i kunstnere</string>
     <string name="search_albums">Søg i album</string>
     <string name="search_tracks">Søg i numre</string>
@@ -154,7 +154,7 @@
     <string name="search_recordings">Søg i optagelser</string>
     <string name="no_items_found">Intet fundet.</string>
     <string name="change_filter">Skift filter</string>
-    <string name="no_storage_permissions">Tilladelse til at gemme påkrævet</string>
+    <string name="no_storage_permissions">Lagringstilladelse er påkrævet</string>
     <string name="no_contacts_permission">Adgang til kontakter påkrævet</string>
     <string name="no_camera_permissions">Adgang til kamera påkrævet</string>
     <string name="no_audio_permissions">Adgang til lyd påkrævet</string>
