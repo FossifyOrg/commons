@@ -562,7 +562,7 @@
     <string name="permission_required">נדרשת הרשאה</string>
     <string name="simple_renaming">שינוי שם פשוט</string>
     <string name="sd_card_usb_same">‐</string>
-    <string name="block_unknown_messages">חסימת הודעות ממספרים לא ידועים</string>
+    <string name="block_unknown_messages">חסימת שיחות ממספרים שאינם באנשי קשר</string>
     <plurals name="column_counts">
         <item quantity="one">עמודה %d</item>
         <item quantity="two">%d עמודות</item>
@@ -903,7 +903,7 @@
     <string name="m3u_parser_title">M3U Parser (טיפול בקובץ רשימת השמעה M3u)</string>
     <string name="cryptocurrency">מטבעות קריפטוגרפיים</string>
     <string name="donate_to_fossify">תרום ל-Fossify</string>
-    <string name="block_unknown_calls">חסימת שיחות ממספרים לא ידועים</string>
+    <string name="block_unknown_calls">חסימת שיחות ממספרים שאינם באנשי קשר</string>
     <string name="platforms">פלטפורמות</string>
     <string name="little_to_no_fee">תשלום מועט עד ללא תשלום כלל</string>
     <string name="global_theme_success">התבנית הנוכחית הוחלה בהצלחה על כל אפליקציות Fossify. כל שינוי עתידי בתבנית זו יסונכרן אוטומטית.</string>
