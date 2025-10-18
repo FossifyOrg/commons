@@ -39,6 +39,7 @@ import androidx.core.app.ActivityCompat
 import androidx.core.net.toUri
 import androidx.core.util.Pair
 import androidx.core.view.ScrollingView
+import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.get
 import androidx.core.view.size
@@ -198,6 +199,8 @@ abstract class BaseSimpleActivity : AppCompatActivity() {
         }
 
         super.onCreate(savedInstanceState)
+        WindowCompat.enableEdgeToEdge(window)
+
         if (!packageName.startsWith("org.fossify.", true)) {
             if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
                 val label = "You are using a fake version of the app. For your own safety download the original one from www.fossify.org. Thanks"
