@@ -36,12 +36,12 @@ val dialogContainerColor
         }
     }
 
-val Modifier.dialogBackgroundShapeAndBorder: Modifier
-    @ReadOnlyComposable
-    @Composable get() = this
-        .fillMaxWidth()
-        .background(dialogContainerColor, dialogShape)
-        .dialogBorder
+@Composable
+@ReadOnlyComposable
+fun Modifier.dialogBackgroundShapeAndBorder(): Modifier = this
+    .fillMaxWidth()
+    .background(dialogContainerColor, dialogShape)
+    .dialogBorder()
 
 val dialogShape = Shapes.extraLarge
 
@@ -49,13 +49,13 @@ val dialogElevation = 0.dp
 
 val dialogTextColor @Composable @ReadOnlyComposable get() = SimpleTheme.colorScheme.onSurface
 
-val Modifier.dialogBorder: Modifier
-    @ReadOnlyComposable
-    @Composable get() =
-        when (LocalTheme.current) {
-            is Theme.BlackAndWhite -> this.border(1.dp, light_grey_stroke, dialogShape)
-            else -> this
-        }
+@Composable
+@ReadOnlyComposable
+fun Modifier.dialogBorder(): Modifier =
+    when (LocalTheme.current) {
+        is Theme.BlackAndWhite -> this.border(1.dp, light_grey_stroke, dialogShape)
+        else -> this
+    }
 
 @Composable
 fun DialogSurface(
@@ -64,7 +64,7 @@ fun DialogSurface(
 ) {
     Surface(
         modifier = modifier
-            .dialogBorder,
+            .dialogBorder(),
         shape = dialogShape,
         color = dialogContainerColor,
         tonalElevation = dialogElevation,

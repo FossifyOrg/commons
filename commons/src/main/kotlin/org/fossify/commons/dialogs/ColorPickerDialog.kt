@@ -159,7 +159,7 @@ fun ColorPickerAlertDialog(
 
     AlertDialog(
         modifier = modifier
-            .dialogBorder,
+            .dialogBorder(),
         onDismissRequest = alertDialogState::hide,
         properties = DialogProperties(usePlatformDefaultWidth = false)
     ) {
