@@ -596,4 +596,8 @@
     <string name="backups">Sikkerhetskopier</string>
     <string name="enable_automatic_backups">Aktiver automatiske sikkerhetskopier</string>
     <string name="manage_automatic_backups">Håndter automatiske sikkerhetskopier</string>
+    <string name="default_tab_to_open">Fane som skal åpnes ved appstart</string>
+    <string name="contacts_tab">Kontakter</string>
+    <string name="favorites_tab">Favoritter</string>
+    <string name="last_used_tab">Sist brukte</string>
 </resources>
