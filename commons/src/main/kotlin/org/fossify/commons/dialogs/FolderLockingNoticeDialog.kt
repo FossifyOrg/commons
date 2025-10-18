@@ -46,7 +46,7 @@ fun FolderLockingNoticeAlertDialog(
     callback: () -> Unit
 ) {
     AlertDialog(
-        modifier = modifier.dialogBorder,
+        modifier = modifier.dialogBorder(),
         shape = dialogShape,
         containerColor = dialogContainerColor,
         tonalElevation = dialogElevation,

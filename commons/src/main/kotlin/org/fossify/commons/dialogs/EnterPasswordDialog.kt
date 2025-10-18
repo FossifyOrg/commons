@@ -91,7 +91,7 @@ fun EnterPasswordAlertDialog(
         }
     }
     AlertDialog(
-        modifier = modifier.dialogBorder,
+        modifier = modifier.dialogBorder(),
         shape = dialogShape,
         containerColor = dialogContainerColor,
         tonalElevation = dialogElevation,

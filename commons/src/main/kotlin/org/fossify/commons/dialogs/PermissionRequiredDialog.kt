@@ -52,7 +52,7 @@ fun PermissionRequiredAlertDialog(
     AlertDialog(
         containerColor = dialogContainerColor,
         modifier = modifier
-            .dialogBorder,
+            .dialogBorder(),
         onDismissRequest = alertDialogState::hide,
         shape = dialogShape,
         tonalElevation = dialogElevation,
