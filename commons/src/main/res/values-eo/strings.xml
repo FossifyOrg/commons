@@ -221,8 +221,8 @@
     <string name="block_hidden_calls">Bloki vokojn el kaŝitaj telefonnumeroj</string>
     <string name="block_hidden_messages">Bloki mesaĝojn el kaŝitaj telefonnumeroj</string>
     <string name="add_blocked_number_helper_text">Enigu telefonnumeron aŭ ŝablonon (ekz. *12345*, +1*8888) por bloki ĉiujn vokojn kaj mesaĝojn el kongruantaj telefonnumeroj.</string>
-    <string name="block_unknown_calls">Bloki vokojn el nekonataj telefonnumeroj</string>
-    <string name="block_unknown_messages">Bloki mesaĝojn el nekonataj telefonnumeroj</string>
+    <string name="block_unknown_calls">Bloki vokojn el nekontaktaj telefonnumeroj</string>
+    <string name="block_unknown_messages">Bloki mesaĝojn el nekontaktaj telefonnumeroj</string>
     <string name="search_history">Serĉi historion</string>
     <string name="search_files_and_folders">Serĉi dosier(uj)ojn</string>
     <string name="no_storage_permissions">Necesas permeso de memoro</string>
