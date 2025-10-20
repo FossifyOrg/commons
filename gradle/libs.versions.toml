@@ -7,7 +7,7 @@ kotlinxSerializationJson = "1.9.0"
 ksp = "2.2.20-2.0.3"
 #Detekt
 detekt = "1.23.8"
-detektCompose = "0.4.22"
+detektCompose = "0.4.27"
 #Androidx
 androidx-customView = "1.2.0"
 androidx-customViewPooling = "1.1.0"
