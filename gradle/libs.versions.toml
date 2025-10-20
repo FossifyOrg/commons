@@ -37,7 +37,7 @@ composeMaterial3 = "1.3.2"
 glide = "5.0.5"
 glideCompose = "1.0.0-beta08"
 #Room
-room = "2.8.1"
+room = "2.8.2"
 #ezVcard
 ezVcard = "0.12.1"
 #gson
