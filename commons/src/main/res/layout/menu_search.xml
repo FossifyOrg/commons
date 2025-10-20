@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.google.android.material.appbar.AppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<org.fossify.commons.views.MyAppBarLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/top_app_bar_layout"
     android:layout_width="match_parent"
@@ -51,4 +51,4 @@
             app:titleTextAppearance="@style/AppTheme.ActionBar.TitleTextStyle" />
 
     </RelativeLayout>
-</com.google.android.material.appbar.AppBarLayout>
+</org.fossify.commons.views.MyAppBarLayout>

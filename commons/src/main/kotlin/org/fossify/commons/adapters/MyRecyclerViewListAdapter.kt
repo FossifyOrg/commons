@@ -62,8 +62,6 @@ abstract class MyRecyclerViewListAdapter<T>(
 
     init {
         actModeCallback = object : MyActionModeCallback() {
-            private var savedStatusBarColor = activity.getProperStatusBarColor()
-
             override fun onActionItemClicked(mode: ActionMode, item: MenuItem): Boolean {
                 actionItemPressed(item.itemId)
                 return true
@@ -94,13 +92,6 @@ abstract class MyRecyclerViewListAdapter<T>(
                     resources.getColor(R.color.dark_grey, activity.theme)
                 }
 
-                savedStatusBarColor = activity.window.statusBarColor
-                activity.animateStatusBarColor(
-                    colorTo = bgColor,
-                    colorFrom = savedStatusBarColor,
-                    duration = 300L
-                )
-
                 actBarTextView!!.setTextColor(bgColor.getContrastColor())
                 activity.updateMenuItemColors(menu, baseColor = bgColor)
                 onActionModeCreated()
@@ -127,12 +118,6 @@ abstract class MyRecyclerViewListAdapter<T>(
                         toggleItemSelection(false, position, false)
                     }
                 }
-
-                activity.animateStatusBarColor(
-                    colorTo = savedStatusBarColor,
-                    colorFrom = activity.window.statusBarColor,
-                    duration = 400L
-                )
 
                 updateTitle()
                 selectedKeys.clear()

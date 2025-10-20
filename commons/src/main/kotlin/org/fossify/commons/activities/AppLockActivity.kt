@@ -4,17 +4,23 @@ import android.app.Activity
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.addCallback
-import androidx.appcompat.app.AppCompatActivity
 import androidx.biometric.auth.AuthPromptHost
 import org.fossify.commons.R
 import org.fossify.commons.adapters.AppLockAdapter
 import org.fossify.commons.databinding.ActivityAppLockBinding
-import org.fossify.commons.extensions.*
+import org.fossify.commons.extensions.appLockManager
+import org.fossify.commons.extensions.baseConfig
+import org.fossify.commons.extensions.getProperBackgroundColor
+import org.fossify.commons.extensions.getThemeId
+import org.fossify.commons.extensions.isBiometricAuthSupported
+import org.fossify.commons.extensions.onGlobalLayout
+import org.fossify.commons.extensions.overrideActivityTransition
+import org.fossify.commons.extensions.viewBinding
 import org.fossify.commons.helpers.PROTECTION_FINGERPRINT
 import org.fossify.commons.helpers.isRPlus
 import org.fossify.commons.interfaces.HashListener
 
-class AppLockActivity : AppCompatActivity(), HashListener {
+class AppLockActivity : EdgeToEdgeActivity(), HashListener {
 
     private val binding by viewBinding(ActivityAppLockBinding::inflate)
 
@@ -24,6 +30,7 @@ class AppLockActivity : AppCompatActivity(), HashListener {
 
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        updateEdgeToEdge(scrollingView = binding.viewPager)
         onBackPressedDispatcher.addCallback(owner = this) {
             appLockManager.lock()
             finishAffinity()
@@ -77,8 +84,6 @@ class AppLockActivity : AppCompatActivity(), HashListener {
     private fun setupTheme() {
         setTheme(getThemeId(showTransparentTop = true))
         with(getProperBackgroundColor()) {
-            window.updateStatusBarColors(this)
-            window.updateNavigationBarColors(this)
             window.decorView.setBackgroundColor(this)
         }
     }

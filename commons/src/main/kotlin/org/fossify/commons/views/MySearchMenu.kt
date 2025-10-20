@@ -4,7 +4,7 @@ import android.app.Activity
 import android.content.Context
 import android.util.AttributeSet
 import android.view.LayoutInflater
-import com.google.android.material.appbar.AppBarLayout
+import com.google.android.material.appbar.MaterialToolbar
 import org.fossify.commons.R
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.databinding.MenuSearchBinding
@@ -12,7 +12,7 @@ import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.LOWER_ALPHA
 import org.fossify.commons.helpers.MEDIUM_ALPHA
 
-open class MySearchMenu(context: Context, attrs: AttributeSet) : AppBarLayout(context, attrs) {
+open class MySearchMenu(context: Context, attrs: AttributeSet) : MyAppBarLayout(context, attrs) {
     var isSearchOpen = false
     var useArrowIcon = false
     var onSearchOpenListener: (() -> Unit)? = null
@@ -22,7 +22,8 @@ open class MySearchMenu(context: Context, attrs: AttributeSet) : AppBarLayout(co
 
     val binding = MenuSearchBinding.inflate(LayoutInflater.from(context), this, true)
 
-    fun getToolbar() = binding.topToolbar
+    override val toolbar: MaterialToolbar?
+        get() = binding.topToolbar
 
     fun setupMenu() {
         binding.topToolbarSearchIcon.setOnClickListener {
@@ -108,6 +109,6 @@ open class MySearchMenu(context: Context, attrs: AttributeSet) : AppBarLayout(co
         binding.topToolbarHolder.background?.applyColorFilter(context.getProperPrimaryColor().adjustAlpha(LOWER_ALPHA))
         binding.topToolbarSearch.setTextColor(contrastColor)
         binding.topToolbarSearch.setHintTextColor(contrastColor.adjustAlpha(MEDIUM_ALPHA))
-        (context as? BaseSimpleActivity)?.updateTopBarColors(binding.topToolbar, backgroundColor)
+        (context as? BaseSimpleActivity)?.updateTopBarColors(binding.topAppBarLayout, backgroundColor)
     }
 }
