@@ -8,7 +8,15 @@ import com.google.android.material.appbar.MaterialToolbar
 import org.fossify.commons.R
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.databinding.MenuSearchBinding
-import org.fossify.commons.extensions.*
+import org.fossify.commons.extensions.adjustAlpha
+import org.fossify.commons.extensions.applyColorFilter
+import org.fossify.commons.extensions.getContrastColor
+import org.fossify.commons.extensions.getProperBackgroundColor
+import org.fossify.commons.extensions.getProperPrimaryColor
+import org.fossify.commons.extensions.hideKeyboard
+import org.fossify.commons.extensions.onTextChangeListener
+import org.fossify.commons.extensions.removeBit
+import org.fossify.commons.extensions.showKeyboard
 import org.fossify.commons.helpers.LOWER_ALPHA
 import org.fossify.commons.helpers.MEDIUM_ALPHA
 
@@ -20,7 +28,7 @@ open class MySearchMenu(context: Context, attrs: AttributeSet) : MyAppBarLayout(
     var onSearchTextChangedListener: ((text: String) -> Unit)? = null
     var onNavigateBackClickListener: (() -> Unit)? = null
 
-    val binding = MenuSearchBinding.inflate(LayoutInflater.from(context), this, true)
+    val binding = MenuSearchBinding.inflate(LayoutInflater.from(context), this)
 
     override val toolbar: MaterialToolbar?
         get() = binding.topToolbar
@@ -79,11 +87,14 @@ open class MySearchMenu(context: Context, attrs: AttributeSet) : MyAppBarLayout(
     }
 
     fun toggleHideOnScroll(hideOnScroll: Boolean) {
-        val params = binding.topAppBarLayout.layoutParams as LayoutParams
+        val params = binding.searchBarContainer.layoutParams as LayoutParams
         if (hideOnScroll) {
-            params.scrollFlags = LayoutParams.SCROLL_FLAG_SCROLL or LayoutParams.SCROLL_FLAG_ENTER_ALWAYS
+            params.scrollFlags =
+                LayoutParams.SCROLL_FLAG_SCROLL or LayoutParams.SCROLL_FLAG_ENTER_ALWAYS
         } else {
-            params.scrollFlags = params.scrollFlags.removeBit(LayoutParams.SCROLL_FLAG_SCROLL or LayoutParams.SCROLL_FLAG_ENTER_ALWAYS)
+            params.scrollFlags =
+                params.scrollFlags
+                    .removeBit(LayoutParams.SCROLL_FLAG_SCROLL or LayoutParams.SCROLL_FLAG_ENTER_ALWAYS)
         }
     }
 
@@ -104,11 +115,12 @@ open class MySearchMenu(context: Context, attrs: AttributeSet) : MyAppBarLayout(
         val contrastColor = backgroundColor.getContrastColor()
 
         setBackgroundColor(backgroundColor)
-        binding.topAppBarLayout.setBackgroundColor(backgroundColor)
         binding.topToolbarSearchIcon.applyColorFilter(contrastColor)
-        binding.topToolbarHolder.background?.applyColorFilter(context.getProperPrimaryColor().adjustAlpha(LOWER_ALPHA))
+        binding.toolbarContainer.background?.applyColorFilter(
+            color = context.getProperPrimaryColor().adjustAlpha(LOWER_ALPHA)
+        )
         binding.topToolbarSearch.setTextColor(contrastColor)
         binding.topToolbarSearch.setHintTextColor(contrastColor.adjustAlpha(MEDIUM_ALPHA))
-        (context as? BaseSimpleActivity)?.updateTopBarColors(binding.topAppBarLayout, backgroundColor)
+        (context as? BaseSimpleActivity)?.updateTopBarColors(this, backgroundColor)
     }
 }

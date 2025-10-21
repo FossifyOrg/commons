@@ -17,6 +17,12 @@ open class MyAppBarLayout @JvmOverloads constructor(
     private var cachedToolbar: MaterialToolbar? = null
 
     init {
+        elevation = 0f
+        ViewCompat.setElevation(this, 0f)
+        stateListAnimator = null
+        isLiftOnScroll = false
+        isLifted = false
+
         ViewCompat.setOnApplyWindowInsetsListener(this) { view, insets ->
             val systemBarInsets = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             view.updatePadding(top = systemBarInsets.top)
