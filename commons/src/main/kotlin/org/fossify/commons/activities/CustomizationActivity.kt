@@ -126,7 +126,7 @@ class CustomizationActivity : BaseSimpleActivity() {
 
         setupTopAppBar(
             topAppBar = binding.appBar,
-            navigationIcon = NavigationIcon.Cross,
+            navigationIcon = NavigationIcon.Arrow,
             topBarColor = getColoredMaterialStatusBarColor()
         )
         showOrHideThankYouFeatures()
@@ -268,7 +268,7 @@ class CustomizationActivity : BaseSimpleActivity() {
             updateMenuItemColors(binding.customizationToolbar.menu, getCurrentTopBarColor())
             setupTopAppBar(
                 topAppBar = binding.appBar,
-                navigationIcon = NavigationIcon.Cross,
+                navigationIcon = NavigationIcon.Arrow,
                 topBarColor = getCurrentTopBarColor()
             )
         }
@@ -287,7 +287,7 @@ class CustomizationActivity : BaseSimpleActivity() {
                 curAppIconColor = baseConfig.customAppIconColor
                 setTheme(getThemeId(curPrimaryColor))
                 updateMenuItemColors(binding.customizationToolbar.menu, curPrimaryColor)
-                setupTopAppBar(binding.appBar, NavigationIcon.Cross, curPrimaryColor)
+                setupTopAppBar(binding.appBar, NavigationIcon.Arrow, curPrimaryColor)
                 setupColorsPickers()
             } else {
                 baseConfig.customPrimaryColor = curPrimaryColor
@@ -314,7 +314,7 @@ class CustomizationActivity : BaseSimpleActivity() {
             updateMenuItemColors(binding.customizationToolbar.menu, getCurrentTopBarColor())
             setupTopAppBar(
                 topAppBar = binding.appBar,
-                navigationIcon = NavigationIcon.Cross,
+                navigationIcon = NavigationIcon.Arrow,
                 topBarColor = getCurrentTopBarColor()
             )
         }
@@ -626,11 +626,11 @@ class CustomizationActivity : BaseSimpleActivity() {
                     setTheme(getThemeId(color))
                 }
                 updateMenuItemColors(binding.customizationToolbar.menu, color)
-                setupTopAppBar(binding.appBar, NavigationIcon.Cross, color)
+                setupTopAppBar(binding.appBar, NavigationIcon.Arrow, color)
             } else {
                 setTheme(getThemeId(curPrimaryColor))
                 updateMenuItemColors(binding.customizationToolbar.menu, curPrimaryColor)
-                setupTopAppBar(binding.appBar, NavigationIcon.Cross, curPrimaryColor)
+                setupTopAppBar(binding.appBar, NavigationIcon.Arrow, curPrimaryColor)
                 updateTopBarColors(binding.appBar, curPrimaryColor)
             }
         }
