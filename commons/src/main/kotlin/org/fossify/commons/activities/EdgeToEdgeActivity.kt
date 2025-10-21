@@ -46,14 +46,26 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
             val ime = insets.getInsets(WindowInsetsCompat.Type.ime())
             val bottom = maxOf(systemBars.bottom, ime.bottom)
 
-            topView?.updatePadding(top = systemBars.top)
+            topView?.updatePadding(
+                top = systemBars.top,
+                left = systemBars.left,
+                right = systemBars.right
+            )
 
             scrollingView?.let {
-                it.updatePadding(bottom = systemBars.bottom)
+                it.updatePadding(
+                    bottom = systemBars.bottom,
+                    left = systemBars.left,
+                    right = systemBars.right
+                )
                 if (it is RecyclerView) it.clipToPadding = false
             }
 
-            bottomView?.updatePadding(bottom =  bottom)
+            bottomView?.updatePadding(
+                bottom = bottom,
+                left = systemBars.left,
+                right = systemBars.right
+            )
         }
     }
 
