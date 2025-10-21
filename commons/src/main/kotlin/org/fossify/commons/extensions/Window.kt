@@ -24,10 +24,9 @@ fun Window.showBars() {
     }
 }
 
-fun Window.hideBarsTransient() {
+fun Window.hideBars() {
     with(insetsController()) {
         hide(WindowInsetsCompat.Type.systemBars())
-        systemBarsBehavior =
-            WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+        systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
     }
 }
