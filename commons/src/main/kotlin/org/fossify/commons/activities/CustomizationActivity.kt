@@ -89,7 +89,7 @@ class CustomizationActivity : BaseSimpleActivity() {
 
         setupOptionsMenu()
         refreshMenuItems()
-        updateEdgeToEdge(scrollingView = binding.customizationHolder)
+        setupEdgeToEdge(padBottomSystem = listOf(binding.customizationHolder))
 
         initColorVariables()
         if (canAccessGlobalConfig()) {

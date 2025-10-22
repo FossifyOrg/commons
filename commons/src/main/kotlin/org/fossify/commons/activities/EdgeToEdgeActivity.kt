@@ -36,36 +36,43 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
         WindowCompat.enableEdgeToEdge(window)
     }
 
-    fun updateEdgeToEdge(
-        topView: View? = null,
-        scrollingView: View? = null,
-        bottomView: View? = null
+    /**
+     * Helper for views that need to be edge to edge compatible.
+     */
+    fun setupEdgeToEdge(
+        padTopSystem: List<View> = emptyList(),
+        padBottomSystem: List<View> = emptyList(),
+        padBottomImeAndSystem: List<View> = emptyList(),
     ) {
         onApplyWindowInsets { insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            val ime = insets.getInsets(WindowInsetsCompat.Type.ime())
-            val bottom = maxOf(systemBars.bottom, ime.bottom)
-
-            topView?.updatePadding(
-                top = systemBars.top,
-                left = systemBars.left,
-                right = systemBars.right
+            val imeAndSystemBars = insets.getInsets(
+                WindowInsetsCompat.Type.ime() or WindowInsetsCompat.Type.systemBars()
             )
 
-            scrollingView?.let {
+            padTopSystem.forEach {
+                it.updatePadding(
+                    top = systemBars.top,
+                    left = systemBars.left,
+                    right = systemBars.right
+                )
+            }
+
+            padBottomSystem.forEach {
                 it.updatePadding(
                     bottom = systemBars.bottom,
                     left = systemBars.left,
                     right = systemBars.right
                 )
-                if (it is RecyclerView) it.clipToPadding = false
             }
 
-            bottomView?.updatePadding(
-                bottom = bottom,
-                left = systemBars.left,
-                right = systemBars.right
-            )
+            padBottomImeAndSystem.forEach {
+                it.updatePadding(
+                    bottom = imeAndSystemBars.bottom,
+                    left = systemBars.left,
+                    right = systemBars.right
+                )
+            }
         }
     }
 

@@ -30,7 +30,7 @@ class AppLockActivity : EdgeToEdgeActivity(), HashListener {
 
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        updateEdgeToEdge(scrollingView = binding.viewPager)
+        setupEdgeToEdge(padBottomSystem = listOf(binding.viewPager))
         onBackPressedDispatcher.addCallback(owner = this) {
             appLockManager.lock()
             finishAffinity()
