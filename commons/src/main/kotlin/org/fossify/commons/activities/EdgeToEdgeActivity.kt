@@ -7,7 +7,7 @@ import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ScrollingView
 import androidx.core.view.WindowCompat
-import androidx.core.view.WindowInsetsCompat
+import androidx.core.view.WindowInsetsCompat.Type
 import androidx.core.view.get
 import androidx.core.view.size
 import androidx.core.view.updatePadding
@@ -45,32 +45,20 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
         padBottomImeAndSystem: List<View> = emptyList(),
     ) {
         onApplyWindowInsets { insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            val imeAndSystemBars = insets.getInsets(
-                WindowInsetsCompat.Type.ime() or WindowInsetsCompat.Type.systemBars()
-            )
+            val system = insets.getInsetsIgnoringVisibility(Type.systemBars())
+            val imeAndSystem = insets.getInsets(Type.ime() or Type.systemBars())
 
             padTopSystem.forEach {
-                it.updatePadding(
-                    top = systemBars.top,
-                    left = systemBars.left,
-                    right = systemBars.right
-                )
+                it.updatePadding(top = system.top, left = system.left, right = system.right)
             }
 
             padBottomSystem.forEach {
-                it.updatePadding(
-                    bottom = systemBars.bottom,
-                    left = systemBars.left,
-                    right = systemBars.right
-                )
+                it.updatePadding(bottom = system.bottom, left = system.left, right = system.right)
             }
 
             padBottomImeAndSystem.forEach {
                 it.updatePadding(
-                    bottom = imeAndSystemBars.bottom,
-                    left = systemBars.left,
-                    right = systemBars.right
+                    bottom = imeAndSystem.bottom, left = system.left, right = system.right
                 )
             }
         }
