@@ -1,12 +1,13 @@
 package org.fossify.commons.extensions
 
+import android.view.View
 import android.view.Window
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import org.fossify.commons.helpers.DARK_GREY
 
-fun Window.insetsController(): WindowInsetsControllerCompat {
-    return WindowInsetsControllerCompat(this, decorView)
+fun Window.insetsController(view: View? = null): WindowInsetsControllerCompat {
+    return WindowInsetsControllerCompat(this, view ?: decorView)
 }
 
 fun Window.setSystemBarsAppearance(backgroundColor: Int) {
