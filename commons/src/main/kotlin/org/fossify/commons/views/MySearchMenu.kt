@@ -86,17 +86,9 @@ open class MySearchMenu(context: Context, attrs: AttributeSet) : MyAppBarLayout(
         binding.topToolbarSearch.hint = text
     }
 
-    fun toggleHideOnScroll(hideOnScroll: Boolean) {
-        val params = binding.searchBarContainer.layoutParams as LayoutParams
-        if (hideOnScroll) {
-            params.scrollFlags =
-                LayoutParams.SCROLL_FLAG_SCROLL or LayoutParams.SCROLL_FLAG_ENTER_ALWAYS
-        } else {
-            params.scrollFlags =
-                params.scrollFlags
-                    .removeBit(LayoutParams.SCROLL_FLAG_SCROLL or LayoutParams.SCROLL_FLAG_ENTER_ALWAYS)
-        }
-    }
+    @Suppress("unused", "EmptyFunctionBlock")
+    @Deprecated("This feature is broken for now.")
+    fun toggleHideOnScroll(hideOnScroll: Boolean) {}
 
     fun toggleForceArrowBackIcon(useArrowBack: Boolean) {
         this.useArrowIcon = useArrowBack
