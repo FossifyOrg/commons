@@ -45,8 +45,8 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
         padBottomImeAndSystem: List<View> = emptyList(),
     ) {
         onApplyWindowInsets { insets ->
-            val system = insets.getInsetsIgnoringVisibility(Type.systemBars())
-            val imeAndSystem = insets.getInsets(Type.ime() or Type.systemBars())
+            val system = insets.getInsetsIgnoringVisibility(Type.systemBars() or Type.displayCutout())
+            val imeAndSystem = insets.getInsets(Type.ime() or Type.systemBars() or Type.displayCutout())
 
             padTopSystem.forEach {
                 it.updatePadding(top = system.top, left = system.left, right = system.right)

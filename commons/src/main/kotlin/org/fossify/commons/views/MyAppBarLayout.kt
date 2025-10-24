@@ -4,7 +4,6 @@ import android.content.Context
 import android.util.AttributeSet
 import android.view.View
 import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsCompat.Type
 import androidx.core.view.updatePadding
 import com.google.android.material.appbar.AppBarLayout
@@ -25,8 +24,8 @@ open class MyAppBarLayout @JvmOverloads constructor(
         isLifted = false
 
         ViewCompat.setOnApplyWindowInsetsListener(this) { view, insets ->
-            val systemBarInsets = insets.getInsetsIgnoringVisibility(Type.systemBars())
-            view.updatePadding(top = systemBarInsets.top)
+            val system = insets.getInsetsIgnoringVisibility(Type.systemBars() or Type.displayCutout())
+            view.updatePadding(top = system.top, left = system.left, right = system.right)
             insets
         }
     }
