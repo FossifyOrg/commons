@@ -25,7 +25,6 @@ import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
 import androidx.annotation.RequiresApi
-import androidx.appcompat.widget.Toolbar
 import androidx.core.app.ActivityCompat
 import androidx.core.net.toUri
 import androidx.core.util.Pair
@@ -80,11 +79,11 @@ import org.fossify.commons.extensions.isShowingOTGDialog
 import org.fossify.commons.extensions.isShowingSAFCreateDocumentDialogSdk30
 import org.fossify.commons.extensions.isShowingSAFDialog
 import org.fossify.commons.extensions.isShowingSAFDialogSdk30
-import org.fossify.commons.extensions.launchViewIntent
 import org.fossify.commons.extensions.openDeviceSettings
 import org.fossify.commons.extensions.openNotificationSettings
 import org.fossify.commons.extensions.random
 import org.fossify.commons.extensions.showErrorToast
+import org.fossify.commons.extensions.showModdedAppWarning
 import org.fossify.commons.extensions.storeAndroidTreeUri
 import org.fossify.commons.extensions.toast
 import org.fossify.commons.extensions.updateOTGPathFromPartition
@@ -171,17 +170,7 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
 
         if (!packageName.startsWith("org.fossify.", true)) {
             if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
-                val label =
-                    "You are using a fake version of the app. For your own safety " +
-                            "download the original one from www.fossify.org. Thanks"
-                ConfirmationDialog(
-                    activity = this,
-                    message = label,
-                    positive = R.string.ok,
-                    negative = 0
-                ) {
-                    launchViewIntent(DEVELOPER_PLAY_STORE_URL)
-                }
+                showModdedAppWarning()
             }
         }
     }
@@ -602,17 +591,7 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
     fun startCustomizationActivity() {
         if (!packageName.contains("yfissof".reversed(), true)) {
             if (baseConfig.appRunCount > 100) {
-                val label =
-                    "You are using a fake version of the app. For your own safety " +
-                            "download the original one from www.fossify.org. Thanks"
-                ConfirmationDialog(
-                    activity = this,
-                    message = label,
-                    positive = R.string.ok,
-                    negative = 0
-                ) {
-                    launchViewIntent(DEVELOPER_PLAY_STORE_URL)
-                }
+                showModdedAppWarning()
                 return
             }
         }
