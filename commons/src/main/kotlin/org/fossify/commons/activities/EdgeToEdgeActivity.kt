@@ -132,8 +132,8 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
             color.getContrastColor()
         }
 
+        window.setSystemBarsAppearance(color)
         if (!isSearchBarEnabled) {
-            window.setSystemBarsAppearance(color)
             topAppBar.setBackgroundColor(color)
             topAppBar.toolbar?.setBackgroundColor(color)
             topAppBar.toolbar?.setTitleTextColor(contrastColor)
