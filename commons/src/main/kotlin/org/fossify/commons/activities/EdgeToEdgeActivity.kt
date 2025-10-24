@@ -43,22 +43,31 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
         padTopSystem: List<View> = emptyList(),
         padBottomSystem: List<View> = emptyList(),
         padBottomImeAndSystem: List<View> = emptyList(),
+        padSidesCutouts: List<View> = emptyList()
     ) {
         onApplyWindowInsets { insets ->
-            val system = insets.getInsetsIgnoringVisibility(Type.systemBars() or Type.displayCutout())
-            val imeAndSystem = insets.getInsets(Type.ime() or Type.systemBars() or Type.displayCutout())
+            val system = insets.getInsetsIgnoringVisibility(Type.systemBars())
+            val cutouts = insets.getInsets(Type.displayCutout())
+            val imeAndSystem = insets.getInsets(Type.ime() or Type.systemBars())
 
             padTopSystem.forEach {
-                it.updatePadding(top = system.top, left = system.left, right = system.right)
+                it.updatePadding(top = system.top)
             }
 
             padBottomSystem.forEach {
-                it.updatePadding(bottom = system.bottom, left = system.left, right = system.right)
+                it.updatePadding(bottom = system.bottom)
             }
 
             padBottomImeAndSystem.forEach {
                 it.updatePadding(
-                    bottom = imeAndSystem.bottom, left = system.left, right = system.right
+                    bottom = imeAndSystem.bottom
+                )
+            }
+
+            padSidesCutouts.forEach {
+                it.updatePadding(
+                    left = cutouts.left,
+                    right = cutouts.right
                 )
             }
         }
