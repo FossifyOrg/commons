@@ -552,6 +552,12 @@ fun isTiramisuPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU
 @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
 fun isUpsideDownCakePlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE
 
+@ChecksSdkIntAtLeast(api = Build.VERSION_CODES.VANILLA_ICE_CREAM)
+fun isVanillaIceCreamPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.VANILLA_ICE_CREAM
+
+@ChecksSdkIntAtLeast(api = Build.VERSION_CODES.BAKLAVA)
+fun isBaklavaPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.BAKLAVA
+
 fun getDateFormats() = arrayListOf(
     "--MM-dd",
     "yyyy-MM-dd",
