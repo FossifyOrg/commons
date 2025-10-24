@@ -155,4 +155,10 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
             }
         }
     }
+
+    override fun onDestroy() {
+        materialScrollColorAnimation?.cancel()
+        materialScrollColorAnimation = null
+        super.onDestroy()
+    }
 }
