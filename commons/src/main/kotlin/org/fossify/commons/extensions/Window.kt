@@ -12,22 +12,23 @@ fun Window.insetsController(view: View? = null): WindowInsetsControllerCompat {
 
 fun Window.setSystemBarsAppearance(backgroundColor: Int) {
     val isLightBackground = backgroundColor.getContrastColor() == DARK_GREY
-    with(insetsController()) {
+    insetsController().apply {
         isAppearanceLightStatusBars = isLightBackground
         isAppearanceLightNavigationBars = isLightBackground
     }
 }
 
-fun Window.showBars() {
-    with(insetsController()) {
-        show(WindowInsetsCompat.Type.systemBars())
-        systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_DEFAULT
-    }
+fun Window.showBars() = insetsController().apply {
+    systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_DEFAULT
+    show(WindowInsetsCompat.Type.systemBars())
 }
 
-fun Window.hideBars() {
-    with(insetsController()) {
-        hide(WindowInsetsCompat.Type.systemBars())
-        systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+fun Window.hideBars(transient: Boolean = true) = insetsController().apply {
+    systemBarsBehavior = if (transient) {
+        WindowInsetsControllerCompat.BEHAVIOR_SHOW_TRANSIENT_BARS_BY_SWIPE
+    } else {
+        WindowInsetsControllerCompat.BEHAVIOR_DEFAULT
     }
+
+    hide(WindowInsetsCompat.Type.systemBars())
 }
