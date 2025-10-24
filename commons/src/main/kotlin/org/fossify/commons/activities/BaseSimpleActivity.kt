@@ -24,6 +24,8 @@ import android.view.View
 import android.widget.EditText
 import android.widget.ImageView
 import android.widget.Toast
+import androidx.activity.OnBackPressedCallback
+import androidx.activity.addCallback
 import androidx.annotation.RequiresApi
 import androidx.core.app.ActivityCompat
 import androidx.core.net.toUri
@@ -34,7 +36,6 @@ import androidx.core.view.get
 import androidx.core.view.size
 import org.fossify.commons.R
 import org.fossify.commons.asynctasks.CopyMoveTask
-import org.fossify.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
 import org.fossify.commons.dialogs.ConfirmationDialog
 import org.fossify.commons.dialogs.ExportSettingsDialog
 import org.fossify.commons.dialogs.FileConflictDialog
@@ -138,6 +139,8 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
     var checkedDocumentPath = ""
     var configItemsToExport = LinkedHashMap<String, Any>()
 
+    private lateinit var backCallback: OnBackPressedCallback
+
     companion object {
         private const val GENERIC_PERM_HANDLER = 100
         private const val DELETE_FILE_SDK_30_HANDLER = 300
@@ -160,6 +163,21 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
 
     abstract fun getRepositoryName(): String?
 
+    /** Return true if the back press was consumed. */
+    protected open fun onBackPressedCompat(): Boolean = false
+
+    /** Use when a screen needs to temporarily ignore back (e.g., during animations). */
+    protected fun setBackHandlingEnabled(enabled: Boolean) {
+        backCallback.isEnabled = enabled
+    }
+
+    /** If a subclass wants to explicitly trigger the default behaviour. */
+    protected fun performDefaultBack() {
+        backCallback.isEnabled = false
+        onBackPressedDispatcher.onBackPressed()
+        backCallback.isEnabled = true
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         if (useDynamicTheme) {
             setTheme(getThemeId(showTransparentTop = true))
@@ -167,6 +185,7 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
 
         super.onCreate(savedInstanceState)
         WindowCompat.enableEdgeToEdge(window)
+        registerBackPressedCallback()
 
         if (!packageName.startsWith("org.fossify.", true)) {
             if ((0..50).random() == 10 || baseConfig.appRunCount % 100 == 0) {
@@ -214,6 +233,17 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
             super.attachBaseContext(MyContextWrapper(newBase).wrap(newBase, "en"))
         } else {
             super.attachBaseContext(newBase)
+        }
+    }
+
+    fun registerBackPressedCallback() {
+        backCallback = onBackPressedDispatcher.addCallback(this) {
+            if (onBackPressedCompat()) return@addCallback
+            if (supportFragmentManager.popBackStackImmediate()) return@addCallback
+            // fallback to system
+            isEnabled = false
+            onBackPressedDispatcher.onBackPressed()
+            isEnabled = true
         }
     }
 
