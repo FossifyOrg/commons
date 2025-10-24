@@ -25,11 +25,15 @@ import org.fossify.commons.views.MyAppBarLayout
 
 abstract class EdgeToEdgeActivity : AppCompatActivity() {
     open var isSearchBarEnabled = false
+    open val padCutout: Boolean
+        get() = true
 
     private var topAppBar: MyAppBarLayout? = null
     private var scrollingView: ScrollingView? = null
     private var materialScrollColorAnimation: ValueAnimator? = null
     private var currentScrollY = 0
+
+    private val contentRoot by lazy { findViewById<View>(android.R.id.content) }
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,11 +47,9 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
         padTopSystem: List<View> = emptyList(),
         padBottomSystem: List<View> = emptyList(),
         padBottomImeAndSystem: List<View> = emptyList(),
-        padSidesCutouts: List<View> = emptyList()
     ) {
         onApplyWindowInsets { insets ->
             val system = insets.getInsetsIgnoringVisibility(Type.systemBars())
-            val cutouts = insets.getInsets(Type.displayCutout())
             val imeAndSystem = insets.getInsets(Type.ime() or Type.systemBars())
 
             padTopSystem.forEach {
@@ -59,16 +61,14 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
             }
 
             padBottomImeAndSystem.forEach {
-                it.updatePadding(
-                    bottom = imeAndSystem.bottom
-                )
+                it.updatePadding(bottom = imeAndSystem.bottom)
             }
 
-            padSidesCutouts.forEach {
-                it.updatePadding(
-                    left = cutouts.left,
-                    right = cutouts.right
-                )
+            if (padCutout) {
+                val cutout = insets.getInsets(Type.displayCutout())
+                val sideLeft = maxOf(system.left, cutout.left)
+                val sideRight = maxOf(system.right, cutout.right)
+                contentRoot.updatePadding(left = sideLeft, right = sideRight)
             }
         }
     }
