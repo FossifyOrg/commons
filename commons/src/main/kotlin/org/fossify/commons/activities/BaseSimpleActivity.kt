@@ -239,7 +239,6 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
     fun registerBackPressedCallback() {
         backCallback = onBackPressedDispatcher.addCallback(this) {
             if (onBackPressedCompat()) return@addCallback
-            if (supportFragmentManager.popBackStackImmediate()) return@addCallback
             // fallback to system
             isEnabled = false
             onBackPressedDispatcher.onBackPressed()

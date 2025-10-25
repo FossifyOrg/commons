@@ -24,7 +24,7 @@ open class MyAppBarLayout @JvmOverloads constructor(
         isLifted = false
 
         ViewCompat.setOnApplyWindowInsetsListener(this) { view, insets ->
-            val system = insets.getInsetsIgnoringVisibility(Type.systemBars() or Type.displayCutout())
+            val system = insets.getInsetsIgnoringVisibility(Type.systemBars())
             view.updatePadding(top = system.top, left = system.left, right = system.right)
             insets
         }
