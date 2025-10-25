@@ -150,11 +150,12 @@ class CustomizationActivity : BaseSimpleActivity() {
         }
     }
 
-    override fun onBackPressed() {
-        if (hasUnsavedChanges && System.currentTimeMillis() - lastSavePromptTS > SAVE_DISCARD_PROMPT_INTERVAL) {
+    override fun onBackPressedCompat(): Boolean {
+        return if (hasUnsavedChanges && System.currentTimeMillis() - lastSavePromptTS > SAVE_DISCARD_PROMPT_INTERVAL) {
             promptSaveDiscard()
+            true
         } else {
-            super.onBackPressed()
+            false
         }
     }
 
