@@ -58,7 +58,7 @@ fun PurchaseThankYouAlertDialog(
     androidx.compose.material3.AlertDialog(
         containerColor = dialogContainerColor,
         modifier = modifier
-            .dialogBorder,
+            .dialogBorder(),
         properties = DialogProperties(dismissOnClickOutside = false, dismissOnBackPress = false),
         onDismissRequest = {},
         shape = dialogShape,

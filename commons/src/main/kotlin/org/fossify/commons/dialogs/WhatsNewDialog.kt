@@ -72,7 +72,7 @@ fun WhatsNewAlertDialog(
         containerColor = dialogContainerColor,
         shape = dialogShape,
         tonalElevation = dialogElevation,
-        modifier = modifier.dialogBorder,
+        modifier = modifier.dialogBorder(),
         title = {
             Text(
                 text = stringResource(id = R.string.whats_new),

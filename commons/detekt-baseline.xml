@@ -6,8 +6,8 @@
     <ID>ComplexCondition:Activity.kt$!isRPlus() || (isRPlus() &amp;&amp; (hasProperStoredDocumentUriSdk30(path) || Environment.isExternalStorageManager()))</ID>
     <ID>ComplexCondition:Activity.kt$(!isRPlus() &amp;&amp; isPathOnSD(path) &amp;&amp; !isSDCardSetAsDefaultStorage() &amp;&amp; (baseConfig.sdTreeUri.isEmpty() || !hasProperStoredTreeUri(false)))</ID>
     <ID>ComplexCondition:Activity.kt$startIntentForUriAction( uri, "android.intent.action.VIEW", ComponentName("com.google.android.documentsui", "com.android.documentsui.files.FilesActivity") ) || startIntentForUriAction( uri, "android.intent.action.VIEW", ComponentName("com.android.documentsui", "com.android.documentsui.files.FilesActivity") ) || startIntentForUriAction( uri, "android.intent.action.VIEW", ComponentName("com.android.documentsui", "com.android.documentsui.FilesActivity") ) || startIntentForUriAction(uri, "android.intent.action.VIEW", null) || startIntentForUriAction(uri, "android.provider.action.BROWSE", null) || startIntentForUriAction(uri, "android.provider.action.BROWSE_DOCUMENT_ROOT", null)</ID>
-    <ID>ComplexCondition:BaseSimpleActivity.kt$BaseSimpleActivity$isPathOnOTG(source) || isPathOnOTG(destination) || isPathOnSD(source) || isPathOnSD(destination) || isRestrictedSAFOnlyRoot(source) || isRestrictedSAFOnlyRoot(destination) || isAccessibleWithSAFSdk30(source) || isAccessibleWithSAFSdk30(destination) || fileDirItems.first().isDirectory</ID>
-    <ID>ComplexCondition:BaseSimpleActivity.kt$BaseSimpleActivity$requestCode == SELECT_EXPORT_SETTINGS_FILE_INTENT &amp;&amp; resultCode == Activity.RESULT_OK &amp;&amp; resultData != null &amp;&amp; resultData.data != null</ID>
+    <ID>ComplexCondition:BaseSimpleActivity.kt$BaseSimpleActivity$isPathOnOTG(source) || isPathOnOTG(destination) || isPathOnSD(source) || isPathOnSD( destination ) || isRestrictedSAFOnlyRoot(source) || isRestrictedSAFOnlyRoot(destination) || isAccessibleWithSAFSdk30(source) || isAccessibleWithSAFSdk30(destination) || fileDirItems.first().isDirectory</ID>
+    <ID>ComplexCondition:BaseSimpleActivity.kt$BaseSimpleActivity$requestCode == SELECT_EXPORT_SETTINGS_FILE_INTENT &amp;&amp; resultCode == RESULT_OK &amp;&amp; resultData != null &amp;&amp; resultData.data != null</ID>
     <ID>ComplexCondition:Contact.kt$Contact$firstValue.isEmpty() &amp;&amp; firstName.isEmpty() &amp;&amp; middleName.isEmpty() &amp;&amp; surname.isEmpty()</ID>
     <ID>ComplexCondition:Contact.kt$Contact$secondValue.isEmpty() &amp;&amp; other.firstName.isEmpty() &amp;&amp; other.middleName.isEmpty() &amp;&amp; other.surname.isEmpty()</ID>
     <ID>ComplexCondition:CustomizationActivity.kt$CustomizationActivity$curTextColor == getColor(value.textColorId) &amp;&amp; curBackgroundColor == getColor(value.backgroundColorId) &amp;&amp; curPrimaryColor == getColor(value.primaryColorId) &amp;&amp; curAppIconColor == getColor(value.appIconColorId)</ID>
@@ -124,11 +124,12 @@
     <ID>LambdaParameterEventTrailing:ManageBlockedNumbersScreen.kt$onCopy</ID>
     <ID>LambdaParameterEventTrailing:ManageBlockedNumbersScreen.kt$onSelectAll</ID>
     <ID>LambdaParameterEventTrailing:SimpleDropDownMenuItem.kt$onClick</ID>
-    <ID>LargeClass:BaseSimpleActivity.kt$BaseSimpleActivity : AppCompatActivity</ID>
+    <ID>LargeClass:BaseSimpleActivity.kt$BaseSimpleActivity : EdgeToEdgeActivity</ID>
     <ID>LargeClass:ContactsHelper.kt$ContactsHelper</ID>
     <ID>LargeClass:CustomizationActivity.kt$CustomizationActivity : BaseSimpleActivity</ID>
     <ID>LongMethod:Activity-themes.kt$fun Activity.getThemeId(color: Int = baseConfig.primaryColor, showTransparentTop: Boolean = false)</ID>
     <ID>LongMethod:Activity.kt$private fun BaseSimpleActivity.renameCasually( oldPath: String, newPath: String, isRenamingMultipleFiles: Boolean, callback: ((success: Boolean, android30RenameFormat: Android30RenameFormat) -&gt; Unit)? )</ID>
+    <ID>LongMethod:BaseSimpleActivity.kt$BaseSimpleActivity$fun copyMoveFilesTo( fileDirItems: ArrayList&lt;FileDirItem&gt;, source: String, destination: String, isCopyOperation: Boolean, copyPhotoVideoOnly: Boolean, copyHidden: Boolean, callback: (destinationPath: String) -&gt; Unit, )</ID>
     <ID>LongMethod:BaseSimpleActivity.kt$BaseSimpleActivity$override fun onActivityResult(requestCode: Int, resultCode: Int, resultData: Intent?)</ID>
     <ID>LongMethod:ContactsHelper.kt$ContactsHelper$fun insertContact(contact: Contact): Boolean</ID>
     <ID>LongMethod:ContactsHelper.kt$ContactsHelper$fun updateContact(contact: Contact, photoUpdateStatus: Int): Boolean</ID>
@@ -327,11 +328,6 @@
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$10</ID>
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$100</ID>
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$18</ID>
-    <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$300</ID>
-    <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$301</ID>
-    <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$302</ID>
-    <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$303</ID>
-    <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$304</ID>
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$50</ID>
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$9</ID>
     <ID>MagicNumber:Bitmap.kt$80</ID>
@@ -938,7 +934,6 @@
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$16</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$17</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$18</ID>
-    <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$19</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$3</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$4</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$5</ID>
@@ -1034,30 +1029,9 @@
     <ID>MaxLineLength:BaseSecurityTab.kt$BaseSecurityTab$updateTitle(context.getString(R.string.too_many_incorrect_attempts, count), context.getColor(R.color.md_red))</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$// synchronous return value determines only if we are showing the SAF dialog, callback result tells if the SD or OTG permission has been granted</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$// this file is guaranteed to be on the internal storage, so just delete it this way</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$ActivityCompat.requestPermissions(this, permissionIds.map { getPermissionString(it) }.toTypedArray(), GENERIC_PERM_HANDLER)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$Intent(TelecomManager.ACTION_CHANGE_DEFAULT_DIALER).putExtra(TelecomManager.EXTRA_CHANGE_DEFAULT_DIALER_PACKAGE_NAME, packageName)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$baseConfig.OTGPartition = baseConfig.OTGTreeUri.removeSuffix("%3A").substringAfterLast('/').trimEnd('/')</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$copyMoveListener.copySucceeded(false, fileCountToCopy &lt;= updatedPaths.size, destination, updatedPaths.size == 1)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$copyMoveListener.copySucceeded(false, fileCountToCopy == 0, destination, false)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$fun</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$getConflictResolution(it, newFile.absolutePath) == CONFLICT_KEEP_BOTH -&gt; newFile = getAlternativeFile(newFile)</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$getConflictResolution(it, newFile.absolutePath) == CONFLICT_SKIP -&gt; fileCountToCopy--</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$if</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$private fun isAndroidDir(uri: Uri)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$private fun isInternalStorage(uri: Uri)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$private fun isProperOTGRootFolder(uri: Uri)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$private fun isProperSDRootFolder(uri: Uri)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$putExtra(DocumentsContract.EXTRA_INITIAL_URI, createAndroidDataOrObbUri(checkedDocumentPath))</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$return</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$startCopyMove(fileDirItems, destination, isCopyOperation, copyPhotoVideoOnly, copyHidden)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$val</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$val drawableId = if (toolbarNavigationIcon == NavigationIcon.Cross) R.drawable.ic_cross_vector else R.drawable.ic_arrow_left_vector</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$val label = "You are using a fake version of the app. For your own safety download the original one from www.fossify.org. Thanks"</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$val recoverableSecurityException = securityException as? RecoverableSecurityException ?: throw securityException</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$var isMaterialActivity = false // by material activity we mean translucent navigation bar and opaque status and action bars</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.addBit(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$window.decorView.systemUiVisibility = window.decorView.systemUiVisibility.removeBit(View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION)</ID>
-    <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$window.setFlags(WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION, WindowManager.LayoutParams.FLAG_TRANSLUCENT_NAVIGATION)</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$}</ID>
     <ID>MaxLineLength:BaseSplashActivity.kt$BaseSplashActivity$resources.getColor(if (isUsingSystemDarkTheme) R.color.theme_dark_background_color else R.color.theme_light_background_color)</ID>
     <ID>MaxLineLength:BaseSplashActivity.kt$BaseSplashActivity$textColor = resources.getColor(if (isUsingSystemDarkTheme) R.color.theme_dark_text_color else R.color.theme_light_text_color)</ID>
@@ -1229,8 +1203,6 @@
     <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_RTL, R.string.rtl_viewpager_title, R.string.rtl_viewpager_text, R.string.rtl_viewpager_url)</ID>
     <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_SUBSAMPLING, R.string.subsampling_title, R.string.subsampling_text, R.string.subsampling_url)</ID>
     <ID>MaxLineLength:LicenseScreen.kt$}</ID>
-    <ID>MaxLineLength:LineColorPickerDialog.kt$LineColorPickerDialog$val activity: BaseSimpleActivity</ID>
-    <ID>MaxLineLength:LineColorPickerDialog.kt$LineColorPickerDialog$val appIconIDs: ArrayList&lt;Int&gt;? = null</ID>
     <ID>MaxLineLength:LineColorPickerDialog.kt$if (isPrimaryColorPicker) dialogLineColorPickerBinding!!.secondaryLineColorPicker else dialogLineColorPickerBinding!!.primaryLineColorPicker</ID>
     <ID>MaxLineLength:LocalContactsHelper.kt$LocalContactsHelper$fun</ID>
     <ID>MaxLineLength:LocalContactsHelper.kt$LocalContactsHelper$return (contacts.map { convertLocalContactToContact(it, storedGroups) }.toMutableList() as? ArrayList&lt;Contact&gt;) ?: arrayListOf()</ID>
@@ -1285,7 +1257,6 @@
     <ID>MaxLineLength:MyRecyclerViewListAdapter.kt$MyRecyclerViewListAdapter.&lt;no name provided&gt;$override</ID>
     <ID>MaxLineLength:MyRecyclerViewListAdapter.kt$MyRecyclerViewListAdapter.&lt;no name provided&gt;$val backArrow = activity.findViewById&lt;ImageView&gt;(androidx.appcompat.R.id.action_mode_close_button)</ID>
     <ID>MaxLineLength:MyRecyclerViewListAdapter.kt$MyRecyclerViewListAdapter.ViewHolder$fun</ID>
-    <ID>MaxLineLength:MySearchMenu.kt$MySearchMenu$params.scrollFlags = params.scrollFlags.removeBit(LayoutParams.SCROLL_FLAG_SCROLL or LayoutParams.SCROLL_FLAG_ENTER_ALWAYS)</ID>
     <ID>MaxLineLength:PasswordTypesAdapter.kt$PasswordTypesAdapter$(view as SecurityTab).initTab(requiredHash, hashListener, scrollView, biometricPromptHost, showBiometricAuthentication)</ID>
     <ID>MaxLineLength:PreviewExtensions.kt$MyDevicesDarkOnly$@Preview(showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_YES, device = Devices.PIXEL_2, name = "5.0 inches dark", group = DARK)</ID>
     <ID>MaxLineLength:PreviewExtensions.kt$MyDevicesDarkOnly$@Preview(showBackground = true, uiMode = Configuration.UI_MODE_NIGHT_YES, device = Devices.PIXEL_2_XL, name = "6.0 inches dark", group = DARK)</ID>
@@ -1347,7 +1318,6 @@
     <ID>MaxLineLength:VcfExporter.kt$VcfExporter$val</ID>
     <ID>MaxLineLength:VcfExporter.kt$VcfExporter$val photoByteArray = MediaStore.Images.Media.getBitmap(activity.contentResolver, Uri.parse(contact.thumbnailUri)).getByteArray()</ID>
     <ID>MaxLineLength:View.kt$fun View.performHapticFeedback()</ID>
-    <ID>MaxLineLength:Window.kt$decorView.systemUiVisibility = decorView.systemUiVisibility.removeBit(View.SYSTEM_UI_FLAG_LIGHT_NAVIGATION_BAR)</ID>
     <ID>MaxLineLength:WritePermissionDialog.kt$.</ID>
     <ID>MaxLineLength:WritePermissionDialog.kt$WritePermissionDialog$Html.fromHtml(activity.getString(R.string.confirm_storage_access_android_text_specific, humanizedPath))</ID>
     <ID>MaxLineLength:WritePermissionDialog.kt$WritePermissionDialog$class</ID>
@@ -1507,7 +1477,7 @@
     <ID>TooManyFunctions:Activity.kt$org.fossify.commons.extensions.Activity.kt</ID>
     <ID>TooManyFunctions:BaseConfig.kt$BaseConfig</ID>
     <ID>TooManyFunctions:BaseSecurityTab.kt$BaseSecurityTab : ConstraintLayoutSecurityTab</ID>
-    <ID>TooManyFunctions:BaseSimpleActivity.kt$BaseSimpleActivity : AppCompatActivity</ID>
+    <ID>TooManyFunctions:BaseSimpleActivity.kt$BaseSimpleActivity : EdgeToEdgeActivity</ID>
     <ID>TooManyFunctions:BottomActionMenuView.kt$BottomActionMenuView : LinearLayout</ID>
     <ID>TooManyFunctions:Breadcrumbs.kt$Breadcrumbs : HorizontalScrollView</ID>
     <ID>TooManyFunctions:ComposeExtensions.kt$org.fossify.commons.compose.extensions.ComposeExtensions.kt</ID>
@@ -1609,12 +1579,6 @@
     <ID>VariableNaming:BaseConfig.kt$BaseConfig$var OTGPartition: String get() = prefs.getString(OTG_PARTITION, "")!! set(OTGPartition) = prefs.edit().putString(OTG_PARTITION, OTGPartition).apply()</ID>
     <ID>VariableNaming:BaseConfig.kt$BaseConfig$var OTGPath: String get() = prefs.getString(OTG_REAL_PATH, "")!! set(OTGPath) = prefs.edit().putString(OTG_REAL_PATH, OTGPath).apply()</ID>
     <ID>VariableNaming:BaseConfig.kt$BaseConfig$var OTGTreeUri: String get() = prefs.getString(OTG_TREE_URI, "")!! set(OTGTreeUri) = prefs.edit().putString(OTG_TREE_URI, OTGTreeUri).apply()</ID>
-    <ID>VariableNaming:BaseSimpleActivity.kt$BaseSimpleActivity$private val DELETE_FILE_SDK_30_HANDLER = 300</ID>
-    <ID>VariableNaming:BaseSimpleActivity.kt$BaseSimpleActivity$private val GENERIC_PERM_HANDLER = 100</ID>
-    <ID>VariableNaming:BaseSimpleActivity.kt$BaseSimpleActivity$private val MANAGE_MEDIA_RC = 303</ID>
-    <ID>VariableNaming:BaseSimpleActivity.kt$BaseSimpleActivity$private val RECOVERABLE_SECURITY_HANDLER = 301</ID>
-    <ID>VariableNaming:BaseSimpleActivity.kt$BaseSimpleActivity$private val TRASH_FILE_SDK_30_HANDLER = 304</ID>
-    <ID>VariableNaming:BaseSimpleActivity.kt$BaseSimpleActivity$private val UPDATE_FILE_SDK_30_HANDLER = 302</ID>
     <ID>VariableNaming:ContactsHelper.kt$ContactsHelper$private val BATCH_SIZE = 50</ID>
     <ID>VariableNaming:ContactsHelper.kt$ContactsHelper$val IDsString = TextUtils.join(",", relevantGroupIDs)</ID>
     <ID>VariableNaming:ContactsHelper.kt$ContactsHelper$val IM = cursor.getStringValue(CommonDataKinds.Im.DATA) ?: return@queryCursor</ID>
@@ -1628,10 +1592,6 @@
     <ID>VariableNaming:FingerprintTab.kt$FingerprintTab$private val RECHECK_PERIOD = 3000L</ID>
     <ID>VariableNaming:Int.kt$val DARK_FACTOR = factor</ID>
     <ID>VariableNaming:Int.kt$val LIGHT_FACTOR = factor</ID>
-    <ID>VariableNaming:LineColorPickerDialog.kt$LineColorPickerDialog$private val DEFAULT_COLOR_VALUE = activity.resources.getColor(R.color.color_primary)</ID>
-    <ID>VariableNaming:LineColorPickerDialog.kt$LineColorPickerDialog$private val DEFAULT_PRIMARY_COLOR_INDEX = 9</ID>
-    <ID>VariableNaming:LineColorPickerDialog.kt$LineColorPickerDialog$private val DEFAULT_SECONDARY_COLOR_INDEX = 8</ID>
-    <ID>VariableNaming:LineColorPickerDialog.kt$LineColorPickerDialog$private val PRIMARY_COLORS_COUNT = 19</ID>
     <ID>VariableNaming:MyRecyclerView.kt$MyRecyclerView$private val AUTO_SCROLL_DELAY = 25L</ID>
     <ID>VariableNaming:MyRecyclerView.kt$MyRecyclerView.GestureListener$private val ZOOM_IN_THRESHOLD = -0.4f</ID>
     <ID>VariableNaming:MyRecyclerView.kt$MyRecyclerView.GestureListener$private val ZOOM_OUT_THRESHOLD = 0.15f</ID>
@@ -1646,7 +1606,6 @@
     <ID>WildcardImport:AddBlockedNumberDialog.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:AddBlockedNumberDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
     <ID>WildcardImport:AlertDialogState.kt$import androidx.compose.runtime.*</ID>
-    <ID>WildcardImport:AppLockActivity.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:AppSideloadedDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
     <ID>WildcardImport:AppSideloadedDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:AppTheme.kt$import androidx.compose.runtime.*</ID>
@@ -1730,7 +1689,6 @@
     <ID>WildcardImport:MyRecyclerViewAdapter.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:MyRecyclerViewListAdapter.kt$import android.view.*</ID>
     <ID>WildcardImport:MyRecyclerViewListAdapter.kt$import org.fossify.commons.extensions.*</ID>
-    <ID>WildcardImport:MySearchMenu.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:OpenDeviceSettingsDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
     <ID>WildcardImport:PermissionRequiredDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
     <ID>WildcardImport:PinTab.kt$import org.fossify.commons.extensions.*</ID>

@@ -1,6 +1,7 @@
 package org.fossify.commons.dialogs
 
 import android.content.Context
+import android.graphics.Color
 import android.view.WindowManager
 import android.widget.FrameLayout
 import androidx.annotation.ColorInt
@@ -21,7 +22,6 @@ import androidx.compose.ui.window.DialogProperties
 import androidx.compose.ui.window.DialogWindowProvider
 import androidx.core.content.ContextCompat
 import androidx.core.view.updateLayoutParams
-import com.google.android.material.appbar.MaterialToolbar
 import org.fossify.commons.R
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.compose.alert_dialog.AlertDialogState
@@ -34,19 +34,27 @@ import org.fossify.commons.compose.theme.SimpleTheme
 import org.fossify.commons.databinding.DialogLineColorPickerBinding
 import org.fossify.commons.extensions.*
 import org.fossify.commons.interfaces.LineColorPickerListener
+import org.fossify.commons.views.MyAppBarLayout
 
 class LineColorPickerDialog(
-    val activity: BaseSimpleActivity, val color: Int, val isPrimaryColorPicker: Boolean, val primaryColors: Int = R.array.md_primary_colors,
-    val appIconIDs: ArrayList<Int>? = null, val toolbar: MaterialToolbar? = null, val callback: (wasPositivePressed: Boolean, color: Int) -> Unit
+    val activity: BaseSimpleActivity,
+    val color: Int,
+    val isPrimaryColorPicker: Boolean,
+    val primaryColors: Int = R.array.md_primary_colors,
+    val appIconIDs: ArrayList<Int>? = null,
+    val appBar: MyAppBarLayout? = null,
+    val callback: (wasPositivePressed: Boolean, color: Int) -> Unit
 ) {
-    private val PRIMARY_COLORS_COUNT = 19
-    private val DEFAULT_PRIMARY_COLOR_INDEX = 9
-    private val DEFAULT_SECONDARY_COLOR_INDEX = 8
-    private val DEFAULT_COLOR_VALUE = activity.resources.getColor(R.color.color_primary)
+    companion object {
+        private const val PRIMARY_COLORS_COUNT = 19
+        private const val DEFAULT_PRIMARY_COLOR_INDEX = 9
+        private const val DEFAULT_SECONDARY_COLOR_INDEX = 8
+    }
 
     private var wasDimmedBackgroundRemoved = false
     private var dialog: AlertDialog? = null
     private var view = DialogLineColorPickerBinding.inflate(activity.layoutInflater, null, false)
+    private val defaultColorValue = activity.resources.getColor(R.color.color_primary)
 
     init {
         view.apply {
@@ -96,8 +104,8 @@ class LineColorPickerDialog(
         view.hexCode.text = color.toHex()
         if (isPrimaryColorPicker) {
 
-            if (toolbar != null) {
-                activity.updateTopBarColors(toolbar, color)
+            if (appBar != null) {
+                activity.updateTopBarColors(appBar, color)
             }
 
             if (!wasDimmedBackgroundRemoved) {
@@ -108,7 +116,7 @@ class LineColorPickerDialog(
     }
 
     private fun getColorIndexes(color: Int): Pair<Int, Int> {
-        if (color == DEFAULT_COLOR_VALUE) {
+        if (color == defaultColorValue) {
             return getDefaultColorPair()
         }
 
@@ -328,7 +336,7 @@ private fun Context.getColors(id: Int) = resources.getIntArray(id).toCollection(
 private fun LineColorPickerAlertDialogPreview() {
     AppThemeSurface {
         LineColorPickerAlertDialog(alertDialogState = rememberAlertDialogState(),
-            color = R.color.color_primary,
+            color = Color.GREEN,
             isPrimaryColorPicker = true,
             onActiveColorChange = {}
         ) { _, _ -> }

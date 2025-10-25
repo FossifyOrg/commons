@@ -72,7 +72,7 @@ fun FeatureLockedAlertDialog(
     androidx.compose.material3.AlertDialog(
         containerColor = dialogContainerColor,
         modifier = modifier
-            .dialogBorder,
+            .dialogBorder(),
         properties = DialogProperties(dismissOnClickOutside = false, dismissOnBackPress = false),
         onDismissRequest = cancelCallback,
         shape = dialogShape,

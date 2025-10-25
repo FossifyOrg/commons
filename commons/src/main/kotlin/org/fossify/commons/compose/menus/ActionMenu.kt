@@ -144,7 +144,7 @@ fun ActionMenu(
         DropdownMenu(
             modifier = Modifier
                 .background(dialogContainerColor)
-                .dialogBorder,
+                .dialogBorder(),
             expanded = isMenuVisible,
             onDismissRequest = { onMenuToggle(false) },
         ) {

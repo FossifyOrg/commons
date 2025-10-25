@@ -109,7 +109,7 @@ fun UpgradeToProAlertDialog(
                 }
             }
         },
-        modifier = modifier.dialogBorder,
+        modifier = modifier.dialogBorder(),
         properties = DialogProperties(dismissOnBackPress = false, dismissOnClickOutside = false)
     )
 }

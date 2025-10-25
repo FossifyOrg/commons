@@ -36,7 +36,7 @@ fun PackageManager.checkSignature(packageName: String?): Boolean {
 fun PackageManager.getSignatures(packageName: String): Array<out Signature>? {
     @Suppress("DEPRECATION")
     return if (isPiePlus()) {
-        getPackageInfo(packageName, GET_SIGNING_CERTIFICATES).signingInfo.apkContentsSigners
+        getPackageInfo(packageName, GET_SIGNING_CERTIFICATES).signingInfo?.apkContentsSigners
     } else {
         getPackageInfo(packageName, GET_SIGNATURES).signatures
     }

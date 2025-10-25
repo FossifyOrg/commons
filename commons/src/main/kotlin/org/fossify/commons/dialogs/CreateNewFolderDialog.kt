@@ -118,7 +118,7 @@ fun CreateNewFolderAlertDialog(
     var title by remember { mutableStateOf("") }
 
     AlertDialog(
-        modifier = modifier.dialogBorder,
+        modifier = modifier.dialogBorder(),
         shape = dialogShape,
         containerColor = dialogContainerColor,
         tonalElevation = dialogElevation,

@@ -1,7 +1,6 @@
 package org.fossify.commons.extensions
 
 import android.Manifest
-import android.annotation.TargetApi
 import android.app.Activity
 import android.app.Application
 import android.app.NotificationManager
@@ -116,7 +115,6 @@ import org.fossify.commons.helpers.YOUR_ALARM_SOUNDS_MIN_ID
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.helpers.isNougatPlus
 import org.fossify.commons.helpers.isOnMainThread
-import org.fossify.commons.helpers.isOreoPlus
 import org.fossify.commons.helpers.isQPlus
 import org.fossify.commons.helpers.isRPlus
 import org.fossify.commons.helpers.isSPlus
@@ -129,6 +127,8 @@ import java.io.File
 import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
+import androidx.core.net.toUri
+import kotlin.math.roundToInt
 
 fun Context.getSharedPrefs() = getSharedPreferences(PREFS_KEY, Context.MODE_PRIVATE)
 
@@ -480,7 +480,7 @@ fun Context.ensurePublicUri(path: String, applicationId: String): Uri? {
         }
 
         else -> {
-            val uri = Uri.parse(path)
+            val uri = path.toUri()
             if (uri.scheme == "content") {
                 uri
             } else {
@@ -758,7 +758,11 @@ fun Context.getDefaultAlarmSound(type: Int) = AlarmSound(0, getDefaultAlarmTitle
 fun Context.grantReadUriPermission(uriString: String) {
     try {
         // ensure custom reminder sounds play well
-        grantUriPermission("com.android.systemui", Uri.parse(uriString), Intent.FLAG_GRANT_READ_URI_PERMISSION)
+        grantUriPermission(
+            "com.android.systemui",
+            uriString.toUri(),
+            Intent.FLAG_GRANT_READ_URI_PERMISSION
+        )
     } catch (ignored: Exception) {
     }
 }
@@ -874,7 +878,7 @@ fun Context.getVideoResolution(path: String): Point? {
 
     if (point == null && path.startsWith("content://", true)) {
         try {
-            val fd = contentResolver.openFileDescriptor(Uri.parse(path), "r")?.fileDescriptor
+            val fd = contentResolver.openFileDescriptor(path.toUri(), "r")?.fileDescriptor
             val retriever = MediaMetadataRetriever()
             retriever.setDataSource(fd)
             val width = retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_VIDEO_WIDTH)!!.toInt()
@@ -900,7 +904,7 @@ fun Context.getDuration(path: String): Int? {
         val cursor = contentResolver.query(uri, projection, selection, selectionArgs, null)
         cursor?.use {
             if (cursor.moveToFirst()) {
-                return Math.round(cursor.getIntValue(MediaColumns.DURATION) / 1000.toDouble()).toInt()
+                return (cursor.getIntValue(MediaColumns.DURATION) / 1000.toDouble()).roundToInt()
             }
         }
     } catch (ignored: Exception) {
@@ -909,7 +913,8 @@ fun Context.getDuration(path: String): Int? {
     return try {
         val retriever = MediaMetadataRetriever()
         retriever.setDataSource(path)
-        Math.round(retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_DURATION)!!.toInt() / 1000f)
+        (retriever.extractMetadata(MediaMetadataRetriever.METADATA_KEY_DURATION)!!
+            .toInt() / 1000f).roundToInt()
     } catch (ignored: Exception) {
         null
     }
@@ -1044,45 +1049,6 @@ val Context.notificationManager: NotificationManager get() = getSystemService(Co
 val Context.shortcutManager: ShortcutManager get() = getSystemService(ShortcutManager::class.java) as ShortcutManager
 
 val Context.portrait get() = resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT
-val Context.navigationBarOnSide: Boolean get() = usableScreenSize.x < realScreenSize.x && usableScreenSize.x > usableScreenSize.y
-val Context.navigationBarOnBottom: Boolean get() = usableScreenSize.y < realScreenSize.y
-val Context.navigationBarHeight: Int get() = if (navigationBarOnBottom && navigationBarSize.y != usableScreenSize.y) navigationBarSize.y else 0
-val Context.navigationBarWidth: Int get() = if (navigationBarOnSide) navigationBarSize.x else 0
-
-val Context.navigationBarSize: Point
-    get() = when {
-        navigationBarOnSide -> Point(newNavigationBarHeight, usableScreenSize.y)
-        navigationBarOnBottom -> Point(usableScreenSize.x, newNavigationBarHeight)
-        else -> Point()
-    }
-
-val Context.newNavigationBarHeight: Int
-    get() {
-        var navigationBarHeight = 0
-        val resourceId = resources.getIdentifier("navigation_bar_height", "dimen", "android")
-        if (resourceId > 0) {
-            navigationBarHeight = resources.getDimensionPixelSize(resourceId)
-        }
-        return navigationBarHeight
-    }
-
-val Context.statusBarHeight: Int
-    get() {
-        var statusBarHeight = 0
-        val resourceId = resources.getIdentifier("status_bar_height", "dimen", "android")
-        if (resourceId > 0) {
-            statusBarHeight = resources.getDimensionPixelSize(resourceId)
-        }
-        return statusBarHeight
-    }
-
-val Context.actionBarHeight: Int
-    get() {
-        val styledAttributes = theme.obtainStyledAttributes(intArrayOf(android.R.attr.actionBarSize))
-        val actionBarHeight = styledAttributes.getDimension(0, 0f)
-        styledAttributes.recycle()
-        return actionBarHeight.toInt()
-    }
 
 val Context.usableScreenSize: Point
     get() {
@@ -1097,19 +1063,6 @@ val Context.realScreenSize: Point
         windowManager.defaultDisplay.getRealSize(size)
         return size
     }
-
-fun Context.isUsingGestureNavigation(): Boolean {
-    return try {
-        val resourceId = resources.getIdentifier("config_navBarInteractionMode", "integer", "android")
-        if (resourceId > 0) {
-            resources.getInteger(resourceId) == 2
-        } else {
-            false
-        }
-    } catch (e: Exception) {
-        false
-    }
-}
 
 fun Context.getCornerRadius() = resources.getDimension(R.dimen.rounded_corner_radius_small)
 
@@ -1142,7 +1095,6 @@ fun Context.getContactsHasMap(withComparableNumbers: Boolean = false, callback: 
     }
 }
 
-@TargetApi(Build.VERSION_CODES.N)
 fun Context.getBlockedNumbersWithContact(callback: (ArrayList<BlockedNumber>) -> Unit) {
     getContactsHasMap(true) { contacts ->
         val blockedNumbers = ArrayList<BlockedNumber>()
@@ -1176,7 +1128,6 @@ fun Context.getBlockedNumbersWithContact(callback: (ArrayList<BlockedNumber>) ->
     }
 }
 
-@TargetApi(Build.VERSION_CODES.N)
 fun Context.getBlockedNumbers(): ArrayList<BlockedNumber> {
     val blockedNumbers = ArrayList<BlockedNumber>()
     if (!isNougatPlus() || !isDefaultDialer()) {
@@ -1202,7 +1153,6 @@ fun Context.getBlockedNumbers(): ArrayList<BlockedNumber> {
     return blockedNumbers
 }
 
-@TargetApi(Build.VERSION_CODES.N)
 fun Context.addBlockedNumber(number: String): Boolean {
     ContentValues().apply {
         put(BlockedNumbers.COLUMN_ORIGINAL_NUMBER, number)
@@ -1219,7 +1169,6 @@ fun Context.addBlockedNumber(number: String): Boolean {
     return true
 }
 
-@TargetApi(Build.VERSION_CODES.N)
 fun Context.deleteBlockedNumber(number: String): Boolean {
     val selection = "${BlockedNumbers.COLUMN_ORIGINAL_NUMBER} = ?"
     val selectionArgs = arrayOf(number)
