@@ -20,17 +20,6 @@
     </issue>
 
     <issue
-        id="OldTargetApi"
-        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details."
-        errorLine1="        targetSdk = libs.versions.app.build.targetSDK.get().toInt()"
-        errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="build.gradle.kts"
-            line="27"
-            column="9"/>
-    </issue>
-
-    <issue
         id="UnusedAttribute"
         message="Attribute `enableOnBackInvokedCallback` is only used in API level 33 and higher (current min is 26)"
         errorLine1="            android:enableOnBackInvokedCallback=&quot;true&quot;"
@@ -53,14 +42,10 @@
     </issue>
 
     <issue
-        id="GradleDependency"
-        message="A newer version of `compileSdkVersion` than 34 is available: 36"
-        errorLine1="    compileSdk = libs.versions.app.build.compileSDKVersion.get().toInt()"
-        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        id="ObsoleteSdkInt"
+        message="This folder configuration (`v24`) is unnecessary; `minSdkVersion` is 26. Merge all the resources in this folder into `drawable`.">
         <location
-            file="build.gradle.kts"
-            line="22"
-            column="5"/>
+            file="src/main/res/drawable-v24"/>
     </issue>
 
     <issue

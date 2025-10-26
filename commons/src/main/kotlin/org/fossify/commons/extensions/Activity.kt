@@ -143,8 +143,12 @@ fun Activity.showDonateOrUpgradeDialog() {
 }
 
 fun Activity.isAppInstalledOnSDCard(): Boolean = try {
-    val applicationInfo = packageManager.getPackageInfo(packageName, 0).applicationInfo
-    (applicationInfo.flags and ApplicationInfo.FLAG_EXTERNAL_STORAGE) == ApplicationInfo.FLAG_EXTERNAL_STORAGE
+    val appInfo = packageManager.getPackageInfo(packageName, 0).applicationInfo
+    if (appInfo != null) {
+        (appInfo.flags and ApplicationInfo.FLAG_EXTERNAL_STORAGE) == ApplicationInfo.FLAG_EXTERNAL_STORAGE
+    } else {
+        false
+    }
 } catch (e: Exception) {
     false
 }
@@ -1717,6 +1721,20 @@ fun BaseSimpleActivity.getAlarmSounds(type: Int, callback: (ArrayList<AlarmSound
             showErrorToast(e)
             callback(ArrayList())
         }
+    }
+}
+
+fun BaseSimpleActivity.showModdedAppWarning() {
+    val label =
+        "You are using a fake version of the app. For your own safety " +
+                "download the original one from www.fossify.org. Thanks"
+    ConfirmationDialog(
+        activity = this,
+        message = label,
+        positive = R.string.ok,
+        negative = 0
+    ) {
+        launchViewIntent(DEVELOPER_PLAY_STORE_URL)
     }
 }
 

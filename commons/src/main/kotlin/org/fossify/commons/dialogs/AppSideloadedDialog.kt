@@ -70,7 +70,7 @@ fun AppSideLoadedAlertDialog(
     AlertDialog(
         containerColor = dialogContainerColor,
         modifier = modifier
-            .dialogBorder,
+            .dialogBorder(),
         onDismissRequest = alertDialogState::hide,
         confirmButton = {
             TextButton(onClick = {

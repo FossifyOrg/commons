@@ -50,6 +50,7 @@ const val MD5 = "MD5"
 const val SHA1 = "SHA-1"
 const val SHA256 = "SHA-256"
 const val SHORT_ANIMATION_DURATION = 150L
+const val DEFAULT_ANIMATION_DURATION = 300L
 val DARK_GREY = 0xFF333333.toInt()
 
 const val LOWER_ALPHA = 0.25f
@@ -551,6 +552,12 @@ fun isTiramisuPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.TIRAMISU
 
 @ChecksSdkIntAtLeast(api = Build.VERSION_CODES.UPSIDE_DOWN_CAKE)
 fun isUpsideDownCakePlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.UPSIDE_DOWN_CAKE
+
+@ChecksSdkIntAtLeast(api = Build.VERSION_CODES.VANILLA_ICE_CREAM)
+fun isVanillaIceCreamPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.VANILLA_ICE_CREAM
+
+@ChecksSdkIntAtLeast(api = Build.VERSION_CODES.BAKLAVA)
+fun isBaklavaPlus() = Build.VERSION.SDK_INT >= Build.VERSION_CODES.BAKLAVA
 
 fun getDateFormats() = arrayListOf(
     "--MM-dd",

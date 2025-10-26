@@ -1,0 +1,62 @@
+package org.fossify.commons.views
+
+import android.content.Context
+import android.util.AttributeSet
+import android.view.View
+import androidx.core.view.ViewCompat
+import androidx.core.view.WindowInsetsCompat.Type
+import androidx.core.view.updatePadding
+import com.google.android.material.appbar.AppBarLayout
+import com.google.android.material.appbar.MaterialToolbar
+
+open class MyAppBarLayout @JvmOverloads constructor(
+    context: Context,
+    attrs: AttributeSet? = null,
+    defStyleAttr: Int = 0
+) : AppBarLayout(context, attrs, defStyleAttr) {
+    private var cachedToolbar: MaterialToolbar? = null
+
+    init {
+        elevation = 0f
+        ViewCompat.setElevation(this, 0f)
+        stateListAnimator = null
+        isLiftOnScroll = false
+        isLifted = false
+
+        ViewCompat.setOnApplyWindowInsetsListener(this) { view, insets ->
+            val system = insets.getInsetsIgnoringVisibility(Type.systemBars())
+            view.updatePadding(top = system.top, left = system.left, right = system.right)
+            insets
+        }
+    }
+
+    open val toolbar: MaterialToolbar?
+        get() {
+            for (i in 0 until childCount) {
+                val child = getChildAt(i)
+                if (child is MaterialToolbar) {
+                    return child.also { cachedToolbar = it }
+                }
+            }
+
+            return null
+        }
+
+    override fun onAttachedToWindow() {
+        super.onAttachedToWindow()
+        ViewCompat.requestApplyInsets(this)
+    }
+
+    override fun onViewAdded(child: View) {
+        super.onViewAdded(child)
+        cachedToolbar = null
+    }
+
+    override fun onViewRemoved(child: View) {
+        super.onViewRemoved(child)
+        cachedToolbar = null
+    }
+
+    fun requireToolbar(): MaterialToolbar =
+        toolbar ?: error("MyAppBarLayout requires a Toolbar/MaterialToolbar child")
+}

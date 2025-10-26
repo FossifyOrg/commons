@@ -68,7 +68,7 @@ fun CallConfirmationAlertDialog(
     androidx.compose.material3.AlertDialog(
         containerColor = dialogContainerColor,
         modifier = modifier
-            .dialogBorder,
+            .dialogBorder(),
         onDismissRequest = {
             alertDialogState.hide()
             callback()

@@ -22,13 +22,13 @@ val bottomSheetDialogShape = Shapes.extraLarge.copy(
     bottomStart = CornerSize(0f)
 )
 
-val Modifier.bottomSheetDialogBorder: Modifier
-    @ReadOnlyComposable
-    @Composable get() =
-        when (LocalTheme.current) {
-            is Theme.BlackAndWhite -> this.border(2.dp, light_grey_stroke, bottomSheetDialogShape)
-            else -> this
-        }
+@Composable
+@ReadOnlyComposable
+fun Modifier.bottomSheetDialogBorder(): Modifier =
+    when (LocalTheme.current) {
+        is Theme.BlackAndWhite -> this.border(2.dp, light_grey_stroke, bottomSheetDialogShape)
+        else -> this
+    }
 
 @Composable
 fun BottomSheetSpacerEdgeToEdge() {
@@ -43,7 +43,7 @@ fun BottomSheetColumnDialogSurface(
     Surface(
         modifier = modifier
             .fillMaxSize()
-            .bottomSheetDialogBorder,
+            .bottomSheetDialogBorder(),
         shape = bottomSheetDialogShape,
         color = dialogContainerColor,
         tonalElevation = dialogElevation,
@@ -62,7 +62,7 @@ fun BottomSheetBoxDialogSurface(
     Surface(
         modifier = modifier
             .fillMaxSize()
-            .bottomSheetDialogBorder,
+            .bottomSheetDialogBorder(),
         shape = bottomSheetDialogShape,
         color = dialogContainerColor,
         tonalElevation = dialogElevation,
@@ -81,7 +81,7 @@ fun BottomSheetDialogSurface(
     Surface(
         modifier = modifier
             .fillMaxSize()
-            .bottomSheetDialogBorder,
+            .bottomSheetDialogBorder(),
         shape = bottomSheetDialogShape,
         color = dialogContainerColor,
         tonalElevation = dialogElevation,
