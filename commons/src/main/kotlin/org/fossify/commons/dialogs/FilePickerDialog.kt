@@ -2,8 +2,8 @@ package org.fossify.commons.dialogs
 
 import android.os.Environment
 import android.os.Parcelable
-import android.view.KeyEvent
 import android.widget.Toast
+import androidx.activity.addCallback
 import androidx.appcompat.app.AlertDialog
 import androidx.coordinatorlayout.widget.CoordinatorLayout
 import androidx.documentfile.provider.DocumentFile
@@ -13,7 +13,39 @@ import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.adapters.FilepickerFavoritesAdapter
 import org.fossify.commons.adapters.FilepickerItemsAdapter
 import org.fossify.commons.databinding.DialogFilepickerBinding
-import org.fossify.commons.extensions.*
+import org.fossify.commons.extensions.areSystemAnimationsEnabled
+import org.fossify.commons.extensions.baseConfig
+import org.fossify.commons.extensions.beGone
+import org.fossify.commons.extensions.beVisible
+import org.fossify.commons.extensions.beVisibleIf
+import org.fossify.commons.extensions.getAlertDialogBuilder
+import org.fossify.commons.extensions.getAndroidSAFFileItems
+import org.fossify.commons.extensions.getColoredDrawableWithColor
+import org.fossify.commons.extensions.getContrastColor
+import org.fossify.commons.extensions.getDirectChildrenCount
+import org.fossify.commons.extensions.getDoesFilePathExist
+import org.fossify.commons.extensions.getFilenameFromPath
+import org.fossify.commons.extensions.getFolderLastModifieds
+import org.fossify.commons.extensions.getIsPathDirectory
+import org.fossify.commons.extensions.getOTGItems
+import org.fossify.commons.extensions.getParentPath
+import org.fossify.commons.extensions.getProperPrimaryColor
+import org.fossify.commons.extensions.getProperTextColor
+import org.fossify.commons.extensions.getSomeAndroidSAFDocument
+import org.fossify.commons.extensions.getSomeDocumentFile
+import org.fossify.commons.extensions.getSomeDocumentSdk30
+import org.fossify.commons.extensions.getTextSize
+import org.fossify.commons.extensions.handleHiddenFolderPasswordProtection
+import org.fossify.commons.extensions.handleLockedFolderOpening
+import org.fossify.commons.extensions.internalStoragePath
+import org.fossify.commons.extensions.isAccessibleWithSAFSdk30
+import org.fossify.commons.extensions.isInDownloadDir
+import org.fossify.commons.extensions.isPathOnOTG
+import org.fossify.commons.extensions.isRestrictedSAFOnlyRoot
+import org.fossify.commons.extensions.isRestrictedWithSAFSdk30
+import org.fossify.commons.extensions.isVisible
+import org.fossify.commons.extensions.setupDialogStuff
+import org.fossify.commons.extensions.toast
 import org.fossify.commons.helpers.ensureBackgroundThread
 import org.fossify.commons.models.FileDirItem
 import org.fossify.commons.views.Breadcrumbs
@@ -75,19 +107,6 @@ class FilePickerDialog(
 
         val builder = activity.getAlertDialogBuilder()
             .setNegativeButton(R.string.cancel, null)
-            .setOnKeyListener { dialogInterface, i, keyEvent ->
-                if (keyEvent.action == KeyEvent.ACTION_UP && i == KeyEvent.KEYCODE_BACK) {
-                    val breadcrumbs = mDialogView.filepickerBreadcrumbs
-                    if (breadcrumbs.getItemCount() > 1) {
-                        breadcrumbs.removeBreadcrumb()
-                        currPath = breadcrumbs.getLastItem().path.trimEnd('/')
-                        tryUpdateItems()
-                    } else {
-                        mDialog?.dismiss()
-                    }
-                }
-                true
-            }
 
         if (!pickFile) {
             builder.setPositiveButton(R.string.ok, null)
@@ -133,6 +152,17 @@ class FilePickerDialog(
         builder.apply {
             activity.setupDialogStuff(mDialogView.root, this, getTitle()) { alertDialog ->
                 mDialog = alertDialog
+                alertDialog.onBackPressedDispatcher.addCallback(alertDialog) {
+                    val breadcrumbs = mDialogView.filepickerBreadcrumbs
+                    if (breadcrumbs.getItemCount() > 1) {
+                        breadcrumbs.removeBreadcrumb()
+                        currPath = breadcrumbs.getLastItem().path.trimEnd('/')
+                        tryUpdateItems()
+                    } else {
+                        isEnabled = false
+                        alertDialog.onBackPressedDispatcher.onBackPressed()
+                    }
+                }
             }
         }
 
