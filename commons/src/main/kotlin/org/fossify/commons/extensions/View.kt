@@ -133,6 +133,6 @@ fun View.updateMarginWithBase(
             rightMargin = base[2] + right
             bottomMargin = base.last() + bottom
         }
-    } catch (e: ClassCastException) {
+    } catch (ignored: ClassCastException) {
     }
 }

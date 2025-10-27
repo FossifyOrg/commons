@@ -6,25 +6,43 @@ import android.util.AttributeSet
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.floatingactionbutton.FloatingActionButton
+import org.fossify.commons.R
 import org.fossify.commons.extensions.applyColorFilter
 import org.fossify.commons.extensions.getContrastColor
+import org.fossify.commons.extensions.updateMarginWithBase
 
 open class MyFloatingActionButton : FloatingActionButton {
+    private var applyWindowInsets = false
+
     constructor(context: Context) : super(context)
 
-    constructor(context: Context, attrs: AttributeSet) : super(context, attrs)
+    constructor(context: Context, attrs: AttributeSet) : super(context, attrs) {
+        init(context, attrs)
+    }
 
     constructor(context: Context, attrs: AttributeSet, defStyle: Int) : super(
         context,
         attrs,
         defStyle
-    )
+    ) {
+        init(context, attrs)
+    }
 
-    init {
-        ViewCompat.setOnApplyWindowInsetsListener(this) { _, insets ->
-            val system = insets.getInsetsIgnoringVisibility(WindowInsetsCompat.Type.systemBars())
-            translationY = -system.bottom.toFloat()
-            insets
+    private fun init(context: Context, attrs: AttributeSet) {
+        context.theme.obtainStyledAttributes(attrs, R.styleable.MyFloatingActionButton, 0, 0).apply {
+            try {
+                applyWindowInsets = getBoolean(R.styleable.MyFloatingActionButton_applyWindowInsets, false)
+            } finally {
+                recycle()
+            }
+        }
+
+        if (applyWindowInsets) {
+            ViewCompat.setOnApplyWindowInsetsListener(this) { _, insets ->
+                val system = insets.getInsetsIgnoringVisibility(WindowInsetsCompat.Type.systemBars())
+                updateMarginWithBase(bottom = system.bottom)
+                insets
+            }
         }
     }
 
