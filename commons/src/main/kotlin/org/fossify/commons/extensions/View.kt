@@ -12,7 +12,6 @@ import androidx.core.view.marginRight
 import androidx.core.view.marginTop
 import androidx.core.view.updateLayoutParams
 import androidx.core.view.updatePadding
-import androidx.core.view.updatePaddingRelative
 import org.fossify.commons.R
 import org.fossify.commons.helpers.SHORT_ANIMATION_DURATION
 

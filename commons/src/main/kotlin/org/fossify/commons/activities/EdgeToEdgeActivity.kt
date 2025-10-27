@@ -6,10 +6,15 @@ import android.os.Bundle
 import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ScrollingView
+import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
+import androidx.core.view.WindowInsetsAnimationCompat
+import androidx.core.view.WindowInsetsAnimationCompat.Callback.DISPATCH_MODE_CONTINUE_ON_SUBTREE
+import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsCompat.Type
 import androidx.core.view.get
 import androidx.core.view.size
+import androidx.core.view.updatePadding
 import androidx.core.widget.NestedScrollView
 import androidx.recyclerview.widget.RecyclerView
 import org.fossify.commons.R
@@ -48,7 +53,8 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
         padTopSystem: List<View> = emptyList(),
         padBottomSystem: List<View> = emptyList(),
         padBottomImeAndSystem: List<View> = emptyList(),
-        moveBottomSystem: List<View> = emptyList()
+        moveBottomSystem: List<View> = emptyList(),
+        animateIme: Boolean = false,
     ) {
         onApplyWindowInsets { insets ->
             val system = insets.getInsetsIgnoringVisibility(Type.systemBars())
@@ -64,6 +70,24 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
                 val sideLeft = maxOf(system.left, cutout.left)
                 val sideRight = maxOf(system.right, cutout.right)
                 contentRoot.updatePaddingWithBase(left = sideLeft, right = sideRight)
+            }
+
+            if (animateIme) {
+                ViewCompat.setWindowInsetsAnimationCallback(
+                    contentRoot,
+                    object : WindowInsetsAnimationCompat.Callback(DISPATCH_MODE_CONTINUE_ON_SUBTREE) {
+                        override fun onProgress(
+                            insets: WindowInsetsCompat,
+                            runningAnimations: MutableList<WindowInsetsAnimationCompat>
+                        ): WindowInsetsCompat {
+                            val bottom = insets.getInsets(Type.systemBars() or Type.ime()).bottom
+                            padBottomImeAndSystem.forEach {
+                                it.updatePaddingWithBase(bottom = bottom)
+                            }
+                            return insets
+                        }
+                    }
+                )
             }
         }
     }
