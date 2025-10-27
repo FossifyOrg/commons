@@ -7,4 +7,8 @@
         <attr name="android:visible" />
         <attr name="showAsAction" />
     </declare-styleable>
+
+    <declare-styleable name="MyFloatingActionButton">
+        <attr name="applyWindowInsets" format="boolean" />
+    </declare-styleable>
 </resources>

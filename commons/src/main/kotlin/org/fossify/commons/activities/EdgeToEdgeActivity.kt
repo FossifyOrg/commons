@@ -20,6 +20,7 @@ import org.fossify.commons.extensions.getContrastColor
 import org.fossify.commons.extensions.getProperBackgroundColor
 import org.fossify.commons.extensions.onApplyWindowInsets
 import org.fossify.commons.extensions.setSystemBarsAppearance
+import org.fossify.commons.extensions.updateMarginWithBase
 import org.fossify.commons.extensions.updatePaddingWithBase
 import org.fossify.commons.views.MyAppBarLayout
 
@@ -47,6 +48,7 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
         padTopSystem: List<View> = emptyList(),
         padBottomSystem: List<View> = emptyList(),
         padBottomImeAndSystem: List<View> = emptyList(),
+        moveBottomSystem: List<View> = emptyList()
     ) {
         onApplyWindowInsets { insets ->
             val system = insets.getInsetsIgnoringVisibility(Type.systemBars())
@@ -55,6 +57,7 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
             padTopSystem.forEach { it.updatePaddingWithBase(top = system.top) }
             padBottomSystem.forEach { it.updatePaddingWithBase(bottom = system.bottom) }
             padBottomImeAndSystem.forEach { it.updatePaddingWithBase(bottom = imeAndSystem.bottom) }
+            moveBottomSystem.forEach { it.updateMarginWithBase(bottom = system.bottom) }
 
             if (padCutout) {
                 val cutout = insets.getInsets(Type.displayCutout())
