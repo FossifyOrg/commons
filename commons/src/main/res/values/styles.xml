@@ -28,6 +28,7 @@
         <item name="colorControlHighlight">@color/activated_item_foreground</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
         <item name="android:forceDarkAllowed">false</item>
+        <item name="windowActionModeOverlay">true</item>
         <item name="actionOverflowMenuStyle">@style/TopPopupMenu.Overflow.Dark</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
         <item name="android:windowLightStatusBar">false</item>
@@ -507,6 +508,7 @@
         <item name="colorControlHighlight">@color/activated_item_foreground</item>
         <item name="android:colorControlActivated">@color/dark_grey</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
+        <item name="windowActionModeOverlay">true</item>
     </style>
 
     <style name="AppTheme.White.LightTextColor" parent="AppTheme.White">
@@ -526,6 +528,7 @@
         <item name="android:colorControlActivated">@color/dark_grey</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
+        <item name="windowActionModeOverlay">true</item>
     </style>
 
     <style name="AppTheme.BlackAndWhite" parent="AppTheme.Base">
@@ -542,6 +545,7 @@
         <item name="android:colorControlActivated">@color/md_grey_white</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
+        <item name="windowActionModeOverlay">true</item>
     </style>
 
     <style name="AppTheme.BlackAndWhite.DarkTextColor" parent="AppTheme.BlackAndWhite">
@@ -561,6 +565,7 @@
         <item name="android:colorControlActivated">@color/md_grey_white</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
+        <item name="windowActionModeOverlay">true</item>
     </style>
 
     <!-- themes with using transparent top action and status bars -->
