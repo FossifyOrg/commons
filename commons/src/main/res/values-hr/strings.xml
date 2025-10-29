@@ -112,8 +112,8 @@
     <string name="must_make_default_dialer">Za korištenje blokiranih brojeva, ovu aplikaciju moraš postaviti kao standardnu aplikaciju za biranje brojeva.</string>
     <string name="set_as_default">Postavi kao standard</string>
     <string name="block_confirmation">Stvarno želiš blokirati „%s”?</string>
-    <string name="block_unknown_calls">Blokiraj pozive od nespremljenih kontakata</string>
-    <string name="block_unknown_messages">Blokiraj poruke od nespremljenih kontakata</string>
+    <string name="block_unknown_calls">Blokiraj pozive od brojeva koji se ne nalaze u kontaktima</string>
+    <string name="block_unknown_messages">Blokiraj poruke od brojeva koji se ne nalaze u kontaktima</string>
     <string name="add_blocked_number_helper_text">Upiši broj ili uzorak (npr. *12345*, +1*8888) za blokiranje svih poziva i poruka od brojeva koji odgovaraju uzorku.</string>
     <string name="must_make_default_caller_id_app">Nije moguće blokirati nepoznate brojeve bez dozvole ID-a pozivatelja.</string>
     <string name="favorites">Favoriti</string>
@@ -1137,4 +1137,10 @@
     <string name="rate_this_app">Ocijeni ovu aplikaciju</string>
     <string name="evalex_title">EvalEx (evaluacija matematičkog izraza)</string>
     <string name="enables_more_customization">Omogućuje više prilagođavanja</string>
+    <string name="translation_latvian">Latvijski</string>
+    <plurals name="files_saved">
+        <item quantity="one">Datoteka uspješno spremljena</item>
+        <item quantity="few">Datoteke uspješno spremljene</item>
+        <item quantity="other">Datoteka uspješno spremljeno</item>
+    </plurals>
 </resources>
