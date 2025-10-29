@@ -4,11 +4,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/item_contact_frame"
     android:layout_width="match_parent"
-    android:layout_height="@dimen/one_line_list_item_min_height"
+    android:layout_height="wrap_content"
     android:layout_marginBottom="@dimen/tiny_margin"
     android:background="@drawable/selector_clickable"
     android:clickable="true"
     android:focusable="true"
+    android:minHeight="@dimen/one_line_list_item_min_height"
     android:paddingHorizontal="@dimen/list_item_padding_horizontal"
     android:paddingVertical="@dimen/list_item_padding_vertical">
 
