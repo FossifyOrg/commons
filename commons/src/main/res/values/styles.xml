@@ -27,10 +27,8 @@
         <item name="android:colorControlHighlight">@color/activated_item_foreground</item>
         <item name="colorControlHighlight">@color/activated_item_foreground</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
-        <item name="android:actionModeCloseDrawable">@drawable/ic_cross_vector</item>
-        <item name="actionModeStyle">@style/AppCompat.ActionMode</item>
         <item name="android:forceDarkAllowed">false</item>
-        <item name="windowActionModeOverlay">true</item>    <!-- replace casual top menu with contextual menu after long pressing an item -->
+        <item name="windowActionModeOverlay">true</item>
         <item name="actionOverflowMenuStyle">@style/TopPopupMenu.Overflow.Dark</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
         <item name="android:windowLightStatusBar">false</item>
@@ -57,7 +55,7 @@
         <item name="bottomSheetDialogTheme">@style/AppTheme.Material3.BottomSheetDialogTheme</item>
         <item name="android:forceDarkAllowed">false</item>
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
-        <item name="windowActionModeOverlay">true</item>    <!-- replace casual top menu with contextual menu after long pressing an item -->
+        <item name="windowActionModeOverlay">true</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
         <item name="android:radioButtonStyle">@style/MyRadioButtonStyle</item>
         <item name="radioButtonStyle">@style/MyRadioButtonStyle</item>
@@ -83,7 +81,7 @@
         <item name="bottomSheetDialogTheme">@style/AppTheme.Material3.BottomSheetDialogTheme</item>
         <item name="actionModeStyle">@style/AppTheme.ActionModeYou</item>
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
-        <item name="windowActionModeOverlay">true</item>    <!-- replace casual top menu with contextual menu after long pressing an item -->
+        <item name="windowActionModeOverlay">true</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
         <item name="android:itemTextAppearance">@style/MenuTextAppearance</item>
         <item name="android:radioButtonStyle">@style/MyRadioButtonStyle</item>
@@ -510,7 +508,7 @@
         <item name="colorControlHighlight">@color/activated_item_foreground</item>
         <item name="android:colorControlActivated">@color/dark_grey</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
-        <item name="windowActionModeOverlay">true</item>    <!-- replace casual top menu with contextual menu after long pressing an item -->
+        <item name="windowActionModeOverlay">true</item>
     </style>
 
     <style name="AppTheme.White.LightTextColor" parent="AppTheme.White">
@@ -530,7 +528,7 @@
         <item name="android:colorControlActivated">@color/dark_grey</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
-        <item name="windowActionModeOverlay">true</item>    <!-- replace casual top menu with contextual menu after long pressing an item -->
+        <item name="windowActionModeOverlay">true</item>
     </style>
 
     <style name="AppTheme.BlackAndWhite" parent="AppTheme.Base">
@@ -547,7 +545,7 @@
         <item name="android:colorControlActivated">@color/md_grey_white</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
-        <item name="windowActionModeOverlay">true</item>    <!-- replace casual top menu with contextual menu after long pressing an item -->
+        <item name="windowActionModeOverlay">true</item>
     </style>
 
     <style name="AppTheme.BlackAndWhite.DarkTextColor" parent="AppTheme.BlackAndWhite">
@@ -567,7 +565,7 @@
         <item name="android:colorControlActivated">@color/md_grey_white</item>
         <item name="bottomSheetDialogTheme">@style/BottomSheetDialogTheme</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
-        <item name="windowActionModeOverlay">true</item>    <!-- replace casual top menu with contextual menu after long pressing an item -->
+        <item name="windowActionModeOverlay">true</item>
     </style>
 
     <!-- themes with using transparent top action and status bars -->
