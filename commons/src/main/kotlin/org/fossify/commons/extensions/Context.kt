@@ -48,11 +48,13 @@ import android.widget.ImageView
 import android.widget.TextView
 import android.widget.Toast
 import androidx.annotation.RequiresApi
+import androidx.annotation.StringRes
 import androidx.biometric.BiometricManager
 import androidx.core.content.ContextCompat
 import androidx.core.content.FileProvider
 import androidx.core.content.res.ResourcesCompat
 import androidx.core.os.bundleOf
+import androidx.core.text.BidiFormatter
 import androidx.exifinterface.media.ExifInterface
 import androidx.loader.content.CursorLoader
 import com.github.ajalt.reprint.core.Reprint
@@ -1331,4 +1333,18 @@ fun Context.findActivity(): Activity? = when (this) {
     is Activity -> this
     is ContextWrapper -> baseContext.findActivity()
     else -> null
+}
+
+fun Context.formatWithDeprecatedBadge(
+    @StringRes labelRes: Int,
+    vararg labelArgs: Any
+): String {
+    val label = if (labelArgs.isEmpty()) {
+        getString(labelRes)
+    } else {
+        getString(labelRes, *labelArgs)
+    }
+
+    val badge = BidiFormatter.getInstance().unicodeWrap(getString(R.string.badge_deprecated))
+    return getString(R.string.label_with_badge, label, badge)
 }
