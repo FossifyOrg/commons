@@ -154,7 +154,13 @@ class PropertiesDialog : BasePropertiesDialog {
                     }
 
                 }else {
-                    fileDirItem.getResolution(mActivity)?.let { addProperty(R.string.resolution, it.formatAsResolution()) }
+                    fileDirItem.getResolution(context = mActivity)
+                        ?.let {
+                            addProperty(
+                                labelId = R.string.resolution,
+                                value = it.formatAsResolution()
+                            )
+                        }
                 }
             }
 
