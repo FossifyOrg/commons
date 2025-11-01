@@ -1111,8 +1111,6 @@
     <ID>MaxLineLength:Context.kt$fun Context.hasPermission(permId: Int)</ID>
     <ID>MaxLineLength:Context.kt$return isThankYouInstalled() &amp;&amp; ContextCompat.checkSelfPermission(this, PERMISSION_WRITE_GLOBAL_SETTINGS) == PERMISSION_GRANTED</ID>
     <ID>MaxLineLength:Context.kt$val Context.areSystemAnimationsEnabled: Boolean get() = Settings.Global.getFloat(contentResolver, Settings.Global.ANIMATOR_DURATION_SCALE, 0f) &gt; 0f</ID>
-    <ID>MaxLineLength:Context.kt$val Context.navigationBarHeight: Int get() = if (navigationBarOnBottom &amp;&amp; navigationBarSize.y != usableScreenSize.y) navigationBarSize.y else 0</ID>
-    <ID>MaxLineLength:Context.kt$val Context.navigationBarOnSide: Boolean get() = usableScreenSize.x &lt; realScreenSize.x &amp;&amp; usableScreenSize.x &gt; usableScreenSize.y</ID>
     <ID>MaxLineLength:Context.kt$val Context.notificationManager: NotificationManager get() = getSystemService(Context.NOTIFICATION_SERVICE) as NotificationManager</ID>
     <ID>MaxLineLength:Context.kt$val dayBits = arrayListOf(MONDAY_BIT, TUESDAY_BIT, WEDNESDAY_BIT, THURSDAY_BIT, FRIDAY_BIT, SATURDAY_BIT, SUNDAY_BIT)</ID>
     <ID>MaxLineLength:Context.kt$}</ID>
@@ -1667,7 +1665,6 @@
     <ID>WildcardImport:FileConflictDialog.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:FileDirItem.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:FileDirItem.kt$import org.fossify.commons.helpers.*</ID>
-    <ID>WildcardImport:FilePickerDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:FilepickerItemsAdapter.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:FingerprintTab.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:FolderLockingNoticeDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
