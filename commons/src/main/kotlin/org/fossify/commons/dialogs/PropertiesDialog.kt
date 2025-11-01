@@ -17,6 +17,8 @@ import org.fossify.commons.views.MyTextView
 import java.io.File
 import java.io.InputStream
 import java.util.*
+import com.awxkee.jxlcoder.JxlCoder
+import android.graphics.Point
 
 class PropertiesDialog : BasePropertiesDialog {
     private var mCountHiddenItems = false
@@ -143,7 +145,17 @@ class PropertiesDialog : BasePropertiesDialog {
             }
 
             fileDirItem.path.isImageSlow() -> {
-                fileDirItem.getResolution(mActivity)?.let { addProperty(R.string.resolution, it.formatAsResolution()) }
+                if(fileDirItem.name.endsWith(".jxl")) {
+                    var jxlCode = JxlCoder
+                    var size = jxlCode.getSize(File(fileDirItem.path).readBytes())
+                    if(size != null) {
+                        var point = Point(size.width, size.height)
+                        addProperty(R.string.resolution, point.formatAsResolution())
+                    }
+
+                }else {
+                    fileDirItem.getResolution(mActivity)?.let { addProperty(R.string.resolution, it.formatAsResolution()) }
+                }
             }
 
             fileDirItem.path.isAudioSlow() -> {
