@@ -9,12 +9,10 @@ import androidx.core.view.ScrollingView
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowCompat
 import androidx.core.view.WindowInsetsAnimationCompat
-import androidx.core.view.WindowInsetsAnimationCompat.Callback.DISPATCH_MODE_CONTINUE_ON_SUBTREE
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsCompat.Type
 import androidx.core.view.get
 import androidx.core.view.size
-import androidx.core.view.updatePadding
 import androidx.core.widget.NestedScrollView
 import androidx.recyclerview.widget.RecyclerView
 import org.fossify.commons.R
@@ -44,6 +42,11 @@ abstract class EdgeToEdgeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         WindowCompat.enableEdgeToEdge(window)
+    }
+
+    override fun onResume() {
+        super.onResume()
+        window.setSystemBarsAppearance(getProperBackgroundColor())
     }
 
     /**
