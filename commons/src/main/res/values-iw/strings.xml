@@ -678,7 +678,7 @@
     <string name="confirm_usb_storage_access_text">אנא בחר את התיקייה הראשית של התקן ה-USB במסך הבא, כדי להעניק הרשאה</string>
     <string name="september_short">ספטמבר</string>
     <string name="invite_via">הזמן באמצעות</string>
-    <string name="share_text">היי, בוא לבדוק את %1$s ב-%2$s</string>
+    <string name="share_text">היי ממליץ לך להתקין את %1$s. תוכל למצוא אותו ב-%2$s</string>
     <string name="invite_friends">הזמינו חברים</string>
     <string name="follow_us">עקוב אחרינו</string>
     <string name="support">תמיכה</string>
