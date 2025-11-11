@@ -1076,4 +1076,6 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <string name="translation_kabyle">Cabila</string>
     <string name="trial_start_description">Obrigado por usar a nossa app. Pode usar esta versão desbloqueada por <font color="#FFFFFF">%d dias</font>. Quando o teste terminar, considere atualizar para a versão Pro. Ela tem uma grande quantidade de novos recursos, design moderno, sem anúncios e muitas outras melhorias.\n\nSó precisa pagar por ela uma vez na vida e, se não ficar satisfeito, pode desinstalá-la e obter um reembolso.\n\nEspero que goste :)</string>
     <string name="trial_end_description">Por favor, atualize para a versão Pro para aproveitar a app ao máximo.\n\nSó precisa pagar por ele uma única vez e, se não ficar satisfeito, pode desinstalá-lo e obter um reembolso.\n\nVejo-o lá :)</string>
+    <string name="days_letter">%dd</string>
+    <string name="translation_latvian">Letão</string>
 </resources>
