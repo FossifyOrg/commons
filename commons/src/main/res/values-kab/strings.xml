@@ -196,4 +196,23 @@
     <string name="select_photo">Fren tawlaft</string>
     <string name="block_number">Sewḥel uṭṭun</string>
     <string name="search_contacts">Nadi inermisen</string>
+    <string name="nothing">Ulac</string>
+    <string name="save_as">Sekles am</string>
+    <string name="file_saved">Afaylu yettwasekles akken iwata</string>
+    <plurals name="files_saved">
+        <item quantity="one">Afaylu yettwasekles akken iwata</item>
+        <item quantity="other">Ifuyla ttwakelsen akken iwata</item>
+    </plurals>
+    <string name="invalid_file_format">Amasal n ufaylu mačči d ameɣtu</string>
+    <string name="out_of_memory_error">Tuccḍa n talast n tkatut</string>
+    <string name="an_error_occurred">Teḍra-d tuccḍa: %s</string>
+    <string name="error">Tuccḍa: %s</string>
+    <string name="open_with">Ldi s</string>
+    <string name="edit_with">Ẓreg s</string>
+    <string name="no_app_found">Ulac asnas ameɣtu</string>
+    <string name="no_browser_found">Ulac iminig yettwafen</string>
+    <string name="no_email_client_found">Ulac amsaɣ n yimayl</string>
+    <string name="set_as">Sbadu-t d</string>
+    <string name="copy_to_clipboard">Nɣel ɣer tecfawt</string>
+    <string name="copy_number_to_clipboard">Nɣel uṭṭun ɣer tecfawt</string>
 </resources>
