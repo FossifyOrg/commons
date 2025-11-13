@@ -215,4 +215,7 @@
     <string name="set_as">Sbadu-t d</string>
     <string name="copy_to_clipboard">Nɣel ɣer tecfawt</string>
     <string name="copy_number_to_clipboard">Nɣel uṭṭun ɣer tecfawt</string>
+    <string name="vibrate_on_button_press">Senhez ɣef usiti n tqeffalt</string>
+    <string name="updating">Aleqqem…</string>
+    <string name="phone_storage">Takatut n tiliɣri</string>
 </resources>
