@@ -1064,6 +1064,6 @@
     <string name="enables_more_customization">允许更多自定义</string>
     <string name="translation_latvian">拉脱维亚语</string>
     <plurals name="files_saved">
-        <item quantity="other">文件保存成功‌</item>
+        <item quantity="other">文件保存成功</item>
     </plurals>
 </resources>
