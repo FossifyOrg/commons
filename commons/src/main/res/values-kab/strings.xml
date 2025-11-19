@@ -249,4 +249,6 @@
     <string name="days_letter">%das</string>
     <string name="saving_label">Asekles</string>
     <string name="startup">Asekker</string>
+    <string name="playpause">Urar / Sgunfu</string>
+    <string name="no_phone_call_permission">Asnas ur ɣur-s ara tasiregt akken ad isenker isawalen, ma ulac aɣilif mudd-it deg iɣewwaṛen n yibenk</string>
 </resources>
