@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="cancel">Annuller</string>
+    <string name="cancel">Annullér</string>
     <string name="close">Luk</string>
     <string name="back">Tilbage </string>
     <string name="nothing">Intet</string>
@@ -12,8 +12,8 @@
     <string name="an_error_occurred">Der opstod en fejl: %s</string>
     <string name="error">Fejl: %s</string>
     <string name="open_with">Åbn med</string>
-    <string name="edit_with">Rediger med</string>
-    <string name="edit">Rediger</string>
+    <string name="edit_with">Redigér med</string>
+    <string name="edit">Redigér</string>
     <string name="no_app_found">Ingen gyldig app fundet</string>
     <string name="no_browser_found">Ingen browser fundet</string>
     <string name="no_email_client_found">Ingen e-mailklient fundet</string>
@@ -353,7 +353,7 @@
     <string name="temporarily_show_hidden">Vis midlertidigt skjulte</string>
     <string name="stop_showing_hidden">Stop visning af skjulte medier</string>
     <string name="maximum_share_reached">Du kan ikke dele så meget indhold ad gangen</string>
-    <string name="empty_and_disable_recycle_bin">Tøm og deaktiver papirkurven</string>
+    <string name="empty_and_disable_recycle_bin">Tøm og deaktivér papirkurven</string>
     <string name="undo">Fortryd</string>
     <string name="redo">Gentag</string>
     <string name="print">Udskriv</string>
@@ -581,9 +581,9 @@
     <string name="general_settings">Generelt</string>
     <string name="color_customization">Farvetilpasning</string>
     <string name="improved_color_customization">Forbedret farvetilpasning</string>
-    <string name="customize_colors">Rediger farver</string>
+    <string name="customize_colors">Redigér farver</string>
     <string name="feature_locked">Låst</string>
-    <string name="customize_widget_colors">Rediger widget-farver</string>
+    <string name="customize_widget_colors">Redigér widget-farver</string>
     <string name="customize_notifications">Tilpas notifikationer</string>
     <string name="notification_sound">Notifikationslyd</string>
     <string name="use_english_language">Brug engelsk</string>
@@ -600,7 +600,7 @@
     <string name="show_info_bubble">Vis en info-boble når jeg scroller med rullepanelet</string>
     <string name="prevent_phone_from_sleeping">Forhindr telefonen i at falde i søvn når appen er i forgrunden</string>
     <string name="skip_delete_confirmation">Spørg ikke om bekræftelse før sletning</string>
-    <string name="enable_pull_to_refresh">Aktiver træk nedad for at genindlæse</string>
+    <string name="enable_pull_to_refresh">Aktivér træk nedad for at genindlæse</string>
     <string name="use_24_hour_time_format">Brug 24-timersformat</string>
     <string name="change_date_and_time_format">Skift format på dato og tid</string>
     <string name="sunday_first">Søndag første ugedag</string>
@@ -676,7 +676,7 @@
     <string name="no_entries_for_importing">Der blev ikke fundet indhold til import</string>
     <string name="no_new_entries_for_importing">Der er ikke fundet nye poster til import</string>
     <string name="no_entries_for_exporting">Der er ikke fundet indhold til eksport</string>
-    <string name="enable_automatic_backups">Aktiver automatisk backup</string>
+    <string name="enable_automatic_backups">Aktivér automatisk backup</string>
     <string name="manage_automatic_backups">Administrer automatisk backup</string>
     <string name="date_time_pattern_info">Du kan bruge disse pladsholdere til automatisk at navngive din fil:\n\n%Y - år\n%M - måned\n%D - dag\n%h - time\n%m - minut\n%s - sekund</string>
     <string name="usb_detected">Du ser ud til at have en USB-enhed tilsluttet. For at sikre at dens filer ses ordentligt, skal du tildele flere rettigheder.</string>
@@ -739,9 +739,9 @@
     <string name="website_label">For at se kildekoden besøg</string>
     <string name="email_label">Send feedback og forslag til</string>
     <string name="upgrade_to_pro">Opgrader til Pro</string>
-    <string name="invite_friends">Inviter venner</string>
+    <string name="invite_friends">Invitér venner</string>
     <string name="share_text">Hej, se %1$s på %2$s</string>
-    <string name="invite_via">Inviter via</string>
+    <string name="invite_via">Invitér via</string>
     <string name="donate">Donér</string>
     <string name="follow_us">Følg os</string>
     <string name="help_us">Hjælp os</string>
@@ -1069,4 +1069,5 @@
     </plurals>
     <string name="enables_more_customization">Muliggør mere tilpasning</string>
     <string name="translation_latvian">Lettisk</string>
+    <string name="draw_short">Tegn</string>
 </resources>
