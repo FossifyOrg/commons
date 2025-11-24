@@ -253,4 +253,16 @@
     <string name="no_phone_call_permission">Asnas ur ɣur-s ara tasiregt akken ad isenker isawalen, ma ulac aɣilif mudd-it deg iɣewwaṛen n yibenk</string>
     <string name="insert_text_here">Ger aḍris dagi</string>
     <string name="thumbnails">Tinfulin</string>
+    <string name="search_files">Nadi ifuyla</string>
+    <string name="search_folders">Nadi ikaramen</string>
+    <string name="search_artists">Nadi inaẓuren</string>
+    <string name="search_text">Nadi aḍris</string>
+    <string name="search_conversations">Nadi idiwenniyen</string>
+    <string name="change_filter">Ẓreg amsizdeg</string>
+    <string name="no_permission">Ulac tasiregt</string>
+    <string name="grant_permission">Mudd tasiregt</string>
+    <string name="permission_required">Tettwasra tsiregt</string>
+    <string name="copy_to">Nɣel ɣer</string>
+    <string name="create_new">Snulfu-d amaynut</string>
+    <string name="internal_storage">Aḥraz adigan</string>
 </resources>
