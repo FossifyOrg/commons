@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <attr name="applyWindowInsets" format="boolean" />
+
     <declare-styleable name="BottomActionMenuItem">
         <attr name="android:id" />
         <attr name="android:title" />
@@ -9,6 +11,10 @@
     </declare-styleable>
 
     <declare-styleable name="MyFloatingActionButton">
-        <attr name="applyWindowInsets" format="boolean" />
+        <attr name="applyWindowInsets" />
+    </declare-styleable>
+
+    <declare-styleable name="MyAppBarLayout">
+        <attr name="applyWindowInsets" />
     </declare-styleable>
 </resources>
