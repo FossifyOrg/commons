@@ -3,6 +3,7 @@ package org.fossify.commons.views
 import android.content.Context
 import android.content.res.ColorStateList
 import android.util.AttributeSet
+import androidx.core.content.withStyledAttributes
 import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import com.google.android.material.floatingactionbutton.FloatingActionButton
@@ -29,12 +30,8 @@ open class MyFloatingActionButton : FloatingActionButton {
     }
 
     private fun init(context: Context, attrs: AttributeSet) {
-        context.theme.obtainStyledAttributes(attrs, R.styleable.MyFloatingActionButton, 0, 0).apply {
-            try {
-                applyWindowInsets = getBoolean(R.styleable.MyFloatingActionButton_applyWindowInsets, false)
-            } finally {
-                recycle()
-            }
+        context.withStyledAttributes(attrs, R.styleable.MyFloatingActionButton) {
+            applyWindowInsets = getBoolean(R.styleable.MyFloatingActionButton_applyWindowInsets, false)
         }
 
         if (applyWindowInsets) {
