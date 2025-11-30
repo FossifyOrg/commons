@@ -18,6 +18,16 @@ fun Window.setSystemBarsAppearance(backgroundColor: Int) {
     }
 }
 
+fun Window.setStatusBarAppearance(backgroundColor: Int) {
+    val isLightBackground = backgroundColor.getContrastColor() == DARK_GREY
+    insetsController().isAppearanceLightStatusBars = isLightBackground
+}
+
+fun Window.setNavigationBarAppearance(backgroundColor: Int) {
+    val isLightBackground = backgroundColor.getContrastColor() == DARK_GREY
+    insetsController().isAppearanceLightNavigationBars = isLightBackground
+}
+
 fun Window.showBars() = insetsController().apply {
     systemBarsBehavior = WindowInsetsControllerCompat.BEHAVIOR_DEFAULT
     show(WindowInsetsCompat.Type.systemBars())
