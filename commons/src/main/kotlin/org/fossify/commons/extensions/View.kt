@@ -50,7 +50,10 @@ fun View.isInvisible() = visibility == View.INVISIBLE
 
 fun View.isGone() = visibility == View.GONE
 
-fun View.performHapticFeedback() = performHapticFeedback(HapticFeedbackConstants.VIRTUAL_KEY, HapticFeedbackConstants.FLAG_IGNORE_GLOBAL_SETTING)
+fun View.performHapticFeedback() = performHapticFeedback(
+    HapticFeedbackConstants.VIRTUAL_KEY,
+    HapticFeedbackConstants.FLAG_IGNORE_GLOBAL_SETTING
+)
 
 fun View.fadeIn(duration: Long = SHORT_ANIMATION_DURATION) {
     animate().alpha(1f).setDuration(duration).withStartAction { beVisible() }.start()
@@ -95,17 +98,17 @@ fun View.ensureBasePadding(): IntArray {
 }
 
 fun View.updatePaddingWithBase(
-    @Px left: Int = 0,
-    @Px top: Int = 0,
-    @Px right: Int = 0,
-    @Px bottom: Int = 0,
+    @Px left: Int? = null,
+    @Px top: Int? = null,
+    @Px right: Int? = null,
+    @Px bottom: Int? = null,
 ) {
     val base = ensureBasePadding()
     updatePadding(
-        left = base[0] + left,
-        top = base[1] + top,
-        right = base[2] + right,
-        bottom = base.last() + bottom
+        left = left?.let { base[0] + it } ?: paddingLeft,
+        top = top?.let { base[1] + it } ?: paddingTop,
+        right = right?.let { base[2] + it } ?: paddingRight,
+        bottom = bottom?.let { base[3] + it } ?: paddingBottom,
     )
 }
 
@@ -119,19 +122,19 @@ fun View.ensureBaseMargin(): IntArray {
 }
 
 fun View.updateMarginWithBase(
-    @Px left: Int = 0,
-    @Px top: Int = 0,
-    @Px right: Int = 0,
-    @Px bottom: Int = 0,
+    @Px left: Int? = null,
+    @Px top: Int? = null,
+    @Px right: Int? = null,
+    @Px bottom: Int? = null,
 ) {
     val base = ensureBaseMargin()
     try {
         updateLayoutParams<ViewGroup.MarginLayoutParams> {
-            leftMargin = base[0] + left
-            topMargin = base[1] + top
-            rightMargin = base[2] + right
-            bottomMargin = base.last() + bottom
+            leftMargin = left?.let { base[0] + it } ?: leftMargin
+            topMargin = top?.let { base[1] + it } ?: topMargin
+            rightMargin = right?.let { base[2] + it } ?: rightMargin
+            bottomMargin = bottom?.let { base[3] + it } ?: bottomMargin
         }
-    } catch (ignored: ClassCastException) {
+    } catch (_: ClassCastException) {
     }
 }
