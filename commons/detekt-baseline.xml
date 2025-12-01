@@ -323,7 +323,6 @@
     <ID>MagicNumber:ActivityExtensions.kt$100</ID>
     <ID>MagicNumber:ActivityExtensions.kt$30</ID>
     <ID>MagicNumber:ActivityExtensions.kt$50</ID>
-    <ID>MagicNumber:AppLockAdapter.kt$AppLockAdapter$3</ID>
     <ID>MagicNumber:BaseConfig.kt$BaseConfig$10</ID>
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$10</ID>
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$100</ID>
@@ -332,11 +331,9 @@
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$9</ID>
     <ID>MagicNumber:Bitmap.kt$80</ID>
     <ID>MagicNumber:BottomActionMenuItemPopup.kt$BottomActionMenuItemPopup$0.8</ID>
-    <ID>MagicNumber:BottomActionMenuItemPopup.kt$BottomActionMenuItemPopup$3f</ID>
     <ID>MagicNumber:ColorPickerDialog.kt$0.001f</ID>
     <ID>MagicNumber:ColorPickerDialog.kt$360f</ID>
     <ID>MagicNumber:ColorPickerDialog.kt$6</ID>
-    <ID>MagicNumber:ColorPickerDialog.kt$ColorPickerDialog$3</ID>
     <ID>MagicNumber:ColorPickerDialog.kt$ColorPickerDialog$6</ID>
     <ID>MagicNumber:Colors.kt$0x00FFFFFF</ID>
     <ID>MagicNumber:Colors.kt$0x08000000</ID>
@@ -708,9 +705,7 @@
     <ID>MagicNumber:Constants.kt$0xCCF57C00</ID>
     <ID>MagicNumber:Constants.kt$5</ID>
     <ID>MagicNumber:Constants.kt$7</ID>
-    <ID>MagicNumber:ContactsDatabase.kt$ContactsDatabase.Companion.&lt;no name provided&gt;$3</ID>
     <ID>MagicNumber:ContactsHelper.kt$ContactsHelper$50</ID>
-    <ID>MagicNumber:Context-contacts.kt$3</ID>
     <ID>MagicNumber:Context-styling.kt$4</ID>
     <ID>MagicNumber:Context.kt$24</ID>
     <ID>MagicNumber:Context.kt$360</ID>
@@ -902,7 +897,6 @@
     <ID>MagicNumber:Int.kt$1024.0</ID>
     <ID>MagicNumber:Int.kt$180</ID>
     <ID>MagicNumber:Int.kt$270</ID>
-    <ID>MagicNumber:Int.kt$3</ID>
     <ID>MagicNumber:Int.kt$3600</ID>
     <ID>MagicNumber:Int.kt$60</ID>
     <ID>MagicNumber:Int.kt$8</ID>
@@ -918,7 +912,6 @@
     <ID>MagicNumber:LineColorPickerDialog.kt$16</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$17</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$18</ID>
-    <ID>MagicNumber:LineColorPickerDialog.kt$3</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$4</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$5</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$6</ID>
@@ -934,7 +927,6 @@
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$16</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$17</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$18</ID>
-    <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$3</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$4</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$5</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$6</ID>
@@ -946,13 +938,11 @@
     <ID>MagicNumber:MyAppCompatCheckbox.kt$MyAppCompatCheckbox$0.6f</ID>
     <ID>MagicNumber:MyAutoCompleteTextView.kt$MyAutoCompleteTextView$0.5f</ID>
     <ID>MagicNumber:MyCompatRadioButton.kt$MyCompatRadioButton$0.6f</ID>
-    <ID>MagicNumber:MyContactsContentProvider.kt$MyContactsContentProvider.Companion$3</ID>
     <ID>MagicNumber:MyMaterialSwitch.kt$MyMaterialSwitch$0.2f</ID>
     <ID>MagicNumber:MyMaterialSwitch.kt$MyMaterialSwitch$0.4f</ID>
     <ID>MagicNumber:MyRecyclerView.kt$MyRecyclerView$25L</ID>
     <ID>MagicNumber:MyRecyclerView.kt$MyRecyclerView.GestureListener$0.15f</ID>
     <ID>MagicNumber:MyRecyclerView.kt$MyRecyclerView.GestureListener$0.4f</ID>
-    <ID>MagicNumber:PasswordTypesAdapter.kt$PasswordTypesAdapter$3</ID>
     <ID>MagicNumber:PinTab.kt$PinTab$10</ID>
     <ID>MagicNumber:Point.kt$10</ID>
     <ID>MagicNumber:Point.kt$1000000f</ID>
@@ -962,7 +952,6 @@
     <ID>MagicNumber:SelectAlarmSoundDialog.kt$SelectAlarmSoundDialog$2</ID>
     <ID>MagicNumber:SimpleContactsHelper.kt$SimpleContactsHelper$30</ID>
     <ID>MagicNumber:SimpleContactsHelper.kt$SimpleContactsHelper$9</ID>
-    <ID>MagicNumber:StoragePickerDialog.kt$StoragePickerDialog$3</ID>
     <ID>MagicNumber:StoragePickerDialog.kt$StoragePickerDialog$4</ID>
     <ID>MagicNumber:String.kt$9</ID>
     <ID>MagicNumber:SystemUIController.kt$0.3f</ID>
@@ -1315,7 +1304,6 @@
     <ID>MaxLineLength:UpgradeToProDialog.kt$UpgradeToProDialog$activity</ID>
     <ID>MaxLineLength:VcfExporter.kt$VcfExporter$val</ID>
     <ID>MaxLineLength:VcfExporter.kt$VcfExporter$val photoByteArray = MediaStore.Images.Media.getBitmap(activity.contentResolver, Uri.parse(contact.thumbnailUri)).getByteArray()</ID>
-    <ID>MaxLineLength:View.kt$fun View.performHapticFeedback()</ID>
     <ID>MaxLineLength:WritePermissionDialog.kt$.</ID>
     <ID>MaxLineLength:WritePermissionDialog.kt$WritePermissionDialog$Html.fromHtml(activity.getString(R.string.confirm_storage_access_android_text_specific, humanizedPath))</ID>
     <ID>MaxLineLength:WritePermissionDialog.kt$WritePermissionDialog$class</ID>
