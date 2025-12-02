@@ -992,6 +992,10 @@
     <string name="fee_up_to_pct">Up to %1$d%% fee</string>
     <string name="cryptocurrency">Cryptocurrency</string>
 
+    <!-- Feature removal -->
+    <string name="badge_deprecated">(deprecated)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
+
     <!-- FAQ -->
     <string name="frequently_asked_questions">Frequently asked questions</string>
     <string name="before_asking_question">Before you ask a question, please first read the</string>
