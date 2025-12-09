@@ -464,4 +464,6 @@
     <string name="glide_title">Glide (şəkil açma və keşləmə)</string>
     <string name="search_groups">Qrupları axtar</string>
     <string name="add_number_to_contact">Kontakta nömrə əlavə et</string>
+    <string name="close">Bağla</string>
+    <string name="back">Geri</string>
 </resources>
