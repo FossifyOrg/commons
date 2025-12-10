@@ -1377,16 +1377,19 @@ fun Context.findActivity(): Activity? = when (this) {
     else -> null
 }
 
+fun Context.formatWithBadge(
+    @StringRes labelRes: Int,
+    @StringRes badgeRes: Int,
+    vararg labelArgs: Any
+): CharSequence {
+    val label = if (labelArgs.isEmpty()) getString(labelRes)
+    else getString(labelRes, *labelArgs)
+
+    val badge = BidiFormatter.getInstance().unicodeWrap(getString(badgeRes))
+    return getString(R.string.label_with_badge, label, badge)
+}
+
 fun Context.formatWithDeprecatedBadge(
     @StringRes labelRes: Int,
     vararg labelArgs: Any
-): String {
-    val label = if (labelArgs.isEmpty()) {
-        getString(labelRes)
-    } else {
-        getString(labelRes, *labelArgs)
-    }
-
-    val badge = BidiFormatter.getInstance().unicodeWrap(getString(R.string.badge_deprecated))
-    return getString(R.string.label_with_badge, label, badge)
-}
+): CharSequence = formatWithBadge(labelRes, R.string.badge_deprecated, *labelArgs)
