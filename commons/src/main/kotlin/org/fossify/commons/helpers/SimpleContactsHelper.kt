@@ -402,18 +402,24 @@ class SimpleContactsHelper(val context: Context) {
      */
     fun existsSync(number: String, privateCursor: Cursor? = null): Boolean {
         if (number.isEmpty()) return false
-        if (context.hasPermission(PERMISSION_READ_CONTACTS)) {
-            try {
-                val uri = Uri.withAppendedPath(PhoneLookup.CONTENT_FILTER_URI, Uri.encode(number))
-                context.contentResolver.query(uri, arrayOf(PhoneLookup._ID), null, null, null)
-                    ?.use { cursor ->
-                        if (cursor.moveToFirst()) return true
-                    }
-            } catch (ignored: Exception) {
-            }
+        if (existsInSystemContacts(number)) {
+            return true
         }
 
         val privateContacts = MyContactsContentProvider.getSimpleContacts(context, privateCursor)
         return privateContacts.any { it.doesHavePhoneNumber(number) }
+    }
+
+    private fun existsInSystemContacts(number: String): Boolean {
+        if (!context.hasPermission(PERMISSION_READ_CONTACTS)) return false
+        return try {
+            val uri = Uri.withAppendedPath(PhoneLookup.CONTENT_FILTER_URI, Uri.encode(number))
+            context.contentResolver
+                .query(uri, arrayOf(PhoneLookup._ID), null, null, null)
+                ?.use { cursor -> cursor.moveToFirst() }
+                ?: false
+        } catch (ignored: Exception) {
+            false
+        }
     }
 }
