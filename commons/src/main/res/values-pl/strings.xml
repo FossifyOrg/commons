@@ -1170,4 +1170,6 @@
         <item quantity="many">Pliki zostały zapisane</item>
         <item quantity="other">Pliki zostały zapisane</item>
     </plurals>
+    <string name="badge_deprecated">(przestarzałe)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
