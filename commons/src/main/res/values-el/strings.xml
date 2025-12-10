@@ -44,7 +44,7 @@
     <string name="no_contacts_found">Δεν βρέθηκαν Επαφές</string>
     <string name="request_the_required_permissions">Ζητούνται οι απαιτούμενες Άδειες</string>
     <string name="no_access_to_contacts">Η εφαρμογή δεν έχει πρόσβαση στις επαφές σας</string>
-    <string name="no_phone_call_permission">Η εφαρμογή δεν έχει άδεια πραγματοποίησης τηλεφωνικών κλήσεων, παρακαλούμε παραχωρήσετε την στις ρυθμίσεις της συσκευής.</string>
+    <string name="no_phone_call_permission">Η εφαρμογή δεν έχει άδεια πραγματοποίησης τηλεφωνικών κλήσεων, παρακαλούμε παραχωρήσετε την στις ρυθμίσεις της συσκευής</string>
     <string name="insert_text_here">Εισαγωγή κειμένου εδώ</string>
     <string name="call_person">Κλήση %s</string>
     <string name="confirm_calling_person">Επιβεβαίωση κλήσης %s</string>
@@ -72,7 +72,7 @@
     <string name="record_video">Εγγραφή βίντεο</string>
     <string name="updating">Ενημέρωση…</string>
     <string name="phone_storage">Αποθηκευτικός χώρος Τηλεφώνου</string>
-    <string name="phone_storage_hidden">Ο Αποθηκευτικός χώρος του τηλεφώνου (δεν είναι ορατός από άλλες εφαρμογές)</string>
+    <string name="phone_storage_hidden">Μνήμη τηλεφώνου (κρυφή από άλλες εφαρμογές)</string>
     <string name="audio">Ήχος</string>
     <string name="scanning">Σάρωση…</string>
     <string name="birthday">Γενέθλια</string>
@@ -190,11 +190,11 @@
     <string name="filename_invalid_characters_placeholder">Το όνομα \'%s\' περιέχει μη έγκυρους χαρακτήρες</string>
     <string name="extension_cannot_be_empty">Η επέκταση δεν μπορεί να είναι κενή</string>
     <string name="source_file_doesnt_exist">To αρχείο προέλευσης %s δεν υπάρχει</string>
-    <string name="prepend_filenames">Προεπιλεγμένα ονόματα αρχείων</string>
-    <string name="append_filenames">Προσθέστε ονόματα αρχείων</string>
+    <string name="prepend_filenames">Προσθήκη κειμένου πριν τα ονόματα αρχείων</string>
+    <string name="append_filenames">Προσθήκη κειμένου μετά τα ονόματα αρχείων</string>
     <string name="simple_renaming">Απλή μετονομασία</string>
     <string name="pattern_renaming">Μοτίβο</string>
-    <string name="string_to_add">Συμβολοσειρά για προσθήκη</string>
+    <string name="string_to_add">Κείμενο για προσθήκη</string>
     <string name="rename_date_time_pattern">%Y - έτος\n%M - μήνας\n%D - ημέρα\n%h - ώρα\n%m - λεπτό\n%s - δευτ/το\n%i - αύξηση αριθμού από 1</string>
     <string name="filename_without_txt">Όνομα αρχείου (χωρίς .txt)</string>
     <string name="filename_without_json">Όνομα αρχείου (χωρίς .json)</string>
@@ -332,7 +332,7 @@
     <string name="save_before_closing">Έχετε αλλαγές που δεν έχουν αποθηκευτεί. Αποθήκευση πριν από την έξοδο?</string>
     <string name="global_theme_success">Τα χρώματα ενημερώθηκαν με επιτυχία. Ένα νέο θέμα που ονομάζεται  \"Κοινόχρηστο\" έχει προστεθεί, παρακαλούμε να χρησιμοποιήστε το για την ενημέρωση των χρωμάτων όλων των εφαρμ. στο μέλλον.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Παρακαλώ αγοράστε την <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Απλά Σας Ευχαριστώ</a> για να ξεκλειδώσετε αυτή τη λειτουργία για να υποστηρίξετε την ανάπτυξη. Ευχαριστώ!
+            Παρακαλώ αγοράστε την <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> για να ξεκλειδώσετε αυτή τη λειτουργία για να υποστηρίξετε την ανάπτυξη. Ευχαριστώ!
         ]]></string>
     <string name="light_theme">Φωτεινό</string>
     <string name="dark_theme">Σκοτεινό</string>
@@ -706,7 +706,7 @@
     <string name="backups">Αντίγραφα ασφαλείας</string>
     <string name="enable_automatic_backups">Ενεργοποίηση αυτόματων αντιγράφων</string>
     <string name="manage_automatic_backups">Διαχείριση αυτόματων αντιγράφων</string>
-    <string name="date_time_pattern_info">Μπορείτε να χρησιμοποιήσετε τα ακόλουθα μοτίβα για να ονομάσετε αυτόματα το αρχείο σας:\n\n%Y - έτος\n%M - μήνας\n%D - ημέρα\n%h - ώρα\n%m - λεπτό\n%s - δευτ.</string>
+    <string name="date_time_pattern_info">Μπορείτε να χρησιμοποιήσετε τα ακόλουθα μοτίβα για να ονομάσετε αυτόματα το αρχείο σας:\n\n%Y - έτος\n%M - μήνας\n%D - ημέρα\n%h - ώρα\n%m - λεπτό\n%s - δευτ/το</string>
     <string name="usb_detected">Φαίνεται ότι μια συσκευή USB είναι συνδεδεμένη στη συσκευή σας. Για να βεβαιωθείτε ότι τα αρχεία της εμφανίζονται σωστά, χρειάζεται να χορηγήσετε πρόσθετες Άδειες.</string>
     <string name="confirm_usb_storage_access_text">Παρακαλώ επιλέξτε τον ριζικό κατάλογο της συσκευής USB στην επόμενη οθόνη, για παραχώρηση πρόσβασης</string>
     <string name="wrong_root_selected_usb">Λάθος επιλεγμένος κατάλογος, παρακαλώ επιλέξτε το ριζικό κατάλογο της συσκευής USB</string>
@@ -946,4 +946,19 @@
     <string name="ok">Εντάξει</string>
     <string name="email">Ηλεκτρονικό ταχυδρομείο</string>
     <string name="format_phone_numbers">Μορφοποίηση αριθμών τηλεφώνου</string>
+    <string name="known_issues">Γνωστά προβλήματα</string>
+    <string name="rate_this_app">Αξιολόγηση</string>
+    <string name="donate_to_fossify">Δωρεά στο Fossify</string>
+    <string name="more_fossify_apps">Περισσότερες εφαρμογές Fossify</string>
+    <string name="faq_6_text_commons">Αυτό το πρόβλημα προκύπτει όταν το πρόγραμμα εκκίνησης δεν υποστηρίζει πλήρως την προσαρμογή εικονιδίων. Δοκιμάστε να εκκινήσετε την εφαρμογή μέσω του Google Play ή ενός γραφικού στοιχείου, εάν είναι προσβάσιμο. Μετά την εκκίνηση, επαναφέρετε το προεπιλεγμένο πράσινο χρώμα εικονιδίου #106D1F. Σε ακραίες περιπτώσεις, ενδέχεται να χρειαστεί επανεγκατάσταση της εφαρμογής.</string>
+    <string name="theme_and_colors">Θέμα και χρώματα</string>
+    <string name="app_icon_color_warning">Προσοχή: Ορισμένα προγράμματα εκκίνησης ενδέχεται να μην χειρίζονται σωστά την προσαρμογή εικονιδίων εφαρμογών. Εάν το εικονίδιο εξαφανιστεί, δοκιμάστε να εκκινήσετε την εφαρμογή μέσω του Google Play ή ενός γραφικού στοιχείου, εάν είναι προσβάσιμο. Μετά την εκκίνηση, επαναφέρετε το προεπιλεγμένο πράσινο χρώμα εικονιδίου #106D1F. Σε ακραίες περιπτώσεις, ενδέχεται να χρειαστεί επανεγκατάσταση της εφαρμογής.</string>
+    <string name="apply_to_all_apps">Εφαρμογή χρωμάτων σε όλες τις εφαρμογές Fossify</string>
+    <string name="donate_new">Γεια σας,&lt;br&gt;&lt;br&gt;Ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις και δεν συλλέγουμε τα δεδομένα σας. Παρακαλούμε υποστηρίξτε την ανάπτυξή της αγοράζοντας το &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Ευχαριστώ&lt;/a&gt;. Θα έχετε επίσης όλες τις λειτουργίες της εφαρμογής, συμπεριλαμβανομένης της προσαρμογής χρωμάτων, ξεκλειδωμένες.&lt;br&gt;&lt;br&gt;Ευχαριστούμε!</string>
+    <string name="donate_short">Υποστηρίξτε μας αγοράζοντας το &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Ευχαριστώ&lt;/a&gt;. Θα ξεκλειδώσει επίσης όλες τις λειτουργίες της εφαρμογής, συμπεριλαμβανομένης της προσαρμογής χρωμάτων.</string>
+    <string name="all_fossify_apps">Όλες οι εφαρμογές Fossify</string>
+    <string name="requires_fossify_thank_you">Χρειάζεται την Fossify Thank You</string>
+    <string name="purchase_simple_thank_you">Αγορά Fossify Thank You</string>
+    <string name="features_locked">Αυτή η λειτουργία είναι κλειδωμένη, αγοράστε το &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; που ξεκλειδώνει ολόκληρη την εφαρμογή.&lt;br&gt;&lt;br&gt;Πρόκειται για μια εφάπαξ πληρωμή και εάν δεν είστε ικανοποιημένοι, μπορούμε να σας επιστρέψουμε τα χρήματά σας.</string>
+    <string name="enables_more_customization">Ενεργοποιεί περισσότερη προσαρμογή</string>
 </resources>
