@@ -1085,4 +1085,5 @@
     <string name="theme_and_colors">उपस्थिति और रंग</string>
     <string name="confirm_storage_access_restricted_text">सिस्टम प्रतिबंधों के कारण, यह फ़ोल्डर अनुपलब्ध है।</string>
     <string name="number_of_items">आइटम की संख्या</string>
+    <string name="badge_deprecated">(अप्रचलित)</string>
 </resources>
