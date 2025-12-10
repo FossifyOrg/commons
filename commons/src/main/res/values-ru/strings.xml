@@ -1151,4 +1151,6 @@
         <item quantity="many">Файлы сохранены</item>
         <item quantity="other">Файлы сохранены</item>
     </plurals>
+    <string name="badge_deprecated">(устарело)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
