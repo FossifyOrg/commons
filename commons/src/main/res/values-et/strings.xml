@@ -1090,4 +1090,6 @@
         <item quantity="one">Faili salvestamine õnnestus</item>
         <item quantity="other">Failide salvestamine õnnestus</item>
     </plurals>
+    <string name="badge_deprecated">(aegunud)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
