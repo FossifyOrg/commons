@@ -396,4 +396,24 @@ class SimpleContactsHelper(val context: Context) {
             }
         }
     }
+
+    /**
+     * Synchronous version of [exists] that checks if a number exists in contacts.
+     */
+    fun existsSync(number: String, privateCursor: Cursor? = null): Boolean {
+        if (number.isEmpty()) return false
+        if (context.hasPermission(PERMISSION_READ_CONTACTS)) {
+            try {
+                val uri = Uri.withAppendedPath(PhoneLookup.CONTENT_FILTER_URI, Uri.encode(number))
+                context.contentResolver.query(uri, arrayOf(PhoneLookup._ID), null, null, null)
+                    ?.use { cursor ->
+                        if (cursor.moveToFirst()) return true
+                    }
+            } catch (ignored: Exception) {
+            }
+        }
+
+        val privateContacts = MyContactsContentProvider.getSimpleContacts(context, privateCursor)
+        return privateContacts.any { it.doesHavePhoneNumber(number) }
+    }
 }
