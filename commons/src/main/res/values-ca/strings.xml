@@ -1145,4 +1145,6 @@
         <item quantity="many">Els fitxers s\'han desat correctament</item>
         <item quantity="other">Els fitxers s\'han desat correctament</item>
     </plurals>
+    <string name="badge_deprecated">(obsoleta)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
