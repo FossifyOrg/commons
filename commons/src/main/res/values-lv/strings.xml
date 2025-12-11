@@ -42,4 +42,7 @@
         <item quantity="other">Datnes sekmīgi saglabātas</item>
     </plurals>
     <string name="invalid_file_format">Nederīgs datnes veidols</string>
+    <string name="label_with_badge">%1$s %2$s</string>
+    <string name="frequently_asked_questions">Bieži uzdoti jautājumi</string>
+    <string name="before_asking_question">Pirms jautājuma uzdošanas lūgums vispirms izlasīt</string>
 </resources>
