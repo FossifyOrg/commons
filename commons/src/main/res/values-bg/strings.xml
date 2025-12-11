@@ -1035,4 +1035,6 @@
         <item quantity="one">Файлът е запазен</item>
         <item quantity="other">Файловете за запазени</item>
     </plurals>
+    <string name="badge_deprecated">(остаряло)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
