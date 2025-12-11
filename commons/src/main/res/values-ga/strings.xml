@@ -1167,4 +1167,6 @@
         <item quantity="many">Comhaid sábháilte go rathúil</item>
         <item quantity="other">Comhaid sábháilte go rathúil</item>
     </plurals>
+    <string name="badge_deprecated">(as feidhm)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
