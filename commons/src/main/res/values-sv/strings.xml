@@ -250,7 +250,7 @@
     <string name="apply_to_all">Använd på alla konflikter</string>
     <string name="system_folder_restriction">Systemet tillåter inte åtgärden i den här mappen, välj en annan</string>
     <string name="system_folder_copy_restriction">Systemet tillåter inte kopiering till den här mappen, välj en annan</string>
-    <string name="rename_in_sd_card_system_restriction">Systemet tillåter inte namnändring i denna mapp</string>
+    <string name="rename_in_sd_card_system_restriction">Systemet tillåter inte namnbyte i den här mappen</string>
     <string name="rename_internal_system_restriction">Det går inte att byta namn på mappar direkt på det interna lagringsutrymmet, endast undermappar</string>
     <string name="cannot_rename_folder">Det går inte att byta namn på den här mappen</string>
     <string name="select_folder">Välj mapp</string>
@@ -1104,4 +1104,6 @@
         <item quantity="one">Filen har sparats</item>
         <item quantity="other">Filerna har sparats</item>
     </plurals>
+    <string name="badge_deprecated">(inaktuell)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
