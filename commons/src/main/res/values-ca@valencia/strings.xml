@@ -1,3 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string name="vibrate_on_button_press">Vibrar en pressionar els botons</string>
 </resources>
