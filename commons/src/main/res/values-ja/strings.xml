@@ -1024,4 +1024,7 @@
     <string name="update_thank_you">Fossify Thank Youを最新バージョンに更新してください</string>
     <string name="little_to_no_fee">ゼロまたはわずか</string>
     <string name="fee_up_to_pct">最大%1$d%%</string>
+    <plurals name="files_saved">
+        <item quantity="other">ファイルが正常に保存されました</item>
+    </plurals>
 </resources>
