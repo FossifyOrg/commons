@@ -133,4 +133,5 @@
     <string name="search_contacts">Buscar contactes</string>
     <string name="search_favorites">Buscar als preferits</string>
     <string name="search_groups">Buscar grups</string>
+    <string name="add_number_to_contact">Afegir un número al contacte</string>
 </resources>
