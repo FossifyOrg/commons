@@ -1053,4 +1053,6 @@
         <item quantity="one">Dosiero sukcese konservita</item>
         <item quantity="other">Dosieroj sukcese konservitaj</item>
     </plurals>
+    <string name="badge_deprecated">(evitinda)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>

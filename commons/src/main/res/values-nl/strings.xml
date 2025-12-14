@@ -1046,4 +1046,6 @@
         <item quantity="one">Bestand is opgeslagen</item>
         <item quantity="other">Bestanden zijn opgeslagen</item>
     </plurals>
+    <string name="badge_deprecated">(uitgefaseerd)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>

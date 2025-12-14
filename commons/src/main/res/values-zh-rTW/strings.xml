@@ -1047,4 +1047,6 @@
     <plurals name="files_saved">
         <item quantity="other">檔案儲存完成</item>
     </plurals>
+    <string name="badge_deprecated">（已棄用）</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>

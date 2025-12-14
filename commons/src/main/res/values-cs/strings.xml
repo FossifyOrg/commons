@@ -1150,4 +1150,6 @@
         <item quantity="many">Soubory úspěšně uloženy</item>
         <item quantity="other">Soubory úspěšně uloženy</item>
     </plurals>
+    <string name="badge_deprecated">(zastaralé)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>

@@ -1104,4 +1104,6 @@
         <item quantity="one">Datei erfolgreich gespeichert</item>
         <item quantity="other">Dateien erfolgreich gespeichert</item>
     </plurals>
+    <string name="badge_deprecated">(veraltet)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>

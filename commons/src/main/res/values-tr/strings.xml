@@ -1108,4 +1108,6 @@
         <item quantity="one">Dosya başarıyla kaydedildi</item>
         <item quantity="other">Dosyalar başarıyla kaydedildi</item>
     </plurals>
+    <string name="badge_deprecated">(kullanılmayan)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
