@@ -1070,4 +1070,6 @@
     <string name="enables_more_customization">Muliggør mere tilpasning</string>
     <string name="translation_latvian">Lettisk</string>
     <string name="draw_short">Tegn</string>
+    <string name="badge_deprecated">(forældet)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
