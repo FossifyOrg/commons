@@ -256,7 +256,7 @@
     <string name="rename_in_sd_card_system_restriction">El sistema no permet canviar el nom en aquesta carpeta</string>
     <string name="rename_internal_system_restriction">No es poden canviar els noms de les carpetes directament a l\'emmagatzematge intern, només les subcarpetes</string>
     <string name="cannot_rename_folder">No s\'ha pogut canviar el nom d\'aquesta carpeta</string>
-    <string name="select_folder">Selecciona una carpeta</string>
+    <string name="select_folder">Seleccioneu una carpeta</string>
     <string name="select_file">Seleccioneu un fitxer</string>
     <string name="confirm_storage_access_title">Confirmació d\'accés a l\'emmagatzematge extern</string>
     <string name="confirm_folder_access_title">Confirmació d\'accés a les carpetes</string>
@@ -267,7 +267,7 @@
     <string name="confirm_create_doc_for_new_folder_text">Premeu «<b>Desa</b>» a la part inferior de la pantalla següent per a crear la carpeta nova.</string>
     <string name="confirm_selection">Confirmeu la selecció</string>
     <string name="loading">S\'està carregant…</string>
-    <string name="access_storage_prompt">Si us plau, concediu accés de la nostra aplicació a tots els vostres fitxers, és possible que no funcioni bé sense això.</string>
+    <string name="access_storage_prompt">Si no concediu accés de l\'aplicació a tots els fitxers és possible que no funcioni bé.</string>
     <plurals name="items">
         <item quantity="one">%d element</item>
         <item quantity="many">%d elements</item>
@@ -316,13 +316,13 @@
     <string name="gps_coordinates">Coordenades GPS</string>
     <string name="altitude">Altitud</string>
     <string name="remove_exif">Elimina l\'EXIF</string>
-    <string name="remove_exif_confirmation">Segur que voleu eliminar els valors de l\'EXIF com les coordenades GPS, el model de càmera, etc.\?</string>
+    <string name="remove_exif_confirmation">Confirmeu que voleu eliminar els valors de l\'EXIF com les coordenades GPS, el model de càmera, etc.?</string>
     <string name="exif_removed">Els valors de l\'EXIF s\'han eliminat correctament</string>
     <string name="background_color">Color de fons</string>
     <string name="text_color">Color del text</string>
     <string name="primary_color">Color primari</string>
-    <string name="accent_color_white">Color d\'accent del tema blanc</string>
-    <string name="accent_color_black_and_white">Color d\'accent del tema blanc i negre</string>
+    <string name="accent_color_white">Color de ressaltament del tema blanc</string>
+    <string name="accent_color_black_and_white">Color de ressaltament del tema blanc i negre</string>
     <string name="foreground_color">Color de primer pla</string>
     <string name="app_icon_color">Color de la icona d\'aplicació</string>
     <string name="bottom_navigation_bar_color">Color de la barra inferior de navegació</string>
@@ -335,7 +335,7 @@
     <string name="save">Desa</string>
     <string name="discard">Descarta</string>
     <string name="undo_changes">Desfés els canvis</string>
-    <string name="undo_changes_confirmation">Segur que voleu desfer els canvis\?</string>
+    <string name="undo_changes_confirmation">Confirmeu que voleu desfer els canvis?</string>
     <string name="cannot_be_undone">Aquesta acció no es pot desfer.</string>
     <string name="save_before_closing">Hi ha canvis no desats. Els voleu desar abans de sortir\?</string>
     <string name="global_theme_success">Colors actualitzats correctament. S\'ha afegit un tema nou anomenat «Compartit». Feu-lo servir per a actualitzar tots els colors de l\'aplicació en el futur.</string>
@@ -362,7 +362,7 @@
     <string name="select_text">Selecciona el text</string>
     <string name="hide">Oculta</string>
     <string name="unhide">Mostra</string>
-    <string name="hide_folder">Oculta la carpeta</string>
+    <string name="hide_folder">Ocultar carpeta</string>
     <string name="unhide_folder">Mostra la carpeta</string>
     <string name="temporarily_show_hidden">Mostra temporalment els ocults</string>
     <string name="stop_showing_hidden">Deixa de mostrar els ocults</string>
@@ -411,18 +411,18 @@
     <string name="descending">Descendent</string>
     <string name="use_for_this_folder">Utilitza només per a aquesta carpeta</string>
     <string name="sort_numeric_parts">Ordena les parts numèriques pel valor real</string>
-    <string name="first_name">Nom</string>
+    <string name="first_name">Primer Nom</string>
     <string name="middle_name">Segon nom</string>
     <string name="surname">Cognom</string>
     <string name="full_name">Nom complet</string>
     <string name="use_custom_sorting">Utilitza l\'ordenació personalitzada</string>
     <string name="change_order">Canvia l\'ordre</string>
     <string name="more_options">Més opcions</string>
-    <string name="proceed_with_deletion">Segur que voleu continuar amb la supressió\?</string>
-    <string name="deletion_confirmation">Segur que voleu suprimir %s\?</string>
-    <string name="move_to_recycle_bin_confirmation">Segur que voleu moure %s a la paperera\?</string>
-    <string name="are_you_sure_delete">Segur que voleu suprimir aquest element\?</string>
-    <string name="are_you_sure_recycle_bin">Segur que voleu moure aquest element a la paperera\?</string>
+    <string name="proceed_with_deletion">Confirmeu que voleu suprimir?</string>
+    <string name="deletion_confirmation">Confirmeu que voleu suprimir %s?</string>
+    <string name="move_to_recycle_bin_confirmation">Confirmeu que voleu moure %s a la paperera?</string>
+    <string name="are_you_sure_delete">Confirmeu que voleu suprimir aquest element?</string>
+    <string name="are_you_sure_recycle_bin">Confirmeu que voleu moure aquest element a la paperera?</string>
     <string name="do_not_ask_again">No tornis a preguntar-ho en aquesta sessió</string>
     <string name="do_not_show_again">No ho tornis a mostrar</string>
     <string name="yes">Sí</string>
@@ -452,7 +452,7 @@
     <string name="authentication_failed">L\'autenticació ha fallat</string>
     <string name="authentication_blocked">S\'ha bloquejat l\'autenticació, torneu a provar-ho d\'aquí a un moment</string>
     <string name="no_fingerprints_registered">No hi ha cap empremta digital registrada. Afegiu-ne alguna a la configuració del dispositiu</string>
-    <string name="go_to_settings">Aneu a la configuració</string>
+    <string name="go_to_settings">Ves a la configuració</string>
     <string name="protection_setup_successfully">Configuració correcta de la contrasenya. Torneu a instal·lar l\'aplicació en cas que l\'oblideu.</string>
     <string name="fingerprint_setup_successfully">Configuració correcta de la protecció. Torneu a instal·lar l\'aplicació en cas de problemes per a restablir-la.</string>
     <string name="lock_folder">Bloqueja la carpeta</string>
@@ -658,7 +658,7 @@
     <string name="widgets">Ginys</string>
     <string name="use_same_snooze">Utilitza sempre el mateix temps d\'ajornament</string>
     <string name="snooze_time">Temps d\'ajornament</string>
-    <string name="vibrate_on_button_press">Vibrar en prémer els botons</string>
+    <string name="vibrate_on_button_press">Vibra en prémer els botons</string>
     <string name="move_items_into_recycle_bin">Mou elements a la paperera de reciclatge en lloc de suprimir-los</string>
     <string name="recycle_bin_cleaning_interval">Interval de neteja de la paperera de reciclatge</string>
     <string name="empty_recycle_bin">Buida la paperera de reciclatge</string>
@@ -1059,7 +1059,7 @@
     <string name="developer_description">Un grup d\'aplicacions Android simples i de codi obert amb ginys personalitzables, sense anuncis ni permisos innecessaris.</string>
     <string name="deletion_confirmation_short">Suprimeixo %s?</string>
     <string name="no">No</string>
-    <string name="pin">PASSADOR</string>
+    <string name="pin">Codi PIN</string>
     <string name="usb">USB</string>
     <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;esperem que gaudiu de l\'aplicació. No conté anuncis i tampoc es recopilen les vostres dades. Si us plau, doneu suport al seu desenvolupament comprant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank Tou&lt;/a&gt;. També disposareu de totes les funcions desbloquejades de l\'aplicació, incloent-hi la personalització del color.&lt;br&gt;&lt;br&gt;Gràcies!</string>
     <string name="features_locked">Aquesta característica està bloquejada, compreu &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; per a desbloquejar l\'aplicació completa.&lt;br&gt;&lt;br&gt;És un pagament únic i si no us satisfà, podem reembossar-ho.</string>
@@ -1092,7 +1092,7 @@
 \nCopyright © Fossify %2$d</string>
     <string name="social">Social</string>
     <string name="donate_short">Ajudeu-nos comprant la &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, també desbloquejarà totes les funcions de l\'aplicació incloent-hi la personalització del color.</string>
-    <string name="app_icon_color_warning">Atenció: És possible que alguns llançadors no manegin correctament la personalització de la icona de l\'aplicació. Si la icona desapareix, intenteu llançar l\'aplicació a través de Google Play o d\'un giny, si és accessible. Després del llançament, restaureu el color predeterminat de la icona verda #106D1F. En casos extrems, pot ser necessària la reinstal·lació de l\'aplicació.</string>
+    <string name="app_icon_color_warning">Atenció: És possible que alguns llançadors no gestionin correctament la personalització de la icona de l\'aplicació. Si la icona desapareix, intenteu llançar l\'aplicació a través de Google Play o d\'un giny, si és accessible. Després del llançament, restaureu el color predeterminat de la icona verda #106D1F. En casos extrems, pot ser necessària la reinstal·lació de l\'aplicació.</string>
     <string name="faq_6_text_commons">Aquest problema sorgeix quan el llançador no admet completament la personalització d\'icones. Intenteu llançar l\'aplicació a través de Google Play o d\'un giny, si és accessible. Després del llançament, restaureu el color predeterminat de la icona verda #106D1F. En casos extrems, pot ser necessària la reinstal·lació de l\'aplicació.</string>
     <string name="block_contact">Bloqueja el contacte</string>
     <string name="exif">EXIF</string>
