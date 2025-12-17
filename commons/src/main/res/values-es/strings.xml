@@ -1155,4 +1155,6 @@
         <item quantity="many">Archivos guardados con éxito</item>
         <item quantity="other">Archivos guardados con éxito</item>
     </plurals>
+    <string name="badge_deprecated">(retirada)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
