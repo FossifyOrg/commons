@@ -796,7 +796,9 @@
     <string name="sms_messenger_short">Mensaxería SMS</string>
     <string name="thank_you_short">Grazas</string>
     <string name="voice_recorder_short">Gravadora de voz</string>
-    <string name="sideloaded_app">Parece que a versión da túa aplicación está corrupta. Descarga a versión orixinal &lt;a href=%s&gt;aquí&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[
+            Parece que a versión da túa aplicación está estragada. Descarga a versión orixinal <a href="%s">aquí</a>.
+        ]]></string>
     <string name="frequently_asked_questions">Preguntas máis frecuentes</string>
     <string name="before_asking_question">Antes de facer unha pregunta, lea primeiro</string>
     <string name="faq_1_title_commons">Como é que non vexo este widget de aplicacións na lista de widgets\?</string>
@@ -935,7 +937,7 @@
     <string name="start_free_trial">Comezala proba gratuíta</string>
     <string name="trial_expires_soon">A túa proba caduca pronto.</string>
     <string name="welcome_to_app_name">Benvido a %s!</string>
-    <string name="trial_start_description">Grazas por usala nosa aplicación. Podes usar esta versión desbloqueada durante <font color="#FFFFFF">%d días</font>. Unha vez que remate a proba, considere actualizalá versión Pro. Ten unha gran cantidade de novas funcións, deseño moderno, sen anuncios e moitas outras melloras. \n \nSó tes que pagalo unha vez na vida e se non estás satisfeito, podes desinstalalo e obter un reembolso. \n \nAgardo que vos guste :)</string>
+    <string name="trial_start_description">Grazas por usar a nosa aplicación. Podes usar esta versión desbloqueada durante <font color="#FFFFFF">%d días</font>. Unha vez que remate a proba, considera actualizala á versión Pro. Ten unha gran cantidade de novas funcións, deseño moderno, sen publicidade e moitas outras melloras. \n \nSó tes que mercala unha vez, e se non te satisfai, podes desinstalala e obter un reembolso. \n \nAgardamos que che guste :)</string>
     <string name="trial_end_description">Por favor actualizalá versión Pro para gozar da aplicación ao máximo.
 \n
 \nSó tes que pagala unha vez na vida e se non estás satisfeito, podes desinstalala e obter un reembolso.
@@ -1025,7 +1027,7 @@
     <string name="fee_up_to_pct">Ata %1$d%%</string>
     <string name="cryptocurrency">Criptomoeda</string>
     <string name="translation_belarusian">Bieloruso</string>
-    <string name="translation_central_kurdish">Central Kurdish</string>
+    <string name="translation_central_kurdish">Curdo Central</string>
     <string name="translation_chuvash">Chuvash</string>
     <string name="translation_esperanto">Esperanto</string>
     <string name="translation_gujarati">Gujarati</string>
@@ -1040,7 +1042,7 @@
     <string name="allow_full_screen_notifications_incoming_calls">Tes que permitir que a app mostre notificacións a pantalla completa, se non poderías perder algunhas chamadas.</string>
     <string name="allow_notifications_incoming_messages">Tes que permitir que a app mostre notificacións, se non non pode mostrar as mensaxes recibidas.</string>
     <string name="allow_alarm_scheduled_messages">Tes que permitir que a app acceda ás alarmas internas, se non non pode enviar as mensaxes programadas.</string>
-    <string name="allow_alarm_sleep_timer">Tes que permitir que a app acceda ás alarmas internas, se non non pode apagar a aplicación despois do temporizador.</string>
+    <string name="allow_alarm_sleep_timer">Tes que permitir que a app acceda ás alarmas internas, se non non pode apagar a aplicación co temporizador.</string>
     <string name="allow_location_permission">Tes que permitir que a app acceda á localización, se non non pode coñecela.</string>
     <string name="hide_line_numbers">Ocultar números de liña</string>
     <string name="unblock">Desbloquear</string>
@@ -1074,4 +1076,32 @@
     <string name="skip_the_recycle_bin">Omitir a Papeleira, eliminar os ficheiros directamente</string>
     <string name="backups">Copias de apoio</string>
     <string name="enable_automatic_backups">Activar copia de apoio automática</string>
+    <string name="widgets">Widgets</string>
+    <string name="manage_automatic_backups">Xestión automática de copias</string>
+    <string name="date_time_pattern_info">Podes usar os seguintes modelos para dar nome de xeito automático ao ficheiro:\n\n%Y - ano\n%M - mes\n%D - día\n%h - hora\n%m - minuto\n%s - segundo</string>
+    <string name="usb">USB</string>
+    <string name="january_short">Xan</string>
+    <string name="february_short">Feb</string>
+    <string name="march_short">Mar</string>
+    <string name="april_short">Abr</string>
+    <string name="may_short">Mai</string>
+    <string name="june_short">Xuñ</string>
+    <string name="july_short">Xul</string>
+    <string name="august_short">Ago</string>
+    <string name="october_short">Out</string>
+    <string name="november_short">Nov</string>
+    <string name="december_short">Dec</string>
+    <string name="saturday_letter">S</string>
+    <string name="donate_new">Ola,&lt;br&gt;&lt;br&gt;agardamos que desfrutes da app. Non ten publicidade nin recollemos datos sobre ti, por favor apoia o seu desenvolvemento mercando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazas Fossify&lt;/a&gt;. Terás acceso a todas as características da app incluíndo a posibilidade de personalizar a cor.&lt;br&gt;&lt;br&gt;Grazas!</string>
+    <string name="donate_short">Apóianos mercando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazas Fossify&lt;/a&gt;, desbloquearás todas as características da app incluíndo a personalización da cor.</string>
+    <string name="update_thank_you">Por favor actualiza Grazas Fossify á última vesión</string>
+    <string name="features_locked">Esta función está bloqueada, por favor merca &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazas Fossify&lt;/a&gt; para desbloquear a app.&lt;br&gt;&lt;br&gt;É un pago único e se non te satisfai a app podemos devolverche os cartos.</string>
+    <string name="badge_deprecated">(retirada)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
+    <string name="faq_6_text_commons">Este problema xurde cando o lanzador non é compatible coa personalización das iconas. Intenta iniciar a app a través de Google Play ou un widget, se é accesible. Após iniciala, restablece a cor verde #106D1F orixinal. En casos extremos pode ser preciso ter que reinstalar a aplicación.</string>
+    <string name="contributors_label"><![CDATA[
+            Nesta lista están todas as persoas que colaborarón significativamente con Fossify, non só esta app. As traducións fanas persoas voluntarias,
+            contacta con nós se tamén queres axudar. As instruccións para traducir están <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">nesta páxina web</a>, ou simplemente contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tes algunha pregunta.
+            Grazas a todas as colaboradoras e persoas que nos apoian!
+        ]]></string>
 </resources>
