@@ -173,7 +173,7 @@ data class Contact(
         }
         val lastPart = if (startWithSurname) firstMiddle else surname
         val suffixComma = if (suffix.isEmpty()) "" else ", $suffix"
-        val fullName = "$prefix $firstPart $lastPart$suffixComma".trim()
+        val fullName = "$prefix $firstPart $lastPart$suffixComma".trim().replace(Regex("\\s+"), " ")
         val organization = getFullCompany()
         val email = emails.firstOrNull()?.value?.trim()
         val phoneNumber = phoneNumbers.firstOrNull()?.normalizedNumber
