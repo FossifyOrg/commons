@@ -940,7 +940,7 @@
         <item quantity="one">Η δοκιμή σας λήγει σε %d ημέρα.</item>
         <item quantity="other">Η δοκιμή σας λήγει σε %d ημέρες.</item>
     </plurals>
-    <string name="deprecated_app">ΚΑΤΑΡΓΗΣΗ: Αυτή η έκδοση της εφαρμογής δεν υποστηρίζεται πλέον, λάβετε την έκδοση Pro εδώ https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">ΑΠΑΡΧΑΙΩΜΕΝΗ: Αυτή η έκδοση της εφαρμογής δεν υποστηρίζεται πλέον, λάβετε την έκδοση Pro εδώ https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Μην ξεχνάτε οτι αν απεγκατασταθεί εντός 2 ωρών, θα επιστραφούν αυτόματα τα χρήματα σας. Αν θέλετε επιστροφή χρημάτων οποιαδήποτε στιγμή αργότερα, απλά επικοινωνήστε μαζί μας στο hello@fossify.org και θα τα λάβετε. Αυτό το κάνει εύκολότερο για να την δοκιμάσετε :)</string>
     <string name="developer_description">Μια ομάδα Απλών εφαρμογών Android ανοιχτού κώδικα με προσαρμόσιμα γραφικά στοιχεία, χωρίς διαφημίσεις και περιττές Άδειες.</string>
     <string name="ok">Εντάξει</string>
@@ -961,4 +961,5 @@
     <string name="purchase_simple_thank_you">Αγορά Fossify Thank You</string>
     <string name="features_locked">Αυτή η λειτουργία είναι κλειδωμένη, αγοράστε το &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; που ξεκλειδώνει ολόκληρη την εφαρμογή.&lt;br&gt;&lt;br&gt;Πρόκειται για μια εφάπαξ πληρωμή και εάν δεν είστε ικανοποιημένοι, μπορούμε να σας επιστρέψουμε τα χρήματά σας.</string>
     <string name="enables_more_customization">Ενεργοποιεί περισσότερη προσαρμογή</string>
+    <string name="badge_deprecated">(απαρχαιωμένο)</string>
 </resources>
