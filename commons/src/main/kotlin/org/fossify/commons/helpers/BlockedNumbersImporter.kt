@@ -1,9 +1,7 @@
 package org.fossify.commons.helpers
 
 import android.app.Activity
-import android.telephony.PhoneNumberUtils
 import org.fossify.commons.extensions.addBlockedNumber
-import org.fossify.commons.extensions.isPhoneNumber
 import org.fossify.commons.extensions.showErrorToast
 import java.io.File
 
@@ -16,18 +14,20 @@ class BlockedNumbersImporter(
 
     fun importBlockedNumbers(path: String): ImportResult {
         return try {
-            val inputStream = File(path).inputStream()
-            val numbers = inputStream.bufferedReader().use {
-                val content = it.readText().trimEnd().split(BLOCKED_NUMBERS_EXPORT_DELIMITER)
-                content.filter { text -> text.isPhoneNumber() }
-            }
-            if (numbers.isNotEmpty()) {
-                numbers.forEach { number ->
-                    activity.addBlockedNumber(number)
+            val numbers = File(path)
+                .bufferedReader()
+                .use { reader ->
+                    reader.readText()
+                        .split(BLOCKED_NUMBERS_EXPORT_DELIMITER)
+                        .map { it.trim() }
+                        .filter { it.isNotEmpty() }
                 }
-                ImportResult.IMPORT_OK
-            } else {
+
+            if (numbers.isEmpty()) {
                 ImportResult.IMPORT_FAIL
+            } else {
+                numbers.forEach(activity::addBlockedNumber)
+                ImportResult.IMPORT_OK
             }
 
         } catch (e: Exception) {
