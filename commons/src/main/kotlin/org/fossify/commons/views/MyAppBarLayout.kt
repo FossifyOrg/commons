@@ -9,6 +9,7 @@ import androidx.core.view.WindowInsetsCompat.Type
 import com.google.android.material.appbar.AppBarLayout
 import com.google.android.material.appbar.MaterialToolbar
 import org.fossify.commons.R
+import org.fossify.commons.extensions.applyFontToViewRecursively
 import org.fossify.commons.extensions.updatePaddingWithBase
 
 open class MyAppBarLayout @JvmOverloads constructor(
@@ -58,6 +59,7 @@ open class MyAppBarLayout @JvmOverloads constructor(
     override fun onAttachedToWindow() {
         super.onAttachedToWindow()
         ViewCompat.requestApplyInsets(this)
+        applyFontToToolbar()
     }
 
     override fun onViewAdded(child: View) {
@@ -83,4 +85,11 @@ open class MyAppBarLayout @JvmOverloads constructor(
 
     fun requireToolbar(): MaterialToolbar =
         toolbar ?: error("MyAppBarLayout requires a Toolbar/MaterialToolbar child")
+
+    fun applyFontToToolbar() {
+        if (isInEditMode) return
+        if (toolbar != null) {
+            context.applyFontToViewRecursively(toolbar)
+        }
+    }
 }

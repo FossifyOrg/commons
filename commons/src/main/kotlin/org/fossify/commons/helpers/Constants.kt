@@ -201,6 +201,8 @@ const val LAST_UNLOCK_TIMESTAMP_MS = "last_unlock_timestamp_ms"
 const val UNLOCK_TIMEOUT_DURATION_MS = "unlock_timeout_duration_ms"
 const val SHOW_CHECKMARKS_ON_SWITCHES = "show_checkmarks_on_switches"
 const val FIRST_DAY_OF_WEEK = "first_day_of_week"
+const val CUSTOM_FONT_TYPE = "custom_font_type"
+const val CUSTOM_FONT_FILE_NAME = "custom_font_file_name"
 
 const val MAX_PASSWORD_RETRY_COUNT = 3
 const val DEFAULT_PASSWORD_COUNTDOWN = 5
@@ -355,6 +357,11 @@ const val FONT_SIZE_SMALL = 0
 const val FONT_SIZE_MEDIUM = 1
 const val FONT_SIZE_LARGE = 2
 const val FONT_SIZE_EXTRA_LARGE = 3
+
+// font types
+const val FONT_TYPE_SYSTEM_DEFAULT = 0
+const val FONT_TYPE_MONOSPACE = 1
+const val FONT_TYPE_CUSTOM = 2
 
 const val MONDAY_BIT = 1
 const val TUESDAY_BIT = 2

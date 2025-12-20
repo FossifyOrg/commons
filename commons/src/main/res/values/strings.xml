@@ -374,7 +374,7 @@
     <string name="use_default">Use default</string>
     <string name="default_color">Default</string>
     <string name="change_color">Change color</string>
-    <string name="theme">Theme</string>
+    <string name="theme">App theme</string>
     <string name="changing_color_description">Changing a color will make it switch to Custom theme</string>
     <string name="save">Save</string>
     <string name="discard">Discard</string>
@@ -382,7 +382,7 @@
     <string name="undo_changes_confirmation">Are you sure you want to undo your changes?</string>
     <string name="cannot_be_undone">This action cannot be undone.</string>
     <string name="save_before_closing">You have unsaved changes. Save before exit?</string>
-    <string name="apply_to_all_apps">Apply colors to all Fossify Apps</string>
+    <string name="apply_to_all_apps">Apply theme to all Fossify Apps</string>
     <string name="app_icon_color_warning">Caution: Certain launchers may not handle app icon customization correctly. If the icon disappears, attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
     <string name="global_theme_success">The current theme has been successfully applied to all Fossify apps. Any future changes to this theme will be synced automatically.</string>
@@ -697,10 +697,9 @@
     <string name="requires_fossify_thank_you">Requires Fossify Thank You</string>
     <string name="enables_more_customization">Enables more customization</string>
     <string name="general_settings">General</string>
-    <string name="color_customization">Color customization</string>
-    <string name="improved_color_customization">Improved color customization</string>
-    <string name="customize_colors">Customize colors</string>
-    <string name="theme_and_colors">Theme and colors</string>
+    <string name="color_customization">Look &amp; feel</string>
+    <string name="customize_colors">Customize appearance</string>
+    <string name="theme_and_colors">Theme &amp; colors</string>
     <string name="feature_locked">Locked</string>
     <string name="customize_widget_colors">Customize widget colors</string>
     <string name="customize_notifications">Customize notifications</string>
@@ -709,6 +708,12 @@
     <string name="language">Language</string>
     <string name="show_hidden_items">Show hidden items</string>
     <string name="font_size">Font size</string>
+    <string name="font">Font</string>
+    <string name="app_font">App font</string>
+    <string name="font_system_default">System default</string>
+    <string name="font_monospace">Monospace</string>
+    <string name="select_font_file">Select font file…</string>
+    <string name="invalid_font_file">Invalid font file</string>
     <string name="small">Small</string>
     <string name="medium">Medium</string>
     <string name="large">Large</string>

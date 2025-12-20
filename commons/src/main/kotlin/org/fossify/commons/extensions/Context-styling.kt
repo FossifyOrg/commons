@@ -105,7 +105,11 @@ fun Context.getDatePickerDialogTheme() = when {
 
 fun Context.getPopupMenuTheme(): Int {
     return if (isDynamicTheme()) {
-        R.style.AppTheme_YouPopupMenuStyle
+        if (isSystemInDarkMode()) {
+            R.style.AppTheme_YouPopupMenuStyle
+        } else {
+            R.style.AppTheme_YouPopupMenuStyle_Light
+        }
     } else if (isWhiteTheme()) {
         R.style.AppTheme_PopupMenuLightStyle
     } else {
@@ -126,6 +130,19 @@ fun Context.syncGlobalConfig(callback: (() -> Unit)? = null) {
                         backgroundColor = it.backgroundColor
                         primaryColor = it.primaryColor
                         accentColor = it.accentColor
+
+                        if (it.fontType >= 0 && (fontType != it.fontType || fontName != it.fontName)) {
+                            fontType = it.fontType
+                            fontName = it.fontName
+                            if (it.fontType == FONT_TYPE_CUSTOM && it.fontData != null) {
+                                FontHelper.saveFontData(
+                                    context = this@syncGlobalConfig,
+                                    fontData = it.fontData,
+                                    fileName = it.fontName
+                                )
+                            }
+                            FontHelper.clearCache()
+                        }
 
                         if (baseConfig.appIconColor != it.appIconColor) {
                             baseConfig.appIconColor = it.appIconColor
@@ -168,9 +185,12 @@ fun Context.getGlobalConfig(cursorLoader: CursorLoader): GlobalConfig? {
                     accentColor = cursor.getIntValue(MyContentProvider.COL_ACCENT_COLOR),
                     appIconColor = cursor.getIntValue(MyContentProvider.COL_APP_ICON_COLOR),
                     showCheckmarksOnSwitches = cursor.getIntValue(MyContentProvider.COL_SHOW_CHECKMARKS_ON_SWITCHES) != 0,
-                    lastUpdatedTS = cursor.getIntValue(MyContentProvider.COL_LAST_UPDATED_TS)
+                    lastUpdatedTS = cursor.getIntValue(MyContentProvider.COL_LAST_UPDATED_TS),
+                    fontType = cursor.getIntValueOr(MyContentProvider.COL_FONT_TYPE, -1),
+                    fontName = cursor.getStringValueOr(MyContentProvider.COL_FONT_NAME, ""),
+                    fontData = cursor.getBlobValueOrNull(MyContentProvider.COL_FONT_DATA)
                 )
-            } catch (e: Exception) {
+            } catch (_: Exception) {
             }
         }
     }

@@ -6,15 +6,28 @@ import android.util.AttributeSet
 import com.google.android.material.textfield.TextInputLayout
 import org.fossify.commons.extensions.adjustAlpha
 import org.fossify.commons.extensions.value
+import org.fossify.commons.helpers.FontHelper
 import org.fossify.commons.helpers.HIGHER_ALPHA
 import org.fossify.commons.helpers.MEDIUM_ALPHA
 
 open class MyTextInputLayout : TextInputLayout {
-    constructor(context: Context) : super(context)
+    constructor(context: Context) : super(context) {
+        applyCustomFont()
+    }
 
-    constructor(context: Context, attrs: AttributeSet) : super(context, attrs)
+    constructor(context: Context, attrs: AttributeSet) : super(context, attrs) {
+        applyCustomFont()
+    }
 
-    constructor(context: Context, attrs: AttributeSet, defStyle: Int) : super(context, attrs, defStyle)
+    constructor(context: Context, attrs: AttributeSet, defStyle: Int) : super(context, attrs, defStyle) {
+        applyCustomFont()
+    }
+
+    private fun applyCustomFont() {
+        if (isInEditMode) return
+        val customTypeface = FontHelper.getTypeface(context)
+        typeface = customTypeface
+    }
 
     // we need to use reflection to make some colors work well
     fun setColors(textColor: Int, accentColor: Int, backgroundColor: Int) {

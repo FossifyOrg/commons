@@ -37,6 +37,7 @@ import androidx.biometric.BiometricPrompt
 import androidx.biometric.auth.AuthPromptCallback
 import androidx.biometric.auth.AuthPromptHost
 import androidx.biometric.auth.Class2BiometricAuthPrompt
+import androidx.core.net.toUri
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.FragmentActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
@@ -90,7 +91,6 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.io.OutputStream
 import java.util.TreeSet
-import androidx.core.net.toUri
 
 fun Activity.appLaunched(appId: String) {
     baseConfig.internalStoragePath = getInternalStoragePath()
@@ -1557,9 +1557,20 @@ fun Activity.setupDialogStuff(
             if (!isFinishing) {
                 show()
             }
-            getButton(Dialog.BUTTON_POSITIVE)?.setTextColor(primaryColor)
-            getButton(Dialog.BUTTON_NEGATIVE)?.setTextColor(primaryColor)
-            getButton(Dialog.BUTTON_NEUTRAL)?.setTextColor(primaryColor)
+            getButton(Dialog.BUTTON_POSITIVE)?.apply {
+                setTextColor(primaryColor)
+                applyFontToTextView(this)
+            }
+            getButton(Dialog.BUTTON_NEGATIVE)?.apply {
+                setTextColor(primaryColor)
+                applyFontToTextView(this)
+            }
+            getButton(Dialog.BUTTON_NEUTRAL)?.apply {
+                setTextColor(primaryColor)
+                applyFontToTextView(this)
+            }
+
+            applyFontToViewRecursively(view)
             callback?.invoke(this)
         }
     } else {
@@ -1573,6 +1584,7 @@ fun Activity.setupDialogStuff(
                     setText(titleId)
                 }
                 setTextColor(textColor)
+                applyFontToTextView(this)
             }
         }
 
@@ -1591,9 +1603,20 @@ fun Activity.setupDialogStuff(
             if (!isFinishing) {
                 show()
             }
-            getButton(AlertDialog.BUTTON_POSITIVE).setTextColor(dialogButtonColor)
-            getButton(AlertDialog.BUTTON_NEGATIVE).setTextColor(dialogButtonColor)
-            getButton(AlertDialog.BUTTON_NEUTRAL).setTextColor(dialogButtonColor)
+            getButton(AlertDialog.BUTTON_POSITIVE)?.apply {
+                setTextColor(dialogButtonColor)
+                applyFontToTextView(this)
+            }
+            getButton(AlertDialog.BUTTON_NEGATIVE)?.apply {
+                setTextColor(dialogButtonColor)
+                applyFontToTextView(this)
+            }
+            getButton(AlertDialog.BUTTON_NEUTRAL)?.apply {
+                setTextColor(dialogButtonColor)
+                applyFontToTextView(this)
+            }
+
+            applyFontToViewRecursively(view)
 
             val bgDrawable = when {
                 isBlackAndWhiteTheme() -> resources.getDrawable(R.drawable.black_dialog_background, theme)
