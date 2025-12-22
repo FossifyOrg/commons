@@ -962,4 +962,8 @@
     <string name="features_locked">Αυτή η λειτουργία είναι κλειδωμένη, αγοράστε το &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; που ξεκλειδώνει ολόκληρη την εφαρμογή.&lt;br&gt;&lt;br&gt;Πρόκειται για μια εφάπαξ πληρωμή και εάν δεν είστε ικανοποιημένοι, μπορούμε να σας επιστρέψουμε τα χρήματά σας.</string>
     <string name="enables_more_customization">Ενεργοποιεί περισσότερη προσαρμογή</string>
     <string name="badge_deprecated">(απαρχαιωμένο)</string>
+    <string name="platforms">Πλατφόρμες</string>
+    <string name="little_to_no_fee">Μικρή έως καθόλου χρέωση</string>
+    <string name="fee_up_to_pct">Μέχρι %1$d%% χρέωση</string>
+    <string name="cryptocurrency">Κρυπτονομίσματα</string>
 </resources>
