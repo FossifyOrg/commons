@@ -6,8 +6,8 @@
     <string name="nothing">Không có gì</string>
     <string name="later">Sau</string>
     <string name="save_as">Lưu thành</string>
-    <string name="file_saved">Đã lưu file thành công</string>
-    <string name="invalid_file_format">Định dạng file không hợp lệ</string>
+    <string name="file_saved">Đã lưu tệp thành công</string>
+    <string name="invalid_file_format">Định dạng tệp không hợp lệ</string>
     <string name="out_of_memory_error">Lỗi bộ nhớ</string>
     <string name="an_error_occurred">Xảy ra lỗi: %s</string>
     <string name="open_with">Mở bằng</string>
@@ -62,7 +62,7 @@
     <string name="choose_photo">Chọn hình ảnh</string>
     <string name="choose_video">Chọn video</string>
     <string name="choose_contact">Chọn liên hệ</string>
-    <string name="choose_file">Chọn file</string>
+    <string name="choose_file">Chọn tệp</string>
     <string name="record_audio">Ghi âm</string>
     <string name="record_video">Quay video</string>
     <string name="updating">Đang cập nhật…</string>
@@ -124,9 +124,9 @@
     <string name="search_groups">Tìm nhóm</string>
     <string name="search_history">Tìm kiếm lịch sử</string>
     <string name="search_calls">Tìm kiếm cuộc gọi</string>
-    <string name="search_files">Tìm kiếm file</string>
+    <string name="search_files">Tìm kiếm tệp</string>
     <string name="search_folders">Tìm kiếm thư mục</string>
-    <string name="search_files_and_folders">Tìm kiếm file và thư mục</string>
+    <string name="search_files_and_folders">Tìm kiếm tệp và thư mục</string>
     <string name="search_playlists">Tìm kiếm danh sách phát</string>
     <string name="search_artists">Tìm kiếm nghệ sĩ</string>
     <string name="search_albums">Tìm kiếm album</string>
@@ -156,30 +156,30 @@
     <string name="allow_location_permission">Bạn cần phải cho phép ứng dụng truy cập vị trí của bạn, nếu không ứng dụng sẽ không biết được vị trí của bạn.</string>
     <string name="grant_permission">Cấp quyền</string>
     <string name="permission_required">Yêu cầu quyền</string>
-    <string name="rename_file">Đổi tên file</string>
+    <string name="rename_file">Đổi tên tệp</string>
     <string name="rename_folder">Đổi tên thư mục</string>
-    <string name="rename_file_error">Không thể đổi tên file</string>
+    <string name="rename_file_error">Không thể đổi tên tệp</string>
     <string name="rename_folder_error">Không thể đổi tên thư mục</string>
     <string name="rename_folder_empty">Tên thư mục không được để trống</string>
     <string name="rename_folder_exists">Trùng tên thư mục khác</string>
     <string name="rename_folder_root">Không thể đổi tên thư mục thiết bị</string>
     <string name="rename_folder_ok">Đổi tên thư mục thành công</string>
     <string name="renaming_folder">Đổi tên thư mục</string>
-    <string name="filename_cannot_be_empty">Tên file không thể để trống</string>
-    <string name="filename_invalid_characters">Tên file chứa các ký tự không hợp lệ</string>
-    <string name="filename_invalid_characters_placeholder">Tên file \'%s\' chứa các ký tự không hợp lệ</string>
+    <string name="filename_cannot_be_empty">Tên tệp không thể để trống</string>
+    <string name="filename_invalid_characters">Tên tệp chứa các ký tự không hợp lệ</string>
+    <string name="filename_invalid_characters_placeholder">Tên tệp \'%s\' chứa các ký tự không hợp lệ</string>
     <string name="extension_cannot_be_empty">Phần mở rộng không thể để trống</string>
-    <string name="source_file_doesnt_exist">File nguồn %s không tồn tại</string>
-    <string name="prepend_filenames">Thêm vào đầu tên file</string>
-    <string name="append_filenames">Thêm vào cuối tên file</string>
+    <string name="source_file_doesnt_exist">Tệp gốc %s không tồn tại</string>
+    <string name="prepend_filenames">Thêm vào đầu tên tệp</string>
+    <string name="append_filenames">Thêm vào cuối tên tệp</string>
     <string name="simple_renaming">Đổi tên đơn giản</string>
     <string name="pattern_renaming">Mẫu</string>
     <string name="string_to_add">Chuỗi để thêm</string>
     <string name="rename_date_time_pattern">%Y - năm\n%M - tháng\n%D - ngày\n%h - giờ\n%m - phút\n%s - giây\n%i - số tăng từ 1</string>
-    <string name="filename_without_txt">Tên file (không có .txt)</string>
-    <string name="filename_without_json">Tên tập tin (không có .json)</string>
-    <string name="filename_without_zip">Tên tập tin (không có .zip)</string>
-    <string name="cannot_hide_files">Kể từ Android 11, bạn không thể ẩn tập tin và thư mục như thế được nữa</string>
+    <string name="filename_without_txt">Tên tệp (không có .txt)</string>
+    <string name="filename_without_json">Tên tệp (không có .json)</string>
+    <string name="filename_without_zip">Tên tệp (không có .zip)</string>
+    <string name="cannot_hide_files">Kể từ Android 11, bạn không thể ẩn tệp và thư mục như thế được nữa</string>
     <string name="copy">Sao chép</string>
     <string name="move">Chuyển</string>
     <string name="copy_move">Sao chép / Chuyển</string>
@@ -192,33 +192,33 @@
     <string name="invalid_destination">Không thể ghi vào nơi đã chọn</string>
     <string name="please_select_destination">Hãy chọn một nơi lưu</string>
     <string name="source_and_destination_same">Nguồn và đích không thể trùng nhau</string>
-    <string name="copy_failed">Không thể sao chép file</string>
+    <string name="copy_failed">Không thể sao chép tệp</string>
     <string name="copying">Đang sao chép... </string>
-    <string name="copying_success">Sao chép file thành công</string>
-    <string name="copying_success_one">Sao chép file thành công</string>
+    <string name="copying_success">Sao chép tệp thành công</string>
+    <string name="copying_success_one">Sao chép tệp thành công</string>
     <string name="copy_move_failed">Đã xảy ra lỗi</string>
     <string name="moving">Đang di chuyển…</string>
-    <string name="moving_success">Chuyển file thành công</string>
-    <string name="moving_success_one">Di chuyển file thành công</string>
-    <string name="moving_success_partial">Không thể chuyển một số file</string>
-    <string name="copying_success_partial">Không thể sao chép một số file</string>
-    <string name="no_files_selected">Chưa chọn file nào</string>
+    <string name="moving_success">Chuyển tệp thành công</string>
+    <string name="moving_success_one">Di chuyển tệp thành công</string>
+    <string name="moving_success_partial">Không thể chuyển một số tệp</string>
+    <string name="copying_success_partial">Không thể sao chép một số tệp</string>
+    <string name="no_files_selected">Chưa chọn tệp nào</string>
     <string name="saving">Đang lưu…</string>
     <string name="could_not_create_folder">Không thể tạo thư mục %s</string>
-    <string name="could_not_create_file">Không thể tạo file %s</string>
+    <string name="could_not_create_file">Không thể tạo tệp %s</string>
     <string name="no_new_items">Không tìm thấy mục mới nào</string>
     <string name="no_space">Đích đến không đủ dung lượng khả dụng.\nCần %1$s, trống %2$s</string>
-    <string name="system_service_disabled">Dịch vụ hệ thống để chọn file và thư mục không khả dụng</string>
+    <string name="system_service_disabled">Dịch vụ hệ thống để chọn tệp và thư mục không khả dụng</string>
     <string name="create_new">Tạo mới</string>
     <string name="folder">Thư mục</string>
-    <string name="file">File</string>
+    <string name="file">Tệp</string>
     <string name="create_new_folder">Tạo thư mục mới</string>
-    <string name="name_taken">Đã tồn tại file hoặc thư mục cùng tên</string>
+    <string name="name_taken">Đã tồn tại tệp hoặc thư mục cùng tên</string>
     <string name="invalid_name">Tên chứa các ký tự không hợp lệ</string>
     <string name="empty_name">Vui lòng nhập tên</string>
     <string name="unknown_error_occurred">Xảy ra lỗi không xác định</string>
-    <string name="file_already_exists">File \"%s\" đã tồn tại</string>
-    <string name="file_already_exists_overwrite">File \"%s\" đã tồn tại. Ghi đè?</string>
+    <string name="file_already_exists">Tệp \"%s\" đã tồn tại</string>
+    <string name="file_already_exists_overwrite">Tệp \"%s\" đã tồn tại. Ghi đè?</string>
     <string name="folder_already_exists">Thư mục \"%s\" đã tồn tại</string>
     <string name="merge">Kết hợp</string>
     <string name="keep_both">Giữ cả hai</string>
@@ -232,7 +232,7 @@
     <string name="rename_internal_system_restriction">Không thể đổi tên thư mục trực tiếp trên bộ nhớ trong, chỉ các thư mục con</string>
     <string name="cannot_rename_folder">Không thể đổi tên thư mục này</string>
     <string name="select_folder">Chọn một thư mục</string>
-    <string name="select_file">Chọn một file</string>
+    <string name="select_file">Chọn một tệp</string>
     <string name="confirm_storage_access_title">Xác nhận truy cập bộ nhớ ngoài</string>
     <string name="confirm_folder_access_title">Xác nhận quyền truy cập thư mục</string>
     <string name="confirm_storage_access_text">Để cấp quyền truy cập ghi, hãy chọn thư mục trên cùng của thẻ SD trên màn hình tiếp theo</string>
@@ -242,7 +242,7 @@
     <string name="confirm_create_doc_for_new_folder_text">Vui lòng nhấn \'<b>Lưu</b>\' ở dưới cùng của màn hình tiếp theo để tạo thư mục mới.</string>
     <string name="confirm_selection">Xác nhận lựa chọn</string>
     <string name="loading">Đang tải…</string>
-    <string name="access_storage_prompt">Hãy cấp quyền để ứng dụng có thể truy cập mọi tập tin của bạn.</string>
+    <string name="access_storage_prompt">Hãy cấp quyền để ứng dụng có thể truy cập mọi tệp của bạn.</string>
     <string name="select_storage">Chọn nơi lưu trữ</string>
     <string name="storage">Bộ nhớ</string>
     <string name="internal">Điện thoại</string>
@@ -257,7 +257,7 @@
     <string name="path">Đường dẫn</string>
     <string name="items_selected">Các mục đã chọn</string>
     <string name="direct_children_count">Số lượng thư mục con</string>
-    <string name="files_count">Số lượng file</string>
+    <string name="files_count">Số lượng tệp</string>
     <string name="resolution">Độ phân giải</string>
     <string name="duration">Thời lượng</string>
     <string name="artist">Nghệ sĩ</string>
@@ -329,7 +329,7 @@
     <string name="add_number_to_contact">Thêm số để liên hệ</string>
     <string name="call_from_sim_1">Gọi từ SIM 1</string>
     <string name="call_from_sim_2">Gọi từ SIM 2</string>
-    <string name="toggle_filename">Ẩn/hiện tên file</string>
+    <string name="toggle_filename">Ẩn/hiện tên tệp</string>
     <string name="move_to_top">Di chuyển lên trên cùng</string>
     <string name="move_to_bottom">Di chuyển xuống dưới cùng</string>
     <string name="unpin_item">Bỏ ghim mục</string>
@@ -347,7 +347,7 @@
     <string name="date_taken">Ngày chụp</string>
     <string name="date_added">Ngày thêm</string>
     <string name="title">Tên</string>
-    <string name="filename">Tên file</string>
+    <string name="filename">Tên tệp</string>
     <string name="extension">Định dạng</string>
     <string name="random">Ngẫu nhiên</string>
     <string name="sort_randomly">Xếp ngẫu nhiên</string>
@@ -444,8 +444,8 @@
     <string name="extra_large">Khổng lồ</string>
     <string name="password_protect_hidden_items">Những mục ẩn</string>
     <string name="password_protect_whole_app">Toàn bộ ứng dụng</string>
-    <string name="password_protect_file_deletion">Xóa tập tin và di chuyển</string>
-    <string name="keep_last_modified">Giữ giá trị sửa đổi lần cuối tại các thao tác tập tin</string>
+    <string name="password_protect_file_deletion">Xóa tệp và di chuyển</string>
+    <string name="keep_last_modified">Giữ giá trị sửa đổi lần cuối tại các thao tác tệp</string>
     <string name="show_info_bubble">Hiển thị bong bóng thông tin tại các mục cuộn bằng cách kéo thanh cuộn</string>
     <string name="prevent_phone_from_sleeping">Ngăn điện thoại ngủ trong khi ứng dụng  đang hoạt động trước nền</string>
     <string name="skip_delete_confirmation">Bỏ qua bước xác nhận xóa</string>
@@ -471,7 +471,7 @@
     <string name="visibility">Hiển thị</string>
     <string name="security">Bảo mật</string>
     <string name="scrolling">Cuộn</string>
-    <string name="file_operations">Thao tác</string>
+    <string name="file_operations">Thao tác với tệp</string>
     <string name="recycle_bin">Thùng rác</string>
     <string name="saving_label">Đang lưu</string>
     <string name="startup">Khởi động</string>
@@ -495,18 +495,18 @@
     <string name="call_history_tab">Lịch sử gọi</string>
     <string name="groups_tab">Nhóm</string>
     <string name="last_used_tab">Cái được sử dụng cuối cùng</string>
-    <string name="restore_this_file">Khôi phục file này</string>
-    <string name="restore_selected_files">Khôi phục các file đã chọn</string>
-    <string name="restore_all_files">Khôi phục tất cả file</string>
+    <string name="restore_this_file">Khôi phục tệp này</string>
+    <string name="restore_selected_files">Khôi phục các tệp đã chọn</string>
+    <string name="restore_all_files">Khôi phục tất cả tệp</string>
     <string name="recycle_bin_emptied">Thùng rác đã được dọn sạch sẽ</string>
-    <string name="files_restored_successfully">File đã được khôi phục thành công</string>
-    <string name="empty_recycle_bin_confirmation">Bạn có chắc muốn xóa sạch Thùng rác? Các file sẽ bị mất vĩnh viễn.</string>
+    <string name="files_restored_successfully">Tệp đã được khôi phục thành công</string>
+    <string name="empty_recycle_bin_confirmation">Bạn có chắc muốn xóa sạch Thùng rác? Các tệp sẽ bị mất vĩnh viễn.</string>
     <string name="recycle_bin_empty">Thùng rác trống</string>
     <string name="moving_recycle_bin_items_disabled">Chuyển mục trong Thùng rác bị vô hiệu hóa, hãy dùng Khôi phục</string>
     <string name="show_the_recycle_bin">Hiện Thùng rác</string>
     <string name="hide_the_recycle_bin">Ẩn Thùng rác</string>
     <string name="open_the_recycle_bin">Mở Thùng rác</string>
-    <string name="skip_the_recycle_bin">Xóa file luôn, không cần cho vào Thùng rác</string>
+    <string name="skip_the_recycle_bin">Xóa tệp luôn, không cần cho vào Thùng rác</string>
     <string name="importing">Đang nhập… </string>
     <string name="exporting">Đang xuất… </string>
     <string name="importing_successful">Nhập thành công</string>
@@ -521,7 +521,7 @@
     <string name="backups">Sao lưu</string>
     <string name="enable_automatic_backups">Bật sao lưu tự động</string>
     <string name="manage_automatic_backups">Quản lý sao lưu tự động</string>
-    <string name="usb_detected">Hình như có một USB được gắn vào thiết bị của bạn. Để đảm bảo các file của nó xuất hiện, bạn cần cấp quyền bổ sung.</string>
+    <string name="usb_detected">Hình như có một USB được gắn vào thiết bị của bạn. Để đảm bảo các tệp của nó xuất hiện, bạn cần cấp quyền bổ sung.</string>
     <string name="confirm_usb_storage_access_text">Vui lòng chọn thư mục trên cùng của thiết bị USB trong màn hình tiếp theo</string>
     <string name="wrong_root_selected_usb">Đã chọn sai thư mục, vui lòng chọn thư mục gốc của thiết bị USB của bạn</string>
     <string name="january">Tháng Một</string>
@@ -585,27 +585,9 @@
 \ncó vẻ như bạn mới nâng cấp từ phiên bản miễn phí. Một khi bạn đã hài lòng với ứng dụng này và có lẽ cũng đã di chuyển dữ liệu qua, bạn có thể gỡ cài đặt phiên bản miễn phí để tránh việc mở nó lên, vì bạn không còn cần nó nữa. Việc đó cũng sẽ ngăn hộp thoại này xuất hiện.
 \n
 \nCám ơn!</string>
-    <string name="upgraded_from_free_calendar">Xin chào,
-\n
-\ncó vẻ như bạn vừa mới nâng cấp lên từ phiên bản miễn phí. Nếu như bạn muốn di chuyển các sự kiện được lưu trữ nội bộ của bạn qua, bạn phải làm việc đó một cách thủ công bằng cách xuất chúng sang một tập tin .ics trong phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng.
-\n
-\nMột khi bạn hài lòng với các thiết lập của mình ở bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc đó cũng sẽ ngăn hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
-    <string name="upgraded_from_free_contacts">Xin chào,
-\n
-\ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn có bất kỳ liên hệ vào được lưu trữ dưới \"%s\", bạn cần phải di chuyển chúng thủ công bằng cách xuất sang tập tin .vcf từ phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng.
-\n
-\nSau khi bạn hài lòng với thiết lập của mình tại phiên bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc này cũng sẽ ngăn cho hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
-    <string name="upgraded_from_free_notes">Xin chào,
-\n
-\ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn muốn di chuyển ghi chú qua, bạn cần phải làm thủ công bằng cách xuất chúng thành một tập tin trong phiên bản miễn phí và nhập chúng tại đây thông qua menu trên cùng.
-\n
-\nSau khi bạn hài lòng với thiết lập của mình, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần đến nó nữa, việc đó cũng sẽ ngăn cho hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
+    <string name="upgraded_from_free_calendar">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp lên từ phiên bản miễn phí. Nếu như bạn muốn di chuyển các sự kiện được lưu trữ nội bộ của bạn qua, bạn phải làm việc đó một cách thủ công bằng cách xuất chúng sang một tệp .ics trong phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng. \n \nMột khi bạn hài lòng với các thiết lập của mình ở bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc đó cũng sẽ ngăn hộp thoại này xuất hiện. \n \nCám ơn!</string>
+    <string name="upgraded_from_free_contacts">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn có bất kỳ liên hệ vào được lưu trữ dưới \"%s\", bạn cần phải di chuyển chúng thủ công bằng cách xuất sang tệp .vcf từ phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng. \n \nSau khi bạn hài lòng với thiết lập của mình tại phiên bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc này cũng sẽ ngăn cho hộp thoại này xuất hiện. \n \nCám ơn!</string>
+    <string name="upgraded_from_free_notes">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn muốn di chuyển ghi chú qua, bạn cần phải làm thủ công bằng cách xuất chúng thành một tệp trong phiên bản miễn phí và nhập chúng tại đây thông qua menu trên cùng. \n \nSau khi bạn hài lòng với thiết lập của mình, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần đến nó nữa, việc đó cũng sẽ ngăn cho hộp thoại này xuất hiện. \n \nCám ơn!</string>
     <string name="about">Thông tin</string>
     <string name="website_label">Mã nguồn</string>
     <string name="email_label">Góp ý hoặc đề xuất</string>
@@ -794,12 +776,12 @@
     <string name="general_settings">Chung</string>
     <string name="notification_sound">Âm báo</string>
     <string name="website">Trang chủ</string>
-    <string name="files_tab">File</string>
-    <string name="recent_files_tab">File gần đây</string>
+    <string name="files_tab">Tệp</string>
+    <string name="recent_files_tab">Tệp gần đây</string>
     <string name="usb">USB</string>
     <string name="donate">Ủng hộ</string>
     <string name="platforms">Nền tảng</string>
-    <string name="file_manager_short">File Manager</string>
+    <string name="file_manager_short">Quản lý Tệp</string>
     <string name="donate_to_fossify">Ủng hộ Fossify</string>
     <string name="contributors">Người đóng góp</string>
     <string name="translation">Biên dịch</string>
@@ -820,4 +802,9 @@
     <string name="cryptocurrency">Tiền điện tử</string>
     <string name="zip4j_title">Zip4j (nén &amp; giải nén ZIP)</string>
     <string name="app_icon_color_warning">Cẩn thận: Một số trình launcher có thể không xử lý đúng tùy chỉnh biểu tượng ứng dụng. Nếu biểu tượng biến mất, hãy thử khởi chạy ứng dụng thông qua Google Play hoặc tiện ích. Sau khi khởi chạy, hãy khôi phục màu biểu tượng màu xanh lá cây mặc định #106D1F. Trong trường hợp crash, có thể cần phải cài đặt lại ứng dụng.</string>
+    <plurals name="files_saved">
+        <item quantity="other">Đã lưu tệp thành công</item>
+    </plurals>
+    <string name="confirm_storage_access_restricted_text_not_found">Không tìm thấy ứng dụng quản lý tệp hệ thống.</string>
+    <string name="date_time_pattern_info">Bạn có thể sử dụng các mẫu sau để đặt tên tệp tự động.:\n\n%Y - năm\n%M - tháng\n%D - ngày\n%h - giờ\n%m - phút\n%s - giây</string>
 </resources>
