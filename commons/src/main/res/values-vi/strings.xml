@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="cancel">Hủy bỏ</string>
+    <string name="cancel">Hủy</string>
     <string name="close">Đóng</string>
     <string name="back">Quay lại</string>
     <string name="nothing">Không có gì</string>
@@ -17,8 +17,8 @@
     <string name="no_browser_found">Không tìm thấy trình duyệt</string>
     <string name="no_email_client_found">Không tìm thấy ứng dụng email</string>
     <string name="set_as">Đặt làm</string>
-    <string name="copy_to_clipboard">Sao chép vào bộ nhớ tạm</string>
-    <string name="copy_number_to_clipboard">Sao chép số vào bộ nhớ tạm</string>
+    <string name="copy_to_clipboard">Sao chép vào clipboard</string>
+    <string name="copy_number_to_clipboard">Sao chép số vào clipboard</string>
     <string name="value_copied_to_clipboard">Đã sao chép giá trị</string>
     <string name="value_copied_to_clipboard_show">Đã sao chép giá trị:\n%s</string>
     <string name="dial_number">Quay số</string>
@@ -168,7 +168,7 @@
     <string name="filename_cannot_be_empty">Tên tệp không thể để trống</string>
     <string name="filename_invalid_characters">Tên tệp chứa các ký tự không hợp lệ</string>
     <string name="filename_invalid_characters_placeholder">Tên tệp \'%s\' chứa các ký tự không hợp lệ</string>
-    <string name="extension_cannot_be_empty">Phần mở rộng không thể để trống</string>
+    <string name="extension_cannot_be_empty">Không thể để trống định dạng</string>
     <string name="source_file_doesnt_exist">Tệp gốc %s không tồn tại</string>
     <string name="prepend_filenames">Thêm vào đầu tên tệp</string>
     <string name="append_filenames">Thêm vào cuối tên tệp</string>
@@ -302,7 +302,7 @@
     <string name="shared">Đã chia sẻ</string>
     <string name="whats_new">Có gì mới</string>
     <string name="whats_new_disclaimer">* chỉ các bản cập nhật lớn được liệt kê ở đây, luôn luôn cũng có một số cải tiến nhỏ</string>
-    <string name="delete">Xóa bỏ</string>
+    <string name="delete">Xóa</string>
     <string name="remove">Xóa</string>
     <string name="rename">Đổi tên</string>
     <string name="share">Chia sẻ</string>
@@ -396,7 +396,7 @@
     <string name="lock_folder">Khóa thư mục</string>
     <string name="lock_folder_pro">Khóa thư mục (Pro)</string>
     <string name="unlock_folder">Mở khóa thư mục</string>
-    <string name="lock_folder_notice">Chỉ hoạt động trong ứng dụng này, không thay thế mã hóa thư mục toàn hệ thống thực sự.</string>
+    <string name="lock_folder_notice">Chỉ hoạt động trong ứng dụng này, không thật sự thay thế mã hóa thư mục trên toàn hệ thống.</string>
     <string name="empty_password_new">Vui lòng nhập mật khẩu</string>
     <string name="empty_password">Vui lòng nhập mật khẩu</string>
     <string name="invalid_password">Mật khẩu sai</string>
@@ -457,7 +457,7 @@
     <string name="use_same_snooze">Luôn luôn sử dụng cùng thời gian báo lại</string>
     <string name="snooze_time">Thời gian báo lại</string>
     <string name="vibrate_on_button_press">Rung khi nhấn nút</string>
-    <string name="move_items_into_recycle_bin">Chuyển các mục vào Thùng rác thay vì xóa</string>
+    <string name="move_items_into_recycle_bin">Chuyển các mục vào Thùng rác khi xóa</string>
     <string name="recycle_bin_cleaning_interval">Tự động xóa sạch thùng rác</string>
     <string name="empty_recycle_bin">Xóa sạch thùng rác</string>
     <string name="force_portrait_mode">Buộc chế độ dọc</string>
@@ -480,15 +480,15 @@
     <string name="quality">Chất lượng</string>
     <string name="main_screen">Màn hình chính</string>
     <string name="thumbnails">Hình thu nhỏ</string>
-    <string name="exclude">Ngoại trừ</string>
-    <string name="exclude_folder">Ngoại trừ thư mục</string>
-    <string name="excluded_folders">Các thư mục được ngoại trừ</string>
-    <string name="excluded">(ngoại trừ)</string>
-    <string name="manage_excluded_folders">Quản lý các thư mục ngoại trừ</string>
+    <string name="exclude">Bỏ qua</string>
+    <string name="exclude_folder">Thư mục bỏ qua</string>
+    <string name="excluded_folders">Các thư mục bỏ qua</string>
+    <string name="excluded">(bỏ qua)</string>
+    <string name="manage_excluded_folders">Quản lý các thư mục bỏ qua</string>
     <string name="remove_all">Xóa tất cả</string>
-    <string name="remove_all_description">Xóa tất cả thư mục khỏi danh sách ngoại trừ? Điều này sẽ không xóa các thư mục.</string>
-    <string name="temporarily_show_excluded">Hiển thị mục ngoại trừ</string>
-    <string name="stop_showing_excluded">Ẩn lại mục bị ngoại trừ</string>
+    <string name="remove_all_description">Gỡ tất cả thư mục khỏi danh sách bỏ qua? Điều này sẽ không xóa các thư mục.</string>
+    <string name="temporarily_show_excluded">Hiện những mục bỏ qua</string>
+    <string name="stop_showing_excluded">Ẩn lại mục bỏ qua</string>
     <string name="manage_shown_tabs">Tab</string>
     <string name="default_tab_to_open">Tab mặc định</string>
     <string name="favorites_tab">Yêu thích</string>
@@ -734,7 +734,7 @@
     <string name="development">Lập trình</string>
     <string name="other_help">Hỗ trợ khác</string>
     <string name="welcome_to_app_name">Chào mừng đến với %s!</string>
-    <string name="ok">OK</string>
+    <string name="ok">Đồng ý</string>
     <string name="next">Kế tiếp</string>
     <string name="album">Album</string>
     <string name="auto_theme">Tự động</string>
@@ -830,4 +830,5 @@
     <string name="requires_fossify_thank_you">Cần mua Fossify Thank You trước</string>
     <string name="apply_to_all_apps">Áp dụng màu cho tất cả app Fossify</string>
     <string name="enables_more_customization">Cho phép tùy chỉnh nhiều hơn</string>
+    <string name="number_of_items">Số lượng mục</string>
 </resources>
