@@ -49,7 +49,7 @@
     <string name="no_phone_call_permission">Приложението няма разрешение за извършване на телефонни обаждания, дайте го от настройките на устройството</string>
     <string name="insert_text_here">Вмъкване на текст тук</string>
     <string name="call_person">Позвъняване на %s</string>
-    <string name="confirm_calling_person">Потвърдете позвъняване на %s</string>
+    <string name="confirm_calling_person">Потвърдете разговор с\n%s</string>
     <string name="zero">Нула</string>
     <string name="one">Едно</string>
     <string name="two">Две</string>

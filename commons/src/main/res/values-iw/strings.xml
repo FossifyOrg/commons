@@ -1091,4 +1091,6 @@
     </plurals>
     <string name="enables_more_customization">מאפשר התאמה אישית רחבה יותר</string>
     <string name="translation_latvian">לטבית</string>
+    <string name="badge_deprecated">(הוצא משימוש)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>

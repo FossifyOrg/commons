@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="cancel">Hủy bỏ</string>
+    <string name="cancel">Hủy</string>
     <string name="close">Đóng</string>
     <string name="back">Quay lại</string>
     <string name="nothing">Không có gì</string>
     <string name="later">Sau</string>
     <string name="save_as">Lưu thành</string>
-    <string name="file_saved">Đã lưu file thành công</string>
-    <string name="invalid_file_format">Định dạng file không hợp lệ</string>
+    <string name="file_saved">Đã lưu tệp thành công</string>
+    <string name="invalid_file_format">Định dạng tệp không hợp lệ</string>
     <string name="out_of_memory_error">Lỗi bộ nhớ</string>
     <string name="an_error_occurred">Xảy ra lỗi: %s</string>
     <string name="open_with">Mở bằng</string>
@@ -17,8 +17,8 @@
     <string name="no_browser_found">Không tìm thấy trình duyệt</string>
     <string name="no_email_client_found">Không tìm thấy ứng dụng email</string>
     <string name="set_as">Đặt làm</string>
-    <string name="copy_to_clipboard">Sao chép vào bộ nhớ tạm</string>
-    <string name="copy_number_to_clipboard">Sao chép số vào bộ nhớ tạm</string>
+    <string name="copy_to_clipboard">Sao chép vào clipboard</string>
+    <string name="copy_number_to_clipboard">Sao chép số vào clipboard</string>
     <string name="value_copied_to_clipboard">Đã sao chép giá trị</string>
     <string name="value_copied_to_clipboard_show">Đã sao chép giá trị:\n%s</string>
     <string name="dial_number">Quay số</string>
@@ -62,7 +62,7 @@
     <string name="choose_photo">Chọn hình ảnh</string>
     <string name="choose_video">Chọn video</string>
     <string name="choose_contact">Chọn liên hệ</string>
-    <string name="choose_file">Chọn file</string>
+    <string name="choose_file">Chọn tệp</string>
     <string name="record_audio">Ghi âm</string>
     <string name="record_video">Quay video</string>
     <string name="updating">Đang cập nhật…</string>
@@ -124,9 +124,9 @@
     <string name="search_groups">Tìm nhóm</string>
     <string name="search_history">Tìm kiếm lịch sử</string>
     <string name="search_calls">Tìm kiếm cuộc gọi</string>
-    <string name="search_files">Tìm kiếm file</string>
+    <string name="search_files">Tìm kiếm tệp</string>
     <string name="search_folders">Tìm kiếm thư mục</string>
-    <string name="search_files_and_folders">Tìm kiếm file và thư mục</string>
+    <string name="search_files_and_folders">Tìm kiếm tệp và thư mục</string>
     <string name="search_playlists">Tìm kiếm danh sách phát</string>
     <string name="search_artists">Tìm kiếm nghệ sĩ</string>
     <string name="search_albums">Tìm kiếm album</string>
@@ -156,30 +156,30 @@
     <string name="allow_location_permission">Bạn cần phải cho phép ứng dụng truy cập vị trí của bạn, nếu không ứng dụng sẽ không biết được vị trí của bạn.</string>
     <string name="grant_permission">Cấp quyền</string>
     <string name="permission_required">Yêu cầu quyền</string>
-    <string name="rename_file">Đổi tên file</string>
+    <string name="rename_file">Đổi tên tệp</string>
     <string name="rename_folder">Đổi tên thư mục</string>
-    <string name="rename_file_error">Không thể đổi tên file</string>
+    <string name="rename_file_error">Không thể đổi tên tệp</string>
     <string name="rename_folder_error">Không thể đổi tên thư mục</string>
     <string name="rename_folder_empty">Tên thư mục không được để trống</string>
     <string name="rename_folder_exists">Trùng tên thư mục khác</string>
     <string name="rename_folder_root">Không thể đổi tên thư mục thiết bị</string>
     <string name="rename_folder_ok">Đổi tên thư mục thành công</string>
     <string name="renaming_folder">Đổi tên thư mục</string>
-    <string name="filename_cannot_be_empty">Tên file không thể để trống</string>
-    <string name="filename_invalid_characters">Tên file chứa các ký tự không hợp lệ</string>
-    <string name="filename_invalid_characters_placeholder">Tên file \'%s\' chứa các ký tự không hợp lệ</string>
-    <string name="extension_cannot_be_empty">Phần mở rộng không thể để trống</string>
-    <string name="source_file_doesnt_exist">File nguồn %s không tồn tại</string>
-    <string name="prepend_filenames">Thêm vào đầu tên file</string>
-    <string name="append_filenames">Thêm vào cuối tên file</string>
+    <string name="filename_cannot_be_empty">Tên tệp không thể để trống</string>
+    <string name="filename_invalid_characters">Tên tệp chứa các ký tự không hợp lệ</string>
+    <string name="filename_invalid_characters_placeholder">Tên tệp \'%s\' chứa các ký tự không hợp lệ</string>
+    <string name="extension_cannot_be_empty">Không thể để trống định dạng</string>
+    <string name="source_file_doesnt_exist">Tệp gốc %s không tồn tại</string>
+    <string name="prepend_filenames">Thêm vào đầu tên tệp</string>
+    <string name="append_filenames">Thêm vào cuối tên tệp</string>
     <string name="simple_renaming">Đổi tên đơn giản</string>
     <string name="pattern_renaming">Mẫu</string>
     <string name="string_to_add">Chuỗi để thêm</string>
     <string name="rename_date_time_pattern">%Y - năm\n%M - tháng\n%D - ngày\n%h - giờ\n%m - phút\n%s - giây\n%i - số tăng từ 1</string>
-    <string name="filename_without_txt">Tên file (không có .txt)</string>
-    <string name="filename_without_json">Tên tập tin (không có .json)</string>
-    <string name="filename_without_zip">Tên tập tin (không có .zip)</string>
-    <string name="cannot_hide_files">Kể từ Android 11, bạn không thể ẩn tập tin và thư mục như thế được nữa</string>
+    <string name="filename_without_txt">Tên tệp (không có .txt)</string>
+    <string name="filename_without_json">Tên tệp (không có .json)</string>
+    <string name="filename_without_zip">Tên tệp (không có .zip)</string>
+    <string name="cannot_hide_files">Kể từ Android 11, bạn không thể ẩn tệp và thư mục như thế được nữa</string>
     <string name="copy">Sao chép</string>
     <string name="move">Chuyển</string>
     <string name="copy_move">Sao chép / Chuyển</string>
@@ -192,33 +192,33 @@
     <string name="invalid_destination">Không thể ghi vào nơi đã chọn</string>
     <string name="please_select_destination">Hãy chọn một nơi lưu</string>
     <string name="source_and_destination_same">Nguồn và đích không thể trùng nhau</string>
-    <string name="copy_failed">Không thể sao chép file</string>
+    <string name="copy_failed">Không thể sao chép tệp</string>
     <string name="copying">Đang sao chép... </string>
-    <string name="copying_success">Sao chép file thành công</string>
-    <string name="copying_success_one">Sao chép file thành công</string>
+    <string name="copying_success">Sao chép tệp thành công</string>
+    <string name="copying_success_one">Sao chép tệp thành công</string>
     <string name="copy_move_failed">Đã xảy ra lỗi</string>
     <string name="moving">Đang di chuyển…</string>
-    <string name="moving_success">Chuyển file thành công</string>
-    <string name="moving_success_one">Di chuyển file thành công</string>
-    <string name="moving_success_partial">Không thể chuyển một số file</string>
-    <string name="copying_success_partial">Không thể sao chép một số file</string>
-    <string name="no_files_selected">Chưa chọn file nào</string>
+    <string name="moving_success">Chuyển tệp thành công</string>
+    <string name="moving_success_one">Di chuyển tệp thành công</string>
+    <string name="moving_success_partial">Không thể chuyển một số tệp</string>
+    <string name="copying_success_partial">Không thể sao chép một số tệp</string>
+    <string name="no_files_selected">Chưa chọn tệp nào</string>
     <string name="saving">Đang lưu…</string>
     <string name="could_not_create_folder">Không thể tạo thư mục %s</string>
-    <string name="could_not_create_file">Không thể tạo file %s</string>
+    <string name="could_not_create_file">Không thể tạo tệp %s</string>
     <string name="no_new_items">Không tìm thấy mục mới nào</string>
     <string name="no_space">Đích đến không đủ dung lượng khả dụng.\nCần %1$s, trống %2$s</string>
-    <string name="system_service_disabled">Dịch vụ hệ thống để chọn file và thư mục không khả dụng</string>
+    <string name="system_service_disabled">Dịch vụ hệ thống để chọn tệp và thư mục không khả dụng</string>
     <string name="create_new">Tạo mới</string>
     <string name="folder">Thư mục</string>
-    <string name="file">File</string>
+    <string name="file">Tệp</string>
     <string name="create_new_folder">Tạo thư mục mới</string>
-    <string name="name_taken">Đã tồn tại file hoặc thư mục cùng tên</string>
+    <string name="name_taken">Đã tồn tại tệp hoặc thư mục cùng tên</string>
     <string name="invalid_name">Tên chứa các ký tự không hợp lệ</string>
     <string name="empty_name">Vui lòng nhập tên</string>
     <string name="unknown_error_occurred">Xảy ra lỗi không xác định</string>
-    <string name="file_already_exists">File \"%s\" đã tồn tại</string>
-    <string name="file_already_exists_overwrite">File \"%s\" đã tồn tại. Ghi đè?</string>
+    <string name="file_already_exists">Tệp \"%s\" đã tồn tại</string>
+    <string name="file_already_exists_overwrite">Tệp \"%s\" đã tồn tại. Ghi đè?</string>
     <string name="folder_already_exists">Thư mục \"%s\" đã tồn tại</string>
     <string name="merge">Kết hợp</string>
     <string name="keep_both">Giữ cả hai</string>
@@ -232,7 +232,7 @@
     <string name="rename_internal_system_restriction">Không thể đổi tên thư mục trực tiếp trên bộ nhớ trong, chỉ các thư mục con</string>
     <string name="cannot_rename_folder">Không thể đổi tên thư mục này</string>
     <string name="select_folder">Chọn một thư mục</string>
-    <string name="select_file">Chọn một file</string>
+    <string name="select_file">Chọn một tệp</string>
     <string name="confirm_storage_access_title">Xác nhận truy cập bộ nhớ ngoài</string>
     <string name="confirm_folder_access_title">Xác nhận quyền truy cập thư mục</string>
     <string name="confirm_storage_access_text">Để cấp quyền truy cập ghi, hãy chọn thư mục trên cùng của thẻ SD trên màn hình tiếp theo</string>
@@ -242,11 +242,11 @@
     <string name="confirm_create_doc_for_new_folder_text">Vui lòng nhấn \'<b>Lưu</b>\' ở dưới cùng của màn hình tiếp theo để tạo thư mục mới.</string>
     <string name="confirm_selection">Xác nhận lựa chọn</string>
     <string name="loading">Đang tải…</string>
-    <string name="access_storage_prompt">Hãy cấp quyền để ứng dụng có thể truy cập mọi tập tin của bạn.</string>
+    <string name="access_storage_prompt">Hãy cấp quyền để ứng dụng có thể truy cập mọi tệp của bạn.</string>
     <string name="select_storage">Chọn nơi lưu trữ</string>
     <string name="storage">Bộ nhớ</string>
-    <string name="internal">Điện thoại</string>
-    <string name="internal_storage">Điện thoại</string>
+    <string name="internal">Bộ nhớ trong</string>
+    <string name="internal_storage">Bộ nhớ trong</string>
     <string name="sd_card">Thẻ SD</string>
     <string name="wrong_root_selected">Đã chọn sai thư mục, vui lòng chọn thư mục gốc của thẻ SD của bạn</string>
     <string name="sd_card_usb_same">Đường dẫn thẻ SD và thiết bị USB không thể giống nhau</string>
@@ -257,7 +257,7 @@
     <string name="path">Đường dẫn</string>
     <string name="items_selected">Các mục đã chọn</string>
     <string name="direct_children_count">Số lượng thư mục con</string>
-    <string name="files_count">Số lượng file</string>
+    <string name="files_count">Số lượng tệp</string>
     <string name="resolution">Độ phân giải</string>
     <string name="duration">Thời lượng</string>
     <string name="artist">Nghệ sĩ</string>
@@ -275,9 +275,9 @@
     <string name="text_color">Màu chữ</string>
     <string name="primary_color">Màu chính</string>
     <string name="accent_color_white">Màu nhấn của chủ đề trắng</string>
-    <string name="accent_color_black_and_white">Màu nhấn của chủ đề Đen &amp; Trắng</string>
+    <string name="accent_color_black_and_white">Màu nhấn của chủ đề Trắng Đen</string>
     <string name="foreground_color">Màu chủ đề</string>
-    <string name="app_icon_color">Màu biểu tượng ứng dụng</string>
+    <string name="app_icon_color">Màu biểu tượng app</string>
     <string name="bottom_navigation_bar_color">Màu thanh điều hướng dưới</string>
     <string name="restore_defaults">Khôi phục mặc định</string>
     <string name="use_default">Mặc định</string>
@@ -291,18 +291,18 @@
     <string name="undo_changes_confirmation">Hoàn tác các thay đổi?</string>
     <string name="cannot_be_undone">Hành động này không thể hoàn tác.</string>
     <string name="save_before_closing">Bạn có các thay đổi chưa lưu. Lưu trước khi thoát?</string>
-    <string name="global_theme_success">Chủ đề hiện tại đã được áp dụng thành công cho tất cả các ứng dụng Fossify. Bất kỳ thay đổi nào trong tương lai đối với chủ đề này sẽ được đồng bộ hóa tự động.</string>
+    <string name="global_theme_success">Chủ đề hiện tại đã được áp dụng thành công cho tất cả các app Fossify. Bất kỳ thay đổi nào trong tương lai đối với chủ đề này sẽ được đồng bộ hóa tự động.</string>
     <string name="purchase_thank_you">Hãy mua ứng dụng &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!</string>
     <string name="light_theme">Sáng</string>
     <string name="dark_theme">Tối</string>
     <string name="auto_light_dark_theme">Tự động</string>
-    <string name="dark_red">Tối Đỏ</string>
-    <string name="black_white">Đen &amp; Trắng</string>
+    <string name="dark_red">Đỏ Đen</string>
+    <string name="black_white">Trắng Đen</string>
     <string name="custom">Tùy chỉnh</string>
     <string name="shared">Đã chia sẻ</string>
     <string name="whats_new">Có gì mới</string>
     <string name="whats_new_disclaimer">* chỉ các bản cập nhật lớn được liệt kê ở đây, luôn luôn cũng có một số cải tiến nhỏ</string>
-    <string name="delete">Xóa bỏ</string>
+    <string name="delete">Xóa</string>
     <string name="remove">Xóa</string>
     <string name="rename">Đổi tên</string>
     <string name="share">Chia sẻ</string>
@@ -314,8 +314,8 @@
     <string name="unhide">Bỏ ẩn</string>
     <string name="hide_folder">Ẩn thư mục</string>
     <string name="unhide_folder">Bỏ ẩn thư mục</string>
-    <string name="temporarily_show_hidden">Hiện những mục đã ẩn</string>
-    <string name="stop_showing_hidden">Ẩn lại mục đã ẩn</string>
+    <string name="temporarily_show_hidden">Hiện những mục ẩn</string>
+    <string name="stop_showing_hidden">Ẩn lại mục ẩn</string>
     <string name="allow_access_more_media">Cho phép truy cập nhiều hơn</string>
     <string name="maximum_share_reached">Bạn không thể chia sẻ nhiều nội dung cùng lúc</string>
     <string name="empty_and_disable_recycle_bin">Làm trống và tắt Thùng rác</string>
@@ -329,7 +329,7 @@
     <string name="add_number_to_contact">Thêm số để liên hệ</string>
     <string name="call_from_sim_1">Gọi từ SIM 1</string>
     <string name="call_from_sim_2">Gọi từ SIM 2</string>
-    <string name="toggle_filename">Ẩn/hiện tên file</string>
+    <string name="toggle_filename">Ẩn/hiện tên tệp</string>
     <string name="move_to_top">Di chuyển lên trên cùng</string>
     <string name="move_to_bottom">Di chuyển xuống dưới cùng</string>
     <string name="unpin_item">Bỏ ghim mục</string>
@@ -347,7 +347,7 @@
     <string name="date_taken">Ngày chụp</string>
     <string name="date_added">Ngày thêm</string>
     <string name="title">Tên</string>
-    <string name="filename">Tên file</string>
+    <string name="filename">Tên tệp</string>
     <string name="extension">Định dạng</string>
     <string name="random">Ngẫu nhiên</string>
     <string name="sort_randomly">Xếp ngẫu nhiên</string>
@@ -385,7 +385,7 @@
     <string name="fingerprint">Vân tay</string>
     <string name="add_fingerprint">Thêm dấu vân tay</string>
     <string name="place_finger">Vui lòng đặt ngón tay của bạn trên cảm biến vân tay</string>
-    <string name="open_biometric_dialog">Mở hộp thoại xác minh vân tay</string>
+    <string name="open_biometric_dialog">Mở xác minh vân tay</string>
     <string name="authenticate">Xác thực</string>
     <string name="authentication_failed">Quá trình xác thực đã thất bại</string>
     <string name="authentication_blocked">Xác thực bị chặn, vui lòng thử lại sau giây lát</string>
@@ -396,7 +396,7 @@
     <string name="lock_folder">Khóa thư mục</string>
     <string name="lock_folder_pro">Khóa thư mục (Pro)</string>
     <string name="unlock_folder">Mở khóa thư mục</string>
-    <string name="lock_folder_notice">Chỉ hoạt động trong ứng dụng này, không thay thế mã hóa thư mục toàn hệ thống thực sự.</string>
+    <string name="lock_folder_notice">Chỉ hoạt động trong ứng dụng này, không thật sự thay thế mã hóa thư mục trên toàn hệ thống.</string>
     <string name="empty_password_new">Vui lòng nhập mật khẩu</string>
     <string name="empty_password">Vui lòng nhập mật khẩu</string>
     <string name="invalid_password">Mật khẩu sai</string>
@@ -430,13 +430,13 @@
     <string name="settings">Cài đặt</string>
     <string name="color_customization">Cá nhân hóa</string>
     <string name="improved_color_customization">Cải thiện tùy chỉnh màu sắc</string>
-    <string name="customize_colors">Màu ứng dụng</string>
+    <string name="customize_colors">Tùy chỉnh màu</string>
     <string name="feature_locked">Đã khóa</string>
     <string name="customize_widget_colors">Tùy chỉnh màu widget</string>
     <string name="customize_notifications">Tùy chỉnh thông báo</string>
     <string name="use_english_language">Sử dụng tiếng Anh</string>
     <string name="language">Ngôn ngữ</string>
-    <string name="show_hidden_items">Hiện các mục ẩn</string>
+    <string name="show_hidden_items">Hiện những mục ẩn</string>
     <string name="font_size">Cỡ chữ</string>
     <string name="small">Nhỏ</string>
     <string name="medium">Trung bình</string>
@@ -444,8 +444,8 @@
     <string name="extra_large">Khổng lồ</string>
     <string name="password_protect_hidden_items">Những mục ẩn</string>
     <string name="password_protect_whole_app">Toàn bộ ứng dụng</string>
-    <string name="password_protect_file_deletion">Xóa tập tin và di chuyển</string>
-    <string name="keep_last_modified">Giữ giá trị sửa đổi lần cuối tại các thao tác tập tin</string>
+    <string name="password_protect_file_deletion">Xóa tệp và di chuyển</string>
+    <string name="keep_last_modified">Giữ giá trị sửa đổi lần cuối khi thao tác</string>
     <string name="show_info_bubble">Hiển thị bong bóng thông tin tại các mục cuộn bằng cách kéo thanh cuộn</string>
     <string name="prevent_phone_from_sleeping">Ngăn điện thoại ngủ trong khi ứng dụng  đang hoạt động trước nền</string>
     <string name="skip_delete_confirmation">Bỏ qua bước xác nhận xóa</string>
@@ -457,7 +457,7 @@
     <string name="use_same_snooze">Luôn luôn sử dụng cùng thời gian báo lại</string>
     <string name="snooze_time">Thời gian báo lại</string>
     <string name="vibrate_on_button_press">Rung khi nhấn nút</string>
-    <string name="move_items_into_recycle_bin">Chuyển các mục vào Thùng rác thay vì xóa</string>
+    <string name="move_items_into_recycle_bin">Chuyển các mục vào Thùng rác khi xóa</string>
     <string name="recycle_bin_cleaning_interval">Tự động xóa sạch thùng rác</string>
     <string name="empty_recycle_bin">Xóa sạch thùng rác</string>
     <string name="force_portrait_mode">Buộc chế độ dọc</string>
@@ -471,7 +471,7 @@
     <string name="visibility">Hiển thị</string>
     <string name="security">Bảo mật</string>
     <string name="scrolling">Cuộn</string>
-    <string name="file_operations">Thao tác</string>
+    <string name="file_operations">Thao tác với tệp</string>
     <string name="recycle_bin">Thùng rác</string>
     <string name="saving_label">Đang lưu</string>
     <string name="startup">Khởi động</string>
@@ -480,33 +480,33 @@
     <string name="quality">Chất lượng</string>
     <string name="main_screen">Màn hình chính</string>
     <string name="thumbnails">Hình thu nhỏ</string>
-    <string name="exclude">Ngoại trừ</string>
-    <string name="exclude_folder">Ngoại trừ thư mục</string>
-    <string name="excluded_folders">Các thư mục được ngoại trừ</string>
-    <string name="excluded">(ngoại trừ)</string>
-    <string name="manage_excluded_folders">Quản lý các thư mục ngoại trừ</string>
+    <string name="exclude">Bỏ qua</string>
+    <string name="exclude_folder">Thư mục bỏ qua</string>
+    <string name="excluded_folders">Các thư mục bỏ qua</string>
+    <string name="excluded">(bỏ qua)</string>
+    <string name="manage_excluded_folders">Quản lý các thư mục bỏ qua</string>
     <string name="remove_all">Xóa tất cả</string>
-    <string name="remove_all_description">Xóa tất cả thư mục khỏi danh sách ngoại trừ? Điều này sẽ không xóa các thư mục.</string>
-    <string name="temporarily_show_excluded">Hiển thị mục ngoại trừ</string>
-    <string name="stop_showing_excluded">Ẩn lại mục bị ngoại trừ</string>
+    <string name="remove_all_description">Gỡ tất cả thư mục khỏi danh sách bỏ qua? Điều này sẽ không xóa các thư mục.</string>
+    <string name="temporarily_show_excluded">Hiện những mục bỏ qua</string>
+    <string name="stop_showing_excluded">Ẩn lại mục bỏ qua</string>
     <string name="manage_shown_tabs">Tab</string>
     <string name="default_tab_to_open">Tab mặc định</string>
     <string name="favorites_tab">Yêu thích</string>
     <string name="call_history_tab">Lịch sử gọi</string>
     <string name="groups_tab">Nhóm</string>
     <string name="last_used_tab">Cái được sử dụng cuối cùng</string>
-    <string name="restore_this_file">Khôi phục file này</string>
-    <string name="restore_selected_files">Khôi phục các file đã chọn</string>
-    <string name="restore_all_files">Khôi phục tất cả file</string>
+    <string name="restore_this_file">Khôi phục tệp này</string>
+    <string name="restore_selected_files">Khôi phục các tệp đã chọn</string>
+    <string name="restore_all_files">Khôi phục tất cả tệp</string>
     <string name="recycle_bin_emptied">Thùng rác đã được dọn sạch sẽ</string>
-    <string name="files_restored_successfully">File đã được khôi phục thành công</string>
-    <string name="empty_recycle_bin_confirmation">Bạn có chắc muốn xóa sạch Thùng rác? Các file sẽ bị mất vĩnh viễn.</string>
+    <string name="files_restored_successfully">Tệp đã được khôi phục thành công</string>
+    <string name="empty_recycle_bin_confirmation">Bạn có chắc muốn xóa sạch Thùng rác? Các tệp sẽ bị mất vĩnh viễn.</string>
     <string name="recycle_bin_empty">Thùng rác trống</string>
     <string name="moving_recycle_bin_items_disabled">Chuyển mục trong Thùng rác bị vô hiệu hóa, hãy dùng Khôi phục</string>
     <string name="show_the_recycle_bin">Hiện Thùng rác</string>
     <string name="hide_the_recycle_bin">Ẩn Thùng rác</string>
     <string name="open_the_recycle_bin">Mở Thùng rác</string>
-    <string name="skip_the_recycle_bin">Xóa file luôn, không cần cho vào Thùng rác</string>
+    <string name="skip_the_recycle_bin">Xóa tệp luôn, không cần cho vào Thùng rác</string>
     <string name="importing">Đang nhập… </string>
     <string name="exporting">Đang xuất… </string>
     <string name="importing_successful">Nhập thành công</string>
@@ -521,7 +521,7 @@
     <string name="backups">Sao lưu</string>
     <string name="enable_automatic_backups">Bật sao lưu tự động</string>
     <string name="manage_automatic_backups">Quản lý sao lưu tự động</string>
-    <string name="usb_detected">Hình như có một USB được gắn vào thiết bị của bạn. Để đảm bảo các file của nó xuất hiện, bạn cần cấp quyền bổ sung.</string>
+    <string name="usb_detected">Hình như có một USB được gắn vào thiết bị của bạn. Để đảm bảo các tệp của nó xuất hiện, bạn cần cấp quyền bổ sung.</string>
     <string name="confirm_usb_storage_access_text">Vui lòng chọn thư mục trên cùng của thiết bị USB trong màn hình tiếp theo</string>
     <string name="wrong_root_selected_usb">Đã chọn sai thư mục, vui lòng chọn thư mục gốc của thiết bị USB của bạn</string>
     <string name="january">Tháng Một</string>
@@ -585,28 +585,10 @@
 \ncó vẻ như bạn mới nâng cấp từ phiên bản miễn phí. Một khi bạn đã hài lòng với ứng dụng này và có lẽ cũng đã di chuyển dữ liệu qua, bạn có thể gỡ cài đặt phiên bản miễn phí để tránh việc mở nó lên, vì bạn không còn cần nó nữa. Việc đó cũng sẽ ngăn hộp thoại này xuất hiện.
 \n
 \nCám ơn!</string>
-    <string name="upgraded_from_free_calendar">Xin chào,
-\n
-\ncó vẻ như bạn vừa mới nâng cấp lên từ phiên bản miễn phí. Nếu như bạn muốn di chuyển các sự kiện được lưu trữ nội bộ của bạn qua, bạn phải làm việc đó một cách thủ công bằng cách xuất chúng sang một tập tin .ics trong phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng.
-\n
-\nMột khi bạn hài lòng với các thiết lập của mình ở bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc đó cũng sẽ ngăn hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
-    <string name="upgraded_from_free_contacts">Xin chào,
-\n
-\ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn có bất kỳ liên hệ vào được lưu trữ dưới \"%s\", bạn cần phải di chuyển chúng thủ công bằng cách xuất sang tập tin .vcf từ phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng.
-\n
-\nSau khi bạn hài lòng với thiết lập của mình tại phiên bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc này cũng sẽ ngăn cho hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
-    <string name="upgraded_from_free_notes">Xin chào,
-\n
-\ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn muốn di chuyển ghi chú qua, bạn cần phải làm thủ công bằng cách xuất chúng thành một tập tin trong phiên bản miễn phí và nhập chúng tại đây thông qua menu trên cùng.
-\n
-\nSau khi bạn hài lòng với thiết lập của mình, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần đến nó nữa, việc đó cũng sẽ ngăn cho hộp thoại này xuất hiện.
-\n
-\nCám ơn!</string>
-    <string name="about">Thông tin</string>
+    <string name="upgraded_from_free_calendar">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp lên từ phiên bản miễn phí. Nếu như bạn muốn di chuyển các sự kiện được lưu trữ nội bộ của bạn qua, bạn phải làm việc đó một cách thủ công bằng cách xuất chúng sang một tệp .ics trong phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng. \n \nMột khi bạn hài lòng với các thiết lập của mình ở bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc đó cũng sẽ ngăn hộp thoại này xuất hiện. \n \nCám ơn!</string>
+    <string name="upgraded_from_free_contacts">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn có bất kỳ liên hệ vào được lưu trữ dưới \"%s\", bạn cần phải di chuyển chúng thủ công bằng cách xuất sang tệp .vcf từ phiên bản miễn phí và nhập chúng tại đây thông qua menu ở trên cùng. \n \nSau khi bạn hài lòng với thiết lập của mình tại phiên bản Pro, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần nó nữa, việc này cũng sẽ ngăn cho hộp thoại này xuất hiện. \n \nCám ơn!</string>
+    <string name="upgraded_from_free_notes">Xin chào, \n \ncó vẻ như bạn vừa mới nâng cấp từ phiên bản miễn phí. Nếu như bạn muốn di chuyển ghi chú qua, bạn cần phải làm thủ công bằng cách xuất chúng thành một tệp trong phiên bản miễn phí và nhập chúng tại đây thông qua menu trên cùng. \n \nSau khi bạn hài lòng với thiết lập của mình, bạn có thể gỡ cài đặt phiên bản miễn phí bởi bạn không còn cần đến nó nữa, việc đó cũng sẽ ngăn cho hộp thoại này xuất hiện. \n \nCám ơn!</string>
+    <string name="about">Giới thiệu</string>
     <string name="website_label">Mã nguồn</string>
     <string name="email_label">Góp ý hoặc đề xuất</string>
     <string name="upgrade_to_pro">Nâng cấp Pro</string>
@@ -625,10 +607,10 @@
         ]]>
     </string>
     <string name="purchase">Mua hàng</string>
-    <string name="before_asking_question_read_faq">Trước khi đặt câu hỏi, vui lòng kiểm tra cài đặt ứng dụng và đọc Câu hỏi thường gặp trước. Có thể giải pháp ở đó.</string>
+    <string name="before_asking_question_read_faq">Trước khi đặt câu hỏi, vui lòng kiểm tra cài đặt và đọc Câu hỏi thường gặp trước. Có thể giải pháp ở đó.</string>
     <string name="make_sure_latest">Hãy đảm bảo rằng bạn đang sử dụng phiên bản ứng dụng mới nhất.</string>
     <string name="read_it">Hãy đọc</string>
-    <string name="read_faq">Đọc Câu hỏi thường gặp(FAQ)</string>
+    <string name="read_faq">Đọc Câu hỏi thường gặp</string>
     <string name="new_app">
         <![CDATA[
             Này,<br><br>
@@ -646,19 +628,19 @@
         ]]>
     </string>
     <string name="frequently_asked_questions">Câu hỏi thường gặp</string>
-    <string name="before_asking_question">Trước khi bạn đặt câu hỏi, trước tiên hãy đọc</string>
+    <string name="before_asking_question">Trước khi bạn đặt câu hỏi, hãy đọc</string>
     <string name="faq_1_title_commons">Tại sao tôi không thấy widget ứng dụng này trong danh sách widget?</string>
     <string name="faq_1_text_commons">Có thể là do bạn đã di chuyển ứng dụng vào thẻ SD. Có một giới hạn hệ thống Android ẩn các widget ứng dụng đã cho trong trường hợp đó. Cách duy nhất là chuyển ứng dụng trở lại bộ nhớ điện thoại thông qua cài đặt thiết bị của bạn.</string>
     <string name="faq_2_title_commons">Tôi muốn ủng hộ nhưng không có tiền. Tôi có thể làm gì khác không?</string>
-    <string name="faq_3_title_commons">Tôi đã xóa nhầm một số file, làm cách nào để khôi phục chúng?</string>
-    <string name="faq_3_text_commons">Bạn không thể. Các file sẽ bị xóa ngay lập tức sau khi xác nhận, không có thùng rác nào có sẵn.</string>
+    <string name="faq_3_title_commons">Làm sao để khôi phục các tệp bị xóa nhầm?</string>
+    <string name="faq_3_text_commons">Bạn không thể. Các tệp sẽ bị xóa ngay lập tức sau khi xác nhận, không có sẵn thùng rác.</string>
     <string name="faq_4_title_commons">Tôi không thích màu của widget, tôi có thể thay đổi chúng không?</string>
     <string name="faq_4_text_commons">Được chứ, khi bạn kéo một widget trên màn hình chính, màn hình cấu hình widget sẽ xuất hiện. Bạn sẽ thấy các ô vuông màu ở góc dưới bên trái, chỉ cần nhấn chúng để chọn màu mới. Bạn cũng có thể sử dụng thanh trượt để điều chỉnh độ trong suốt.</string>
-    <string name="faq_5_title_commons">Tôi có thể khôi phục các file đã xóa?</string>
-    <string name="faq_5_text_commons">Nếu chúng thực sự bị xóa, bạn không thể. Tuy nhiên, có một Thùng rác được bật theo mặc định, nó sẽ khiến các file được di chuyển vào Thùng thay vì xóa chúng.</string>
-    <string name="faq_6_title_commons">Biểu tượng ứng dụng này biến mất. Tôi có thể làm gì?</string>
-    <string name="faq_7_title_commons">Tôi đã bị trừ tiền trong tài khoản ngân hàng nhưng không thể tải xuống ứng dụng. Tôi có thể làm gì?</string>
-    <string name="faq_7_text_commons">Thanh toán được xử lý hoàn toàn bởi Google, hệ thống của họ thỉnh thoảng bị trục trặc. Chỉ cần xóa bộ nhớ cache ứng dụng Google Play của bạn và khởi động lại thiết bị của bạn, sau đó thử tải xuống lại.</string>
+    <string name="faq_5_title_commons">Tôi có thể khôi phục các tệp đã xóa?</string>
+    <string name="faq_5_text_commons">Nếu chúng thực sự bị xóa, bạn không thể. Tuy nhiên, có một Thùng rác được bật theo mặc định, nó sẽ khiến các tệp được di chuyển vào Thùng thay vì xóa chúng.</string>
+    <string name="faq_6_title_commons">Làm sao khi biểu tượng ứng dụng biến mất?</string>
+    <string name="faq_7_title_commons">Làm sao khi đã bị trừ tiền trong tài khoản ngân hàng, nhưng không thể tải xuống ứng dụng?</string>
+    <string name="faq_7_text_commons">Thanh toán được xử lý hoàn toàn bởi Google, hệ thống của họ thỉnh thoảng bị trục trặc. Chỉ cần xóa bộ nhớ cache ứng dụng Google Play của bạn và khởi động lại thiết bị, sau đó thử tải xuống lại.</string>
     <string name="faq_8_title_commons">Tại sao tôi nên nâng cấp lên phiên bản Pro?</string>
     <string name="faq_8_text_commons">Vì phiên bản ứng dụng của bạn không còn được cập nhật, các lỗi bạn có thể phát hiện sẽ không bao giờ được sửa. Cũng sẽ không có chức năng mới được thêm vào. Bạn có thể mua phiên bản Pro trên Google Play với một khoản tiền nhỏ.
         Đó là thanh toán một lần, có nghĩa là một khi bạn mua nó, bạn sẽ không bao giờ phải mua lại. Ngay cả sau khi nhận được một thiết bị mới. Nếu bạn không thích phiên bản Pro, bạn có thể gỡ cài đặt trong vòng vài giờ và bạn sẽ tự động lấy lại tiền.
@@ -689,7 +671,7 @@
     <string name="deprecated_app">THÔNG BÁO: Phiên bản của ứng dụng này không còn được duy trì, hãy tải phiên bản Pro tại https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng phải trả tiền nào trong vòng 2 giờ, bạn sẽ tự động được hoàn lại tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@fossify.org và bạn sẽ nhận được nó.Thật dễ dàng đúng không :)</string>
     <string name="developer_description">Một bộ sưu tập ứng dụng Android đơn giản, mã nguồn mở, với các tiện ích có thể tùy chỉnh, không quảng cáo và không yêu cầu quyền không cần thiết.</string>
-    <string name="faq_9_title_commons">Làm sao chọn nhiều mục cùng một lúc?</string>
+    <string name="faq_9_title_commons">Làm sao chọn nhiều mục cùng lúc?</string>
     <string name="error">Lỗi: %s</string>
     <string name="notifications">Thông báo</string>
     <string name="email">Email</string>
@@ -752,7 +734,7 @@
     <string name="development">Lập trình</string>
     <string name="other_help">Hỗ trợ khác</string>
     <string name="welcome_to_app_name">Chào mừng đến với %s!</string>
-    <string name="ok">OK</string>
+    <string name="ok">Đồng ý</string>
     <string name="next">Kế tiếp</string>
     <string name="album">Album</string>
     <string name="auto_theme">Tự động</string>
@@ -794,30 +776,59 @@
     <string name="general_settings">Chung</string>
     <string name="notification_sound">Âm báo</string>
     <string name="website">Trang chủ</string>
-    <string name="files_tab">File</string>
-    <string name="recent_files_tab">File gần đây</string>
+    <string name="files_tab">Tệp</string>
+    <string name="recent_files_tab">Tệp gần đây</string>
     <string name="usb">USB</string>
     <string name="donate">Ủng hộ</string>
     <string name="platforms">Nền tảng</string>
-    <string name="file_manager_short">File Manager</string>
+    <string name="file_manager_short">Quản lý Tệp</string>
     <string name="donate_to_fossify">Ủng hộ Fossify</string>
-    <string name="contributors">Người đóng góp</string>
+    <string name="contributors">Những người đóng góp</string>
     <string name="translation">Biên dịch</string>
-    <string name="purchase_simple_thank_you">Mua Fossify Thank You</string>
-    <string name="known_issues">Vấn đề</string>
+    <string name="purchase_simple_thank_you">Fossify Thank You</string>
+    <string name="known_issues">Báo lỗi</string>
     <string name="support">Hỗ trợ</string>
-    <string name="help_us">Giúp đỡ</string>
+    <string name="help_us">Ủng hộ</string>
     <string name="social">Mạng xã hội</string>
     <string name="other">Khác</string>
     <string name="privacy_policy">Chính sách bảo mật</string>
     <string name="version_placeholder">Phiên bản %s</string>
     <string name="hello">Xin chào :)</string>
     <string name="about_footer">Tạo bằng ❤️ từ Slovakia</string>
-    <string name="all_fossify_apps">Tất cả ứng dụng Fossify</string>
+    <string name="all_fossify_apps">Tất cả app Fossify</string>
     <string name="translation_vietnamese">Tiếng Việt</string>
-    <string name="little_to_no_fee">Ít hoặc không mất phí</string>
+    <string name="little_to_no_fee">Ít hoặc không tốn phí</string>
     <string name="fee_up_to_pct">Phí tối đa %1$d%%</string>
     <string name="cryptocurrency">Tiền điện tử</string>
     <string name="zip4j_title">Zip4j (nén &amp; giải nén ZIP)</string>
-    <string name="app_icon_color_warning">Cẩn thận: Một số trình launcher có thể không xử lý đúng tùy chỉnh biểu tượng ứng dụng. Nếu biểu tượng biến mất, hãy thử khởi chạy ứng dụng thông qua Google Play hoặc tiện ích. Sau khi khởi chạy, hãy khôi phục màu biểu tượng màu xanh lá cây mặc định #106D1F. Trong trường hợp crash, có thể cần phải cài đặt lại ứng dụng.</string>
+    <string name="app_icon_color_warning">Cẩn thận: Một số trình launcher có thể không xử lý đúng tùy chỉnh biểu tượng ứng dụng. Nếu biểu tượng biến mất, hãy thử mở ứng dụng thông qua Google Play hoặc widget. Sau khi mở được, hãy khôi phục màu biểu tượng xanh lá cây mặc định #106D1F. Trong trường hợp hiếm, có thể cần phải cài đặt lại ứng dụng.</string>
+    <plurals name="files_saved">
+        <item quantity="other">Đã lưu tệp thành công</item>
+    </plurals>
+    <string name="confirm_storage_access_restricted_text_not_found">Không tìm thấy ứng dụng quản lý tệp hệ thống.</string>
+    <string name="date_time_pattern_info">Bạn có thể sử dụng các mẫu sau để đặt tên tệp tự động.:\n\n%Y - năm\n%M - tháng\n%D - ngày\n%h - giờ\n%m - phút\n%s - giây</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Tất nhiên rồi. Bạn có thể chia sẻ thông tin về ứng dụng hoặc đưa ra phản hồi và đánh giá tích cực. Bạn cũng có thể giúp đỡ bằng cách dịch ứng dụng sang ngôn ngữ mới, hoặc chỉ cần cập nhật một số bản dịch hiện có.
+            Hướng dẫn dịch thuật có tại <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
+        ]]></string>
+    <string name="contributors_label"><![CDATA[
+            Danh sách này bao gồm tất cả những người đã đóng góp đáng kể cho bất kỳ ứng dụng nào trong bộ ứng dụng Fossify, không chỉ riêng ứng dụng này. Việc dịch thuật được thực hiện bởi các tình nguyện viên.
+            Hãy cho chúng tôi biết nếu bạn cũng muốn ủng hộ. Hướng dẫn dịch thuật có tại <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
+            Xin cảm ơn tất cả những người đóng góp và ủng hộ khác!
+        ]]></string>
+    <string name="why_upgrade_heic_support">Hỗ trợ định dạng HEIC/HEIF</string>
+    <string name="why_upgrade_batch_renaming">Đổi tên tệp hàng loạt</string>
+    <string name="why_upgrade_file_compression">Hỗ trợ tệp nén</string>
+    <string name="why_upgrade_recents_tab">Tab với các tệp gần đây</string>
+    <string name="why_upgrade_file_importing">Hỗ trợ nhập tệp</string>
+    <string name="m3u_parser_title">M3U Parser (xử lý tệp danh sách phát m3u)</string>
+    <string name="more_fossify_apps">App Fossify khác</string>
+    <string name="faq_6_text_commons">Sự cố này xảy ra khi trình launcher của bạn không hỗ trợ việc tùy chỉnh biểu tượng. Hãy thử mở ứng dụng thông qua Google Play hoặc widget (nếu có). Sau khi mở được, hãy khôi phục màu biểu tượng xanh lá cây mặc định #106D1F. Trong trường hợp nghiêm trọng, có thể cần phải cài đặt lại ứng dụng.</string>
+    <string name="faq_10_title_commons">Làm sao khi đã mua ứng dụng nhưng không thể tải trên thiết bị khác?</string>
+    <string name="faq_10_text_commons">Chỉ cần xóa bộ nhớ cache ứng dụng Google Play của bạn và khởi động lại thiết bị. Đây là lỗi do Google Play.</string>
+    <string name="rate_this_app">Đánh giá app</string>
+    <string name="requires_fossify_thank_you">Cần mua Fossify Thank You trước</string>
+    <string name="apply_to_all_apps">Áp dụng màu cho tất cả app Fossify</string>
+    <string name="enables_more_customization">Cho phép tùy chỉnh nhiều hơn</string>
+    <string name="number_of_items">Số lượng mục</string>
 </resources>

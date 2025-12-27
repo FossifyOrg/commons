@@ -957,4 +957,8 @@
     <string name="theme_and_colors">Itxura eta koloreak</string>
     <string name="all_fossify_apps">Fossifyren aplikazio guztiak</string>
     <string name="known_issues">Errore ezagunak</string>
+    <plurals name="files_saved">
+        <item quantity="one">Fitxategia behar bezala gorde da</item>
+        <item quantity="other">Fitxategiak behar bezala gorde dira</item>
+    </plurals>
 </resources>
