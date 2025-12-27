@@ -20,6 +20,7 @@ import android.content.res.Configuration
 import android.database.Cursor
 import android.graphics.BitmapFactory
 import android.graphics.Point
+import android.graphics.Typeface
 import android.media.MediaMetadataRetriever
 import android.media.RingtoneManager
 import android.net.Uri
@@ -43,6 +44,7 @@ import android.provider.Settings
 import android.telecom.TelecomManager
 import android.telephony.PhoneNumberUtils
 import android.view.View
+import android.view.ViewGroup
 import android.view.WindowManager
 import android.widget.ImageView
 import android.widget.TextView
@@ -130,6 +132,7 @@ import java.text.SimpleDateFormat
 import java.util.Date
 import java.util.Locale
 import androidx.core.net.toUri
+import org.fossify.commons.helpers.FontHelper
 import kotlin.math.roundToInt
 
 fun Context.getSharedPrefs() = getSharedPreferences(PREFS_KEY, Context.MODE_PRIVATE)
@@ -1351,3 +1354,19 @@ fun Context.formatWithDeprecatedBadge(
     @StringRes labelRes: Int,
     vararg labelArgs: Any
 ): CharSequence = formatWithBadge(labelRes, R.string.badge_deprecated, *labelArgs)
+
+fun Context.applyFontToTextView(textView: TextView, typeface: Typeface = FontHelper.getTypeface(this)) {
+    if (typeface == Typeface.DEFAULT) return
+    val existingStyle = textView.typeface?.style ?: Typeface.NORMAL
+    textView.setTypeface(typeface, existingStyle)
+}
+
+fun Context.applyFontToViewRecursively(view: View?, typeface: Typeface = FontHelper.getTypeface(this)) {
+    if (view == null) return
+    if (view is TextView) applyFontToTextView(view, typeface)
+    if (view is ViewGroup) {
+        for (i in 0 until view.childCount) {
+            applyFontToViewRecursively(view.getChildAt(i), typeface)
+        }
+    }
+}

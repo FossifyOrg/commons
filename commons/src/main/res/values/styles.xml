@@ -59,6 +59,7 @@
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
         <item name="android:radioButtonStyle">@style/MyRadioButtonStyle</item>
         <item name="radioButtonStyle">@style/MyRadioButtonStyle</item>
+        <item name="toolbarStyle">@style/AppToolbar</item>
     </style>
 
     <style name="AppTheme.Base.System.Light" parent="Theme.Material3.Light.NoActionBar">
@@ -83,14 +84,18 @@
         <item name="materialAlertDialogTheme">@style/ThemeOverlay.App.MaterialAlertDialog</item>
         <item name="windowActionModeOverlay">true</item>
         <item name="android:actionOverflowButtonStyle">@style/ActionMenuOverflowIcon</item>
-        <item name="android:itemTextAppearance">@style/MenuTextAppearance</item>
         <item name="android:radioButtonStyle">@style/MyRadioButtonStyle</item>
         <item name="radioButtonStyle">@style/MyRadioButtonStyle</item>
+        <item name="toolbarStyle">@style/AppToolbar</item>
     </style>
 
     <!-- remove the shadow under actionBar, keep it there around Overflow menu that appears at pressing the 3 dots -->
     <style name="AppTheme.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar.Solid.Inverse">
         <item name="android:outlineProvider">none</item>
+    </style>
+
+    <style name="AppToolbar" parent="Widget.Material3.Toolbar">
+        <item name="popupTheme">?attr/actionBarPopupTheme</item>
     </style>
 
     <!-- material dialogs -->
@@ -128,16 +133,12 @@
         <item name="android:tint">@color/md_grey_white</item>
     </style>
 
-    <!-- text color of top menu items appearing after pressing 3 dots -->
-    <style name="MenuTextAppearance">
-        <item name="android:textColor">@color/dark_grey</item>
-    </style>
-
     <!-- contextual action mode -->
     <style name="AppTheme.ActionModeYou" parent="@style/Widget.Material3.ActionMode">
         <item name="android:outlineProvider">none</item>
         <item name="background">@color/you_contextual_status_bar_color</item>
         <item name="actionOverflowButtonStyle">@style/TopPopupMenuYou</item>
+        <item name="actionBarPopupTheme">?attr/actionBarPopupTheme</item>
     </style>
 
     <style name="TopPopupMenuYou" parent="@style/Widget.AppCompat.ActionButton.Overflow">
@@ -346,16 +347,27 @@
         <item name="android:visibility">invisible</item>
     </style>
 
-    <style name="AppTheme.YouPopupMenuStyle" parent="ThemeOverlay.AppCompat.Dark">
+    <style name="AppTheme.YouPopupMenuStyle" parent="ThemeOverlay.Material3.Dark">
         <item name="android:popupMenuStyle">@style/AppTheme.YouPopupMenu</item>
-        <item name="android:itemTextAppearance">@style/AppTheme.YouItemTextStyle</item>
+        <item name="popupMenuStyle">@style/AppTheme.YouPopupMenu</item>
+        <item name="android:textColorPrimary">@color/you_neutral_text_color</item>
+        <item name="android:textColorSecondary">@color/you_neutral_text_color</item>
+        <item name="android:textColor">@color/you_neutral_text_color</item>
+    </style>
+
+    <style name="AppTheme.YouPopupMenuStyle.Light" parent="ThemeOverlay.Material3.Light">
+        <item name="android:popupMenuStyle">@style/AppTheme.YouPopupMenu</item>
+        <item name="popupMenuStyle">@style/AppTheme.YouPopupMenu</item>
+        <item name="android:textColorPrimary">@color/dark_grey</item>
+        <item name="android:textColorSecondary">@color/dark_grey</item>
+        <item name="android:textColor">@color/dark_grey</item>
     </style>
 
     <style name="AppTheme.YouItemTextStyle" parent="TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
         <item name="android:textColor">@color/you_neutral_text_color</item>
     </style>
 
-    <style name="AppTheme.YouPopupMenu" parent="@android:style/Widget.PopupMenu">
+    <style name="AppTheme.YouPopupMenu" parent="Widget.Material3.PopupMenu">
         <item name="android:popupBackground">@drawable/popup_menu_bg_you</item>
         <item name="android:popupElevation">@dimen/popup_menu_elevation</item>
     </style>
@@ -364,7 +376,7 @@
         <item name="android:popupMenuStyle">@style/AppTheme.PopupMenuDark</item>
     </style>
 
-    <style name="AppTheme.PopupMenuDark" parent="@android:style/Widget.PopupMenu">
+    <style name="AppTheme.PopupMenuDark" parent="Widget.Material3.PopupMenu">
         <item name="android:popupBackground">@drawable/top_popup_menu_bg_dark</item>
         <item name="android:popupElevation">@dimen/popup_menu_elevation</item>
     </style>
@@ -373,7 +385,7 @@
         <item name="android:popupMenuStyle">@style/AppTheme.PopupMenuLight</item>
     </style>
 
-    <style name="AppTheme.PopupMenuLight" parent="@android:style/Widget.PopupMenu">
+    <style name="AppTheme.PopupMenuLight" parent="Widget.Material3.PopupMenu">
         <item name="android:popupBackground">@drawable/top_popup_menu_bg_light</item>
         <item name="android:popupElevation">@dimen/popup_menu_elevation</item>
     </style>
