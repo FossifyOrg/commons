@@ -57,7 +57,7 @@
     <string name="create_new_contact">Tạo liên hệ mới</string>
     <string name="add_to_existing_contact">Thêm vào một liên hệ hiện có</string>
     <string name="app_corrupt">Ứng dụng bị gián đoạn</string>
-    <string name="disclaimer">Từ chối trách nhiệm</string>
+    <string name="disclaimer">Lưu ý quan trọng</string>
     <string name="take_photo">Chụp ảnh</string>
     <string name="choose_photo">Chọn hình ảnh</string>
     <string name="choose_video">Chọn video</string>
@@ -396,7 +396,7 @@
     <string name="lock_folder">Khóa thư mục</string>
     <string name="lock_folder_pro">Khóa thư mục (Pro)</string>
     <string name="unlock_folder">Mở khóa thư mục</string>
-    <string name="lock_folder_notice">Chỉ hoạt động trong ứng dụng này, không thật sự thay thế mã hóa thư mục trên toàn hệ thống.</string>
+    <string name="lock_folder_notice">Tính năng chỉ hoạt động trong ứng dụng này, nó không thể thay thế việc mã hóa thư mục trên toàn hệ thống.</string>
     <string name="empty_password_new">Vui lòng nhập mật khẩu</string>
     <string name="empty_password">Vui lòng nhập mật khẩu</string>
     <string name="invalid_password">Mật khẩu sai</string>
