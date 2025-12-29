@@ -20,13 +20,6 @@ fun Cursor.getLongValueOrNull(key: String): Long? {
     return if (isNull(getColumnIndexOrThrow(key))) null else getLong(getColumnIndexOrThrow(key))
 }
 
-fun Cursor.getBlobValue(key: String) = getBlob(getColumnIndexOrThrow(key))
-
-fun Cursor.getBlobValueOrNull(key: String): ByteArray? {
-    val index = getColumnIndex(key)
-    return if (index != -1 && !isNull(index)) getBlob(index) else null
-}
-
 fun Cursor.getStringValueOr(key: String, defaultValue: String): String {
     val index = getColumnIndex(key)
     return if (index != -1 && !isNull(index)) getString(index) else defaultValue

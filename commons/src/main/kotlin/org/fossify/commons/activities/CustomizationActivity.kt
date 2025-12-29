@@ -1,5 +1,6 @@
 package org.fossify.commons.activities
 
+import android.content.ActivityNotFoundException
 import android.content.ContentValues
 import android.graphics.Color
 import android.graphics.Typeface
@@ -467,49 +468,44 @@ class CustomizationActivity : BaseSimpleActivity() {
         }
 
         FontHelper.clearCache()
-
         baseConfig.isGlobalThemeEnabled = binding.applyToAllSwitch.isChecked
         baseConfig.isSystemThemeEnabled = curSelectedThemeId == THEME_SYSTEM
 
-        if (isThankYouInstalled()) {
-            val globalThemeType = when {
-                baseConfig.isGlobalThemeEnabled.not() -> GLOBAL_THEME_DISABLED
-                baseConfig.isSystemThemeEnabled -> GLOBAL_THEME_SYSTEM
-                else -> GLOBAL_THEME_CUSTOM
-            }
+        if (isThankYouInstalled()) saveThankYouChanges()
+        hasUnsavedChanges = false
+        if (finishAfterSave) finish() else refreshMenuItems()
+    }
 
-            updateGlobalConfig(
-                ContentValues().apply {
-                    put(COL_THEME_TYPE, globalThemeType)
-                    put(COL_TEXT_COLOR, curTextColor)
-                    put(COL_BACKGROUND_COLOR, curBackgroundColor)
-                    put(COL_PRIMARY_COLOR, curPrimaryColor)
-                    put(COL_ACCENT_COLOR, curAccentColor)
-                    put(COL_APP_ICON_COLOR, curAppIconColor)
-                    put(COL_FONT_TYPE, curFontType)
-                    put(COL_FONT_NAME, curFontFileName)
-                }
-            )
-
-            if (curFontType == FONT_TYPE_CUSTOM && curFontFileName.isNotEmpty()) {
-                FontHelper.getFontData(this, curFontFileName)?.let { fontData ->
-                    val fontUri = FONTS_URI.buildUpon()
-                        .appendPath(curFontFileName)
-                        .build()
-                    try {
-                        contentResolver.openOutputStream(fontUri, "w")
-                            ?.use { it.write(fontData) }
-                    } catch (_: Exception) {
-                    }
-                }
-            }
+    private fun saveThankYouChanges() {
+        val globalThemeType = when {
+            baseConfig.isGlobalThemeEnabled.not() -> GLOBAL_THEME_DISABLED
+            baseConfig.isSystemThemeEnabled -> GLOBAL_THEME_SYSTEM
+            else -> GLOBAL_THEME_CUSTOM
         }
 
-        hasUnsavedChanges = false
-        if (finishAfterSave) {
-            finish()
-        } else {
-            refreshMenuItems()
+        updateGlobalConfig(
+            ContentValues().apply {
+                put(COL_THEME_TYPE, globalThemeType)
+                put(COL_TEXT_COLOR, curTextColor)
+                put(COL_BACKGROUND_COLOR, curBackgroundColor)
+                put(COL_PRIMARY_COLOR, curPrimaryColor)
+                put(COL_ACCENT_COLOR, curAccentColor)
+                put(COL_APP_ICON_COLOR, curAppIconColor)
+                put(COL_FONT_TYPE, curFontType)
+                put(COL_FONT_NAME, curFontFileName)
+            }
+        )
+
+        if (curFontType == FONT_TYPE_CUSTOM && curFontFileName.isNotEmpty()) {
+            val fontData = FontHelper.getFontData(this, curFontFileName) ?: return
+            val fontUri = FONTS_URI.buildUpon()
+                .appendPath(curFontFileName)
+                .build()
+            try {
+                contentResolver.openOutputStream(fontUri, "w")
+                    ?.use { it.write(fontData) }
+            } catch (_: Exception) {
+            }
         }
     }
 
@@ -625,7 +621,7 @@ class CustomizationActivity : BaseSimpleActivity() {
                     "*/*"
                 )
             )
-        } catch (e: Exception) {
+        } catch (_: ActivityNotFoundException) {
             toast(R.string.system_service_disabled)
         }
     }
