@@ -6,6 +6,7 @@ import androidx.core.net.toUri
 object MyContentProvider {
     private const val AUTHORITY = "org.fossify.android.provider"
     val MY_CONTENT_URI: Uri = "content://$AUTHORITY/settings".toUri()
+    val FONTS_URI: Uri = "content://$AUTHORITY/fonts".toUri()
 
     const val ACTION_GLOBAL_CONFIG_UPDATED = "org.fossify.android.GLOBAL_CONFIG_UPDATED"
     const val PERMISSION_WRITE_GLOBAL_SETTINGS = "org.fossify.android.permission.WRITE_GLOBAL_SETTINGS"
@@ -25,7 +26,6 @@ object MyContentProvider {
     // Font customization
     const val COL_FONT_TYPE = "font_type"
     const val COL_FONT_NAME = "font_name"
-    const val COL_FONT_DATA = "font_data"
 
     const val GLOBAL_THEME_DISABLED = 0
     const val GLOBAL_THEME_SYSTEM = 1

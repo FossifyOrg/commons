@@ -45,12 +45,12 @@ import org.fossify.commons.helpers.FontHelper
 import org.fossify.commons.helpers.MyContentProvider.COL_ACCENT_COLOR
 import org.fossify.commons.helpers.MyContentProvider.COL_APP_ICON_COLOR
 import org.fossify.commons.helpers.MyContentProvider.COL_BACKGROUND_COLOR
-import org.fossify.commons.helpers.MyContentProvider.COL_FONT_DATA
 import org.fossify.commons.helpers.MyContentProvider.COL_FONT_NAME
 import org.fossify.commons.helpers.MyContentProvider.COL_FONT_TYPE
 import org.fossify.commons.helpers.MyContentProvider.COL_PRIMARY_COLOR
 import org.fossify.commons.helpers.MyContentProvider.COL_TEXT_COLOR
 import org.fossify.commons.helpers.MyContentProvider.COL_THEME_TYPE
+import org.fossify.commons.helpers.MyContentProvider.FONTS_URI
 import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_CUSTOM
 import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_DISABLED
 import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_SYSTEM
@@ -488,13 +488,21 @@ class CustomizationActivity : BaseSimpleActivity() {
                     put(COL_APP_ICON_COLOR, curAppIconColor)
                     put(COL_FONT_TYPE, curFontType)
                     put(COL_FONT_NAME, curFontFileName)
-                    if (curFontType == FONT_TYPE_CUSTOM && curFontFileName.isNotEmpty()) {
-                        FontHelper.getFontData(this@CustomizationActivity, curFontFileName)?.let {
-                            put(COL_FONT_DATA, it)
-                        }
-                    }
                 }
             )
+
+            if (curFontType == FONT_TYPE_CUSTOM && curFontFileName.isNotEmpty()) {
+                FontHelper.getFontData(this, curFontFileName)?.let { fontData ->
+                    val fontUri = FONTS_URI.buildUpon()
+                        .appendPath(curFontFileName)
+                        .build()
+                    try {
+                        contentResolver.openOutputStream(fontUri, "w")
+                            ?.use { it.write(fontData) }
+                    } catch (_: Exception) {
+                    }
+                }
+            }
         }
 
         hasUnsavedChanges = false
@@ -560,7 +568,7 @@ class CustomizationActivity : BaseSimpleActivity() {
                 }
             }
         }
-        
+
         setupFontPicker()
     }
 

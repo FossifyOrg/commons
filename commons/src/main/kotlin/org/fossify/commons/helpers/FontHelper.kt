@@ -3,6 +3,7 @@ package org.fossify.commons.helpers
 import android.content.Context
 import android.graphics.Typeface
 import org.fossify.commons.extensions.baseConfig
+import org.fossify.commons.extensions.ensureFontPresentLocally
 import java.io.File
 
 /**
@@ -34,8 +35,12 @@ object FontHelper {
 
     private fun loadCustomFont(context: Context, fileName: String): Typeface {
         if (fileName.isEmpty()) return Typeface.DEFAULT
+        val fontFile = File(getFontsDir(context), fileName)
+        if (!fontFile.exists()) {
+            context.ensureFontPresentLocally(fileName)
+        }
+
         return try {
-            val fontFile = File(getFontsDir(context), fileName)
             if (fontFile.exists()) Typeface.createFromFile(fontFile) else Typeface.DEFAULT
         } catch (_: Exception) {
             Typeface.DEFAULT
