@@ -587,13 +587,13 @@ class CustomizationActivity : BaseSimpleActivity() {
         binding.customizationFont.text = when (curFontType) {
             FONT_TYPE_MONOSPACE -> getString(R.string.font_monospace)
             FONT_TYPE_CUSTOM -> curFontFileName.ifEmpty { getString(R.string.select_font_file) }
-            else -> getString(R.string.font_system_default)
+            else -> getString(R.string.system_default)
         }
     }
 
     private fun fontPickerClicked() {
         val items = arrayListOf(
-            RadioItem(FONT_TYPE_SYSTEM_DEFAULT, getString(R.string.font_system_default)),
+            RadioItem(FONT_TYPE_SYSTEM_DEFAULT, getString(R.string.system_default)),
             RadioItem(FONT_TYPE_MONOSPACE, getString(R.string.font_monospace)),
             RadioItem(FONT_TYPE_CUSTOM, getString(R.string.select_font_file))
         )
@@ -666,7 +666,10 @@ class CustomizationActivity : BaseSimpleActivity() {
     private fun fontChanged() {
         hasUnsavedChanges = true
         updateFontDisplay()
-        applyFontToViewRecursively(window.decorView)
+        applyFontToViewRecursively(
+            view = window.decorView,
+            typeface = FontHelper.getTypeface(this, curFontType, curFontFileName)
+        )
         refreshMenuItems()
     }
 

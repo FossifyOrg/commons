@@ -1356,7 +1356,6 @@ fun Context.formatWithDeprecatedBadge(
 ): CharSequence = formatWithBadge(labelRes, R.string.badge_deprecated, *labelArgs)
 
 fun Context.applyFontToTextView(textView: TextView, typeface: Typeface = FontHelper.getTypeface(this)) {
-    if (typeface == Typeface.DEFAULT) return
     val existingStyle = textView.typeface?.style ?: Typeface.NORMAL
     textView.setTypeface(typeface, existingStyle)
 }

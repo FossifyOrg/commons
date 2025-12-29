@@ -710,7 +710,6 @@
     <string name="font_size">Font size</string>
     <string name="font">Font</string>
     <string name="app_font">App font</string>
-    <string name="font_system_default">System default</string>
     <string name="font_monospace">Monospace</string>
     <string name="select_font_file">Select font file…</string>
     <string name="invalid_font_file">Invalid font file</string>

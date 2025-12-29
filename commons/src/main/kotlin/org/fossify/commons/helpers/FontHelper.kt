@@ -14,11 +14,11 @@ object FontHelper {
     private var cachedFontType: Int = -1
     private var cachedFontFileName: String = ""
 
-    fun getTypeface(context: Context): Typeface {
-        val config = context.baseConfig
-        val fontType = config.fontType
-        val fontFileName = config.fontName
-
+    fun getTypeface(
+        context: Context,
+        fontType: Int = context.baseConfig.fontType,
+        fontFileName: String = context.baseConfig.fontName
+    ): Typeface {
         if (fontType == cachedFontType && fontFileName == cachedFontFileName && cachedTypeface != null) {
             return cachedTypeface!!
         }
