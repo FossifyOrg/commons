@@ -325,7 +325,7 @@
     <string name="use_default">Kasuta vaikimisi väärtust</string>
     <string name="default_color">Vaikimisi</string>
     <string name="change_color">Muuda värvi</string>
-    <string name="theme">Teema</string>
+    <string name="theme">Rakenduse kujundus</string>
     <string name="changing_color_description">Värvi muutmisega võtad kasutusele kohandatud värviteema</string>
     <string name="save">Salvesta</string>
     <string name="discard">Loobu</string>
@@ -598,8 +598,8 @@
     <string name="during_day_at">Päeval kell %1$02d:%2$02d</string>
     <string name="settings">Seadistused</string>
     <string name="general_settings">Üldine</string>
-    <string name="color_customization">Värvide kohendamine</string>
-    <string name="customize_colors">Muuda rakenduse värve</string>
+    <string name="color_customization">Välimust ja tunnetus</string>
+    <string name="customize_colors">Kohenda välimust</string>
     <string name="feature_locked">Lukus</string>
     <string name="customize_widget_colors">Muuda vidina värve</string>
     <string name="customize_notifications">Kohenda teavitusi</string>
@@ -1019,7 +1019,7 @@
     <string name="album">Album</string>
     <string name="genre">Žanr</string>
     <string name="f_number">F-number</string>
-    <string name="apply_to_all_apps">Kasuta neid värve kõikides Fossify rakendustes</string>
+    <string name="apply_to_all_apps">Kasuta seda kujundust kõikides Fossify rakendustes</string>
     <string name="shared_theme_note">Palun arvesta, et kuigi kasutad selle rakenduse Pro-versiooni, siis tehnilistel põhjustel palun paigalda ka rakendus Fossify Suur tänu. See tagab, et värvid on sünkroonis üle kõikide Fossify rakenduste.</string>
     <string name="purchase_thank_you"><![CDATA[
             Selle funktsionaalsuse kasutamiseks ja meie arendustöö toetamiseks palun osta <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Suur Tänu</a>. Täname sind juba ette!
@@ -1091,4 +1091,9 @@
     </plurals>
     <string name="badge_deprecated">(aegunud)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Kirjatüüp</string>
+    <string name="app_font">Rakenduse kirjatüüp</string>
+    <string name="font_monospace">Fikseeritud laiusega kirjatüüp</string>
+    <string name="select_font_file">Vali kirjatüübi fail…</string>
+    <string name="invalid_font_file">Vigane kirjatüübi fail</string>
 </resources>
