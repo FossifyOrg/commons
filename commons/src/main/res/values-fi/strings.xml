@@ -598,7 +598,6 @@
     <string name="settings">Asetukset</string>
     <string name="general_settings">Yleistä</string>
     <string name="color_customization">Värien mukautus</string>
-    <string name="improved_color_customization">Parannettu värien mukautus</string>
     <string name="customize_colors">Muokkaa sovelluksen värejä</string>
     <string name="feature_locked">Lukittu</string>
     <string name="customize_widget_colors">Mukauta pienoissovelluksen värejä</string>

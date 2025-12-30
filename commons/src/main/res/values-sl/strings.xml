@@ -627,7 +627,6 @@
     <string name="during_day_at">Čez dan ob %1$02d:%2$02d</string>
     <string name="settings">Nastavitve</string>
     <string name="color_customization">Prilagajanje barv</string>
-    <string name="improved_color_customization">Izboljšana prilagoditev barv</string>
     <string name="customize_colors">Prilagodi barve</string>
     <string name="feature_locked">Zaklenjeno</string>
     <string name="customize_widget_colors">Prilagoditev barv pripomočka</string>

@@ -916,7 +916,6 @@
     </plurals>
     <string name="hours_letter">%dh</string>
     <string name="color_customization">Personalização de cores</string>
-    <string name="improved_color_customization">Personalização de cores aprimorada</string>
     <string name="backups">Cópias de segurança</string>
     <string name="enable_automatic_backups">Ativar backups automáticos</string>
     <string name="usb">USB</string>

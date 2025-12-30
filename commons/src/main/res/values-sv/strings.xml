@@ -602,7 +602,6 @@
     <string name="settings">Inställningar</string>
     <string name="general_settings">Allmänt</string>
     <string name="color_customization">Färganpassning</string>
-    <string name="improved_color_customization">Förbättrad färganpassning</string>
     <string name="customize_colors">Anpassa färger</string>
     <string name="feature_locked">Låst</string>
     <string name="customize_widget_colors">Anpassa widgetarnas färger</string>
