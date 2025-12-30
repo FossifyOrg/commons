@@ -1086,4 +1086,9 @@
     <string name="number_of_items">आइटम की संख्या</string>
     <string name="badge_deprecated">(अप्रचलित)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">फ़ॉन्ट</string>
+    <string name="app_font">ऐप फ़ॉन्ट</string>
+    <string name="font_monospace">मोनोस्पेस</string>
+    <string name="select_font_file">फ़ॉन्ट फ़ाइल चुनें…</string>
+    <string name="invalid_font_file">अमान्य फ़ॉन्ट फ़ाइल</string>
 </resources>
