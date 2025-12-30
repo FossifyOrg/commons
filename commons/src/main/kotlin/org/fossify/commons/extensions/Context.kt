@@ -133,6 +133,8 @@ import java.util.Date
 import java.util.Locale
 import androidx.core.net.toUri
 import org.fossify.commons.helpers.FontHelper
+import org.fossify.commons.helpers.FossifyThankYou
+import org.fossify.commons.helpers.isPiePlus
 import kotlin.math.roundToInt
 
 fun Context.getSharedPrefs() = getSharedPreferences(PREFS_KEY, Context.MODE_PRIVATE)
@@ -571,7 +573,21 @@ fun Context.getUriMimeType(path: String, newUri: Uri): String {
     return mimeType
 }
 
-fun Context.isThankYouInstalled() = isPackageInstalled("org.fossify.thankyou")
+fun Context.isThankYouInstalled() = isPackageInstalled(FossifyThankYou.PACKAGE_NAME)
+
+fun Context.isThankYouFontsSupported(): Boolean {
+    return try {
+        val thankYouAppInfo = packageManager.getPackageInfo(FossifyThankYou.PACKAGE_NAME, 0)
+        if (isPiePlus()) {
+            thankYouAppInfo.longVersionCode >= FossifyThankYou.MIN_VERSION_CODE_FOR_FONTS
+        } else {
+            @Suppress("DEPRECATION")
+            thankYouAppInfo.versionCode >= FossifyThankYou.MIN_VERSION_CODE_FOR_FONTS
+        }
+    } catch (_: Exception) {
+        false
+    }
+}
 
 fun Context.canAccessGlobalConfig(): Boolean {
     return isThankYouInstalled() && ContextCompat.checkSelfPermission(this, PERMISSION_WRITE_GLOBAL_SETTINGS) == PERMISSION_GRANTED

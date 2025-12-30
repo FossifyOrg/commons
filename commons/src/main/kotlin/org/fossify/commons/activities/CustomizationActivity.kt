@@ -29,6 +29,7 @@ import org.fossify.commons.extensions.getThemeId
 import org.fossify.commons.extensions.isDynamicTheme
 import org.fossify.commons.extensions.isFontFile
 import org.fossify.commons.extensions.isOrWasThankYouInstalled
+import org.fossify.commons.extensions.isThankYouFontsSupported
 import org.fossify.commons.extensions.isSystemInDarkMode
 import org.fossify.commons.extensions.isThankYouInstalled
 import org.fossify.commons.extensions.setFillWithStroke
@@ -492,12 +493,14 @@ class CustomizationActivity : BaseSimpleActivity() {
                 put(COL_PRIMARY_COLOR, curPrimaryColor)
                 put(COL_ACCENT_COLOR, curAccentColor)
                 put(COL_APP_ICON_COLOR, curAppIconColor)
-                put(COL_FONT_TYPE, curFontType)
-                put(COL_FONT_NAME, curFontFileName)
+                if (isThankYouFontsSupported()) {
+                    put(COL_FONT_TYPE, curFontType)
+                    put(COL_FONT_NAME, curFontFileName)
+                }
             }
         )
 
-        if (curFontType == FONT_TYPE_CUSTOM && curFontFileName.isNotEmpty()) {
+        if (curFontType == FONT_TYPE_CUSTOM && curFontFileName.isNotEmpty() && isThankYouFontsSupported()) {
             val fontData = FontHelper.getFontData(this, curFontFileName) ?: return
             val fontUri = FONTS_URI.buildUpon()
                 .appendPath(curFontFileName)
