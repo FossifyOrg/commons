@@ -315,7 +315,7 @@
     <string name="use_default">Използване на подразбираното</string>
     <string name="default_color">По подразбиране</string>
     <string name="change_color">Промяна на цвета</string>
-    <string name="theme">Тема</string>
+    <string name="theme">Тема на приложението</string>
     <string name="changing_color_description">Промяната на цвят ще превключи на потребителска тема</string>
     <string name="save">Запазване</string>
     <string name="discard">Не</string>
@@ -582,8 +582,8 @@
     <string name="during_day_at">През деня в %1$02d:%2$02d</string>
     <string name="settings">Настройки</string>
     <string name="general_settings">Общи</string>
-    <string name="color_customization">Настройка на цветовете</string>
-    <string name="customize_colors">Настройка на цветовете</string>
+    <string name="color_customization">Външен вид</string>
+    <string name="customize_colors">Настройка на външния вид</string>
     <string name="feature_locked">Заключено</string>
     <string name="customize_widget_colors">Настройка на цветовете на приспособлението</string>
     <string name="customize_notifications">Настройка на известията</string>
@@ -1005,7 +1005,7 @@
     <string name="trial_end_description">Надградете до Про, за да се насладите на пълните възможности на приложението.\n\nЕдинствено трябва еднократно да платите и ако не останете доволни, можете да премахнете приложението и да получите обратно парите си.\n\nЩе се видим там :)</string>
     <string name="deprecated_app">Изведено от употреба: това приложение вече не се поддържа, надградете до Про на https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="app_icon_color_warning">Внимание: Някои начални екрани може да не изобразят правилно потребителските настройки на пиктограмите на приложенията. Ако пиктограмата изчезне, стартирате приложението от Google Play или, ако има, от приспособление. След това възстановете подразбирания зелен цвят на пиктограмата – #106D1F. В краен случаи може да се наложи преинсталиране на приложението.</string>
-    <string name="apply_to_all_apps">Прилагане на цветовете към всички приложения на Fossify</string>
+    <string name="apply_to_all_apps">Прилагане на темата към всички приложения на Fossify</string>
     <string name="shared_theme_note">Обърнете внимание, че въпреки че използвате Про, все още се нуждаете от Fossify Thank You по технически причини. То се грижи за синхронизирането на цветовете.</string>
     <string name="purchase_thank_you"><![CDATA[Поръчайте <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, за да отключите тази възможност и да подкрепите разработката. Благодарим ви!]]></string>
     <string name="purchase_simple_thank_you">Поръчайте Fossify Thank You</string>
@@ -1036,4 +1036,9 @@
     </plurals>
     <string name="badge_deprecated">(остаряло)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Шрифт</string>
+    <string name="app_font">Шрифт на приложението</string>
+    <string name="font_monospace">Равноширок</string>
+    <string name="select_font_file">Избиране файл на шрифт…</string>
+    <string name="invalid_font_file">Неприемлив файл на шрифт</string>
 </resources>
