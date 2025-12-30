@@ -331,7 +331,7 @@
     <string name="use_default">Użyj domyślnego</string>
     <string name="default_color">Domyślny</string>
     <string name="change_color">Zmień kolor</string>
-    <string name="theme">Motyw</string>
+    <string name="theme">Motyw aplikacji</string>
     <string name="changing_color_description">Zmiana koloru spowoduje przełączenie motywu na własny</string>
     <string name="save">Zapisz</string>
     <string name="discard">Odrzuć</string>
@@ -339,7 +339,7 @@
     <string name="undo_changes_confirmation">Czy cofnąć zmiany\?</string>
     <string name="cannot_be_undone">Tej akcji nie można cofnąć.</string>
     <string name="save_before_closing">Masz niezapisane zmiany. Czy zapisać je przed wyjściem?</string>
-    <string name="apply_to_all_apps">Zastosuj kolory we wszystkich aplikacjach Fossify</string>
+    <string name="apply_to_all_apps">Zastosuj motyw we wszystkich aplikacjach Fossify</string>
     <string name="app_icon_color_warning">Uwaga: Pewne launchery mogą nie obsługiwać prawidłowo zmiany ikon aplikacji. Jeśli ikona zniknie, spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny.
         Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
     <string name="global_theme_success">Obecny motyw został zastosowany do wszystkich aplikacji Fossify. Wszelkie przyszłe zmiany tego motywu będą synchronizowane automatycznie.</string>
@@ -673,8 +673,8 @@
     <string name="settings">Ustawienia</string>
     <string name="purchase_simple_thank_you">Kup aplikację „Fossify Thank You”</string>
     <string name="general_settings">Ogólne</string>
-    <string name="color_customization">Dostosowywanie kolorów</string>
-    <string name="customize_colors">Dostosuj kolory aplikacji</string>
+    <string name="color_customization">Wygląd i działanie</string>
+    <string name="customize_colors">Dostosuj wygląd</string>
     <string name="feature_locked">Zablokowane</string>
     <string name="customize_widget_colors">Dostosuj kolory widżetu</string>
     <string name="customize_notifications">Dostosuj powiadomienia</string>
@@ -1171,4 +1171,9 @@
     </plurals>
     <string name="badge_deprecated">(przestarzałe)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Czcionka</string>
+    <string name="app_font">Czcionka aplikacji</string>
+    <string name="font_monospace">Stała szerokość znaków</string>
+    <string name="select_font_file">Wybierz rozmiar czcionki…</string>
+    <string name="invalid_font_file">Nieprawidłowy plik czcionki</string>
 </resources>
