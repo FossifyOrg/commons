@@ -325,7 +325,7 @@
     <string name="use_default">Použít výchozí</string>
     <string name="default_color">Výchozí</string>
     <string name="change_color">Změnit barvu</string>
-    <string name="theme">Motiv</string>
+    <string name="theme">Motiv aplikace</string>
     <string name="changing_color_description">Změna barvy změní motiv na Vlastní</string>
     <string name="save">Uložit</string>
     <string name="discard">Zahodit</string>
@@ -622,8 +622,8 @@
     <string name="during_day_at">Během dne ve %1$02d:%2$02d</string>
     <string name="settings">Nastavení</string>
     <string name="general_settings">Obecné</string>
-    <string name="color_customization">Přizpůsobení barev</string>
-    <string name="customize_colors">Přizpůsobit barvy</string>
+    <string name="color_customization">Vzhled a dojem</string>
+    <string name="customize_colors">Přizpůsobit vzhled</string>
     <string name="feature_locked">Uzamčeno</string>
     <string name="customize_widget_colors">Přizpůsobit barvy widgetu</string>
     <string name="customize_notifications">Přizpůsobit oznámení</string>
@@ -1033,7 +1033,7 @@
     <string name="pager">Pager</string>
     <string name="root">Kořenová složka</string>
     <string name="exif">EXIF</string>
-    <string name="apply_to_all_apps">Použít barvy na všechny aplikace Fossify</string>
+    <string name="apply_to_all_apps">Použít motiv na všechny aplikace Fossify</string>
     <string name="show_line_numbers">Zobrazit čísla řádků</string>
     <string name="more_options">Další možnosti</string>
     <string name="deletion_confirmation_short">Odstranit %s?</string>
@@ -1151,4 +1151,9 @@
     </plurals>
     <string name="badge_deprecated">(zastaralé)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Písmo</string>
+    <string name="app_font">Písmo aplikace</string>
+    <string name="font_monospace">Neproporcionální</string>
+    <string name="select_font_file">Vybrat soubor písma…</string>
+    <string name="invalid_font_file">Neplatný soubor písma</string>
 </resources>
