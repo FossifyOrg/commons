@@ -632,7 +632,6 @@
     <string name="during_day_at">Durante el día a las %1$02d:%2$02d</string>
     <string name="settings">Ajustes</string>
     <string name="color_customization">Personalización del color</string>
-    <string name="improved_color_customization">Personalización mejorada de los colores</string>
     <string name="customize_colors">Cambiar colores</string>
     <string name="feature_locked">Bloqueado</string>
     <string name="customize_widget_colors">Personaliza los colores del widget</string>

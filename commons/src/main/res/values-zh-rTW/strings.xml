@@ -807,7 +807,6 @@
     <string name="do_not_show_again">不要再顯示</string>
     <string name="during_day_at_hh_mm">白天 hh:mm</string>
     <string name="during_day_at">白天 %1$02d:%2$02d</string>
-    <string name="improved_color_customization">更完善的顏色自訂</string>
     <string name="feature_locked">已鎖定</string>
     <string name="copyright">v %1$s\n版權所有 © Fossify %2$d</string>
     <string name="sms_messenger_short">簡訊</string>

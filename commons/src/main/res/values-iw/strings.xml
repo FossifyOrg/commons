@@ -849,7 +849,6 @@
     <string name="time_remaining">זמן שנותר:\n%s</string>
     <string name="alarm_warning">אנא וודא שהשעון מעורר עובד כשורה לפני שתסתמך עליו. הוא עלול לתפקד באופן לקוי עקב הגבלות מערכת הקשורות לחיסכון בסוללה.</string>
     <string name="alarm">התראה</string>
-    <string name="improved_color_customization">התאמה אישית משופרת של צבעים</string>
     <string name="show_info_bubble">הצגת בועת מידע בעת גלילה של פריטים על ידי גרירת פס הגלילה</string>
     <string name="keep_last_modified">שמור את הערך הישן של שינוי אחרון בפעולות קובץ</string>
     <string name="show_call_confirmation_dialog">הצגת תיבת דו-שיח לאישור שיחה לפני תחילת שיחה</string>

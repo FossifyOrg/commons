@@ -693,7 +693,6 @@
     </plurals>
     <string name="feature_locked">Ŝlosita</string>
     <string name="reminder_warning">Bonvolu certigi, ke la memorigiloj ĝuste funkcias antaŭ dependi de ili. Kontrolu viajn agordojn de baterio kaj de sciigoj, kaj ĉu io ajn blokas la memorigilojn aŭ ĉesigas la aplikaĵon en la fono.</string>
-    <string name="improved_color_customization">Plibonigita tajlorado de koloroj</string>
     <string name="notifications_disabled">Sciigoj de tiu ĉi aplikaĵo estas malŝaltataj. Bonvolu ŝalti ilin en la aparataj agordoj.</string>
     <string name="add_new_sound">Aldoni novan sonon</string>
     <string name="small">Malgranda</string>

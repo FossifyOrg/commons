@@ -6,7 +6,6 @@
     <string name="requires_fossify_thank_you">Nepieciešama lietotne \"Fossify paldies\"</string>
     <string name="general_settings">Vispārīgi</string>
     <string name="color_customization">Krāsu pielāgošana</string>
-    <string name="improved_color_customization">Uzlabota krāsu pielāgošana</string>
     <string name="customize_colors">Pielāgot krāsas</string>
     <string name="enables_more_customization">Iespējo vairāk pielāgojumu</string>
     <plurals name="column_counts">
