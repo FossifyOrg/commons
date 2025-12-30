@@ -485,6 +485,7 @@ class CustomizationActivity : BaseSimpleActivity() {
             else -> GLOBAL_THEME_CUSTOM
         }
 
+        val canFontsBeSynced = isThankYouFontsSupported()
         updateGlobalConfig(
             ContentValues().apply {
                 put(COL_THEME_TYPE, globalThemeType)
@@ -493,14 +494,14 @@ class CustomizationActivity : BaseSimpleActivity() {
                 put(COL_PRIMARY_COLOR, curPrimaryColor)
                 put(COL_ACCENT_COLOR, curAccentColor)
                 put(COL_APP_ICON_COLOR, curAppIconColor)
-                if (isThankYouFontsSupported()) {
+                if (canFontsBeSynced) {
                     put(COL_FONT_TYPE, curFontType)
                     put(COL_FONT_NAME, curFontFileName)
                 }
             }
         )
 
-        if (curFontType == FONT_TYPE_CUSTOM && curFontFileName.isNotEmpty() && isThankYouFontsSupported()) {
+        if (curFontType == FONT_TYPE_CUSTOM && curFontFileName.isNotEmpty() && canFontsBeSynced) {
             val fontData = FontHelper.getFontData(this, curFontFileName) ?: return
             val fontUri = FONTS_URI.buildUpon()
                 .appendPath(curFontFileName)
