@@ -4,23 +4,50 @@ import android.annotation.SuppressLint
 import android.content.ComponentName
 import android.content.Context
 import android.content.pm.PackageManager
+import android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED
+import android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_ENABLED
 import android.content.res.Configuration
 import android.graphics.Color
 import android.view.ViewGroup
 import androidx.loader.content.CursorLoader
 import com.google.android.material.color.MaterialColors
 import org.fossify.commons.R
-import org.fossify.commons.helpers.*
+import org.fossify.commons.helpers.DARK_GREY
+import org.fossify.commons.helpers.FONT_TYPE_CUSTOM
+import org.fossify.commons.helpers.FontHelper
+import org.fossify.commons.helpers.MyContentProvider
 import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_SYSTEM
+import org.fossify.commons.helpers.appIconColorStrings
+import org.fossify.commons.helpers.ensureBackgroundThread
+import org.fossify.commons.helpers.isSPlus
 import org.fossify.commons.models.GlobalConfig
 import org.fossify.commons.models.isGlobalThemingEnabled
-import org.fossify.commons.views.*
+import org.fossify.commons.views.MyAppCompatCheckbox
+import org.fossify.commons.views.MyAppCompatSpinner
+import org.fossify.commons.views.MyAutoCompleteTextView
+import org.fossify.commons.views.MyButton
+import org.fossify.commons.views.MyCompatRadioButton
+import org.fossify.commons.views.MyEditText
+import org.fossify.commons.views.MyFloatingActionButton
+import org.fossify.commons.views.MyMaterialSwitch
+import org.fossify.commons.views.MySeekBar
+import org.fossify.commons.views.MyTextInputLayout
+import org.fossify.commons.views.MyTextView
+import java.io.File
 
 fun Context.isDynamicTheme() = isSPlus() && baseConfig.isSystemThemeEnabled
 
-fun Context.isBlackAndWhiteTheme() = baseConfig.textColor == Color.WHITE && baseConfig.primaryColor == Color.BLACK && baseConfig.backgroundColor == Color.BLACK
+fun Context.isBlackAndWhiteTheme(): Boolean {
+    return baseConfig.textColor == Color.WHITE
+            && baseConfig.primaryColor == Color.BLACK
+            && baseConfig.backgroundColor == Color.BLACK
+}
 
-fun Context.isWhiteTheme() = baseConfig.textColor == DARK_GREY && baseConfig.primaryColor == Color.WHITE && baseConfig.backgroundColor == Color.WHITE
+fun Context.isWhiteTheme(): Boolean {
+    return baseConfig.textColor == DARK_GREY
+            && baseConfig.primaryColor == Color.WHITE
+            && baseConfig.backgroundColor == Color.WHITE
+}
 
 fun Context.isSystemInDarkMode() = resources.configuration.uiMode and Configuration.UI_MODE_NIGHT_YES != 0
 
@@ -105,7 +132,11 @@ fun Context.getDatePickerDialogTheme() = when {
 
 fun Context.getPopupMenuTheme(): Int {
     return if (isDynamicTheme()) {
-        R.style.AppTheme_YouPopupMenuStyle
+        if (isSystemInDarkMode()) {
+            R.style.AppTheme_YouPopupMenuStyle
+        } else {
+            R.style.AppTheme_YouPopupMenuStyle_Light
+        }
     } else if (isWhiteTheme()) {
         R.style.AppTheme_PopupMenuLightStyle
     } else {
@@ -126,6 +157,15 @@ fun Context.syncGlobalConfig(callback: (() -> Unit)? = null) {
                         backgroundColor = it.backgroundColor
                         primaryColor = it.primaryColor
                         accentColor = it.accentColor
+
+                        if (it.fontType >= 0 && (fontType != it.fontType || fontName != it.fontName)) {
+                            fontType = it.fontType
+                            fontName = it.fontName
+                            if (it.fontType == FONT_TYPE_CUSTOM && it.fontName.isNotEmpty()) {
+                                ensureFontPresentLocally(it.fontName)
+                            }
+                            FontHelper.clearCache()
+                        }
 
                         if (baseConfig.appIconColor != it.appIconColor) {
                             baseConfig.appIconColor = it.appIconColor
@@ -168,13 +208,35 @@ fun Context.getGlobalConfig(cursorLoader: CursorLoader): GlobalConfig? {
                     accentColor = cursor.getIntValue(MyContentProvider.COL_ACCENT_COLOR),
                     appIconColor = cursor.getIntValue(MyContentProvider.COL_APP_ICON_COLOR),
                     showCheckmarksOnSwitches = cursor.getIntValue(MyContentProvider.COL_SHOW_CHECKMARKS_ON_SWITCHES) != 0,
-                    lastUpdatedTS = cursor.getIntValue(MyContentProvider.COL_LAST_UPDATED_TS)
+                    lastUpdatedTS = cursor.getIntValue(MyContentProvider.COL_LAST_UPDATED_TS),
+                    fontType = cursor.getIntValueOr(MyContentProvider.COL_FONT_TYPE, -1),
+                    fontName = cursor.getStringValueOr(MyContentProvider.COL_FONT_NAME, "")
                 )
-            } catch (e: Exception) {
+            } catch (_: Exception) {
             }
         }
     }
     return null
+}
+
+fun Context.ensureFontPresentLocally(fontName: String): Boolean {
+    if (fontName.isEmpty()) return false
+    val localFile = File(FontHelper.getFontsDir(this), fontName)
+    if (localFile.exists()) return true
+
+    val fontUri = MyContentProvider.FONTS_URI.buildUpon()
+        .appendPath(fontName)
+        .build()
+
+    return try {
+        contentResolver.openInputStream(fontUri)?.use { input ->
+            localFile.outputStream().use { output ->
+                input.copyTo(output)
+            }
+        } != null
+    } catch (_: Exception) {
+        false
+    }
 }
 
 fun Context.checkAppIconColor() {
@@ -194,7 +256,7 @@ fun Context.checkAppIconColor() {
 
 fun Context.toggleAppIconColor(appId: String, colorIndex: Int, color: Int, enable: Boolean) {
     val className = "${appId.removeSuffix(".debug")}.activities.SplashActivity${appIconColorStrings[colorIndex]}"
-    val state = if (enable) PackageManager.COMPONENT_ENABLED_STATE_ENABLED else PackageManager.COMPONENT_ENABLED_STATE_DISABLED
+    val state = if (enable) COMPONENT_ENABLED_STATE_ENABLED else COMPONENT_ENABLED_STATE_DISABLED
     try {
         packageManager.setComponentEnabledSetting(ComponentName(appId, className), state, PackageManager.DONT_KILL_APP)
         if (enable) {

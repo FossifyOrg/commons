@@ -608,6 +608,15 @@ open class BaseConfig(val context: Context) {
 
     var showCheckmarksOnSwitchesFlow = ::showCheckmarksOnSwitches.asFlowNonNull()
 
+    // Font customization
+    var fontType: Int
+        get() = prefs.getInt(CUSTOM_FONT_TYPE, FONT_TYPE_SYSTEM_DEFAULT)
+        set(customFontType) = prefs.edit().putInt(CUSTOM_FONT_TYPE, customFontType).apply()
+
+    var fontName: String
+        get() = prefs.getString(CUSTOM_FONT_FILE_NAME, "") ?: ""
+        set(customFontFileName) = prefs.edit().putString(CUSTOM_FONT_FILE_NAME, customFontFileName).apply()
+
     protected fun <T> KProperty0<T>.asFlow(emitOnCollect: Boolean = false): Flow<T?> =
         prefs.run { sharedPreferencesCallback(sendOnCollect = emitOnCollect) { this@asFlow.get() } }
 

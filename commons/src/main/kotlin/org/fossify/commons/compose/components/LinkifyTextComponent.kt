@@ -16,6 +16,7 @@ import org.fossify.commons.R
 import org.fossify.commons.compose.extensions.MyDevices
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.compose.theme.SimpleTheme
+import org.fossify.commons.extensions.applyFontToTextView
 import org.fossify.commons.extensions.fromHtml
 import org.fossify.commons.extensions.removeUnderlines
 
@@ -40,6 +41,8 @@ fun LinkifyTextComponent(
         textView.textAlignment = textAlignment
         textView.textSize = fontSize.value
         textView.movementMethod = LinkMovementMethod.getInstance()
+        context.applyFontToTextView(textView)
+
         if (removeUnderlines) {
             customLinkifyTextView.removeUnderlines()
         }
