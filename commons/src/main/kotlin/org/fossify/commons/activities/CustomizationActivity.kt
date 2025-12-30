@@ -28,6 +28,7 @@ import org.fossify.commons.extensions.getProperTextColor
 import org.fossify.commons.extensions.getThemeId
 import org.fossify.commons.extensions.isDynamicTheme
 import org.fossify.commons.extensions.isFontFile
+import org.fossify.commons.extensions.isOrWasThankYouInstalled
 import org.fossify.commons.extensions.isSystemInDarkMode
 import org.fossify.commons.extensions.isThankYouInstalled
 import org.fossify.commons.extensions.setFillWithStroke
@@ -592,6 +593,11 @@ class CustomizationActivity : BaseSimpleActivity() {
     }
 
     private fun fontPickerClicked() {
+        if (!resources.getBoolean(R.bool.hide_google_relations) && !isOrWasThankYouInstalled()) {
+            PurchaseThankYouDialog(this)
+            return
+        }
+
         val items = arrayListOf(
             RadioItem(FONT_TYPE_SYSTEM_DEFAULT, getString(R.string.system_default)),
             RadioItem(FONT_TYPE_MONOSPACE, getString(R.string.font_monospace)),
@@ -909,7 +915,6 @@ class CustomizationActivity : BaseSimpleActivity() {
         binding.applyToAllHolder.beVisibleIf(showThankYouFeatures)
         binding.applyToAllDivider.root.beVisibleIf(showThankYouFeatures)
         binding.settingsAllFossifyAppsLabel.beVisibleIf(showThankYouFeatures)
-        binding.settingsThemeAndColorsLabel.beVisibleIf(showThankYouFeatures)
         binding.applyToAllSwitch.isChecked = baseConfig.isGlobalThemeEnabled
         updateApplyToAllColors()
     }
