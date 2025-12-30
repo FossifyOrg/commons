@@ -1143,4 +1143,6 @@
         <item quantity="few">Datoteke uspješno spremljene</item>
         <item quantity="other">Datoteka uspješno spremljeno</item>
     </plurals>
+    <string name="badge_deprecated">(zastarjelo)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
