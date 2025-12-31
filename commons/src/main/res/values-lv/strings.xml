@@ -5,8 +5,8 @@
     <string name="phone_storage_hidden">Tālruņa krātuve (nav redzama citām lietotnēm)</string>
     <string name="requires_fossify_thank_you">Nepieciešama lietotne \"Fossify paldies\"</string>
     <string name="general_settings">Vispārīgi</string>
-    <string name="color_customization">Krāsu pielāgošana</string>
-    <string name="customize_colors">Pielāgot krāsas</string>
+    <string name="color_customization">Izskats un sajūtas</string>
+    <string name="customize_colors">Pielāgot izskatu</string>
     <string name="enables_more_customization">Iespējo vairāk pielāgojumu</string>
     <plurals name="column_counts">
         <item quantity="zero">%d sleju</item>
@@ -44,4 +44,5 @@
     <string name="label_with_badge">%1$s %2$s</string>
     <string name="frequently_asked_questions">Bieži uzdoti jautājumi</string>
     <string name="before_asking_question">Pirms jautājuma uzdošanas lūgums vispirms izlasīt</string>
+    <string name="theme_and_colors">Izskats un krāsas</string>
 </resources>
