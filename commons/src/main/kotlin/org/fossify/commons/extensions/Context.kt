@@ -1371,17 +1371,26 @@ fun Context.formatWithDeprecatedBadge(
     vararg labelArgs: Any
 ): CharSequence = formatWithBadge(labelRes, R.string.badge_deprecated, *labelArgs)
 
-fun Context.applyFontToTextView(textView: TextView, typeface: Typeface = FontHelper.getTypeface(this)) {
+fun Context.applyFontToTextView(
+    textView: TextView,
+    typeface: Typeface = FontHelper.getTypeface(this),
+    force: Boolean = false
+) {
+    if (typeface == Typeface.DEFAULT && !force) return // avoid unnecessary calls and overwrites
     val existingStyle = textView.typeface?.style ?: Typeface.NORMAL
     textView.setTypeface(typeface, existingStyle)
 }
 
-fun Context.applyFontToViewRecursively(view: View?, typeface: Typeface = FontHelper.getTypeface(this)) {
+fun Context.applyFontToViewRecursively(
+    view: View?,
+    typeface: Typeface = FontHelper.getTypeface(this),
+    force: Boolean = false
+) {
     if (view == null) return
-    if (view is TextView) applyFontToTextView(view, typeface)
+    if (view is TextView) applyFontToTextView(view, typeface, force)
     if (view is ViewGroup) {
         for (i in 0 until view.childCount) {
-            applyFontToViewRecursively(view.getChildAt(i), typeface)
+            applyFontToViewRecursively(view.getChildAt(i), typeface, force)
         }
     }
 }

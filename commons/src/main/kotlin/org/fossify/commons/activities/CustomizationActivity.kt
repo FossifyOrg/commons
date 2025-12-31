@@ -678,7 +678,8 @@ class CustomizationActivity : BaseSimpleActivity() {
         updateFontDisplay()
         applyFontToViewRecursively(
             view = window.decorView,
-            typeface = FontHelper.getTypeface(this, curFontType, curFontFileName)
+            typeface = FontHelper.getTypeface(this, curFontType, curFontFileName),
+            force = true
         )
         refreshMenuItems()
     }
