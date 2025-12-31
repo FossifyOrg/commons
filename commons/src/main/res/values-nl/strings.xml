@@ -579,8 +579,8 @@
     <string name="during_day_at_hh_mm">Overdag om uu:mm</string>
     <string name="settings">Instellingen</string>
     <string name="general_settings">Algemeen</string>
-    <string name="color_customization">Kleuren aanpassen</string>
-    <string name="customize_colors">Kleuren aanpassen</string>
+    <string name="color_customization">Vormgeving</string>
+    <string name="customize_colors">Uiterlijk aanpassen</string>
     <string name="feature_locked">Vergrendeld</string>
     <string name="customize_widget_colors">Widgetkleuren aanpassen</string>
     <string name="customize_notifications">Meldingen aanpassen</string>
@@ -959,7 +959,7 @@
     <string name="genre">Genre</string>
     <string name="camera">Camera</string>
     <string name="exif">EXIF</string>
-    <string name="apply_to_all_apps">Kleuren toepassen op alle Fossify apps</string>
+    <string name="apply_to_all_apps">Thema toepassen op alle Fossify apps</string>
     <string name="shared_theme_note">Ook bij gebruik van de Pro-versie van deze app komt Fossify Bedankje nog van pas, omdat het de synchronisatie van het gemeenschappelijke thema verzorgt.</string>
     <string name="purchase_thank_you"><![CDATA[
             Overweeg om <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen om deze functie te kunnen gebruiken en om verdere ontwikkeling te ondersteunen. Alvast bedankt!
@@ -1025,7 +1025,7 @@
     <string name="translation_belarusian">Wit-Russisch</string>
     <string name="translation_central_kurdish">Centraal Koerdisch</string>
     <string name="all_fossify_apps">Alle Fossify apps</string>
-    <string name="theme_and_colors">Thema en kleuren</string>
+    <string name="theme_and_colors">Thema &amp; kleuren</string>
     <string name="known_issues">Bekende problemen</string>
     <string name="during_day_at">Overdag om %1$02d.%2$02du</string>
     <string name="translation_kabyle">Kabylisch</string>
@@ -1047,4 +1047,9 @@
     </plurals>
     <string name="badge_deprecated">(uitgefaseerd)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Lettertype</string>
+    <string name="app_font">Lettertype app</string>
+    <string name="font_monospace">Monospace</string>
+    <string name="select_font_file">Bestand kiezen…</string>
+    <string name="invalid_font_file">Ongeldig lettertypebestand</string>
 </resources>
