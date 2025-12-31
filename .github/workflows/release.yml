@@ -49,7 +49,7 @@ jobs:
       - name: Trigger JitPack build
         run: |
           TAG='${{ needs.release.outputs.tag }}'
-          echo "Requesting JitPack build for v${TAG}"
+          echo "Requesting JitPack build for ${TAG}"
           curl -fsSL --max-time 10 "https://jitpack.io/org/fossify/commons/${TAG}/commons-${TAG}.pom" || true
 
       - name: Wait for JitPack to finish
@@ -57,19 +57,19 @@ jobs:
           TAG='${{ needs.release.outputs.tag }}'
           URL="https://jitpack.io/org/fossify/commons/${TAG}/commons-${TAG}.pom"
 
-          echo "Waiting for JitPack to build v${TAG}..."
+          echo "Waiting for JitPack to build ${TAG}..."
           sleep 120
-          for i in $(seq 1 30); do
-            echo "Attempt $i: checking ${URL}"
-            if curl -fsSIL --max-time 10 "${URL}" > /dev/null 2>&1; then
+          for i in $(seq 1 13); do
+            echo "Attempt $i: checking ${URL}?check=${i}"
+            if curl -fsSIL --max-time 10 "${URL}?check=${i}" > /dev/null 2>&1; then
               echo "JitPack build successful!"
               exit 0
             fi
             
-            sleep 30
+            sleep 60
           done
 
-          echo "Timed out waiting for JitPack build after 15 minutes."
+          echo "Timed out waiting for JitPack build."
           exit 1
 
   dispatch_update:
