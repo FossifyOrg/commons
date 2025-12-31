@@ -332,7 +332,7 @@
     <string name="undo_changes_confirmation">Sollen wirklich alle Änderungen verworfen werden\?</string>
     <string name="cannot_be_undone">Diese Aktion kann nicht rückgängig gemacht werden.</string>
     <string name="save_before_closing">Du hast ungespeicherte Änderungen. Speichern vor dem Beenden?</string>
-    <string name="apply_to_all_apps">Farben auf alle Fossify-Apps anwenden</string>
+    <string name="apply_to_all_apps">Farbschema auf alle Fossify-Apps anwenden</string>
     <string name="app_icon_color_warning">Achtung! Bestimmte Launcher können das Anpassen von App-Symbolen nicht richtig verarbeiten. Wenn das Symbol verschwindet, versuche, falls möglich, die App über Google Play oder ein Widget zu starten. Stelle nach dem Start die grüne Standard-Symbolfarbe #106D1F wieder her. In extremen Fällen kann es notwendig sein, die App neu zu installieren.</string>
     <string name="global_theme_success">Das aktuelle Farbschema wurde erfolgreich auf alle Fossify-Apps angewendet. Alle zukünftigen Änderungen an diesem Farbschema werden automatisch synchronisiert.</string>
     <string name="shared_theme_note">Beachte, dass du aus technischen Gründen immer noch Fossify Thank You benötigst, auch wenn du die Pro-App-Version verwendest. Es kümmert sich um die Farbsynchronisation.</string>
@@ -610,7 +610,7 @@
     <string name="settings">Einstellungen</string>
     <string name="purchase_simple_thank_you">Fossify Thank You kaufen</string>
     <string name="general_settings">Allgemein</string>
-    <string name="color_customization">Look &amp; feel</string>
+    <string name="color_customization">Look and Feel</string>
     <string name="customize_colors">Aussehen anpassen</string>
     <string name="feature_locked">Gesperrt</string>
     <string name="customize_widget_colors">Widget-Farben anpassen</string>
@@ -1108,6 +1108,6 @@
     <string name="font">Schriftart</string>
     <string name="app_font">App-Schriftart</string>
     <string name="font_monospace">Monospace</string>
-    <string name="select_font_file">Schriftartdatei auswählen…</string>
+    <string name="select_font_file">Schriftartdatei auswählen …</string>
     <string name="invalid_font_file">Ungültige Schriftartdatei</string>
 </resources>
