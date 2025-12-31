@@ -322,7 +322,7 @@
     <string name="use_default">Χρήση προεπιλογής</string>
     <string name="default_color">Προεπιλογή</string>
     <string name="change_color">Αλλαγή χρώματος</string>
-    <string name="theme">Θέμα</string>
+    <string name="theme">Θέμα εφαρμογής</string>
     <string name="changing_color_description">Η αλλαγή ενός χρώματος θα αλλάξει το Προεπιλεγμένο θέμα</string>
     <string name="save">Αποθήκευση</string>
     <string name="discard">Απόρριψη</string>
@@ -603,8 +603,8 @@
     <string name="during_day_at">Κατά τη διάρκεια της ημέρας στις %1$02d:%2$02d</string>
     <string name="settings">Ρυθμίσεις</string>
     <string name="general_settings">Γενικά</string>
-    <string name="color_customization">Προσαρμογή χρώματος</string>
-    <string name="customize_colors">Προσαρμογή χρωμάτων</string>
+    <string name="color_customization">Εμφάνιση &amp; αίσθηση</string>
+    <string name="customize_colors">Προσαρμογή εμφάνισης</string>
     <string name="feature_locked">Κλειδωμένο</string>
     <string name="customize_widget_colors">Προσαρμογή χρωμάτων widget</string>
     <string name="customize_notifications">Προσαρμογή ειδοποιήσεων</string>
@@ -950,9 +950,9 @@
     <string name="donate_to_fossify">Δωρεά στο Fossify</string>
     <string name="more_fossify_apps">Περισσότερες εφαρμογές Fossify</string>
     <string name="faq_6_text_commons">Αυτό το πρόβλημα προκύπτει όταν το πρόγραμμα εκκίνησης δεν υποστηρίζει πλήρως την προσαρμογή εικονιδίων. Δοκιμάστε να εκκινήσετε την εφαρμογή μέσω του Google Play ή ενός γραφικού στοιχείου, εάν είναι προσβάσιμο. Μετά την εκκίνηση, επαναφέρετε το προεπιλεγμένο πράσινο χρώμα εικονιδίου #106D1F. Σε ακραίες περιπτώσεις, ενδέχεται να χρειαστεί επανεγκατάσταση της εφαρμογής.</string>
-    <string name="theme_and_colors">Θέμα και χρώματα</string>
+    <string name="theme_and_colors">Χρώματα θέματος</string>
     <string name="app_icon_color_warning">Προσοχή: Ορισμένα προγράμματα εκκίνησης ενδέχεται να μην χειρίζονται σωστά την προσαρμογή εικονιδίων εφαρμογών. Εάν το εικονίδιο εξαφανιστεί, δοκιμάστε να εκκινήσετε την εφαρμογή μέσω του Google Play ή ενός γραφικού στοιχείου, εάν είναι προσβάσιμο. Μετά την εκκίνηση, επαναφέρετε το προεπιλεγμένο πράσινο χρώμα εικονιδίου #106D1F. Σε ακραίες περιπτώσεις, ενδέχεται να χρειαστεί επανεγκατάσταση της εφαρμογής.</string>
-    <string name="apply_to_all_apps">Εφαρμογή χρωμάτων σε όλες τις εφαρμογές Fossify</string>
+    <string name="apply_to_all_apps">Εφαρμογή θέματος σε όλες τις εφαρμογές Fossify</string>
     <string name="donate_new">Γεια σας,&lt;br&gt;&lt;br&gt;Ελπίζω να απολαμβάνετε την εφαρμογή. Δεν περιέχει διαφημίσεις και δεν συλλέγουμε τα δεδομένα σας. Παρακαλούμε υποστηρίξτε την ανάπτυξή της αγοράζοντας το &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Ευχαριστώ&lt;/a&gt;. Θα έχετε επίσης όλες τις λειτουργίες της εφαρμογής, συμπεριλαμβανομένης της προσαρμογής χρωμάτων, ξεκλειδωμένες.&lt;br&gt;&lt;br&gt;Ευχαριστούμε!</string>
     <string name="donate_short">Υποστηρίξτε μας αγοράζοντας το &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Ευχαριστώ&lt;/a&gt;. Θα ξεκλειδώσει επίσης όλες τις λειτουργίες της εφαρμογής, συμπεριλαμβανομένης της προσαρμογής χρωμάτων.</string>
     <string name="all_fossify_apps">Όλες οι εφαρμογές Fossify</string>
@@ -965,4 +965,9 @@
     <string name="little_to_no_fee">Μικρή έως καθόλου χρέωση</string>
     <string name="fee_up_to_pct">Μέχρι %1$d%% χρέωση</string>
     <string name="cryptocurrency">Κρυπτονομίσματα</string>
+    <string name="invalid_font_file">Μη έγκυρο αρχείο γραμματοσειράς</string>
+    <string name="select_font_file">Επιλογή αρχείου γραμματοσειράς…</string>
+    <string name="font_monospace">Monospace</string>
+    <string name="app_font">Γραμματοσειρά εφαρμογής</string>
+    <string name="font">Γραμματοσειρά</string>
 </resources>
