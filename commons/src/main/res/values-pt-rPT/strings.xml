@@ -518,7 +518,7 @@
     <string name="during_day_at_hh_mm">Durante o dia às hh:mm</string>
     <string name="during_day_at">Durante o dia às %1$02d:%2$02d</string>
     <string name="general_settings">Geral</string>
-    <string name="customize_colors">Personalizar cores</string>
+    <string name="customize_colors">Personalizar aparência</string>
     <string name="feature_locked">Trancado</string>
     <string name="customize_notifications">Personalizar notificações</string>
     <string name="customize_widget_colors">Personalizar cores de widget</string>
@@ -915,7 +915,7 @@
         <item quantity="other">Excluindo %d itens</item>
     </plurals>
     <string name="hours_letter">%dh</string>
-    <string name="color_customization">Personalização de cores</string>
+    <string name="color_customization">Aspeto e tato</string>
     <string name="backups">Cópias de segurança</string>
     <string name="enable_automatic_backups">Ativar backups automáticos</string>
     <string name="usb">USB</string>
@@ -990,7 +990,7 @@
     <string name="other_help">Outra ajuda</string>
     <string name="translation_croatian">Croata</string>
     <string name="translation_hungarian">Húngaro</string>
-    <string name="apply_to_all_apps">Aplica cores para todos os Apps Fossify</string>
+    <string name="apply_to_all_apps">Aplica tema para todas as Apps Fossify</string>
     <plurals name="in_seconds">
         <item quantity="one">%d segundo</item>
         <item quantity="many">%d segundos</item>
@@ -1077,4 +1077,24 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <string name="trial_end_description">Por favor, atualize para a versão Pro para aproveitar a app ao máximo.\n\nSó precisa pagar por ele uma única vez e, se não ficar satisfeito, pode desinstalá-lo e obter um reembolso.\n\nVejo-o lá :)</string>
     <string name="days_letter">%dd</string>
     <string name="translation_latvian">Letão</string>
+    <plurals name="files_saved">
+        <item quantity="one">Ficheiro guardado com sucesso</item>
+        <item quantity="many">Ficheiros guardados com sucesso</item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="confirm_storage_access_restricted_text">Devido a restrições do sistema, esta pasta não está disponível.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Abrir na aplicação do sistema</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Não foi possível encontrar uma app de gestor de ficheiros do sistema.</string>
+    <string name="requires_fossify_thank_you">Requer Fossify Thank You</string>
+    <string name="enables_more_customization">Permite maior personalização</string>
+    <string name="font">Fonte</string>
+    <string name="app_font">Fonte da App</string>
+    <string name="font_monospace">Monoespaçada</string>
+    <string name="select_font_file">Selecione o ficheiro de fonte…</string>
+    <string name="invalid_font_file">Ficheiro de fonte inválido</string>
+    <string name="more_fossify_apps">Mais apps Fossify</string>
+    <string name="rate_this_app">Avalie esta app</string>
+    <string name="badge_deprecated">Remoção de funcionalidade</string>
+    <string name="label_with_badge">%1$s %2$s</string>
+    <string name="evalex_title">EvalEx (avaliação de expressões matemáticas)</string>
 </resources>
