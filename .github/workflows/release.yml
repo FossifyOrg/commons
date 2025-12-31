@@ -58,7 +58,7 @@ jobs:
           URL="https://jitpack.io/org/fossify/commons/${TAG}/commons-${TAG}.pom"
 
           echo "Waiting for JitPack to build ${TAG}..."
-          sleep 120
+          sleep 240
           for i in $(seq 1 13); do
             echo "Attempt $i: checking ${URL}?check=${i}"
             if curl -fsSIL --max-time 10 "${URL}?check=${i}" > /dev/null 2>&1; then
