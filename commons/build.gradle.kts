@@ -13,7 +13,7 @@ plugins {
 }
 
 group = "org.fossify"
-version = "1.0.0"
+version = findProperty("VERSION")?.toString() ?: System.getenv("VERSION") ?: "1.0.0"
 
 android {
     namespace = "org.fossify.commons"
