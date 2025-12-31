@@ -200,7 +200,7 @@
     <string name="use_default">使用預設</string>
     <string name="default_color">預設</string>
     <string name="change_color">改變顏色</string>
-    <string name="theme">主題</string>
+    <string name="theme">應用程式佈景主題</string>
     <string name="changing_color_description">改變顏色將切換成[自訂]主題</string>
     <string name="save">儲存</string>
     <string name="discard">丟棄</string>
@@ -401,9 +401,9 @@
     <string name="add_new_sound">新增新的音效</string>
     <string name="no_sound">無音效</string>
     <string name="settings">設定</string>
-    <string name="customize_colors">自訂顏色</string>
+    <string name="customize_colors">自訂外觀</string>
     <string name="customize_widget_colors">自訂小工具顏色</string>
-    <string name="use_english_language">強制使用英語</string>
+    <string name="use_english_language">使用英語</string>
     <string name="show_hidden_items">顯示隱藏項目</string>
     <string name="font_size">字體大小</string>
     <string name="small">小</string>
@@ -686,7 +686,7 @@
     <string name="search_files_and_folders">搜尋檔案與資料夾</string>
     <string name="search_playlists">搜尋播放清單</string>
     <string name="no_permission">無權限</string>
-    <string name="color_customization">自訂色彩</string>
+    <string name="color_customization">外觀與感覺</string>
     <string name="language">語言</string>
     <string name="search_in_placeholder">在 %s 搜尋</string>
     <string name="insert_text_here">插入文字</string>
@@ -753,7 +753,7 @@
     <string name="block_contact_fail">聯絡人無法被封鎖</string>
     <string name="unblock_contact">解除封鎖聯絡人</string>
     <string name="format_phone_numbers">設定電話號碼格式</string>
-    <string name="theme_and_colors">主題與色彩</string>
+    <string name="theme_and_colors">佈景主題與色彩</string>
     <string name="all_fossify_apps">所有 Fossify 應用程式</string>
     <string name="authenticate">驗證</string>
     <string name="biometrics">生物特徵</string>
@@ -906,7 +906,7 @@
     <string name="genre">類型</string>
     <string name="remove_exif_confirmation">您確定要移除 EXIF 資訊，例如 GPS 座標、相機型號等等嗎？</string>
     <string name="exif_removed">已成功移除 EXIF 資訊</string>
-    <string name="apply_to_all_apps">將顏色套用至所有 Fossify 應用程式</string>
+    <string name="apply_to_all_apps">將佈景主題套用至所有 Fossify 應用程式</string>
     <string name="auto_theme">自動</string>
     <string name="select_text">選取文字</string>
     <string name="allow_access_more_media">允許存取更多媒體</string>
@@ -1048,4 +1048,9 @@
     </plurals>
     <string name="badge_deprecated">（已棄用）</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">字型</string>
+    <string name="app_font">應用程式字型</string>
+    <string name="font_monospace">等寬</string>
+    <string name="select_font_file">選取字型檔案……</string>
+    <string name="invalid_font_file">無效的字型檔</string>
 </resources>
