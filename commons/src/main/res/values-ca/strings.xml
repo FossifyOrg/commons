@@ -330,7 +330,7 @@
     <string name="use_default">Utilitza el valor predeterminat</string>
     <string name="default_color">Predeterminat</string>
     <string name="change_color">Canvia el color</string>
-    <string name="theme">Tema</string>
+    <string name="theme">Tema de l\'aplicació</string>
     <string name="changing_color_description">Si canvieu un color, canviarà al tema personalitzat</string>
     <string name="save">Desa</string>
     <string name="discard">Descarta</string>
@@ -629,8 +629,8 @@
     <string name="during_day_at_hh_mm">Durant el dia a les hh:mm</string>
     <string name="during_day_at">Durant el dia a les %1$02d:%2$02d</string>
     <string name="settings">Configuració</string>
-    <string name="color_customization">Personalització del color</string>
-    <string name="customize_colors">Personalitza els colors</string>
+    <string name="color_customization">Aspecte i comportament</string>
+    <string name="customize_colors">Personalitza l\'aparença</string>
     <string name="feature_locked">Bloquejat</string>
     <string name="customize_widget_colors">Personalitza els colors dels ginys</string>
     <string name="customize_notifications">Personalitza les notificacions</string>
@@ -1072,7 +1072,7 @@
     <string name="zero">Zero</string>
     <string name="audio">Àudio</string>
     <string name="genre">Gènere</string>
-    <string name="apply_to_all_apps">Aplicar els colors a totes les aplicacions de Fossify</string>
+    <string name="apply_to_all_apps">Aplicar el tema a totes les aplicacions de Fossify</string>
     <string name="purchase_thank_you"><![CDATA[
             Compreu la <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> per a desbloquejar aquesta característica i col·laborar amb el desenvolupament. Gràcies!
         ]]></string>
@@ -1146,4 +1146,9 @@
     </plurals>
     <string name="badge_deprecated">(obsoleta)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Lletra</string>
+    <string name="app_font">Lletra de l\'aplicació</string>
+    <string name="font_monospace">Monoespai</string>
+    <string name="select_font_file">Selecciona un fitxer de lletra…</string>
+    <string name="invalid_font_file">Fitxer de lletra no vàlid</string>
 </resources>
