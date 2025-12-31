@@ -337,7 +337,7 @@
     <string name="use_default">Использовать по умолчанию</string>
     <string name="default_color">По умолчанию</string>
     <string name="change_color">Изменить цвет</string>
-    <string name="theme">Тема</string>
+    <string name="theme">Тема приложения</string>
     <string name="changing_color_description">Изменение цвета приведёт к переключению на пользовательскую тему</string>
     <string name="save">Сохранить</string>
     <string name="discard">Нет</string>
@@ -647,8 +647,8 @@
     <string name="during_day_at">В течение дня в %1$02d:%2$02d</string>
     <string name="settings">Настройки</string>
     <string name="general_settings">Общие</string>
-    <string name="color_customization">Настройка цвета</string>
-    <string name="customize_colors">Настройка интерфейса</string>
+    <string name="color_customization">Внешний вид</string>
+    <string name="customize_colors">Настройка внешнего вида</string>
     <string name="feature_locked">Заблокировано</string>
     <string name="customize_widget_colors">Настройка цветов виджета</string>
     <string name="customize_notifications">Настройка уведомлений</string>
@@ -1106,7 +1106,7 @@
     <string name="ok">OK</string>
     <string name="block_contact">Заблокировать контакт</string>
     <string name="exif">EXIF</string>
-    <string name="apply_to_all_apps">Применить цвета ко всем приложениям Fossify</string>
+    <string name="apply_to_all_apps">Применить тему ко всем приложениям Fossify</string>
     <string name="purchase_simple_thank_you">Купить Fossify Thank You</string>
     <string name="usb">USB</string>
     <string name="donate_please"><![CDATA[
@@ -1152,4 +1152,9 @@
     </plurals>
     <string name="badge_deprecated">(устарело)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Шрифт</string>
+    <string name="app_font">Шрифт приложения</string>
+    <string name="font_monospace">Моноширинный</string>
+    <string name="select_font_file">Выбор файла шрифта…</string>
+    <string name="invalid_font_file">Недопустимый файл шрифта</string>
 </resources>
