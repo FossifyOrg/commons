@@ -336,7 +336,7 @@
     <string name="use_default">Використовувати типово</string>
     <string name="default_color">Типово</string>
     <string name="change_color">Змінити колір</string>
-    <string name="theme">Тема</string>
+    <string name="theme">Тема програми</string>
     <string name="changing_color_description">Зміна кольору увімкне Користувацьку тему</string>
     <string name="save">Зберегти</string>
     <string name="discard">Відмовитися</string>
@@ -674,8 +674,8 @@
     <string name="during_day_at">Протягом дня о %1$02d:%2$02d</string>
     <string name="settings">Налаштування</string>
     <string name="general_settings">Загальні</string>
-    <string name="color_customization">Налаштування кольору</string>
-    <string name="customize_colors">Налаштувати кольори</string>
+    <string name="color_customization">Зовнішній вигляд і відчуття</string>
+    <string name="customize_colors">Налаштувати зовнішній вигляд</string>
     <string name="feature_locked">Заблоковано</string>
     <string name="customize_widget_colors">Налаштувати кольори віджета</string>
     <string name="customize_notifications">Налаштувати повідомлення</string>
@@ -1128,7 +1128,7 @@
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="ok">OK</string>
     <string name="exif">EXIF</string>
-    <string name="apply_to_all_apps">Застосувати кольори до всіх застосунків Fossify</string>
+    <string name="apply_to_all_apps">Застосувати тему до всіх програм Fossify</string>
     <string name="shared_theme_note">Зауважте, що навіть якщо ви використовуєте Pro версію застосунку, вам все ще потрібен Fossify Thank You з технічних причин. Саме він забезпечує синхронізацію кольорів.</string>
     <string name="week_number_short">тиж.</string>
     <string name="usb">USB</string>
@@ -1174,4 +1174,9 @@
     </plurals>
     <string name="badge_deprecated">(застарілий)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Шрифт</string>
+    <string name="app_font">Шрифт програми</string>
+    <string name="font_monospace">Моноширинний</string>
+    <string name="select_font_file">Вибрати файл шрифту…</string>
+    <string name="invalid_font_file">Недійсний файл шрифту</string>
 </resources>
