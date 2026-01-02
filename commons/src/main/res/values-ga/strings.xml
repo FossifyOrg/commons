@@ -12,7 +12,7 @@
     <string name="during_day_at_hh_mm">I rith an lae ag hh:mm</string>
     <string name="settings">Socruithe</string>
     <string name="purchase_simple_thank_you">Ceannaigh Fossify Go raibh maith agat</string>
-    <string name="customize_colors">Saincheap dathanna</string>
+    <string name="customize_colors">Saincheap an chuma</string>
     <string name="feature_locked">Faoi Ghlas</string>
     <string name="customize_widget_colors">Saincheap dathanna giuirléidí</string>
     <string name="customize_notifications">Saincheap fógraí</string>
@@ -501,8 +501,8 @@
     <string name="alarm">Aláram</string>
     <string name="snooze">SnoozeName</string>
     <string name="general_settings">Ginearálta</string>
-    <string name="color_customization">Saincheapadh datha</string>
-    <string name="theme_and_colors">Téama agus dathanna</string>
+    <string name="color_customization">Breathnú &amp; mothú</string>
+    <string name="theme_and_colors">Téama &amp; dathanna</string>
     <string name="sunday_first">Seachtain tosaithe ar an Domhnach</string>
     <string name="security">Slándáil</string>
     <string name="main_screen">Príomhscáileán</string>
@@ -835,14 +835,14 @@
     <string name="use_default">Úsáid réamhshocrú</string>
     <string name="default_color">Réamhshocrú</string>
     <string name="change_color">Athraigh dath</string>
-    <string name="theme">Téama</string>
+    <string name="theme">Téama an aip</string>
     <string name="changing_color_description">Má athraítear dath, aistreoidh sé go téama saincheaptha</string>
     <string name="save">Sábháil</string>
     <string name="discard">Ná Sábháil</string>
     <string name="undo_changes">Cealaigh athruithe</string>
     <string name="cannot_be_undone">Ní féidir an gníomh seo a chealú.</string>
     <string name="save_before_closing">Tá athruithe gan sábháil agat. Sábháil roimh scor?</string>
-    <string name="apply_to_all_apps">Cuir dathanna i bhfeidhm ar gach Feidhmchlár Fossify</string>
+    <string name="apply_to_all_apps">Cuir an téama i bhfeidhm ar gach Aip Fossify</string>
     <string name="app_icon_color_warning">Rabhadh: Ní fhéadfaidh lainseálaithe áirithe saincheaptha deilbhín feidhmchláir a láimhseáil i gceart. Má imíonn an deilbhín, déan iarracht an aip a sheoladh trí Google Play nó giuirléid, más inrochtana. Tar éis seoladh, athchóirigh an #106D1F réamhshocraithe dath deilbhín glas. I gcásanna tromchúiseacha, d\'fhéadfadh sé go mbeadh gá leis an aip a athshuiteáil.</string>
     <string name="white">Bán</string>
     <string name="shared_theme_note">Tabhair faoi deara, cé go bhfuil an leagan Pro app á úsáid agat, ní mór duit fós Fossify Thank You ar chúiseanna teicniúla. Tugann sé aire don sioncrónú datha.</string>
@@ -1168,4 +1168,9 @@
     </plurals>
     <string name="badge_deprecated">(as feidhm)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Cló</string>
+    <string name="app_font">Cló an aip</string>
+    <string name="font_monospace">Aonspás</string>
+    <string name="select_font_file">Roghnaigh comhad cló…</string>
+    <string name="invalid_font_file">Comhad cló neamhbhailí</string>
 </resources>
