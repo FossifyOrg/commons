@@ -970,4 +970,8 @@
     <string name="font_monospace">Monospace</string>
     <string name="app_font">Γραμματοσειρά εφαρμογής</string>
     <string name="font">Γραμματοσειρά</string>
+    <plurals name="files_saved">
+        <item quantity="one">Το αρχείο αποθηκεύτηκε επιτυχώς.</item>
+        <item quantity="other">Τα αρχεία αποθηκεύτηκαν επιτυχώς.</item>
+    </plurals>
 </resources>
