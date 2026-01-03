@@ -118,7 +118,7 @@
     <string name="import_blocked_numbers">导入已屏蔽的号码</string>
     <string name="must_make_default_dialer">您必须将此应用设置为默认拨号器应用才能使用已屏蔽的号码。</string>
     <string name="set_as_default">设为默认</string>
-    <string name="block_confirmation">是否确定要屏蔽“%s”？</string>
+    <string name="block_confirmation">确定要屏蔽“%s”？</string>
     <string name="block_unknown_calls">屏蔽不在联系人中的号码的来电</string>
     <string name="block_hidden_calls">屏蔽隐藏号码的来电</string>
     <string name="block_unknown_messages">屏蔽不在联系人中的号码的信息</string>
@@ -421,7 +421,7 @@
     <string name="change_order">更改排序</string>
     <string name="more_options">更多选项</string>
     <string name="proceed_with_deletion">您确定要继续删除吗？</string>
-    <string name="deletion_confirmation">您确定要删除 %s 吗？</string>
+    <string name="deletion_confirmation">确定要删除 %s？</string>
     <string name="move_to_recycle_bin_confirmation">您确定要移动 %s 到回收站吗？</string>
     <string name="are_you_sure_delete">您确定要删除此项目吗？</string>
     <string name="are_you_sure_recycle_bin">您确定要移动此项目到回收站吗？</string>
