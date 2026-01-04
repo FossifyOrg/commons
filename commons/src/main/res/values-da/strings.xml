@@ -314,7 +314,7 @@
     <string name="use_default">Anvend standard</string>
     <string name="default_color">Standard</string>
     <string name="change_color">Skift farve</string>
-    <string name="theme">Udseende</string>
+    <string name="theme">Appens udseende</string>
     <string name="changing_color_description">Ændring af farve vil også medføre skift til tilpasset udseende</string>
     <string name="save">Gem</string>
     <string name="discard">Kassér</string>
@@ -579,8 +579,8 @@
     <string name="during_day_at">I løbet af dagen kl. %1$02d:%2$02d</string>
     <string name="settings">Indstillinger</string>
     <string name="general_settings">Generelt</string>
-    <string name="color_customization">Farvetilpasning</string>
-    <string name="customize_colors">Redigér farver</string>
+    <string name="color_customization">Se &amp; mærk</string>
+    <string name="customize_colors">Redigér udseende</string>
     <string name="feature_locked">Låst</string>
     <string name="customize_widget_colors">Redigér widget-farver</string>
     <string name="customize_notifications">Tilpas notifikationer</string>
@@ -977,7 +977,7 @@
     <string name="album">Album</string>
     <string name="genre">Genre</string>
     <string name="exif">EXIF</string>
-    <string name="apply_to_all_apps">Anvend farver på alle Fossify-apps</string>
+    <string name="apply_to_all_apps">Anvend tema på alle Fossify-apps</string>
     <string name="app_icon_color_warning">Advarsel: Visse launchere håndterer muligvis ikke tilpasning af appikoner korrekt. Hvis ikonet forsvinder, kan du prøve at starte appen via Google Play eller en widget, hvis tilgængelig. Efter start skal du gendanne den grønne standardikonfarve #106D1F. I ekstreme tilfælde kan det være nødvendigt at geninstallere appen.</string>
     <string name="shared_theme_note">Bemærk, at selvom du bruger Pro-versionen af appen, skal du stadig bruge Fossify \"Thank You\" af tekniske årsager. Det tager sig af farvesynkroniseringen.</string>
     <string name="auto_theme">Auto</string>
@@ -1003,7 +1003,7 @@
     <string name="alarm">Alarm</string>
     <string name="purchase_simple_thank_you">Køb Fossify \"Thank You\"</string>
     <string name="requires_fossify_thank_you">Kræver Fossify Thank You</string>
-    <string name="theme_and_colors">Tema og farver</string>
+    <string name="theme_and_colors">Tema &amp; farver</string>
     <string name="medium">Medium</string>
     <string name="start_week_on">Start ugen på</string>
     <string name="widgets">Widgets</string>
@@ -1071,4 +1071,8 @@
     <string name="draw_short">Tegn</string>
     <string name="badge_deprecated">(forældet)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Skrifttype</string>
+    <string name="app_font">App-skrifttype</string>
+    <string name="select_font_file">Vælg skrifttypefil…</string>
+    <string name="invalid_font_file">Ugyldig skrifttypefil</string>
 </resources>
