@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="ok">OK</string>
+    <string name="transparent_color">Transparent colour</string>
+    <string name="select_a_different_color">Select a different colour</string>
 </resources>
