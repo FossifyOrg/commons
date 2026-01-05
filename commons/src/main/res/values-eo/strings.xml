@@ -421,7 +421,7 @@
     <string name="custom">Laŭmenda</string>
     <string name="system_default">Sistema defaŭlto</string>
     <string name="use_default">Uzi defaŭlton</string>
-    <string name="theme">Etoso</string>
+    <string name="theme">Aplikaĵa etoso</string>
     <string name="foreground_color">Malfona koloro</string>
     <string name="app_icon_color">Koloro de la aplikaĵa bildsimbolo</string>
     <string name="bottom_navigation_bar_color">Koloro de la malsupra naviga breto</string>
@@ -449,7 +449,7 @@
     <string name="whats_new_disclaimer">* nur la plej grandaj ĝisdatigoj aperas ĉi tie, sed ĉiam ankaŭ estas malpli grandaj plibonigoj</string>
     <string name="global_theme_success">La aktuala etoso estis sukcese aplikata al ĉiuj aplikaĵoj de Fossify. De nun, ŝanĝoj al tiu ĉi etoso estos aŭtomate sinkronigitaj.</string>
     <string name="app_icon_color_warning">Atentu: Kelkaj lanĉiloj eble ne traktos ĝuste la tajloradon de aplikaĵaj bildsimboloj. Se la bildsimbolo malaperas, provu lanĉi la aplikaĵon per Google Play aŭ fenestraĵo, se tio eblas. Post lanĉi ĝin, restaŭru la defaŭltan verdan koloron #106D1F de la bildsimbolo. En ekstremaj kazoj, eble endos reinstali la aplikaĵon.</string>
-    <string name="apply_to_all_apps">Apliki kolorojn al ĉiuj aplikaĵoj de Fossify</string>
+    <string name="apply_to_all_apps">Apliki etoson al ĉiuj aplikaĵoj de Fossify</string>
     <string name="faq_6_text_commons">Tiu ĉi problemo aperas kiam via lanĉilo ne tute subtenas la tajloradon de bildsimboloj. Provu lanĉi la aplikaĵon per Google Play aŭ fenestraĵo, se tio eblas. Post lanĉi ĝin, restaŭru la defaŭltan verdan koloron #106D1F de la bildsimbolo. En ekstremaj kazoj, eble endos reinstali la aplikaĵon.</string>
     <string name="maximum_share_reached">Ne eblas kunhavigi tiom ĉi da enhavo samtempe</string>
     <string name="send_email">Sendi retmesaĝon</string>
@@ -698,7 +698,7 @@
     <string name="small">Malgranda</string>
     <string name="show_hidden_items">Montri kaŝitajn elementojn</string>
     <string name="notification_sound">Sciigosono</string>
-    <string name="customize_colors">Tajlori kolorojn</string>
+    <string name="customize_colors">Tajlori aspekton</string>
     <string name="during_day_at">Dum la tago je %1$02d:%2$02d</string>
     <string name="purchase_simple_thank_you">Aĉeti Fossify Dankon</string>
     <string name="no_reminder">Neniu memorigilo</string>
@@ -713,7 +713,7 @@
     <string name="during_day_at_hh_mm">Dum la tago je hh:mm</string>
     <string name="settings">Agordoj</string>
     <string name="general_settings">Ĝenerala</string>
-    <string name="color_customization">Tajlorado de koloroj</string>
+    <string name="color_customization">Aspekto</string>
     <string name="customize_widget_colors">Tajlori fenestraĵajn kolorojn</string>
     <string name="customize_notifications">Tajlori sciigojn</string>
     <string name="use_english_language">Uzi la anglan lingvon</string>
@@ -722,7 +722,7 @@
     <string name="medium">Meza</string>
     <string name="large">Granda</string>
     <string name="extra_large">Grandega</string>
-    <string name="theme_and_colors">Etoso kaj koloroj</string>
+    <string name="theme_and_colors">Etoso &amp; koloroj</string>
     <string name="use_24_hour_time_format">Uzi horaranĝon de 24 horoj</string>
     <string name="change_date_and_time_format">Ŝanĝi la horan kaj datan aranĝojn</string>
     <string name="hide_the_recycle_bin">Kaŝi rubujon</string>
@@ -1054,4 +1054,9 @@
     </plurals>
     <string name="badge_deprecated">(evitinda)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Tiparo</string>
+    <string name="app_font">Aplikaĵa tiparo</string>
+    <string name="font_monospace">Egallarĝa</string>
+    <string name="select_font_file">Elekti tiparodosieron…</string>
+    <string name="invalid_font_file">Nevalida tiparodosiero</string>
 </resources>
