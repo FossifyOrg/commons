@@ -105,7 +105,7 @@
         <item quantity="one">%d række</item>
         <item quantity="other">%d rækker</item>
     </plurals>
-    <string name="manage_blocked_numbers">Administrer blokerede numre</string>
+    <string name="manage_blocked_numbers">Administrér blokerede numre</string>
     <string name="not_blocking_anyone">Du blokerer ikke nogen.</string>
     <string name="add_a_blocked_number">Tilføj et blokeret nummer</string>
     <string name="block_number">Bloker nummer</string>
@@ -916,7 +916,7 @@
     <string name="why_upgrade_background_color_customization">Selvvalgt baggrundsfarve</string>
     <string name="why_upgrade_file_importing">Understøtter filimport</string>
     <string name="why_upgrade_zooming">Zoomer</string>
-    <string name="third_party_licences">3.-parts licencer</string>
+    <string name="third_party_licences">3.-parts licenser</string>
     <string name="kotlin_title">Kotlin (programmeringssprog)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoombar billedvisning)</string>
     <string name="glide_title">Glide (billedindlæsning og -caching)</string>
