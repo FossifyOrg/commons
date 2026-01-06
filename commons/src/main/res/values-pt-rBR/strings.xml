@@ -294,7 +294,7 @@
     <string name="use_default">Usar padrão</string>
     <string name="default_color">Padrão</string>
     <string name="change_color">Mudar cor</string>
-    <string name="theme">Tema</string>
+    <string name="theme">Tema do aplicativo</string>
     <string name="changing_color_description">Alterar uma cor fará com que mude para o tema Personalizado</string>
     <string name="save">Salvar</string>
     <string name="discard">Descartar</string>
@@ -583,8 +583,8 @@
     <string name="during_day_at_hh_mm">Durante o dia às hh:mm</string>
     <string name="during_day_at">Durante o dia às %1$02d:%2$02d</string>
     <string name="settings">Configurações</string>
-    <string name="color_customization">Personalização de cores</string>
-    <string name="customize_colors">Personalizar cores</string>
+    <string name="color_customization">Aparência</string>
+    <string name="customize_colors">Personalizar aparência</string>
     <string name="feature_locked">Trancado</string>
     <string name="customize_widget_colors">Personalizar cores de widget</string>
     <string name="customize_notifications">Personalizar notificações</string>
@@ -944,7 +944,7 @@
     <string name="april_short">Abr</string>
     <string name="tuesday_letter">T</string>
     <string name="saturday_letter">S</string>
-    <string name="apply_to_all_apps">Aplica cores para todos os Apps Fossify</string>
+    <string name="apply_to_all_apps">Aplicar tema a todos os aplicativos Fossify</string>
     <string name="unblock">Desbloquear</string>
     <string name="too_many_incorrect_attempts">Muitas tentativas de desbloqueio incorretas.\nTente novamente em %d segundos.</string>
     <string name="more_options">Mais opções</string>
@@ -1105,4 +1105,9 @@ Obrigado a todos os contribuidores e outros apoiadores!
     </plurals>
     <string name="badge_deprecated">(obsoleto)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Fonte</string>
+    <string name="app_font">Fonte do aplicativo</string>
+    <string name="font_monospace">Monoespaçada</string>
+    <string name="select_font_file">Selecione o arquivo da fonte…</string>
+    <string name="invalid_font_file">Arquivo de fonte inválido</string>
 </resources>
