@@ -323,7 +323,7 @@
     <string name="use_default">Öntanımlıyı kullan</string>
     <string name="default_color">Öntanımlı</string>
     <string name="change_color">Rengi değiştir</string>
-    <string name="theme">Tema</string>
+    <string name="theme">Uygulama teması</string>
     <string name="changing_color_description">Bir rengin değiştirilmesi, Özel temaya geçilmesini sağlayacaktır</string>
     <string name="save">Kaydet</string>
     <string name="discard">Çık</string>
@@ -331,7 +331,7 @@
     <string name="undo_changes_confirmation">Değişikliklerinizi geri almak istediğinizden emin misiniz?</string>
     <string name="cannot_be_undone">Bu eylem geri alınamaz.</string>
     <string name="save_before_closing">Kaydedilmemiş değişiklikleriniz var. Çıkmadan önce kaydedilsin mi?</string>
-    <string name="apply_to_all_apps">Renkleri tüm Fossify uygulamalarına uygula</string>
+    <string name="apply_to_all_apps">Temayı tüm Fossify uygulamalarına uygula</string>
     <string name="app_icon_color_warning">Dikkat: Bazı başlatıcılar uygulama simgesi özelleştirmesini doğru şekilde yapamayabilir. Simge kaybolursa, uygulamayı Google Play veya erişilebiliyorsa bir widget aracılığıyla başlatmayı deneyin. Başlattıktan sonra, öntanımlı #106D1F yeşil simge rengini geri yükleyin. Aşırı durumlarda, uygulamanın yeniden kurulması gerekebilir.</string>
     <string name="global_theme_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
     <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı hala Fossify Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk eşitlemesini o yapar.</string>
@@ -608,8 +608,8 @@
     <string name="settings">Ayarlar</string>
     <string name="purchase_simple_thank_you">Fossify Teşekkürler\'i Satın Al</string>
     <string name="general_settings">Genel</string>
-    <string name="color_customization">Renk özelleştirme</string>
-    <string name="customize_colors">Renkleri özelleştir</string>
+    <string name="color_customization">Görünüm &amp; Hissiyat</string>
+    <string name="customize_colors">Görünümü özelleştir</string>
     <string name="feature_locked">Kilitli</string>
     <string name="customize_widget_colors">Widget renklerini özelleştir</string>
     <string name="customize_notifications">Bildirimleri özelleştir</string>
@@ -1088,7 +1088,7 @@
     <string name="translation_belarusian">Belarusça</string>
     <string name="translation_central_kurdish">Orta Kürtçe</string>
     <string name="all_fossify_apps">Tüm Fossify uygulamaları</string>
-    <string name="theme_and_colors">Tema ve renkler</string>
+    <string name="theme_and_colors">Tema &amp; renkler</string>
     <string name="known_issues">Bilinen sorunlar</string>
     <string name="translation_kabyle">Zuvaya</string>
     <string name="number_of_items">Öge sayısı</string>
@@ -1109,4 +1109,9 @@
     </plurals>
     <string name="badge_deprecated">(kullanılmayan)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">Yazı tipi</string>
+    <string name="app_font">Uygulama yazı tipi</string>
+    <string name="font_monospace">Sabit genişlikli</string>
+    <string name="select_font_file">Yazı tipi dosyası seç…</string>
+    <string name="invalid_font_file">Geçersiz yazı tipi dosyası</string>
 </resources>

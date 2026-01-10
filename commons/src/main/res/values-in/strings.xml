@@ -7,7 +7,7 @@
     <string name="nothing">Tidak ada</string>
     <string name="later">Nanti</string>
     <string name="save_as">Simpan sebagai</string>
-    <string name="file_saved">Berkas berhasil disimpan</string>
+    <string name="file_saved">File berhasil disimpan</string>
     <string name="invalid_file_format">Format berkas takvalid</string>
     <string name="out_of_memory_error">Galat memori habis</string>
     <string name="an_error_occurred">Terjadi galat: %s</string>
@@ -104,8 +104,8 @@
     <string name="must_make_default_dialer">Untuk menggunakan fitur pemblokir nomor, setel aplikasi ini sebagai aplikasi telepon terpilih.</string>
     <string name="set_as_default">Tetapkan sebagai aplikasi terpilih</string>
     <string name="block_confirmation">Anda yakin ingin memblokir \"%s\"?</string>
-    <string name="block_unknown_calls">Blokir panggilan dari kontak yang tak disimpan</string>
-    <string name="block_unknown_messages">Blokir pesan dari nomor yang tidak disimpan</string>
+    <string name="block_unknown_calls">Blokir panggilan dari nomor yang tidak ada di kontak</string>
+    <string name="block_unknown_messages">Blokir pesan dari nomor yang tidak ada di kontak</string>
     <string name="add_blocked_number_helper_text">Masukkan nomor atau pola (mis. *12345*, +62*8888) untuk memblokir semua panggilan dan pesan dari nomor yang sesuai dengan pola ini.</string>
     <string name="must_make_default_caller_id_app">Tidak dapat memblokir nomor yang tidak diketahui tanpa izin ID pemanggil.</string>
     <string name="favorites">Favorit</string>
@@ -162,11 +162,11 @@
     <string name="filename_invalid_characters_placeholder">\'%s\' berisi karakter tidak valid</string>
     <string name="extension_cannot_be_empty">Ekstensi tidak boleh kosong</string>
     <string name="source_file_doesnt_exist">Berkas sumber %s tidak ada</string>
-    <string name="prepend_filenames">Tambah akhiran nama berkas</string>
-    <string name="append_filenames">Tambah awalan nama berkas</string>
+    <string name="prepend_filenames">Tambahkan teks sebelum nama file</string>
+    <string name="append_filenames">Tambahkan teks setelah nama file</string>
     <string name="simple_renaming">Perubahan nama sederhana</string>
     <string name="pattern_renaming">Pola</string>
-    <string name="string_to_add">Kata untuk ditambahkan</string>
+    <string name="string_to_add">Teks yang akan ditambahkan</string>
     <string name="rename_date_time_pattern">%Y - tahun\n%M - bulan\n%D - hari\n%h - jam\n%m - menit\n%s - detik\n%i - angka bertambah mulai dari 1</string>
     <string name="filename_without_txt">Nama File (tanpa .txt)</string>
     <string name="filename_without_json">Nama File (tanpa .json)</string>
@@ -228,7 +228,7 @@
     <string name="confirm_storage_access_text">Silakan pilih folder root dari kartu SD pada layar berikutnya, untuk memberi akses penyimpanan</string>
     <string name="confirm_storage_access_text_sd">Jika Anda tidak melihat kartu SD, cobalah ini</string>
     <string name="confirm_storage_access_android_text">Mohon izinkan aplikasi mengakses penyimpanan yang dipilih pada layar berikutnya dengan mengetuk \'Gunakan folder ini\' di bawah.</string>
-    <string name="confirm_storage_access_android_text_specific">Mohon izinkan mengakses \'<b>%s</b>\' pada layar berikutnya dengan mengetuk \'<b>Gunakan folder ini</b>\' di bawah.</string>
+    <string name="confirm_storage_access_android_text_specific">Harap izinkan akses ke \'<b>%s</b>\' pada layar berikutnya dengan menekan \'<b>Gunakan folder ini</b>\' di bagian bawah.</string>
     <string name="confirm_create_doc_for_new_folder_text">Mohon tekan \'<b>Simpan</b>\' di bawah pada layar berikutnya untuk membuat folder baru.</string>
     <string name="confirm_selection">Konfirmasi pilihan</string>
     <string name="loading">Memuat…</string>
@@ -284,7 +284,7 @@
     <string name="restore_defaults">Kembalikan ke default</string>
     <string name="use_default">Gunakan default</string>
     <string name="change_color">Ubah warna</string>
-    <string name="theme">Tema</string>
+    <string name="theme">Tema aplikasi</string>
     <string name="changing_color_description">Mengubah warna akan mengalihkannya ke tema Khusus</string>
     <string name="save">Simpan</string>
     <string name="discard">Abaikan</string>
@@ -504,8 +504,8 @@
     <string name="during_day_at_hh_mm">Saat pagi hari pada jj:mm</string>
     <string name="during_day_at">Saat pagi hari pada %1$02d:%2$02d</string>
     <string name="settings">Pengaturan</string>
-    <string name="color_customization">Kustomisasi warna</string>
-    <string name="customize_colors">Sesuaikan warna</string>
+    <string name="color_customization">Tampilan &amp; nuansa</string>
+    <string name="customize_colors">Sesuaikan tampilan</string>
     <string name="feature_locked">Terkunci</string>
     <string name="customize_widget_colors">Sesuaikan warna widget</string>
     <string name="customize_notifications">Kustomisasi notifikasi</string>
@@ -848,7 +848,7 @@
     <string name="trial_expires_soon">Masa percobaan Anda akan segera berakhir.</string>
     <string name="unlock_for_one_final_day">Buka kunci aplikasi untuk satu hari terakhir</string>
     <string name="welcome_to_app_name">Selamat datang di %s!</string>
-    <string name="trial_start_description">Terima kasih telah menggunakan aplikasi kami. Anda dapat menggunakan versi yang tidak terkunci ini selama <font color="#FFFFFF">%d hari</font>. Setelah uji coba berakhir, harap pertimbangkan untuk meningkatkan ke versi Pro. Ini memiliki sejumlah besar fitur baru, desain modern, tidak ada iklan dan banyak peningkatan lainnya. \n \nAnda hanya perlu membayarnya sekali seumur hidup dan jika Anda tidak puas, Anda dapat menghapus instalannya dan mendapatkan pengembalian dana. \n \nSemoga Anda akan menyukainya :)</string>
+    <string name="trial_start_description">Terima kasih telah menggunakan aplikasi kami. Anda dapat menggunakan versi yang sudah dibuka ini selama <font color="#FFFFFF">%d hari</font>. Setelah masa uji coba berakhir, silakan pertimbangkan untuk meningkatkan ke versi Pro. Versi ini memiliki banyak fitur baru, desain modern, tanpa iklan, dan banyak peningkatan lainnya. \n\nAnda cukup membayarnya sekali seumur hidup dan jika tidak puas, Anda dapat menghapus instalasinya dan meminta pengembalian dana.\n\nSemoga Anda menyukainya :)</string>
     <string name="trial_end_description">Silakan tingkatkan ke versi Pro untuk menikmati aplikasi ini sepenuhnya.
 \n
 \nAnda hanya perlu membayarnya sekali seumur hidup dan jika Anda tidak puas, Anda dapat menghapus instalannya dan mendapatkan pengembalian dana.
@@ -888,7 +888,9 @@
     <string name="app_icon_color_warning">Peringatan: Beberapa peluncur tidak dapat menangani perubahan ikon aplikasi dengan benar. Jika ikon hilang, coba luncurkan aplikasi melalui Google Play atau widget jika tersedia. Setelah meluncurkan, pulihkan warna ikon hijau #106D1F bawaan. Dalam kasus tertentu, memasang ulang aplikasi dapat dilakukan.</string>
     <string name="shared_theme_note">Diingat bahwa walaupun Anda menggunakan versi aplikasi Pro, Anda masih memerlukan Terima Kasih Fossify karena alasan teknis. Ini menangani sinkroniasi warna.</string>
     <string name="add_number_to_contact">Tambahkan nomor ke kontak</string>
-    <string name="purchase_thank_you">Silakan beli &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Terima Kasih Fossify&lt;/a&gt; untuk membuka fungsi ini dan mendukung pengembangan. Terima kasih!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Silakan beli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> untuk membuka fitur ini dan mendukung pengembangan. Terima kasih!
+        ]]></string>
     <string name="exif">EXIF</string>
     <string name="default_color">Bawaan</string>
     <string name="august_short">Agu</string>
@@ -896,11 +898,18 @@
     <string name="october_short">Okt</string>
     <string name="november_short">Nov</string>
     <string name="donate_new">Halo,&lt;br&gt;&lt;br&gt;semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan dan kami tidak mengumpulkan data Anda, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;. Anda juga akan mendapatkan semua fitur aplikasi termasuk kustomisasi warna.&lt;br&gt;&lt;br&gt;Terima kasih!</string>
-    <string name="faq_2_text_commons">Ya, tentu saja. Anda dapat membagikan tentang aplikasi ini atau memberikan masukan dan ulasan yang baik. Anda juga dapat membantu dengan menerjemahkan aplikasi dalam bahasa baru, atau hanya memperbarui beberapa terjemahan yang sudah ada. Panduan penerjemahannya ada di <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika Anda memiliki pertanyaan.</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Ya, tentu. Anda dapat membantu menyebarkan info tentang aplikasi atau memberikan umpan balik dan penilaian yang baik. Anda juga dapat membantu dengan menerjemahkan aplikasi ke bahasa baru, atau cukup memperbarui beberapa terjemahan yang sudah ada.
+           Panduan penerjemahan ada di <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika ada pertanyaan.
+        ]]></string>
     <string name="december_short">Des</string>
     <string name="platforms">Platform</string>
     <string name="faq_6_text_commons">Isu ini muncul ketika peluncur Anda tidak mendukung kustomisasi ikon secara penuh. Coba luncurkan aplikasi melalui Google Play atau widget jika tersedia. Setelah meluncurkan, pulihkan warna ikon hijau #106D1F bawaan. Dalam beberapa kasus, memasang ulang aplikasi dapat dilakukan.</string>
-    <string name="contributors_label">Daftar ini berisi semua orang yang membantu aplikasi apa pun dalam suite Fossify, tidak hanya yang ini. Penerjemahan ditangani oleh sukarelawan, beri tahu kami jika Anda juga ingin membantu. Panduan penerjemahannya ada di <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika Anda memiliki pertanyaan. Terima kasih kepada semua kontributor dan pendukung lainnya!</string>
+    <string name="contributors_label"><![CDATA[
+            Daftar ini berisi semua orang yang secara nyata membantu aplikasi apa pun dalam rangkaian Fossify, bukan hanya aplikasi ini. Terjemahan ditangani oleh relawan,
+            beri tahu kami jika Anda juga ingin membantu. Panduan penerjemahan ada di <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika ada pertanyaan.
+            Terima kasih kepada semua kontributor dan pendukung lainnya!
+        ]]></string>
     <string name="translation_indonesian">Indonesia</string>
     <string name="translation_chinese_hk">Cina (Hong Kong)</string>
     <string name="translation_italian">Italia</string>
@@ -927,7 +936,7 @@
     <string name="root">Akar</string>
     <string name="album">Album</string>
     <string name="genre">Genre</string>
-    <string name="apply_to_all_apps">Terapkan warna ke semua Aplikasi Fossify</string>
+    <string name="apply_to_all_apps">Terapkan tema ke semua aplikasi Fossify</string>
     <string name="auto_theme">Otomatis</string>
     <string name="white">Putih</string>
     <string name="system_default">Bawaan sistem</string>
@@ -1038,8 +1047,27 @@
     <string name="donate_please">Halo,&lt;br&gt;&lt;br&gt; semoga Anda menikmati aplikasinya. Aplikasi ini tidak ada iklan, silakan mendukung pengembangannya dengan membeli aplikasi &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;, ini juga akan mencegah dialog ini muncul lagi.&lt;br&gt;&lt;br&gt; Terima kasih!</string>
     <string name="translation_belarusian">Belarusia</string>
     <string name="translation_central_kurdish">Kurdi Tengah</string>
-    <string name="theme_and_colors">Tema dan warna</string>
+    <string name="theme_and_colors">Tema &amp; warna</string>
     <string name="all_fossify_apps">Semua aplikasi Fossify</string>
     <string name="known_issues">Masalah yang diketahui</string>
     <string name="translation_kabyle">Kabylia</string>
+    <string name="confirm_storage_access_restricted_text">Karena pembatasan sistem, folder ini tidak tersedia.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Buka di aplikasi sistem</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Aplikasi pengelola berkas sistem tidak dapat ditemukan.</string>
+    <string name="number_of_items">Jumlah item</string>
+    <string name="reorder_items_by_dragging">Atur ulang urutan item dengan menyeret</string>
+    <string name="days_letter">%dd</string>
+    <string name="requires_fossify_thank_you">Memerlukan Fossify Thank You</string>
+    <string name="enables_more_customization">Mengaktifkan lebih banyak penyesuaian</string>
+    <string name="font">Font</string>
+    <string name="app_font">Font aplikasi</string>
+    <string name="font_monospace">Monospace</string>
+    <string name="select_font_file">Pilih file font…</string>
+    <string name="invalid_font_file">File font tidak valid</string>
+    <string name="more_fossify_apps">Aplikasi Fossify lainnya</string>
+    <string name="rate_this_app">Beri penilaian untuk aplikasi ini</string>
+    <string name="badge_deprecated">(tidak digunakan lagi)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
+    <string name="translation_latvian">Latvia</string>
+    <string name="evalex_title">EvalEx (evaluasi ekspresi matematika)</string>
 </resources>
