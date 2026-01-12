@@ -8,7 +8,7 @@
     <string name="save_as">Lưu thành</string>
     <string name="file_saved">Đã lưu tệp thành công</string>
     <string name="invalid_file_format">Định dạng tệp không hợp lệ</string>
-    <string name="out_of_memory_error">Lỗi bộ nhớ</string>
+    <string name="out_of_memory_error">Lỗi hết bộ nhớ</string>
     <string name="an_error_occurred">Xảy ra lỗi: %s</string>
     <string name="open_with">Mở bằng</string>
     <string name="edit_with">Chỉnh sửa bằng</string>
@@ -27,7 +27,7 @@
     <string name="never">Không bao giờ</string>
     <string name="details">Chi tiết</string>
     <string name="notes">Ghi chú</string>
-    <string name="deleting_folder">Xóa thư mục \'%s\'</string>
+    <string name="deleting_folder">Đang xóa thư mục \'%s\'</string>
     <string name="none">Không</string>
     <string name="label">Nhãn</string>
     <string name="transparent">Trong suốt</string>
@@ -37,7 +37,7 @@
     <string name="notification">Thông báo</string>
     <string name="previous">Trước đó</string>
     <string name="playpause">Phát / Dừng</string>
-    <string name="no_contacts_found">Không tìm thấy liên lạc</string>
+    <string name="no_contacts_found">Không tìm thấy liên hệ</string>
     <string name="request_the_required_permissions">Yêu cầu các quyền cần thiết</string>
     <string name="no_access_to_contacts">Ứng dụng không thể truy cập vào danh bạ của bạn</string>
     <string name="no_phone_call_permission">Ứng dụng không có quyền thực hiện cuộc gọi điện thoại, vui lòng cấp quyền đó trong cài đặt thiết bị</string>
@@ -70,16 +70,16 @@
     <string name="phone_storage_hidden">Bộ nhớ điện thoại (không hiển thị bởi các ứng dụng khác)</string>
     <string name="audio">Âm thanh</string>
     <string name="scanning">Đang quét…</string>
-    <string name="birthday">Ngày sinh nhật</string>
-    <string name="anniversary">Dịp kỉ niệm</string>
+    <string name="birthday">Sinh nhật</string>
+    <string name="anniversary">Dịp kỷ niệm</string>
     <string name="work">Công việc</string>
     <string name="main_number">Chính</string>
     <string name="work_fax">Fax công việc</string>
-    <string name="no_phone_number_found">Không có số điện thoại nào được tìm thấy</string>
+    <string name="no_phone_number_found">Không tìm thấy số điện thoại nào</string>
     <string name="change_view_type">Kiểu xem</string>
     <string name="grid">Lưới</string>
     <string name="grid_pro">Lưới (Pro)</string>
-    <string name="uneven_grid">Lưới không đồng nhất</string>
+    <string name="uneven_grid">Lưới không đều</string>
     <string name="list">Danh sách</string>
     <string name="increase_column_count">Tăng số lượng cột</string>
     <string name="reduce_column_count">Giảm số lượng cột</string>
@@ -89,18 +89,18 @@
     <string name="landscape_column_count">Số lượng cột màn hình ngang</string>
     <string name="change_cover_image">Thay đổi ảnh bìa</string>
     <string name="select_photo">Chọn ảnh</string>
-    <string name="manage_blocked_numbers">Quản lý số bị chặn</string>
+    <string name="manage_blocked_numbers">Quản lý số chặn</string>
     <string name="not_blocking_anyone">Bạn hiện tại không chặn ai.</string>
-    <string name="add_a_blocked_number">Thêm số bị chặn</string>
+    <string name="add_a_blocked_number">Thêm số chặn</string>
     <string name="block_numbers">Chặn số</string>
     <string name="blocked_numbers">Số bị chặn</string>
     <string name="export_blocked_numbers">Xuất số bị chặn</string>
     <string name="import_blocked_numbers">Nhập số bị chặn</string>
-    <string name="must_make_default_dialer">Bạn cần phải đặt ứng dụng này thành ứng dụng quay số mặc định để có thể chặn số điện thoại.</string>
+    <string name="must_make_default_dialer">Bạn cần phải đặt ứng dụng này thành ứng dụng gọi mặc định để có thể chặn số điện thoại.</string>
     <string name="block_confirmation">Bạn có chắc là muốn chặn \"%s\"\?</string>
-    <string name="block_unknown_calls">Chặn cuộc gọi từ liên hệ không có trong danh bạ lưu trữ</string>
+    <string name="block_unknown_calls">Chặn cuộc gọi từ liên hệ không có trong danh bạ</string>
     <string name="block_hidden_calls">Chặn cuộc gọi từ số ẩn</string>
-    <string name="block_unknown_messages">Chặn tin nhắn từ số không có trong danh bạ lưu trữ</string>
+    <string name="block_unknown_messages">Chặn tin nhắn từ số không có trong danh bạ</string>
     <string name="block_hidden_messages">Chặn tin nhắn từ số ẩn</string>
     <string name="add_blocked_number_helper_text">Nhập một số hoặc mẫu (vd: *12345*, +1*8888) để chặn tất cả các cuộc gọi và tin nhắn từ các số khớp với mẫu.</string>
     <string name="must_make_default_caller_id_app">Không thể chặn số chưa biết mà không có quyền ID người gọi.</string>
@@ -121,7 +121,7 @@
     <string name="search_favorites">Tìm kiếm yêu thích</string>
     <string name="search_apps">Tìm kiếm ứng dụng</string>
     <string name="search_events">Tìm kiếm sự kiện</string>
-    <string name="search_groups">Tìm nhóm</string>
+    <string name="search_groups">Tìm kiếm nhóm</string>
     <string name="search_history">Tìm kiếm lịch sử</string>
     <string name="search_calls">Tìm kiếm cuộc gọi</string>
     <string name="search_files">Tìm kiếm tệp</string>
@@ -130,10 +130,10 @@
     <string name="search_playlists">Tìm kiếm danh sách phát</string>
     <string name="search_artists">Tìm kiếm nghệ sĩ</string>
     <string name="search_albums">Tìm kiếm album</string>
-    <string name="search_tracks">Tìm kiếm bản nhạc</string>
+    <string name="search_tracks">Tìm kiếm bài hát</string>
     <string name="search_text">Tìm kiếm văn bản</string>
-    <string name="search_conversations">Tìm kiếm cuộc hội thoại</string>
-    <string name="search_recordings">Tìm kiếm bản ghi</string>
+    <string name="search_conversations">Tìm kiếm cuộc trò chuyện</string>
+    <string name="search_recordings">Tìm kiếm bản ghi âm</string>
     <string name="filter">Bộ lọc</string>
     <string name="filter_pro">Bộ lọc (Pro)</string>
     <string name="no_items_found">Không có mục nào.</string>
@@ -174,7 +174,7 @@
     <string name="append_filenames">Thêm vào cuối tên tệp</string>
     <string name="simple_renaming">Đổi tên đơn giản</string>
     <string name="pattern_renaming">Mẫu</string>
-    <string name="string_to_add">Chuỗi để thêm</string>
+    <string name="string_to_add">Văn bản để thêm</string>
     <string name="rename_date_time_pattern">%Y - năm\n%M - tháng\n%D - ngày\n%h - giờ\n%m - phút\n%s - giây\n%i - số tăng từ 1</string>
     <string name="filename_without_txt">Tên tệp (không có .txt)</string>
     <string name="filename_without_json">Tên tệp (không có .json)</string>
@@ -193,11 +193,11 @@
     <string name="please_select_destination">Hãy chọn một nơi lưu</string>
     <string name="source_and_destination_same">Nguồn và đích không thể trùng nhau</string>
     <string name="copy_failed">Không thể sao chép tệp</string>
-    <string name="copying">Đang sao chép... </string>
+    <string name="copying">Đang sao chép…</string>
     <string name="copying_success">Sao chép tệp thành công</string>
     <string name="copying_success_one">Sao chép tệp thành công</string>
     <string name="copy_move_failed">Đã xảy ra lỗi</string>
-    <string name="moving">Đang di chuyển…</string>
+    <string name="moving">Đang chuyển…</string>
     <string name="moving_success">Chuyển tệp thành công</string>
     <string name="moving_success_one">Di chuyển tệp thành công</string>
     <string name="moving_success_partial">Không thể chuyển một số tệp</string>
@@ -207,20 +207,20 @@
     <string name="could_not_create_folder">Không thể tạo thư mục %s</string>
     <string name="could_not_create_file">Không thể tạo tệp %s</string>
     <string name="no_new_items">Không tìm thấy mục mới nào</string>
-    <string name="no_space">Đích đến không đủ dung lượng khả dụng.\nCần %1$s, trống %2$s</string>
+    <string name="no_space">Đích đến không đủ dung lượng trống.\nCần %1$s, hiện trống %2$s</string>
     <string name="system_service_disabled">Dịch vụ hệ thống để chọn tệp và thư mục không khả dụng</string>
     <string name="create_new">Tạo mới</string>
     <string name="folder">Thư mục</string>
     <string name="file">Tệp</string>
     <string name="create_new_folder">Tạo thư mục mới</string>
-    <string name="name_taken">Đã tồn tại tệp hoặc thư mục cùng tên</string>
+    <string name="name_taken">Đã tồn tại tệp hoặc thư mục trùng tên</string>
     <string name="invalid_name">Tên chứa các ký tự không hợp lệ</string>
     <string name="empty_name">Vui lòng nhập tên</string>
     <string name="unknown_error_occurred">Xảy ra lỗi không xác định</string>
     <string name="file_already_exists">Tệp \"%s\" đã tồn tại</string>
     <string name="file_already_exists_overwrite">Tệp \"%s\" đã tồn tại. Ghi đè?</string>
     <string name="folder_already_exists">Thư mục \"%s\" đã tồn tại</string>
-    <string name="merge">Kết hợp</string>
+    <string name="merge">Hợp nhất</string>
     <string name="keep_both">Giữ cả hai</string>
     <string name="overwrite">Ghi đè</string>
     <string name="skip">Bỏ qua</string>
@@ -235,7 +235,7 @@
     <string name="select_file">Chọn một tệp</string>
     <string name="confirm_storage_access_title">Xác nhận truy cập bộ nhớ ngoài</string>
     <string name="confirm_folder_access_title">Xác nhận quyền truy cập thư mục</string>
-    <string name="confirm_storage_access_text">Để cấp quyền truy cập ghi, hãy chọn thư mục trên cùng của thẻ SD trên màn hình tiếp theo</string>
+    <string name="confirm_storage_access_text">Hãy chọn thư mục trên cùng của thẻ SD trên màn hình tiếp theo để cấp quyền ghi</string>
     <string name="confirm_storage_access_text_sd">Nếu bạn không thấy thẻ SD, hãy thử</string>
     <string name="confirm_storage_access_android_text">Vui lòng cho phép ứng dụng truy cập vào bộ nhớ đã chọn trên màn hình tiếp theo bằng cách nhấn \'Sử dụng thư mục này\' ở dưới cùng.</string>
     <string name="confirm_storage_access_android_text_specific">Vui lòng cho phép \'<b>%s</b>\' trên màn hình tiếp theo bằng cách nhấn \'<b>Sử dụng thư mục này</b>\' ở dưới cùng.</string>
@@ -253,7 +253,7 @@
     <string name="app_on_sd_card">Bạn dường như đã cài đặt ứng dụng trên thẻ SD, điều đó làm cho các widget ứng dụng không khả dụng. Bạn thậm chí sẽ không nhìn thấy chúng trong danh sách các widget có sẵn.
          Đây là một giới hạn hệ thống, vì vậy nếu bạn muốn sử dụng các widget, bạn phải di chuyển ứng dụng vào bộ nhớ trong.</string>
     <string name="wrong_folder_selected">Chọn sai thư mục, vui lòng chọn đường dẫn \'%s\'</string>
-    <string name="properties">Chi tiết</string>
+    <string name="properties">Thuộc tính</string>
     <string name="path">Đường dẫn</string>
     <string name="items_selected">Các mục đã chọn</string>
     <string name="direct_children_count">Số lượng thư mục con</string>
@@ -263,11 +263,11 @@
     <string name="artist">Nghệ sĩ</string>
     <string name="focal_length">Tiêu cự</string>
     <string name="exposure_time">Thời gian phơi sáng</string>
-    <string name="iso_speed">Tốc độ ISO</string>
+    <string name="iso_speed">ISO</string>
     <string name="camera">Máy ảnh</string>
     <string name="song_title">Tên bài hát</string>
     <string name="gps_coordinates">Tọa độ GPS</string>
-    <string name="altitude">Độ cao</string>
+    <string name="altitude">Cao độ</string>
     <string name="remove_exif">Xóa EXIF</string>
     <string name="remove_exif_confirmation">Xóa giá trị EXIF như tọa độ GPS, máy ảnh,...?</string>
     <string name="exif_removed">Đã xóa giá trị EXIF thành công</string>
@@ -292,7 +292,9 @@
     <string name="cannot_be_undone">Hành động này không thể hoàn tác.</string>
     <string name="save_before_closing">Bạn có các thay đổi chưa lưu. Lưu trước khi thoát?</string>
     <string name="global_theme_success">Chủ đề hiện tại đã được áp dụng thành công cho tất cả các app Fossify. Bất kỳ thay đổi nào trong tương lai đối với chủ đề này sẽ được đồng bộ hóa tự động.</string>
-    <string name="purchase_thank_you">Hãy mua ứng dụng &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Hãy mua ứng dụng <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!
+        ]]></string>
     <string name="light_theme">Sáng</string>
     <string name="dark_theme">Tối</string>
     <string name="auto_light_dark_theme">Tự động</string>
@@ -301,7 +303,7 @@
     <string name="custom">Tùy chỉnh</string>
     <string name="shared">Đã chia sẻ</string>
     <string name="whats_new">Có gì mới</string>
-    <string name="whats_new_disclaimer">* chỉ các bản cập nhật lớn được liệt kê ở đây, luôn luôn cũng có một số cải tiến nhỏ</string>
+    <string name="whats_new_disclaimer">* chỉ các bản cập nhật lớn được liệt kê ở đây, luôn luôn có một số cải tiến nhỏ</string>
     <string name="delete">Xóa</string>
     <string name="remove">Xóa</string>
     <string name="rename">Đổi tên</string>
@@ -326,16 +328,16 @@
     <string name="shortcut">Phím tắt</string>
     <string name="create_shortcut">Tạo lối tắt</string>
     <string name="create_shortcut_pro">Tạo lối tắt (Pro)</string>
-    <string name="add_number_to_contact">Thêm số để liên hệ</string>
-    <string name="call_from_sim_1">Gọi từ SIM 1</string>
-    <string name="call_from_sim_2">Gọi từ SIM 2</string>
+    <string name="add_number_to_contact">Thêm số cho liên hệ</string>
+    <string name="call_from_sim_1">Gọi bằng SIM 1</string>
+    <string name="call_from_sim_2">Gọi bằng SIM 2</string>
     <string name="toggle_filename">Ẩn/hiện tên tệp</string>
     <string name="move_to_top">Di chuyển lên trên cùng</string>
     <string name="move_to_bottom">Di chuyển xuống dưới cùng</string>
     <string name="unpin_item">Bỏ ghim mục</string>
     <string name="call">Gọi</string>
     <string name="wallpapers">Hình nền</string>
-    <string name="show_line_numbers">Hiển thị số dòng</string>
+    <string name="show_line_numbers">Hiện số dòng</string>
     <string name="hide_line_numbers">Ẩn số dòng</string>
     <string name="sleep_timer">Hẹn giờ ngủ</string>
     <string name="unblock">Bỏ chặn</string>
@@ -350,7 +352,7 @@
     <string name="filename">Tên tệp</string>
     <string name="extension">Định dạng</string>
     <string name="random">Ngẫu nhiên</string>
-    <string name="sort_randomly">Xếp ngẫu nhiên</string>
+    <string name="sort_randomly">Sắp xếp ngẫu nhiên</string>
     <string name="ascending">Tăng dần</string>
     <string name="descending">Giảm dần</string>
     <string name="use_for_this_folder">Chỉ áp dụng cho thư mục này</string>
@@ -372,14 +374,14 @@
     <string name="maybe">Có thể</string>
     <string name="enter_pin">Nhập PIN</string>
     <string name="please_enter_pin">Vui lòng nhập mã PIN</string>
-    <string name="wrong_pin">PIN sai</string>
+    <string name="wrong_pin">Sai PIN</string>
     <string name="pin_must_be_4_digits_long">Mã PIN phải dài ít nhất 4 chữ số</string>
     <string name="too_many_incorrect_attempts">Quá nhiều lần thử sai.
 \nThử lại sau %d giây.</string>
     <string name="repeat_pin">Lặp lại mã PIN</string>
     <string name="pattern">Mẫu hình</string>
     <string name="insert_pattern">Vẽ mẫu hình</string>
-    <string name="wrong_pattern">Mẫu hình sai</string>
+    <string name="wrong_pattern">Sai mẫu hình</string>
     <string name="repeat_pattern">Lặp lại mẫu hình</string>
     <string name="biometrics">Vân tay</string>
     <string name="fingerprint">Vân tay</string>
@@ -387,8 +389,8 @@
     <string name="place_finger">Vui lòng đặt ngón tay của bạn trên cảm biến vân tay</string>
     <string name="open_biometric_dialog">Mở xác minh vân tay</string>
     <string name="authenticate">Xác thực</string>
-    <string name="authentication_failed">Quá trình xác thực đã thất bại</string>
-    <string name="authentication_blocked">Xác thực bị chặn, vui lòng thử lại sau giây lát</string>
+    <string name="authentication_failed">Quá trình xác thực thất bại</string>
+    <string name="authentication_blocked">Đã chặn xác thực, vui lòng thử lại sau giây lát</string>
     <string name="no_fingerprints_registered">Bạn chưa đăng ký dấu vân tay, vui lòng thêm trong Cài đặt của thiết bị</string>
     <string name="go_to_settings">Chuyển đến Cài đặt</string>
     <string name="protection_setup_successfully">Thiết lập mật khẩu thành công. Vui lòng cài đặt lại ứng dụng trong trường hợp bạn quên nó.</string>
@@ -399,7 +401,7 @@
     <string name="lock_folder_notice">Tính năng chỉ hoạt động trong ứng dụng này, nó không thể thay thế việc mã hóa thư mục trên toàn hệ thống.</string>
     <string name="empty_password_new">Vui lòng nhập mật khẩu</string>
     <string name="empty_password">Vui lòng nhập mật khẩu</string>
-    <string name="invalid_password">Mật khẩu sai</string>
+    <string name="invalid_password">Sai mật khẩu</string>
     <string name="yesterday">Hôm qua</string>
     <string name="today">Hôm nay</string>
     <string name="tomorrow">Ngày mai</string>
@@ -416,7 +418,7 @@
     <string name="alarm_warning">Hãy chắc chắn rằng báo thức hoạt động đúng trước khi dựa vào nó. Nó có thể hoạt động sai do hạn chế hệ thống liên quan đến tiết kiệm pin.</string>
     <string name="reminder_warning">Hãy chắc chắn rằng các lời nhắc hoạt động đúng trước khi dựa vào chúng. Chúng có thể hoạt động sai do hạn chế hệ thống liên quan đến tiết kiệm pin.</string>
     <string name="notifications_disabled">Ứng dụng này đã bị vô hiệu hóa thông báo. Vui lòng vào cài đặt thiết bị của bạn để mở lại.</string>
-    <string name="alarm">báo thức</string>
+    <string name="alarm">Báo thức</string>
     <string name="snooze">Báo lại</string>
     <string name="dismiss">Bỏ qua</string>
     <string name="no_reminder">Không nhắc nhở</string>
@@ -453,20 +455,20 @@
     <string name="change_date_and_time_format">Định dạng thời gian</string>
     <string name="sunday_first">Bắt đầu tuần vào Chủ Nhật</string>
     <string name="start_week_on">Bắt đầu tuần vào</string>
-    <string name="use_same_snooze">Luôn luôn sử dụng cùng thời gian báo lại</string>
+    <string name="use_same_snooze">Luôn sử dụng cùng thời gian báo lại</string>
     <string name="snooze_time">Thời gian báo lại</string>
     <string name="vibrate_on_button_press">Rung khi nhấn nút</string>
     <string name="move_items_into_recycle_bin">Chuyển các mục vào Thùng rác khi xóa</string>
     <string name="recycle_bin_cleaning_interval">Tự động xóa sạch thùng rác</string>
     <string name="empty_recycle_bin">Xóa sạch thùng rác</string>
-    <string name="force_portrait_mode">Buộc chế độ dọc</string>
+    <string name="force_portrait_mode">Giữ chế độ dọc</string>
     <string name="export_settings">Xuất cài đặt</string>
     <string name="import_settings">Nhập cài đặt</string>
     <string name="settings_exported_successfully">Cài đặt được xuất thành công</string>
     <string name="settings_imported_successfully">Cài đặt được nhập thành công</string>
-    <string name="start_name_with_surname">Tên bắt đầu với họ</string>
+    <string name="start_name_with_surname">Bắt đầu tên bằng họ</string>
     <string name="clear_cache">Xóa bộ nhớ đệm</string>
-    <string name="show_call_confirmation_dialog">Hiển thị hộp thoại xác nhận gọi trước khi bắt đầu cuộc gọi</string>
+    <string name="show_call_confirmation_dialog">Xác nhận trước khi bắt đầu cuộc gọi</string>
     <string name="visibility">Hiển thị</string>
     <string name="security">Bảo mật</string>
     <string name="scrolling">Cuộn</string>
@@ -598,29 +600,25 @@
     <string name="additional_info">Thông tin bổ sung</string>
     <string name="app_version">Phiên bản ứng dụng: %s</string>
     <string name="device_os">Phiên bản Android %s</string>
-    <string name="donate_please">
-        <![CDATA[
+    <string name="donate_please"><![CDATA[
             Xin chào,<br><br>
-            hy vọng bạn đang thưởng thức ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
+            hy vọng bạn thích ứng dụng. Nó không chứa quảng cáo, vui lòng hỗ trợ sự nhà phát triển bằng cách mua ứng dụng<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>  nó cũng sẽ ngăn hộp thoại này hiển thị lại.<br><br>
             Thank you!
-        ]]>
-    </string>
-    <string name="purchase">Mua hàng</string>
+        ]]></string>
+    <string name="purchase">Mua</string>
     <string name="before_asking_question_read_faq">Trước khi đặt câu hỏi, vui lòng kiểm tra cài đặt và đọc Câu hỏi thường gặp trước. Có thể giải pháp ở đó.</string>
     <string name="make_sure_latest">Hãy đảm bảo rằng bạn đang sử dụng phiên bản ứng dụng mới nhất.</string>
     <string name="read_it">Hãy đọc</string>
     <string name="read_faq">Đọc Câu hỏi thường gặp</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Này,<br><br>
-            chỉ cho bạn biết rằng một ứng dụng mới đã được phát hành gần đây:<br><br>
+            bạn có biết rằng một ứng dụng mới đã được phát hành gần đây:<br><br>
             <a href="%1$s">%2$s</a><br><br>
             <a href="%3$s">%4$s</a><br><br>
             <a href="%5$s">%6$s</a><br><br>
             Bạn có thể tải xuống bằng cách nhấn vào tiêu đề.<br><br>
-            Thanks
-        ]]>
-    </string>
+            Cám ơn
+        ]]></string>
     <string name="sideloaded_app">
         <![CDATA[
             Có vẻ như phiên bản ứng dụng của bạn bị hỏng. Vui lòng tải phiên bản gốc <a href="%s">tại đây</a>.
@@ -635,40 +633,40 @@
     <string name="faq_3_text_commons">Bạn không thể. Các tệp sẽ bị xóa ngay lập tức sau khi xác nhận, không có sẵn thùng rác.</string>
     <string name="faq_4_title_commons">Tôi không thích màu của widget, tôi có thể thay đổi chúng không?</string>
     <string name="faq_4_text_commons">Được chứ, khi bạn kéo một widget trên màn hình chính, màn hình cấu hình widget sẽ xuất hiện. Bạn sẽ thấy các ô vuông màu ở góc dưới bên trái, chỉ cần nhấn chúng để chọn màu mới. Bạn cũng có thể sử dụng thanh trượt để điều chỉnh độ trong suốt.</string>
-    <string name="faq_5_title_commons">Tôi có thể khôi phục các tệp đã xóa?</string>
+    <string name="faq_5_title_commons">Làm sao để khôi phục các tệp đã xóa?</string>
     <string name="faq_5_text_commons">Nếu chúng thực sự bị xóa, bạn không thể. Tuy nhiên, có một Thùng rác được bật theo mặc định, nó sẽ khiến các tệp được di chuyển vào Thùng thay vì xóa chúng.</string>
     <string name="faq_6_title_commons">Làm sao khi biểu tượng ứng dụng biến mất?</string>
     <string name="faq_7_title_commons">Làm sao khi đã bị trừ tiền trong tài khoản ngân hàng, nhưng không thể tải xuống ứng dụng?</string>
     <string name="faq_7_text_commons">Thanh toán được xử lý hoàn toàn bởi Google, hệ thống của họ thỉnh thoảng bị trục trặc. Chỉ cần xóa bộ nhớ cache ứng dụng Google Play của bạn và khởi động lại thiết bị, sau đó thử tải xuống lại.</string>
-    <string name="faq_8_title_commons">Tại sao tôi nên nâng cấp lên phiên bản Pro?</string>
+    <string name="faq_8_title_commons">Vì sao tôi nên nâng cấp lên phiên bản Pro?</string>
     <string name="faq_8_text_commons">Vì phiên bản ứng dụng của bạn không còn được cập nhật, các lỗi bạn có thể phát hiện sẽ không bao giờ được sửa. Cũng sẽ không có chức năng mới được thêm vào. Bạn có thể mua phiên bản Pro trên Google Play với một khoản tiền nhỏ.
         Đó là thanh toán một lần, có nghĩa là một khi bạn mua nó, bạn sẽ không bao giờ phải mua lại. Ngay cả sau khi nhận được một thiết bị mới. Nếu bạn không thích phiên bản Pro, bạn có thể gỡ cài đặt trong vòng vài giờ và bạn sẽ tự động lấy lại tiền.
         Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@fossify.org và bạn sẽ nhận được nó.</string>
     <string name="third_party_licences">Giấy phép bên thứ ba</string>
     <string name="kotlin_title">Kotlin (ngôn ngữ lập trình)</string>
-    <string name="subsampling_title">Lấy mẫu tỷ lệ xem hình ảnh (số lần xem hình ảnh có thể phóng to)</string>
-    <string name="glide_title">Glide (tải hình ảnh và bộ nhớ đệm)</string>
-    <string name="picasso_title">Picasso (tải hình ảnh và bộ nhớ đệm)</string>
-    <string name="cropper_title">Android Image Cropper (cắt ảnh và xoay)</string>
+    <string name="subsampling_title">Lấy mẫu tỷ lệ xem hình ảnh (phóng to hình ảnh)</string>
+    <string name="glide_title">Glide (nạp hình ảnh và bộ nhớ đệm)</string>
+    <string name="picasso_title">Picasso (nạp hình ảnh và bộ nhớ đệm)</string>
+    <string name="cropper_title">Android Image Cropper (cắt và xoay hình ảnh)</string>
     <string name="rtl_viewpager_title">RtlViewPager (vuốt từ phải sang trái)</string>
     <string name="joda_title">Joda-Time (thay thế ngày Java)</string>
     <string name="stetho_title">Stetho (cơ sở dữ liệu gỡ lỗi)</string>
     <string name="photoview_title">PhotoView (phóng to GIF)</string>
     <string name="pattern_title">PatternLockView (bảo vệ mẫu hình mở khóa)</string>
     <string name="reprint_title">Reprint (bảo vệ vân tay)</string>
-    <string name="gif_drawable_title">Gif Drawable (tải GIF)</string>
+    <string name="gif_drawable_title">Gif Drawable (nạp GIF)</string>
     <string name="autofittextview_title">AutoFitTextView (thay đổi cỡ chữ)</string>
-    <string name="robolectric_title">Robolectric (thử nghiệm framework)</string>
-    <string name="espresso_title">Espresso (trợ giúp thử nghiệm)</string>
+    <string name="robolectric_title">Robolectric (framework thử nghiệm)</string>
+    <string name="espresso_title">Espresso (giúp đỡ thử nghiệm)</string>
     <string name="gson_title">Gson (Trình phân tích cú pháp JSON)</string>
-    <string name="leak_canary_title">Leak Canary (bộ phát hiện rò rỉ bộ nhớ)</string>
+    <string name="leak_canary_title">Leak Canary (phát hiện rò rỉ bộ nhớ)</string>
     <string name="number_picker_title">Number Picker (bộ chọn số tùy chỉnh)</string>
     <string name="exoplayer_title">ExoPlayer (trình phát video)</string>
     <string name="sanselan_title">Apache Sanselan (đọc siêu dữ liệu hình ảnh)</string>
-    <string name="filters_title">Bộ lọc ảnh Android (bộ lọc hình ảnh)</string>
-    <string name="gesture_views_title">Chế độ xem cử chỉ (thu phóng hình ảnh)</string>
-    <string name="deprecated_app">THÔNG BÁO: Phiên bản của ứng dụng này không còn được duy trì, hãy tải phiên bản Pro tại https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="pro_app_refund">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng phải trả tiền nào trong vòng 2 giờ, bạn sẽ tự động được hoàn lại tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi tại hello@fossify.org và bạn sẽ nhận được nó.Thật dễ dàng đúng không :)</string>
+    <string name="filters_title">Android Photo Filters (bộ lọc hình ảnh)</string>
+    <string name="gesture_views_title">Gesture Views (thu phóng hình ảnh)</string>
+    <string name="deprecated_app">THÔNG BÁO: Phiên bản của ứng dụng này không còn được bảo trì, hãy tải phiên bản Pro tại https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="pro_app_refund">Đừng quên rằng nếu bạn gỡ cài đặt bất kỳ ứng dụng trả phí nào trong vòng 2 giờ, bạn sẽ tự động được hoàn lại tiền. Nếu bạn muốn hoàn lại tiền bất cứ lúc nào sau đó, chỉ cần liên hệ với chúng tôi qua hello@fossify.org và bạn sẽ nhận được nó. Thật dễ đúng không :)</string>
     <string name="developer_description">Một bộ sưu tập ứng dụng Android đơn giản, mã nguồn mở, với các tiện ích có thể tùy chỉnh, không quảng cáo và không yêu cầu quyền không cần thiết.</string>
     <string name="faq_9_title_commons">Làm sao chọn nhiều mục cùng lúc?</string>
     <string name="error">Lỗi: %s</string>
@@ -678,8 +676,8 @@
     <string name="zero">Zero</string>
     <string name="one">Một</string>
     <string name="home">Nhà</string>
-    <string name="mobile">Số di động</string>
-    <string name="pager">Số trang</string>
+    <string name="mobile">Di động</string>
+    <string name="pager">Máy nhắn tin</string>
     <string name="home_fax">Fax nhà</string>
     <plurals name="column_counts">
         <item quantity="other">%d cột</item>
@@ -689,7 +687,7 @@
     </plurals>
     <string name="block_number">Chặn số</string>
     <string name="set_as_default">Đặt làm mặc định</string>
-    <string name="block_contact">Chặn danh bạ</string>
+    <string name="block_contact">Chặn liên hệ</string>
     <plurals name="items">
         <item quantity="other">%d mục</item>
     </plurals>
@@ -704,7 +702,7 @@
         <item quantity="other">Đang xóa %d mục</item>
     </plurals>
     <string name="faq_9_text_commons">Có nhiều cách thực hiện. Cách đầu tiên là nhấn giữ một mục, sau đó nhấn nhanh vào các mục khác để chọn chúng. Cách thứ hai tương tự như chọn các mục trên PC bằng chuột: nhấn giữ một mục, sau đó giữ ngón tay của bạn vuốt qua các mục khác để chọn. Cách thứ ba là nhấn giữ một mục, sau đó nhấn giữ một mục khác và mọi thứ ở giữa sẽ được chọn. Nếu bạn muốn chọn tất cả các mục, chỉ cần nhấn giữ một mục, sau đó nhấn vào bộ đếm mục đã chọn ở góc trên cùng bên trái. Thao tác đó sẽ chọn hoặc bỏ chọn tất cả mọi thứ.</string>
-    <string name="theme_and_colors">Chủ đề và màu</string>
+    <string name="theme_and_colors">Chủ đề &amp; màu</string>
     <string name="widgets">Widget</string>
     <string name="list_view">Danh sách</string>
     <string name="copyright">v %1$s\nBản quyền © Fossify %2$d</string>
@@ -738,16 +736,16 @@
     <string name="album">Album</string>
     <string name="auto_theme">Tự động</string>
     <string name="white">Trắng</string>
-    <string name="deletion_confirmation_short">Xoá %s?</string>
+    <string name="deletion_confirmation_short">Xóa %s?</string>
     <plurals name="delete_warning">
-        <item quantity="other">LƯU Ý: Bạn sắp xoá %d thư mục</item>
+        <item quantity="other">CẢNH BÁO: Bạn sắp xóa %d thư mục</item>
     </plurals>
     <string name="enter_password">Nhập mật khẩu</string>
     <string name="password">Mật khẩu</string>
     <string name="add_password">Thêm mật khẩu</string>
     <string name="seconds_letter">%ds</string>
     <string name="minutes_letter">%dp</string>
-    <string name="hours_letter">%dh</string>
+    <string name="hours_letter">%dg</string>
     <plurals name="seconds">
         <item quantity="other">%d giây</item>
     </plurals>
@@ -793,7 +791,7 @@
     <string name="privacy_policy">Chính sách bảo mật</string>
     <string name="version_placeholder">Phiên bản %s</string>
     <string name="hello">Xin chào :)</string>
-    <string name="about_footer">Tạo bằng ❤️ từ Slovakia</string>
+    <string name="about_footer">Lập trình bằng ❤️ từ Slovakia</string>
     <string name="all_fossify_apps">Tất cả app Fossify</string>
     <string name="translation_vietnamese">Tiếng Việt</string>
     <string name="little_to_no_fee">Ít hoặc không tốn phí</string>
@@ -830,4 +828,212 @@
     <string name="apply_to_all_apps">Áp dụng màu cho tất cả app Fossify</string>
     <string name="enables_more_customization">Cho phép tùy chỉnh nhiều hơn</string>
     <string name="number_of_items">Số lượng mục</string>
+    <string name="format_phone_numbers">Định dạng số điện thoại</string>
+    <string name="middle_name">Tên đệm</string>
+    <string name="full_name">Tên đầy đủ</string>
+    <string name="confirm_storage_access_restricted_text">Do hạn chế của hệ thống, thư mục này không khả dụng.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Mở bằng ứng dụng hệ thống</string>
+    <plurals name="delete_contacts">
+        <item quantity="other">%d liên hệ</item>
+    </plurals>
+    <string name="genre">Thể loại</string>
+    <string name="f_number">Khẩu độ</string>
+    <string name="shared_theme_note">Lưu ý rằng ngay cả khi bạn đang sử dụng phiên bản ứng dụng Pro, bạn vẫn cần Fossify Thank You vì lý do kỹ thuật. Ứng dụng này đảm nhiệm việc đồng bộ hóa màu sắc.</string>
+    <string name="solarized">Phơi sáng</string>
+    <string name="view_contact_details">Xem chi tiết liên hệ</string>
+    <string name="send_sms">Gửi SMS</string>
+    <string name="send_email">Gửi email</string>
+    <string name="contact_details">Chi tiết liên hệ</string>
+    <string name="add_contact">Thêm liên hệ</string>
+    <string name="reorder_items_by_dragging">Kéo để sắp xếp lại các mục</string>
+    <string name="days_letter">%dd</string>
+    <string name="week_number_short">wk.</string>
+    <plurals name="seconds_before">
+        <item quantity="other">%ds trước</item>
+    </plurals>
+    <plurals name="minutes_before">
+        <item quantity="other">%dp trước</item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="other">%dg trước</item>
+    </plurals>
+    <plurals name="days_before">
+        <item quantity="other">%d ngày trước</item>
+    </plurals>
+    <plurals name="weeks_before">
+        <item quantity="other">%d tuần trước</item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="other">%d tháng trước</item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="other">%d năm trước</item>
+    </plurals>
+    <plurals name="by_seconds">
+        <item quantity="other">%d giây</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="other">%d phút</item>
+    </plurals>
+    <plurals name="by_hours">
+        <item quantity="other">%d giờ</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="other">%d ngày</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="other">%d tuần</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="other">%d tháng</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="other">%d năm</item>
+    </plurals>
+    <string name="font">Phông chữ</string>
+    <string name="app_font">Phông chữ app</string>
+    <string name="font_monospace">Monospace</string>
+    <string name="select_font_file">Chọn tệp phông chữ…</string>
+    <string name="invalid_font_file">Tệp phông chữ không hợp lệ</string>
+    <string name="contacts_tab">Danh bạ</string>
+    <string name="january_short">Th1</string>
+    <string name="february_short">Th2</string>
+    <string name="march_short">Th3</string>
+    <string name="april_short">Th4</string>
+    <string name="may_short">Th5</string>
+    <string name="june_short">Th6</string>
+    <string name="july_short">Th7</string>
+    <string name="august_short">Th8</string>
+    <string name="september_short">Th9</string>
+    <string name="october_short">Th10</string>
+    <string name="november_short">Th11</string>
+    <string name="december_short">Th12</string>
+    <string name="upgraded_to_pro_gallery">Xin chào,\n\ncó vẻ như bạn đã có phiên bản ứng dụng Pro rồi. Sau khi bạn hài lòng với nó và có thể đã chuyển các cài đặt và mục yêu thích của mình sang, bạn có thể gỡ cài đặt ứng dụng này để tránh vô tình mở nó vì bạn sẽ không cần đến nó nữa.\n\nCảm ơn!</string>
+    <string name="upgraded_to_pro">Xin chào,\n\ncó vẻ như bạn đã có phiên bản ứng dụng Pro rồi. Sau khi bạn hài lòng với nó và có thể đã chuyển dữ liệu sang phiên bản mới, bạn có thể gỡ cài đặt ứng dụng này để tránh vô tình mở nó vì bạn sẽ không cần đến nó nữa.\n\nCảm ơn!</string>
+    <string name="donate_new">Xin chào,&lt;br&gt;&lt;br&gt;hi vọng bạn thích ứng dụng này. Ứng dụng không có quảng cáo và chúng tôi cũng không thu thập dữ liệu của bạn, vui lòng ủng hộ việc phát triển ứng dụng bằng cách mua &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Bạn sẽ mở khóa được tất cả tính năng của ứng dụng, bao gồm cả tùy chỉnh màu sắc.&lt;br&gt;&lt;br&gt;Cảm ơn!</string>
+    <string name="donate_short">Ủng hộ bằng cách mua &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, điều này sẽ mở khóa tất cả tính năng của ứng dụng, bao gồm cả tùy chỉnh màu sắc.</string>
+    <string name="update_thank_you">Vui lòng cập nhật Fossify Thank You lên phiên bản mới nhất</string>
+    <string name="make_sure_upgrade">Cũng cần lưu ý rằng phiên bản ứng dụng này hiện không còn được phát triển nữa, hãy tải phiên bản Pro để có nhiều cải tiến hơn.</string>
+    <string name="thank_you">Cảm ơn bạn</string>
+    <string name="widget_locked_pro">Widget này bị khóa.\nVui lòng nâng cấp lên phiên bản Pro để mở khóa tính năng này.</string>
+    <string name="features_locked">Tính năng này bị khóa, vui lòng mua &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; để mở khóa toàn bộ ứng dụng.&lt;br&gt;&lt;br&gt;Thanh toán một lần duy nhất và nếu bạn không hài lòng, chúng tôi sẽ hoàn tiền cho bạn.</string>
+    <string name="app_launcher_short">Trình khởi động app</string>
+    <string name="calculator_short">Máy tính</string>
+    <string name="calendar_short">Lịch</string>
+    <string name="camera_short">Máy ảnh</string>
+    <string name="clock_short">Đồng hồ</string>
+    <string name="contacts_short">Danh bạ</string>
+    <string name="dialer_short">Gọi điện thoại</string>
+    <string name="draw_short">Vẽ</string>
+    <string name="flashlight_short">Đèn pin</string>
+    <string name="gallery_short">Bộ sưu tập</string>
+    <string name="keyboard_short">Bàn phím</string>
+    <string name="launcher_short">Trình khởi động</string>
+    <string name="music_player_short">Trình phát nhạc</string>
+    <string name="notes_short">Ghi chú</string>
+    <string name="sms_messenger_short">Nhắn tin SMS</string>
+    <string name="thank_you_short">Thank You</string>
+    <string name="voice_recorder_short">Ghi âm</string>
+    <string name="badge_deprecated">(lỗi thời)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
+    <string name="translation_arabic">Ả Rập</string>
+    <string name="translation_azerbaijani">Azerbaijani</string>
+    <string name="translation_belarusian">Belarus</string>
+    <string name="translation_bengali">Bengal</string>
+    <string name="translation_breton">Breton</string>
+    <string name="translation_bulgarian">Bulgaria</string>
+    <string name="translation_central_kurdish">Kurdish</string>
+    <string name="translation_catalan">Catalan</string>
+    <string name="translation_chuvash">Chuvash</string>
+    <string name="translation_czech">Czech</string>
+    <string name="translation_esperanto">Quốc tế ngữ</string>
+    <string name="translation_welsh">Welsh</string>
+    <string name="translation_danish">Đan Mạch</string>
+    <string name="translation_english">Anh</string>
+    <string name="translation_german">Đức</string>
+    <string name="translation_greek">Hy Lạp</string>
+    <string name="translation_spanish">Tây Ban Nha</string>
+    <string name="translation_basque">Basque</string>
+    <string name="translation_persian">Ba Tư</string>
+    <string name="translation_finnish">Phần Lan</string>
+    <string name="translation_french">Pháp</string>
+    <string name="translation_galician">Galicia</string>
+    <string name="translation_gujarati">Gujarati</string>
+    <string name="translation_hindi">Hindi</string>
+    <string name="translation_croatian">Croatia</string>
+    <string name="translation_hungarian">Hungary</string>
+    <string name="translation_indonesian">Indonesia</string>
+    <string name="translation_italian">Ý</string>
+    <string name="translation_hebrew">Do Thái</string>
+    <string name="translation_japanese">Nhật Bản</string>
+    <string name="translation_kabyle">Kabyle</string>
+    <string name="translation_korean">Hàn Quốc</string>
+    <string name="translation_latvian">Latvia</string>
+    <string name="translation_lithuanian">Litva</string>
+    <string name="translation_nepali">Nepal</string>
+    <string name="translation_norwegian">Na Uy</string>
+    <string name="translation_dutch">Hà Lan</string>
+    <string name="translation_polish">Ba Lan</string>
+    <string name="translation_portuguese">Bồ Đào Nha</string>
+    <string name="translation_romanian">Romani</string>
+    <string name="translation_russian">Nga</string>
+    <string name="translation_slovak">Slovakia</string>
+    <string name="translation_slovenian">Slovenia</string>
+    <string name="translation_serbian">Serbia</string>
+    <string name="translation_swedish">Thụy Điển</string>
+    <string name="translation_tamil">Tamil</string>
+    <string name="translation_turkish">Thổ Nhĩ Kỳ</string>
+    <string name="translation_ukrainian">Ukraine</string>
+    <string name="translation_chinese_hk">Trung Quốc (Hồng Kông)</string>
+    <string name="translation_chinese_cn">Trung Quốc (Giản Thể)</string>
+    <string name="translation_chinese_tw">Trung Quốc (Phồn Thể)</string>
+    <string name="why_upgrade">Tải phiên bản Pro ngay!</string>
+    <string name="why_upgrade_basic_version">Cơ bản</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_no_ads">Không có quảng cáo</string>
+    <string name="why_upgrade_no_internet_access">Không cần kết nối mạng</string>
+    <string name="why_upgrade_footer">100% hoàn tiền</string>
+    <string name="why_upgrade_footer_one_time_payment">Thanh toán một lần</string>
+    <string name="why_upgrade_improved_design">Cải thiện thiết kế</string>
+    <string name="why_upgrade_many_other_improvements">Nhiều cải tiến khác</string>
+    <string name="why_upgrade_advanced_photo_editor">Trình chỉnh sửa ảnh nâng cao</string>
+    <string name="why_upgrade_advanced_photo_video_editor">Trình chỉnh sửa ảnh &amp; video nâng cao</string>
+    <string name="why_upgrade_folder_locking">Khóa thư mục riêng lẻ</string>
+    <string name="why_upgrade_printing_support">Hỗ trợ in</string>
+    <string name="why_upgrade_time_zone_support">Hỗ trợ múi giờ</string>
+    <string name="why_upgrade_attendees_emails">Danh sách người tham dự và email nhắc nhở</string>
+    <string name="why_upgrade_easy_event_importing">Nhập sự kiện dễ dàng</string>
+    <string name="why_upgrade_new_widgets">Widget mới</string>
+    <string name="why_upgrade_duplicate_contact_merging">Cải thiện việc hợp nhất các liên hệ trùng lặp</string>
+    <string name="why_upgrade_font_size_customization">Tùy chỉnh kích cỡ phông chữ</string>
+    <string name="why_upgrade_private_contact_sharing">Tùy chọn chia sẻ danh bạ riêng tư trong ứng dụng của chúng tôi</string>
+    <string name="why_upgrade_customizable_contact_ringtones">Tùy chỉnh nhạc chuông liên hệ</string>
+    <string name="why_upgrade_contact_filtering">Lọc liên hệ</string>
+    <string name="why_upgrade_contact_private_contacts">Danh bạ được lưu trữ riêng tư</string>
+    <string name="why_upgrade_checklists">Danh sách kiểm tra</string>
+    <string name="why_upgrade_different_note_per_widget">Mỗi tiện ích có ghi chú và màu sắc khác nhau</string>
+    <string name="why_upgrade_note_locking">Khóa ghi chú</string>
+    <string name="why_upgrade_date_and_time_format">Tùy chỉnh định dạng ngày và giờ</string>
+    <string name="why_upgrade_shortcuts">Lối tắt màn hình chính</string>
+    <string name="why_upgrade_background_color_customization">Tùy chỉnh màu nền</string>
+    <string name="why_upgrade_zooming">Phóng to</string>
+    <string name="otto_title">Otto (bus sự kiện)</string>
+    <string name="indicator_fast_scroll_title">Indicator Fast Scroll (chữ trên thanh cuộn)</string>
+    <string name="event_bus_title">Event Bus (giao tiếp trong ứng dụng)</string>
+    <string name="audio_record_view_title">Audio Record View (hình ảnh hóa âm thanh)</string>
+    <string name="sms_mms_title">SMS MMS (SMS và MMS)</string>
+    <string name="apng_title">APNG Android (hỗ trợ WebP động)</string>
+    <string name="pdf_view_pager_title">PDFViewPager (trình xem PDF)</string>
+    <string name="pdf_viewer_title">Android PdfViewer (trình xem PDF)</string>
+    <string name="android_lame_title">AndroidLame (giải mã mp3)</string>
+    <string name="evalex_title">EvalEx (đánh giá biểu thức toán học)</string>
+    <string name="trial_expired">Đã hết hạn dùng thử</string>
+    <string name="start_free_trial">Bắt đầu dùng thử</string>
+    <string name="trial_expires_soon">Bạn sắp hết hạn dùng thử.</string>
+    <string name="unlock_for_one_final_day">Mở khóa ứng dụng cho ngày cuối cùng</string>
+    <string name="trial_start_description">Cảm ơn bạn đã sử dụng ứng dụng của chúng tôi. Bạn có thể sử dụng phiên bản đã được mở khóa này <font color="#FFFFFF">%d nghày</font>. Sau khi thời gian dùng thử kết thúc, vui lòng cân nhắc nâng cấp lên phiên bản Pro. Phiên bản này có rất nhiều tính năng mới, thiết kế hiện đại, không có quảng cáo và nhiều cải tiến khác.\n\nBạn chỉ cần trả tiền một lần duy nhất trong đời và nếu không hài lòng, bạn có thể gỡ cài đặt và được hoàn tiền.\n\nHi vọng bạn sẽ thích nó :)</string>
+    <string name="trial_end_description">Vui lòng nâng cấp lên phiên bản Pro để tận hưởng ứng dụng một cách trọn vẹn nhất.\n\nBạn chỉ cần trả tiền một lần duy nhất trong đời và nếu không hài lòng, bạn có thể gỡ cài đặt và được hoàn tiền.\n\nHẹn gặp lại :)</string>
+    <plurals name="trial_expires_days">
+        <item quantity="other">Bạn sắp hết hạn sau %d ngày.</item>
+    </plurals>
 </resources>
