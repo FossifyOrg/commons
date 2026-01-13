@@ -228,8 +228,8 @@
     <string name="filename_cannot_be_empty">O nome do ficheiro não pode ficar em branco</string>
     <string name="filename_invalid_characters">O nome do ficheiro contém caracteres inválidos</string>
     <string name="source_file_doesnt_exist">Ficheiro de origem %s não existe</string>
-    <string name="prepend_filenames">Adicionar ao início dos nomes</string>
-    <string name="append_filenames">Adicionar ao fim dos nomes</string>
+    <string name="prepend_filenames">Adicionar ao início dos nomes dos ficheiros</string>
+    <string name="append_filenames">Adicionar ao fim dos nomes dos ficheiros</string>
     <string name="string_to_add">Texto a adicionar</string>
     <string name="simple_renaming">Renomeação simples</string>
     <string name="pattern_renaming">Padrão</string>
@@ -322,13 +322,13 @@
     <string name="save">Salvar</string>
     <string name="use_default">Usar padrão</string>
     <string name="change_color">Mudar cor</string>
-    <string name="theme">Tema</string>
+    <string name="theme">Tema da aplicação</string>
     <string name="discard">Descartar</string>
     <string name="undo_changes">Desfazer alterações</string>
     <string name="undo_changes_confirmation">Tem certeza que deseja desfazer as alterações?</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
     <string name="purchase_thank_you"><![CDATA[
-            Por favor, compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> para desbloquear esta função e apoiar o desenvolvimento. Obrigado!
+            Por favor, compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Obrigado</a> para desbloquear esta função e apoiar o desenvolvimento. Obrigado!
         ]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
@@ -837,8 +837,8 @@
     <string name="translation">Tradução</string>
     <string name="why_upgrade_basic_version">Básico</string>
     <string name="why_upgrade_pro_version">Pró</string>
-    <string name="block_unknown_calls">Bloquear chamadas de contatos não salvos</string>
-    <string name="block_unknown_messages">Bloquear mensagens de contatos não salvos</string>
+    <string name="block_unknown_calls">Bloquear chamadas de números que não estão nos contactos</string>
+    <string name="block_unknown_messages">Bloquear mensagens de números que não estão nos contactos</string>
     <string name="global_theme_success">O tema atual foi aplicado com sucesso a todos os aplicativos Fossify. Quaisquer alterações futuras neste tema serão sincronizadas automaticamente.</string>
     <string name="fee_up_to_pct">Taxa de até %1$d%%</string>
     <plurals name="by_hours">
@@ -1080,7 +1080,7 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <plurals name="files_saved">
         <item quantity="one">Ficheiro guardado com sucesso</item>
         <item quantity="many">Ficheiros guardados com sucesso</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="confirm_storage_access_restricted_text">Devido a restrições do sistema, esta pasta não está disponível.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Abrir na aplicação do sistema</string>
