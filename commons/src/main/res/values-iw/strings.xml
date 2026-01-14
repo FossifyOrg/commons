@@ -151,7 +151,7 @@
     <string name="use_default">שימוש בברירת מחדל</string>
     <string name="default_color">ברירת מחדל</string>
     <string name="change_color">שנה צבע</string>
-    <string name="theme">ערכת נושא</string>
+    <string name="theme">עיצוב האפלקציה</string>
     <string name="changing_color_description">שינוי צבע יגרום לשימוש בערכת נושא מותאמת</string>
     <string name="save">שמור</string>
     <string name="discard">השלך</string>
@@ -242,7 +242,7 @@
     <string name="your_sounds">הצלילים שלך</string>
     <string name="add_new_sound">הוספת צליל</string>
     <string name="settings">הגדרות</string>
-    <string name="customize_colors">התאם צבעים</string>
+    <string name="customize_colors">התאמה אישית של המראה</string>
     <string name="customize_widget_colors">התאם את צבעי הווידג\'ט</string>
     <string name="use_english_language">השתמש בשפה האנגלית</string>
     <string name="show_hidden_items">הצג פריטים מוסתרים</string>
@@ -422,12 +422,12 @@
     <string name="seconds_letter">%dשנ\'</string>
     <string name="minutes_letter">%dדק\'</string>
     <string name="general_settings">כללי</string>
-    <string name="color_customization">התאמה אישית של הצבעים</string>
+    <string name="color_customization">מראה ותחושה</string>
     <string name="notification_sound">צליל התראה</string>
     <string name="customize_notifications">התאם אישית התראות</string>
     <string name="feature_locked">נעול</string>
     <string name="language">שפה</string>
-    <string name="theme_and_colors">ערכות נושא וצבעים</string>
+    <string name="theme_and_colors">עיצוב וצבעים</string>
     <plurals name="minutes">
         <item quantity="one">דקה</item>
         <item quantity="two">%d דקות</item>
@@ -627,7 +627,7 @@
     <string name="purchase_thank_you"><![CDATA[
 אנא רכשו <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">תודה Fossify</a> כדי לפתוח תכונה זו ולתמוך בפיתוח. תודה!
 ]]></string>
-    <string name="apply_to_all_apps">החלת צבעים על כל אפליקציות Fossify</string>
+    <string name="apply_to_all_apps">החלת עיצוב על כל אפליקציות Fossify</string>
     <string name="solarized">‌</string>
     <string name="whats_new_disclaimer">* רק העדכונים הגדולים יותר מופיעים כאן, תמיד יש גם כמה שיפורים קטנים יותר</string>
     <string name="allow_access_more_media">אפשר גישה למדיה נוספת</string>
@@ -1092,4 +1092,9 @@
     <string name="translation_latvian">לטבית</string>
     <string name="badge_deprecated">(הוצא משימוש)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="font">גופן</string>
+    <string name="app_font">גופן האפלקציה</string>
+    <string name="font_monospace">Monospace</string>
+    <string name="select_font_file">בחר קובץ גופן…</string>
+    <string name="invalid_font_file">קובץ גופן לא תקין</string>
 </resources>
