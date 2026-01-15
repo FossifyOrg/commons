@@ -328,7 +328,7 @@
     <string name="shortcut">Phím tắt</string>
     <string name="create_shortcut">Tạo lối tắt</string>
     <string name="create_shortcut_pro">Tạo lối tắt (Pro)</string>
-    <string name="add_number_to_contact">Thêm số cho liên hệ</string>
+    <string name="add_number_to_contact">Thêm số vào liên hệ</string>
     <string name="call_from_sim_1">Gọi bằng SIM 1</string>
     <string name="call_from_sim_2">Gọi bằng SIM 2</string>
     <string name="toggle_filename">Ẩn/hiện tên tệp</string>
