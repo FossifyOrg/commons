@@ -507,7 +507,7 @@
     <string name="show_the_recycle_bin">Hiện Thùng rác</string>
     <string name="hide_the_recycle_bin">Ẩn Thùng rác</string>
     <string name="open_the_recycle_bin">Mở Thùng rác</string>
-    <string name="skip_the_recycle_bin">Xóa tệp luôn, không cần cho vào Thùng rác</string>
+    <string name="skip_the_recycle_bin">Xóa tệp luôn, khỏi cho vào Thùng rác</string>
     <string name="importing">Đang nhập… </string>
     <string name="exporting">Đang xuất… </string>
     <string name="importing_successful">Nhập thành công</string>
