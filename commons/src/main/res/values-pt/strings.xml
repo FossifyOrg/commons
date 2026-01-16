@@ -111,8 +111,8 @@
     <string name="must_make_default_dialer">Precisa tornar este aplicativo padrão para poder bloquear números.</string>
     <string name="set_as_default">Definir como padrão</string>
     <string name="block_confirmation">Tem certeza que deseja bloquear \"%s\"?</string>
-    <string name="block_unknown_calls">Bloquear chamadas de contatos não salvos</string>
-    <string name="block_unknown_messages">Bloquear mensagens de contatos não salvos</string>
+    <string name="block_unknown_calls">Bloquear chamadas de contatos não gravados</string>
+    <string name="block_unknown_messages">Bloquear mensagens de números não existentes nos contactos</string>
     <string name="add_blocked_number_helper_text">Digite um número ou um padrão (ex. *12345*, +1*8888) para bloquear todas as chamadas de números correspondentes.</string>
     <string name="must_make_default_caller_id_app">Não é possível bloquear números desconhecidos sem a permissão de ID de chamadas.</string>
     <string name="favorites">Favoritos</string>
@@ -164,8 +164,8 @@
     <string name="filename_invalid_characters_placeholder">O nome do ficheiro \'%s\' contém caracteres inválidos</string>
     <string name="extension_cannot_be_empty">A extensão não pode ficar em branco</string>
     <string name="source_file_doesnt_exist">Ficheiro de origem %s não existe</string>
-    <string name="prepend_filenames">Adicionar ao início dos nomes</string>
-    <string name="append_filenames">Adicionar ao fim dos nomes</string>
+    <string name="prepend_filenames">Adicionar texto ao início dos nome de ficheiros</string>
+    <string name="append_filenames">Adicionar ao fim dos nomes dos ficheiros</string>
     <string name="simple_renaming">Renomeação simples</string>
     <string name="pattern_renaming">Padrão</string>
     <string name="string_to_add">Texto a adicionar</string>
@@ -1079,4 +1079,11 @@ Obrigado a todos os contribuidores e outros apoiadores!
 ]]></string>
     <string name="translation_chuvash">Chuvache</string>
     <string name="trial_start_description">Obrigado por usar a nossa app. Pode usar esta versão desbloqueada por <font color="#FFFFFF">%d dias</font>. Quando o teste terminar, considere atualizar para a versão Pro. Ela tem uma grande quantidade de novos recursos, design moderno, sem anúncios e muitas outras melhorias.\n\nSó precisa pagar por ela uma vez na vida e, se não ficar satisfeito, pode desinstalá-la e obter um reembolso.\n\nEspero que goste :)</string>
+    <plurals name="files_saved">
+        <item quantity="one">Ficheiro gravado com sucesso</item>
+        <item quantity="many">Ficheiros gravados com sucesso</item>
+        <item quantity="other"></item>
+    </plurals>
+    <string name="evalex_title">EvalEx (avaliação de expressões matemáticas)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
