@@ -941,7 +941,7 @@
     <string name="donate_to_fossify">Dohaintza egin Fossify-ri</string>
     <string name="little_to_no_fee">Kuota txikia</string>
     <string name="faq_3_title_commons">Fitxategi batzuk errorez ezabatu ditut, nola berreskura ditzaket?</string>
-    <string name="fee_up_to_pct">Gehienez %%1$d%ko kuota</string>
+    <string name="fee_up_to_pct">Gehienez %1$d%%ko kuota</string>
     <string name="cryptocurrency">Criptomoneta</string>
     <string name="faq_2_text_commons"><![CDATA[
                             Bai, noski. Aplikazioen berri zabal dezakezu edo iritzi eta balorazio onak eman. Aplikazioak hizkuntza berri batera itzultzen ere lagundu dezakezu edo lehendik dauden itzulpen batzuk eguneratu besterik ez duzu egin. 
