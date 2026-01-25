@@ -357,9 +357,9 @@
     <string name="change_order">Keisti tvarką</string>
     <string name="proceed_with_deletion">Ar tikrai norite ištrinti?</string>
     <string name="deletion_confirmation">Ar tikrai norite ištrinti %s\?</string>
-    <string name="move_to_recycle_bin_confirmation">Ar tikrai norite perkelti %s į šiukšlinę\?</string>
+    <string name="move_to_recycle_bin_confirmation">Ar tikrai norite perkelti %s į šiukšlinę?</string>
     <string name="are_you_sure_delete">Ar tikrai norite ištrinti šį elementą\?</string>
-    <string name="are_you_sure_recycle_bin">Ar tikrai norite perkelti šį elementą į šiukšlinę\?</string>
+    <string name="are_you_sure_recycle_bin">Ar tikrai norite perkelti šį elementą į šiukšlinę?</string>
     <string name="do_not_ask_again">Šiame seanse daugiau nebeklausti</string>
     <string name="do_not_show_again">Daugiau neberodyti</string>
     <string name="yes">Taip</string>
@@ -634,7 +634,7 @@
     <string name="restore_all_files">Atkurti visus failus</string>
     <string name="recycle_bin_emptied">Šiukšlinė sėkmingai išvalyta</string>
     <string name="files_restored_successfully">Failai sėkmingai atkurti</string>
-    <string name="empty_recycle_bin_confirmation">Ar tikrai norite išvalyti šiukšlinę\? Failai bus prarasti visam laikui.</string>
+    <string name="empty_recycle_bin_confirmation">Ar tikrai norite išvalyti šiukšlinę? Failai bus prarasti visam laikui.</string>
     <string name="recycle_bin_empty">Šiukšlinė yra tuščia</string>
     <string name="moving_recycle_bin_items_disabled">Šiušklinės elementų perkėlimas yra išjungtas, naudokite „Atkurti“</string>
     <string name="show_the_recycle_bin">Rodyti šiukšlinę</string>
@@ -642,6 +642,7 @@
     <plurals name="moving_items_into_bin">
         <item quantity="one">Perkeliamas %d elementas į šiukšlinę</item>
         <item quantity="few">Perkeliami %d elementai į šiukšlinę</item>
+        <item quantity="many">Perkeliama %d elementų į šiukšlinę</item>
         <item quantity="other">Perkeliama %d elementų į šiukšlinę</item>
     </plurals>
     <string name="importing">Importuojama…</string>
