@@ -415,7 +415,7 @@
     <string name="more_options">Lisavalikud</string>
     <string name="proceed_with_deletion">Kas oled kindel, et soovid kustutamist jätkata\?</string>
     <string name="deletion_confirmation">Kas sa oled kindel, et soovid %s kustutada\?</string>
-    <string name="move_to_recycle_bin_confirmation">Kas sa oled kindel, et soovid %s visata prügikasti?</string>
+    <string name="move_to_recycle_bin_confirmation">Kas sa oled kindel, et soovid „%s“ visata prügikasti?</string>
     <string name="are_you_sure_delete">Kas sa oled kindel, et soovid selle faili kustutada\?</string>
     <string name="are_you_sure_recycle_bin">Kas sa oled kindel, et soovid selle faili prügikasti visata?</string>
     <string name="do_not_ask_again">Selles sessioonis ära rohkem seda küsi</string>
@@ -627,7 +627,7 @@
     <string name="use_same_snooze">Alati kasuta sama tukastamise aega</string>
     <string name="snooze_time">Tukastamise aeg</string>
     <string name="vibrate_on_button_press">Nupuvajutusel vibreeri</string>
-    <string name="move_items_into_recycle_bin">Kustutamise asemel viska failid prügikasti</string>
+    <string name="move_items_into_recycle_bin">Viska failid või objektid prügikasti</string>
     <string name="recycle_bin_cleaning_interval">Prügikasti tühjendamise välp</string>
     <string name="empty_recycle_bin">Tühjenda prügikast</string>
     <string name="force_portrait_mode">Kasuta ainult püstvaadet</string>
@@ -676,7 +676,7 @@
     <string name="files_restored_successfully">Failide taastamine õnnestus</string>
     <string name="empty_recycle_bin_confirmation">Kas oled kindel, et soovid prügikasti tühjendada? Failid lähevad lõplikult kaduma.</string>
     <string name="recycle_bin_empty">Prügikast on tühi</string>
-    <string name="moving_recycle_bin_items_disabled">Prügikastis olevaid faile ei saa mujale tõsta, palun kasuta taastamist</string>
+    <string name="moving_recycle_bin_items_disabled">Prügikastis olevaid faile ei saa mujale tõsta, palun kasuta taastamist.</string>
     <string name="show_the_recycle_bin">Näita prügikasti</string>
     <string name="hide_the_recycle_bin">Peida prügikast</string>
     <string name="open_the_recycle_bin">Ava prügikast</string>
@@ -841,7 +841,7 @@
     <string name="faq_4_title_commons">Mulle ei meeldi vidinate värvid, kas ma saan neid muuta\?</string>
     <string name="faq_4_text_commons">Jah, kui lohistad vidinat oma koduekraanile, ilmub vidina seadistusvaade. Sa näed vasakus alumises nurgas värvilisi ruute, ning uue värvi valimiseks vajuta neid. Lisaks saade läbipaistvuse kohendamiseks kasutada liugurit.</string>
     <string name="faq_5_title_commons">Kas ma mingil viisil saan kustutatud faile taastada\?</string>
-    <string name="faq_5_text_commons">Kui need on tõesti kustutatud, ei saa sa seda teha. Siiski on vaikimisi kasutusel prügikast ning kustutatud failid esialgu teisaldatakse sinna.</string>
+    <string name="faq_5_text_commons">Kui need on tõesti kustutatud, ei saa sa neid taastada. Siiski on vaikimisi kasutusel prügikast ning kustutatud failid esialgu lõpliku kustutamise asemel teisaldatakse sinna.</string>
     <string name="faq_6_title_commons">Rakenduse käivitaja ikoon kadus. Mida ma saan teha\?</string>
     <string name="faq_7_title_commons">Raha on minu pangakontolt maha kantud, kuid ma ei saa rakendust alla laadida. Mida ma saan teha\?</string>
     <string name="faq_7_text_commons">Makseid teostab täielikult Google, nende süsteemis esineb aeg-ajalt tõrkeid. Lihtsalt tühjenda oma Google Play rakenduse vahemälu ja taaskäivita seade, seejärel proovi rakendust uuesti alla laadida.</string>
