@@ -721,6 +721,7 @@
     <plurals name="moving_items_into_bin">
         <item quantity="one">%d položka sa presúva do odpadkového koša</item>
         <item quantity="few">%d položky sa presúvajú do odpadkového koša</item>
+        <item quantity="many">%d položiek sa presúva do odpadkového koša</item>
         <item quantity="other">%d položiek sa presúva do odpadkového koša</item>
     </plurals>
     <string name="importing">Importovanie…</string>
