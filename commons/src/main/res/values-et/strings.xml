@@ -415,9 +415,9 @@
     <string name="more_options">Lisavalikud</string>
     <string name="proceed_with_deletion">Kas oled kindel, et soovid kustutamist jätkata\?</string>
     <string name="deletion_confirmation">Kas sa oled kindel, et soovid %s kustutada\?</string>
-    <string name="move_to_recycle_bin_confirmation">Kas sa oled kindel, et soovid %s visata prügikasti\?</string>
+    <string name="move_to_recycle_bin_confirmation">Kas sa oled kindel, et soovid %s visata prügikasti?</string>
     <string name="are_you_sure_delete">Kas sa oled kindel, et soovid selle faili kustutada\?</string>
-    <string name="are_you_sure_recycle_bin">Kas sa oled kindel, et soovid selle faili prügikasti visata\?</string>
+    <string name="are_you_sure_recycle_bin">Kas sa oled kindel, et soovid selle faili prügikasti visata?</string>
     <string name="do_not_ask_again">Selles sessioonis ära rohkem seda küsi</string>
     <string name="do_not_show_again">Ära näita uuesti</string>
     <string name="yes">Jah</string>
@@ -674,7 +674,7 @@
     <string name="restore_all_files">Taasta kõik failid</string>
     <string name="recycle_bin_emptied">Prügikasti tühjendamine õnnestus</string>
     <string name="files_restored_successfully">Failide taastamine õnnestus</string>
-    <string name="empty_recycle_bin_confirmation">Kas oled kindel, et soovid prügikasti tühjendada\? Failid lähevad lõplikult kaduma.</string>
+    <string name="empty_recycle_bin_confirmation">Kas oled kindel, et soovid prügikasti tühjendada? Failid lähevad lõplikult kaduma.</string>
     <string name="recycle_bin_empty">Prügikast on tühi</string>
     <string name="moving_recycle_bin_items_disabled">Prügikastis olevaid faile ei saa mujale tõsta, palun kasuta taastamist</string>
     <string name="show_the_recycle_bin">Näita prügikasti</string>
