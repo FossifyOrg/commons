@@ -394,9 +394,9 @@
     <string name="proceed_with_deletion">Deze items verwijderen\?</string>
     <string name="deletion_confirmation">%s verwijderen\?</string>
     <string name="deletion_confirmation_short">%s verwijderen\?</string>
-    <string name="move_to_recycle_bin_confirmation">%s verplaatsen naar de prullenbak\?</string>
+    <string name="move_to_recycle_bin_confirmation">%s verplaatsen naar de prullenbak?</string>
     <string name="are_you_sure_delete">Item verwijderen\?</string>
-    <string name="are_you_sure_recycle_bin">Item verplaatsen naar de prullenbak\?</string>
+    <string name="are_you_sure_recycle_bin">Item verplaatsen naar de prullenbak?</string>
     <string name="do_not_ask_again">Onthouden voor deze sessie</string>
     <string name="do_not_show_again">Niet opnieuw weergeven</string>
     <string name="yes">Ja</string>
@@ -654,7 +654,7 @@
     <string name="restore_all_files">Alle bestanden terugzetten</string>
     <string name="recycle_bin_emptied">Prullenbak is geleegd</string>
     <string name="files_restored_successfully">Bestanden zijn teruggezet</string>
-    <string name="empty_recycle_bin_confirmation">Prullenbak inderdaad leegmaken\? De bestanden zullen permanent verwijderd worden.</string>
+    <string name="empty_recycle_bin_confirmation">Prullenbak inderdaad leegmaken? De bestanden zullen permanent verwijderd worden.</string>
     <string name="recycle_bin_empty">Prullenbak is leeg</string>
     <string name="moving_recycle_bin_items_disabled">Items uit de prullenbak verplaatsen is niet toegestaan. Gebruik de opdracht Herstellen.</string>
     <string name="show_the_recycle_bin">De prullenbak tonen</string>
