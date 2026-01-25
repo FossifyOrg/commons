@@ -651,7 +651,7 @@
     <string name="use_same_snooze">Vždy použít stejný čas odložení</string>
     <string name="snooze_time">Čas odložení</string>
     <string name="vibrate_on_button_press">Vibrovat při stisku tlačítka</string>
-    <string name="move_items_into_recycle_bin">Přesunout položky do koše namísto jejich vymazání</string>
+    <string name="move_items_into_recycle_bin">Přesunout odstraněné položky do koše</string>
     <string name="recycle_bin_cleaning_interval">Interval vyprázdnění koše</string>
     <string name="empty_recycle_bin">Vyprázdnit koš</string>
     <string name="force_portrait_mode">Vynutit zobrazení na výšku</string>
@@ -699,16 +699,16 @@
     <string name="files_restored_successfully">Soubory byly úspěšně obnoveny</string>
     <string name="empty_recycle_bin_confirmation">Opravdu chcete vyprázdnit koš? Soubory budou navždy ztraceny.</string>
     <string name="recycle_bin_empty">Koš je prázdný</string>
-    <string name="moving_recycle_bin_items_disabled">Přesouvání položek z koše je zakázáno, použijte obnovení</string>
+    <string name="moving_recycle_bin_items_disabled">Přesouvání položek z koše je zakázáno. Použijte prosím Obnovení.</string>
     <string name="show_the_recycle_bin">Zobrazit koš</string>
     <string name="hide_the_recycle_bin">Skrýt koš</string>
     <string name="open_the_recycle_bin">Otevřít koš</string>
     <string name="skip_the_recycle_bin">Nepoužívat koš, odstranit soubory přímo</string>
     <plurals name="moving_items_into_bin">
-        <item quantity="one">%d položka se přesouvá do koše</item>
-        <item quantity="few">%d položky se přesouvají do koše</item>
-        <item quantity="many">%d položek se přesouvá do koše</item>
-        <item quantity="other">%d položek se přesouvá do koše</item>
+        <item quantity="one">Přesouvání %d položky do koše</item>
+        <item quantity="few">Přesouvání %d položek do koše</item>
+        <item quantity="many">Přesouvání %d položek do koše</item>
+        <item quantity="other">Přesouvání %d položek do koše</item>
     </plurals>
     <string name="importing">Importování…</string>
     <string name="exporting">Exportování…</string>
@@ -906,7 +906,7 @@
     <string name="faq_4_title_commons">Nelíbí se mi barvy widgetu, mohu je změnit?</string>
     <string name="faq_4_text_commons">Ano, po přidání widgetu na domovskou obrazovku se zobrazí obrazovka s konfigurací. Klepnutím na barevné čtverečky v levém dolním rohu můžete navolit nové barvy. Tažením posuvníku můžete upravit i průhlednost.</string>
     <string name="faq_5_title_commons">Mohu nějakým způsobem obnovit smazané soubory?</string>
-    <string name="faq_5_text_commons">Pokud byly skutečně smazány, nemůžete. Ve výchozím nastavení je však povolen koš, což způsobí pouze přesunutí souborů do koše namísto jejich vymazání.</string>
+    <string name="faq_5_text_commons">Pokud byly skutečně smazány, nemůžete je obnovit. Ve výchozím nastavení je však povolen koš, do kterého jsou soubory ve výchozím nastavení přesunuty, namísto jejich okamžitého smazání.</string>
     <string name="faq_6_title_commons">Ikona aplikace zmizela z domovské obrazovky. Co s tím?</string>
     <string name="faq_7_title_commons">Peníze mi byly z bankovního účtu odepsány, aplikaci však nemohu stáhnout. Co s tím?</string>
     <string name="faq_7_text_commons">Platby jsou plně spravovány Googlem, jejich systém však občas nefunguje tak jak by měl. Zkuste vymazat mezipaměť aplikace Obchod Play, restartujte zařízení a zkuste aplikaci stáhnout znovu.</string>
