@@ -607,7 +607,7 @@
     <string name="use_same_snooze">Altijd dezelfde sluimertijd gebruiken</string>
     <string name="snooze_time">Interval bij sluimertijd</string>
     <string name="vibrate_on_button_press">Trillen bij het indrukken van toetsen</string>
-    <string name="move_items_into_recycle_bin">Items niet verwijderen, maar verplaatsen naar de prullenbak</string>
+    <string name="move_items_into_recycle_bin">Verwijderde items verplaatsen naar de prullenbak</string>
     <string name="recycle_bin_cleaning_interval">Interval prullenbak leegmaken</string>
     <string name="empty_recycle_bin">Prullenbak leegmaken</string>
     <string name="force_portrait_mode">Portretmodus forceren</string>
@@ -660,7 +660,7 @@
     <string name="show_the_recycle_bin">De prullenbak tonen</string>
     <string name="hide_the_recycle_bin">De prullenbak verbergen</string>
     <string name="open_the_recycle_bin">Prullenbak openen</string>
-    <string name="skip_the_recycle_bin">Bestanden niet naar de prullenbak verplaatsen, maar direct verwijderen</string>
+    <string name="skip_the_recycle_bin">Prullenbak overslaan en bestanden direct verwijderen</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">%d item naar de prullenbak verplaatsen</item>
         <item quantity="other">%d items naar de prullenbak verplaatsen</item>
@@ -827,7 +827,7 @@
     <string name="faq_4_title_commons">Ik vind de kleuren van de widgets niet mooi, kan ik ze veranderen?</string>
     <string name="faq_4_text_commons">Ja, bij het plaatsen van een widget naar uw hoofdscherm, verschijnt een widgetconfiguratiescherm. Je ziet gekleurde vierkanten in de linkerbenedenhoek, druk erop om een nieuwe kleur te kiezen. De schuifregelaar is voor de transparantie.</string>
     <string name="faq_5_title_commons">Kan ik verwijderde bestanden terugzetten\?</string>
-    <string name="faq_5_text_commons">Niet als de bestanden daadwerkelijk zijn verwijderd. Bestanden kunnen worden teruggezet als de prullenbak is ingeschakeld (dat is standaard het geval, zie Instellingen).</string>
+    <string name="faq_5_text_commons">Niet als de bestanden daadwerkelijk zijn verwijderd, maar standaard zullen bestanden eerst naar de prullenbak worden verplaatst, tenzij die is uitgeschakeld.</string>
     <string name="faq_6_title_commons">Het icoon voor de app is verdwenen uit mijn launcher. Wat moet ik doen\?</string>
     <string name="faq_7_title_commons">Het geld is afgeschreven van mijn rekening, maar ik kan de app nog niet downloaden. Wat moet ik doen?</string>
     <string name="faq_7_text_commons">Betalingen worden verwerkt door Google, maar dit systeem vertoont soms wat problemen. Leeg de cache van de Google Play Store app en start daarna het apparaat opnieuw. Probeer vervolgens nogmaals de app te downloaden.</string>
