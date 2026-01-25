@@ -733,7 +733,7 @@
     <string name="use_same_snooze">Always use same snooze time</string>
     <string name="snooze_time">Snooze time</string>
     <string name="vibrate_on_button_press">Vibrate on button press</string>
-    <string name="move_items_into_recycle_bin">Use recycle bin</string>
+    <string name="move_items_into_recycle_bin">Move deleted items to recycle bin</string>
     <string name="recycle_bin_cleaning_interval">Recycle bin cleaning interval</string>
     <string name="empty_recycle_bin">Empty the recycle bin</string>
     <string name="force_portrait_mode">Force portrait mode</string>
@@ -1018,7 +1018,7 @@
     <string name="faq_4_title_commons">I don\'t like the widget colors, can I change them?</string>
     <string name="faq_4_text_commons">Yep, as you drag a widget on your home screen a widget config screen appears. You will see colored squares at the bottom left corner, just press them to pick a new color. You can use the slider for adjusting the alpha too.</string>
     <string name="faq_5_title_commons">Can I somehow restore deleted files?</string>
-    <string name="faq_5_text_commons">If they were really deleted, you cannot. However, there is a recycle bin enabled by default, it will cause the files just be moved in the bin instead of deleting them.</string>
+    <string name="faq_5_text_commons">If they were really deleted, you cannot recover them. However, the recycle bin is enabled by default and moves files into the bin instead of deleting them immediately.</string>
     <string name="faq_6_title_commons">The app launcher icon disappeared. What can I do?</string>
     <string name="faq_6_text_commons">This issue arises when your launcher does not fully support icon customization. Attempt launching the app through Google Play or a widget, if accessible.
         After launching, restore the default green icon color #106D1F. In extreme cases, reinstalling the app may be necessary.</string>
