@@ -707,6 +707,7 @@
     <plurals name="moving_items_into_bin">
         <item quantity="one">%d položka se přesouvá do koše</item>
         <item quantity="few">%d položky se přesouvají do koše</item>
+        <item quantity="many">%d položek se přesouvá do koše</item>
         <item quantity="other">%d položek se přesouvá do koše</item>
     </plurals>
     <string name="importing">Importování…</string>
