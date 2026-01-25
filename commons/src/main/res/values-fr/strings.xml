@@ -420,9 +420,9 @@
     <string name="proceed_with_deletion">Voulez-vous vraiment procéder à la suppression \?</string>
     <string name="deletion_confirmation">Voulez-vous vraiment supprimer %s \?</string>
     <string name="deletion_confirmation_short">Supprimer %s \?</string>
-    <string name="move_to_recycle_bin_confirmation">Voulez-vous vraiment déplacer %s dans la corbeille \?</string>
+    <string name="move_to_recycle_bin_confirmation">Voulez-vous vraiment déplacer %s dans la corbeille ?</string>
     <string name="are_you_sure_delete">Voulez-vous vraiment supprimer cet élément \?</string>
-    <string name="are_you_sure_recycle_bin">Voulez-vous vraiment déplacer cet élément dans la corbeille \?</string>
+    <string name="are_you_sure_recycle_bin">Voulez-vous vraiment déplacer cet élément dans la corbeille ?</string>
     <string name="do_not_ask_again">Ne plus demander pour cette session</string>
     <string name="do_not_show_again">Ne plus montrer</string>
     <string name="yes">Oui</string>
@@ -714,7 +714,7 @@
     <string name="restore_all_files">Restaurer tous les fichiers</string>
     <string name="recycle_bin_emptied">Vidage de la corbeille réussi</string>
     <string name="files_restored_successfully">Restauration des fichiers réussie</string>
-    <string name="empty_recycle_bin_confirmation">Voulez-vous vraiment vider la corbeille \? Les fichiers seront irrécupérables.</string>
+    <string name="empty_recycle_bin_confirmation">Voulez-vous vraiment vider la corbeille ? Les fichiers seront irrécupérables.</string>
     <string name="recycle_bin_empty">La corbeille est vide</string>
     <string name="moving_recycle_bin_items_disabled">Le déplacement des éléments de la corbeille est désactivé. Veuillez utiliser la fonction de restauration</string>
     <string name="show_the_recycle_bin">Afficher la corbeille</string>
