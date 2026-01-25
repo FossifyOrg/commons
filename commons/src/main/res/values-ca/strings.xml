@@ -704,7 +704,7 @@
     <string name="restore_all_files">Restaura tots els fitxers</string>
     <string name="recycle_bin_emptied">La paperera de reciclatge s\'ha buidat correctament</string>
     <string name="files_restored_successfully">Els fitxers s\'han restaurat correctament</string>
-    <string name="empty_recycle_bin_confirmation">Segur que voleu buidar la paperera de reciclatge\? Els fitxers es perdran per sempre.</string>
+    <string name="empty_recycle_bin_confirmation">Segur que voleu buidar la paperera de reciclatge? Els fitxers es perdran per sempre.</string>
     <string name="recycle_bin_empty">La paperera de reciclatge és buida</string>
     <string name="moving_recycle_bin_items_disabled">Moure els elements de la paperera està de reciclatge desactivat, utilitzeu la restauració</string>
     <string name="show_the_recycle_bin">Mostra la paperera de reciclatge</string>
