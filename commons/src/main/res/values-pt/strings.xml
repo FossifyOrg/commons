@@ -1082,7 +1082,7 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <plurals name="files_saved">
         <item quantity="one">Ficheiro gravado com sucesso</item>
         <item quantity="many">Ficheiros gravados com sucesso</item>
-        <item quantity="other"></item>
+        <item quantity="other"/>
     </plurals>
     <string name="evalex_title">EvalEx (avaliação de expressões matemáticas)</string>
     <string name="label_with_badge">%1$s %2$s</string>
