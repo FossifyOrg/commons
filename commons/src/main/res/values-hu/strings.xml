@@ -416,9 +416,9 @@
     <string name="more_options">További lehetőségek</string>
     <string name="proceed_with_deletion">Biztos, hogy folytatja a törlést\?</string>
     <string name="deletion_confirmation">Biztos, hogy törli ezt: %s\?</string>
-    <string name="move_to_recycle_bin_confirmation">Biztos, hogy áthelyezi a(z) %s fájlt a Lomtárba\?</string>
+    <string name="move_to_recycle_bin_confirmation">Biztos, hogy áthelyezi a(z) %s fájlt a Lomtárba?</string>
     <string name="are_you_sure_delete">Biztos, hogy törli ezt az elemet\?</string>
-    <string name="are_you_sure_recycle_bin">Biztos, hogy áthelyezi ezt az elemet a Lomtárba\?</string>
+    <string name="are_you_sure_recycle_bin">Biztos, hogy áthelyezi ezt az elemet a Lomtárba?</string>
     <string name="do_not_ask_again">Ne kérdezze újra ebben a munkamenetben</string>
     <string name="do_not_show_again">Ne jelenítse meg újra</string>
     <string name="yes">Igen</string>
@@ -679,7 +679,7 @@
     <string name="restore_all_files">Összes fájl helyreállítása</string>
     <string name="recycle_bin_emptied">A Lomtár sikeresen kiürítve</string>
     <string name="files_restored_successfully">A fájlok sikeresen helyreállítva</string>
-    <string name="empty_recycle_bin_confirmation">Biztos, hogy üríti a Lomtárat\? A fájlok véglegesen elvesznek.</string>
+    <string name="empty_recycle_bin_confirmation">Biztos, hogy üríti a Lomtárat? A fájlok véglegesen elvesznek.</string>
     <string name="recycle_bin_empty">A Lomtár üres</string>
     <string name="moving_recycle_bin_items_disabled">A lomtárelemek áthelyezése le van tiltva, használja a Helyreállítás lehetőséget</string>
     <string name="show_the_recycle_bin">Lomtár megjelenítése</string>
