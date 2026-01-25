@@ -40,9 +40,9 @@
     <string name="use_same_snooze">Bain úsáid as an am snooze céanna i gcónaí</string>
     <string name="snooze_time">Am snooze</string>
     <string name="vibrate_on_button_press">Creath ar phreas an chnaipe</string>
-    <string name="move_items_into_recycle_bin">Bog míreanna isteach sa Bhosca Athchúrsála in ionad iad a scriosadh</string>
-    <string name="recycle_bin_cleaning_interval">Eatramh glantacháin na n-araidí athchúrsála</string>
-    <string name="empty_recycle_bin">Folmhaigh an Bosca Athchúrsála</string>
+    <string name="move_items_into_recycle_bin">Bog míreanna scriosta chuig an mbosca athchúrsála</string>
+    <string name="recycle_bin_cleaning_interval">Eatramh glantacháin an bhosca athchúrsála</string>
+    <string name="empty_recycle_bin">Folmhaigh an bosca athchúrsála</string>
     <string name="force_portrait_mode">Neart Portráid Faisean</string>
     <string name="export_settings">Easpórtáil socruithe</string>
     <string name="settings_exported_successfully">D\' éirigh le socruithe easpórtála</string>
@@ -55,7 +55,7 @@
     <string name="visibility">Infheictheacht</string>
     <string name="scrolling">Scrollaigh</string>
     <string name="file_operations">Oibríochtaí comhaid</string>
-    <string name="recycle_bin">Bosca Athchúrsála</string>
+    <string name="recycle_bin">Bosca athchúrsála</string>
     <string name="startup">Tosaithe</string>
     <string name="text">Téacs</string>
     <string name="migrating">Imirce</string>
@@ -79,15 +79,15 @@
     <string name="last_used_tab">An ceann is déanaí a úsáideadh</string>
     <string name="restore_selected_files">Aischuir na comhaid roghnaithe</string>
     <string name="restore_all_files">Aischuir gach comhad</string>
-    <string name="recycle_bin_emptied">Folmhaíodh an Bosca Athchúrsála go rathúil</string>
+    <string name="recycle_bin_emptied">Tá an bosca athchúrsála folamhaithe go rathúil</string>
     <string name="files_restored_successfully">D\' éirigh le hathchóiriú comhad</string>
-    <string name="empty_recycle_bin_confirmation">An bhfuil tú cinnte go bhfuil fonn ort an Bosca Athchúrsála a fholmhú? Caillfear na comhaid go buan.</string>
-    <string name="recycle_bin_empty">Tá an Bosca Athchúrsála folamh</string>
-    <string name="moving_recycle_bin_items_disabled">Díchumasaíodh míreanna athchúrsála a bhogadh, bain úsáid as Athchóirigh</string>
+    <string name="empty_recycle_bin_confirmation">An bhfuil tú cinnte gur mian leat an bosca athchúrsála a fholmhú? Caillfear na comhaid go buan.</string>
+    <string name="recycle_bin_empty">Tá an bosca athchúrsála folamh</string>
+    <string name="moving_recycle_bin_items_disabled">Tá bogadh míreanna ón mbosca athchúrsála díchumasaithe. Bain úsáid as Athchóirigh le do thoil.</string>
     <string name="show_the_recycle_bin">Taispeáin an bosca athchúrsála</string>
-    <string name="hide_the_recycle_bin">Folaigh an Bosca Athchúrsála</string>
-    <string name="open_the_recycle_bin">Oscail an Bosca Athchúrsála</string>
-    <string name="skip_the_recycle_bin">Ná bac leis an mBosca Athchúrsála, scrios comhaid go díreach</string>
+    <string name="hide_the_recycle_bin">Folaigh an bosca athchúrsála</string>
+    <string name="open_the_recycle_bin">Oscail an bosca athchúrsála</string>
+    <string name="skip_the_recycle_bin">Seachain an bosca athchúrsála, scrios comhaid go díreach</string>
     <string name="importing">Á iompórtáil…</string>
     <string name="exporting">Á easpórtáil…</string>
     <string name="importing_successful">D\'éirigh le hiompórtáil</string>
@@ -226,7 +226,7 @@
     <string name="faq_4_title_commons">Ní maith liom na dathanna giuirléidí, an féidir liom iad a athrú?</string>
     <string name="faq_4_text_commons">Yep, agus tú ag tarraingt giuirléid ar do scáileán baile feictear scáileán cumraíochta giuirléidí. Feicfidh tú cearnóga daite ag bun an chúinne ar chlé, ach brúigh iad chun dath nua a roghnú. Is féidir leat an sleamhnán a úsáid chun an t-alfa a choigeartú freisin.</string>
     <string name="faq_5_title_commons">An féidir liom comhaid scriosta a aischur ar bhealach éigin?</string>
-    <string name="faq_5_text_commons">Má scriosadh iad i ndáiríre, ní féidir leat. Mar sin féin, tá Bosca Athchúrsála cumasaithe de réir réamhshocraithe, cuirfidh sé faoi deara na comhaid a bhogadh sa Bhosca Bruscair in ionad iad a scriosadh.</string>
+    <string name="faq_5_text_commons">Mura scriosadh iad i ndáiríre, ní féidir leat iad a aisghabháil. Mar sin féin, bíonn an bosca athchúrsála cumasaithe de réir réamhshocraithe agus bogann sé comhaid isteach sa bhosca seachas iad a scriosadh láithreach.</string>
     <string name="faq_6_title_commons">D\'imigh deilbhín tosaitheoir an fheidhmchláir. Céard is féidir liom a dhéanamh?</string>
     <string name="faq_6_text_commons">Tagann an cheist seo chun cinn nuair nach dtacaíonn do thosaitheoir go hiomlán le saincheaptha deilbhíní. Déan iarracht an aip a sheoladh trí Google Play nó giuirléid, más inrochtana. Tar éis seoladh, athchóirigh an #106D1F réamhshocraithe dath deilbhín glas. I gcásanna tromchúiseacha, d\'fhéadfadh sé go mbeadh gá leis an aip a athshuiteáil.</string>
     <string name="faq_7_title_commons">Baineadh an t-airgead as mo chuntas bainc, ach ní féidir liom an aip a íoslódáil. Céard is féidir liom a dhéanamh?</string>
@@ -305,7 +305,7 @@
     <string name="ascending">Ag dul suas</string>
     <string name="descending">Íslitheach</string>
     <string name="are_you_sure_delete">An bhfuil tú cinnte go bhfuil fonn ort an mhír seo a scriosadh?</string>
-    <string name="are_you_sure_recycle_bin">An bhfuil tú cinnte go bhfuil fonn ort an mhír seo a bhogadh isteach sa Bhosca Athchúrsála?</string>
+    <string name="are_you_sure_recycle_bin">An bhfuil tú cinnte gur mhaith leat an mhír seo a bhogadh isteach sa bhosca athchúrsála?</string>
     <string name="do_not_ask_again">Ná fiafraigh arís sa seisiún seo</string>
     <string name="do_not_show_again">Ná taispeáin arís</string>
     <plurals name="delete_warning">
@@ -868,7 +868,7 @@
     <string name="stop_showing_hidden">Stop ag taispeáint meáin fholaithe</string>
     <string name="allow_access_more_media">Ceadaigh rochtain ar níos mó meán</string>
     <string name="maximum_share_reached">Ní féidir leat an t-ábhar seo a roinnt ag an am céanna</string>
-    <string name="empty_and_disable_recycle_bin">Folmhaigh agus díchumasaigh an Bosca Athchúrsála</string>
+    <string name="empty_and_disable_recycle_bin">Folmhaigh agus díchumasaigh an bosca athchúrsála</string>
     <string name="undo">Cealaigh</string>
     <string name="redo">Athdhéan</string>
     <string name="print">Priontáil</string>
@@ -915,7 +915,7 @@
     <string name="proceed_with_deletion">An bhfuil tú cinnte go bhfuil fonn ort dul ar aghaidh leis an scriosadh?</string>
     <string name="deletion_confirmation">An bhfuil tú cinnte go bhfuil fonn ort %s a scriosadh?</string>
     <string name="deletion_confirmation_short">Scrios %s?</string>
-    <string name="move_to_recycle_bin_confirmation">An bhfuil tú cinnte go bhfuil fonn ort %s a bhogadh isteach sa Bhosca Athchúrsála?</string>
+    <string name="move_to_recycle_bin_confirmation">An bhfuil tú cinnte gur mhaith leat %s a bhogadh isteach sa bhosca athchúrsála?</string>
     <string name="yes">Tá</string>
     <string name="no">Ní hea</string>
     <string name="maybe">B\'fhéidir</string>
@@ -984,11 +984,11 @@
     </plurals>
     <string name="trial_start_description">Go raibh maith agat as ár n-aip a úsáid. Is féidir leat an leagan díghlasáilte seo a úsáid ar feadh <font color="#FFFFFF">%d lá</font>. Nuair a chríochnaíonn an triail, smaoinigh ar uasghrádú go dtí an leagan Pro. Tá líon mór gnéithe nua aige, dearadh nua-aimseartha, gan aon fhógraí agus go leor feabhsuithe eile.\n\nNíl le déanamh agat ach íoc as uair amháin ar feadh an tsaoil agus mura mbeidh tú sásta, is féidir leat é a dhíshuiteáil agus aisíocaíocht a fháil.\n\nTá súil agam go dtaitneoidh sé leat :)</string>
     <plurals name="moving_items_into_bin">
-        <item quantity="one">Ag bogadh %d mhír isteach san Araid Athchúrsála</item>
-        <item quantity="two">%d míreanna á mbogadh isteach san Araid Athchúrsála</item>
-        <item quantity="few">%d míreanna á mbogadh isteach san Araid Athchúrsála</item>
-        <item quantity="many">%d míreanna á mbogadh isteach san Araid Athchúrsála</item>
-        <item quantity="other">%d míreanna á mbogadh isteach san Araid Athchúrsála</item>
+        <item quantity="one">Ag bogadh %d earra isteach sa bhosca athchúrsála</item>
+        <item quantity="two">Ag bogadh %d mír isteach sa bhosca athchúrsála</item>
+        <item quantity="few">Ag bogadh %d míreanna isteach sa bhosca athchúrsála</item>
+        <item quantity="many">Ag bogadh %d míreanna isteach sa bhosca athchúrsála</item>
+        <item quantity="other">Ag bogadh %d míreanna isteach sa bhosca athchúrsála</item>
     </plurals>
     <string name="donate_please"><![CDATA[
  Dia duit, <br><br>
