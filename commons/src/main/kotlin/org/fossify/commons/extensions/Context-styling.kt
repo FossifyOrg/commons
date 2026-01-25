@@ -8,12 +8,14 @@ import android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_DISABLED
 import android.content.pm.PackageManager.COMPONENT_ENABLED_STATE_ENABLED
 import android.content.res.Configuration
 import android.graphics.Color
+import android.graphics.Typeface
 import android.view.ViewGroup
 import androidx.loader.content.CursorLoader
 import com.google.android.material.color.MaterialColors
 import org.fossify.commons.R
 import org.fossify.commons.helpers.DARK_GREY
 import org.fossify.commons.helpers.FONT_TYPE_CUSTOM
+import org.fossify.commons.helpers.FONT_TYPE_SYSTEM_DEFAULT
 import org.fossify.commons.helpers.FontHelper
 import org.fossify.commons.helpers.MyContentProvider
 import org.fossify.commons.helpers.MyContentProvider.GLOBAL_THEME_SYSTEM
@@ -159,10 +161,9 @@ fun Context.syncGlobalConfig(callback: (() -> Unit)? = null) {
                         accentColor = it.accentColor
 
                         if (it.fontType >= 0 && (fontType != it.fontType || fontName != it.fontName)) {
-                            fontType = it.fontType
-                            fontName = it.fontName
-                            if (it.fontType == FONT_TYPE_CUSTOM && it.fontName.isNotEmpty()) {
-                                ensureFontPresentLocally(it.fontName)
+                            if (it.fontType != FONT_TYPE_CUSTOM || ensureFontPresentLocally(it.fontName)) {
+                                fontType = it.fontType
+                                fontName = it.fontName
                             }
                             FontHelper.clearCache()
                         }
@@ -175,12 +176,25 @@ fun Context.syncGlobalConfig(callback: (() -> Unit)? = null) {
                 }
             }
 
+            validateFontSettings()
             callback?.invoke()
         }
     } else {
         baseConfig.isGlobalThemeEnabled = false
         baseConfig.showCheckmarksOnSwitches = false
+        validateFontSettings()
         callback?.invoke()
+    }
+}
+
+private fun Context.validateFontSettings() {
+    if (baseConfig.fontType == FONT_TYPE_CUSTOM) {
+        val typeface = FontHelper.getTypeface(this)
+        if (typeface == Typeface.DEFAULT) {
+            baseConfig.fontType = FONT_TYPE_SYSTEM_DEFAULT
+            baseConfig.fontName = ""
+            FontHelper.clearCache()
+        }
     }
 }
 
