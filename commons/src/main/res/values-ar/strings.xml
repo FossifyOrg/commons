@@ -383,7 +383,7 @@
     <string name="stop_showing_hidden">إيقاف عرض الوسائط المخفية</string>
     <string name="allow_access_more_media">السماح بالوصول إلى المزيد من الوسائط</string>
     <string name="maximum_share_reached">لا يمكنك مشاركة هذا المحتوى الكبير مرة واحدة</string>
-    <string name="empty_and_disable_recycle_bin">إفراغ "سلة المحذوفات" وتعطيلها</string>
+    <string name="empty_and_disable_recycle_bin">إفراغ سلة المحذوفات وتعطيلها</string>
     <string name="undo">تراجع</string>
     <string name="redo">إعادة</string>
     <string name="print">طباعة</string>
@@ -427,9 +427,9 @@
     <string name="more_options">المزيد من الخيارات</string>
     <string name="proceed_with_deletion">هل تريد بالتأكيد متابعة عملية الحذف ؟</string>
     <string name="deletion_confirmation">هل تريد بالتأكيد حذف%s ؟</string>
-    <string name="move_to_recycle_bin_confirmation">هل تريد بالتأكيد نقل %s إلى "سلة المحذوفات" ؟</string>
+    <string name="move_to_recycle_bin_confirmation">هل تريد بالتأكيد نقل %s إلى سلة المحذوفات ؟</string>
     <string name="are_you_sure_delete">هل تريد بالتأكيد حذف هذا العنصر ؟</string>
-    <string name="are_you_sure_recycle_bin">هل تريد بالتأكيد نقل هذا العنصر إلى "سلة المحذوفات" ؟</string>
+    <string name="are_you_sure_recycle_bin">هل تريد بالتأكيد نقل هذا العنصر إلى سلة المحذوفات ؟</string>
     <string name="do_not_ask_again">لا تسأل مره أخرى في هذه الدورة</string>
     <string name="do_not_show_again">عدم الإظهار مجددًا</string>
     <string name="yes">نعم</string>
@@ -755,9 +755,9 @@
     <string name="use_same_snooze">استخدام نفس مدة الغفوة دائماً</string>
     <string name="snooze_time">مدة الغفوة</string>
     <string name="vibrate_on_button_press">الإهتزاز عند الضغط على الأزرار</string>
-    <string name="move_items_into_recycle_bin">نقل العناصر إلى "سلة المحذوفات" بدلاً من حذفها</string>
-    <string name="recycle_bin_cleaning_interval">الفاصل الزمني لتنظيف "سلة المحذوفات"</string>
-    <string name="empty_recycle_bin">إفراغ "سلة المحذوفات"</string>
+    <string name="move_items_into_recycle_bin">نقل العناصر إلى سلة المحذوفات بدلاً من حذفها</string>
+    <string name="recycle_bin_cleaning_interval">الفاصل الزمني لتنظيف سلة المحذوفات</string>
+    <string name="empty_recycle_bin">إفراغ سلة المحذوفات</string>
     <string name="force_portrait_mode">فرض الوضع العمودي</string>
     <string name="export_settings">إعدادات التصدير</string>
     <string name="import_settings">إعدادات الإستيراد</string>
@@ -797,9 +797,9 @@
     <string name="restore_this_file">إستعادة هذا الملف</string>
     <string name="restore_selected_files">إستعادة الملفات المحددة</string>
     <string name="restore_all_files">إستعادة كل الملفات</string>
-    <string name="recycle_bin_emptied">تم إفراغ "سلة المحذوفات" بنجاح</string>
+    <string name="recycle_bin_emptied">تم إفراغ سلة المحذوفات بنجاح</string>
     <string name="files_restored_successfully">تم إستعادة الملفات بنجاح</string>
-    <string name="empty_recycle_bin_confirmation">هل تريد بالتأكيد إفراغ "سلة المحذوفات" ؟ سيتم فقدان الملفات نهائياً.</string>
+    <string name="empty_recycle_bin_confirmation">هل تريد بالتأكيد إفراغ سلة المحذوفات ؟ سيتم فقدان الملفات نهائياً.</string>
     <string name="recycle_bin_empty">سلة المحذوفات فارغة</string>
     <string name="moving_recycle_bin_items_disabled">تم تعطيل نقل عناصر سلة المحذوفات، يرجى استخدام استعادة</string>
     <string name="show_the_recycle_bin">إظهار سلة المحذوفات</string>
@@ -1008,7 +1008,7 @@
     <string name="faq_4_title_commons">أنا لا أحب ألوان (الويدجت)، هل يمكنني تغييرها؟</string>
     <string name="faq_4_text_commons">نعم، عند سحب الويدجت على شاشتك الرئيسية ستظهر شاشة إعدادات الويدجت. سترى المربعات الملونة في الزاوية اليسرى السفلى، فقط اضغط عليها لاختيار لون جديد. يمكنك استخدام شريط التمرير لضبط الشفافية أيضاً.</string>
     <string name="faq_5_title_commons">هل يمكنني بطريقة ما إسترجاع الملفات المحذوفة؟</string>
-    <string name="faq_5_text_commons">إذا تم حذفها بالفعل ، لا يمكنك ذلك. ومع ذلك ، يتم تمكين "سلة المحذوفات" إفتراضياً ، مما يؤدي إلى نقل الملفات في "سلة المحذوفات" بدلاً من حذفها.</string>
+    <string name="faq_5_text_commons">إذا تم حذفها بالفعل ، لا يمكنك ذلك. ومع ذلك ، يتم تمكين سلة المحذوفات إفتراضياً ، مما يؤدي إلى نقل الملفات في سلة المحذوفات بدلاً من حذفها.</string>
     <string name="faq_6_title_commons">أختفت أيقونة مشغل التطبيق. ماذا يمكنني أن أفعل؟</string>
     <string name="faq_7_title_commons">تم خصم المال من حسابي البنكي ، لكن لا يمكنني تنزيل التطبيق. ماذا يمكنني أن أفعل؟</string>
     <string name="faq_7_text_commons">تتم معالجة المدفوعات بالكامل بواسطة Google ، حيث يتسبب نظامها في خلل من وقت لآخر. فقط قم بمسح ذاكرة التخزين المؤقت للتطبيق في Google Play وإعد تشغيل جهازك ، ثم أعد محاولة تنزيله.</string>
