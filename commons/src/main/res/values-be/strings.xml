@@ -399,9 +399,9 @@
     <string name="change_order">Змяніць парадак</string>
     <string name="proceed_with_deletion">Вы ўпэўнены, што хочаце працягнуць выдаленне\?</string>
     <string name="deletion_confirmation">Выдаліць %s\?</string>
-    <string name="move_to_recycle_bin_confirmation">Перамясціць %s у сметніцу\?</string>
+    <string name="move_to_recycle_bin_confirmation">Перамясціць %s у сметніцу?</string>
     <string name="are_you_sure_delete">Выдаліць гэты элемент\?</string>
-    <string name="are_you_sure_recycle_bin">Перамясціць гэты элемент у сметніцу\?</string>
+    <string name="are_you_sure_recycle_bin">Перамясціць гэты элемент у сметніцу?</string>
     <string name="do_not_ask_again">Больш не пытацца ў гэтым сеансе</string>
     <string name="do_not_show_again">Больш не паказваць</string>
     <string name="yes">Так</string>
@@ -712,7 +712,7 @@
     <string name="restore_all_files">Аднавіць усе файлы</string>
     <string name="recycle_bin_emptied">Сметніца паспяхова ачышчана</string>
     <string name="files_restored_successfully">Файлы паспяхова адноўлены</string>
-    <string name="empty_recycle_bin_confirmation">Вы ўпэўненыя, што жадаеце ачысціць сметнік\? Файлы будуць незваротна страчаныя.</string>
+    <string name="empty_recycle_bin_confirmation">Вы ўпэўненыя, што жадаеце ачысціць сметнік? Файлы будуць незваротна страчаныя.</string>
     <string name="recycle_bin_empty">Сметніца пустая</string>
     <string name="moving_recycle_bin_items_disabled">Перамяшчэнне элементаў кошыка адключана, скарыстайцеся аднаўленнем</string>
     <string name="show_the_recycle_bin">Паказаць сметніцу</string>
