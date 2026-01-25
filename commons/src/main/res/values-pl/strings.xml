@@ -673,7 +673,7 @@
     <string name="settings">Ustawienia</string>
     <string name="purchase_simple_thank_you">Kup aplikację „Fossify Thank You”</string>
     <string name="general_settings">Ogólne</string>
-    <string name="color_customization">Wygląd i działanie</string>
+    <string name="color_customization">Wygląd i styl</string>
     <string name="customize_colors">Dostosuj wygląd</string>
     <string name="feature_locked">Zablokowane</string>
     <string name="customize_widget_colors">Dostosuj kolory widżetu</string>
@@ -703,7 +703,7 @@
     <string name="use_same_snooze">Zawsze używaj tego samego czasu trwania drzemki</string>
     <string name="snooze_time">Czas trwania drzemki</string>
     <string name="vibrate_on_button_press">Wibracja przy naciśnięciu przycisku</string>
-    <string name="move_items_into_recycle_bin">Przenoś elementy do kosza zamiast je usuwać</string>
+    <string name="move_items_into_recycle_bin">Przenoś usuwane elementy do kosza</string>
     <string name="recycle_bin_cleaning_interval">Przedział czasowy czyszczenia kosza</string>
     <string name="empty_recycle_bin">Opróżnij kosz</string>
     <string name="force_portrait_mode">Wymuszaj tryb pionowy</string>
@@ -752,7 +752,7 @@
     <string name="files_restored_successfully">Pliki zostały przywrócone</string>
     <string name="empty_recycle_bin_confirmation">Czy opróżnić kosz? Pliki zostaną utracone bezpowrotnie.</string>
     <string name="recycle_bin_empty">Kosz jest pusty</string>
-    <string name="moving_recycle_bin_items_disabled">Przenoszenie elementów z kosza jest wyłączone, użyj przywracania</string>
+    <string name="moving_recycle_bin_items_disabled">Przenoszenie elementów z kosza jest wyłączone. Użyj przywracania.</string>
     <string name="show_the_recycle_bin">Pokaż kosz</string>
     <string name="hide_the_recycle_bin">Ukryj kosz</string>
     <string name="open_the_recycle_bin">Otwórz kosz</string>
@@ -963,7 +963,7 @@
     <string name="faq_4_title_commons">Nie podobają mi się kolory widżetów. Czy mogę je zmienić\?</string>
     <string name="faq_4_text_commons">Tak. Po przeciągnięciu widżetu na ekran główny pojawia się okno jego konfiguracji. Zobaczysz na nim kolorowe kółka w lewym dolnym rogu, za pomocą których możesz wybrać nowe kolory. Możesz też użyć suwaka do ustawienia poziomu przezroczystości.</string>
     <string name="faq_5_title_commons">Czy mogę jakoś odzyskać usunięte pliki?</string>
-    <string name="faq_5_text_commons">Jeśli faktycznie zostały usunięte, to już nie możesz. Jednakże domyślnie jest włączony kosz, dzięki czemu pliki zostaną przeniesione do niego zamiast zostać usunięte.</string>
+    <string name="faq_5_text_commons">Jeśli faktycznie zostały usunięte, to już nie możesz ich odzyskać. Jednakże domyślnie jest włączony kosz, dzięki czemu pliki zostaną przeniesione do niego zamiast zostać usunięte natychmiast.</string>
     <string name="faq_6_title_commons">Z launchera zniknęła ikona aplikacji. Co mogę zrobić?</string>
     <string name="faq_6_text_commons">Ten problem się pojawia, gdy Twój launcher nie obsługuje w pełni zmiany ikon aplikacji. Spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny.
         Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
