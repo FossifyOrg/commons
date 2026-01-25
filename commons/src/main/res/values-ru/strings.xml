@@ -735,6 +735,7 @@
         <item quantity="one">%d элемент перемещается в корзину</item>
         <item quantity="few">%d элемента перемещаются в корзину</item>
         <item quantity="many">%d элементов перемещаются в корзину</item>
+        <item quantity="other">%d элементов перемещаются в корзину</item>
     </plurals>
     <string name="importing">Импорт…</string>
     <string name="exporting">Экспорт…</string>
