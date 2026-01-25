@@ -706,7 +706,7 @@
     <string name="files_restored_successfully">I file sono stati ripristinati correttamente</string>
     <string name="empty_recycle_bin_confirmation">Svuotare davvero il cestino? I file verranno persi definitivamente.</string>
     <string name="recycle_bin_empty">Il cestino è vuoto</string>
-    <string name="moving_recycle_bin_items_disabled">Lo spostamento degli elementi dal cestino è disabilitato, utilizzare "Ripristina"</string>
+    <string name="moving_recycle_bin_items_disabled">Lo spostamento degli elementi dal cestino è disabilitato, utilizzare Ripristina</string>
     <string name="show_the_recycle_bin">Mostra il cestino</string>
     <string name="hide_the_recycle_bin">Nascondi il cestino</string>
     <string name="open_the_recycle_bin">Apri il cestino</string>
