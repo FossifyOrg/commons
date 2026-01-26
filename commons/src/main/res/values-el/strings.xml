@@ -974,4 +974,5 @@
         <item quantity="one">Το αρχείο αποθηκεύτηκε επιτυχώς</item>
         <item quantity="other">Τα αρχεία αποθηκεύτηκαν επιτυχώς</item>
     </plurals>
+    <string name="value">Τιμή</string>
 </resources>
