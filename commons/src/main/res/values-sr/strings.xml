@@ -917,4 +917,8 @@
     <string name="close">Затвори</string>
     <string name="error">Грешка: %s</string>
     <string name="search_contacts">Претражите контакте</string>
+    <string name="edit_contact">Уредите контакт</string>
+    <string name="on_contact_click">Кликните на контакт</string>
+    <string name="call_contact">Позовите контакт</string>
+    <string name="view_contact">Погледајте детаље о контакту</string>
 </resources>

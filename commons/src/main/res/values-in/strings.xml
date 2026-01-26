@@ -1070,4 +1070,8 @@
     <string name="label_with_badge">%1$s %2$s</string>
     <string name="translation_latvian">Latvia</string>
     <string name="evalex_title">EvalEx (evaluasi ekspresi matematika)</string>
+    <string name="edit_contact">Sunting kontak</string>
+    <string name="on_contact_click">Saat kontak diklik</string>
+    <string name="call_contact">Panggil kontak</string>
+    <string name="view_contact">Lihat detail kontak</string>
 </resources>

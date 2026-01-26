@@ -1149,4 +1149,8 @@
         <item quantity="many">File salvati con successo</item>
         <item quantity="other">File salvati con successo</item>
     </plurals>
+    <string name="edit_contact">Modifica contatto</string>
+    <string name="on_contact_click">Alla pressione sul contatto</string>
+    <string name="call_contact">Chiama contatto</string>
+    <string name="view_contact">Visualizza i dettagli del contatto</string>
 </resources>

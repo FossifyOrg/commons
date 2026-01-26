@@ -976,4 +976,8 @@
     <string name="text">Text</string>
     <string name="allow_notifications_reminders">Trebuie să permiți aplicației să afișeze notificări, altfel nu va putea afișa memento-uri.</string>
     <string name="transparent">Transparent</string>
+    <string name="edit_contact">Editați contactul</string>
+    <string name="on_contact_click">La apăsarea pe contact</string>
+    <string name="call_contact">Apelați contactul</string>
+    <string name="view_contact">Vedeţi detaliile de contact</string>
 </resources>

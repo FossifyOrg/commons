@@ -985,4 +985,8 @@
         <item quantity="many">Файлаў паспяхова захаванв</item>
         <item quantity="other">Файлаў паспяхова захаванв</item>
     </plurals>
+    <string name="edit_contact">Рэдагаваць кантакт</string>
+    <string name="on_contact_click">Пры націсканні на кантакт</string>
+    <string name="call_contact">Тэлефанаваць кантакту</string>
+    <string name="view_contact">Паказваць звесткі аб кантакце</string>
 </resources>

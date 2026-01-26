@@ -1091,4 +1091,8 @@
     <string name="font_monospace">मोनोस्पेस</string>
     <string name="select_font_file">फ़ॉन्ट फ़ाइल चुनें…</string>
     <string name="invalid_font_file">अमान्य फ़ॉन्ट फ़ाइल</string>
+    <string name="call_contact">संपर्क कॉल करें</string>
+    <string name="on_contact_click">संपर्क क्लिक पर</string>
+    <string name="view_contact">संपर्क विवरण देखें</string>
+    <string name="edit_contact">संपादित संपर्क</string>
 </resources>

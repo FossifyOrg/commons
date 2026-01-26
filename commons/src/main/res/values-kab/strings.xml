@@ -265,4 +265,6 @@
     <string name="copy_to">Nɣel ɣer</string>
     <string name="create_new">Snulfu-d amaynut</string>
     <string name="internal_storage">Aḥraz adigan</string>
+    <string name="edit_contact">Ẓreg anermis</string>
+    <string name="call_contact">Siwel-as i unermis</string>
 </resources>

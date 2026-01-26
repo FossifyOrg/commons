@@ -1097,4 +1097,8 @@
     <string name="font_monospace">Monospace</string>
     <string name="select_font_file">בחר קובץ גופן…</string>
     <string name="invalid_font_file">קובץ גופן לא תקין</string>
+    <string name="edit_contact">ערוך איש קשר</string>
+    <string name="on_contact_click">כפתור יצירת קשר</string>
+    <string name="call_contact">חייג לאיש קשר</string>
+    <string name="view_contact">צפה בפרטי התקשרות</string>
 </resources>

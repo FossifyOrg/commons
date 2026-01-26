@@ -1059,4 +1059,8 @@
     <string name="font_monospace">Egallarĝa</string>
     <string name="select_font_file">Elekti tiparodosieron…</string>
     <string name="invalid_font_file">Nevalida tiparodosiero</string>
+    <string name="edit_contact">Modifi kontakton</string>
+    <string name="view_contact">Vidi kontaktajn detalojn</string>
+    <string name="on_contact_click">Kiam kontakto estas frapetita</string>
+    <string name="call_contact">Alvoki kontakton</string>
 </resources>

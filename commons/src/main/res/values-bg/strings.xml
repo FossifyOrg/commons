@@ -1041,4 +1041,8 @@
     <string name="font_monospace">Равноширок</string>
     <string name="select_font_file">Избиране файл на шрифт…</string>
     <string name="invalid_font_file">Неприемлив файл на шрифт</string>
+    <string name="edit_contact">Променяне на контакт</string>
+    <string name="on_contact_click">При докосване на контакти</string>
+    <string name="call_contact">Обаждане на контакта</string>
+    <string name="view_contact">Преглед на контакта</string>
 </resources>

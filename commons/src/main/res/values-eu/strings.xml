@@ -1112,4 +1112,8 @@
     <string name="pro_app_refund">Ez ahaztu 2 orduko epean ordaindutako edozein aplikazio desinstalatzen baduzu, dirua automatikoki itzuliko zaizula. Geroago itzulketa bat nahi baduzu, jarri gurekin harremanetan hello@fossify.org helbidera eta lortuko duzu. Horrek erraztu egiten du probatzea :)</string>
     <string name="developer_description">Trepeta pertsonalizagarriak dituzten Android aplikazio soil eta irekiko talde bat, iragarkirik eta alferrikako baimenik gabe.</string>
     <string name="app_font">Aplikazioaren letra mota</string>
+    <string name="edit_contact">Editatu kontaktua</string>
+    <string name="on_contact_click">Kontaktua sakatzean</string>
+    <string name="call_contact">Kontaktuari deitu</string>
+    <string name="view_contact">Ikusi kontaktuaren xehetasunak</string>
 </resources>

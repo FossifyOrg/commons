@@ -50,4 +50,8 @@
     <string name="export_settings">Exportar los paramètres</string>
     <string name="import_settings">Importar los paramètres</string>
     <string name="about">A prepaus</string>
+    <string name="edit_contact">Modificar lo contacte</string>
+    <string name="view_contact">Veire los detalhs del contacte</string>
+    <string name="call_contact">Sonar lo contacte</string>
+    <string name="on_contact_click">En tocant un contacte</string>
 </resources>

@@ -885,4 +885,8 @@
     <string name="deprecated_app">PASENUSI: Ši programėlės versija daugiau nebeprižiūrima, gaukite „Pro“ versiją, adresu https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Nepamirškite, jog jeigu per 2 valandas pašalinsite bet kurią mokamą programėlę, jums automatiškai bus grąžinti pinigai. Jei norėsite susigrąžinti pinigus vėliau, susisiekite su mumis el. paštu hello@fossify.org ir juos atgausite. Tokiu būdu galite lengvai išbandyti programėlę :)</string>
     <string name="developer_description">Paprastų, atvirojo kodo „Android“ progamėlių rinkinys su tinkinamais valdikliais, be reklamų ir nereikalingų leidimų.</string>
+    <string name="edit_contact">Taisyti adresatą</string>
+    <string name="on_contact_click">Spustelėjus ant adresato</string>
+    <string name="call_contact">Skambinti adresatui</string>
+    <string name="view_contact">Rodyti išsamiau apie adresatą</string>
 </resources>

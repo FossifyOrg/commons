@@ -1036,4 +1036,8 @@
     <plurals name="trial_expires_days">
         <item quantity="other">Bạn sắp hết hạn sau %d ngày.</item>
     </plurals>
+    <string name="edit_contact">Chỉnh sửa liên hệ</string>
+    <string name="on_contact_click">Khi nhấp vào liên hệ</string>
+    <string name="call_contact">Gọi liên hệ</string>
+    <string name="view_contact">Xem chi tiết liên hệ</string>
 </resources>

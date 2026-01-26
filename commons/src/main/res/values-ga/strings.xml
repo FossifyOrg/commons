@@ -1173,4 +1173,8 @@
     <string name="font_monospace">Aonspás</string>
     <string name="select_font_file">Roghnaigh comhad cló…</string>
     <string name="invalid_font_file">Comhad cló neamhbhailí</string>
+    <string name="on_contact_click">Ar cliceáil teagmhála</string>
+    <string name="call_contact">Déan teagmháil le glaoch</string>
+    <string name="view_contact">Féach ar shonraí teagmhála</string>
+    <string name="edit_contact">Cuir teagmhálaí in eagar</string>
 </resources>

@@ -1102,4 +1102,8 @@
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="otto_title">Otto (zbernica udalostí)</string>
     <string name="evalex_title">EvalEx (vyhodnotenie matematického výrazu)</string>
+    <string name="edit_contact">Upraviť kontakt</string>
+    <string name="on_contact_click">Po kliknutí na kontakt</string>
+    <string name="call_contact">Zavolať kontakt</string>
+    <string name="view_contact">Zobraziť údaje kontaktu</string>
 </resources>

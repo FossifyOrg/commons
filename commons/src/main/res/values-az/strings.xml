@@ -466,4 +466,8 @@
     <string name="add_number_to_contact">Kontakta nömrə əlavə et</string>
     <string name="close">Bağla</string>
     <string name="back">Geri</string>
+    <string name="edit_contact">Redaktə et</string>
+    <string name="on_contact_click">Kontakta toxunduqda</string>
+    <string name="call_contact">Kontakta zəng et</string>
+    <string name="view_contact">Kontakt detallarına bax</string>
 </resources>

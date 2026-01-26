@@ -1144,4 +1144,8 @@
     </plurals>
     <string name="badge_deprecated">(zastarjelo)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="edit_contact">Uredi kontakt</string>
+    <string name="on_contact_click">Prilikom dodira kontakta</string>
+    <string name="call_contact">Nazovi kontakt</string>
+    <string name="view_contact">Prikaži pojedinosti o kontaktu</string>
 </resources>

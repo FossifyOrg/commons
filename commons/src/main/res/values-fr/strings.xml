@@ -1133,4 +1133,8 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
         <item quantity="many">Fichiers enregistrés avec succès</item>
         <item quantity="other">Fichiers enregistrés avec succès</item>
     </plurals>
+    <string name="edit_contact">Modifier le contact</string>
+    <string name="on_contact_click">En appuyant sur un contact</string>
+    <string name="call_contact">Appeler le contact</string>
+    <string name="view_contact">Afficher les détails du contact</string>
 </resources>

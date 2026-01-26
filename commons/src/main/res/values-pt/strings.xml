@@ -1086,4 +1086,8 @@ Obrigado a todos os contribuidores e outros apoiadores!
     </plurals>
     <string name="evalex_title">EvalEx (avaliação de expressões matemáticas)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="edit_contact">Editar contacto</string>
+    <string name="on_contact_click">Ao tocar no contacto</string>
+    <string name="call_contact">Ligar</string>
+    <string name="view_contact">Ver detalhes</string>
 </resources>

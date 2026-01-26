@@ -1179,4 +1179,8 @@
     <string name="font_monospace">Моноширинний</string>
     <string name="select_font_file">Вибрати файл шрифту…</string>
     <string name="invalid_font_file">Недійсний файл шрифту</string>
+    <string name="edit_contact">Редагувати контакт</string>
+    <string name="on_contact_click">При натисканні на контакт</string>
+    <string name="call_contact">Телефонувати контакту</string>
+    <string name="view_contact">Переглянути деталі контакту</string>
 </resources>

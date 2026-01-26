@@ -729,4 +729,8 @@
     <string name="enable_automatic_backups">자동 백업 활성화</string>
     <string name="website">웹사이트</string>
     <string name="block_numbers">전화번호 차단</string>
+    <string name="edit_contact">연락처 수정</string>
+    <string name="on_contact_click">연락처 클릭 시</string>
+    <string name="call_contact">연락처로 전화 걸기</string>
+    <string name="view_contact">연락처 세부 정보 보기</string>
 </resources>

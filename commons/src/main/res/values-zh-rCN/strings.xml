@@ -1071,4 +1071,8 @@
     <string name="font_monospace">等宽字体</string>
     <string name="select_font_file">选择字体文件…</string>
     <string name="invalid_font_file">字体文件无效</string>
+    <string name="edit_contact">编辑联系人</string>
+    <string name="on_contact_click">点击联系人</string>
+    <string name="call_contact">打电话给联系人</string>
+    <string name="view_contact">查看联系人详情</string>
 </resources>

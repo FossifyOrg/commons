@@ -541,4 +541,8 @@
     <string name="three">سه</string>
     <string name="four">چهار</string>
     <string name="thumbnails">نمایه‌ها</string>
+    <string name="call_contact">تماس با مخاطب</string>
+    <string name="view_contact">دیدن جزئیات مخاطب</string>
+    <string name="edit_contact">ویرایش مخاطب</string>
+    <string name="on_contact_click">با کلیک بر روی مخاطب</string>
 </resources>
