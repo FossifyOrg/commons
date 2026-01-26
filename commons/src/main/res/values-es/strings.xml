@@ -421,9 +421,9 @@
     <string name="more_options">Más opciones</string>
     <string name="proceed_with_deletion">¿Estás seguro de que quieres proceder a la eliminación\?</string>
     <string name="deletion_confirmation">¿Estas seguro que quieres borrar %s?</string>
-    <string name="move_to_recycle_bin_confirmation">¿Estás seguro de que quieres mover %s a la papelera de reciclaje?</string>
+    <string name="move_to_recycle_bin_confirmation">¿Seguro que quieres mover %s a la papelera de reciclaje?</string>
     <string name="are_you_sure_delete">¿Seguro que quieres eliminar este elemento?</string>
-    <string name="are_you_sure_recycle_bin">¿Seguro que quieres enviar este elemento a la papelera?</string>
+    <string name="are_you_sure_recycle_bin">¿Seguro que quieres mover este elemento a la papelera de reciclaje?</string>
     <string name="do_not_ask_again">No volver a preguntar en esta sesión</string>
     <string name="do_not_show_again">No volver a mostrar</string>
     <string name="yes">Sí</string>
@@ -631,8 +631,8 @@
     <string name="during_day_at_hh_mm">Durante el día a las hh:mm</string>
     <string name="during_day_at">Durante el día a las %1$02d:%2$02d</string>
     <string name="settings">Ajustes</string>
-    <string name="color_customization">Personalización del color</string>
-    <string name="customize_colors">Cambiar colores</string>
+    <string name="color_customization">Apariencia y estilo</string>
+    <string name="customize_colors">Personalizar la apariencia</string>
     <string name="feature_locked">Bloqueado</string>
     <string name="customize_widget_colors">Personaliza los colores del widget</string>
     <string name="customize_notifications">Personaliza las notificaciones</string>
@@ -659,7 +659,7 @@
     <string name="use_same_snooze">Siempre use el mismo tiempo de repetición</string>
     <string name="snooze_time">Tiempo de repetición</string>
     <string name="vibrate_on_button_press">Vibrar al presionar un botón</string>
-    <string name="move_items_into_recycle_bin">Mover los elementos en la papelera de reciclaje en lugar de eliminar</string>
+    <string name="move_items_into_recycle_bin">Mover los elementos eliminados a la papelera de reciclaje</string>
     <string name="recycle_bin_cleaning_interval">Intervalo de vaciado de la papelera de reciclaje</string>
     <string name="empty_recycle_bin">Vaciar papelera de reciclaje</string>
     <string name="force_portrait_mode">Forzar el modo retrato</string>
@@ -704,19 +704,19 @@
     <string name="restore_this_file">Restaurar el fichero</string>
     <string name="restore_selected_files">Restaurar los ficheros seleccionados</string>
     <string name="restore_all_files">Restaurar todos los ficheros</string>
-    <string name="recycle_bin_emptied">La papelera se ha vaciado</string>
+    <string name="recycle_bin_emptied">La papelera de reciclaje se ha vaciado correctamente</string>
     <string name="files_restored_successfully">Lo ficheros han sido restaurados correctamente</string>
-    <string name="empty_recycle_bin_confirmation">¿Seguro que quieres vaciar la papelera? Los ficheros se perderan definitivamente.</string>
-    <string name="recycle_bin_empty">La papelera está vacia</string>
-    <string name="moving_recycle_bin_items_disabled">El movimiento de los elementos de la papelera de reciclaje está deshabilitado, utilice Restaurar</string>
-    <string name="show_the_recycle_bin">Mostrar la paplera de reciclaje</string>
+    <string name="empty_recycle_bin_confirmation">¿Seguro que quieres vaciar la papelera de reciclaje? Los archivos se perderán definitivamente.</string>
+    <string name="recycle_bin_empty">La papelera de reciclaje está vacía</string>
+    <string name="moving_recycle_bin_items_disabled">Mover elementos desde la papelera de reciclaje está deshabilitado. Usa Restaurar.</string>
+    <string name="show_the_recycle_bin">Mostrar la papelera de reciclaje</string>
     <string name="hide_the_recycle_bin">Ocultar la papelera de reciclaje</string>
     <string name="open_the_recycle_bin">Abrir la papelera de reciclaje</string>
-    <string name="skip_the_recycle_bin">Sáltate la papelera de reciclaje y elimina archivos directamente</string>
+    <string name="skip_the_recycle_bin">Omitir la papelera de reciclaje y eliminar los archivos directamente</string>
     <plurals name="moving_items_into_bin">
-        <item quantity="one">Moviendo %d elemento a la papelera</item>
-        <item quantity="many">Mover %d elementos a la papelera de reciclaje</item>
-        <item quantity="other">Moviendo %d elementos a la papelera</item>
+        <item quantity="one">Moviendo %d elemento a la papelera de reciclaje</item>
+        <item quantity="many">Moviendo %d elementos a la papelera de reciclaje</item>
+        <item quantity="other">Moviendo %d elementos a la papelera de reciclaje</item>
     </plurals>
     <string name="importing">Importando…</string>
     <string name="exporting">Exportando…</string>
@@ -922,7 +922,7 @@
     <string name="faq_4_title_commons">No me gustan los colores del widget, ¿puedo cambiarlos?</string>
     <string name="faq_4_text_commons">Sí, al arrastrar un widget en la pantalla de inicio aparece una pantalla de configuración de widgets. Verá cuadrados de colores en la esquina inferior izquierda, sólo presione para elegir un nuevo color. Puede usar el control deslizante para ajustar el alfa también.</string>
     <string name="faq_5_title_commons">¿Puedo de alguna manera restaurar archivos borrados?</string>
-    <string name="faq_5_text_commons">Si realmente fueron eliminados, no puedes. Sin embargo, hay una Papelera de Reciclaje activada por defecto, esta hará que los archivos sólo sean movidos a la papelera en lugar de eliminarlos.</string>
+    <string name="faq_5_text_commons">Si realmente fueron eliminados, no podrás recuperarlos. Sin embargo, la papelera de reciclaje está activada por defecto y mueve los archivos allí en lugar de eliminarlos de inmediato.</string>
     <string name="faq_6_title_commons">El icono del launcher de aplicaciones desapareció. ¿Qué puedo hacer?</string>
     <string name="faq_6_text_commons">Este problema surge cuando tu lanzador no es totalmente compatible con la personalización de iconos. Intente iniciar la aplicación a través de Google Play o un widget, si es accesible. Una vez iniciada, restaura el icono verde predeterminado #106D1F. En casos extremos, puede ser necesario reinstalar la aplicación.</string>
     <string name="faq_7_title_commons">El dinero se ha deducido de mi cuenta bancaria, pero no puedo descargar la aplicación. ¿Qué puedo hacer?</string>
@@ -1086,7 +1086,7 @@
     <string name="audio">Audio</string>
     <string name="block_contact">Bloquear contacto</string>
     <string name="genre">Género</string>
-    <string name="apply_to_all_apps">Aplicar los colores a todas las aplicaciones de Fossify</string>
+    <string name="apply_to_all_apps">Aplicar el tema a todas las aplicaciones de Fossify</string>
     <string name="shared_theme_note">Tenga en cuenta que aunque esté utilizando la versión Pro de la aplicación, sigue necesitando Gracias a Fossify por razones técnicas. Se encarga de la sincronización de colores.</string>
     <string name="auto_theme">Automático</string>
     <string name="deletion_confirmation_short">¿Borrar %s?</string>
@@ -1160,4 +1160,9 @@
     <string name="on_contact_click">Al tocar contacto</string>
     <string name="call_contact">Llamar contacto</string>
     <string name="view_contact">Ver detalles del contacto</string>
+    <string name="font">Fuente</string>
+    <string name="app_font">Fuente de la aplicación</string>
+    <string name="font_monospace">Monospace</string>
+    <string name="select_font_file">Seleccionar archivo de fuente…</string>
+    <string name="invalid_font_file">Archivo de fuente no válido</string>
 </resources>
