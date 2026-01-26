@@ -1156,4 +1156,8 @@
     </plurals>
     <string name="badge_deprecated">(retirada)</string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="edit_contact">Editar contacto</string>
+    <string name="on_contact_click">Al tocar contacto</string>
+    <string name="call_contact">Llamar contacto</string>
+    <string name="view_contact">Ver detalles del contacto</string>
 </resources>

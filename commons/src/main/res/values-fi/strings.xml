@@ -1108,4 +1108,8 @@
     </plurals>
     <string name="enables_more_customization">Mahdollistaa enemmän mukautettavuutta</string>
     <string name="translation_latvian">Latvialainen</string>
+    <string name="edit_contact">Muokkaa yhteystietoa</string>
+    <string name="on_contact_click">Yhteystietoa painaessa</string>
+    <string name="call_contact">Soita</string>
+    <string name="view_contact">Näytä yhteystieto</string>
 </resources>

@@ -780,4 +780,8 @@
     <string name="nine">Naw</string>
     <string name="value">Maint</string>
     <string name="thumbnails">Mân-luniau</string>
+    <string name="edit_contact">Golygu\'r cyswllt</string>
+    <string name="on_contact_click">Wrth glicio ar gyswllt</string>
+    <string name="call_contact">Galw cyswllt</string>
+    <string name="view_contact">Gweld manylion cyswllt</string>
 </resources>

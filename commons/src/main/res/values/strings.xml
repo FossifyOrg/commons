@@ -745,6 +745,10 @@
     <string name="clear_cache">Clear cache</string>
     <string name="show_call_confirmation_dialog">Show a call confirmation dialog before initiating a call</string>
     <string name="format_phone_numbers">Format phone numbers</string>
+    <string name="on_contact_click">On contact click</string>
+    <string name="edit_contact">Edit contact</string>
+    <string name="call_contact">Call contact</string>
+    <string name="view_contact">View contact details</string>
 
     <!-- Setting sections -->
     <string name="visibility">Visibility</string>

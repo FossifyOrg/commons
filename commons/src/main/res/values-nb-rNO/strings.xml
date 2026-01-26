@@ -600,4 +600,8 @@
     <string name="contacts_tab">Kontakter</string>
     <string name="favorites_tab">Favoritter</string>
     <string name="last_used_tab">Sist brukte</string>
+    <string name="edit_contact">Rediger kontakt</string>
+    <string name="on_contact_click">Ved kontaktklikk</string>
+    <string name="call_contact">Ring kontakt</string>
+    <string name="view_contact">Vis kontaktdetaljer</string>
 </resources>

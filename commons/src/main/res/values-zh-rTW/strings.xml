@@ -1053,4 +1053,8 @@
     <string name="font_monospace">等寬</string>
     <string name="select_font_file">選取字型檔案……</string>
     <string name="invalid_font_file">無效的字型檔</string>
+    <string name="edit_contact">編輯聯絡人</string>
+    <string name="on_contact_click">點擊聯絡人</string>
+    <string name="call_contact">打電話給聯絡人</string>
+    <string name="view_contact">顯示聯絡人資料</string>
 </resources>

@@ -1247,4 +1247,8 @@
     <string name="translation_chinese_cn">الصينية (المبسطة)</string>
     <string name="format_phone_numbers">تنسيق أرقام الهواتف</string>
     <string name="evalex_title">EvalEx (تقييم التعبيرات الرياضية)</string>
+    <string name="edit_contact">تعديل جهة اتصالل</string>
+    <string name="on_contact_click">عند النقر فوق جهة اتصال</string>
+    <string name="call_contact">اتصال بجهة</string>
+    <string name="view_contact">عرض تفاصيل جهة الاتصال</string>
 </resources>

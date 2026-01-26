@@ -1158,4 +1158,8 @@
     <string name="font_monospace">Моноширинный</string>
     <string name="select_font_file">Выбор файла шрифта…</string>
     <string name="invalid_font_file">Недопустимый файл шрифта</string>
+    <string name="edit_contact">Редактировать контакт</string>
+    <string name="on_contact_click">При нажатии на контакт</string>
+    <string name="call_contact">Вызов контакта</string>
+    <string name="view_contact">Просмотр подробностей</string>
 </resources>

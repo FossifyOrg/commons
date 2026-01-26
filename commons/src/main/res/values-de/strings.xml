@@ -1109,4 +1109,8 @@
     <string name="font_monospace">Monospace</string>
     <string name="select_font_file">Schriftartdatei auswählen …</string>
     <string name="invalid_font_file">Ungültige Schriftartdatei</string>
+    <string name="edit_contact">Kontakt bearbeiten</string>
+    <string name="on_contact_click">Beim Klicken auf den Kontakt</string>
+    <string name="call_contact">Kontakt anrufen</string>
+    <string name="view_contact">Kontaktdetails anzeigen</string>
 </resources>

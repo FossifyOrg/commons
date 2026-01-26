@@ -1014,4 +1014,8 @@
     <plurals name="trial_expires_days">
         <item quantity="other">您的試用期將在 %d 天後到期。</item>
     </plurals>
+    <string name="edit_contact">編輯聯絡人</string>
+    <string name="on_contact_click">點擊聯絡人</string>
+    <string name="call_contact">打電話給聯絡人</string>
+    <string name="view_contact">顯示聯絡人資料</string>
 </resources>

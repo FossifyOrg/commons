@@ -1103,4 +1103,8 @@
             contacta con nós se tamén queres axudar. As instruccións para traducir están <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">nesta páxina web</a>, ou simplemente contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tes algunha pregunta.
             Grazas a todas as colaboradoras e persoas que nos apoian!
         ]]></string>
+    <string name="edit_contact">Editar contacto</string>
+    <string name="on_contact_click">Ao tocar no contacto</string>
+    <string name="call_contact">Chamar</string>
+    <string name="view_contact">Ver detalles do contacto</string>
 </resources>

@@ -1110,4 +1110,8 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <string name="font_monospace">Monoespaçada</string>
     <string name="select_font_file">Selecione o arquivo da fonte…</string>
     <string name="invalid_font_file">Arquivo de fonte inválido</string>
+    <string name="edit_contact">Editar contato</string>
+    <string name="on_contact_click">Ao tocar no contato</string>
+    <string name="call_contact">Ligar para o contato</string>
+    <string name="view_contact">Exibir detalhes do contato</string>
 </resources>

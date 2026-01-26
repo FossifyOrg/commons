@@ -975,4 +975,8 @@
         <item quantity="other">Τα αρχεία αποθηκεύτηκαν επιτυχώς</item>
     </plurals>
     <string name="value">Τιμή</string>
+    <string name="edit_contact">Επεξεργασία επαφής</string>
+    <string name="on_contact_click">Στην επιλογή επαφής</string>
+    <string name="call_contact">Κλήση επαφής</string>
+    <string name="view_contact">Εμφάνιση λεπτομερειών επαφής</string>
 </resources>

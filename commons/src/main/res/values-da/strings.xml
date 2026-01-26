@@ -1075,4 +1075,8 @@
     <string name="app_font">App-skrifttype</string>
     <string name="select_font_file">Vælg skrifttypefil…</string>
     <string name="invalid_font_file">Ugyldig skrifttypefil</string>
+    <string name="edit_contact">Rediger kontakt</string>
+    <string name="on_contact_click">Ved klik på kontakt</string>
+    <string name="call_contact">Ring til kontakt</string>
+    <string name="view_contact">Vis kontaktdetaljer</string>
 </resources>
