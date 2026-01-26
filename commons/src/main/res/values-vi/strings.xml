@@ -459,8 +459,8 @@
     <string name="snooze_time">Thời gian báo lại</string>
     <string name="vibrate_on_button_press">Rung khi nhấn nút</string>
     <string name="move_items_into_recycle_bin">Chuyển các mục vào Thùng rác khi xóa</string>
-    <string name="recycle_bin_cleaning_interval">Tự động xóa sạch thùng rác</string>
-    <string name="empty_recycle_bin">Xóa sạch thùng rác</string>
+    <string name="recycle_bin_cleaning_interval">Tự động làm trống thùng rác</string>
+    <string name="empty_recycle_bin">Làm trống thùng rác</string>
     <string name="force_portrait_mode">Giữ chế độ dọc</string>
     <string name="export_settings">Xuất cài đặt</string>
     <string name="import_settings">Nhập cài đặt</string>
@@ -503,7 +503,7 @@
     <string name="files_restored_successfully">Tệp đã được khôi phục thành công</string>
     <string name="empty_recycle_bin_confirmation">Bạn có chắc muốn xóa sạch Thùng rác? Các tệp sẽ bị mất vĩnh viễn.</string>
     <string name="recycle_bin_empty">Thùng rác trống</string>
-    <string name="moving_recycle_bin_items_disabled">Chuyển mục trong Thùng rác bị vô hiệu hóa, hãy dùng Khôi phục</string>
+    <string name="moving_recycle_bin_items_disabled">Chuyển mục trong Thùng rác bị vô hiệu hóa, hãy dùng Khôi phục.</string>
     <string name="show_the_recycle_bin">Hiện Thùng rác</string>
     <string name="hide_the_recycle_bin">Ẩn Thùng rác</string>
     <string name="open_the_recycle_bin">Mở Thùng rác</string>
@@ -634,7 +634,7 @@
     <string name="faq_4_title_commons">Tôi không thích màu của widget, tôi có thể thay đổi chúng không?</string>
     <string name="faq_4_text_commons">Được chứ, khi bạn kéo một widget trên màn hình chính, màn hình cấu hình widget sẽ xuất hiện. Bạn sẽ thấy các ô vuông màu ở góc dưới bên trái, chỉ cần nhấn chúng để chọn màu mới. Bạn cũng có thể sử dụng thanh trượt để điều chỉnh độ trong suốt.</string>
     <string name="faq_5_title_commons">Làm sao để khôi phục các tệp đã xóa?</string>
-    <string name="faq_5_text_commons">Nếu chúng thực sự bị xóa, bạn không thể. Tuy nhiên, có một Thùng rác được bật theo mặc định, nó sẽ khiến các tệp được di chuyển vào Thùng thay vì xóa chúng.</string>
+    <string name="faq_5_text_commons">Nếu chúng thực sự bị xóa, bạn không thể. Tuy nhiên, có một Thùng rác được bật theo mặc định, nó sẽ khiến các tệp được di chuyển vào Thùng rác thay vì xóa chúng.</string>
     <string name="faq_6_title_commons">Làm sao khi biểu tượng ứng dụng biến mất?</string>
     <string name="faq_7_title_commons">Làm sao khi đã bị trừ tiền trong tài khoản ngân hàng, nhưng không thể tải xuống ứng dụng?</string>
     <string name="faq_7_text_commons">Thanh toán được xử lý hoàn toàn bởi Google, hệ thống của họ thỉnh thoảng bị trục trặc. Chỉ cần xóa bộ nhớ cache ứng dụng Google Play của bạn và khởi động lại thiết bị, sau đó thử tải xuống lại.</string>
