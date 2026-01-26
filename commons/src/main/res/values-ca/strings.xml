@@ -420,9 +420,9 @@
     <string name="more_options">Més opcions</string>
     <string name="proceed_with_deletion">Confirmeu que voleu suprimir?</string>
     <string name="deletion_confirmation">Confirmeu que voleu suprimir %s?</string>
-    <string name="move_to_recycle_bin_confirmation">Confirmeu que voleu moure %s a la paperera?</string>
+    <string name="move_to_recycle_bin_confirmation">Confirmeu que voleu moure %s a la paperera de reciclatge?</string>
     <string name="are_you_sure_delete">Confirmeu que voleu suprimir aquest element?</string>
-    <string name="are_you_sure_recycle_bin">Confirmeu que voleu moure aquest element a la paperera?</string>
+    <string name="are_you_sure_recycle_bin">Confirmeu que voleu moure aquest element a la paperera de reciclatge?</string>
     <string name="do_not_ask_again">No tornis a preguntar-ho en aquesta sessió</string>
     <string name="do_not_show_again">No ho tornis a mostrar</string>
     <string name="yes">Sí</string>
@@ -658,7 +658,7 @@
     <string name="use_same_snooze">Utilitza sempre el mateix temps d\'ajornament</string>
     <string name="snooze_time">Temps d\'ajornament</string>
     <string name="vibrate_on_button_press">Vibra en prémer els botons</string>
-    <string name="move_items_into_recycle_bin">Mou elements a la paperera de reciclatge en lloc de suprimir-los</string>
+    <string name="move_items_into_recycle_bin">Mou els elements suprimits a la paperera de reciclatge</string>
     <string name="recycle_bin_cleaning_interval">Interval de neteja de la paperera de reciclatge</string>
     <string name="empty_recycle_bin">Buida la paperera de reciclatge</string>
     <string name="force_portrait_mode">Força el mode de retrat</string>
@@ -706,7 +706,7 @@
     <string name="files_restored_successfully">Els fitxers s\'han restaurat correctament</string>
     <string name="empty_recycle_bin_confirmation">Segur que voleu buidar la paperera de reciclatge? Els fitxers es perdran per sempre.</string>
     <string name="recycle_bin_empty">La paperera de reciclatge és buida</string>
-    <string name="moving_recycle_bin_items_disabled">Moure els elements de la paperera està de reciclatge desactivat, utilitzeu la restauració</string>
+    <string name="moving_recycle_bin_items_disabled">Moure els elements de la paperera de reciclatge està desactivat, utilitzeu la restauració.</string>
     <string name="show_the_recycle_bin">Mostra la paperera de reciclatge</string>
     <string name="hide_the_recycle_bin">Oculta la paperera de reciclatge</string>
     <string name="open_the_recycle_bin">Obre la paperera de reciclatge</string>
@@ -911,7 +911,7 @@
     <string name="faq_4_title_commons">No m\'agraden els colors del giny, puc canviar-los\?</string>
     <string name="faq_4_text_commons">Sí, mentre arrossegueu un giny a la pantalla d\'inici apareixerà una pantalla de configuració de ginys. Veureu quadrats de color a l\'extrem inferior esquerre, només cal prémer-los per a seleccionar un color nou. També podeu utilitzar el control lliscant per a ajustar l\'alfa.</string>
     <string name="faq_5_title_commons">Puc restaurar d\'alguna manera els fitxers suprimits\?</string>
-    <string name="faq_5_text_commons">Si es van suprimir totalment, no ho podeu fer. Tanmateix, hi ha una paperera de reciclatge activada de manera predeterminada que farà que els fitxers es moguin allà en lloc de suprimir-los.</string>
+    <string name="faq_5_text_commons">Si es van suprimir totalment, no els podeu recuperar. Tanmateix, la paperera de reciclatge està activada de manera predeterminada i mou els fitxers a la paperera en lloc de suprimir-los immediatament.</string>
     <string name="faq_6_title_commons">Ha desaparegut la icona del menú d\'aplicacions. Què puc fer?</string>
     <string name="faq_7_title_commons">Els diners s\'han descomptat del meu compte bancari, però no puc baixar l\'aplicació. Què puc fer\?</string>
     <string name="faq_7_text_commons">Google gestiona completament els pagaments, i alguns cops això genera problemes en el seu sistema. Només cal que netegeu la memòria cau de l\'aplicació Google Play i reinicieu el dispositiu, després torneu a intentar baixar-la.</string>
