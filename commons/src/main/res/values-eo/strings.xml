@@ -731,7 +731,7 @@
     <string name="thumbnails">Bildetoj</string>
     <string name="export_settings">Eksporti agordojn</string>
     <string name="last_used_tab">Laste uzata</string>
-    <string name="move_items_into_recycle_bin">Movi elementojn al la rubujo anstataŭ forigi</string>
+    <string name="move_items_into_recycle_bin">Movi forigitajn elementojn al la rubujo</string>
     <string name="groups_tab">Grupoj</string>
     <string name="open_the_recycle_bin">Malfermi rubujon</string>
     <string name="password_protect_file_deletion">Protekti forigadon kaj movadon de dosieroj per pasvorto</string>
@@ -765,7 +765,7 @@
     <string name="restore_selected_files">Restaŭri elektitajn dosierojn</string>
     <string name="restore_all_files">Restaŭri ĉiujn dosierojn</string>
     <string name="recycle_bin_emptied">Rubujo sukcese malplenigita</string>
-    <string name="moving_recycle_bin_items_disabled">La movado de elementoj en la rubujo estas malŝaltita. Bonvolu uzi la funkcion de restaŭri</string>
+    <string name="moving_recycle_bin_items_disabled">La movado de elementoj en la rubujo estas malŝaltita. Bonvolu uzi la funkcion de restaŭri.</string>
     <string name="password_protect_hidden_items">Protekti videblecon de kaŝitaj elementoj per pasvorto</string>
     <string name="keep_last_modified">Gardi malnovan valoron de lasta modifo dum operacioj je dosieroj</string>
     <string name="settings_exported_successfully">Agordoj sukcese eksportitaj</string>
@@ -931,7 +931,7 @@
     <string name="faq_6_title_commons">La lanĉa bildsimbolo de la aplikaĵo malaperis. Kion povas mi fari?</string>
     <string name="faq_7_title_commons">La mono estis prenita el mi bankokonto, sed mi ne povas elŝuti la aplikaĵon. Kion povas mi fari?</string>
     <string name="faq_7_text_commons">Pagoj estas tute traktitaj pro Google, kies sistemo fojfoje misfunkcias. Simple viŝu la aplikaĵan kaŝon de Google Play, restartigu vian aparaton, kaj provu elŝuti ĝin denove.</string>
-    <string name="faq_5_text_commons">Se vi vere forigis ilin, tio ne eblas. Tamen, estas rubujo kiu defaŭlte esta ŝaltita kaj igas, ke dosieroj moviĝu al la rubujo anstataŭ esti forigitaj.</string>
+    <string name="faq_5_text_commons">Se vi vere forigis ilin, ne eblas restaŭri ilin. Tamen, la rubujo defaŭlte estas ŝaltita kaj movas la dosierojn al la rubujo anstataŭ tuje forigi ilin.</string>
     <string name="faq_8_text_commons">Ĉar la versio de via aplikaĵo ne plu estos ĝisdatigita, la cimoj kiujn vi eble rimarkis neniam estos korektitaj, nek estos aldonita iu ajn nova funkcio. Vi povas aĉeti la version Pro je Google Play pro malgranda kvanto da mono. Estas unufoja pago, kiu volas diri, ke post aĉeti ĝin, vi neniam devos pagi denove, ne eĉ post aĉeti novan aparaton. Se vi ne ŝatas la version Pro, vi povas simple malinstali ĝin en kelkaj horoj, kaj via mono estos aŭtomate repagita. Se vi volas repagon post tio, nur kontaktu nin je hello@fossify.org kaj vi ricevos ĝin.</string>
     <string name="translation_bulgarian">Bulgara</string>
     <string name="why_upgrade_batch_renaming">Altnivela renomado de multaj dosieroj</string>
