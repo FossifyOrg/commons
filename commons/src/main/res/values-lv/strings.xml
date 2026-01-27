@@ -45,4 +45,13 @@
     <string name="frequently_asked_questions">Bieži uzdoti jautājumi</string>
     <string name="before_asking_question">Pirms jautājuma uzdošanas lūgums vispirms izlasīt</string>
     <string name="theme_and_colors">Izskats un krāsas</string>
+    <string name="view_contact">Apskatīt kontaktpersonas informāciju</string>
+    <string name="visibility">Redzamība</string>
+    <string name="security">Drošība</string>
+    <string name="scrolling">Ritināšana</string>
+    <string name="file_operations">Darbības ar datnēm</string>
+    <string name="recycle_bin">Atkritne</string>
+    <string name="call_contact">Zvanīt kontaktpersonai</string>
+    <string name="edit_contact">Labot kontaktpersonu</string>
+    <string name="on_contact_click">Pēc klikšķināšanas uz kontaktpersonas</string>
 </resources>
