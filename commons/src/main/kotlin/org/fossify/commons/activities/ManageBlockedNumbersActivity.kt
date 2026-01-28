@@ -216,6 +216,9 @@ class ManageBlockedNumbersActivity : BaseSimpleActivity() {
     private fun onCheckedSetCallerIdAsDefault(isChecked: Boolean) {
         if (isChecked) {
             maybeSetDefaultCallerIdApp()
+            handlePermission(PERMISSION_READ_CONTACTS) {
+                if (!it) toast(R.string.no_contacts_permission)
+            }
         }
     }
 
