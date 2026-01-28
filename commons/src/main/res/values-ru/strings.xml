@@ -726,7 +726,7 @@
     <string name="files_restored_successfully">Файлы восстановлены</string>
     <string name="empty_recycle_bin_confirmation">Очистить корзину? Файлы будут безвозвратно удалены.</string>
     <string name="recycle_bin_empty">Корзина пуста</string>
-    <string name="moving_recycle_bin_items_disabled">Перемещение элементов корзины отключено, используйте восстановление</string>
+    <string name="moving_recycle_bin_items_disabled">Перемещение элементов корзины отключено, используйте Восстановить.</string>
     <string name="show_the_recycle_bin">Показать корзину</string>
     <string name="hide_the_recycle_bin">Скрыть корзину</string>
     <string name="open_the_recycle_bin">Открыть корзину</string>
