@@ -25,7 +25,15 @@ import com.bumptech.glide.load.engine.DiskCacheStrategy
 import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestOptions
 import org.fossify.commons.R
-import org.fossify.commons.extensions.*
+import org.fossify.commons.extensions.applyColorFilter
+import org.fossify.commons.extensions.baseConfig
+import org.fossify.commons.extensions.getContrastColor
+import org.fossify.commons.extensions.getIntValue
+import org.fossify.commons.extensions.getNameLetter
+import org.fossify.commons.extensions.getStringValue
+import org.fossify.commons.extensions.hasPermission
+import org.fossify.commons.extensions.normalizePhoneNumber
+import org.fossify.commons.extensions.queryCursor
 import org.fossify.commons.models.PhoneNumber
 import org.fossify.commons.models.SimpleContact
 
@@ -400,26 +408,41 @@ class SimpleContactsHelper(val context: Context) {
     /**
      * Synchronous version of [exists] that checks if a number exists in contacts.
      */
-    fun existsSync(number: String, privateCursor: Cursor? = null): Boolean {
-        if (number.isEmpty()) return false
-        if (existsInSystemContacts(number)) {
-            return true
+    fun existsSync(number: String, privateCursor: Cursor? = null): ContactLookupResult {
+        if (number.isEmpty()) return ContactLookupResult.NotFound
+
+        var contactLookupResult: ContactLookupResult = ContactLookupResult.Undetermined
+        if (context.hasPermission(PERMISSION_READ_CONTACTS)) {
+            try {
+                when (existsInSystemContacts(number)) {
+                    true -> return ContactLookupResult.Found
+                    false -> contactLookupResult = ContactLookupResult.NotFound
+                    null -> {} // no-op
+                }
+            } catch (_: Exception) {
+            }
         }
 
-        val privateContacts = MyContactsContentProvider.getSimpleContacts(context, privateCursor)
-        return privateContacts.any { it.doesHavePhoneNumber(number) }
+        val canAccessPrivateContacts = privateCursor != null
+        if (canAccessPrivateContacts) {
+            val privateContacts = MyContactsContentProvider.getSimpleContacts(context, privateCursor)
+            val exists = privateContacts.any { it.doesHavePhoneNumber(number) } // revisit silent failures in lookup
+            if (exists) return ContactLookupResult.Found
+        }
+
+        return contactLookupResult
     }
 
-    private fun existsInSystemContacts(number: String): Boolean {
-        if (!context.hasPermission(PERMISSION_READ_CONTACTS)) return false
-        return try {
-            val uri = Uri.withAppendedPath(PhoneLookup.CONTENT_FILTER_URI, Uri.encode(number))
-            context.contentResolver
-                .query(uri, arrayOf(PhoneLookup._ID), null, null, null)
-                ?.use { cursor -> cursor.moveToFirst() }
-                ?: false
-        } catch (ignored: Exception) {
-            false
-        }
+    private fun existsInSystemContacts(number: String): Boolean? {
+        val uri = Uri.withAppendedPath(PhoneLookup.CONTENT_FILTER_URI, Uri.encode(number))
+        return context.contentResolver
+            .query(uri, arrayOf(PhoneLookup._ID), null, null, null)
+            ?.use { cursor -> cursor.moveToFirst() }
     }
+}
+
+sealed class ContactLookupResult {
+    data object Found : ContactLookupResult()
+    data object NotFound : ContactLookupResult()
+    data object Undetermined : ContactLookupResult()
 }
