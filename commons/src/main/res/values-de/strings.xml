@@ -337,7 +337,7 @@
     <string name="global_theme_success">Das aktuelle Farbschema wurde erfolgreich auf alle Fossify-Apps angewendet. Alle zukünftigen Änderungen an diesem Farbschema werden automatisch synchronisiert.</string>
     <string name="shared_theme_note">Beachte, dass du aus technischen Gründen immer noch Fossify Thank You benötigst, auch wenn du die Pro-App-Version verwendest. Es kümmert sich um die Farbsynchronisation.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Bitte kaufe <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> um diese Funktion freizuschalten und die Entwicklung zu unterstützen. Vielen Dank!
+            Bitte kaufe <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> um diese Funktion nutzen zu können und die Entwicklung zu unterstützen. Vielen Dank!
         ]]></string>
     <string name="light_theme">Hell</string>
     <string name="dark_theme">Dunkel</string>
