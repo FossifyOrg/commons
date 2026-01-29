@@ -2,6 +2,7 @@ package org.fossify.commons.extensions
 
 import android.view.View
 import android.view.Window
+import android.view.WindowManager
 import androidx.core.view.WindowInsetsCompat
 import androidx.core.view.WindowInsetsControllerCompat
 import org.fossify.commons.helpers.DARK_GREY
@@ -41,4 +42,19 @@ fun Window.hideBars(transient: Boolean = true) = insetsController().apply {
     }
 
     hide(WindowInsetsCompat.Type.systemBars())
+}
+
+fun Window.updateBrightness(maxBrightness: Boolean, originalBrightness: Float?): Float? {
+    val layoutParams = attributes
+    return if (maxBrightness) {
+        val original = originalBrightness ?: layoutParams.screenBrightness
+        layoutParams.screenBrightness = WindowManager.LayoutParams.BRIGHTNESS_OVERRIDE_FULL
+        attributes = layoutParams
+        original
+    } else {
+        if (originalBrightness == null) return null
+        layoutParams.screenBrightness = originalBrightness
+        attributes = layoutParams
+        null
+    }
 }
