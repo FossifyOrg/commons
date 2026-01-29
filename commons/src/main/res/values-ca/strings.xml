@@ -1074,7 +1074,7 @@
     <string name="genre">Gènere</string>
     <string name="apply_to_all_apps">Aplicar el tema a totes les aplicacions de Fossify</string>
     <string name="purchase_thank_you"><![CDATA[
-            Compreu la <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> per a desbloquejar aquesta característica i col·laborar amb el desenvolupament. Gràcies!
+            Compreu la <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> per a fer serrvir aquesta característica i col·laborar amb el desenvolupament. Gràcies!
         ]]></string>
     <string name="enter_password">Introduïu la contrasenya</string>
     <string name="password">Contrasenya</string>
