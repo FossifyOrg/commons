@@ -1103,7 +1103,7 @@
             Пожалуйста, купите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, чтобы использовать эту функцию и поддержать развитие. Спасибо!
         ]]></string>
     <string name="shared_theme_note">Обратите внимание, что даже если вы используете Pro-версию приложения, по техническим причинам вам всё ещё необходимо приложение Fossify Thank You. Оно обеспечивает синхронизацию цветов.</string>
-    <string name="features_locked">Это платная функция, пожалуйста, купите &lt;href=https:/play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, чтобы разблокировать все функции приложения.&lt;bг&gt;&lt;br&gt; Это разовая оплата, и, если вы останетесь недовольны, мы можем вернуть вам деньги.</string>
+    <string name="features_locked">Это платная функция. Пожалуйста, купите &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;, чтобы разблокировать все возможности приложения.&lt;br&gt;&lt;br&gt;Это разовый платёж, и если вы останетесь недовольны, мы вернём вам деньги.</string>
     <string name="ok">OK</string>
     <string name="block_contact">Заблокировать контакт</string>
     <string name="exif">EXIF</string>
