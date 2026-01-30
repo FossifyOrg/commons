@@ -1097,7 +1097,7 @@
     <string name="donate_new">Dobrý den,&lt;br&gt;&lt;br&gt;doufáme, že si užíváte aplikaci. Neobsahuje žádné reklamy a nesbírá vaše data, zvažte proto prosím podpoření jejího vývoje zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Poděkování Fossify&lt;/a&gt;. Odemknete tím také všechny funkce aplikace včetně přizpůsobení barvy.&lt;br&gt;&lt;br&gt; Děkujeme!</string>
     <string name="shared_theme_note">Upozornění: i po instalaci Pro verze aplikace bude přesto z technických důvodů potřeba Poděkování Fossify. Stará se totiž o synchronizaci barev.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Pro odemknutí této funkce si prosím zakupte <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Poděkování Fossify</a> a podpořte vývoj. Děkujeme!
+            Pro použití této funkce si prosíme zakupte <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Poděkování Fossify</a> a podpořte vývoj. Děkujeme!
         ]]></string>
     <string name="contributors_label"><![CDATA[
             Tento seznam obsahuje všechny, kteří významněji pomohli u jakékoli aplikace ze sady Fossify, nejen u této. Překlady jsou spravovány dobrovolníky,
