@@ -1007,7 +1007,7 @@
     <string name="app_icon_color_warning">Внимание: Някои начални екрани може да не изобразят правилно потребителските настройки на пиктограмите на приложенията. Ако пиктограмата изчезне, стартирате приложението от Google Play или, ако има, от приспособление. След това възстановете подразбирания зелен цвят на пиктограмата – #106D1F. В краен случаи може да се наложи преинсталиране на приложението.</string>
     <string name="apply_to_all_apps">Прилагане на темата към всички приложения на Fossify</string>
     <string name="shared_theme_note">Обърнете внимание, че въпреки че използвате Про, все още се нуждаете от Fossify Thank You по технически причини. То се грижи за синхронизирането на цветовете.</string>
-    <string name="purchase_thank_you"><![CDATA[Поръчайте <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, за да отключите тази възможност и да подкрепите разработката. Благодарим ви!]]></string>
+    <string name="purchase_thank_you"><![CDATA[Поръчайте <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, за да използвате тази възможност и да подкрепите разработката. Благодарим ви!]]></string>
     <string name="purchase_simple_thank_you">Поръчайте Fossify Thank You</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Пробният период изтича след %d ден.</item>
