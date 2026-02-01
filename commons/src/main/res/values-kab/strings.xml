@@ -267,4 +267,9 @@
     <string name="internal_storage">Aḥraz adigan</string>
     <string name="edit_contact">Ẓreg anermis</string>
     <string name="call_contact">Siwel-as i unermis</string>
+    <string name="phone_storage_hidden">Asekles n tiliɣri (ur d-yettban ara sɣur yisnasen-nniḍen)</string>
+    <string name="format_phone_numbers">Msel uṭṭunen n usawal</string>
+    <string name="search_favorites">Nadi ismenyifen</string>
+    <string name="search_groups">Nadi igrawen</string>
+    <string name="add_number_to_contact">Rnu uṭṭun i unermis</string>
 </resources>

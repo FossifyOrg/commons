@@ -293,7 +293,7 @@
     <string name="save_before_closing">Bạn có các thay đổi chưa lưu. Lưu trước khi thoát?</string>
     <string name="global_theme_success">Chủ đề hiện tại đã được áp dụng thành công cho tất cả các app Fossify. Bất kỳ thay đổi nào trong tương lai đối với chủ đề này sẽ được đồng bộ hóa tự động.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Hãy mua ứng dụng <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> để mở khóa tính năng này và hỗ trợ nhà phát triển. Cảm ơn!
+            Hãy mua ứng dụng <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> để dùng tính năng này và hỗ trợ nhà phát triển. Cảm ơn!
         ]]></string>
     <string name="light_theme">Sáng</string>
     <string name="dark_theme">Tối</string>
