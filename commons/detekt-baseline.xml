@@ -1667,7 +1667,6 @@
     <ID>WildcardImport:SettingsSwitchComponent.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:SimpleColumnScaffold.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:SimpleColumnScaffold.kt$import androidx.compose.material3.*</ID>
-    <ID>WildcardImport:SimpleContactsHelper.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:SimpleLazyListScaffold.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:SimpleLazyListScaffold.kt$import androidx.compose.material3.*</ID>
     <ID>WildcardImport:SimpleListItemAdapter.kt$import org.fossify.commons.extensions.*</ID>
