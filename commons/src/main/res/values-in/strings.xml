@@ -318,7 +318,7 @@
     <string name="temporarily_show_hidden">Sementara tampilkan yang tersembunyi</string>
     <string name="stop_showing_hidden">Berhenti tampilkan media tersembunyi</string>
     <string name="maximum_share_reached">Anda tidak bisa membagikan konten sebanyak ini sekaligus</string>
-    <string name="empty_and_disable_recycle_bin">Kosongkan dan nonaktifkan Keranjang Sampah</string>
+    <string name="empty_and_disable_recycle_bin">Kosongkan dan nonaktifkan tempat sampah</string>
     <string name="undo">Batalkan</string>
     <string name="redo">Ulangi</string>
     <string name="print">Cetak</string>
@@ -358,9 +358,9 @@
     <string name="change_order">Ubah urutan</string>
     <string name="proceed_with_deletion">Apakah anda yakin ingin melanjutkan penghapusan?</string>
     <string name="deletion_confirmation">Apakah anda yakin ingin menghapus %s?</string>
-    <string name="move_to_recycle_bin_confirmation">Anda yakin ingin memindahkan %s ke Keranjang Sampah?</string>
+    <string name="move_to_recycle_bin_confirmation">Apakah Anda yakin ingin memindahkan %s ke tempat sampah?</string>
     <string name="are_you_sure_delete">Apakah anda yakin ingin menghapus item ini?</string>
-    <string name="are_you_sure_recycle_bin">Apakah anda yakin ingin memindahkan item ini ke Keranjang Sampah?</string>
+    <string name="are_you_sure_recycle_bin">Apakah Anda yakin ingin memindahkan item ini ke tempat sampah?</string>
     <string name="do_not_ask_again">Jangan tanya lagi untuk sesi ini</string>
     <string name="do_not_show_again">Jangan tampilkan ini lagi</string>
     <string name="yes">Ya</string>
@@ -531,9 +531,9 @@
     <string name="use_same_snooze">Selalu gunakan waktu tunda yang sama</string>
     <string name="snooze_time">Waktu tunda</string>
     <string name="vibrate_on_button_press">Getar saat tombol disentuh</string>
-    <string name="move_items_into_recycle_bin">Pindahkan item ke Keranjang Sampah alih-alih dihapus</string>
-    <string name="recycle_bin_cleaning_interval">Interval pengosongan Keranjang Sampah</string>
-    <string name="empty_recycle_bin">Kosongkan Keranjang Sampah</string>
+    <string name="move_items_into_recycle_bin">Pindahkan item yang dihapus ke tempat sampah</string>
+    <string name="recycle_bin_cleaning_interval">Interval pembersihan tempat sampah</string>
+    <string name="empty_recycle_bin">Kosongkan tempat sampah</string>
     <string name="force_portrait_mode">Paksa mode potret</string>
     <string name="export_settings">Ekspor pengaturan</string>
     <string name="import_settings">Impor pengaturan</string>
@@ -546,7 +546,7 @@
     <string name="security">Keamanan</string>
     <string name="scrolling">Menggulir</string>
     <string name="file_operations">Operasi berkas</string>
-    <string name="recycle_bin">Keranjang Sampah</string>
+    <string name="recycle_bin">Tempat sampah</string>
     <string name="saving_label">Menyimpan</string>
     <string name="startup">Memulai</string>
     <string name="text">Teks</string>
@@ -573,17 +573,17 @@
     <string name="restore_this_file">Pulihkan berkas ini</string>
     <string name="restore_selected_files">Pulihkan berkas yang dipilih</string>
     <string name="restore_all_files">Pulihkan semua berkas</string>
-    <string name="recycle_bin_emptied">Keranjang Sampah berhasil dikosongkan</string>
+    <string name="recycle_bin_emptied">Tempat sampah berhasil dikosongkan</string>
     <string name="files_restored_successfully">Berkas berhasil dipulihkan</string>
-    <string name="empty_recycle_bin_confirmation">Apakah anda yakin ingin mengosongkan Keranjang Sampah? File akan dihapus secara permanen.</string>
-    <string name="recycle_bin_empty">Keranjang Sampah kosong</string>
-    <string name="moving_recycle_bin_items_disabled">Memindahkan item Keranjang Sampah dinonaktifkan, silakan gunakan fitur Pemulihan</string>
-    <string name="show_the_recycle_bin">Tampilkan Keranjang Sampah</string>
-    <string name="hide_the_recycle_bin">Sembunyikan Keranjang Sampah</string>
-    <string name="open_the_recycle_bin">Buka Tempat Sampah</string>
-    <string name="skip_the_recycle_bin">Lewati Tempat Sampah, hapus berkas secara langsung</string>
+    <string name="empty_recycle_bin_confirmation">Apakah Anda yakin ingin mengosongkan tempat sampah? File akan hilang secara permanen.</string>
+    <string name="recycle_bin_empty">Tempat sampah kosong</string>
+    <string name="moving_recycle_bin_items_disabled">Memindahkan item tempat sampah dinonaktifkan. Silakan gunakan Pulihkan.</string>
+    <string name="show_the_recycle_bin">Tampilkan tempat sampah</string>
+    <string name="hide_the_recycle_bin">Sembunyikan tempat sampah</string>
+    <string name="open_the_recycle_bin">Buka tempat sampah</string>
+    <string name="skip_the_recycle_bin">Lewati tempat sampah, hapus file langsung</string>
     <plurals name="moving_items_into_bin">
-        <item quantity="other">Memindahkan %d item ke Keranjang Sampah</item>
+        <item quantity="other">Memindahkan %d item ke tempat sampah</item>
     </plurals>
     <string name="importing">Mengimpor…</string>
     <string name="exporting">Mengekspor…</string>
@@ -764,7 +764,7 @@
     <string name="faq_4_title_commons">Saya tidak suka warna widget, bisakah saya mengubahnya?</string>
     <string name="faq_4_text_commons">Ya, setelah anda menyeret widget pada layar beranda, layar konfigurasi widget akan muncul. Anda akan melihat kotak warna di pojok bawah kiri, cukup sentuh untuk memilih warna baru. Anda juga bisa menyeret penggeser untuk menyesuaikan transparansi.</string>
     <string name="faq_5_title_commons">Bisakah saya memulihkan berkas yang terhapus?</string>
-    <string name="faq_5_text_commons">Jika berkas memang benar-benar terhapus, anda tidak bisa memulihkannya. Tetapi, jika Recycle Bin diaktifkan secara default, tindakan hapus hanya akan menyebabkan berkas dipindah ke Keranjang Sampah.</string>
+    <string name="faq_5_text_commons">Jika benar-benar terhapus, Anda tidak dapat memulihkannya. Namun, tempat sampah diaktifkan secara default dan memindahkan file ke tempat sampah alih-alih menghapusnya secara langsung.</string>
     <string name="faq_6_title_commons">Ikon launcher aplikasi menghilang. Apa yang bisa saya lakukan?</string>
     <string name="faq_7_title_commons">Rekening bank saya telah berkurang, tetapi saya tidak bisa mengunduh aplikasi. Apa yang bisa saya lakukan?</string>
     <string name="faq_7_text_commons">Pembayaran sepenuhnya dikelola oleh Google, sistem mereka terkadang tidak bekerja sebagaimana mestinya. Cukup hapus cache apl Google Play dan mulai ulang perangkat anda, lalu ulangi mengunduh.</string>
@@ -889,7 +889,7 @@
     <string name="shared_theme_note">Diingat bahwa walaupun Anda menggunakan versi aplikasi Pro, Anda masih memerlukan Terima Kasih Fossify karena alasan teknis. Ini menangani sinkroniasi warna.</string>
     <string name="add_number_to_contact">Tambahkan nomor ke kontak</string>
     <string name="purchase_thank_you"><![CDATA[
-            Silakan beli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> untuk membuka fitur ini dan mendukung pengembangan. Terima kasih!
+            Silakan beli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> untuk menggunakan fitur ini dan mendukung pengembangan. Terima kasih!
         ]]></string>
     <string name="exif">EXIF</string>
     <string name="default_color">Bawaan</string>
@@ -1074,4 +1074,7 @@
     <string name="on_contact_click">Saat kontak diklik</string>
     <string name="call_contact">Panggil kontak</string>
     <string name="view_contact">Lihat detail kontak</string>
+    <plurals name="files_saved">
+        <item quantity="other">File berhasil disimpan</item>
+    </plurals>
 </resources>
