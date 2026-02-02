@@ -356,7 +356,7 @@
     <string name="black_white">Чёрно-белая</string>
     <string name="custom">Своя</string>
     <string name="shared">Общая</string>
-    <string name="system_default">Системное значение по умолчанию</string>
+    <string name="system_default">Как в системе</string>
     <string name="whats_new">Что нового</string>
     <string name="whats_new_disclaimer">* здесь перечислены только самые крупные изменения, но всегда есть и более мелкие исправления</string>
     <string name="delete">Удалить</string>
@@ -726,7 +726,7 @@
     <string name="files_restored_successfully">Файлы восстановлены</string>
     <string name="empty_recycle_bin_confirmation">Очистить корзину? Файлы будут безвозвратно удалены.</string>
     <string name="recycle_bin_empty">Корзина пуста</string>
-    <string name="moving_recycle_bin_items_disabled">Перемещение элементов корзины отключено, используйте \"Восстановить\".</string>
+    <string name="moving_recycle_bin_items_disabled">Перемещение элементов корзины отключено, используйте функцию \"Восстановить\".</string>
     <string name="show_the_recycle_bin">Показать корзину</string>
     <string name="hide_the_recycle_bin">Скрыть корзину</string>
     <string name="open_the_recycle_bin">Открыть корзину</string>
@@ -1156,7 +1156,7 @@
     <string name="font">Шрифт</string>
     <string name="app_font">Шрифт приложения</string>
     <string name="font_monospace">Моноширинный</string>
-    <string name="select_font_file">Выбор файла шрифта…</string>
+    <string name="select_font_file">Файл шрифта…</string>
     <string name="invalid_font_file">Недопустимый файл шрифта</string>
     <string name="edit_contact">Редактировать контакт</string>
     <string name="on_contact_click">При нажатии на контакт</string>
