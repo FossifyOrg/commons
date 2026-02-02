@@ -326,7 +326,7 @@
     <string name="use_default">Utiliser la valeur par défaut</string>
     <string name="default_color">Par défaut</string>
     <string name="change_color">Modifier la couleur</string>
-    <string name="theme">Thème</string>
+    <string name="theme">Thème de l\'application</string>
     <string name="changing_color_description">Modifier une couleur la fera passer au thème personnalisé</string>
     <string name="save">Enregistrer</string>
     <string name="discard">Annuler</string>
@@ -337,7 +337,7 @@
     <string name="app_icon_color_warning">Attention : Certains lanceurs peuvent ne pas manipuler correctement la personnalisation de l\'icône d\'application. Si l\'icône disparaît, essayez de lancer l\'application via Google Play ou un widget, si accessible. Après le lancement, restaurer la couleur d\'icône verte par défaut #106D1F. Dans les cas extrêmes, réinstaller l\'application peut être nécessaire.</string>
     <string name="global_theme_success">Actualisation des couleurs réussie. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser dorénavant ce thème pour actualiser les couleurs de toutes les applications.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Achetez s\'il vous plait <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pour déverrouiller cette fonctionnalité et soutenir le développement. Merci !
+            Achetez s'il vous plait <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pour utiliser cette fonctionnalité et soutenir le développement. Merci !
         ]]></string>
     <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>
@@ -420,9 +420,9 @@
     <string name="proceed_with_deletion">Voulez-vous vraiment procéder à la suppression \?</string>
     <string name="deletion_confirmation">Voulez-vous vraiment supprimer %s \?</string>
     <string name="deletion_confirmation_short">Supprimer %s \?</string>
-    <string name="move_to_recycle_bin_confirmation">Voulez-vous vraiment déplacer %s dans la corbeille ?</string>
+    <string name="move_to_recycle_bin_confirmation">Voulez-vous vraiment déplacer %s dans la corbeille ?</string>
     <string name="are_you_sure_delete">Voulez-vous vraiment supprimer cet élément \?</string>
-    <string name="are_you_sure_recycle_bin">Voulez-vous vraiment déplacer cet élément dans la corbeille ?</string>
+    <string name="are_you_sure_recycle_bin">Voulez-vous vraiment déplacer cet élément dans la corbeille ?</string>
     <string name="do_not_ask_again">Ne plus demander pour cette session</string>
     <string name="do_not_show_again">Ne plus montrer</string>
     <string name="yes">Oui</string>
@@ -1073,7 +1073,7 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="genre">Genre</string>
     <string name="exif">EXIF</string>
     <string name="altitude">Altitude</string>
-    <string name="apply_to_all_apps">Appliquer les couleurs à toutes les applications Fossify</string>
+    <string name="apply_to_all_apps">Appliquer le thème à toutes les applications Fossify</string>
     <string name="shared_theme_note">Notez que même si vous utilisez la version Pro de l\'application, vous avez toujours besoin de Fossify Thank You pour des raisons techniques. Il s\'occupe de la synchronisation des couleurs.</string>
     <string name="extension">Extension</string>
     <string name="minutes_raw">minutes</string>
