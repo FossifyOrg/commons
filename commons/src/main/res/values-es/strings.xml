@@ -339,7 +339,7 @@
     <string name="app_icon_color_warning">Precaución: Es posible que algunos lanzadores no gestionen correctamente la personalización de los iconos de las aplicaciones. Si el icono desaparece, intente iniciar la aplicación a través de Google Play o un widget, si es accesible. Una vez iniciada, restaura el icono verde #106D1F predeterminado. En casos extremos, puede ser necesario reinstalar la aplicación.</string>
     <string name="global_theme_success">El tema actual se ha aplicado correctamente a todas las aplicaciones de Fossify. Cualquier cambio futuro en este tema se sincronizará automáticamente.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Compre <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta funcionalidad y apoyar el desarrollo. ¡Gracias!
+            Adquiera <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para usar esta función y apoyar el desarrollo. ¡Gracias!
         ]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>
