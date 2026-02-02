@@ -29,6 +29,7 @@ import android.os.Bundle
 import android.os.Environment
 import android.os.Handler
 import android.os.Looper
+import android.os.UserManager
 import android.provider.BaseColumns
 import android.provider.BlockedNumberContract.BlockedNumbers
 import android.provider.ContactsContract.CommonDataKinds.BaseTypes
@@ -145,6 +146,9 @@ val Context.areSystemAnimationsEnabled: Boolean get() = Settings.Global.getFloat
 
 val Context.appLockManager
     get() = AppLockManager.getInstance(applicationContext as Application)
+
+val Context.isCredentialStorageAvailable: Boolean
+    get() = getSystemService(UserManager::class.java)?.isUserUnlocked ?: true
 
 fun Context.toast(id: Int, length: Int = Toast.LENGTH_SHORT) {
     toast(getString(id), length)
@@ -1373,24 +1377,28 @@ fun Context.formatWithDeprecatedBadge(
 
 fun Context.applyFontToTextView(
     textView: TextView,
-    typeface: Typeface = FontHelper.getTypeface(this),
+    typeface: Typeface? = null,
     force: Boolean = false
 ) {
-    if (typeface == Typeface.DEFAULT && !force) return // avoid unnecessary calls and overwrites
+    if (typeface == null && !isCredentialStorageAvailable) return
+    val actualTypeface = typeface ?: FontHelper.getTypeface(this)
+    if (actualTypeface == Typeface.DEFAULT && !force) return // avoid unnecessary calls and overwrites
     val existingStyle = textView.typeface?.style ?: Typeface.NORMAL
-    textView.setTypeface(typeface, existingStyle)
+    textView.setTypeface(actualTypeface, existingStyle)
 }
 
 fun Context.applyFontToViewRecursively(
     view: View?,
-    typeface: Typeface = FontHelper.getTypeface(this),
+    typeface: Typeface? = null,
     force: Boolean = false
 ) {
     if (view == null) return
-    if (view is TextView) applyFontToTextView(view, typeface, force)
+    if (typeface == null && !isCredentialStorageAvailable) return
+    val actualTypeface = typeface ?: FontHelper.getTypeface(this)
+    if (view is TextView) applyFontToTextView(view, actualTypeface, force)
     if (view is ViewGroup) {
         for (i in 0 until view.childCount) {
-            applyFontToViewRecursively(view.getChildAt(i), typeface, force)
+            applyFontToViewRecursively(view.getChildAt(i), actualTypeface, force)
         }
     }
 }

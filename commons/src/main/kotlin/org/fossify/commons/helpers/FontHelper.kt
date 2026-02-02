@@ -4,6 +4,7 @@ import android.content.Context
 import android.graphics.Typeface
 import org.fossify.commons.extensions.baseConfig
 import org.fossify.commons.extensions.ensureFontPresentLocally
+import org.fossify.commons.extensions.isCredentialStorageAvailable
 import java.io.File
 
 /**
@@ -16,18 +17,21 @@ object FontHelper {
 
     fun getTypeface(
         context: Context,
-        fontType: Int = context.baseConfig.fontType,
-        fontFileName: String = context.baseConfig.fontName
+        fontType: Int? = null,
+        fontFileName: String? = null
     ): Typeface {
-        if (fontType == cachedFontType && fontFileName == cachedFontFileName && cachedTypeface != null) {
+        if (!context.isCredentialStorageAvailable) return Typeface.DEFAULT
+        val actualFontType = fontType ?: context.baseConfig.fontType
+        val actualFontFileName = fontFileName ?: context.baseConfig.fontName
+        if (actualFontType == cachedFontType && actualFontFileName == cachedFontFileName && cachedTypeface != null) {
             return cachedTypeface!!
         }
 
-        cachedFontType = fontType
-        cachedFontFileName = fontFileName
-        cachedTypeface = when (fontType) {
+        cachedFontType = actualFontType
+        cachedFontFileName = actualFontFileName
+        cachedTypeface = when (actualFontType) {
             FONT_TYPE_MONOSPACE -> Typeface.MONOSPACE
-            FONT_TYPE_CUSTOM -> loadCustomFont(context, fontFileName)
+            FONT_TYPE_CUSTOM -> loadCustomFont(context, actualFontFileName)
             else -> Typeface.DEFAULT
         }
         return cachedTypeface!!
