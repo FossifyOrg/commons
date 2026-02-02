@@ -4,7 +4,7 @@
     <string name="close">Đóng</string>
     <string name="back">Quay lại</string>
     <string name="nothing">Không có gì</string>
-    <string name="later">Sau</string>
+    <string name="later">Để sau</string>
     <string name="save_as">Lưu thành</string>
     <string name="file_saved">Đã lưu tệp thành công</string>
     <string name="invalid_file_format">Định dạng tệp không hợp lệ</string>
@@ -21,7 +21,7 @@
     <string name="copy_number_to_clipboard">Sao chép số vào clipboard</string>
     <string name="value_copied_to_clipboard">Đã sao chép giá trị</string>
     <string name="value_copied_to_clipboard_show">Đã sao chép giá trị:\n%s</string>
-    <string name="dial_number">Quay số</string>
+    <string name="dial_number">Gọi</string>
     <string name="unknown">Không xác định</string>
     <string name="always">Luôn luôn</string>
     <string name="never">Không bao giờ</string>
@@ -89,21 +89,21 @@
     <string name="landscape_column_count">Số lượng cột màn hình ngang</string>
     <string name="change_cover_image">Thay đổi ảnh bìa</string>
     <string name="select_photo">Chọn ảnh</string>
-    <string name="manage_blocked_numbers">Quản lý số chặn</string>
+    <string name="manage_blocked_numbers">Quản lý chặn số</string>
     <string name="not_blocking_anyone">Bạn hiện tại không chặn ai.</string>
-    <string name="add_a_blocked_number">Thêm số chặn</string>
+    <string name="add_a_blocked_number">Chặn số mới</string>
     <string name="block_numbers">Chặn số</string>
     <string name="blocked_numbers">Số bị chặn</string>
     <string name="export_blocked_numbers">Xuất số bị chặn</string>
     <string name="import_blocked_numbers">Nhập số bị chặn</string>
     <string name="must_make_default_dialer">Bạn cần phải đặt ứng dụng này thành ứng dụng gọi mặc định để có thể chặn số điện thoại.</string>
-    <string name="block_confirmation">Bạn có chắc là muốn chặn \"%s\"\?</string>
+    <string name="block_confirmation">Bạn có chắc muốn chặn \"%s\"?</string>
     <string name="block_unknown_calls">Chặn cuộc gọi từ liên hệ không có trong danh bạ</string>
-    <string name="block_hidden_calls">Chặn cuộc gọi từ số ẩn</string>
-    <string name="block_unknown_messages">Chặn tin nhắn từ số không có trong danh bạ</string>
-    <string name="block_hidden_messages">Chặn tin nhắn từ số ẩn</string>
-    <string name="add_blocked_number_helper_text">Nhập một số hoặc mẫu (vd: *12345*, +1*8888) để chặn tất cả các cuộc gọi và tin nhắn từ các số khớp với mẫu.</string>
-    <string name="must_make_default_caller_id_app">Không thể chặn số chưa biết mà không có quyền ID người gọi.</string>
+    <string name="block_hidden_calls">Chặn cuộc gọi từ những số ẩn</string>
+    <string name="block_unknown_messages">Chặn tin nhắn từ những số không có trong danh bạ</string>
+    <string name="block_hidden_messages">Chặn tin nhắn từ những số ẩn</string>
+    <string name="add_blocked_number_helper_text">Nhập một số hoặc mẫu (vd: *12345*, +1*8888) để chặn tất cả cuộc gọi và tin nhắn từ những số khớp với mẫu.</string>
+    <string name="must_make_default_caller_id_app">Không thể chặn số chưa biết nếu chưa cấp quyền hiển thị người gọi.</string>
     <string name="block_contact_success">Đã chặn liên hệ</string>
     <string name="block_contact_fail">Liên hệ không thể bị chặn</string>
     <string name="unblock_contact">Bỏ chặn liên hệ</string>
@@ -143,17 +143,17 @@
     <string name="no_camera_permissions">Cần quyền truy cập máy ảnh</string>
     <string name="no_audio_permissions">Cần quyền truy cập âm thanh</string>
     <string name="no_permission">Không có quyền</string>
-    <string name="allow_notifications_reminders">Bạn cần phải cho phép ứng dụng hiển thị thông báo, nếu không ứng dụng không thể hiển thị lời nhắc.</string>
-    <string name="allow_full_screen_notifications_reminders">Bạn cần phải cho phép ứng dụng hiển thị thông báo toàn màn hình, nếu không bạn có thể bỏ lở một vài lời nhắc.</string>
-    <string name="allow_notifications_files">Bạn cần phải cho phép ứng dụng hiển thị thông báo, nếu không ứng dụng không thể hiển thị thanh tiến trình.</string>
-    <string name="allow_notifications_music_player">Bạn cần phải cho phép ứng dụng hiển thị thông báo, nếu không ứng dụng không thể phát bài hát.</string>
-    <string name="allow_notifications_voice_recorder">Bạn cần phải cho phép ứng dụng hiển thị thông báo, nếu không ứng dụng không thể ghi âm.</string>
-    <string name="allow_notifications_incoming_calls">Bạn cần phải cho phép ứng dụng hiển thị thông báo, nếu không ứng dụng không thể hiển thị cuộc gọi đến.</string>
-    <string name="allow_full_screen_notifications_incoming_calls">Bạn cần phải cho phép ứng dụng hiển thị thông báo toàn màn hình, nếu không bạn có thể sẽ bỏ lỡ một vài cuộc gọi đến.</string>
-    <string name="allow_notifications_incoming_messages">Bạn cần phải cho phép ứng dụng hiển thị thông báo, nếu không ứng dụng không hiển thị tin nhắn đến.</string>
-    <string name="allow_alarm_scheduled_messages">Bạn cần phải cho phép ứng dụng truy cập báo thức nội bộ, nếu không ứng dụng không thể gửi tin nhắn được lên lịch.</string>
-    <string name="allow_alarm_sleep_timer">Bạn cần phải cho phép ứng dụng truy cập báo thức nội bộ, nếu không ứng dụng không thể tắt ứng dụng sau khi hẹn giờ ngủ.</string>
-    <string name="allow_location_permission">Bạn cần phải cho phép ứng dụng truy cập vị trí của bạn, nếu không ứng dụng sẽ không biết được vị trí của bạn.</string>
+    <string name="allow_notifications_reminders">Bạn cần phải cấp quyền Chuông báo và lời nhắc để có thể hiển thị hiển thị lời nhắc.</string>
+    <string name="allow_full_screen_notifications_reminders">Bạn cần phải cấp quyền hiển thị thông báo toàn màn hình. Nếu không, bạn có thể bỏ lỡ một vài lời nhắc.</string>
+    <string name="allow_notifications_files">Bạn cần phải cấp quyền hiển thị thông báo. Nếu không, app không thể hiển thị thanh tiến trình.</string>
+    <string name="allow_notifications_music_player">Bạn cần phải cấp quyền hiển thị thông báo. Nếu không, app không thể phát nhạc.</string>
+    <string name="allow_notifications_voice_recorder">Bạn cần phải cấp quyền hiển thị thông báo. Nếu không, app không thể ghi âm.</string>
+    <string name="allow_notifications_incoming_calls">Bạn cần phải cấp quyền hiển thị thông báo. Nếu không, app không thể hiển thị cuộc gọi đến.</string>
+    <string name="allow_full_screen_notifications_incoming_calls">Bạn cần phải cấp quyền hiển thị thông báo toàn màn hình. Nếu không, bạn có thể sẽ bỏ lỡ một vài cuộc gọi đến.</string>
+    <string name="allow_notifications_incoming_messages">Bạn cần phải cấp quyền hiển thị thông báo. Nếu không, app không thể hiển thị tin nhắn đến.</string>
+    <string name="allow_alarm_scheduled_messages">Bạn cần phải cấp quyền Chuông báo và lời nhắc để có thể gửi tin nhắn đã lên lịch.</string>
+    <string name="allow_alarm_sleep_timer">Bạn cần phải cấp quyền Chuông báo và lời nhắc để có thể tắt ứng dụng khi đến giờ ngủ.</string>
+    <string name="allow_location_permission">Bạn cần phải cấp quyền truy cập vị trí. Nếu không, app sẽ không biết được vị trí của bạn.</string>
     <string name="grant_permission">Cấp quyền</string>
     <string name="permission_required">Yêu cầu quyền</string>
     <string name="rename_file">Đổi tên tệp</string>
@@ -635,7 +635,7 @@
     <string name="faq_4_text_commons">Được chứ, khi bạn kéo một widget trên màn hình chính, màn hình cấu hình widget sẽ xuất hiện. Bạn sẽ thấy các ô vuông màu ở góc dưới bên trái, chỉ cần nhấn chúng để chọn màu mới. Bạn cũng có thể sử dụng thanh trượt để điều chỉnh độ trong suốt.</string>
     <string name="faq_5_title_commons">Làm sao để khôi phục các tệp đã xóa?</string>
     <string name="faq_5_text_commons">Nếu chúng thực sự bị xóa, bạn không thể. Tuy nhiên, có một Thùng rác được bật theo mặc định, nó sẽ khiến các tệp được di chuyển vào Thùng rác thay vì xóa chúng.</string>
-    <string name="faq_6_title_commons">Làm sao khi biểu tượng ứng dụng biến mất?</string>
+    <string name="faq_6_title_commons">Làm sao khi biểu tượng app biến mất?</string>
     <string name="faq_7_title_commons">Làm sao khi đã bị trừ tiền trong tài khoản ngân hàng, nhưng không thể tải xuống ứng dụng?</string>
     <string name="faq_7_text_commons">Thanh toán được xử lý hoàn toàn bởi Google, hệ thống của họ thỉnh thoảng bị trục trặc. Chỉ cần xóa bộ nhớ cache ứng dụng Google Play của bạn và khởi động lại thiết bị, sau đó thử tải xuống lại.</string>
     <string name="faq_8_title_commons">Vì sao tôi nên nâng cấp lên phiên bản Pro?</string>
@@ -798,19 +798,19 @@
     <string name="fee_up_to_pct">Phí tối đa %1$d%%</string>
     <string name="cryptocurrency">Tiền điện tử</string>
     <string name="zip4j_title">Zip4j (nén &amp; giải nén ZIP)</string>
-    <string name="app_icon_color_warning">Cẩn thận: Một số trình launcher có thể không xử lý đúng tùy chỉnh biểu tượng ứng dụng. Nếu biểu tượng biến mất, hãy thử mở ứng dụng thông qua Google Play hoặc widget. Sau khi mở được, hãy khôi phục màu biểu tượng xanh lá cây mặc định #106D1F. Trong trường hợp hiếm, có thể cần phải cài đặt lại ứng dụng.</string>
+    <string name="app_icon_color_warning">Cẩn thận: Một số trình launcher có thể không xử lý đúng tùy chỉnh biểu tượng app. Nếu biểu tượng biến mất, hãy thử mở app thông qua Google Play hoặc widget. Sau khi mở được, hãy khôi phục màu biểu tượng xanh lá cây mặc định #106D1F. Trong trường hợp hiếm, có thể cần phải cài đặt lại app.</string>
     <plurals name="files_saved">
         <item quantity="other">Đã lưu tệp thành công</item>
     </plurals>
     <string name="confirm_storage_access_restricted_text_not_found">Không tìm thấy ứng dụng quản lý tệp hệ thống.</string>
     <string name="date_time_pattern_info">Bạn có thể sử dụng các mẫu sau để đặt tên tệp tự động.:\n\n%Y - năm\n%M - tháng\n%D - ngày\n%h - giờ\n%m - phút\n%s - giây</string>
     <string name="faq_2_text_commons"><![CDATA[
-            Tất nhiên rồi. Bạn có thể chia sẻ thông tin về ứng dụng hoặc đưa ra phản hồi và đánh giá tích cực. Bạn cũng có thể giúp đỡ bằng cách dịch ứng dụng sang ngôn ngữ mới, hoặc chỉ cần cập nhật một số bản dịch hiện có.
-            Hướng dẫn dịch thuật có tại <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
+            Tất nhiên rồi. Bạn có thể chia sẻ thông tin về app hoặc xếp hạng và đánh giá tích cực. Bạn cũng có thể giúp đỡ bằng cách dịch app sang ngôn ngữ mới, hoặc chỉ cần cập nhật một số bản dịch hiện có.
+            Xem hướng dẫn dịch thuật <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tại đây</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
         ]]></string>
     <string name="contributors_label"><![CDATA[
-            Danh sách này bao gồm tất cả những người đã đóng góp đáng kể cho bất kỳ ứng dụng nào trong bộ ứng dụng Fossify, không chỉ riêng ứng dụng này. Việc dịch thuật được thực hiện bởi các tình nguyện viên.
-            Hãy cho chúng tôi biết nếu bạn cũng muốn ủng hộ. Hướng dẫn dịch thuật có tại <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">this website</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
+            Danh sách này gồm những người đã đóng góp đáng kể cho bất kỳ ứng dụng nào trong bộ ứng dụng Fossify, không chỉ riêng ứng dụng này. Việc dịch thuật được thực hiện bởi các tình nguyện viên.
+            Hãy cho chúng tôi biết nếu bạn cũng muốn đóng góp. Xem hướng dẫn dịch thuật <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tại đây</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
             Xin cảm ơn tất cả những người đóng góp và ủng hộ khác!
         ]]></string>
     <string name="why_upgrade_heic_support">Hỗ trợ định dạng HEIC/HEIF</string>
@@ -820,10 +820,10 @@
     <string name="why_upgrade_file_importing">Hỗ trợ nhập tệp</string>
     <string name="m3u_parser_title">M3U Parser (xử lý tệp danh sách phát m3u)</string>
     <string name="more_fossify_apps">App Fossify khác</string>
-    <string name="faq_6_text_commons">Sự cố này xảy ra khi trình launcher của bạn không hỗ trợ việc tùy chỉnh biểu tượng. Hãy thử mở ứng dụng thông qua Google Play hoặc widget (nếu có). Sau khi mở được, hãy khôi phục màu biểu tượng xanh lá cây mặc định #106D1F. Trong trường hợp nghiêm trọng, có thể cần phải cài đặt lại ứng dụng.</string>
+    <string name="faq_6_text_commons">Sự cố này xảy ra khi trình launcher của bạn không hỗ trợ việc tùy chỉnh biểu tượng. Hãy thử mở app thông qua Google Play hoặc widget (nếu có). Sau khi mở được, hãy khôi phục màu biểu tượng xanh lá cây mặc định #106D1F. Trong trường hợp nghiêm trọng, có thể cần phải cài đặt lại app.</string>
     <string name="faq_10_title_commons">Làm sao khi đã mua ứng dụng nhưng không thể tải trên thiết bị khác?</string>
     <string name="faq_10_text_commons">Chỉ cần xóa bộ nhớ cache ứng dụng Google Play của bạn và khởi động lại thiết bị. Đây là lỗi do Google Play.</string>
-    <string name="rate_this_app">Đánh giá app</string>
+    <string name="rate_this_app">Xếp hạng app</string>
     <string name="requires_fossify_thank_you">Cần mua Fossify Thank You trước</string>
     <string name="apply_to_all_apps">Áp dụng màu cho tất cả app Fossify</string>
     <string name="enables_more_customization">Cho phép tùy chỉnh nhiều hơn</string>
