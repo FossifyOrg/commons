@@ -639,8 +639,8 @@
     <string name="during_day_at">Au cours de la journée à %1$02d:%2$02d</string>
     <string name="settings">Paramètres</string>
     <string name="general_settings">Général</string>
-    <string name="color_customization">Personnalisation des couleurs</string>
-    <string name="customize_colors">Personnaliser les couleurs</string>
+    <string name="color_customization">Aspect et comportement</string>
+    <string name="customize_colors">Personnaliser l\'apparence</string>
     <string name="feature_locked">Verrouillé</string>
     <string name="customize_widget_colors">Personnaliser les couleurs du widget</string>
     <string name="customize_notifications">Personnaliser les notifications</string>
@@ -668,7 +668,7 @@
     <string name="use_same_snooze">Toujours utiliser le même intervalle de répétition</string>
     <string name="snooze_time">Intervalle de répétition</string>
     <string name="vibrate_on_button_press">Vibrer lors de l\'appui sur une touche</string>
-    <string name="move_items_into_recycle_bin">Déplacer les éléments dans la corbeille au lieu de les supprimer</string>
+    <string name="move_items_into_recycle_bin">Déplacer les éléments supprimés dans la corbeille</string>
     <string name="recycle_bin_cleaning_interval">Intervalle de vidage de la corbeille</string>
     <string name="empty_recycle_bin">Vider la corbeille</string>
     <string name="force_portrait_mode">Forcer le mode portrait</string>
@@ -714,7 +714,7 @@
     <string name="restore_all_files">Restaurer tous les fichiers</string>
     <string name="recycle_bin_emptied">Vidage de la corbeille réussi</string>
     <string name="files_restored_successfully">Restauration des fichiers réussie</string>
-    <string name="empty_recycle_bin_confirmation">Voulez-vous vraiment vider la corbeille ? Les fichiers seront irrécupérables.</string>
+    <string name="empty_recycle_bin_confirmation">Voulez-vous vraiment vider la corbeille ? Les fichiers seront irrécupérables.</string>
     <string name="recycle_bin_empty">La corbeille est vide</string>
     <string name="moving_recycle_bin_items_disabled">Le déplacement des éléments de la corbeille est désactivé. Veuillez utiliser la fonction de restauration</string>
     <string name="show_the_recycle_bin">Afficher la corbeille</string>
@@ -910,7 +910,7 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="faq_4_title_commons">Je n\'aime pas les couleurs du widget. Puis-je les modifier \?</string>
     <string name="faq_4_text_commons">Oui, lorsque vous faites glisser un widget sur votre écran d\'accueil, une fenêtre de configuration apparaît. Vous verrez des carrés colorés dans le coin inférieur gauche. Appuyez simplement dessus pour choisir une nouvelle couleur. Vous pouvez également utiliser le curseur pour ajuster la transparence.</string>
     <string name="faq_5_title_commons">Puis-je restaurer d’une manière ou d’une autre des fichiers supprimés \?</string>
-    <string name="faq_5_text_commons">S\'ils ont vraiment été supprimés, vous ne le pouvez pas. Cependant, une corbeille étant activée par défaut, les fichiers seront simplement déplacés dans la corbeille au lieu d\'être supprimés.</string>
+    <string name="faq_5_text_commons">S\'ils ont vraiment été supprimés, vous ne le pouvez pas les récupérer. Cependant, la corbeille étant activée par défaut, les fichiers seront simplement déplacés dans la corbeille au lieu d\'être supprimés.</string>
     <string name="faq_6_title_commons">L\'icône du lanceur d\'applications a disparu. Que puis-je faire \?</string>
     <string name="faq_7_title_commons">L\'argent a bien été débité de mon compte bancaire, mais je ne peux pas télécharger l\'application. Que puis-je faire \?</string>
     <string name="faq_7_text_commons">Les paiements sont entièrement gérés par Google. Leur système informatique peut parfois se heurter à quelques problèmes. Effacez simplement le cache de votre application \"Google Play\". Ensuite, redémarrez votre appareil. Enfin, téléchargez de nouveau l\'application.</string>
@@ -1107,7 +1107,7 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="cryptocurrency">Crypto-monnaie</string>
     <string name="little_to_no_fee">Peu ou pas de frais</string>
     <string name="known_issues">Problèmes connus</string>
-    <string name="theme_and_colors">Thème et couleurs</string>
+    <string name="theme_and_colors">Thème &amp; couleurs</string>
     <string name="all_fossify_apps">Toutes les applications Fossify</string>
     <string name="translation_belarusian">Biélorusse</string>
     <string name="fee_up_to_pct">Jusqu\'à %1$d%% de frais</string>
@@ -1137,4 +1137,10 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="on_contact_click">En appuyant sur un contact</string>
     <string name="call_contact">Appeler le contact</string>
     <string name="view_contact">Afficher les détails du contact</string>
+    <string name="font">Police de caractère</string>
+    <string name="app_font">Police de caractère de l\'application</string>
+    <string name="font_monospace">Chasse fixe</string>
+    <string name="select_font_file">Sélectionner le fichier de police de caractère…</string>
+    <string name="invalid_font_file">Fichier de police de caractère invalide</string>
+    <string name="badge_deprecated">(déprécié)</string>
 </resources>
