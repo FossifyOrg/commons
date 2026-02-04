@@ -310,7 +310,7 @@
     <string name="restore_defaults">Vrati standardne vrijednosti</string>
     <string name="use_default">Koristi standardne vrijednosti</string>
     <string name="change_color">Promijeni boju</string>
-    <string name="theme">Tema</string>
+    <string name="theme">Tema aplikacije</string>
     <string name="changing_color_description">Promijenom boje, prelazi se na Prilagođenu temu</string>
     <string name="save">Spremi</string>
     <string name="discard">Odbaci</string>
@@ -320,7 +320,7 @@
     <string name="save_before_closing">Imaš nespremljene promjene. Želiš li ih spremiti prije izlaska?</string>
     <string name="global_theme_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Kupi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Hvala</a> za otključavanje ove funkcije te za podržavanje razvoja. Hvala!
+            Kupi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Hvala</a> za korištenje ove funkcije te za podržavanje razvoja. Hvala!
         ]]></string>
     <string name="light_theme">Svijetla</string>
     <string name="dark_theme">Tamna</string>
@@ -350,7 +350,7 @@
     <string name="temporarily_show_hidden">Privremeno prikaži skriveno</string>
     <string name="stop_showing_hidden">Zaustavi prikazivanje skrivenih stavki</string>
     <string name="maximum_share_reached">Nije moguće dijeliti ovoliko stavki odjednom</string>
-    <string name="empty_and_disable_recycle_bin">Isprazni i onemogući koš za smeće</string>
+    <string name="empty_and_disable_recycle_bin">Isprazni i deaktiviraj koš za smeće</string>
     <string name="undo">Poništi</string>
     <string name="redo">Ponovi</string>
     <string name="print">Ispiši</string>
@@ -398,7 +398,7 @@
     <string name="proceed_with_deletion">Jeste li sigurni da želite nastaviti s brisanjem?</string>
     <string name="deletion_confirmation">Jeste li sigurni da želite izbrisati %s?</string>
     <string name="deletion_confirmation_short">Izbrisati %s\?</string>
-    <string name="move_to_recycle_bin_confirmation">Jeste li sigurni da se želite premjestiti %s u koš za smeće?</string>
+    <string name="move_to_recycle_bin_confirmation">Jeste li sigurni da želite premjestiti %s u koš za smeće?</string>
     <string name="are_you_sure_delete">Jeste li sigurni da želite izbrisati ovu stavku?</string>
     <string name="are_you_sure_recycle_bin">Jeste li sigurni da želite premjestiti ovu stavku u koš za smeće?</string>
     <string name="do_not_ask_again">Ne pitaj me više u ovoj sesiji</string>
@@ -611,8 +611,8 @@
     <string name="during_day_at">Tijekom dana u %1$02d:%2$02d</string>
     <string name="settings">Postavke</string>
     <string name="general_settings">Opće</string>
-    <string name="color_customization">Prilagođavanje boja</string>
-    <string name="customize_colors">Prilagodi boje</string>
+    <string name="color_customization">Izgled i osjećaj</string>
+    <string name="customize_colors">Prilagodi izgled</string>
     <string name="feature_locked">Zaključano</string>
     <string name="customize_widget_colors">Prilagodi boje widgeta</string>
     <string name="customize_notifications">Prilagodi obavijesti</string>
@@ -640,8 +640,8 @@
     <string name="use_same_snooze">Uvijek koristi isto vrijeme odgode</string>
     <string name="snooze_time">Vrijeme odgode</string>
     <string name="vibrate_on_button_press">Vibriraj prilikom pritiskanja gumba</string>
-    <string name="move_items_into_recycle_bin">Premjesti stavke u koš za smeće umjesto brisanja</string>
-    <string name="recycle_bin_cleaning_interval">Interval čišćenja koša za smeće</string>
+    <string name="move_items_into_recycle_bin">Premjesti izbrisane stavke u koš za smeće</string>
+    <string name="recycle_bin_cleaning_interval">Interval pražnjenja koša za smeće</string>
     <string name="empty_recycle_bin">Isprazni koš za smeće</string>
     <string name="force_portrait_mode">Prikaz stavke u portretnom formatu</string>
     <string name="export_settings">Izvezi postavke</string>
@@ -685,9 +685,9 @@
     <string name="restore_all_files">Vrati sve datoteke</string>
     <string name="recycle_bin_emptied">Koš za smeće je uspješno ispražnjen</string>
     <string name="files_restored_successfully">Datoteke su uspješno vraćene</string>
-    <string name="empty_recycle_bin_confirmation">Jeste li sigurni da želite isprazniti koš za smeće? Datoteke će biti trajno izgubljene.</string>
+    <string name="empty_recycle_bin_confirmation">Jeste li sigurni da želite isprazniti koš za smeće? Datoteke će se trajno izgubiti.</string>
     <string name="recycle_bin_empty">Koš za smeće je prazan</string>
-    <string name="moving_recycle_bin_items_disabled">Premještanje stavki koša za smeće je onemogućeno, koristite Obnavljanje</string>
+    <string name="moving_recycle_bin_items_disabled">Premještanje stavki koša za smeće je deaktivirano. Koristite „Obnavljanje”.</string>
     <string name="show_the_recycle_bin">Prikaži koš za smeće</string>
     <string name="hide_the_recycle_bin">Sakrij koš za smeće</string>
     <string name="open_the_recycle_bin">Otvori koš za smeće</string>
@@ -894,7 +894,7 @@
     <string name="faq_4_title_commons">Ne sviđa mi se boja widgeta, mogu li ih promijeniti?</string>
     <string name="faq_4_text_commons">Da, kada povlačite widget na početnom zaslonu, pojavit će se zaslon za konfiguraciju widgeta. U donjem lijevom kutu vidjet ćete obojene kvadrate, samo ih pritisnite da biste odabrali novu boju. Možete koristiti i klizač za podešavanje alphe.</string>
     <string name="faq_5_title_commons">Mogu li nekako vratiti izbrisane datoteke?</string>
-    <string name="faq_5_text_commons">Ako su stvarno izbrisane, ne možeš. Međutim, postoji koš za smeće koji je standardno aktiviran. Na taj se način datoteke samo premještaju u koš umjesto da se izbrišu.</string>
+    <string name="faq_5_text_commons">Ako su stvarno izbrisane, ne mogu se obnoviti. Međutim, postoji koš za smeće koji je standardno aktiviran tako da se datoteke samo premještaju u koš umjesto da se odmah izbrišu.</string>
     <string name="faq_6_title_commons">Ikona pokretača aplikacija je nestala. Što mogu učiniti?</string>
     <string name="faq_7_title_commons">Novac je skinut s mog bankovnog računa, ali ne mogu preuzeti aplikaciju. Što mogu učiniti?</string>
     <string name="faq_8_title_commons">Zašto nadograditi na Pro verziju?</string>
@@ -1074,7 +1074,7 @@
     <string name="genre">Žanr</string>
     <string name="exif">EXIF</string>
     <string name="default_color">Standardna boja</string>
-    <string name="apply_to_all_apps">Primijeni boje na sve Fossify aplikacije</string>
+    <string name="apply_to_all_apps">Primijeni temu na sve Fossify aplikacije</string>
     <string name="allow_access_more_media">Dozvoli pristup daljnjim medijima</string>
     <string name="more_options">Više opcija</string>
     <string name="pin">PIN</string>
