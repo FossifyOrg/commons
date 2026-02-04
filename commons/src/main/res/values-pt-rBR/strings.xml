@@ -659,7 +659,7 @@
     <string name="files_restored_successfully">Os arquivos foram restaurados com sucesso</string>
     <string name="empty_recycle_bin_confirmation">Deseja realmente esvaziar a Lixeira? Os arquivos serão excluidos permanentemente.</string>
     <string name="recycle_bin_empty">A Lixeira está vazia</string>
-    <string name="moving_recycle_bin_items_disabled">Não é permitido mover itens da Lixeira. Por favor, use a função Restaurar</string>
+    <string name="moving_recycle_bin_items_disabled">A movimentação de itens da lixeira está desativada. Por favor, use Restaurar.</string>
     <string name="show_the_recycle_bin">Exibir a Lixeira</string>
     <string name="hide_the_recycle_bin">Ocultar a Lixeira</string>
     <string name="open_the_recycle_bin">Abrir a Lixeira</string>
