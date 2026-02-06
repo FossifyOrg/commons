@@ -336,7 +336,6 @@
     <string name="save_before_closing">Certaines modifications ne sont pas enregistrées. Voulez-vous les enregistrer avant de quitter \?</string>
     <string name="app_icon_color_warning">Attention : Certains lanceurs peuvent ne pas manipuler correctement la personnalisation de l\'icône d\'application. Si l\'icône disparaît, essayez de lancer l\'application via Google Play ou un widget, si accessible. Après le lancement, restaurer la couleur d\'icône verte par défaut #106D1F. Dans les cas extrêmes, réinstaller l\'application peut être nécessaire.</string>
     <string name="global_theme_success">Actualisation des couleurs réussie. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser dorénavant ce thème pour actualiser les couleurs de toutes les applications.</string>
-    <string name="purchase_thank_you"></string>
     <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>
     <string name="auto_theme">Automatique</string>
