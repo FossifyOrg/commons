@@ -115,7 +115,7 @@
     <string name="import_blocked_numbers">Blockierte Nummern importieren</string>
     <string name="must_make_default_dialer">Du musst diese App als Standardtelefonie-App einstellen, um Nummern blockieren zu können.</string>
     <string name="set_as_default">Als Standard auswählen</string>
-    <string name="block_confirmation">„%s“ wirklich blockieren?</string>
+    <string name="block_confirmation">Soll wirklich „%s“ blockiert werden?</string>
     <string name="block_unknown_calls">Anrufe von Nummern, die nicht in den Kontakten gespeichert sind, blockieren</string>
     <string name="block_hidden_calls">Anrufe von unterdrückten Nummern blockieren</string>
     <string name="block_unknown_messages">Nachrichten von Nummern, die nicht in den Kontakten gespeichert sind, blockieren</string>
@@ -417,11 +417,11 @@
     <string name="change_order">Reihenfolge ändern</string>
     <string name="more_options">Weitere Optionen</string>
     <string name="proceed_with_deletion">Soll wirklich mit dem Löschen fortgefahren werden\?</string>
-    <string name="deletion_confirmation">%s wirklich löschen\?</string>
+    <string name="deletion_confirmation">Soll wirklich %s gelöscht werden?</string>
     <string name="deletion_confirmation_short">%s löschen\?</string>
-    <string name="move_to_recycle_bin_confirmation">Soll %s wirklich in den Papierkorb verschoben werden?</string>
-    <string name="are_you_sure_delete">Soll dieses Element wirklich gelöscht werden?</string>
-    <string name="are_you_sure_recycle_bin">Soll dieses Element wirklich in den Papierkorb verschoben werden?</string>
+    <string name="move_to_recycle_bin_confirmation">Soll wirklich %s in den Papierkorb verschoben werden?</string>
+    <string name="are_you_sure_delete">Soll wirklich dieses Element gelöscht werden?</string>
+    <string name="are_you_sure_recycle_bin">Soll wirklich dieses Element in den Papierkorb verschoben werden?</string>
     <string name="do_not_ask_again">Nicht erneut fragen (in dieser Sitzung)</string>
     <string name="do_not_show_again">Nicht mehr anzeigen</string>
     <string name="yes">Ja</string>
@@ -685,7 +685,7 @@
     <string name="restore_all_files">Alle Dateien wiederherstellen</string>
     <string name="recycle_bin_emptied">Der Papierkorb wurde erfolgreich geleert</string>
     <string name="files_restored_successfully">Dateien wurden erfolgreich wiederhergestellt</string>
-    <string name="empty_recycle_bin_confirmation">Den Papierkorb wirklich leeren? Die Dateien sind dann unwiederbringlich verloren.</string>
+    <string name="empty_recycle_bin_confirmation">Soll wirklich der Papierkorb geleert werden? Die Dateien sind dann unwiederbringlich verloren.</string>
     <string name="recycle_bin_empty">Der Papierkorb ist leer</string>
     <string name="moving_recycle_bin_items_disabled">Das Verschieben von Elementen im Papierkorb ist deaktiviert. Bitte Wiederherstellen verwenden.</string>
     <string name="show_the_recycle_bin">Papierkorb anzeigen</string>
