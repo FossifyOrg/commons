@@ -6,6 +6,7 @@ import android.graphics.Color
 import android.media.ExifInterface
 import android.os.Handler
 import android.os.Looper
+import android.text.format.Formatter
 import androidx.core.graphics.ColorUtils
 import androidx.core.os.postDelayed
 import org.fossify.commons.helpers.DARK_GREY
@@ -13,6 +14,8 @@ import org.fossify.commons.helpers.WCAG_AA_NORMAL
 import java.text.DecimalFormat
 import java.util.Locale
 import java.util.Random
+import kotlin.math.log10
+import kotlin.math.pow
 
 fun Int.getContrastColor(): Int {
     val luminance = ColorUtils.calculateLuminance(this)
@@ -46,14 +49,13 @@ fun Int.getFormattedDuration(forceShowHours: Boolean = false): String {
     return sb.toString()
 }
 
+@Deprecated("Use Long.formatSize() instead.")
 fun Int.formatSize(): String {
-    if (this <= 0) {
-        return "0 B"
-    }
+    if (this <= 0) return "0 B"
 
     val units = arrayOf("B", "kB", "MB", "GB", "TB")
-    val digitGroups = (Math.log10(toDouble()) / Math.log10(1024.0)).toInt()
-    return "${DecimalFormat("#,##0.#").format(this / Math.pow(1024.0, digitGroups.toDouble()))} ${units[digitGroups]}"
+    val digitGroups = (log10(toDouble()) / log10(1000.0)).toInt()
+    return "${DecimalFormat("#,##0.#").format(this / 1000.0.pow(digitGroups.toDouble()))} ${units[digitGroups]}"
 }
 
 @Deprecated(
