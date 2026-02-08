@@ -6,7 +6,6 @@ import android.graphics.Color
 import android.media.ExifInterface
 import android.os.Handler
 import android.os.Looper
-import android.text.format.Formatter
 import androidx.core.graphics.ColorUtils
 import androidx.core.os.postDelayed
 import org.fossify.commons.helpers.DARK_GREY
