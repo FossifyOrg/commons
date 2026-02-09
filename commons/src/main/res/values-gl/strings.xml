@@ -299,7 +299,7 @@
     <string name="use_default">Usar valor por defecto</string>
     <string name="default_color">Por defecto</string>
     <string name="change_color">Cambiar cor</string>
-    <string name="theme">Tema</string>
+    <string name="theme">Tema da aplicación</string>
     <string name="changing_color_description">Cambiar unha cor fará que se cambie ao tema personalizado</string>
     <string name="save">Gardar</string>
     <string name="discard">Desfacer</string>
@@ -334,7 +334,7 @@
     <string name="temporarily_show_hidden">Amosar ocultos temporalmente</string>
     <string name="stop_showing_hidden">Deixar de amosar os ocultos</string>
     <string name="maximum_share_reached">Non podes compartir todo este contido á vez</string>
-    <string name="empty_and_disable_recycle_bin">Baleirar e desactivar a Papeleira</string>
+    <string name="empty_and_disable_recycle_bin">Baleirar e desactivar a papeleira</string>
     <string name="undo">Desfacer</string>
     <string name="redo">Refacer</string>
     <string name="print">Imprimir</string>
@@ -375,9 +375,9 @@
     <string name="change_order">Cambialo orde</string>
     <string name="proceed_with_deletion">Seguro que queres continuar coa eliminación?</string>
     <string name="deletion_confirmation">Seguro que queres eliminar %s?</string>
-    <string name="move_to_recycle_bin_confirmation">Seguro que queres mover %s á Papeleira?</string>
+    <string name="move_to_recycle_bin_confirmation">Seguro que queres mover %s á papeleira?</string>
     <string name="are_you_sure_delete">Seguro que queres eliminar este elemento?</string>
-    <string name="are_you_sure_recycle_bin">Seguro que queres mover este elemento á Papeleira?</string>
+    <string name="are_you_sure_recycle_bin">Seguro que queres mover este elemento á papeleira?</string>
     <string name="do_not_ask_again">Non preguntar de novo nesta sesión</string>
     <string name="do_not_show_again">Non volver a mostrar</string>
     <string name="yes">Si</string>
@@ -551,12 +551,12 @@
     <string name="during_day_at_hh_mm">Durante o día hh:mm</string>
     <string name="during_day_at">Durante o día en %1$02d:%2$02d</string>
     <string name="settings">Axustes</string>
-    <string name="color_customization">Persoaliza a cor</string>
-    <string name="customize_colors">Cambiar cores</string>
+    <string name="color_customization">Aparencia e estilo</string>
+    <string name="customize_colors">Cambiar aparencia</string>
     <string name="feature_locked">Pechado</string>
-    <string name="customize_widget_colors">Persoalizalas cores do widget</string>
-    <string name="customize_notifications">Persoalizalas notificacións</string>
-    <string name="use_english_language">Usala lingua inglesa</string>
+    <string name="customize_widget_colors">Persoalizar as cores do widget</string>
+    <string name="customize_notifications">Persoalizar as notificacións</string>
+    <string name="use_english_language">Usar a lingua inglesa</string>
     <string name="language">Lingua</string>
     <string name="show_hidden_items">Amosar elementos ocultos</string>
     <string name="font_size">Tamaño da fonte</string>
@@ -565,7 +565,7 @@
     <string name="large">Grande</string>
     <string name="extra_large">Enorme</string>
     <string name="password_protect_hidden_items">Contrasinal para protexer os elementos ocultos</string>
-    <string name="password_protect_whole_app">Contrasinal para protexer todo o aplicativo</string>
+    <string name="password_protect_whole_app">Contrasinal para protexer toda a aplicación</string>
     <string name="password_protect_file_deletion">Contrasinal para protexer borrado e movemento de ficheiros</string>
     <string name="keep_last_modified">Manter a data de última modificación antiga ao operar con ficheiros</string>
     <string name="show_info_bubble">Amosar unha burbulla de información ao arrastrar a barra de desprazamento</string>
@@ -578,9 +578,9 @@
     <string name="use_same_snooze">Usar sempre o mesmo tempo de aprazamento</string>
     <string name="snooze_time">Tempo de aprazamento</string>
     <string name="vibrate_on_button_press">Vibrar ao premer nun botón</string>
-    <string name="move_items_into_recycle_bin">Mover elementos á Papeleira no canto de eliminar</string>
-    <string name="recycle_bin_cleaning_interval">Intervalo de limpeza da Papeleira</string>
-    <string name="empty_recycle_bin">Baleirar a Papeleira</string>
+    <string name="move_items_into_recycle_bin">Mover os elementos eliminados á papeleira</string>
+    <string name="recycle_bin_cleaning_interval">Intervalo de limpeza da papeleira</string>
+    <string name="empty_recycle_bin">Baleirar a papeleira</string>
     <string name="force_portrait_mode">Forzalo modo retrato</string>
     <string name="export_settings">Exportalos axustes</string>
     <string name="import_settings">Importalos axustes</string>
@@ -623,17 +623,17 @@
     <string name="restore_this_file">Restaurar o ficheiro</string>
     <string name="restore_selected_files">Restaurar ficheiros seleccionados</string>
     <string name="restore_all_files">Restaurar todos os ficheiros</string>
-    <string name="recycle_bin_emptied">A Papeleira baleirouse correctamente</string>
+    <string name="recycle_bin_emptied">A papeleira baleirouse correctamente</string>
     <string name="files_restored_successfully">Os ficheiros restauráronse correctamente</string>
-    <string name="empty_recycle_bin_confirmation">Seguro que queres baleirar a Papeleira? Os ficheiros perderanse para sempre.</string>
-    <string name="recycle_bin_empty">A Papeleira está baleira</string>
-    <string name="moving_recycle_bin_items_disabled">Mover ficheiros da Papeleira está inhabilitado, utiliza Restaurar</string>
-    <string name="show_the_recycle_bin">Amosar a Papeleira</string>
-    <string name="hide_the_recycle_bin">Ocultar a Papeleira</string>
-    <string name="open_the_recycle_bin">Abrila papeleira de reciclaxe</string>
+    <string name="empty_recycle_bin_confirmation">Seguro que queres baleirar a papeleira? Os ficheiros perderanse para sempre.</string>
+    <string name="recycle_bin_empty">A papeleira está baleira</string>
+    <string name="moving_recycle_bin_items_disabled">Mover ficheiros da papeleira está inhabilitado. Utiliza Restaurar.</string>
+    <string name="show_the_recycle_bin">Amosar a papeleira</string>
+    <string name="hide_the_recycle_bin">Ocultar a papeleira</string>
+    <string name="open_the_recycle_bin">Abrir a papeleira</string>
     <plurals name="moving_items_into_bin">
-        <item quantity="one">Movendo %d elemento á Papeleira</item>
-        <item quantity="other">Movendo %d elementos á Papeleira</item>
+        <item quantity="one">Movendo %d elemento á papeleira</item>
+        <item quantity="other">Movendo %d elementos á papeleira</item>
     </plurals>
     <string name="importing">Importando…</string>
     <string name="exporting">Exportando…</string>
@@ -808,7 +808,7 @@
     <string name="faq_4_title_commons">Non me gustan as cores do widget, podo cambialas\?</string>
     <string name="faq_4_text_commons">Si, mentres arrastras un widget na túa pantalla de inicio aparecerá unha pantalla de configuración do widgets. Verás cadrados de cores na esquina inferior esquerda, só tes que premelos para escoller unha nova cor. Tamén podes usalo control deslizante para axustarlo alfa.</string>
     <string name="faq_5_title_commons">Podo restaurar dalgún xeito os ficheiros eliminados\?</string>
-    <string name="faq_5_text_commons">Se realmente foron eliminados, non podes. Non obstante, hai unha papeleira de reciclaxe activada por defecto, o que fará que os ficheiros só se movan na papeleira en lugar de eliminalos.</string>
+    <string name="faq_5_text_commons">Se realmente foron eliminados, non podes recuperalos. Porén, hai unha papeleira de reciclaxe activada por defecto, o que fará que os ficheiros só se movan na papeleira en lugar de eliminalos.</string>
     <string name="faq_6_title_commons">A icona do iniciador de aplicacións desapareceu. Que podo facer\?</string>
     <string name="faq_7_title_commons">O diñeiro foi deducido da miña conta bancaria, pero non podo descargala aplicación. Que podo facer\?</string>
     <string name="faq_7_text_commons">Os pagos están xestionados por Google, o seu sistema falla de cando en vez. Só tes que borrar a memoria tobo da aplicación Google Play e reinicialo dispositivo e, despois, tentar descargalo de novo.</string>
@@ -974,12 +974,12 @@
     <string name="unblock_contact_success">Contacto desbloqueado</string>
     <string name="unblock_contact_fail">Non se puido desbloquear o contacto</string>
     <string name="show_search">Mostrar unha barra de busca</string>
-    <string name="allow_notifications_reminders">Tes que permitir que a app mostre notificacións, se non non poderá mostrar recordatorios.</string>
+    <string name="allow_notifications_reminders">Tes que permitir que a app mostre notificacións, pola contra non poderá amosar recordatorios.</string>
     <string name="allow_full_screen_notifications_reminders">Tes que permitir que a app mostre notificacións a pantalla completa, se non poderías perder algúns recordatorios.</string>
-    <string name="allow_notifications_files">Tes que permitir que a app mostre notificacións, se non non pode mostrar a barra de progreso.</string>
-    <string name="allow_notifications_music_player">Tes que permitir que a app mostre notificación, se non non poderá reproducir cancións.</string>
-    <string name="allow_notifications_voice_recorder">Tes que permitir que a app mostre notificacións, se non non pode gravar audio.</string>
-    <string name="allow_notifications_incoming_calls">Tes que permitir que a app mostre notificacións, se non non pode mostrar chamadas entrantes.</string>
+    <string name="allow_notifications_files">Tes que permitir que a app mostre notificacións, pola contra non pode mostrar a barra de progreso.</string>
+    <string name="allow_notifications_music_player">Tes que permitir que a app mostre notificación, pola contra non poderá reproducir cancións.</string>
+    <string name="allow_notifications_voice_recorder">Tes que permitir que a app mostre notificacións, pola contra non pode gravar audio.</string>
+    <string name="allow_notifications_incoming_calls">Tes que permitir que a app mostre notificacións, pola contra non pode amosar chamadas entrantes.</string>
     <string name="grant_permission">Conceder permiso</string>
     <string name="permission_required">Requírese o permiso</string>
     <string name="confirm_storage_access_restricted_text">Debido a restricións do sistema, este cartafol non é accesible.</string>
@@ -989,11 +989,11 @@
     <string name="genre">Xénero</string>
     <string name="exif">EXIF</string>
     <string name="altitude">Altitude</string>
-    <string name="apply_to_all_apps">Aplicar cores a todas as apps Fossify</string>
+    <string name="apply_to_all_apps">Aplicar o tema a todas as apps Fossify</string>
     <string name="app_icon_color_warning">Precaución: Certos Lanzadores non xestionan correctamente a personalización. Se a icona desparece, intenta iniciar a app a través de Google Play ou un widget, se está accesible. Despois de iniciar, restablece a cor verde #106D1F. En casos extremos pode que precises reinstalar a app.</string>
     <string name="shared_theme_note">Ten en conta que incluso usando a versión Pro da app, necesitarás Fossify Thank You por razóns técnicas, porque se encarga da sincronización da cor.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Por favor merca <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para desbloquear esta característica e axudar ao desenvolvemento. Grazas!
+            Por favor merca <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para usar esta característica e axudar ao desenvolvemento. Grazas!
         ]]></string>
     <string name="auto_theme">Auto</string>
     <string name="white">Branco</string>
@@ -1039,10 +1039,10 @@
     <string name="evalex_title">EvalEx (evaluación de expresións matemáticas)</string>
     <string name="unlock_for_one_final_day">Desbloquear a app por último día</string>
     <string name="allow_full_screen_notifications_incoming_calls">Tes que permitir que a app mostre notificacións a pantalla completa, se non poderías perder algunhas chamadas.</string>
-    <string name="allow_notifications_incoming_messages">Tes que permitir que a app mostre notificacións, se non non pode mostrar as mensaxes recibidas.</string>
-    <string name="allow_alarm_scheduled_messages">Tes que permitir que a app acceda ás alarmas internas, se non non pode enviar as mensaxes programadas.</string>
-    <string name="allow_alarm_sleep_timer">Tes que permitir que a app acceda ás alarmas internas, se non non pode apagar a aplicación co temporizador.</string>
-    <string name="allow_location_permission">Tes que permitir que a app acceda á localización, se non non pode coñecela.</string>
+    <string name="allow_notifications_incoming_messages">Tes que permitir que a app mostre notificacións, pola contra non pode amosar as mensaxes recibidas.</string>
+    <string name="allow_alarm_scheduled_messages">Tes que permitir que a app acceda ás alarmas internas, pola contra non pode enviar as mensaxes programadas.</string>
+    <string name="allow_alarm_sleep_timer">Tes que permitir que a app acceda ás alarmas internas, pola contra non pode apagar a aplicación co temporizador.</string>
+    <string name="allow_location_permission">Tes que permitir que a app acceda á localización, pola contra non pode coñecela.</string>
     <string name="hide_line_numbers">Ocultar números de liña</string>
     <string name="unblock">Desbloquear</string>
     <string name="number_of_items">Número de elementos</string>
@@ -1068,11 +1068,11 @@
     <string name="requires_fossify_thank_you">Require Fossify Thank You</string>
     <string name="enables_more_customization">Permite máis personalizacións</string>
     <string name="general_settings">Xeral</string>
-    <string name="theme_and_colors">Decorado e cores</string>
+    <string name="theme_and_colors">Tema e cores</string>
     <string name="notification_sound">Son da notificación</string>
     <string name="start_week_on">A semana comeza o</string>
     <string name="format_phone_numbers">Formato dos números de teléfono</string>
-    <string name="skip_the_recycle_bin">Omitir a Papeleira, eliminar os ficheiros directamente</string>
+    <string name="skip_the_recycle_bin">Omitir a papeleira, eliminar os ficheiros directamente</string>
     <string name="backups">Copias de apoio</string>
     <string name="enable_automatic_backups">Activar copia de apoio automática</string>
     <string name="widgets">Widgets</string>
@@ -1107,4 +1107,9 @@
     <string name="on_contact_click">Ao tocar no contacto</string>
     <string name="call_contact">Chamar</string>
     <string name="view_contact">Ver detalles do contacto</string>
+    <string name="font">Fonte</string>
+    <string name="app_font">Fonte da aplicación</string>
+    <string name="font_monospace">Monoespazada</string>
+    <string name="select_font_file">Escolmar arquivo de fonte…</string>
+    <string name="invalid_font_file">Arquivo de fonte non válido</string>
 </resources>
