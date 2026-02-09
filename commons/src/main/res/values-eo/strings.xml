@@ -434,7 +434,7 @@
     <string name="cannot_be_undone">Oni ne povas malfari tiun ĉi akcion.</string>
     <string name="save_before_closing">Estas nekonservitaj ŝanĝoj. Ĉu konservi ilin antaŭ eliri?</string>
     <string name="purchase_thank_you"><![CDATA[
-            Bonvolu aĉeti <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a> por malbloki ĉi tiun funkcion kaj subteni la programadon. Dankon!
+            Bonvolu aĉeti <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a> por uzi ĉi tiun funkcion kaj subteni la programadon. Dankon!
         ]]></string>
     <string name="light_theme">Hela</string>
     <string name="dark_theme">Malhela</string>
