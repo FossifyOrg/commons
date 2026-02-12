@@ -60,9 +60,12 @@ const val HIGHER_ALPHA = 0.75f
 // alpha values on a scale 0 - 255
 const val LOWER_ALPHA_INT = 30
 const val MEDIUM_ALPHA_INT = 90
+const val MAX_ALPHA_INT = 255
 
 const val WCAG_AA_NORMAL = 4.5
 const val WCAG_AA_LARGE = 3.0
+
+const val WCAG_LUMINANCE_OFFSET = 0.05
 
 const val HOUR_MINUTES = 60
 const val DAY_MINUTES = 24 * HOUR_MINUTES
