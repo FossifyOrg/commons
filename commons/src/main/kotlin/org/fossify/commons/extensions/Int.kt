@@ -17,8 +17,14 @@ import kotlin.math.log10
 import kotlin.math.pow
 
 fun Int.getContrastColor(): Int {
-    val luminance = ColorUtils.calculateLuminance(this)
-    return if (luminance > 0.5) DARK_GREY else Color.WHITE
+    return getContrastColor(DARK_GREY, Color.WHITE)
+}
+
+fun Int.getContrastColor(colorFirst: Int, colorSecond: Int): Int {
+    val contrastFirst = ColorUtils.calculateContrast(colorFirst, this)
+    val contrastSecond = ColorUtils.calculateContrast(colorSecond, this)
+
+    return if (contrastFirst >= contrastSecond) colorFirst else colorSecond
 }
 
 fun Int.toHex() = String.format("#%06X", 0xFFFFFF and this).uppercase(Locale.getDefault())
