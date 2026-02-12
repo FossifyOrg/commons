@@ -11,7 +11,7 @@ import androidx.core.os.postDelayed
 import org.fossify.commons.helpers.DARK_GREY
 import org.fossify.commons.helpers.MAX_ALPHA_INT
 import org.fossify.commons.helpers.WCAG_AA_NORMAL
-import org.fossify.commons.helpers.WCAG_LUMINANCE_OFFSET
+import org.fossify.commons.helpers.LUMINANCE_OFFSET
 import java.text.DecimalFormat
 import java.util.Locale
 import java.util.Random
@@ -57,7 +57,7 @@ fun Int.getContrastColor(firstColor: Int, secondColor: Int): Int {
     // Compute crossover luminance where both candidates have equal WCAG contrast
     // against a (hypothetical) opaque background of luminance L:
     // (L + 0.05)^2 = (lLight + 0.05) * (lDark + 0.05)
-    val threshold = sqrt((luminanceLight + WCAG_LUMINANCE_OFFSET) * (luminanceDark + WCAG_LUMINANCE_OFFSET)) - WCAG_LUMINANCE_OFFSET
+    val threshold = sqrt((luminanceLight + LUMINANCE_OFFSET) * (luminanceDark + LUMINANCE_OFFSET)) - LUMINANCE_OFFSET
 
     // If background is lighter than the threshold -> choose darker foreground,
     // else choose lighter foreground.
