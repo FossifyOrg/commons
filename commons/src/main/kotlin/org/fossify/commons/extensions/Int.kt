@@ -15,16 +15,51 @@ import java.util.Locale
 import java.util.Random
 import kotlin.math.log10
 import kotlin.math.pow
+import kotlin.math.sqrt
 
 fun Int.getContrastColor(): Int {
     return getContrastColor(DARK_GREY, Color.WHITE)
 }
 
-fun Int.getContrastColor(colorFirst: Int, colorSecond: Int): Int {
-    val contrastFirst = ColorUtils.calculateContrast(colorFirst, this)
-    val contrastSecond = ColorUtils.calculateContrast(colorSecond, this)
+fun Int.getContrastColor(firstColor: Int, secondColor: Int): Int {
+    // Opaque background
+    if (Color.alpha(this) == 255) {
+        val contrastFirstColor = ColorUtils.calculateContrast(firstColor, this)
+        val contrastSecondColor = ColorUtils.calculateContrast(secondColor, this)
 
-    return if (contrastFirst >= contrastSecond) colorFirst else colorSecond
+        return if (contrastFirstColor >= contrastSecondColor) firstColor else secondColor
+    }
+
+    // Translucent background: fallback heuristic
+    val luminanceBackground = ColorUtils.calculateLuminance(this)
+    val luminanceFirstColor = ColorUtils.calculateLuminance(firstColor)
+    val luminanceSecondColor = ColorUtils.calculateLuminance(secondColor)
+
+    val lightColor: Int
+    val darkColor: Int
+    val luminanceLight: Double
+    val luminanceDark: Double
+
+    if (luminanceFirstColor >= luminanceSecondColor) {
+        lightColor = firstColor
+        darkColor = secondColor
+        luminanceLight = luminanceFirstColor
+        luminanceDark = luminanceSecondColor
+    } else {
+        lightColor = secondColor
+        darkColor = firstColor
+        luminanceLight = luminanceSecondColor
+        luminanceDark = luminanceFirstColor
+    }
+
+    // Compute crossover luminance where both candidates have equal WCAG contrast
+    // against a (hypothetical) opaque background of luminance L:
+    // (L + 0.05)^2 = (lLight + 0.05) * (lDark + 0.05)
+    val threshold = sqrt((luminanceLight + 0.05) * (luminanceDark + 0.05)) - 0.05
+
+    // If background is lighter than the threshold -> choose darker foreground,
+    // else choose lighter foreground.
+    return if (luminanceBackground >= threshold) darkColor else lightColor
 }
 
 fun Int.toHex() = String.format("#%06X", 0xFFFFFF and this).uppercase(Locale.getDefault())
