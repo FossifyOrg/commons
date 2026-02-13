@@ -50,7 +50,7 @@ jobs:
         run: |
           TAG='${{ needs.release.outputs.tag }}'
           echo "Requesting JitPack build for ${TAG}"
-          curl -fsSL --max-time 10 "https://jitpack.io/org/fossify/commons/${TAG}/commons-${TAG}.pom" || true
+          curl -fsSL --max-time 180 "https://jitpack.io/org/fossify/commons/${TAG}/commons-${TAG}.pom" || true
 
       - name: Wait for JitPack to finish
         run: |
@@ -61,7 +61,7 @@ jobs:
           sleep 240
           for i in $(seq 1 13); do
             echo "Attempt $i: checking ${URL}?check=${i}"
-            if curl -fsSIL --max-time 10 "${URL}?check=${i}" > /dev/null 2>&1; then
+            if curl -fsSIL --max-time 300 "${URL}?check=${i}" > /dev/null 2>&1; then
               echo "JitPack build successful!"
               exit 0
             fi
