@@ -1148,4 +1148,9 @@
     <string name="on_contact_click">Prilikom dodira kontakta</string>
     <string name="call_contact">Nazovi kontakt</string>
     <string name="view_contact">Prikaži pojedinosti o kontaktu</string>
+    <string name="font">Font</string>
+    <string name="app_font">Font aplikacije</string>
+    <string name="font_monospace">Fiksna širina</string>
+    <string name="select_font_file">Odaberi datoteku fonta …</string>
+    <string name="invalid_font_file">Neispravna datoteka fonta</string>
 </resources>
