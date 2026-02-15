@@ -14,7 +14,7 @@
     <string name="error">خطأ: %s</string>
     <string name="open_with">فتح باستخدام</string>
     <string name="edit_with">تعديل باستخدام</string>
-    <string name="edit">تعديل</string>
+    <string name="edit">عدِّل</string>
     <string name="no_app_found">لم يتم العثور على تطبيق صالح</string>
     <string name="no_browser_found">لم يتم العثور على متصفح</string>
     <string name="no_email_client_found">لم يتم العثور على عميل بريد إلكتروني</string>
