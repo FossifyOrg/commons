@@ -727,7 +727,7 @@
     <string name="settings">الإعدادات</string>
     <string name="general_settings">عام</string>
     <string name="color_customization">تخصيص الألوان</string>
-    <string name="customize_colors">تخصيص الألوان</string>
+    <string name="customize_colors">تخصيص المظهر</string>
     <string name="feature_locked">مقفل</string>
     <string name="customize_widget_colors">تخصيص ألوان الويدجت</string>
     <string name="customize_notifications">تخصيص اﻹشعارات</string>
@@ -755,9 +755,9 @@
     <string name="use_same_snooze">استخدام نفس مدة الغفوة دائماً</string>
     <string name="snooze_time">مدة الغفوة</string>
     <string name="vibrate_on_button_press">الإهتزاز عند الضغط على الأزرار</string>
-    <string name="move_items_into_recycle_bin">نقل العناصر إلى سلة المحذوفات بدلاً من حذفها</string>
-    <string name="recycle_bin_cleaning_interval">الفاصل الزمني لتنظيف سلة المحذوفات</string>
-    <string name="empty_recycle_bin">إفراغ سلة المحذوفات</string>
+    <string name="move_items_into_recycle_bin">انقل العناصر المحذوفة إلى سلة المهملات</string>
+    <string name="recycle_bin_cleaning_interval">الفاصل الزمني لتنظيف سلة المهملات</string>
+    <string name="empty_recycle_bin">أفرغ سلة المهملات</string>
     <string name="force_portrait_mode">فرض الوضع العمودي</string>
     <string name="export_settings">إعدادات التصدير</string>
     <string name="import_settings">إعدادات الإستيراد</string>
@@ -770,7 +770,7 @@
     <string name="security">الأمان</string>
     <string name="scrolling">التمرير</string>
     <string name="file_operations">عمليات الملفات</string>
-    <string name="recycle_bin">سلة المحذوفات</string>
+    <string name="recycle_bin">سلة المهملات</string>
     <string name="saving_label">جارٍ الحفظ</string>
     <string name="startup">بدء التشغيل</string>
     <string name="text">النص</string>
@@ -797,22 +797,22 @@
     <string name="restore_this_file">إستعادة هذا الملف</string>
     <string name="restore_selected_files">إستعادة الملفات المحددة</string>
     <string name="restore_all_files">إستعادة كل الملفات</string>
-    <string name="recycle_bin_emptied">تم إفراغ سلة المحذوفات بنجاح</string>
+    <string name="recycle_bin_emptied">أفرغت سلة المهملات بنجاح</string>
     <string name="files_restored_successfully">تم إستعادة الملفات بنجاح</string>
-    <string name="empty_recycle_bin_confirmation">هل تريد بالتأكيد إفراغ سلة المحذوفات ؟ سيتم فقدان الملفات نهائياً.</string>
-    <string name="recycle_bin_empty">سلة المحذوفات فارغة</string>
-    <string name="moving_recycle_bin_items_disabled">تم تعطيل نقل عناصر سلة المحذوفات، يرجى استخدام استعادة</string>
-    <string name="show_the_recycle_bin">إظهار سلة المحذوفات</string>
-    <string name="hide_the_recycle_bin">إخفاء سلة المحذوفات</string>
-    <string name="open_the_recycle_bin">فتح سلة المحذوفات</string>
-    <string name="skip_the_recycle_bin">تخطي سلة المحذوفات ، وحذف الملفات مباشرة</string>
+    <string name="empty_recycle_bin_confirmation">أمتأكد إنك تريد إفراغ سلة المهملات؟ سيتم فقدان الملفات نهائيًا.</string>
+    <string name="recycle_bin_empty">سلة المهملات فارغة</string>
+    <string name="moving_recycle_bin_items_disabled">عُطّل نقل عناصر سلة المهملات، يُرجى استخدام استعادة.</string>
+    <string name="show_the_recycle_bin">أظهر سلة المهملات</string>
+    <string name="hide_the_recycle_bin">أخفِ سلة المهملات</string>
+    <string name="open_the_recycle_bin">افتح سلة المهملات</string>
+    <string name="skip_the_recycle_bin">تخطي سلة المهملات، وحذف الملفات مباشرةً</string>
     <plurals name="moving_items_into_bin">
-        <item quantity="zero">نقل عنصر %d إلى سلة المحذوفات</item>
-        <item quantity="one">نقل عنصر %d إلى سلة المحذوفات</item>
-        <item quantity="two">نقل عنصر %d إلى سلة المحذوفات</item>
-        <item quantity="few">نقل عناصر %d إلى سلة المحذوفات</item>
-        <item quantity="many">نقل عناصر %d إلى سلة المحذوفات</item>
-        <item quantity="other">نقل عنصر %d إلى سلة المحذوفات</item>
+        <item quantity="zero">نقل عنصر %d إلى سلة المهملات</item>
+        <item quantity="one">نقل عنصر %d إلى سلة المهملات</item>
+        <item quantity="two">نقل عنصر %d إلى سلة المهملات</item>
+        <item quantity="few">نقل عناصر %d إلى سلة المهملات</item>
+        <item quantity="many">نقل عناصر %d إلى سلة المهملات</item>
+        <item quantity="other">نقل عنصر %d إلى سلة المهملات</item>
     </plurals>
     <string name="importing">جارٍ الإستيراد…</string>
     <string name="exporting">جارٍ التصدير…</string>
@@ -1251,4 +1251,9 @@
     <string name="on_contact_click">عند النقر فوق جهة اتصال</string>
     <string name="call_contact">اتصال بجهة</string>
     <string name="view_contact">عرض تفاصيل جهة الاتصال</string>
+    <string name="font">الخط</string>
+    <string name="app_font">خط التطبيق</string>
+    <string name="font_monospace">أحادي المسافة</string>
+    <string name="select_font_file">حدّد ملف الخط…</string>
+    <string name="invalid_font_file">ملف خط غير صالح</string>
 </resources>
