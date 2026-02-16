@@ -304,7 +304,7 @@
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
     <string name="global_theme_success">O tema atual foi aplicado com sucesso a todos os aplicativos Fossify. Quaisquer alterações futuras neste tema serão sincronizadas automaticamente.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Agradecimento Fossify</a> para desbloquear essa função e apoiar o desenvolvimento. Obrigado!
+            Compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Agradecimento Fossify</a> para usar essa função e apoiar o desenvolvimento. Obrigado!
         ]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
@@ -333,7 +333,7 @@
     <string name="temporarily_show_hidden">Exibir ocultos temporariamente</string>
     <string name="stop_showing_hidden">Parar de exibir mídia oculta</string>
     <string name="maximum_share_reached">Não é possível compartilhar todos esses arquivos de uma só vez</string>
-    <string name="empty_and_disable_recycle_bin">Esvaziar e desativar a Lixeira</string>
+    <string name="empty_and_disable_recycle_bin">Esvaziar e desativar a lixeira</string>
     <string name="undo">Desfazer</string>
     <string name="redo">Refazer</string>
     <string name="print">Imprimir</string>
@@ -378,9 +378,9 @@
     <string name="change_order">Alterar ordem</string>
     <string name="proceed_with_deletion">Deseja realmente excluir?</string>
     <string name="deletion_confirmation">Deseja realmente excluir %s?</string>
-    <string name="move_to_recycle_bin_confirmation">Deseja realmente mover %s para a Lixeira?</string>
+    <string name="move_to_recycle_bin_confirmation">Deseja realmente mover %s para a lixeira?</string>
     <string name="are_you_sure_delete">Deseja realmente excluir este item?</string>
-    <string name="are_you_sure_recycle_bin">Deseja realmente mover este item para a Lixeira?</string>
+    <string name="are_you_sure_recycle_bin">Deseja realmente mover este item para a lixeira?</string>
     <string name="do_not_ask_again">Não perguntar novamente por enquanto</string>
     <string name="do_not_show_again">Não mostrar novamente</string>
     <string name="yes">Sim</string>
@@ -610,9 +610,9 @@
     <string name="use_same_snooze">Sempre usar o mesmo tempo de soneca</string>
     <string name="snooze_time">Tempo de soneca</string>
     <string name="vibrate_on_button_press">Vibrar ao pressionar um botão</string>
-    <string name="move_items_into_recycle_bin">Mover itens para a Lixeira em vez de excluir</string>
-    <string name="recycle_bin_cleaning_interval">Intervalo de limpeza da Lixeira</string>
-    <string name="empty_recycle_bin">Esvaziar Lixeira</string>
+    <string name="move_items_into_recycle_bin">Mover itens excluídos para a lixeira</string>
+    <string name="recycle_bin_cleaning_interval">Intervalo de limpeza da lixeira</string>
+    <string name="empty_recycle_bin">Esvaziar lixeira</string>
     <string name="force_portrait_mode">Forçar modo retrato</string>
     <string name="export_settings">Exportar configurações</string>
     <string name="import_settings">Importar configurações</string>
@@ -655,18 +655,18 @@
     <string name="restore_this_file">Restaurar este arquivo</string>
     <string name="restore_selected_files">Restaurar os arquivos selecionados</string>
     <string name="restore_all_files">Restaurar todos os arquivos</string>
-    <string name="recycle_bin_emptied">A Lixeira foi esvaziada com sucesso</string>
+    <string name="recycle_bin_emptied">A lixeira foi esvaziada com sucesso</string>
     <string name="files_restored_successfully">Os arquivos foram restaurados com sucesso</string>
-    <string name="empty_recycle_bin_confirmation">Deseja realmente esvaziar a Lixeira? Os arquivos serão excluidos permanentemente.</string>
-    <string name="recycle_bin_empty">A Lixeira está vazia</string>
+    <string name="empty_recycle_bin_confirmation">Deseja realmente esvaziar a lixeira? Os arquivos serão excluidos permanentemente.</string>
+    <string name="recycle_bin_empty">A lixeira está vazia</string>
     <string name="moving_recycle_bin_items_disabled">A movimentação de itens da lixeira está desativada. Por favor, use Restaurar.</string>
-    <string name="show_the_recycle_bin">Exibir a Lixeira</string>
-    <string name="hide_the_recycle_bin">Ocultar a Lixeira</string>
-    <string name="open_the_recycle_bin">Abrir a Lixeira</string>
+    <string name="show_the_recycle_bin">Exibir a lixeira</string>
+    <string name="hide_the_recycle_bin">Ocultar a lixeira</string>
+    <string name="open_the_recycle_bin">Abrir a lixeira</string>
     <plurals name="moving_items_into_bin">
-        <item quantity="one">Movendo %d item para a Lixeira</item>
-        <item quantity="many">Movendo %d itens para a Lixeira</item>
-        <item quantity="other">Movendo %d itens para a Lixeira</item>
+        <item quantity="one">Movendo %d item para a lixeira</item>
+        <item quantity="many">Movendo %d itens para a lixeira</item>
+        <item quantity="other">Movendo %d itens para a lixeira</item>
     </plurals>
     <string name="importing">Importando…</string>
     <string name="exporting">Exportando…</string>
@@ -815,7 +815,7 @@
     <string name="faq_4_title_commons">Eu não gosto das cores do widget, posso mudá-las?</string>
     <string name="faq_4_text_commons">Sim, enquanto você arrasta um widget em sua tela inicial, uma tela de configuração do widget aparece. Você verá quadrados coloridos no canto inferior esquerdo, basta pressioná-los para escolher uma nova cor. Você também pode usar o controle deslizante para ajustar a transparência (alfa).</string>
     <string name="faq_5_title_commons">Posso restaurar de alguma forma os arquivos apagados?</string>
-    <string name="faq_5_text_commons">Por padrão os arquivos são movidos para a Lixeira. No entanto, se a Lixeira tiver sido desativada os arquivos serão removidos permanentemente.</string>
+    <string name="faq_5_text_commons">Se eles foram realmente excluídos, você não poderá recuperá-los. No entanto, a lixeira está ativada por padrão e move os arquivos para a lixeira em vez de apagá-los imediatamente.</string>
     <string name="faq_6_title_commons">O ícone do app desapareceu. O que posso fazer?</string>
     <string name="faq_7_title_commons">O dinheiro foi deduzido da minha conta bancária, mas não consigo fazer o download do aplicativo. O que eu posso fazer?</string>
     <string name="faq_7_text_commons">Os pagamentos são totalmente gerenciados pelo Google, o sistema deles falha de vez em quanto. Apenas limpe o cache do aplicativo Google Play, reinicie o dispositivo e tente baixá-lo novamente.</string>
@@ -964,7 +964,7 @@
     <string name="minutes_letter">%dm</string>
     <string name="hours_letter">%dh</string>
     <string name="notification_sound">Som de notificação</string>
-    <string name="skip_the_recycle_bin">Ignorar a Lixeira, apagar arquivos diretamente</string>
+    <string name="skip_the_recycle_bin">Ignorar a lixeira, apagar arquivos diretamente</string>
     <string name="june_short">Jun</string>
     <string name="october_short">Out</string>
     <string name="november_short">Nov</string>
