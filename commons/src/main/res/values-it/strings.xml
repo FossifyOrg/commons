@@ -322,7 +322,7 @@
     <string name="use_default">Usa predefinito</string>
     <string name="default_color">Predefinito</string>
     <string name="change_color">Cambia colore</string>
-    <string name="theme">Tema</string>
+    <string name="theme">Tema dell\'app</string>
     <string name="changing_color_description">Modificando un colore, il tema diventerà personalizzato</string>
     <string name="save">Salva</string>
     <string name="discard">Scarta</string>
@@ -330,12 +330,12 @@
     <string name="undo_changes_confirmation">Sicuro di annullare le modifiche?</string>
     <string name="cannot_be_undone">Questa azione non può essere annullata.</string>
     <string name="save_before_closing">Ci sono modifiche non salvate. Salvare prima di uscire?</string>
-    <string name="apply_to_all_apps">Applica i colori a tutte le app di Fossify</string>
+    <string name="apply_to_all_apps">Applica il tema a tutte le app di Fossify</string>
     <string name="app_icon_color_warning">Attenzione: alcuni launcher potrebbero non gestire correttamente la personalizzazione dell\'icona dell\'app. Se l\'icona scompare, prova ad avviare l\'applicazione tramite Google Play o un widget, se accessibile. Dopo l\'avvio, ripristina il colore predefinito dell\'icona verde #106D1F. In casi estremi, potrebbe essere necessario reinstallare l\'applicazione.</string>
     <string name="global_theme_success">Colori aggiornati correttamente. È stato aggiunto un nuovo tema chiamato \'Condiviso\', usare questo per aggiornare tutti i colori dell\'app in futuro.</string>
     <string name="shared_theme_note">Nota che anche se usi la versione Pro dell\'app, per motivi tecnici è necessario Grazie Fossify. Si occupa della sincronizzazione dei colori.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Acquista <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Fossify</a> per sbloccare questa funzione e supportare lo sviluppo. Grazie!
+            Acquista <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Fossify</a> per usare questa funzione e supportare lo sviluppo. Grazie!
         ]]></string>
     <string name="light_theme">Chiaro</string>
     <string name="dark_theme">Scuro</string>
@@ -628,8 +628,8 @@
     <string name="settings">Impostazioni</string>
     <string name="purchase_simple_thank_you">Acquista Grazie Fossify</string>
     <string name="general_settings">Generale</string>
-    <string name="color_customization">Personalizzazione del colore</string>
-    <string name="customize_colors">Personalizza i colori</string>
+    <string name="color_customization">Aspetto grafico</string>
+    <string name="customize_colors">Personalizza l\'aspetto</string>
     <string name="feature_locked">Bloccato</string>
     <string name="customize_widget_colors">Personalizza i colori del widget</string>
     <string name="customize_notifications">Personalizza le notifiche</string>
@@ -657,7 +657,7 @@
     <string name="use_same_snooze">Usa sempre lo stesso tempo di ripetizione</string>
     <string name="snooze_time">Tempo di ripetizione</string>
     <string name="vibrate_on_button_press">Vibra alla pressione dei tasti</string>
-    <string name="move_items_into_recycle_bin">Sposta gli elementi nel cestino invece di eliminarli</string>
+    <string name="move_items_into_recycle_bin">Sposta gli elementi eliminati nel cestino</string>
     <string name="recycle_bin_cleaning_interval">Intervallo svuotamento cestino</string>
     <string name="empty_recycle_bin">Svuota il cestino</string>
     <string name="force_portrait_mode">Forza la modalità ritratto</string>
@@ -706,11 +706,11 @@
     <string name="files_restored_successfully">I file sono stati ripristinati correttamente</string>
     <string name="empty_recycle_bin_confirmation">Svuotare davvero il cestino? I file verranno persi definitivamente.</string>
     <string name="recycle_bin_empty">Il cestino è vuoto</string>
-    <string name="moving_recycle_bin_items_disabled">Lo spostamento degli elementi dal cestino è disabilitato, utilizzare Ripristina</string>
+    <string name="moving_recycle_bin_items_disabled">Lo spostamento degli elementi dal cestino è disabilitato, utilizzare Ripristina.</string>
     <string name="show_the_recycle_bin">Mostra il cestino</string>
     <string name="hide_the_recycle_bin">Nascondi il cestino</string>
     <string name="open_the_recycle_bin">Apri il cestino</string>
-    <string name="skip_the_recycle_bin">Ignora il Cestino, elimina direttamente i file</string>
+    <string name="skip_the_recycle_bin">Ignora il cestino, elimina direttamente i file</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">Spostamento di %d elemento nel cestino</item>
         <item quantity="many">Spostamento di %d elementi nel cestino</item>
@@ -918,7 +918,7 @@
     <string name="faq_4_title_commons">Non mi piacciono i colori del widget, posso cambiarli?</string>
     <string name="faq_4_text_commons">Sì, quando si trascina un widget nella schermata appare una finestra di configurazione. Si vedranno dei quadrati colorati nell\'angolo in basso a sinistra, toccandoli si sceglierà un colore. Si può muovere l\'indicatore per regolare la trasparenza.</string>
     <string name="faq_5_title_commons">Posso recuperare in qualche modo i file eliminati?</string>
-    <string name="faq_5_text_commons">Se sono stati veramente eliminati, non puoi. Tuttavia, c\'è un cestino attivato in modo predefinito, farà sì che i file vengano spostati nel cestino invece di eliminarli.</string>
+    <string name="faq_5_text_commons">Se sono stati effettivamente eliminati, non è possibile recuperarli. Tuttavia, il cestino è abilitato per impostazione predefinita e sposta i file nel cestino invece di eliminarli immediatamente.</string>
     <string name="faq_6_title_commons">L\'icona dell\'app è scomparsa nel lanciatore. Cosa posso fare?</string>
     <string name="faq_6_text_commons">Questo problema si verifica quando il launcher non supporta completamente la personalizzazione delle icone. Prova ad avviare l\'applicazione tramite Google Play o un widget, se accessibile. Dopo l\'avvio, ripristina il colore predefinito dell\'icona verde #106D1F. In casi estremi, potrebbe essere necessario reinstallare l\'applicazione.</string>
     <string name="faq_7_title_commons">I soldi sono stati detratti dal mio conto corrente, ma non posso scaricare l\'app. Cosa posso fare?</string>
@@ -1153,4 +1153,11 @@
     <string name="on_contact_click">Alla pressione sul contatto</string>
     <string name="call_contact">Chiama contatto</string>
     <string name="view_contact">Visualizza i dettagli del contatto</string>
+    <string name="font">Font</string>
+    <string name="app_font">Font dell\'app</string>
+    <string name="font_monospace">Monospaziato</string>
+    <string name="select_font_file">Seleziona file del font…</string>
+    <string name="invalid_font_file">File del font non valido</string>
+    <string name="badge_deprecated">(deprecato)</string>
+    <string name="label_with_badge">%1$s%2$s</string>
 </resources>
