@@ -1098,4 +1098,18 @@
     <string name="on_contact_click">Névjegyre kattintásra</string>
     <string name="call_contact">Telefonhívás indítása</string>
     <string name="view_contact">Névjegy részleteinek megjelenítése</string>
+    <plurals name="files_saved">
+        <item quantity="one">Fájl sikeres mentése</item>
+        <item quantity="other">Fájlok sikeres mentése</item>
+    </plurals>
+    <string name="days_letter">%dn</string>
+    <string name="enables_more_customization">Több testreszabási lehetőséget biztosít</string>
+    <string name="font">Betűtípus</string>
+    <string name="app_font">Applikáció betűtípusa</string>
+    <string name="font_monospace">Egyenlő térközű</string>
+    <string name="select_font_file">Betűtípus fajljának kiválasztása…</string>
+    <string name="invalid_font_file">Érvénytelen betűtípus fájl</string>
+    <string name="badge_deprecated">(elavult)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
+    <string name="translation_latvian">Litván</string>
 </resources>
