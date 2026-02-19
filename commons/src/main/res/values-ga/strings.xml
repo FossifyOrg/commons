@@ -1134,7 +1134,7 @@
     <string name="pdf_view_pager_title">PDFViewPager (amharcóir PDF)</string>
     <string name="pdf_viewer_title">Android PdfViewer (breathnóir PDF)</string>
     <string name="m3u_parser_title">M3U Parser (láimhseáil comhad seinmliosta m3u)</string>
-    <string name="android_lame_title">AndroidLame (Ionchódóir MP3)</string>
+    <string name="android_lame_title">AndroidLame (ionchódóir mp3)</string>
     <string name="zip4j_title">Zip4j (comhbhrú ZIP agus dí-chomhbhrú)</string>
     <string name="trial_expired">Triail imithe in éag</string>
     <string name="start_free_trial">Tosaigh triail saor in aisce</string>
