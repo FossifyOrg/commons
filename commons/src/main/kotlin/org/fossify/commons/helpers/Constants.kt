@@ -65,8 +65,6 @@ const val MAX_ALPHA_INT = 255
 const val WCAG_AA_NORMAL = 4.5
 const val WCAG_AA_LARGE = 3.0
 
-const val LUMINANCE_OFFSET = 0.05
-
 const val HOUR_MINUTES = 60
 const val DAY_MINUTES = 24 * HOUR_MINUTES
 const val WEEK_MINUTES = DAY_MINUTES * 7
