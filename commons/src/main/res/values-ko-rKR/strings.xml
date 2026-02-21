@@ -580,7 +580,7 @@
     <string name="back">뒤로가기</string>
     <string name="nothing">없음</string>
     <string name="no_browser_found">연결 가능한 브라우저 없음</string>
-    <string name="no_email_client_found">연결 가능한 이메일 없음</string>
+    <string name="no_email_client_found">설치된 이메일 클라이언트 없음</string>
     <string name="copy_number_to_clipboard">클립보드에 숫자 저장</string>
     <string name="dial_number">전화번</string>
     <string name="no_contacts_found">연락처를 찾을 수 없음</string>
@@ -733,4 +733,7 @@
     <string name="on_contact_click">연락처 클릭 시</string>
     <string name="call_contact">연락처로 전화 걸기</string>
     <string name="view_contact">연락처 세부 정보 보기</string>
+    <plurals name="files_saved">
+        <item quantity="other">파일이 성공적으로 저장되었습니다</item>
+    </plurals>
 </resources>
