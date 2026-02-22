@@ -1053,7 +1053,7 @@
     <string name="why_upgrade_background_color_customization">تخصيص لون الخلفية</string>
     <string name="why_upgrade_file_importing">دعم استيراد الملفات</string>
     <string name="why_upgrade_zooming">التكبير</string>
-    <string name="third_party_licences">تراخيص الجهات الخارجية</string>
+    <string name="third_party_licences">تراخيص الطرف الثالث</string>
     <string name="kotlin_title">كوتلن(لغة البرمجة)</string>
     <string name="subsampling_title">الصور القابلة للتكبير</string>
     <string name="glide_title">تحميل الصور وتخزينها المؤقت)</string>
@@ -1256,4 +1256,7 @@
     <string name="font_monospace">أحادي المسافة</string>
     <string name="select_font_file">حدّد ملف الخط…</string>
     <string name="invalid_font_file">ملف خط غير صالح</string>
+    <string name="label_with_badge">%1$s %2$s</string>
+    <string name="requires_fossify_thank_you">يتطلب Fossify Thank You</string>
+    <string name="enables_more_customization">يفعّل تخصيص أكثر</string>
 </resources>
