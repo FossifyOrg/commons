@@ -1162,7 +1162,7 @@
     <string name="view_contact">Ver detalles del contacto</string>
     <string name="font">Fuente</string>
     <string name="app_font">Fuente de la aplicación</string>
-    <string name="font_monospace">Monospace</string>
+    <string name="font_monospace">Monoespaciada</string>
     <string name="select_font_file">Seleccionar archivo de fuente…</string>
     <string name="invalid_font_file">Archivo de fuente no válido</string>
 </resources>
