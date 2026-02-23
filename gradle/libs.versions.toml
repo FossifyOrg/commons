@@ -4,7 +4,7 @@ kotlin = "2.3.10"
 kotlin-immutable-collections = "0.4.0"
 #KSP
 kotlinxSerializationJson = "1.10.0"
-ksp = "2.3.5"
+ksp = "2.3.6"
 #Detekt
 detekt = "1.23.8"
 detektCompose = "0.4.28"
