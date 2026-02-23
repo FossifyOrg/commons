@@ -969,7 +969,7 @@
     <string name="filter">Filter</string>
     <string name="filter_pro">Filter (Pro)</string>
     <string name="destination">Destination</string>
-    <string name="rename_internal_system_restriction">Kan ikke omdøbe mapper direkte på det interne lager, kun undermapper</string>
+    <string name="rename_internal_system_restriction">Kan ikke omdøbe mapper direkte på det interne lager – kun undermapper</string>
     <string name="confirm_storage_access_restricted_text">På grund af systembegrænsninger er denne mappe ikke tilgængelig.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Åbn i systemappen</string>
     <string name="confirm_storage_access_restricted_text_not_found">Der blev ikke fundet en app til systemfilhåndtering.</string>
