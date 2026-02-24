@@ -623,7 +623,7 @@
     <string name="keep_last_modified">Διατήρηση προηγ/νης τροπ/μένης τιμής στις λειτουργίες αρχείων</string>
     <string name="show_info_bubble">Εμφάνιση φυσαλίδας πληροφοριών κατά την κύλιση στοιχείων στη γραμμή κύλισης</string>
     <string name="prevent_phone_from_sleeping">Αποτροπή της αναστολής λειτουργίας του τηλεφώνου ενώ η εφαρμογή βρίσκεται στο προσκήνιο</string>
-    <string name="skip_delete_confirmation">Παράκαμψη πάντα το παράθυρο διαλόγου επιβεβαίωσης διαγραφής</string>
+    <string name="skip_delete_confirmation">Παράκαμψη του διαλόγου επιβεβαίωσης διαγραφής</string>
     <string name="enable_pull_to_refresh">Ενεργοποίηση ανανέωσης με \"Σάρωση απο πάνω-κάτω\"</string>
     <string name="use_24_hour_time_format">Χρήση 24ώρου</string>
     <string name="change_date_and_time_format">Αλλαγή μορφής ημερομηνίας και ώρας</string>
