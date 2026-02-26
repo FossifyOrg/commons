@@ -125,9 +125,9 @@
     <string name="must_make_default_dialer">عليك أن تجعل هذا التطبيق المتصل الافتراضي للاستفادة من الأرقام المحظورة.</string>
     <string name="set_as_default">ضبط الى الافتراضي</string>
     <string name="block_confirmation">هل تريد بالتأكيد حظر \"%s\"؟</string>
-    <string name="block_unknown_calls">حظر المكالمات من جهات الاتصال غير المخزنة</string>
+    <string name="block_unknown_calls">احظر المكالمات من ارقام ليست في جهات الاتصال</string>
     <string name="block_hidden_calls">حظر المكالمات من الأرقام المخفية</string>
-    <string name="block_unknown_messages">حظر الرسائل من جهات الاتصال غير المخزنة</string>
+    <string name="block_unknown_messages">احظر الرسائل من ارقام ليست في جهات الاتصال</string>
     <string name="block_hidden_messages">حظر الرسائل من الأرقام المخفية</string>
     <string name="add_blocked_number_helper_text">أدخل رقما أو نمطا (على سبيل المثال، *12345*، +1*8888) لحظر جميع المكالمات والرسائل من الأرقام المطابقة للنمط.</string>
     <string name="must_make_default_caller_id_app">لا يمكن حظر الأرقام غير المعروفة دون إذن معرف المتصل.</string>
@@ -197,11 +197,11 @@
     <string name="filename_invalid_characters_placeholder">إسم الملف \'%s\' يحتوي علي أحرف غير صالحة</string>
     <string name="extension_cannot_be_empty">لا يمكن أن يكون الامتداد فارغاً</string>
     <string name="source_file_doesnt_exist">الملف الأصل %s غير موجود</string>
-    <string name="prepend_filenames">إسباق أسماء الملفات</string>
-    <string name="append_filenames">إلحاق أسماء الملفات</string>
+    <string name="prepend_filenames">أضف نص قبل اسماء الملفات</string>
+    <string name="append_filenames">أضف نص بعد اسماء الملفات</string>
     <string name="simple_renaming">إعادة تسمية بسيطة</string>
     <string name="pattern_renaming">النمط</string>
-    <string name="string_to_add">السلسلة التي تريد إضافتها</string>
+    <string name="string_to_add">النص المُضاف</string>
     <string name="rename_date_time_pattern">%Y - سنة\n%M - شهر\n%D - يوم\n%h - ساعة\n%m - دقيقة\n%s - ثانية\n%i - الرقم يزداد من 1</string>
     <string name="filename_without_txt">اسم الملف (بدون .txt)</string>
     <string name="filename_without_json">اسم الملف (بدون .json)</string>
@@ -345,7 +345,7 @@
     <string name="use_default">استخدام كافتراضي</string>
     <string name="default_color">الإفتراضي</string>
     <string name="change_color">تغيير اللون</string>
-    <string name="theme">السمة</string>
+    <string name="theme">سمة التطبيق</string>
     <string name="changing_color_description">تغيير اللون سيجعله يتحول إلى سمة مخصصة</string>
     <string name="save">حفظ</string>
     <string name="discard">تجاهل</string>
@@ -355,7 +355,7 @@
     <string name="save_before_closing">لديك تغييرات غير محفوظة. هل تريد الحفظ قبل الخروج ؟</string>
     <string name="global_theme_success">تم تحديث الألوان بنجاح. تمت إضافة سمة جديدة تسمى \'المشتركة\'، يرجى إستخدام ذلك لتحديث جميع ألوان التطبيق في المستقبل.</string>
     <string name="purchase_thank_you"><![CDATA[
-             يرجى شراء<a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Thank You</a> لفتح هذه الوظيفة ودعم التطوير. شكراً!
+            يُرجى شراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> لاستخدام هذه الميزة ودعم التطوير. شكراً لك!
         ]]></string>
     <string name="light_theme">فاتح</string>
     <string name="dark_theme">داكن</string>
@@ -383,7 +383,7 @@
     <string name="stop_showing_hidden">إيقاف عرض الوسائط المخفية</string>
     <string name="allow_access_more_media">السماح بالوصول إلى المزيد من الوسائط</string>
     <string name="maximum_share_reached">لا يمكنك مشاركة هذا المحتوى الكبير مرة واحدة</string>
-    <string name="empty_and_disable_recycle_bin">إفراغ سلة المحذوفات وتعطيلها</string>
+    <string name="empty_and_disable_recycle_bin">أفرغ سلة المهملات وتعطيلها</string>
     <string name="undo">تراجع</string>
     <string name="redo">إعادة</string>
     <string name="print">طباعة</string>
@@ -427,9 +427,9 @@
     <string name="more_options">المزيد من الخيارات</string>
     <string name="proceed_with_deletion">هل تريد بالتأكيد متابعة عملية الحذف ؟</string>
     <string name="deletion_confirmation">هل تريد بالتأكيد حذف%s ؟</string>
-    <string name="move_to_recycle_bin_confirmation">هل تريد بالتأكيد نقل %s إلى سلة المحذوفات ؟</string>
+    <string name="move_to_recycle_bin_confirmation">أتريد بالتأكيد نقل %s إلى سلة المهملات؟</string>
     <string name="are_you_sure_delete">هل تريد بالتأكيد حذف هذا العنصر ؟</string>
-    <string name="are_you_sure_recycle_bin">هل تريد بالتأكيد نقل هذا العنصر إلى سلة المحذوفات ؟</string>
+    <string name="are_you_sure_recycle_bin">أتريد بالتأكيد نقل هذا العنصر إلى سلة المهملات؟</string>
     <string name="do_not_ask_again">لا تسأل مره أخرى في هذه الدورة</string>
     <string name="do_not_show_again">عدم الإظهار مجددًا</string>
     <string name="yes">نعم</string>
@@ -726,7 +726,7 @@
     <string name="during_day_at_hh_mm">خلال النهار في hh: mm</string>
     <string name="settings">الإعدادات</string>
     <string name="general_settings">عام</string>
-    <string name="color_customization">تخصيص الألوان</string>
+    <string name="color_customization">الشكل والمضمون</string>
     <string name="customize_colors">تخصيص المظهر</string>
     <string name="feature_locked">مقفل</string>
     <string name="customize_widget_colors">تخصيص ألوان الويدجت</string>
@@ -1008,7 +1008,7 @@
     <string name="faq_4_title_commons">أنا لا أحب ألوان (الويدجت)، هل يمكنني تغييرها؟</string>
     <string name="faq_4_text_commons">نعم، عند سحب الويدجت على شاشتك الرئيسية ستظهر شاشة إعدادات الويدجت. سترى المربعات الملونة في الزاوية اليسرى السفلى، فقط اضغط عليها لاختيار لون جديد. يمكنك استخدام شريط التمرير لضبط الشفافية أيضاً.</string>
     <string name="faq_5_title_commons">هل يمكنني بطريقة ما إسترجاع الملفات المحذوفة؟</string>
-    <string name="faq_5_text_commons">إذا تم حذفها بالفعل ، لا يمكنك ذلك. ومع ذلك ، يتم تمكين سلة المحذوفات إفتراضياً ، مما يؤدي إلى نقل الملفات في سلة المحذوفات بدلاً من حذفها.</string>
+    <string name="faq_5_text_commons">إذا حُذفت بالفعل، فلا يمكنك استعادتها. ومع ذلك، فإن سلة المهملات مفعلة افتراضيًا وتقوم بنقل الملفات إليها بدلاً من حذفها نهائيًا على الفور.</string>
     <string name="faq_6_title_commons">أختفت أيقونة مشغل التطبيق. ماذا يمكنني أن أفعل؟</string>
     <string name="faq_7_title_commons">تم خصم المال من حسابي البنكي ، لكن لا يمكنني تنزيل التطبيق. ماذا يمكنني أن أفعل؟</string>
     <string name="faq_7_text_commons">تتم معالجة المدفوعات بالكامل بواسطة Google ، حيث يتسبب نظامها في خلل من وقت لآخر. فقط قم بمسح ذاكرة التخزين المؤقت للتطبيق في Google Play وإعد تشغيل جهازك ، ثم أعد محاولة تنزيله.</string>
@@ -1167,7 +1167,7 @@
     <string name="translation_romanian">الرومانية</string>
     <string name="translation_russian">الروسية</string>
     <string name="files_tab">الملفات</string>
-    <string name="apply_to_all_apps">تطبيق الألوان على جميع تطبيقات Fossify</string>
+    <string name="apply_to_all_apps">طبِّق على جميع تطبيقات Fossify</string>
     <string name="block_contact">حظر جهة اتصال</string>
     <string name="november_short">نوفمبر</string>
     <string name="translation_belarusian">البيلاروسية</string>
@@ -1259,4 +1259,6 @@
     <string name="label_with_badge">%1$s %2$s</string>
     <string name="requires_fossify_thank_you">يتطلب Fossify Thank You</string>
     <string name="enables_more_customization">يفعّل تخصيص أكثر</string>
+    <string name="badge_deprecated">(مهجور)</string>
+    <string name="translation_latvian">لاتفية</string>
 </resources>
