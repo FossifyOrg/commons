@@ -165,4 +165,12 @@
     <string name="solarized">Solarized</string>
     <string name="pro_app_refund">Don\'t forget that if you uninstall any paid app within 2 hours, you will automatically be refunded. If you want a refund any time later, just contact us at hello@fossify.org and you will get it. That makes it easy to try it out :)</string>
     <string name="developer_description">A group of simple, open source Android apps with customisable widgets, without ads and unnecessary permissions.</string>
+    <plurals name="items">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
+    <plurals name="delete_items">
+        <item quantity="one">%d item</item>
+        <item quantity="other">%d items</item>
+    </plurals>
 </resources>
