@@ -191,11 +191,11 @@
     <string name="filename_invalid_characters_placeholder">Názov súboru \'%s\' obsahuje neplatné znaky</string>
     <string name="extension_cannot_be_empty">Prípona nesmie byť prázdna</string>
     <string name="source_file_doesnt_exist">Zdrojový súbor %s neexistuje</string>
-    <string name="prepend_filenames">Pridať pred názvy súborov</string>
-    <string name="append_filenames">Pridať za názvy súborov</string>
+    <string name="prepend_filenames">Pridať pred koniec názvu súborov</string>
+    <string name="append_filenames">Pridať text po názvoch súborov</string>
     <string name="simple_renaming">Jednoduché premenovanie</string>
     <string name="pattern_renaming">Vzor</string>
-    <string name="string_to_add">Reťazec na pridanie</string>
+    <string name="string_to_add">Text na pridanie</string>
     <string name="rename_date_time_pattern">%Y - rok\n%M - mesiac\n%D - deň\n%h - hodina\n%m - minúta\n%s - sekunda\n%i - číslo narastajúce od 1</string>
     <string name="filename_without_txt">Názov súboru (bez .txt)</string>
     <string name="filename_without_json">Názov súboru (bez .json)</string>
@@ -327,7 +327,7 @@
     <string name="use_default">Použiť predvolenú</string>
     <string name="default_color">Predvolená</string>
     <string name="change_color">Zmeniť farbu</string>
-    <string name="theme">Téma</string>
+    <string name="theme">Vzhľad \"téma\" aplikácie</string>
     <string name="changing_color_description">Zmena farby spôsobí prepnutie na Vlastnú tému</string>
     <string name="save">Uložiť</string>
     <string name="discard">Zahodiť</string>
