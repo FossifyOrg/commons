@@ -614,7 +614,7 @@
     <string name="faq_4_title_commons">我不喜歡小工具的顏色，我能更改嗎？</string>
     <string name="faq_4_text_commons">可啊，當你在主畫面拖動小工具時，會出現小工具設置畫面。你會在左下角看到顏色方塊，點下去再挑個新顏色就好了。你也能用拉條來調整透明度。</string>
     <string name="faq_5_title_commons">我能還原已刪除的檔案嗎？</string>
-    <string name="faq_5_text_commons">如果它們確實被刪除了，那沒辦法。然而，預設情況下啟用了回收桶，使得檔案並沒有被刪除，只是被移動到桶內。</string>
+    <string name="faq_5_text_commons">若檔案確實已被刪除，則無法復原。不過，回收筒功能預設為啟用狀態，系統會將檔案移入回收筒而非立即刪除。</string>
     <string name="faq_6_title_commons">應用程式啟動器上的圖示消失了。我該怎麼辦？</string>
     <string name="faq_7_title_commons">錢已經從我的銀行帳戶扣除，但我無法下載這應用程式。我能怎麼做？</string>
     <string name="faq_7_text_commons">支付完全交由Google處理，他們的系統偶爾會發生故障。只要清除您的Google Play應用程式快取並重新啟動裝置，然後再次嘗試下載。</string>
