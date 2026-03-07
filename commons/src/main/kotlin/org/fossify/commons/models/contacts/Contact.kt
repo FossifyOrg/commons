@@ -53,20 +53,20 @@ data class Contact(
     override fun compareTo(other: Contact): Int {
         var result = when {
             sorting and SORT_BY_FIRST_NAME != 0 -> {
-                val firstString = firstName.normalizeString()
-                val secondString = other.firstName.normalizeString()
+                val firstString = firstName.ifEmpty { surname }.normalizeString()
+                val secondString = other.firstName.ifEmpty { other.surname }.normalizeString()
                 compareUsingStrings(firstString, secondString, other)
             }
 
             sorting and SORT_BY_MIDDLE_NAME != 0 -> {
-                val firstString = middleName.normalizeString()
-                val secondString = other.middleName.normalizeString()
+                val firstString = middleName.ifEmpty { firstName }.normalizeString()
+                val secondString = other.middleName.ifEmpty { other.firstName }.normalizeString()
                 compareUsingStrings(firstString, secondString, other)
             }
 
             sorting and SORT_BY_SURNAME != 0 -> {
-                val firstString = surname.normalizeString()
-                val secondString = other.surname.normalizeString()
+                val firstString = surname.ifEmpty { firstName }.normalizeString()
+                val secondString = other.surname.ifEmpty { other.firstName }.normalizeString()
                 compareUsingStrings(firstString, secondString, other)
             }
 
@@ -137,15 +137,9 @@ data class Contact(
         return try {
             var name = when {
                 isABusinessContact() -> getFullCompany()
-                sorting and SORT_BY_SURNAME != 0 -> {
-                    surname.ifEmpty { firstName }
-                }
-                sorting and SORT_BY_MIDDLE_NAME != 0 -> {
-                    middleName.ifEmpty { firstName }
-                }
-                sorting and SORT_BY_FIRST_NAME != 0 -> {
-                    firstName.ifEmpty { surname }
-                }
+                sorting and SORT_BY_SURNAME != 0 && surname.isNotEmpty() -> surname
+                sorting and SORT_BY_MIDDLE_NAME != 0 && middleName.isNotEmpty() -> middleName
+                sorting and SORT_BY_FIRST_NAME != 0 && firstName.isNotEmpty() -> firstName
                 startWithSurname -> surname
                 else -> firstName
             }
