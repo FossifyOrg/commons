@@ -137,9 +137,15 @@ data class Contact(
         return try {
             var name = when {
                 isABusinessContact() -> getFullCompany()
-                sorting and SORT_BY_SURNAME != 0 && surname.isNotEmpty() -> surname
-                sorting and SORT_BY_MIDDLE_NAME != 0 && middleName.isNotEmpty() -> middleName
-                sorting and SORT_BY_FIRST_NAME != 0 && firstName.isNotEmpty() -> firstName
+                sorting and SORT_BY_SURNAME != 0 -> {
+                    surname.ifEmpty { firstName }
+                }
+                sorting and SORT_BY_MIDDLE_NAME != 0 -> {
+                    middleName.ifEmpty { firstName }
+                }
+                sorting and SORT_BY_FIRST_NAME != 0 -> {
+                    firstName.ifEmpty { surname }
+                }
                 startWithSurname -> surname
                 else -> firstName
             }
