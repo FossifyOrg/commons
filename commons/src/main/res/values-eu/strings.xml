@@ -616,8 +616,8 @@
     <string name="use_same_snooze">Erabili atzeratze-denbora berdina beti</string>
     <string name="snooze_time">Atzeratze-denbora</string>
     <string name="vibrate_on_button_press">Dardara egin botoia sakatzean</string>
-    <string name="move_items_into_recycle_bin">Mugitu elementuak zakarrontzira ezabatu ordez</string>
-    <string name="recycle_bin_cleaning_interval">Zakarrontzia garbitzeko tartea</string>
+    <string name="move_items_into_recycle_bin">Mugitu ezabatutako elementuak zakarrontzira</string>
+    <string name="recycle_bin_cleaning_interval">Zakarrontzia garbitzeko denbora-tartea</string>
     <string name="empty_recycle_bin">Hustu zakarrontzia</string>
     <string name="force_portrait_mode">Behartu modu bertikala</string>
     <string name="export_settings">Esportatu ezarpenak</string>
@@ -664,7 +664,7 @@
     <string name="files_restored_successfully">Fitxategiak ondo leheneratu dira</string>
     <string name="empty_recycle_bin_confirmation">Ziur zaude zakarrontzia hustu nahi duzula? Fitxategiak behin betiko galduko dira.</string>
     <string name="recycle_bin_empty">Zakarrontzia hutsik dago</string>
-    <string name="moving_recycle_bin_items_disabled">Elementuak zakarrontzira mugitzea desgaituta dago, erabili Leheneratu</string>
+    <string name="moving_recycle_bin_items_disabled">Elementuak zakarrontzitik mugitzea desgaituta dago. Erabili Leheneratu</string>
     <string name="show_the_recycle_bin">Erakutsi zakarrontzia</string>
     <string name="hide_the_recycle_bin">Ezkutatu zakarrontzia</string>
     <string name="open_the_recycle_bin">Ireki zakarrontzia</string>
@@ -950,7 +950,7 @@
     <string name="faq_4_title_commons">Ez zaizkit widgetaren koloreak gustatzen, aldatu ditzaket?</string>
     <string name="faq_3_text_commons">Ezin duzu. Fitxategiak baieztapen leihoaren ostean ezabatzen dira, ez dago zakarrontzirik.</string>
     <string name="faq_6_title_commons">Aplikazioa abiarazteko ikonoa desagertu egin da. Zer egin dezaket?</string>
-    <string name="faq_5_text_commons">Benetan ezabatu badira, ezin duzu. Hala ere, lehenespenez Birziklapen Zaborrontzia gaituta dago, fitxategiak zakarrontzira eramango ditu ezabatu beharrean.</string>
+    <string name="faq_5_text_commons">Benetan ezabatu badira, ezin dituzu leheneratu. Hala ere, lehenespenez zakarrontzia aktibatuta dago eta fitxategiak zakarrontzira eramango ditu ezabatu beharrean.</string>
     <string name="faq_4_text_commons">Bai, trepeta bat hasierako pantailan arrastatzean trepeten konfigurazio pantaila bat agertzen da. Koloretako karratuak ikusiko dituzu beheko ezkerreko izkinan, sakatu besterik ez duzu kolore berri bat hautatzeko. Gradua erabil dezakezu alfa doitzeko ere.</string>
     <string name="faq_5_title_commons">Leheneratu al ditzaket nolabait ezabatutako fitxategiak?</string>
     <string name="theme_and_colors">Gaia eta koloreak</string>
