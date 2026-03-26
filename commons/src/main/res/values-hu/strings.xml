@@ -1088,8 +1088,8 @@
     <string name="confirm_storage_access_restricted_text">A rendszer megkötései miatt ez a mappa nem elérhető.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Megnyitás rendszeralkalmazásban</string>
     <string name="confirm_storage_access_restricted_text_not_found">Nem található rendszerfájl-kezelő alkalmazás.</string>
-    <string name="number_of_items">Darabszám</string>
-    <string name="reorder_items_by_dragging">Elemek átrendezése húzással</string>
+    <string name="number_of_items">Elemek száma</string>
+    <string name="reorder_items_by_dragging">Elemek újrarendezése kézzel</string>
     <string name="requires_fossify_thank_you">Fossify Köszönet szükséges hozzá</string>
     <string name="more_fossify_apps">Még több Fossify alkalmazás</string>
     <string name="rate_this_app">Értékeld az alkalmazást</string>
