@@ -893,7 +893,6 @@
     <ID>MagicNumber:Int.kt$0.5</ID>
     <ID>MagicNumber:Int.kt$0xFFFFFF</ID>
     <ID>MagicNumber:Int.kt$100f</ID>
-    <ID>MagicNumber:Int.kt$1024.0</ID>
     <ID>MagicNumber:Int.kt$180</ID>
     <ID>MagicNumber:Int.kt$270</ID>
     <ID>MagicNumber:Int.kt$3600</ID>
@@ -933,7 +932,6 @@
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$8</ID>
     <ID>MagicNumber:LineColorPickerDialog.kt$LineColorPickerDialog$9</ID>
     <ID>MagicNumber:LocalContactsHelper.kt$LocalContactsHelper$30</ID>
-    <ID>MagicNumber:Long.kt$1024.0</ID>
     <ID>MagicNumber:MyAppCompatCheckbox.kt$MyAppCompatCheckbox$0.6f</ID>
     <ID>MagicNumber:MyAutoCompleteTextView.kt$MyAutoCompleteTextView$0.5f</ID>
     <ID>MagicNumber:MyCompatRadioButton.kt$MyCompatRadioButton$0.6f</ID>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<issues format="6" by="lint 8.11.1" type="baseline" client="gradle" dependencies="false" name="AGP (8.11.1)" variant="all" version="8.11.1">
+<issues format="6" by="lint 9.0.1" type="baseline" client="gradle" dependencies="false" name="AGP (9.0.1)" variant="all" version="9.0.1">
 
     <issue
         id="ResourceCycle"
@@ -47,7 +47,7 @@
         errorLine2="                                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/commons/extensions/Context.kt"
-            line="342"
+            line="346"
             column="38"/>
     </issue>
 
@@ -58,7 +58,7 @@
         errorLine2="                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/commons/extensions/Context.kt"
-            line="343"
+            line="347"
             column="37"/>
     </issue>
 
@@ -69,7 +69,7 @@
         errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/commons/extensions/Context.kt"
-            line="344"
+            line="348"
             column="36"/>
     </issue>
 
@@ -80,7 +80,7 @@
         errorLine2="                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/commons/extensions/Context.kt"
-            line="345"
+            line="349"
             column="36"/>
     </issue>
 
@@ -91,7 +91,7 @@
         errorLine2="                                                  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/commons/extensions/Context.kt"
-            line="348"
+            line="352"
             column="51"/>
     </issue>
 
@@ -239,6 +239,17 @@
     </issue>
 
     <issue
+        id="CustomSplashScreen"
+        message="The application should not provide its own launch screen"
+        errorLine1="abstract class BaseSplashActivity : AppCompatActivity() {"
+        errorLine2="               ~~~~~~~~~~~~~~~~~~">
+        <location
+            file="src/main/kotlin/org/fossify/commons/activities/BaseSplashActivity.kt"
+            line="10"
+            column="16"/>
+    </issue>
+
+    <issue
         id="InflateParams"
         message="Avoid passing `null` as the view root (needed to resolve layout parameters on the inflated layout&apos;s root element)"
         errorLine1="                actBarTextView = layoutInflater.inflate(R.layout.actionbar_title, null) as TextView"
@@ -305,39 +316,6 @@
     </issue>
 
     <issue
-        id="AndroidGradlePluginVersion"
-        message="A newer version of Gradle than 8.13 is available: 8.14.4"
-        errorLine1="distributionUrl=https\://services.gradle.org/distributions/gradle-8.13-bin.zip"
-        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
-        <location
-            file="$HOME/work/commons/commons/gradle/wrapper/gradle-wrapper.properties"
-            line="3"
-            column="17"/>
-    </issue>
-
-    <issue
-        id="AndroidGradlePluginVersion"
-        message="A newer version of com.android.application than 8.11.1 is available: 9.0.0. (There is also a newer version of 8.11.𝑥 available, if upgrading to 9.0.0 is difficult: 8.11.2)"
-        errorLine1="gradlePlugins-agp = &quot;8.11.1&quot;"
-        errorLine2="                    ~~~~~~~~">
-        <location
-            file="$HOME/work/commons/commons/gradle/libs.versions.toml"
-            line="48"
-            column="21"/>
-    </issue>
-
-    <issue
-        id="AndroidGradlePluginVersion"
-        message="A newer version of com.android.library than 8.11.1 is available: 9.0.0. (There is also a newer version of 8.11.𝑥 available, if upgrading to 9.0.0 is difficult: 8.11.2)"
-        errorLine1="gradlePlugins-agp = &quot;8.11.1&quot;"
-        errorLine2="                    ~~~~~~~~">
-        <location
-            file="$HOME/work/commons/commons/gradle/libs.versions.toml"
-            line="48"
-            column="21"/>
-    </issue>
-
-    <issue
         id="AppCompatCustomView"
         message="This custom view should extend `androidx.appcompat.widget.AppCompatAutoCompleteTextView` instead"
         errorLine1="open class MyAutoCompleteTextView : AutoCompleteTextView {"
@@ -383,18 +361,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.activity:activity-compose than 1.12.2 is available: 1.12.3"
-        errorLine1="composeActivity = &quot;1.12.2&quot;"
-        errorLine2="                  ~~~~~~~~">
-        <location
-            file="$HOME/work/commons/commons/gradle/libs.versions.toml"
-            line="33"
-            column="19"/>
-    </issue>
-
-    <issue
-        id="GradleDependency"
-        message="A newer version of androidx.compose.animation:animation than 1.7.6 is available: 1.10.2"
+        message="A newer version of androidx.compose.animation:animation than 1.7.6 is available: 1.10.4"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -405,7 +372,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.material:material than 1.7.6 is available: 1.10.2"
+        message="A newer version of androidx.compose.material:material than 1.7.6 is available: 1.10.4"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -427,7 +394,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.runtime:runtime than 1.7.6 is available: 1.10.2"
+        message="A newer version of androidx.compose.runtime:runtime than 1.7.6 is available: 1.10.4"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -438,7 +405,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.ui:ui than 1.7.6 is available: 1.10.2"
+        message="A newer version of androidx.compose.ui:ui than 1.7.6 is available: 1.10.4"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -449,7 +416,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.ui:ui-tooling than 1.7.6 is available: 1.10.2"
+        message="A newer version of androidx.compose.ui:ui-tooling than 1.7.6 is available: 1.10.4"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -460,7 +427,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.ui:ui-tooling-preview than 1.7.6 is available: 1.10.2"
+        message="A newer version of androidx.compose.ui:ui-tooling-preview than 1.7.6 is available: 1.10.4"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -471,7 +438,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.ui:ui-viewbinding than 1.7.6 is available: 1.10.2"
+        message="A newer version of androidx.compose.ui:ui-viewbinding than 1.7.6 is available: 1.10.4"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -500,17 +467,6 @@
             file="$HOME/work/commons/commons/gradle/libs.versions.toml"
             line="10"
             column="17"/>
-    </issue>
-
-    <issue
-        id="NewerVersionAvailable"
-        message="A newer version of com.github.tibbi:reprint than 2cb206415d is available: 3.3.2"
-        errorLine1="reprint = &quot;2cb206415d&quot;"
-        errorLine2="          ~~~~~~~~~~~~">
-        <location
-            file="$HOME/work/commons/commons/gradle/libs.versions.toml"
-            line="27"
-            column="11"/>
     </issue>
 
     <issue
@@ -773,7 +729,7 @@
         errorLine2="                             ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/commons/helpers/Constants.kt"
-            line="659"
+            line="660"
             column="30"/>
     </issue>
 
@@ -1263,17 +1219,6 @@
 
     <issue
         id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="409"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
         message="For locale &quot;lt&quot; (Lithuanian) the following quantity should also be defined: `many` (e.g. &quot;1.1 obuolio&quot;)"
         errorLine1="    &lt;plurals name=&quot;seconds&quot;>"
         errorLine2="    ^">
@@ -1340,17 +1285,6 @@
 
     <issue
         id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="431"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
         message="For locale &quot;sk&quot; (Slovak) the following quantity should also be defined: `many` (e.g. &quot;10.0 dňa&quot;)"
         errorLine1="    &lt;plurals name=&quot;delete_warning&quot;>"
         errorLine2="    ^">
@@ -1373,34 +1307,12 @@
 
     <issue
         id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="436"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
         message="For locale &quot;lt&quot; (Lithuanian) the following quantity should also be defined: `many` (e.g. &quot;1.1 obuolio&quot;)"
         errorLine1="    &lt;plurals name=&quot;years&quot;>"
         errorLine2="    ^">
         <location
             file="src/main/res/values-lt/strings.xml"
             line="439"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="441"
             column="5"/>
     </issue>
 
@@ -1417,34 +1329,12 @@
 
     <issue
         id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="446"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
         message="For locale &quot;lt&quot; (Lithuanian) the following quantity should also be defined: `many` (e.g. &quot;1.1 obuolio&quot;)"
         errorLine1="    &lt;plurals name=&quot;in_minutes&quot;>"
         errorLine2="    ^">
         <location
             file="src/main/res/values-lt/strings.xml"
             line="449"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;delete_warning&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="451"
             column="5"/>
     </issue>
 
@@ -1461,34 +1351,12 @@
 
     <issue
         id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="456"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
         message="For locale &quot;lt&quot; (Lithuanian) the following quantity should also be defined: `many` (e.g. &quot;1.1 obuolio&quot;)"
         errorLine1="    &lt;plurals name=&quot;in_days&quot;>"
         errorLine2="    ^">
         <location
             file="src/main/res/values-lt/strings.xml"
             line="459"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="461"
             column="5"/>
     </issue>
 
@@ -2110,17 +1978,6 @@
 
     <issue
         id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;column_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="566"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
         message="For locale &quot;sk&quot; (Slovak) the following quantity should also be defined: `many` (e.g. &quot;10.0 dňa&quot;)"
         errorLine1="    &lt;plurals name=&quot;weeks_before&quot;>"
         errorLine2="    ^">
@@ -2160,17 +2017,6 @@
         <location
             file="src/main/res/values-cs/strings.xml"
             line="575"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="577"
             column="5"/>
     </issue>
 
@@ -2319,226 +2165,6 @@
 
     <issue
         id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;delete_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="619"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;in_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="643"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;in_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="648"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;days_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="653"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;weeks_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="658"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;months_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="663"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;by_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="669"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;in_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="756"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;by_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="770"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;in_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="780"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;trial_expires_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="896"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;by_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="910"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;by_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="915"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;deleting_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="920"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;in_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="925"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;by_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="930"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;by_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="935"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;moving_items_into_bin&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="940"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;by_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="993"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;delete_contacts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="998"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
         message="For locale &quot;cs&quot; (Czech) the following quantity should also be defined: `many` (e.g. &quot;10.0 dne&quot;)"
         errorLine1="    &lt;plurals name=&quot;trial_expires_days&quot;>"
         errorLine2="    ^">
@@ -2550,100 +2176,12 @@
 
     <issue
         id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;row_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="1003"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;in_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="1008"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;in_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="1013"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;seconds_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="1018"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;minutes_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="1023"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;years_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="1030"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
         message="For locale &quot;sk&quot; (Slovak) the following quantity should also be defined: `many` (e.g. &quot;10.0 dňa&quot;)"
         errorLine1="    &lt;plurals name=&quot;trial_expires_days&quot;>"
         errorLine2="    ^">
         <location
             file="src/main/res/values-sk/strings.xml"
             line="1034"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;hours_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="1057"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="MissingQuantity"
-        message="For locale &quot;iw&quot; (Hebrew) the following quantity should also be defined: `many` (e.g. &quot;20 שנה&quot;)"
-        errorLine1="    &lt;plurals name=&quot;files_saved&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-iw/strings.xml"
-            line="1086"
             column="5"/>
     </issue>
 
@@ -2737,7 +2275,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;files_saved&quot; is not translated in &quot;hi&quot; (Hindi), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;in&quot; (Indonesian), &quot;ms&quot; (Malay), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;"
+        message="&quot;files_saved&quot; is not translated in &quot;hi&quot; (Hindi), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;"
         errorLine1="    &lt;plurals name=&quot;files_saved&quot;>"
         errorLine2="             ~~~~~~~~~~~~~~~~~~">
         <location
@@ -3485,7 +3023,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;phone_storage_hidden&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;mk&quot; (Macedonian), &quot;ms&quot; (Malay), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;ckb&quot;"
+        message="&quot;phone_storage_hidden&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;mk&quot; (Macedonian), &quot;ms&quot; (Malay), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;phone_storage_hidden&quot;>Phone storage (not visible by other apps)&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -4145,7 +3683,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;search_favorites&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lv&quot; (Latvian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;search_favorites&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lv&quot; (Latvian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;search_favorites&quot;>Search favorites&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -4178,7 +3716,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;search_groups&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lv&quot; (Latvian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;search_groups&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lv&quot; (Latvian), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;search_groups&quot;>Search groups&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -6213,7 +5751,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;purchase_thank_you&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ne&quot; (Nepali), &quot;fa&quot; (Persian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;purchase_thank_you&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ne&quot; (Nepali), &quot;fa&quot; (Persian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;purchase_thank_you&quot;>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -6631,7 +6169,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;add_number_to_contact&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;cr&quot; (Cree), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;add_number_to_contact&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;nn&quot; (Norwegian Nynorsk), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;cr&quot; (Cree), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;add_number_to_contact&quot;>Add number to contact&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -7742,7 +7280,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;days_letter&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;days_letter&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;days_letter&quot;>%dd&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~">
         <location
@@ -8281,7 +7819,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;requires_fossify_thank_you&quot; is not translated in &quot;hi&quot; (Hindi), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;requires_fossify_thank_you&quot; is not translated in &quot;hi&quot; (Hindi), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;requires_fossify_thank_you&quot;>Requires Fossify Thank You&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -8292,7 +7830,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;enables_more_customization&quot; is not translated in &quot;hi&quot; (Hindi), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;enables_more_customization&quot; is not translated in &quot;hi&quot; (Hindi), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;enables_more_customization&quot;>Enables more customization&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -8435,7 +7973,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;font&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;font&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;font&quot;>Font&lt;/string>"
         errorLine2="            ~~~~~~~~~~~">
         <location
@@ -8446,7 +7984,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;app_font&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;app_font&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;app_font&quot;>App font&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~">
         <location
@@ -8457,7 +7995,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;font_monospace&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;, &quot;da&quot; (Danish)"
+        message="&quot;font_monospace&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;, &quot;da&quot; (Danish)"
         errorLine1="    &lt;string name=&quot;font_monospace&quot;>Monospace&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -8468,7 +8006,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;select_font_file&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;select_font_file&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;select_font_file&quot;>Select font file…&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -8479,7 +8017,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;invalid_font_file&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hr&quot; (Croatian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;gl&quot; (Galician), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;invalid_font_file&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;invalid_font_file&quot;>Invalid font file&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -8831,7 +8369,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;format_phone_numbers&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;format_phone_numbers&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;format_phone_numbers&quot;>Format phone numbers&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -11053,7 +10591,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;badge_deprecated&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;badge_deprecated&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;lv&quot; (Latvian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;badge_deprecated&quot;>(deprecated)&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -11064,7 +10602,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;label_with_badge&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;it&quot; (Italian), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;label_with_badge&quot; is not translated in &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;fi&quot; (Finnish), &quot;bn&quot; (Bangla), &quot;fr&quot; (French), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;label_with_badge&quot;>%1$s %2$s&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -11724,7 +11262,7 @@
 
     <issue
         id="MissingTranslation"
-        message="&quot;translation_latvian&quot; is not translated in &quot;hi&quot; (Hindi), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;hu&quot; (Hungarian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
+        message="&quot;translation_latvian&quot; is not translated in &quot;hi&quot; (Hindi), &quot;fil&quot; (Filipino; Pilipino), &quot;lt&quot; (Lithuanian), &quot;ia&quot; (Interlingua), &quot;ur&quot; (Urdu), &quot;mk&quot; (Macedonian), &quot;ml&quot; (Malayalam), &quot;ms&quot; (Malay), &quot;el&quot; (Greek), &quot;en&quot; (English), &quot;is&quot; (Icelandic), &quot;my&quot; (Burmese), &quot;ar&quot; (Arabic), &quot;nb&quot; (Norwegian Bokmål), &quot;ja&quot; (Japanese), &quot;ne&quot; (Nepali), &quot;az&quot; (Azerbaijani), &quot;fa&quot; (Persian), &quot;ro&quot; (Romanian), &quot;nn&quot; (Norwegian Nynorsk), &quot;be&quot; (Belarusian), &quot;bn&quot; (Bangla), &quot;kab&quot; (Kabyle), &quot;br&quot; (Breton), &quot;bs&quot; (Bosnian), &quot;oc&quot; (Occitan (post 1500)), &quot;si&quot; (Sinhala), &quot;sk&quot; (Slovak), &quot;sl&quot; (Slovenian), &quot;zgh&quot; (Standard Moroccan Tamazight), &quot;ltg&quot;, &quot;sr&quot; (Serbian), &quot;kn&quot; (Kannada), &quot;or&quot; (Odia), &quot;ko&quot; (Korean), &quot;kr&quot; (Kanuri), &quot;sat&quot; (Santali), &quot;ta&quot; (Tamil), &quot;cr&quot; (Cree), &quot;pa&quot; (Punjabi), &quot;te&quot; (Telugu), &quot;th&quot; (Thai), &quot;cy&quot; (Welsh), &quot;bqi&quot;, &quot;ckb&quot;"
         errorLine1="    &lt;string name=&quot;translation_latvian&quot;>Latvian&lt;/string>"
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
@@ -12837,7 +12375,7 @@
         id="Typos"
         message="&quot;facilmente&quot; is a common misspelling; did you mean &quot;fácilmente&quot;?"
         errorLine1="    &lt;string name=&quot;simple_renaming&quot;>Cambiar el nombre facilmente&lt;/string>"
-        errorLine2="                                                     ^">
+        errorLine2="                                                     ~~~~~~~~~~">
         <location
             file="src/main/res/values-es/strings.xml"
             line="197"
@@ -12848,7 +12386,7 @@
         id="Typos"
         message="&quot;media&quot; is a common misspelling; did you mean &quot;medier&quot;?"
         errorLine1="    &lt;string name=&quot;stop_showing_hidden&quot;>Stopp å vise skjulte media&lt;/string>"
-        errorLine2="                                                            ^">
+        errorLine2="                                                            ~~~~~">
         <location
             file="src/main/res/values-nb-rNO/strings.xml"
             line="211"
@@ -12859,7 +12397,7 @@
         id="Typos"
         message="&quot;Papeis&quot; is a common misspelling; did you mean &quot;Papéis&quot;?"
         errorLine1="    &lt;string name=&quot;wallpapers&quot;>Papeis de parede&lt;/string>"
-        errorLine2="                              ^">
+        errorLine2="                              ~~~~~~">
         <location
             file="src/main/res/values-pt-rBR/strings.xml"
             line="356"
@@ -12870,7 +12408,7 @@
         id="Typos"
         message="&quot;Papeis&quot; is a common misspelling; did you mean &quot;Papéis&quot;?"
         errorLine1="    &lt;string name=&quot;wallpapers&quot;>Papeis de parede&lt;/string>"
-        errorLine2="                              ^">
+        errorLine2="                              ~~~~~~">
         <location
             file="src/main/res/values-pt/strings.xml"
             line="362"
@@ -12881,7 +12419,7 @@
         id="Typos"
         message="&quot;numeros&quot; is a common misspelling; did you mean &quot;números&quot;?"
         errorLine1="    &lt;string name=&quot;sort_numeric_parts&quot;>Ordenar numeros pelo seu valor real&lt;/string>"
-        errorLine2="                                              ^">
+        errorLine2="                                              ~~~~~~~">
         <location
             file="src/main/res/values-pt-rBR/strings.xml"
             line="372"
@@ -12892,7 +12430,7 @@
         id="Typos"
         message="&quot;Papeis&quot; is a common misspelling; did you mean &quot;Papéis&quot;?"
         errorLine1="    &lt;string name=&quot;wallpapers&quot;>Papeis de parede&lt;/string>"
-        errorLine2="                              ^">
+        errorLine2="                              ~~~~~~">
         <location
             file="src/main/res/values-pt-rPT/strings.xml"
             line="377"
@@ -12903,7 +12441,7 @@
         id="Typos"
         message="&quot;numeros&quot; is a common misspelling; did you mean &quot;números&quot;?"
         errorLine1="    &lt;string name=&quot;sort_numeric_parts&quot;>Ordenar numeros pelo seu valor real&lt;/string>"
-        errorLine2="                                              ^">
+        errorLine2="                                              ~~~~~~~">
         <location
             file="src/main/res/values-pt/strings.xml"
             line="378"
@@ -12914,7 +12452,7 @@
         id="Typos"
         message="&quot;numeros&quot; is a common misspelling; did you mean &quot;números&quot;?"
         errorLine1="    &lt;string name=&quot;sort_numeric_parts&quot;>Ordenar numeros pelo seu valor real&lt;/string>"
-        errorLine2="                                              ^">
+        errorLine2="                                              ~~~~~~~">
         <location
             file="src/main/res/values-pt-rPT/strings.xml"
             line="386"
@@ -12925,7 +12463,7 @@
         id="Typos"
         message="&quot;a nível de&quot; is a common misspelling; did you mean &quot;em nível de&quot; or &quot;ao nível de&quot;?"
         errorLine1="    &lt;string name=&quot;lock_folder_notice&quot;>Esta proteção funciona apenas neste aplicativo, não foi criada para substituir uma criptografia de pasta real a nível de sistema.&lt;/string>"
-        errorLine2="                                                                                                                                                    ^">
+        errorLine2="                                                                                                                                                    ~~~~~~~~~~">
         <location
             file="src/main/res/values-pt-rBR/strings.xml"
             line="417"
@@ -12936,7 +12474,7 @@
         id="Typos"
         message="&quot;a nível de&quot; is a common misspelling; did you mean &quot;em nível de&quot; or &quot;ao nível de&quot;?"
         errorLine1="    &lt;string name=&quot;lock_folder_notice&quot;>Esta proteção funciona apenas neste aplicativo, não foi criada para substituir uma criptografia de pasta real a nível de sistema.&lt;/string>"
-        errorLine2="                                                                                                                                                    ^">
+        errorLine2="                                                                                                                                                    ~~~~~~~~~~">
         <location
             file="src/main/res/values-pt-rPT/strings.xml"
             line="420"
@@ -12947,7 +12485,7 @@
         id="Typos"
         message="&quot;a nível de&quot; is a common misspelling; did you mean &quot;em nível de&quot; or &quot;ao nível de&quot;?"
         errorLine1="    &lt;string name=&quot;lock_folder_notice&quot;>Esta proteção funciona apenas neste aplicativo, não foi criada para substituir uma criptografia de pasta real a nível de sistema.&lt;/string>"
-        errorLine2="                                                                                                                                                    ^">
+        errorLine2="                                                                                                                                                    ~~~~~~~~~~">
         <location
             file="src/main/res/values-pt/strings.xml"
             line="424"
@@ -12958,7 +12496,7 @@
         id="Typos"
         message="&quot;perchè&quot; is a common misspelling; did you mean &quot;perché&quot;?"
         errorLine1="    &lt;string name=&quot;faq_1_text_commons&quot;>Probabilmente perchè si ha spostato l\&apos;app nella scheda SD. C\&apos;è una limitazione di sistema di Android che nasconde i widget in questione."
-        errorLine2="                                                    ^">
+        errorLine2="                                                    ~~~~~~">
         <location
             file="src/main/res/values-it/strings.xml"
             line="907"
@@ -12969,7 +12507,7 @@
         id="Typos"
         message="Repeated word &quot;zaman&quot; in message: possible typo"
         errorLine1="    &lt;string name=&quot;faq_7_text_commons&quot;>Ödemeler tamamen Google tarafından işlenir, zaman zaman sistemleri aksar. Sadece Google Play uygulama önbelleğinizi temizleyin ve aygıtınızı yeniden başlatın, ardından yeniden indirmeyi deneyin.&lt;/string>"
-        errorLine2="                                                                                  ^">
+        errorLine2="                                                                                  ~~~~~~~~~~~">
         <location
             file="src/main/res/values-tr/strings.xml"
             line="917"
@@ -12980,7 +12518,7 @@
         id="Typos"
         message="&quot;Perchè&quot; is a common misspelling; did you mean &quot;Perché&quot;?"
         errorLine1="    &lt;string name=&quot;faq_8_title_commons&quot;>Perchè dovrei aggiornare alla versione Pro?&lt;/string>"
-        errorLine2="                                       ^">
+        errorLine2="                                       ~~~~~~">
         <location
             file="src/main/res/values-it/strings.xml"
             line="926"
@@ -12991,7 +12529,7 @@
         id="Typos"
         message="&quot;tambem&quot; is a common misspelling; did you mean &quot;também&quot;?"
         errorLine1="    &lt;string name=&quot;upgraded_to_pro_gallery&quot;>Olá,\n\nParece que tambem já tem a versão Pro da app. Quando estiver satisfeito com ele e talvez tiver migrado as suas configurações e favoritos, pode desinstalar este para evitar iniciá-lo acidentalmente, pois não precisará mais dele.\n\nObrigado!&lt;/string>"
-        errorLine2="                                                              ^">
+        errorLine2="                                                              ~~~~~~">
         <location
             file="src/main/res/values-pt/strings.xml"
             line="1041"
@@ -13002,7 +12540,7 @@
         id="Typos"
         message="&quot;tambem&quot; is a common misspelling; did you mean &quot;também&quot;?"
         errorLine1="    &lt;string name=&quot;upgraded_to_pro_gallery&quot;>Olá,\n\nParece que tambem já tem a versão Pro da app. Quando estiver satisfeito com ele e talvez tiver migrado as suas configurações e favoritos, pode desinstalar este para evitar iniciá-lo acidentalmente, pois não precisará mais dele.\n\nObrigado!&lt;/string>"
-        errorLine2="                                                              ^">
+        errorLine2="                                                              ~~~~~~">
         <location
             file="src/main/res/values-pt-rPT/strings.xml"
             line="1058"
@@ -13082,7 +12620,7 @@
         errorLine2="        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/values-fr/strings.xml"
-            line="1132"
+            line="1129"
             column="9"/>
     </issue>
 
@@ -13143,127 +12681,6 @@
 
     <issue
         id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_contacts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="19"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;column_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="96"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;column_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="97"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;column_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="98"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;column_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="99"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;column_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="99"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;column_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="102"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;row_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="102"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;row_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="104"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;row_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="104"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;row_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="107"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
         message="For language &quot;zh&quot; (Chinese) the following quantities are not relevant: `one`"
         errorLine1="    &lt;plurals name=&quot;delete_contacts&quot;>"
         errorLine2="    ^">
@@ -13275,2817 +12692,12 @@
 
     <issue
         id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;column_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="170"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="236"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="240"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="241"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
         message="For language &quot;in&quot; (Indonesian) the following quantities are not relevant: `one`"
         errorLine1="    &lt;plurals name=&quot;delete_contacts&quot;>"
         errorLine2="    ^">
         <location
             file="src/main/res/values-in/strings.xml"
             line="245"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="245"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;deleting_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="246"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;deleting_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="250"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_contacts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="251"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_contacts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="255"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="264"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="268"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="269"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="269"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="271"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="273"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="274"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;deleting_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="274"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="276"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;deleting_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="278"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;deleting_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="279"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_contacts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="279"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;deleting_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="281"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_contacts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="283"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_contacts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="284"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_contacts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="286"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_warning&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="389"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_warning&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="396"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_warning&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="400"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_warning&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="424"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="427"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_warning&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="430"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_warning&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="431"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_warning&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="431"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="432"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="434"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="434"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="437"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="439"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="439"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="442"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="444"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="444"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="447"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="449"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="449"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="452"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="454"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="454"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="457"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="459"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="459"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="462"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="464"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="464"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="467"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="469"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="469"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="470"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="472"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="474"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="474"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="474"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="475"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="475"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="477"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="479"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="479"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="479"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="480"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="480"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="480"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="482"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="484"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="484"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="484"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="485"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="485"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="485"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="487"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="489"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="489"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="489"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="490"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="490"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="490"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="492"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="494"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="494"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="494"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="495"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="495"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="495"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="497"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="499"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="499"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="499"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="500"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="500"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="500"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="502"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="504"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="504"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="505"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="505"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="505"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="507"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="509"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="509"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="510"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="510"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="510"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="512"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="514"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="514"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="515"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="515"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="515"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="517"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="519"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="519"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="520"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="520"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="520"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="522"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="524"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="524"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="525"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="525"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="525"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="527"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="529"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="529"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="530"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="530"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="530"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="532"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="534"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="534"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="535"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="535"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="535"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="537"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="539"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="539"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="540"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="540"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="540"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="542"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="544"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="544"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="545"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="545"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="545"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="547"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="549"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="549"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="550"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="550"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="550"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="552"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;moving_items_into_bin&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="553"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="554"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="554"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="555"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="555"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="555"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="557"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="559"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="559"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="560"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="560"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="560"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="562"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="564"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="564"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="565"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="565"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="565"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="569"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="569"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="570"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="570"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="570"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="574"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="575"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="575"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="575"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="579"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="580"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="580"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="580"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="584"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="585"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="585"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="585"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="589"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="590"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_minutes&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="590"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="590"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="594"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="595"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="595"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="595"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="599"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="600"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="600"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="600"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="604"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="605"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="605"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="605"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="609"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="610"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="610"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="615"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;moving_items_into_bin&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="666"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;moving_items_into_bin&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="673"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="679"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;months_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="684"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;trial_expires_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="689"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="694"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_years&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="699"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;weeks_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="704"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;moving_items_into_bin&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="714"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;moving_items_into_bin&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="714"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;moving_items_into_bin&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="716"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;moving_items_into_bin&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="724"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;days_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="736"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;by_hours&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="844"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;years_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="849"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="857"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;row_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="897"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;trial_expires_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="902"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="902"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;delete_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="907"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;deleting_items&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="912"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;row_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="919"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;row_counts&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="981"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_seconds&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="994"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;in_weeks&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="1005"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;seconds_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="1010"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;minutes_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="1015"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;hours_before&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="1020"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;trial_expires_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="1023"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;trial_expires_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="1050"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;trial_expires_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="1051"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;trial_expires_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="1066"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;trial_expires_days&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="1072"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;files_saved&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rPT/strings.xml"
-            line="1080"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;files_saved&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt/strings.xml"
-            line="1082"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;pt&quot; (Portuguese) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;files_saved&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-pt-rBR/strings.xml"
-            line="1101"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;fr&quot; (French) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;files_saved&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-fr/strings.xml"
-            line="1131"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;ca&quot; (Catalan) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;files_saved&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-ca/strings.xml"
-            line="1142"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;it&quot; (Italian) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;files_saved&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-it/strings.xml"
-            line="1147"
-            column="5"/>
-    </issue>
-
-    <issue
-        id="UnusedQuantity"
-        message="For language &quot;es&quot; (Spanish) the following quantities are not relevant: `many`"
-        errorLine1="    &lt;plurals name=&quot;files_saved&quot;>"
-        errorLine2="    ^">
-        <location
-            file="src/main/res/values-es/strings.xml"
-            line="1152"
             column="5"/>
     </issue>
 
@@ -16118,7 +12730,7 @@
         errorLine2="                     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/commons/helpers/Constants.kt"
-            line="534"
+            line="535"
             column="22"/>
     </issue>
 
@@ -16129,7 +12741,7 @@
         errorLine2="                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/commons/helpers/Constants.kt"
-            line="537"
+            line="538"
             column="25"/>
     </issue>
 
@@ -16140,7 +12752,7 @@
         errorLine2="                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/commons/helpers/Constants.kt"
-            line="540"
+            line="541"
             column="20"/>
     </issue>
 
@@ -16184,7 +12796,7 @@
         errorLine2="~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/commons/extensions/Context.kt"
-            line="432"
+            line="436"
             column="1"/>
     </issue>
 
@@ -16558,7 +13170,7 @@
         errorLine2="                                            ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/res/values-vi/strings.xml"
-            line="272"
+            line="271"
             column="45"/>
     </issue>
 
@@ -18481,7 +15093,7 @@
         errorLine2="                                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
         <location
             file="src/main/kotlin/org/fossify/commons/extensions/Context.kt"
-            line="264"
+            line="268"
             column="53"/>
     </issue>
 
