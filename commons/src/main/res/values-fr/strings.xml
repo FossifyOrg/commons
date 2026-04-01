@@ -1140,4 +1140,8 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="select_font_file">Sélectionner le fichier de police de caractère…</string>
     <string name="invalid_font_file">Fichier de police de caractère invalide</string>
     <string name="badge_deprecated">(déprécié)</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Veuillez acheter <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pour utiliser cette fonctionnalité et soutenir le développement. Merci !
+        ]]></string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
