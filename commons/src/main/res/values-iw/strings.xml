@@ -277,7 +277,7 @@
     <string name="thumbnails">תמונות ממוזערות</string>
     <string name="exclude">החרג</string>
     <string name="excluded_folders">תיקיות מוחרגות</string>
-    <string name="excluded">(מוחרגים)</string>
+    <string name="excluded">(מוחרגת)</string>
     <string name="manage_excluded_folders">נהל תיקיות מוחרגות</string>
     <string name="remove_all">להסיר הכול</string>
     <string name="remove_all_description">להסיר את כל התיקיות מרשימת החרגות\? פעולה זו לא תמחק את התיקיות.</string>
