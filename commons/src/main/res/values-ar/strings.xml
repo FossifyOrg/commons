@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ok">موافق</string>
-    <string name="cancel">إلغاء</string>
-    <string name="close">اغلاق</string>
-    <string name="back">العودة</string>
+    <string name="ok">حسنًا</string>
+    <string name="cancel">ألغِ</string>
+    <string name="close">أغلق</string>
+    <string name="back">ارجع</string>
     <string name="nothing">لا شيء</string>
     <string name="later">لاحقًا</string>
-    <string name="save_as">حفظ كـ</string>
-    <string name="file_saved">تم حفظ الملف بنجاح</string>
+    <string name="save_as">احفظ كـ</string>
+    <string name="file_saved">حُفظ الملف بنجاح</string>
     <string name="invalid_file_format">تنسيق الملف غير صالح</string>
     <string name="out_of_memory_error">خطأ في نفاد الذاكرة</string>
     <string name="an_error_occurred">حدث خطأ: %s</string>
     <string name="error">خطأ: %s</string>
-    <string name="open_with">فتح باستخدام</string>
-    <string name="edit_with">تعديل باستخدام</string>
-    <string name="edit">عدِّل</string>
-    <string name="no_app_found">لم يتم العثور على تطبيق صالح</string>
-    <string name="no_browser_found">لم يتم العثور على متصفح</string>
-    <string name="no_email_client_found">لم يتم العثور على عميل بريد إلكتروني</string>
-    <string name="set_as">تعيين كـ</string>
-    <string name="copy_to_clipboard">نسخ إلى الحافظة</string>
-    <string name="copy_number_to_clipboard">نسخ الرقم إلى الحافظة</string>
-    <string name="value_copied_to_clipboard">تم نسخ القيمة إلى الحافظة</string>
-    <string name="value_copied_to_clipboard_show">تم نسخ القيمة إلى الحافظة:\n%s</string>
+    <string name="open_with">افتح باستخدام</string>
+    <string name="edit_with">حرّر باستخدام</string>
+    <string name="edit">حرّر</string>
+    <string name="no_app_found">لم يُعثر على تطبيق صالح</string>
+    <string name="no_browser_found">لم يُعثر على متصفح</string>
+    <string name="no_email_client_found">لم يُعثر على عميل بريد إلكتروني</string>
+    <string name="set_as">عيّن كـ</string>
+    <string name="copy_to_clipboard">انسخ إلى الحافظة</string>
+    <string name="copy_number_to_clipboard">انسخ الرقم إلى الحافظة</string>
+    <string name="value_copied_to_clipboard">نُسخت القيمة إلى الحافظة</string>
+    <string name="value_copied_to_clipboard_show">نُسخت القيمة إلى الحافظة:\n%s</string>
     <string name="dial_number">رقم الطلب</string>
     <string name="unknown">غير معروف</string>
     <string name="always">دائماً</string>
@@ -61,7 +61,7 @@
     <string name="value">القيمة</string>
     <string name="value_cannot_be_empty">لا يمكن أن تكون القيمة فارغة</string>
     <string name="create_new_contact">إنشاء جهة إتصال</string>
-    <string name="add_to_existing_contact">إضافة إلى جهة موجودة</string>
+    <string name="add_to_existing_contact">أضف إلى جهة اتصال موجودة</string>
     <string name="app_corrupt">التطبيق تالف</string>
     <string name="disclaimer">اخلاء المسؤوليه</string>
     <string name="take_photo">التقاط صورة</string>
@@ -116,7 +116,7 @@
     </plurals>
     <string name="manage_blocked_numbers">إدارة الأرقام المحظورة</string>
     <string name="not_blocking_anyone">لم تحظر أي شخص.</string>
-    <string name="add_a_blocked_number">إضافة رقم محظور</string>
+    <string name="add_a_blocked_number">أضف رقم محظور</string>
     <string name="block_number">حظر رقم</string>
     <string name="block_numbers">حظر أرقام</string>
     <string name="blocked_numbers">أرقام محظورة</string>
@@ -137,9 +137,9 @@
     <string name="unblock_contact_success">تم إلغاء حظر جهة الاتصال</string>
     <string name="unblock_contact_fail">لا يمكن إلغاء حظر جهة الاتصال</string>
     <string name="favorites">المفضلة</string>
-    <string name="add_favorites">إضافة مفضلة</string>
-    <string name="add_to_favorites">إضافة إلى المفضلة</string>
-    <string name="remove_from_favorites">إزالة من المفضلة</string>
+    <string name="add_favorites">أضف المفصلات</string>
+    <string name="add_to_favorites">أضف إلى المفضلة</string>
+    <string name="remove_from_favorites">أزِل من المفضلة</string>
     <string name="search">بحث</string>
     <string name="search_in_placeholder">البحث في %s</string>
     <string name="type_2_characters">أكتب ما لا يقل عن حرفين لبدء البحث.</string>
@@ -265,8 +265,8 @@
     <string name="confirm_storage_access_text">يرجى إختيار المجلد العلوي من بطاقة الذاكرة (SD) على الشاشة التالية ، لمنح صلاحيات الوصول للكتابة</string>
     <string name="confirm_storage_access_text_sd">إذا كنت لا ترى بطاقة الذاكرة (SD) ، فجرب هذا</string>
     <string name="confirm_storage_access_android_text">يرجى السماح للتطبيق بالوصول إلى التخزين المحدد على الشاشة التالية بالضغط على \"استخدام هذا المجلد\" في الأسفل.</string>
-    <string name="confirm_storage_access_android_text_specific">يرجى السماح بالوصول إلى \"<b> %s </b>\" على الشاشة التالية بالضغط على \"<b> استخدم هذا المجلد </b>\" في الأسفل.</string>
-    <string name="confirm_create_doc_for_new_folder_text">يرجى الضغط على \"<b> حفظ </b>\" في الجزء السفلي من الشاشة التالية لإنشاء المجلد الجديد.</string>
+    <string name="confirm_storage_access_android_text_specific">يُرجى السماح بالوصول إلى \'&lt;b&gt; %s &lt;/b&gt;\' على الشاشة التالية بالضغط على \'&lt;b&gt;استخدم هذا المجلد&lt;/b&gt;\' في الأسفل.</string>
+    <string name="confirm_create_doc_for_new_folder_text">يُرجى الضغط على \'&lt;b&gt;احفظ&lt;/b&gt;\' في الجزء السفلي من الشاشة التالية لإنشاء المجلد الجديد.</string>
     <string name="confirm_selection">تأكيد التحديد</string>
     <string name="loading">تحميل…</string>
     <string name="access_storage_prompt">يرجى منح التطبيق صلاحية الوصول إلى جميع الملفات الخاصة بك، فإنه قد لا يعمل بشكل جيد دون ذلك.</string>
@@ -330,9 +330,9 @@
     <string name="song_title">عنوان الأغنية</string>
     <string name="gps_coordinates">إحداثيات الـ GPS</string>
     <string name="altitude">الإرتفاع</string>
-    <string name="remove_exif">إزالة EXIF</string>
+    <string name="remove_exif">أزِل EXIF</string>
     <string name="remove_exif_confirmation">هل أنت متأكد من أنك تريد إزالة قيم EXIF مثل إحداثيات GPS وطراز الكاميرا وما إلى ذلك؟</string>
-    <string name="exif_removed">تمت إزالة قيم EXIF بنجاح</string>
+    <string name="exif_removed">أُزيلت قيم EXIF بنجاح</string>
     <string name="background_color">لون الخلفية</string>
     <string name="text_color">لون النص</string>
     <string name="primary_color">اللون الأساسي</string>
@@ -367,8 +367,8 @@
     <string name="shared">المشتركة</string>
     <string name="whats_new">ما الجديد</string>
     <string name="whats_new_disclaimer">* التحديثات الأكبر حجماً هي المدرجة هنا، دائماً توجد بعض التحسينات الأصغر أيضا</string>
-    <string name="delete">حذف</string>
-    <string name="remove">إزالة</string>
+    <string name="delete">احذف</string>
+    <string name="remove">أزِل</string>
     <string name="rename">إعادة تسمية</string>
     <string name="share">مشاركة</string>
     <string name="share_via">مشاركة عبر</string>
@@ -426,7 +426,7 @@
     <string name="change_order">تغيير الترتيب</string>
     <string name="more_options">المزيد من الخيارات</string>
     <string name="proceed_with_deletion">هل تريد بالتأكيد متابعة عملية الحذف ؟</string>
-    <string name="deletion_confirmation">هل تريد بالتأكيد حذف%s ؟</string>
+    <string name="deletion_confirmation">هل تريد بالتأكيد حذف %s؟</string>
     <string name="move_to_recycle_bin_confirmation">أتريد بالتأكيد نقل %s إلى سلة المهملات؟</string>
     <string name="are_you_sure_delete">هل تريد بالتأكيد حذف هذا العنصر ؟</string>
     <string name="are_you_sure_recycle_bin">أتريد بالتأكيد نقل هذا العنصر إلى سلة المهملات؟</string>
@@ -457,7 +457,7 @@
     <string name="repeat_pattern">تكرار النمط</string>
     <string name="biometrics">المقاييس الحيوية</string>
     <string name="fingerprint">البصمة</string>
-    <string name="add_fingerprint">إضافة بصمة</string>
+    <string name="add_fingerprint">أضف بصمة</string>
     <string name="place_finger">يرجى وضع إصبعك على مستشعر البصمة</string>
     <string name="open_biometric_dialog">فتح مربع حوار التحقق من الهوية البيومترية</string>
     <string name="authenticate">مصادقه</string>
@@ -721,7 +721,7 @@
     <string name="at_start">في البداية</string>
     <string name="system_sounds">أصوات النظام</string>
     <string name="your_sounds">الأصوات الخاصة بك</string>
-    <string name="add_new_sound">إضافة صوت جديد</string>
+    <string name="add_new_sound">أضف صوت جديد</string>
     <string name="no_sound">لا يوجد صوت</string>
     <string name="during_day_at_hh_mm">خلال النهار في hh: mm</string>
     <string name="settings">الإعدادات</string>
@@ -783,8 +783,8 @@
     <string name="excluded_folders">المجلدات المستبعدة</string>
     <string name="excluded">(مستبعد)</string>
     <string name="manage_excluded_folders">إدارة المجلدات المستبعدة</string>
-    <string name="remove_all">إزالة الكل</string>
-    <string name="remove_all_description">هل تريد إزالة كافة المجلدات من قائمة المجلدات المستبعدة؟ لن يؤدي هذا إلى حذف المجلدات.</string>
+    <string name="remove_all">أزِل الكل</string>
+    <string name="remove_all_description">إزالة كل المجلدات من قائمة المجلدات المستبعدة؟ لن يؤدي هذا إلى حذف المجلدات.</string>
     <string name="temporarily_show_excluded">إظهار الملفات المستبعدة مؤقتًا</string>
     <string name="stop_showing_excluded">إيقاف عرض الملفات المستبعدة</string>
     <string name="manage_shown_tabs">إدارة التابات المعروضة</string>
@@ -837,7 +837,7 @@
 \n%m - دقيقة
 \n%s - الثانية</string>
     <string name="usb">الـ USB</string>
-    <string name="usb_detected">يبدو أن لديك جهاز USB متصل بجهازك. للتأكد من ظهور ملفاته بشكل صحيح ، تحتاج إلى منح أذونات إضافية.</string>
+    <string name="usb_detected">يبدو أن لديك جهاز USB متصل بجهازك. للتأكد من ظهور ملفاته بشكل صحيح، تحتاج إلى منح أذونات إضافية.</string>
     <string name="confirm_usb_storage_access_text">يرجى إختيار المجلد العلوي لجهاز الـ USB على الشاشة التالية ، لمنح صلاحيات الوصول</string>
     <string name="wrong_root_selected_usb">تم تحديد مجلد خاطئ، يرجى تحديد المجلد الأصلي لجهاز الـ USB الخاص بك</string>
     <string name="january">يناير</string>
@@ -1151,12 +1151,12 @@
     <string name="white">أبيض</string>
     <string name="send_email">إرسال بريد إلكتروني</string>
     <string name="contact_details">تفاصيل جهة الاتصال</string>
-    <string name="add_contact">إضافة جهة اتصال</string>
+    <string name="add_contact">أضف جهة اتصال</string>
     <string name="number_of_items">عدد العناصر</string>
     <string name="deletion_confirmation_short">حذف %s؟</string>
     <string name="enter_password">أدخل كلمة المرور</string>
     <string name="password">كلمة المرور</string>
-    <string name="add_password">إضافة كلمة مرور</string>
+    <string name="add_password">أضف كلمة مرور</string>
     <string name="theme_and_colors">السمة والألوان</string>
     <string name="website">الموقع الإلكتروني</string>
     <string name="other_help">مساعدة أخرى</string>
@@ -1182,7 +1182,7 @@
     <string name="audio">صوت</string>
     <string name="zero">صفر</string>
     <string name="faq_6_text_commons">تحدث هذه المشكلة عندما لا يدعم المطلق الخاص بك تخصيص الأيقونات بشكل كامل. حاول تشغيل التطبيق عبر Google Play أو أداة، إذا كانت متاحة. بعد التشغيل، استعِد لون الأيقونة الخضراء الافتراضي #106D1F. في الحالات القصوى، قد يكون إعادة تثبيت التطبيق ضروريًا.</string>
-    <string name="add_number_to_contact">أضف رقماً للاتصال</string>
+    <string name="add_number_to_contact">أضف رقمًا لجهة الاتصال</string>
     <string name="view_contact_details">عرض تفاصيل جهة الاتصال</string>
     <string name="notification_sound">صوت الإشعار</string>
     <string name="features_locked">هذه الميزة مقفلة، يرجى شراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> لفتح التطبيق بالكامل.<br/><br/>إنها دفعة لمرة واحدة فقط، وإذا لم تكن راضيًا، يمكننا استرداد أموالك.</string>
@@ -1261,4 +1261,12 @@
     <string name="enables_more_customization">يفعّل تخصيص أكثر</string>
     <string name="badge_deprecated">(مهجور)</string>
     <string name="translation_latvian">لاتفية</string>
+    <plurals name="files_saved">
+        <item quantity="zero">حُفظ الملف بنجاح</item>
+        <item quantity="one">حُفظ الملف بنجاح</item>
+        <item quantity="two">حُفظ ملفين بنجاح</item>
+        <item quantity="few">حُفظت الملفات بنجاح</item>
+        <item quantity="many">حُفظت الملفات بنجاح</item>
+        <item quantity="other">حُفظت الملفات بنجاح</item>
+    </plurals>
 </resources>
