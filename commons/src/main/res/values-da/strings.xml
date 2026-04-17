@@ -324,7 +324,7 @@
     <string name="save_before_closing">Du har ændringer der ikke er gemt. Vil du gemme dem?</string>
     <string name="global_theme_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Køb <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> for at låse denne funktion op og understøtte appens udvikling. Tak!
+            Køb <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> for at bruge denne funktion og understøtte appens udvikling. Tak!
         ]]></string>
     <string name="light_theme">Lys</string>
     <string name="dark_theme">Mørk</string>
@@ -579,7 +579,7 @@
     <string name="during_day_at">I løbet af dagen kl. %1$02d:%2$02d</string>
     <string name="settings">Indstillinger</string>
     <string name="general_settings">Generelt</string>
-    <string name="color_customization">Se &amp; mærk</string>
+    <string name="color_customization">Udseende og funktion</string>
     <string name="customize_colors">Redigér udseende</string>
     <string name="feature_locked">Låst</string>
     <string name="customize_widget_colors">Redigér widget-farver</string>
@@ -655,7 +655,7 @@
     <string name="files_restored_successfully">Filerne blev gendannet</string>
     <string name="empty_recycle_bin_confirmation">Er du sikker på at du vil tømme papirkurven? Filerne vil ikke kunne genskabes.</string>
     <string name="recycle_bin_empty">Papirkurven er tom</string>
-    <string name="moving_recycle_bin_items_disabled">Flytning af indhold i papirkurven er deaktiveret, gendan i stedet</string>
+    <string name="moving_recycle_bin_items_disabled">Flytning af indhold i papirkurven er deaktiveret, gendan i stedet.</string>
     <string name="show_the_recycle_bin">Vis papirkurven</string>
     <string name="hide_the_recycle_bin">Skjul papirkurven</string>
     <string name="open_the_recycle_bin">Åbn papirkurven</string>
@@ -1079,4 +1079,5 @@
     <string name="on_contact_click">Ved klik på kontakt</string>
     <string name="call_contact">Ring til kontakt</string>
     <string name="view_contact">Vis kontaktdetaljer</string>
+    <string name="font_monospace">Fastbredde</string>
 </resources>
