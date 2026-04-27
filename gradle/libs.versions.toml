@@ -45,7 +45,7 @@ gson = "2.13.2"
 #jodaTime
 jodaTime = "2.14.1"
 #Gradle
-gradlePlugins-agp = "9.1.1"
+gradlePlugins-agp = "9.2.0"
 #build
 app-build-compileSDKVersion = "36"
 app-build-targetSDK = "36"
