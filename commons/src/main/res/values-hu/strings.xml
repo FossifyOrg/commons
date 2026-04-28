@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="cancel">Mégse</string>
-    <string name="close">Bezárás</string>
+    <string name="close">Bezár</string>
     <string name="back">Vissza</string>
     <string name="nothing">Semmi</string>
     <string name="later">Később</string>
