@@ -41,7 +41,7 @@ room = "2.8.4"
 #ezVcard
 ezVcard = "0.12.2"
 #gson
-gson = "2.13.2"
+gson = "2.14.0"
 #jodaTime
 jodaTime = "2.14.1"
 #Gradle
