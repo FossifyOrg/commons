@@ -26,12 +26,37 @@ import org.fossify.commons.models.FileDirItem
 import java.io.*
 import java.net.URLDecoder
 import java.util.*
+import java.util.concurrent.ConcurrentHashMap
+import java.util.concurrent.atomic.AtomicBoolean
+import java.util.concurrent.atomic.AtomicInteger
 import java.util.regex.Pattern
 
 private const val ANDROID_DATA_DIR = "/Android/data/"
 private const val ANDROID_OBB_DIR = "/Android/obb/"
+private const val MEDIA_STORE_SCAN_TIMEOUT_MS = 10_000L
+private const val MEDIA_STORE_QUERY_CHUNK_SIZE = 500
 val DIRS_ACCESSIBLE_ONLY_WITH_SAF = listOf(ANDROID_DATA_DIR, ANDROID_OBB_DIR)
 val Context.recycleBinPath: String get() = filesDir.absolutePath
+
+data class ResolvedMediaStoreUri(
+    val fileDirItem: FileDirItem,
+    val uri: Uri,
+)
+
+data class MediaStoreUriResolution(
+    val resolved: List<ResolvedMediaStoreUri>,
+    val unresolved: List<FileDirItem>,
+) {
+    val uris: List<Uri>
+        get() = resolved.map { it.uri }
+}
+
+private data class MediaStoreUriCandidate(
+    val fileDirItem: FileDirItem,
+    val uri: Uri,
+    val collectionUri: Uri,
+    val id: Long,
+)
 
 // http://stackoverflow.com/a/40582634/1967672
 fun Context.getSDCardPath(): String {
@@ -936,28 +961,210 @@ private val physicalPaths = arrayListOf(
     "/storage/usbdisk2"
 )
 
+fun Context.resolveMediaStoreUris(
+    fileDirItems: List<FileDirItem>,
+    timeoutMs: Long = MEDIA_STORE_SCAN_TIMEOUT_MS,
+    callback: (MediaStoreUriResolution) -> Unit,
+) {
+    val mainHandler = Handler(Looper.getMainLooper())
+    if (fileDirItems.isEmpty()) {
+        mainHandler.post {
+            callback(MediaStoreUriResolution(emptyList(), emptyList()))
+        }
+        return
+    }
+
+    ensureBackgroundThread {
+        val initiallyResolved = getVerifiedMediaStoreUrisFromKnownIds(fileDirItems)
+        val itemsToScan = fileDirItems.filter {
+            initiallyResolved[it.path.mediaStoreResolutionKey()] == null && it.canScanForMediaStoreUri()
+        }
+        val pathsToScan = itemsToScan.map { it.path }.distinctBy { it.mediaStoreResolutionKey() }
+
+        if (pathsToScan.isEmpty()) {
+            postMediaStoreUriResolution(mainHandler, fileDirItems, initiallyResolved, callback)
+            return@ensureBackgroundThread
+        }
+
+        val pathByKey = pathsToScan.associateBy { it.mediaStoreResolutionKey() }
+        val itemByKey = itemsToScan.distinctBy { it.path.mediaStoreResolutionKey() }.associateBy { it.path.mediaStoreResolutionKey() }
+        val scannedUris = ConcurrentHashMap<String, Uri>()
+        val remaining = AtomicInteger(pathsToScan.size)
+        val finished = AtomicBoolean(false)
+
+        lateinit var timeoutRunnable: Runnable
+
+        fun finishScan() {
+            if (!finished.compareAndSet(false, true)) {
+                return
+            }
+
+            mainHandler.removeCallbacks(timeoutRunnable)
+            ensureBackgroundThread {
+                val scannedCandidates = scannedUris.mapNotNull { (pathKey, scannedUri) ->
+                    val fileDirItem = itemByKey[pathKey] ?: return@mapNotNull null
+                    val scannedId = scannedUri.getPositiveMediaStoreId() ?: return@mapNotNull null
+                    fileDirItem.toMediaStoreUriCandidate(scannedId)
+                }
+
+                val resolved = LinkedHashMap(initiallyResolved)
+                resolved.putAll(verifyMediaStoreUriCandidates(scannedCandidates))
+                postMediaStoreUriResolution(mainHandler, fileDirItems, resolved, callback)
+            }
+        }
+
+        timeoutRunnable = Runnable { finishScan() }
+        mainHandler.postDelayed(timeoutRunnable, timeoutMs)
+
+        try {
+            MediaScannerConnection.scanFile(applicationContext, pathsToScan.toTypedArray(), null) { path, uri ->
+                if (finished.get()) {
+                    return@scanFile
+                }
+
+                val pathKey = path?.mediaStoreResolutionKey()
+                if (pathKey != null && uri != null && pathByKey.containsKey(pathKey)) {
+                    scannedUris[pathKey] = uri
+                }
+
+                if (remaining.decrementAndGet() == 0) {
+                    finishScan()
+                }
+            }
+        } catch (e: Exception) {
+            finishScan()
+        }
+    }
+}
+
+private fun FileDirItem.canScanForMediaStoreUri(): Boolean {
+    return !isDirectory && File(path).isFile && path.getMediaStoreCollectionUri() != null
+}
+
+private fun Context.getVerifiedMediaStoreUrisFromKnownIds(fileDirItems: List<FileDirItem>): LinkedHashMap<String, Uri> {
+    val candidates = fileDirItems.mapNotNull { fileDirItem ->
+        if (fileDirItem.mediaStoreId > 0) {
+            fileDirItem.toMediaStoreUriCandidate(fileDirItem.mediaStoreId)
+        } else {
+            null
+        }
+    }
+
+    return verifyMediaStoreUriCandidates(candidates)
+}
+
+private fun FileDirItem.toMediaStoreUriCandidate(mediaStoreId: Long): MediaStoreUriCandidate? {
+    if (mediaStoreId <= 0) {
+        return null
+    }
+
+    val collectionUri = path.getMediaStoreCollectionUri() ?: return null
+    val uri = ContentUris.withAppendedId(collectionUri, mediaStoreId)
+    return MediaStoreUriCandidate(this, uri, collectionUri, mediaStoreId)
+}
+
+private fun String.getMediaStoreCollectionUri(): Uri? = when {
+    isImageFast() || isGif() || isRawFast() || isSvg() -> Images.Media.EXTERNAL_CONTENT_URI
+    isVideoFast() -> Video.Media.EXTERNAL_CONTENT_URI
+    isAudioFast() -> Audio.Media.EXTERNAL_CONTENT_URI
+    else -> null
+}
+
+private fun Uri.getPositiveMediaStoreId(): Long? {
+    return try {
+        ContentUris.parseId(this).takeIf { it > 0 }
+    } catch (e: Exception) {
+        null
+    }
+}
+
+private fun Context.verifyMediaStoreUriCandidates(candidates: List<MediaStoreUriCandidate>): LinkedHashMap<String, Uri> {
+    val resolved = LinkedHashMap<String, Uri>()
+    candidates.groupBy { it.collectionUri }.forEach { (collectionUri, collectionCandidates) ->
+        val existingIds = getExistingMediaStoreIds(collectionUri, collectionCandidates.map { it.id }.toSet())
+        collectionCandidates.forEach { candidate ->
+            if (candidate.id in existingIds) {
+                resolved[candidate.fileDirItem.path.mediaStoreResolutionKey()] = candidate.uri
+            }
+        }
+    }
+
+    return resolved
+}
+
+private fun Context.getExistingMediaStoreIds(collectionUri: Uri, ids: Set<Long>): Set<Long> {
+    if (ids.isEmpty()) {
+        return emptySet()
+    }
+
+    val existingIds = HashSet<Long>()
+    ids.chunked(MEDIA_STORE_QUERY_CHUNK_SIZE).forEach { chunk ->
+        val selection = "${MediaColumns._ID} IN (${chunk.joinToString(",") { "?" }})"
+        val selectionArgs = chunk.map { it.toString() }.toTypedArray()
+        try {
+            contentResolver.query(collectionUri, arrayOf(MediaColumns._ID), selection, selectionArgs, null)?.use { cursor ->
+                if (cursor.moveToFirst()) {
+                    do {
+                        val id = cursor.getLongValue(MediaColumns._ID)
+                        if (id > 0) {
+                            existingIds.add(id)
+                        }
+                    } while (cursor.moveToNext())
+                }
+            }
+        } catch (e: Exception) {
+        }
+    }
+
+    return existingIds
+}
+
+private fun postMediaStoreUriResolution(
+    mainHandler: Handler,
+    fileDirItems: List<FileDirItem>,
+    resolvedByPath: Map<String, Uri>,
+    callback: (MediaStoreUriResolution) -> Unit,
+) {
+    val resolved = ArrayList<ResolvedMediaStoreUri>()
+    val unresolved = ArrayList<FileDirItem>()
+
+    fileDirItems.forEach { fileDirItem ->
+        val uri = resolvedByPath[fileDirItem.path.mediaStoreResolutionKey()]
+        if (uri != null) {
+            resolved.add(ResolvedMediaStoreUri(fileDirItem, uri))
+        } else {
+            unresolved.add(fileDirItem)
+        }
+    }
+
+    mainHandler.post {
+        callback(MediaStoreUriResolution(resolved, unresolved))
+    }
+}
+
+private fun String.mediaStoreResolutionKey() = this
+
 // Convert paths like /storage/emulated/0/Pictures/Screenshots/first.jpg to content://media/external/images/media/131799
 // so that we can refer to the file in the MediaStore.
-// If we found no mediastore uri for a given file, do not return its path either to avoid some mismatching
+// If we found no mediastore uri for a given file, do not return its path either to avoid some mismatching.
+@Deprecated("Use resolveMediaStoreUris() and handle unresolved files explicitly.")
 fun Context.getUrisPathsFromFileDirItems(fileDirItems: List<FileDirItem>): Pair<ArrayList<String>, ArrayList<Uri>> {
+    val resolvedByPath = getVerifiedMediaStoreUrisFromKnownIds(fileDirItems)
     val fileUris = ArrayList<Uri>()
     val successfulFilePaths = ArrayList<String>()
-    val allIds = getMediaStoreIds(this)
-    val filePaths = fileDirItems.map { it.path }
-    filePaths.forEach { path ->
-        for ((filePath, mediaStoreId) in allIds) {
-            if (filePath.lowercase() == path.lowercase()) {
-                val baseUri = getFileUri(filePath)
-                val uri = ContentUris.withAppendedId(baseUri, mediaStoreId)
-                fileUris.add(uri)
-                successfulFilePaths.add(path)
-            }
+
+    fileDirItems.forEach { fileDirItem ->
+        val uri = resolvedByPath[fileDirItem.path.mediaStoreResolutionKey()]
+        if (uri != null) {
+            fileUris.add(uri)
+            successfulFilePaths.add(fileDirItem.path)
         }
     }
 
     return Pair(successfulFilePaths, fileUris)
 }
 
+@Deprecated("_DATA based MediaStore lookups are unreliable on scoped-storage Android versions. Use resolveMediaStoreUris().")
 fun getMediaStoreIds(context: Context): HashMap<String, Long> {
     val ids = HashMap<String, Long>()
     val projection = arrayOf(
@@ -971,8 +1178,8 @@ fun getMediaStoreIds(context: Context): HashMap<String, Long> {
         context.queryCursor(uri, projection) { cursor ->
             try {
                 val id = cursor.getLongValue(Images.Media._ID)
-                if (id != 0L) {
-                    val path = cursor.getStringValue(Images.Media.DATA)
+                val path = cursor.getStringValueOrNull(Images.Media.DATA)
+                if (id > 0L && path != null) {
                     ids[path] = id
                 }
             } catch (e: Exception) {
@@ -984,15 +1191,10 @@ fun getMediaStoreIds(context: Context): HashMap<String, Long> {
     return ids
 }
 
+@Suppress("DEPRECATION")
+@Deprecated("Use resolveMediaStoreUris() and handle unresolved files explicitly.")
 fun Context.getFileUrisFromFileDirItems(fileDirItems: List<FileDirItem>): List<Uri> {
-    val fileUris = getUrisPathsFromFileDirItems(fileDirItems).second
-    if (fileUris.isEmpty()) {
-        fileDirItems.map { fileDirItem ->
-            fileUris.add(fileDirItem.assembleContentUri())
-        }
-    }
-
-    return fileUris
+    return getUrisPathsFromFileDirItems(fileDirItems).second
 }
 
 fun Context.getDefaultCopyDestinationPath(showHidden: Boolean, currentPath: String): String {

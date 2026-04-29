@@ -833,11 +833,30 @@ fun BaseSimpleActivity.deleteFilesBg(files: List<FileDirItem>, allowDeleteFolder
 
             val recycleBinPath = firstFile.isRecycleBinPath(this)
             if (canManageMedia() && !recycleBinPath && !firstFilePath.doesThisOrParentHaveNoMedia(HashMap(), null)) {
-                val fileUris = getFileUrisFromFileDirItems(files)
+                resolveMediaStoreUris(files) { resolution ->
+                    val fileUris = resolution.uris
+                    if (fileUris.isEmpty()) {
+                        ensureBackgroundThread {
+                            deleteFilesCasual(resolution.unresolved, allowDeleteFolder, callback)
+                        }
+                        return@resolveMediaStoreUris
+                    }
 
-                deleteSDK30Uris(fileUris) { success ->
-                    runOnUiThread {
-                        callback?.invoke(success)
+                    deleteSDK30Uris(fileUris) { sdk30Success ->
+                        if (!sdk30Success || resolution.unresolved.isEmpty()) {
+                            runOnUiThread {
+                                callback?.invoke(sdk30Success)
+                            }
+                            return@deleteSDK30Uris
+                        }
+
+                        ensureBackgroundThread {
+                            deleteFilesCasual(resolution.unresolved, allowDeleteFolder) { casualSuccess ->
+                                runOnUiThread {
+                                    callback?.invoke(casualSuccess)
+                                }
+                            }
+                        }
                     }
                 }
             } else {
@@ -864,10 +883,19 @@ private fun BaseSimpleActivity.deleteFilesCasual(
 
             if (index == files.lastIndex) {
                 if (isRPlus() && failedFileDirItems.isNotEmpty()) {
-                    val fileUris = getFileUrisFromFileDirItems(failedFileDirItems)
-                    deleteSDK30Uris(fileUris) { success ->
-                        runOnUiThread {
-                            callback?.invoke(success)
+                    resolveMediaStoreUris(failedFileDirItems) { resolution ->
+                        val fileUris = resolution.uris
+                        if (fileUris.isEmpty()) {
+                            runOnUiThread {
+                                callback?.invoke(false)
+                            }
+                            return@resolveMediaStoreUris
+                        }
+
+                        deleteSDK30Uris(fileUris) { success ->
+                            runOnUiThread {
+                                callback?.invoke(success)
+                            }
                         }
                     }
                 } else {
@@ -955,10 +983,19 @@ fun BaseSimpleActivity.deleteFileBg(
 }
 
 private fun BaseSimpleActivity.deleteSdk30(fileDirItem: FileDirItem, callback: ((wasSuccess: Boolean) -> Unit)?) {
-    val fileUris = getFileUrisFromFileDirItems(arrayListOf(fileDirItem))
-    deleteSDK30Uris(fileUris) { success ->
-        runOnUiThread {
-            callback?.invoke(success)
+    resolveMediaStoreUris(arrayListOf(fileDirItem)) { resolution ->
+        val fileUris = resolution.uris
+        if (fileUris.isEmpty()) {
+            runOnUiThread {
+                callback?.invoke(false)
+            }
+            return@resolveMediaStoreUris
+        }
+
+        deleteSDK30Uris(fileUris) { success ->
+            runOnUiThread {
+                callback?.invoke(success)
+            }
         }
     }
 }
@@ -1132,22 +1169,29 @@ private fun BaseSimpleActivity.renameCasually(
             if (isRenamingMultipleFiles) {
                 callback?.invoke(false, Android30RenameFormat.CONTENT_RESOLVER)
             } else {
-                val fileUris = getFileUrisFromFileDirItems(arrayListOf(File(oldPath).toFileDirItem(this)))
-                updateSDK30Uris(fileUris) { success ->
-                    if (success) {
-                        val values = ContentValues().apply {
-                            put(MediaStore.Images.Media.DISPLAY_NAME, newPath.getFilenameFromPath())
-                        }
+                resolveMediaStoreUris(arrayListOf(File(oldPath).toFileDirItem(this))) { resolution ->
+                    val fileUri = resolution.uris.firstOrNull()
+                    if (fileUri == null) {
+                        callback?.invoke(false, Android30RenameFormat.NONE)
+                        return@resolveMediaStoreUris
+                    }
 
-                        try {
-                            contentResolver.update(fileUris.first(), values, null, null)
-                            callback?.invoke(true, Android30RenameFormat.NONE)
-                        } catch (e: Exception) {
-                            showErrorToast(e)
+                    updateSDK30Uris(arrayListOf(fileUri)) { success ->
+                        if (success) {
+                            val values = ContentValues().apply {
+                                put(MediaStore.Images.Media.DISPLAY_NAME, newPath.getFilenameFromPath())
+                            }
+
+                            try {
+                                contentResolver.update(fileUri, values, null, null)
+                                callback?.invoke(true, Android30RenameFormat.NONE)
+                            } catch (e: Exception) {
+                                showErrorToast(e)
+                                callback?.invoke(false, Android30RenameFormat.NONE)
+                            }
+                        } else {
                             callback?.invoke(false, Android30RenameFormat.NONE)
                         }
-                    } else {
-                        callback?.invoke(false, Android30RenameFormat.NONE)
                     }
                 }
             }
@@ -1198,70 +1242,77 @@ private fun BaseSimpleActivity.renameCasually(
             if (isRenamingMultipleFiles) {
                 callback?.invoke(false, Android30RenameFormat.SAF)
             } else {
-                val fileUris = getFileUrisFromFileDirItems(arrayListOf(File(oldPath).toFileDirItem(this)))
-                updateSDK30Uris(fileUris) { success ->
-                    if (!success) {
-                        return@updateSDK30Uris
+                resolveMediaStoreUris(arrayListOf(File(oldPath).toFileDirItem(this))) { resolution ->
+                    val sourceUri = resolution.uris.firstOrNull()
+                    if (sourceUri == null) {
+                        callback?.invoke(false, Android30RenameFormat.NONE)
+                        return@resolveMediaStoreUris
                     }
-                    try {
-                        val sourceUri = fileUris.first()
-                        val sourceFile = File(oldPath).toFileDirItem(this)
 
-                        if (oldPath.equals(newPath, true)) {
-                            val tempDestination = try {
-                                createTempFile(File(sourceFile.path)) ?: return@updateSDK30Uris
-                            } catch (exception: Exception) {
-                                showErrorToast(exception)
-                                callback?.invoke(false, Android30RenameFormat.NONE)
-                                return@updateSDK30Uris
-                            }
-
-                            val copyTempSuccess = copySingleFileSdk30(sourceFile, tempDestination.toFileDirItem(this))
-                            if (copyTempSuccess) {
-                                contentResolver.delete(sourceUri, null)
-                                tempDestination.renameTo(File(newPath))
-                                if (!baseConfig.keepLastModified) {
-                                    newFile.setLastModified(System.currentTimeMillis())
-                                }
-                                updateInMediaStore(oldPath, newPath)
-                                scanPathsRecursively(arrayListOf(newPath)) {
-                                    runOnUiThread {
-                                        callback?.invoke(true, Android30RenameFormat.NONE)
-                                    }
-                                }
-                            } else {
-                                callback?.invoke(false, Android30RenameFormat.NONE)
-                            }
-                        } else {
-                            val destinationFile = FileDirItem(
-                                newPath,
-                                newPath.getFilenameFromPath(),
-                                sourceFile.isDirectory,
-                                sourceFile.children,
-                                sourceFile.size,
-                                sourceFile.modified
-                            )
-                            val copySuccessful = copySingleFileSdk30(sourceFile, destinationFile)
-                            if (copySuccessful) {
-                                if (!baseConfig.keepLastModified) {
-                                    newFile.setLastModified(System.currentTimeMillis())
-                                }
-                                contentResolver.delete(sourceUri, null)
-                                updateInMediaStore(oldPath, newPath)
-                                scanPathsRecursively(arrayListOf(newPath)) {
-                                    runOnUiThread {
-                                        callback?.invoke(true, Android30RenameFormat.NONE)
-                                    }
-                                }
-                            } else {
-                                toast(R.string.unknown_error_occurred)
-                                callback?.invoke(false, Android30RenameFormat.NONE)
-                            }
+                    updateSDK30Uris(arrayListOf(sourceUri)) { success ->
+                        if (!success) {
+                            callback?.invoke(false, Android30RenameFormat.NONE)
+                            return@updateSDK30Uris
                         }
 
-                    } catch (e: Exception) {
-                        showErrorToast(e)
-                        callback?.invoke(false, Android30RenameFormat.NONE)
+                        try {
+                            val sourceFile = File(oldPath).toFileDirItem(this)
+
+                            if (oldPath.equals(newPath, true)) {
+                                val tempDestination = try {
+                                    createTempFile(File(sourceFile.path)) ?: return@updateSDK30Uris
+                                } catch (exception: Exception) {
+                                    showErrorToast(exception)
+                                    callback?.invoke(false, Android30RenameFormat.NONE)
+                                    return@updateSDK30Uris
+                                }
+
+                                val copyTempSuccess = copySingleFileSdk30(sourceFile, tempDestination.toFileDirItem(this))
+                                if (copyTempSuccess) {
+                                    contentResolver.delete(sourceUri, null)
+                                    tempDestination.renameTo(File(newPath))
+                                    if (!baseConfig.keepLastModified) {
+                                        newFile.setLastModified(System.currentTimeMillis())
+                                    }
+                                    updateInMediaStore(oldPath, newPath)
+                                    scanPathsRecursively(arrayListOf(newPath)) {
+                                        runOnUiThread {
+                                            callback?.invoke(true, Android30RenameFormat.NONE)
+                                        }
+                                    }
+                                } else {
+                                    callback?.invoke(false, Android30RenameFormat.NONE)
+                                }
+                            } else {
+                                val destinationFile = FileDirItem(
+                                    newPath,
+                                    newPath.getFilenameFromPath(),
+                                    sourceFile.isDirectory,
+                                    sourceFile.children,
+                                    sourceFile.size,
+                                    sourceFile.modified
+                                )
+                                val copySuccessful = copySingleFileSdk30(sourceFile, destinationFile)
+                                if (copySuccessful) {
+                                    if (!baseConfig.keepLastModified) {
+                                        newFile.setLastModified(System.currentTimeMillis())
+                                    }
+                                    contentResolver.delete(sourceUri, null)
+                                    updateInMediaStore(oldPath, newPath)
+                                    scanPathsRecursively(arrayListOf(newPath)) {
+                                        runOnUiThread {
+                                            callback?.invoke(true, Android30RenameFormat.NONE)
+                                        }
+                                    }
+                                } else {
+                                    toast(R.string.unknown_error_occurred)
+                                    callback?.invoke(false, Android30RenameFormat.NONE)
+                                }
+                            }
+                        } catch (e: Exception) {
+                            showErrorToast(e)
+                            callback?.invoke(false, Android30RenameFormat.NONE)
+                        }
                     }
                 }
             }
@@ -1392,14 +1443,16 @@ fun BaseSimpleActivity.getFileOutputStream(fileDirItem: FileDirItem, allowCreati
         }
 
         isRestrictedWithSAFSdk30(fileDirItem.path) -> {
-            callback.invoke(
-                try {
-                    val fileUri = getFileUrisFromFileDirItems(arrayListOf(fileDirItem))
-                    applicationContext.contentResolver.openOutputStream(fileUri.first(), "wt")
-                } catch (e: Exception) {
-                    null
-                } ?: createCasualFileOutputStream(this, targetFile)
-            )
+            resolveMediaStoreUris(arrayListOf(fileDirItem)) { resolution ->
+                callback.invoke(
+                    try {
+                        val fileUri = resolution.uris.firstOrNull()
+                        fileUri?.let { applicationContext.contentResolver.openOutputStream(it, "wt") }
+                    } catch (e: Exception) {
+                        null
+                    } ?: createCasualFileOutputStream(this, targetFile)
+                )
+            }
         }
 
         else -> {
