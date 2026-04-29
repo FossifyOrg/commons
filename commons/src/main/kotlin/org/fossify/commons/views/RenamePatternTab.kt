@@ -203,7 +203,8 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
                         resolved.forEach { resolvedUri ->
                             val path = resolvedUri.fileDirItem.path
                             val uri = resolvedUri.uri
-                            val newFileName = getNewPath(path, useMediaFileExtension)?.getFilenameFromPath() ?: return@forEach
+                            val newFileName = getNewPath(path, useMediaFileExtension)
+                                ?.getFilenameFromPath() ?: return@forEach
                             when (android30Format) {
                                 Android30RenameFormat.SAF -> {
                                     val sourceFile = File(path).toFileDirItem(context)

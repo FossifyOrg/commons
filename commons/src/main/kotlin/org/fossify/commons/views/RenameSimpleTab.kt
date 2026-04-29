@@ -114,6 +114,19 @@ class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(co
         }
     }
 
+    private fun getNewFileName(path: String, appendString: Boolean, stringToAdd: String): String {
+        val fullName = path.getFilenameFromPath()
+        val dotAt = fullName.lastIndexOf(".").takeIf { it != -1 } ?: fullName.length
+        val name = fullName.substring(0, dotAt)
+        val extension = if (fullName.contains(".")) ".${fullName.getFilenameExtension()}" else ""
+
+        return if (appendString) {
+            "$name$stringToAdd$extension"
+        } else {
+            "$stringToAdd$fullName"
+        }
+    }
+
     private fun renameAllFiles(
         paths: List<String>,
         appendString: Boolean,
@@ -132,75 +145,62 @@ class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(co
 
             val resolved = resolution.resolved
             activity.updateSDK30Uris(resolution.uris) { success ->
-                if (success) {
-                    try {
-                        resolved.forEach { resolvedUri ->
-                            val path = resolvedUri.fileDirItem.path
-                            val uri = resolvedUri.uri
+                if (!success) {
+                    callback(false)
+                    return@updateSDK30Uris
+                }
 
-                            val fullName = path.getFilenameFromPath()
-                            var dotAt = fullName.lastIndexOf(".")
-                            if (dotAt == -1) {
-                                dotAt = fullName.length
-                            }
+                try {
+                    resolved.forEach { resolvedUri ->
+                        val path = resolvedUri.fileDirItem.path
+                        val uri = resolvedUri.uri
+                        val newName = getNewFileName(path, appendString, stringToAdd)
 
-                            val name = fullName.substring(0, dotAt)
-                            val extension = if (fullName.contains(".")) ".${fullName.getFilenameExtension()}" else ""
-
-                            val newName = if (appendString) {
-                                "$name$stringToAdd$extension"
-                            } else {
-                                "$stringToAdd$fullName"
-                            }
-
-                            when (android30Format) {
-                                Android30RenameFormat.SAF -> {
-                                    val sourceFile = File(path).toFileDirItem(activity)
-                                    val newPath = "${path.getParentPath()}/$newName"
-                                    val destinationFile = FileDirItem(
-                                        newPath,
-                                        newName,
-                                        sourceFile.isDirectory,
-                                        sourceFile.children,
-                                        sourceFile.size,
-                                        sourceFile.modified
-                                    )
-                                    if (activity.copySingleFileSdk30(sourceFile, destinationFile)) {
-                                        if (!activity.baseConfig.keepLastModified) {
-                                            File(newPath).setLastModified(System.currentTimeMillis())
-                                        }
-                                        activity.contentResolver.delete(uri, null)
-                                        activity.updateInMediaStore(path, newPath)
-                                        activity.scanPathsRecursively(arrayListOf(newPath))
+                        when (android30Format) {
+                            Android30RenameFormat.SAF -> {
+                                val sourceFile = File(path).toFileDirItem(activity)
+                                val newPath = "${path.getParentPath()}/$newName"
+                                val destinationFile = FileDirItem(
+                                    newPath,
+                                    newName,
+                                    sourceFile.isDirectory,
+                                    sourceFile.children,
+                                    sourceFile.size,
+                                    sourceFile.modified
+                                )
+                                if (activity.copySingleFileSdk30(sourceFile, destinationFile)) {
+                                    if (!activity.baseConfig.keepLastModified) {
+                                        File(newPath).setLastModified(System.currentTimeMillis())
                                     }
-                                }
-
-                                Android30RenameFormat.CONTENT_RESOLVER -> {
-                                    val values = ContentValues().apply {
-                                        put(MediaStore.Images.Media.DISPLAY_NAME, newName)
-                                    }
-                                    context.contentResolver.update(uri, values, null, null)
-                                }
-
-                                Android30RenameFormat.NONE -> {
-                                    activity.runOnUiThread {
-                                        callback(true)
-                                    }
-                                    return@forEach
+                                    activity.contentResolver.delete(uri, null)
+                                    activity.updateInMediaStore(path, newPath)
+                                    activity.scanPathsRecursively(arrayListOf(newPath))
                                 }
                             }
-                        }
-                        activity.runOnUiThread {
-                            callback(true)
-                        }
-                    } catch (e: Exception) {
-                        activity.runOnUiThread {
-                            activity.showErrorToast(e)
-                            callback(false)
+
+                            Android30RenameFormat.CONTENT_RESOLVER -> {
+                                val values = ContentValues().apply {
+                                    put(MediaStore.Images.Media.DISPLAY_NAME, newName)
+                                }
+                                context.contentResolver.update(uri, values, null, null)
+                            }
+
+                            Android30RenameFormat.NONE -> {
+                                activity.runOnUiThread {
+                                    callback(true)
+                                }
+                                return@forEach
+                            }
                         }
                     }
-                } else {
-                    callback(false)
+                    activity.runOnUiThread {
+                        callback(true)
+                    }
+                } catch (e: Exception) {
+                    activity.runOnUiThread {
+                        activity.showErrorToast(e)
+                        callback(false)
+                    }
                 }
             }
         }

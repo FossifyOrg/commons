@@ -987,7 +987,9 @@ fun Context.resolveMediaStoreUris(
         }
 
         val pathByKey = pathsToScan.associateBy { it.mediaStoreResolutionKey() }
-        val itemByKey = itemsToScan.distinctBy { it.path.mediaStoreResolutionKey() }.associateBy { it.path.mediaStoreResolutionKey() }
+        val itemByKey = itemsToScan
+            .distinctBy { it.path.mediaStoreResolutionKey() }
+            .associateBy { it.path.mediaStoreResolutionKey() }
         val scannedUris = ConcurrentHashMap<String, Uri>()
         val remaining = AtomicInteger(pathsToScan.size)
         val finished = AtomicBoolean(false)
@@ -1078,7 +1080,9 @@ private fun Uri.getPositiveMediaStoreId(): Long? {
     }
 }
 
-private fun Context.verifyMediaStoreUriCandidates(candidates: List<MediaStoreUriCandidate>): LinkedHashMap<String, Uri> {
+private fun Context.verifyMediaStoreUriCandidates(
+    candidates: List<MediaStoreUriCandidate>,
+): LinkedHashMap<String, Uri> {
     val resolved = LinkedHashMap<String, Uri>()
     candidates.groupBy { it.collectionUri }.forEach { (collectionUri, collectionCandidates) ->
         val existingIds = getExistingMediaStoreIds(collectionUri, collectionCandidates.map { it.id }.toSet())
@@ -1101,18 +1105,11 @@ private fun Context.getExistingMediaStoreIds(collectionUri: Uri, ids: Set<Long>)
     ids.chunked(MEDIA_STORE_QUERY_CHUNK_SIZE).forEach { chunk ->
         val selection = "${MediaColumns._ID} IN (${chunk.joinToString(",") { "?" }})"
         val selectionArgs = chunk.map { it.toString() }.toTypedArray()
-        try {
-            contentResolver.query(collectionUri, arrayOf(MediaColumns._ID), selection, selectionArgs, null)?.use { cursor ->
-                if (cursor.moveToFirst()) {
-                    do {
-                        val id = cursor.getLongValue(MediaColumns._ID)
-                        if (id > 0) {
-                            existingIds.add(id)
-                        }
-                    } while (cursor.moveToNext())
-                }
+        queryCursor(collectionUri, arrayOf(MediaColumns._ID), selection, selectionArgs) { cursor ->
+            val id = cursor.getLongValue(MediaColumns._ID)
+            if (id > 0) {
+                existingIds.add(id)
             }
-        } catch (e: Exception) {
         }
     }
 
@@ -1164,7 +1161,10 @@ fun Context.getUrisPathsFromFileDirItems(fileDirItems: List<FileDirItem>): Pair<
     return Pair(successfulFilePaths, fileUris)
 }
 
-@Deprecated("_DATA based MediaStore lookups are unreliable on scoped-storage Android versions. Use resolveMediaStoreUris().")
+@Deprecated(
+    "_DATA based MediaStore lookups are unreliable on scoped-storage Android versions. " +
+        "Use resolveMediaStoreUris()."
+)
 fun getMediaStoreIds(context: Context): HashMap<String, Long> {
     val ids = HashMap<String, Long>()
     val projection = arrayOf(

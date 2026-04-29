@@ -1267,7 +1267,10 @@ private fun BaseSimpleActivity.renameCasually(
                                     return@updateSDK30Uris
                                 }
 
-                                val copyTempSuccess = copySingleFileSdk30(sourceFile, tempDestination.toFileDirItem(this))
+                                val copyTempSuccess = copySingleFileSdk30(
+                                    sourceFile,
+                                    tempDestination.toFileDirItem(this)
+                                )
                                 if (copyTempSuccess) {
                                     contentResolver.delete(sourceUri, null)
                                     tempDestination.renameTo(File(newPath))
