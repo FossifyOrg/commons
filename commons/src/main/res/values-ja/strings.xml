@@ -159,11 +159,11 @@
     <string name="filename_invalid_characters_placeholder">ファイル名 \'%s\' に無効な文字が含まれています</string>
     <string name="extension_cannot_be_empty">拡張子は省略できません</string>
     <string name="source_file_doesnt_exist">ソースファイル %s が存在しません</string>
-    <string name="prepend_filenames">ファイル名の前に追加</string>
-    <string name="append_filenames">ファイル名の後に追加</string>
+    <string name="prepend_filenames">テキストをファイル名の前に追加</string>
+    <string name="append_filenames">テキストをファイル名の後に追加</string>
     <string name="simple_renaming">簡単な名前変更</string>
     <string name="pattern_renaming">パターン</string>
-    <string name="string_to_add">追加する文字列</string>
+    <string name="string_to_add">追加するテキスト</string>
     <string name="rename_date_time_pattern">%Y - 年\n%M - 月\n%D - 日\n%h - 時\n%m - 分\n%s - 秒\n%i - 1から増える数</string>
     <string name="filename_without_txt">ファイル名 (.txtを除く)</string>
     <string name="filename_without_json">ファイル名 (.jsonを除く)</string>
@@ -228,7 +228,7 @@
     <string name="confirm_storage_access_text">次の画面でSDカードのルートフォルダを選択して、書き込みアクセス許可を付与してください</string>
     <string name="confirm_storage_access_text_sd">SDカードの内容が表示されない場合は、こちらをお試しください</string>
     <string name="confirm_storage_access_android_text">次の画面で、下部にある [このフォルダを使用] を押して、選択したストレージへのアクセスをアプリに許可してください。</string>
-    <string name="confirm_storage_access_android_text_specific">次の画面で、下部にある [<b>このフォルダを使用</b>] を押して、 [<b>%s</b>] へのアクセスをアプリに許可してください。</string>
+    <string name="confirm_storage_access_android_text_specific">次の画面で、下部にある [&lt;b&gt;このフォルダを使用&lt;/b&gt;] を押して、 [&lt;b&gt;%s&lt;/b&gt;] へのアクセスをアプリに許可してください。</string>
     <string name="confirm_create_doc_for_new_folder_text">次の画面で、下部にある [<b>保存</b>] を押して、新しいフォルダを作成してください。</string>
     <string name="confirm_selection">選択を確認</string>
     <string name="loading">読み込み中…</string>
@@ -286,7 +286,7 @@
     <string name="use_default">デフォルトを使用</string>
     <string name="default_color">デフォルト</string>
     <string name="change_color">色を変更</string>
-    <string name="theme">テーマ</string>
+    <string name="theme">アプリテーマ</string>
     <string name="changing_color_description">色を変更すると、テーマが「カスタム」に切り替わります</string>
     <string name="save">保存</string>
     <string name="discard">破棄</string>
@@ -295,7 +295,9 @@
     <string name="cannot_be_undone">この操作は元に戻せません。</string>
     <string name="save_before_closing">保存していない変更があります。保存しますか？</string>
     <string name="global_theme_success">現在のテーマがFossifyの全アプリに適用されました。今後テーマに変更を行った場合、変更は自動的に同期されます。</string>
-    <string name="purchase_thank_you">この機能のロックを解除して開発者をサポートするには、&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;アプリを購入してください。</string>
+    <string name="purchase_thank_you"><![CDATA[
+            この機能のロックを解除して開発者をサポートするには、<a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>アプリを購入してください。
+        ]]></string>
     <string name="light_theme">ライト</string>
     <string name="dark_theme">ダーク</string>
     <string name="auto_theme">自動</string>
@@ -521,9 +523,9 @@
     <string name="during_day_at">日中 %1$02d:%2$02d</string>
     <string name="settings">設定</string>
     <string name="general_settings">全般</string>
-    <string name="color_customization">カラーカスタマイズ</string>
-    <string name="customize_colors">表示色のカスタマイズ</string>
-    <string name="customize_widget_colors">ウィジェットの色をカスタマイズ</string>
+    <string name="color_customization">ルック＆フィール</string>
+    <string name="customize_colors">表示のカスタマイズ</string>
+    <string name="customize_widget_colors">ウィジェット色のカスタマイズ</string>
     <string name="customize_notifications">通知をカスタマイズ</string>
     <string name="use_english_language">英語で表示する</string>
     <string name="language">言語</string>
@@ -548,7 +550,7 @@
     <string name="use_same_snooze">毎回同じスヌーズ時間を使用する</string>
     <string name="snooze_time">スヌーズ時間</string>
     <string name="vibrate_on_button_press">ボタンを押した時に振動する</string>
-    <string name="move_items_into_recycle_bin">削除の代わりにアイテムをごみ箱に移動する</string>
+    <string name="move_items_into_recycle_bin">削除したアイテムをごみ箱に移動する</string>
     <string name="recycle_bin_cleaning_interval">ごみ箱を自動で空にする間隔</string>
     <string name="empty_recycle_bin">ごみ箱を空にする</string>
     <string name="force_portrait_mode">縦向きモードを強制する</string>
@@ -698,13 +700,7 @@
 \n予定の移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。
 \n
 \nありがとうございます！</string>
-    <string name="upgraded_from_free_contacts">こんにちは。
-\n
-\n無料版からアップグレードされたようですね。「%s」以下に保存されている連絡先がある場合は、手動で連絡先を移行する必要があります。無料版のアプリのトップメニューから.vcfファイルにエクスポートした後に、Pro版のアプリのトップメニューから.vcfファイルをインポートしてください。
-\n
-\n連絡先の移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。
-\n
-\nありがとうございます！</string>
+    <string name="upgraded_from_free_contacts">こんにちは。 \n \n無料版からアップグレードされたようですね。「%s」以下に保存されている連絡先がある場合は、手動で連絡先を移行する必要があります。無料版のアプリのトップメニューから.vcfファイルにエクスポートした後に、Pro版のアプリのトップメニューから.vcfファイルをインポートしてください。 \n \n連絡先の移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。 \n \nありがとうございます！</string>
     <string name="upgraded_from_free_notes">こんにちは。
 \n
 \n無料版からアップグレードされたようですね。メモを移行したい場合は、手動でメモを移行する必要があります。無料版のアプリのトップメニューからメモをエクスポートした後に、Pro版のアプリのトップメニューからメモをインポートしてください。
@@ -730,7 +726,11 @@
     <string name="additional_info">追加情報</string>
     <string name="app_version">アプリバージョン: %s</string>
     <string name="device_os">デバイスOS: %s</string>
-    <string name="donate_please">こんにちは。&lt;br&gt;&lt;br&gt;アプリを楽しんでもらえているでしょうか。このアプリには広告は含まれていません。&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;アプリを購入し、開発をサポートしてください。購入すれば、このダイアログが今後表示されることはありません。 &lt;br&gt;&lt;br&gt;よろしくお願いします！</string>
+    <string name="donate_please"><![CDATA[
+            こんにちは。<br><br>
+            アプリを楽しんでもらえているでしょうか。このアプリには広告は含まれていません。<a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>アプリを購入し、開発をサポートしてください。購入すれば、このダイアログが今後表示されることはありません。<br><br>
+            よろしくお願いします！
+        ]]></string>
     <string name="purchase">購入</string>
     <string name="before_asking_question_read_faq">お問い合わせいただく前に、アプリの設定を確認し、よくある質問を見てください。答えが載っているかもしれません。</string>
     <string name="make_sure_latest">最新バージョンのアプリを利用しているかご確認ください。</string>
@@ -740,7 +740,15 @@
     <string name="thank_you">ありがとうございます</string>
     <string name="widget_locked_pro">ウィジェットはロックされています。
 \nロックを解除するには、Pro版にアップグレードしてください。</string>
-    <string name="new_app">こんにちは、&lt;br&gt;&lt;br&gt; 最近、新しいアプリをいくつかリリースしたのでお知らせします:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; アイコンかタイトルをタップするだけでダウンロードできます。&lt;br&gt;&lt;br&gt; ありがとうございます</string>
+    <string name="new_app"><![CDATA[
+            こんにちは、<br><br>
+            最近、新しいアプリをいくつかリリースしたのでお知らせします:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            アイコンかタイトルをタップするだけでダウンロードできます。<br><br>
+            ありがとうございます
+        ]]></string>
     <string name="app_launcher_short">アプリランチャー</string>
     <string name="calculator_short">電卓</string>
     <string name="calendar_short">カレンダー</string>
@@ -877,7 +885,7 @@
     <string name="translation_danish">デンマーク語</string>
     <string name="translation_english">英語</string>
     <string name="unblock_contact_success">連絡先のブロックを解除しました</string>
-    <string name="apply_to_all_apps">色を全てのFossifyアプリに適用</string>
+    <string name="apply_to_all_apps">テーマを全てのFossifyアプリに適用</string>
     <string name="add_password">パスワードを追加</string>
     <string name="translation_bengali">ベンガル語</string>
     <string name="translation_german">ドイツ語</string>
@@ -994,7 +1002,10 @@
     <string name="translation_lithuanian">リトアニア語</string>
     <string name="translation_nepali">ネパール語</string>
     <string name="why_upgrade_many_other_improvements">その他多くの改善</string>
-    <string name="faq_2_text_commons">はい、もちろんです。アプリについて広めたり、良いフィードバックと評価を行ったり、または翻訳に参加したりしていただけます。翻訳のガイドは&lt;a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file&gt;このウェブサイト&lt;/a&gt;にあります。質問があれば、&lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt;までご連絡ください。</string>
+    <string name="faq_2_text_commons"><![CDATA[
+            はい、もちろんです。アプリについて広めたり、良いフィードバックと評価を行ったり、または翻訳に参加したりしていただけます。
+            翻訳のガイドは<a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>このウェブサイト</a>にあります。質問があれば、<a href=mailto:hello@fossify.org>hello@fossify.org</a>までご連絡ください。
+        ]]></string>
     <string name="date_time_pattern_info">以下の変数を使ってファイルの名前を自動的に設定できます。
 \n
 \n%Y - 年
@@ -1030,4 +1041,21 @@
     <string name="on_contact_click">連絡先をタップ</string>
     <string name="call_contact">連絡先に発信</string>
     <string name="view_contact">連絡先の詳細を表示</string>
+    <string name="confirm_storage_access_restricted_text">システムの制約で、このフォルダーは使用できません。</string>
+    <string name="confirm_storage_access_restricted_text_open_system">システムのアプリで開く</string>
+    <string name="confirm_storage_access_restricted_text_not_found">システムのファイルマネージャーアプリが見つかりません。</string>
+    <string name="number_of_items">アイテムの数</string>
+    <string name="reorder_items_by_dragging">ドラッグしてアイテムを並び替え</string>
+    <string name="days_letter">%d日</string>
+    <string name="requires_fossify_thank_you">Fossify Thank Youが必要です</string>
+    <string name="enables_more_customization">よりカスタマイズできるようになります</string>
+    <string name="font">フォント</string>
+    <string name="app_font">アプリのフォント</string>
+    <string name="font_monospace">Monospace</string>
+    <string name="select_font_file">フォントファイルを選択…</string>
+    <string name="invalid_font_file">無効なフォントファイルです</string>
+    <string name="known_issues">既知の問題</string>
+    <string name="more_fossify_apps">他のFossifyアプリ</string>
+    <string name="badge_deprecated">(廃止予定)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
 </resources>
