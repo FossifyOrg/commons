@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="cancel">Mégse</string>
-    <string name="close">Bezárás</string>
+    <string name="close">Bezár</string>
     <string name="back">Vissza</string>
     <string name="nothing">Semmi</string>
     <string name="later">Később</string>
@@ -118,7 +118,7 @@
     <string name="must_make_default_dialer">A letiltott telefonszámok használatához be kell állítani, hogy ez az alkalmazás legyen az alapértelmezett tárcsázó.</string>
     <string name="set_as_default">Beállítás alapértelmezettként</string>
     <string name="block_confirmation">Biztos, hogy letiltja a következőt: „%s”?</string>
-    <string name="block_unknown_calls">Nem tárolt névjegyektől érkező hívások tiltása</string>
+    <string name="block_unknown_calls">Ismeretlenektől érkező hívások tiltása</string>
     <string name="block_hidden_calls">Rejtett számokról érkező hívások tiltása</string>
     <string name="block_unknown_messages">Nem tárolt névjegyektől érkező üzenetek tiltása</string>
     <string name="block_hidden_messages">Rejtett számok üzeneteinek tiltása</string>
@@ -603,8 +603,8 @@
     <string name="during_day_at">Napközben ekkor: %1$02d:%2$02d</string>
     <string name="settings">Beállítások</string>
     <string name="general_settings">Általános</string>
-    <string name="color_customization">Színek testreszabása</string>
-    <string name="customize_colors">Színek testreszabása</string>
+    <string name="color_customization">Megjelenés és kezelhetőség</string>
+    <string name="customize_colors">Megjelenés testreszabása</string>
     <string name="feature_locked">Zárolt</string>
     <string name="customize_widget_colors">Modulszínek testreszabása</string>
     <string name="customize_notifications">Értesítések testreszabása</string>
@@ -632,7 +632,7 @@
     <string name="use_same_snooze">Mindig ugyanazt a szundi időt használja</string>
     <string name="snooze_time">Szundi ideje</string>
     <string name="vibrate_on_button_press">Rezgés gombnyomáskor</string>
-    <string name="move_items_into_recycle_bin">Törlés helyett az elemek a Lomtárba helyezése</string>
+    <string name="move_items_into_recycle_bin">Törlendő elemek Lomtár-ba helyezése</string>
     <string name="recycle_bin_cleaning_interval">Lomtár ürítési intervallum</string>
     <string name="empty_recycle_bin">Lomtár ürítése</string>
     <string name="force_portrait_mode">Álló mód kényszerítése</string>
@@ -681,7 +681,7 @@
     <string name="files_restored_successfully">A fájlok sikeresen helyreállítva</string>
     <string name="empty_recycle_bin_confirmation">Biztos, hogy üríti a Lomtárat? A fájlok véglegesen elvesznek.</string>
     <string name="recycle_bin_empty">A Lomtár üres</string>
-    <string name="moving_recycle_bin_items_disabled">A lomtárelemek áthelyezése le van tiltva, használja a Helyreállítás lehetőséget</string>
+    <string name="moving_recycle_bin_items_disabled">A lomtárelemek áthelyezése le van tiltva, használja a Helyreállítás lehetőséget.</string>
     <string name="show_the_recycle_bin">Lomtár megjelenítése</string>
     <string name="hide_the_recycle_bin">Lomtár elrejtése</string>
     <string name="open_the_recycle_bin">Lomtár megnyitása</string>
@@ -881,7 +881,7 @@
     <string name="faq_4_title_commons">Nem tetszik a modul színe, meg tudom változtatni őket\?</string>
     <string name="faq_4_text_commons">Igen, amikor egy modult futtat a kezdőképernyőn, akkor megjelenik a modulbeállító képernyő. A bal alsó sarokban színes négyzetek láthatók, csak nyomja meg az egyiket, és új színt választhat. Használhatja a csúszkát az alfa beállításához is.</string>
     <string name="faq_5_title_commons">Helyre tudom állítani a törölt fájlokat\?</string>
-    <string name="faq_5_text_commons">Ha valóban törölve lettek, akkor nem. Viszont alapértelmezetten be van kapcsolva a Lomtár, így a törölt fájlok egyszerűen a Lomtárba kerülnek ahelyett, hogy ténylegesen törlődnének.</string>
+    <string name="faq_5_text_commons">Ha valóban törölve lettek, akkor nem lehet visszaállítani. Viszont alapértelmezetten be van kapcsolva a Lomtár, így a törölt fájlok egyszerűen a Lomtárba kerülnek ahelyett, hogy ténylegesen törlődnének.</string>
     <string name="faq_6_title_commons">Az alkalmazásindító ikon eltűnt. Mit tehetek?</string>
     <string name="faq_7_title_commons">A pénzt levonták a bankszámlámról, de mégsem tudom letölteni az alkalmazást. Mit tehetek\?</string>
     <string name="faq_7_text_commons">A fizetéseket teljesen a Google kezeli, és néha problémák vannak a rendszerükkel. Csak törölje a Google Play alkalmazása gyorsítótárát és indítsa újra az eszközé, majd próbálja újra letölteni.</string>
@@ -1088,8 +1088,8 @@
     <string name="confirm_storage_access_restricted_text">A rendszer megkötései miatt ez a mappa nem elérhető.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Megnyitás rendszeralkalmazásban</string>
     <string name="confirm_storage_access_restricted_text_not_found">Nem található rendszerfájl-kezelő alkalmazás.</string>
-    <string name="number_of_items">Darabszám</string>
-    <string name="reorder_items_by_dragging">Elemek átrendezése húzással</string>
+    <string name="number_of_items">Elemek száma</string>
+    <string name="reorder_items_by_dragging">Elemek újrarendezése kézzel</string>
     <string name="requires_fossify_thank_you">Fossify Köszönet szükséges hozzá</string>
     <string name="more_fossify_apps">Még több Fossify alkalmazás</string>
     <string name="rate_this_app">Értékeld az alkalmazást</string>

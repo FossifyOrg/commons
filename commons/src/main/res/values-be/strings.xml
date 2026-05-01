@@ -989,4 +989,5 @@
     <string name="on_contact_click">Пры націсканні на кантакт</string>
     <string name="call_contact">Тэлефанаваць кантакту</string>
     <string name="view_contact">Паказваць звесткі аб кантакце</string>
+    <string name="format_phone_numbers">Фармаціраваць нумары тэлефонаў</string>
 </resources>
