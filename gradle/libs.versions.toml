@@ -43,7 +43,7 @@ ezVcard = "0.12.2"
 #gson
 gson = "2.14.0"
 #jodaTime
-jodaTime = "2.14.1"
+jodaTime = "2.14.2"
 #Gradle
 gradlePlugins-agp = "9.2.0"
 #build
