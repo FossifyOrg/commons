@@ -72,7 +72,7 @@
     <string name="choose_file">Fájl kiválasztása</string>
     <string name="record_audio">Hang felvétele</string>
     <string name="record_video">Videó felvétele</string>
-    <string name="updating">Módosítás…</string>
+    <string name="updating">Aktualizálás…</string>
     <string name="phone_storage">Telefon tárhelye</string>
     <string name="phone_storage_hidden">Telefon tárhelye (többi alkalmazás számára nem látható)</string>
     <string name="scanning">Szkennelés…</string>
@@ -631,7 +631,7 @@
     <string name="widgets">Modulok</string>
     <string name="use_same_snooze">Mindig ugyanazt a szundi időt használja</string>
     <string name="snooze_time">Szundi ideje</string>
-    <string name="vibrate_on_button_press">Rezgés gombnyomáskor</string>
+    <string name="vibrate_on_button_press">Rezgés koppintáskor</string>
     <string name="move_items_into_recycle_bin">Törlendő elemek Lomtár-ba helyezése</string>
     <string name="recycle_bin_cleaning_interval">Lomtár ürítési intervallum</string>
     <string name="empty_recycle_bin">Lomtár ürítése</string>
@@ -1099,7 +1099,7 @@
     <string name="call_contact">Telefonhívás indítása</string>
     <string name="view_contact">Névjegy részleteinek megjelenítése</string>
     <plurals name="files_saved">
-        <item quantity="one">Fájl sikeres mentése</item>
+        <item quantity="one">Fájl sikeresen mentve</item>
         <item quantity="other">Fájlok sikeres mentése</item>
     </plurals>
     <string name="days_letter">%dn</string>
