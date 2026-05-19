@@ -12,13 +12,13 @@
     <string name="out_of_memory_error">Erreur : mémoire insuffisante</string>
     <string name="an_error_occurred">Une erreur s\'est produite : %s</string>
     <string name="error">Erreur : %s</string>
-    <string name="open_with">Ouvrir avec...</string>
+    <string name="open_with">Ouvrir avec</string>
     <string name="edit_with">Modifier avec</string>
     <string name="edit">Modifier</string>
     <string name="no_app_found">Aucune application valide n\'a été trouvée</string>
     <string name="no_browser_found">Aucun navigateur n\'a été trouvé</string>
     <string name="no_email_client_found">Aucun client de messagerie n\'a été trouvé</string>
-    <string name="set_as">Définir en tant que...</string>
+    <string name="set_as">Définir en tant que</string>
     <string name="copy_to_clipboard">Copier dans le presse-papiers</string>
     <string name="copy_number_to_clipboard">Copier le numéro dans le presse-papiers</string>
     <string name="value_copied_to_clipboard">Valeur copiée dans le presse-papiers</string>
@@ -207,8 +207,8 @@
     <string name="copy">Copier</string>
     <string name="move">Déplacer</string>
     <string name="copy_move">Copier/Déplacer</string>
-    <string name="copy_to">Copier vers...</string>
-    <string name="move_to">Déplacer vers...</string>
+    <string name="copy_to">Copier vers</string>
+    <string name="move_to">Déplacer vers</string>
     <string name="select_destination">Sélectionner la destination</string>
     <string name="click_select_destination">Appuyez ici pour sélectionner la destination</string>
     <string name="invalid_destination">Impossible d\'écrire dans la destination sélectionnée</string>
@@ -713,7 +713,7 @@
     <string name="files_restored_successfully">Restauration des fichiers réussie</string>
     <string name="empty_recycle_bin_confirmation">Voulez-vous vraiment vider la corbeille ? Les fichiers seront irrécupérables.</string>
     <string name="recycle_bin_empty">La corbeille est vide</string>
-    <string name="moving_recycle_bin_items_disabled">Le déplacement des éléments de la corbeille est désactivé. Veuillez utiliser la fonction de restauration</string>
+    <string name="moving_recycle_bin_items_disabled">Le déplacement des éléments de la corbeille est désactivé. Veuillez utiliser la fonction de restauration.</string>
     <string name="show_the_recycle_bin">Afficher la corbeille</string>
     <string name="hide_the_recycle_bin">Cacher la corbeille</string>
     <string name="open_the_recycle_bin">Ouvrir la corbeille</string>
