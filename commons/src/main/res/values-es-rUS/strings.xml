@@ -4,4 +4,5 @@
     <string name="cancel">Cancelar</string>
     <string name="edit">Editar</string>
     <string name="close">Cerrar</string>
+    <string name="vibrate_on_button_press">Vibrar al pulsar el botón</string>
 </resources>
