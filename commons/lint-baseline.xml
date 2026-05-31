@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<issues format="6" by="lint 9.1.0" type="baseline" client="gradle" dependencies="false" name="AGP (9.1.0)" variant="all" version="9.1.0">
+<issues format="6" by="lint 9.2.0" type="baseline" client="gradle" dependencies="false" name="AGP (9.2.0)" variant="all" version="9.2.0">
 
     <issue
         id="ResourceCycle"
@@ -184,6 +184,17 @@
     </issue>
 
     <issue
+        id="OldTargetApi"
+        message="Not targeting the latest versions of Android; compatibility modes apply. Consider testing and updating this version. Consult the `android.os.Build.VERSION_CODES` javadoc for details."
+        errorLine1="app-build-targetSDK = &quot;36&quot;"
+        errorLine2="                      ~~~~">
+        <location
+            file="$HOME/work/commons/commons/gradle/libs.versions.toml"
+            line="51"
+            column="23"/>
+    </issue>
+
+    <issue
         id="SdCardPath"
         message="Do not hardcode &quot;/sdcard/&quot;; use `Environment.getExternalStorageDirectory().getPath()` instead"
         errorLine1="    &quot;/mnt/extsdcard&quot;, &quot;/mnt/sdcard/external_sd&quot;, // Samsung galaxy family"
@@ -316,6 +327,17 @@
     </issue>
 
     <issue
+        id="AndroidGradlePluginVersion"
+        message="A newer version of Gradle than 9.4.1 is available: 9.5.0"
+        errorLine1="distributionUrl=https\://services.gradle.org/distributions/gradle-9.4.1-bin.zip"
+        errorLine2="                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="$HOME/work/commons/commons/gradle/wrapper/gradle-wrapper.properties"
+            line="3"
+            column="17"/>
+    </issue>
+
+    <issue
         id="AppCompatCustomView"
         message="This custom view should extend `androidx.appcompat.widget.AppCompatAutoCompleteTextView` instead"
         errorLine1="open class MyAutoCompleteTextView : AutoCompleteTextView {"
@@ -361,7 +383,18 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.animation:animation than 1.7.6 is available: 1.10.6"
+        message="A newer version of `compileSdk` than 36 is available: 37"
+        errorLine1="    compileSdk = libs.versions.app.build.compileSDKVersion.get().toInt()"
+        errorLine2="    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~">
+        <location
+            file="build.gradle.kts"
+            line="20"
+            column="5"/>
+    </issue>
+
+    <issue
+        id="GradleDependency"
+        message="A newer version of androidx.compose.animation:animation than 1.7.6 is available: 1.11.0"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -372,7 +405,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.material:material than 1.7.6 is available: 1.10.6"
+        message="A newer version of androidx.compose.material:material than 1.7.6 is available: 1.11.0"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -394,7 +427,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.runtime:runtime than 1.7.6 is available: 1.10.6"
+        message="A newer version of androidx.compose.runtime:runtime than 1.7.6 is available: 1.11.0"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -405,7 +438,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.ui:ui than 1.7.6 is available: 1.10.6"
+        message="A newer version of androidx.compose.ui:ui than 1.7.6 is available: 1.11.0"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -416,7 +449,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.ui:ui-tooling than 1.7.6 is available: 1.10.6"
+        message="A newer version of androidx.compose.ui:ui-tooling than 1.7.6 is available: 1.11.0"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -427,7 +460,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.ui:ui-tooling-preview than 1.7.6 is available: 1.10.6"
+        message="A newer version of androidx.compose.ui:ui-tooling-preview than 1.7.6 is available: 1.11.0"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -438,7 +471,7 @@
 
     <issue
         id="GradleDependency"
-        message="A newer version of androidx.compose.ui:ui-viewbinding than 1.7.6 is available: 1.10.6"
+        message="A newer version of androidx.compose.ui:ui-viewbinding than 1.7.6 is available: 1.11.0"
         errorLine1="compose = &quot;1.7.6&quot;"
         errorLine2="          ~~~~~~~">
         <location
@@ -459,8 +492,19 @@
     </issue>
 
     <issue
+        id="GradleDependency"
+        message="A newer version of `app-build-compileSDKVersion` than 36 is available: 37"
+        errorLine1="app-build-compileSDKVersion = &quot;36&quot;"
+        errorLine2="                              ~~~~">
+        <location
+            file="$HOME/work/commons/commons/gradle/libs.versions.toml"
+            line="50"
+            column="31"/>
+    </issue>
+
+    <issue
         id="NewerVersionAvailable"
-        message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.3.10 is available: 2.3.20"
+        message="A newer version of org.jetbrains.kotlin.plugin.compose than 2.3.10 is available: 2.3.21"
         errorLine1="kotlin = &quot;2.3.10&quot;"
         errorLine2="         ~~~~~~~~">
         <location
@@ -471,7 +515,7 @@
 
     <issue
         id="NewerVersionAvailable"
-        message="A newer version of org.jetbrains.kotlin.plugin.parcelize than 2.3.10 is available: 2.3.20"
+        message="A newer version of org.jetbrains.kotlin.plugin.parcelize than 2.3.10 is available: 2.3.21"
         errorLine1="kotlin = &quot;2.3.10&quot;"
         errorLine2="         ~~~~~~~~">
         <location
@@ -482,7 +526,7 @@
 
     <issue
         id="NewerVersionAvailable"
-        message="A newer version of org.jetbrains.kotlin.plugin.serialization than 2.3.10 is available: 2.3.20"
+        message="A newer version of org.jetbrains.kotlin.plugin.serialization than 2.3.10 is available: 2.3.21"
         errorLine1="kotlin = &quot;2.3.10&quot;"
         errorLine2="         ~~~~~~~~">
         <location
@@ -493,13 +537,24 @@
 
     <issue
         id="NewerVersionAvailable"
-        message="A newer version of io.nlopez.compose.rules:detekt than 0.4.28 is available: 0.5.6"
+        message="A newer version of io.nlopez.compose.rules:detekt than 0.4.28 is available: 0.5.8"
         errorLine1="detektCompose = &quot;0.4.28&quot;"
         errorLine2="                ~~~~~~~~">
         <location
             file="$HOME/work/commons/commons/gradle/libs.versions.toml"
             line="10"
             column="17"/>
+    </issue>
+
+    <issue
+        id="NewerVersionAvailable"
+        message="A newer version of joda-time:joda-time than 2.14.1 is available: 2.14.2"
+        errorLine1="jodaTime = &quot;2.14.1&quot;"
+        errorLine2="           ~~~~~~~~">
+        <location
+            file="$HOME/work/commons/commons/gradle/libs.versions.toml"
+            line="46"
+            column="12"/>
     </issue>
 
     <issue
