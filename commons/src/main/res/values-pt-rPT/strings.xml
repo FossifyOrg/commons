@@ -4,7 +4,7 @@
     <string name="excluded">(excluído)</string>
     <string name="search_groups">Pesquisar grupos</string>
     <string name="phone_storage">Armazenamento do telefone</string>
-    <string name="phone_storage_hidden">Armazenamento do telefone (não visível por outros aplicativos)</string>
+    <string name="phone_storage_hidden">Armazenamento do telefone (não visível por outras aplicações)</string>
     <string name="audio">Áudio</string>
     <string name="updating">Atualizando…</string>
     <string name="search_contacts">Pesquisar contatos</string>
@@ -583,7 +583,7 @@
     <string name="friday">Sexta-feira</string>
     <string name="saturday">Sábado</string>
     <string name="sunday">Domingo</string>
-    <string name="monday_letter">S</string>
+    <string name="monday_letter">M</string>
     <string name="thursday_short">Qui</string>
     <string name="sunday_short">Dom</string>
     <string name="upgrade_to_pro_long">A versão do seu aplicativo não será mais atualizada. Atualize para a versão Pro para receber novas correções e outras melhorias.</string>
@@ -878,7 +878,7 @@
     <string name="april">Abril</string>
     <string name="in_november">em Novembro</string>
     <string name="thursday_letter">Q</string>
-    <string name="friday_letter">S</string>
+    <string name="friday_letter">F</string>
     <string name="saturday_letter">S</string>
     <string name="sunday_letter">D</string>
     <string name="monday_short">Seg</string>
@@ -1047,10 +1047,10 @@ Sim, claro. Pode espalhar a informação sobre as apps ou dar um bom feedback e 
 O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
 ]]></string>
     <string name="contributors_label"><![CDATA[
-Esta lista contém todos que ajudaram visivelmente qualquer app dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,
-nos avise se também quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
-Obrigado a todos os contribuidores e outros apoiadores!
-]]></string>
+            Esta lista contém todos que ajudaram visivelmente qualquer app dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,
+            avise-nos se também quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
+            Obrigado a todos os contribuidores e outros apoiadores!
+        ]]></string>
     <string name="translation_chuvash">Chuvache</string>
     <string name="allow_alarm_scheduled_messages">Deve permitir que a app acede alarmes internos, caso contrário ele não poderá enviar mensagens programadas.</string>
     <string name="allow_alarm_sleep_timer">Deve permitir que a app acede os alarmes internos, caso contrário, não poderá desligar a app após o temporizador de suspensão.</string>
@@ -1080,7 +1080,7 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <plurals name="files_saved">
         <item quantity="one">Ficheiro guardado com sucesso</item>
         <item quantity="many">Ficheiros guardados com sucesso</item>
-        <item quantity="other"/>
+        <item quantity="other">Ficheiros guardados com sucesso</item>
     </plurals>
     <string name="confirm_storage_access_restricted_text">Devido a restrições do sistema, esta pasta não está disponível.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Abrir na aplicação do sistema</string>
@@ -1088,7 +1088,7 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <string name="requires_fossify_thank_you">Requer Agradecimento Fossify</string>
     <string name="enables_more_customization">Permite mais personalização</string>
     <string name="font">Fonte</string>
-    <string name="app_font">Fonte da app</string>
+    <string name="app_font">Fonte da aplicação</string>
     <string name="font_monospace">Monoespaçada</string>
     <string name="select_font_file">Selecione o ficheiro da fonte…</string>
     <string name="invalid_font_file">Ficheiro de fonte inválido</string>
