@@ -20,7 +20,7 @@ androidx-coreKtx = "1.18.0"
 androidx-appcompat = "1.7.1"
 androidx-swiperefreshlayout = "1.2.0"
 #Material
-material = "1.13.0"
+material = "1.14.0"
 #patternLockView
 patternLockView = "a90b0d4bf0"
 #reprint
