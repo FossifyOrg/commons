@@ -344,7 +344,7 @@
     <string name="black_white">Must-valge</string>
     <string name="custom">Kohandatud</string>
     <string name="shared">Jagatud</string>
-    <string name="system_default">Süsteemi vaikimisi teema</string>
+    <string name="system_default">Süsteemi vaikeseadistus</string>
     <string name="whats_new">Mida on meil uut</string>
     <string name="whats_new_disclaimer">* siin on kirjas vaid suuremad muudatused, kuid alati oleme teinud ka pisikohendusi</string>
     <string name="delete">Kustuta</string>
@@ -627,7 +627,7 @@
     <string name="use_same_snooze">Alati kasuta sama tukastamise aega</string>
     <string name="snooze_time">Tukastamise aeg</string>
     <string name="vibrate_on_button_press">Nupuvajutusel vibreeri</string>
-    <string name="move_items_into_recycle_bin">Viska failid või objektid prügikasti</string>
+    <string name="move_items_into_recycle_bin">Viska failid või kirjed prügikasti</string>
     <string name="recycle_bin_cleaning_interval">Prügikasti tühjendamise välp</string>
     <string name="empty_recycle_bin">Tühjenda prügikast</string>
     <string name="force_portrait_mode">Kasuta ainult püstvaadet</string>
@@ -1073,7 +1073,7 @@
     <string name="all_fossify_apps">Kõik Fossify rakendused</string>
     <string name="known_issues">Teadaolevad vead</string>
     <string name="translation_kabyle">kabiili keel</string>
-    <string name="number_of_items">Objektide arv</string>
+    <string name="number_of_items">Kirjete arv</string>
     <string name="reorder_items_by_dragging">Muuda järjestust lohistades</string>
     <string name="days_letter">%dp</string>
     <string name="confirm_storage_access_restricted_text">Süsteemi piirangute tõttu pole see kaust saadaval.</string>
