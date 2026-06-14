@@ -4,6 +4,7 @@ import android.content.Context
 import android.content.res.ColorStateList
 import android.graphics.drawable.GradientDrawable
 import android.graphics.drawable.RippleDrawable
+import android.net.Uri
 import android.util.AttributeSet
 import android.util.TypedValue
 import android.view.LayoutInflater
@@ -16,6 +17,7 @@ import androidx.core.view.updatePadding
 import androidx.core.widget.TextViewCompat
 import org.fossify.commons.R
 import org.fossify.commons.databinding.ItemBreadcrumbBinding
+import org.fossify.commons.enums.ConnectionTypes
 import org.fossify.commons.extensions.adjustAlpha
 import org.fossify.commons.extensions.getBasePath
 import org.fossify.commons.extensions.getDialogBackgroundColor
@@ -26,6 +28,7 @@ import org.fossify.commons.extensions.onGlobalLayout
 import org.fossify.commons.extensions.setDrawablesRelativeWithIntrinsicBounds
 import org.fossify.commons.helpers.MEDIUM_ALPHA
 import org.fossify.commons.models.FileDirItem
+import androidx.core.net.toUri
 
 class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(context, attrs) {
     private val inflater =
@@ -40,7 +43,7 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
     private var isFirstScroll = true
     private var stickyRootInitialLeft = 0
     private var rootStartPadding = 0
-
+    val breadcrumbNames = LinkedHashMap<String, String?>()
     private val textColorStateList: ColorStateList
         get() = ColorStateList(
             arrayOf(intArrayOf(android.R.attr.state_activated), intArrayOf()),
@@ -151,14 +154,29 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
         super.requestLayout()
     }
 
-    fun setBreadcrumb(fullPath: String) {
+    fun setBreadcrumb(fullPath: String, connectionType: ConnectionTypes = ConnectionTypes.Default) {
         lastPath = fullPath
         val basePath = fullPath.getBasePath(context)
         var currPath = basePath
-        val tempPath = context.humanizePath(fullPath)
+        val tempPath = if (connectionType != ConnectionTypes.WebDav && connectionType != ConnectionTypes.SMB) context.humanizePath(fullPath) else lastPath
 
         itemsLayout.removeAllViews()
-        tempPath.split("/")
+        var pathSegments = mutableListOf<String>()
+        if(connectionType == ConnectionTypes.WebDav || connectionType == ConnectionTypes.SMB) {
+            val uri = tempPath.toUri()
+            val baseUrl = "${uri.scheme}://${uri.host}:${uri.port}"
+            pathSegments.add(baseUrl)
+            pathSegments.addAll(uri.pathSegments)
+        }
+
+        else if (connectionType == ConnectionTypes.DAVx5){
+            pathSegments.add(lastPath)
+        }
+        else {
+            pathSegments = tempPath.split("/").toMutableList()
+        }
+
+        pathSegments
             .dropLastWhile(String::isEmpty)
             .forEachIndexed { i, dir ->
                 if (i > 0) {
@@ -167,8 +185,8 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
                 if (dir.isEmpty()) {
                     return@forEachIndexed
                 }
-                currPath = "${currPath.trimEnd('/')}/"
-                val item = FileDirItem(currPath, dir, true, 0, 0, 0)
+                currPath = if (connectionType != ConnectionTypes.WebDav && connectionType != ConnectionTypes.SMB) "${currPath.trimEnd('/')}/" else dir
+                val item = FileDirItem(currPath, dir, true, 0, 0, 0, connectionType = connectionType)
                 addBreadcrumb(
                     item = item,
                     index = i,
@@ -178,7 +196,31 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
             }
     }
 
-    private fun addBreadcrumb(item: FileDirItem, index: Int, isLast: Boolean) {
+    fun setBreadcrumbWithName(fullPath: String, name: String?,connectionType: ConnectionTypes) {
+        if (fullPath == "") return
+        lastPath = fullPath
+        if (!breadcrumbNames.containsKey(fullPath)){
+            breadcrumbNames[fullPath] = name
+        }
+        else{
+            breadcrumbNames.removeAfter(fullPath)
+        }
+        itemsLayout.removeAllViews()
+
+        breadcrumbNames.entries.forEachIndexed { i, entry ->
+            entry.value?.let {
+                val item = FileDirItem(entry.key, it, true, 0, 0, 0, connectionType = connectionType)
+                addBreadcrumb(
+                    item = item,
+                    index = i,
+                    isLast = item.path.trimEnd('/') == lastPath.trimEnd('/')
+                )
+                scrollToSelectedItem()
+            }
+        }
+    }
+
+    public fun addBreadcrumb(item: FileDirItem, index: Int, isLast: Boolean) {
         ItemBreadcrumbBinding.inflate(inflater, itemsLayout, false).apply {
             breadcrumbText.isActivated = isLast && index != 0
 
@@ -230,15 +272,15 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
             }
     }
 
-    fun updateColor(color: Int) {
+    fun updateColor(color: Int,connectionType: ConnectionTypes = ConnectionTypes.Default) {
         textColor = color
-        setBreadcrumb(lastPath)
+        setBreadcrumb(lastPath,connectionType)
     }
 
-    fun updateFontSize(size: Float, updateTexts: Boolean) {
+    fun updateFontSize(size: Float, updateTexts: Boolean,connectionType: ConnectionTypes = ConnectionTypes.Default) {
         fontSize = size
         if (updateTexts) {
-            setBreadcrumb(lastPath)
+            setBreadcrumb(lastPath, connectionType = connectionType)
         }
     }
 
@@ -251,6 +293,29 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
     fun getLastItem() = itemsLayout.getChildAt(itemsLayout.childCount - 1).tag as FileDirItem
 
     fun getItemCount() = itemsLayout.childCount
+
+    fun getItemsTillIndex(index: Int): List<FileDirItem>{
+        return (0..index).mapNotNull { index ->
+            itemsLayout.getChildAt(index).tag as? FileDirItem
+        }
+    }
+
+    fun getAllItems(): List<FileDirItem> {
+        return (0 until itemsLayout.childCount).mapNotNull { index ->
+            itemsLayout.getChildAt(index).tag as? FileDirItem
+        }
+    }
+
+    fun <K, V> LinkedHashMap<K, V>.removeAfter(key: K) {
+        val index = breadcrumbNames.keys.indexOf(key as String)
+        if (index != -1) {
+            val keysToRemove = breadcrumbNames.keys.drop(index + 1)
+
+            for (key in keysToRemove) {
+                breadcrumbNames.remove(key)
+            }
+        }
+    }
 
     interface BreadcrumbsListener {
         fun breadcrumbClicked(id: Int)
