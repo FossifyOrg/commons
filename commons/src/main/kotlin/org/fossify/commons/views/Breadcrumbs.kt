@@ -158,8 +158,14 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
         lastPath = fullPath
         val basePath = fullPath.getBasePath(context)
         var currPath = basePath
-        val tempPath = if (connectionType != ConnectionTypes.WebDav && connectionType != ConnectionTypes.SMB) context.humanizePath(fullPath) else lastPath
-
+        val tempPath = if (
+            connectionType != ConnectionTypes.WebDav &&
+            connectionType != ConnectionTypes.SMB
+        ) {
+            context.humanizePath(fullPath)
+        } else {
+            lastPath
+        }
         itemsLayout.removeAllViews()
         var pathSegments = mutableListOf<String>()
         if(connectionType == ConnectionTypes.WebDav || connectionType == ConnectionTypes.SMB) {
@@ -185,7 +191,11 @@ class Breadcrumbs(context: Context, attrs: AttributeSet) : HorizontalScrollView(
                 if (dir.isEmpty()) {
                     return@forEachIndexed
                 }
-                currPath = if (connectionType != ConnectionTypes.WebDav && connectionType != ConnectionTypes.SMB) "${currPath.trimEnd('/')}/" else dir
+                currPath = if (connectionType != ConnectionTypes.WebDav && connectionType != ConnectionTypes.SMB) {
+                    "${currPath.trimEnd('/')}/"
+                }
+                else
+                {dir}
                 val item = FileDirItem(currPath, dir, true, 0, 0, 0, connectionType = connectionType)
                 addBreadcrumb(
                     item = item,
