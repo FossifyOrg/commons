@@ -118,9 +118,9 @@
     <string name="must_make_default_dialer">Pre použitie blokovania čísel musíte nastaviť aplikáciu ako predvolenú pre správu hovorov.</string>
     <string name="set_as_default">Nastaviť ako predvolenú</string>
     <string name="block_confirmation">Ste si istý, že chcete zablokovať \"%s\"?</string>
-    <string name="block_unknown_calls">Blokovať volania od neuložených kontaktov</string>
+    <string name="block_unknown_calls">Blokovať volania od neznámych čísiel a čísiel neuložených v kontaktoch</string>
     <string name="block_hidden_calls">Blokovať volania od skrytých čísel</string>
-    <string name="block_unknown_messages">Blokovať správy od neuložených kontaktov</string>
+    <string name="block_unknown_messages">Blokovať správy od neznámych a neuložených kontaktov</string>
     <string name="block_hidden_messages">Blokovať správy od skrytých čísel</string>
     <string name="add_blocked_number_helper_text">Zadajte číslo, alebo vzor (napr. *12345*, +421*8888) pre blokovanie hovorov a správ z čísel, ktoré spadajú pod daný vzor.</string>
     <string name="must_make_default_caller_id_app">Nedá sa blokovať neznáme čísla bez prístupu ku správe ID.</string>
@@ -191,11 +191,11 @@
     <string name="filename_invalid_characters_placeholder">Názov súboru \'%s\' obsahuje neplatné znaky</string>
     <string name="extension_cannot_be_empty">Prípona nesmie byť prázdna</string>
     <string name="source_file_doesnt_exist">Zdrojový súbor %s neexistuje</string>
-    <string name="prepend_filenames">Pridať pred názvy súborov</string>
-    <string name="append_filenames">Pridať za názvy súborov</string>
+    <string name="prepend_filenames">Pridať pred koniec názvu súborov</string>
+    <string name="append_filenames">Pridať text po názvoch súborov</string>
     <string name="simple_renaming">Jednoduché premenovanie</string>
     <string name="pattern_renaming">Vzor</string>
-    <string name="string_to_add">Reťazec na pridanie</string>
+    <string name="string_to_add">Text na pridanie</string>
     <string name="rename_date_time_pattern">%Y - rok\n%M - mesiac\n%D - deň\n%h - hodina\n%m - minúta\n%s - sekunda\n%i - číslo narastajúce od 1</string>
     <string name="filename_without_txt">Názov súboru (bez .txt)</string>
     <string name="filename_without_json">Názov súboru (bez .json)</string>
@@ -327,7 +327,7 @@
     <string name="use_default">Použiť predvolenú</string>
     <string name="default_color">Predvolená</string>
     <string name="change_color">Zmeniť farbu</string>
-    <string name="theme">Téma</string>
+    <string name="theme">Vzhľad \"téma\" aplikácie</string>
     <string name="changing_color_description">Zmena farby spôsobí prepnutie na Vlastnú tému</string>
     <string name="save">Uložiť</string>
     <string name="discard">Zahodiť</string>
@@ -1106,4 +1106,10 @@
     <string name="on_contact_click">Po kliknutí na kontakt</string>
     <string name="call_contact">Zavolať kontakt</string>
     <string name="view_contact">Zobraziť údaje kontaktu</string>
+    <plurals name="files_saved">
+        <item quantity="one">Súbor</item>
+        <item quantity="few">Súbory</item>
+        <item quantity="many">Súborov</item>
+        <item quantity="other">Súborov</item>
+    </plurals>
 </resources>

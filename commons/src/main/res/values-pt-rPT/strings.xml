@@ -4,7 +4,7 @@
     <string name="excluded">(excluído)</string>
     <string name="search_groups">Pesquisar grupos</string>
     <string name="phone_storage">Armazenamento do telefone</string>
-    <string name="phone_storage_hidden">Armazenamento do telefone (não visível por outros aplicativos)</string>
+    <string name="phone_storage_hidden">Armazenamento do telefone (não visível por outras aplicações)</string>
     <string name="audio">Áudio</string>
     <string name="updating">Atualizando…</string>
     <string name="search_contacts">Pesquisar contatos</string>
@@ -70,7 +70,7 @@
     <string name="change_date_and_time_format">Alterar formato de data e hora</string>
     <string name="start_week_on">Início da semana</string>
     <string name="widgets">Widgets</string>
-    <string name="move_items_into_recycle_bin">Mover elementos para a Lixeira em vez de excluir</string>
+    <string name="move_items_into_recycle_bin">Mover elementos apagados para o lixo</string>
     <string name="restore_all_files">Restaurar todos os ficheiros</string>
     <string name="date_time_pattern_info">Pode usar os seguintes padrões para nomear seu ficheiro automaticamente:\n\n%Y - ano\n%M - mês\n%D - dia\n%h - hora\n%m - minuto\n%s - segundo</string>
     <string name="may_short">Mai</string>
@@ -322,13 +322,13 @@
     <string name="save">Salvar</string>
     <string name="use_default">Usar padrão</string>
     <string name="change_color">Mudar cor</string>
-    <string name="theme">Tema da aplicação</string>
+    <string name="theme">Tema da app</string>
     <string name="discard">Descartar</string>
     <string name="undo_changes">Desfazer alterações</string>
     <string name="undo_changes_confirmation">Tem certeza que deseja desfazer as alterações?</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
     <string name="purchase_thank_you"><![CDATA[
-            Por favor, compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Obrigado</a> para desbloquear esta função e apoiar o desenvolvimento. Obrigado!
+            Compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Agradecimento Fossify</a> para usar esta função e apoiar o desenvolvimento. Obrigado!
         ]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
@@ -354,7 +354,7 @@
     <string name="stop_showing_hidden">Parar de exibir média oculta</string>
     <string name="allow_access_more_media">Permitir acesso a mais média</string>
     <string name="maximum_share_reached">Não é possível partilhar todos esses arquivos de uma só vez</string>
-    <string name="empty_and_disable_recycle_bin">Esvaziar e desativar a Lixeira</string>
+    <string name="empty_and_disable_recycle_bin">Esvaziar e desativar o lixo</string>
     <string name="redo">Refazer</string>
     <string name="print">Imprimir</string>
     <string name="print_pro">Imprimir (Pro)</string>
@@ -391,10 +391,10 @@
     <string name="more_options">Mais opções</string>
     <string name="proceed_with_deletion">Deseja realmente excluir?</string>
     <string name="deletion_confirmation">Deseja realmente apagar %s?</string>
-    <string name="move_to_recycle_bin_confirmation">Deseja realmente mover %s para a Lixeira?</string>
+    <string name="move_to_recycle_bin_confirmation">Deseja realmente mover %s para o lixo?</string>
     <string name="deletion_confirmation_short">Apagar %s?</string>
     <string name="are_you_sure_delete">Deseja realmente apagar este elemento?</string>
-    <string name="are_you_sure_recycle_bin">Deseja realmente mover este elemento para a Lixeira?</string>
+    <string name="are_you_sure_recycle_bin">Deseja realmente mover este elemento para o lixo?</string>
     <string name="no">Não</string>
     <string name="maybe">Talvez</string>
     <plurals name="delete_warning">
@@ -539,21 +539,21 @@
     <string name="sunday_first">Iniciar a semana no Domingo</string>
     <string name="use_24_hour_time_format">Usar horário do formato 24-horas</string>
     <string name="snooze_time">Tempo de soneca</string>
-    <string name="recycle_bin_cleaning_interval">Intervalo de limpeza da Lixeira</string>
-    <string name="empty_recycle_bin">Esvaziar Lixeira</string>
+    <string name="recycle_bin_cleaning_interval">Intervalo de limpeza do lixo</string>
+    <string name="empty_recycle_bin">Esvaziar o lixo</string>
     <string name="force_portrait_mode">Forçar modo retrato</string>
     <string name="list_view">Visualização em Lista</string>
     <string name="restore_this_file">Restaurar este ficheiro</string>
     <string name="restore_selected_files">Restaurar os ficheiros selecionados</string>
-    <string name="empty_recycle_bin_confirmation">Deseja realmente esvaziar a Lixeira? Os ficheiros serão excluidos permanentemente.</string>
-    <string name="recycle_bin_empty">A Lixeira está vazia</string>
-    <string name="moving_recycle_bin_items_disabled">Não é permitido mover elementos da Lixeira. Por favor, use a função Restaurar</string>
-    <string name="show_the_recycle_bin">Exibir a Lixeira</string>
-    <string name="hide_the_recycle_bin">Ocultar a Lixeira</string>
+    <string name="empty_recycle_bin_confirmation">Deseja realmente esvaziar o lixo? Os ficheiros serão perdidos permanentemente.</string>
+    <string name="recycle_bin_empty">O lixo está vazio</string>
+    <string name="moving_recycle_bin_items_disabled">A movimentação de elemento do lixo está desativada. Por favor, use Restaurar.</string>
+    <string name="show_the_recycle_bin">Exibir o lixo</string>
+    <string name="hide_the_recycle_bin">Ocultar o lixo</string>
     <plurals name="moving_items_into_bin">
-        <item quantity="one">Movendo %d item para a Lixeira</item>
-        <item quantity="many">Movendo %d itens para a Lixeira</item>
-        <item quantity="other">Movendo %d itens para a Lixeira</item>
+        <item quantity="one">A mover %d item para o lixo</item>
+        <item quantity="many">A mover %d elementos para o lixo</item>
+        <item quantity="other">A mover %d elementos para o lixo</item>
     </plurals>
     <string name="importing">Importando…</string>
     <string name="exporting">Exportando…</string>
@@ -583,7 +583,7 @@
     <string name="friday">Sexta-feira</string>
     <string name="saturday">Sábado</string>
     <string name="sunday">Domingo</string>
-    <string name="monday_letter">S</string>
+    <string name="monday_letter">M</string>
     <string name="thursday_short">Qui</string>
     <string name="sunday_short">Dom</string>
     <string name="upgrade_to_pro_long">A versão do seu aplicativo não será mais atualizada. Atualize para a versão Pro para receber novas correções e outras melhorias.</string>
@@ -622,7 +622,7 @@
     <string name="faq_2_title_commons">Gostaria de apoiá-los, mas não posso doar dinheiro. Há algo mais que eu possa fazer?</string>
     <string name="faq_4_title_commons">Não gosto das cores do widget, posso mudá-las?</string>
     <string name="faq_5_title_commons">Posso restaurar de alguma forma os ficheiros apagados?</string>
-    <string name="faq_5_text_commons">Por padrão os ficheiros são movidos para a Lixeira. No entanto, se a Lixeira tiver sido desativada os ficheiros serão removidos permanentemente.</string>
+    <string name="faq_5_text_commons">Se eles foram realmente apagados, não poderá recuperá-los. No entanto, o lixo está ativado por predefinição e move os ficheiros para o lixo em vez de apagá-los imediatamente.</string>
     <string name="faq_6_title_commons">O ícone do app desapareceu. O que posso fazer?</string>
     <string name="faq_7_text_commons">Os pagamentos são totalmente gerenciados pelo Google, o sistema deles falha de vez em quanto. Apenas limpe o cache do aplicativo Google Play, reinicie o dispositivo e tente baixá-lo novamente.</string>
     <string name="faq_8_title_commons">Por que eu deveria atualizar para a versão Pró?</string>
@@ -822,7 +822,7 @@
     <string name="security">Segurança</string>
     <string name="scrolling">Rolagem</string>
     <string name="file_operations">Operações de ficheiros</string>
-    <string name="recycle_bin">Lixeira</string>
+    <string name="recycle_bin">Lixo</string>
     <string name="saving_label">Salvando</string>
     <string name="exclude">Ignorar</string>
     <string name="exclude_folder">Excluir pasta</string>
@@ -872,13 +872,13 @@
     <string name="last_used_tab">Última usada</string>
     <string name="files_tab">Ficheiros</string>
     <string name="recent_files_tab">Ficheiros recentes</string>
-    <string name="open_the_recycle_bin">Abrir a Lixeira</string>
-    <string name="skip_the_recycle_bin">Excluir imediatamente e ignorar a lixeira</string>
+    <string name="open_the_recycle_bin">Abrir o lixo</string>
+    <string name="skip_the_recycle_bin">Ignorar o lixo, apagar ficheiros diretamente</string>
     <string name="no_new_entries_for_importing">Nenhuma entrada nova foi encontrada</string>
     <string name="april">Abril</string>
     <string name="in_november">em Novembro</string>
     <string name="thursday_letter">Q</string>
-    <string name="friday_letter">S</string>
+    <string name="friday_letter">F</string>
     <string name="saturday_letter">S</string>
     <string name="sunday_letter">D</string>
     <string name="monday_short">Seg</string>
@@ -915,7 +915,7 @@
         <item quantity="other">Excluindo %d itens</item>
     </plurals>
     <string name="hours_letter">%dh</string>
-    <string name="color_customization">Aspeto e tato</string>
+    <string name="color_customization">Aparência</string>
     <string name="backups">Cópias de segurança</string>
     <string name="enable_automatic_backups">Ativar backups automáticos</string>
     <string name="usb">USB</string>
@@ -978,7 +978,7 @@
     <string name="remove_all">Remover todas</string>
     <string name="remove_all_description">Remover todas as pastas da lista de pastas ignoradas? Esta ação não exclui as pastas.</string>
     <string name="temporarily_show_excluded">Exibir excluído temporariamente</string>
-    <string name="recycle_bin_emptied">A Lixeira foi esvaziada com sucesso</string>
+    <string name="recycle_bin_emptied">O lixo foi esvaziada com sucesso</string>
     <string name="files_restored_successfully">Os ficheiros foram restaurados com sucesso</string>
     <string name="friday_short">Sex</string>
     <string name="saturday_short">Sáb</string>
@@ -990,7 +990,7 @@
     <string name="other_help">Outra ajuda</string>
     <string name="translation_croatian">Croata</string>
     <string name="translation_hungarian">Húngaro</string>
-    <string name="apply_to_all_apps">Aplica tema para todas as Apps Fossify</string>
+    <string name="apply_to_all_apps">Aplicar tema a todas as apps Fossify</string>
     <plurals name="in_seconds">
         <item quantity="one">%d segundo</item>
         <item quantity="many">%d segundos</item>
@@ -1047,10 +1047,10 @@ Sim, claro. Pode espalhar a informação sobre as apps ou dar um bom feedback e 
 O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
 ]]></string>
     <string name="contributors_label"><![CDATA[
-Esta lista contém todos que ajudaram visivelmente qualquer app dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,
-nos avise se também quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
-Obrigado a todos os contribuidores e outros apoiadores!
-]]></string>
+            Esta lista contém todos que ajudaram visivelmente qualquer app dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,
+            avise-nos se também quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
+            Obrigado a todos os contribuidores e outros apoiadores!
+        ]]></string>
     <string name="translation_chuvash">Chuvache</string>
     <string name="allow_alarm_scheduled_messages">Deve permitir que a app acede alarmes internos, caso contrário ele não poderá enviar mensagens programadas.</string>
     <string name="allow_alarm_sleep_timer">Deve permitir que a app acede os alarmes internos, caso contrário, não poderá desligar a app após o temporizador de suspensão.</string>
@@ -1080,21 +1080,21 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <plurals name="files_saved">
         <item quantity="one">Ficheiro guardado com sucesso</item>
         <item quantity="many">Ficheiros guardados com sucesso</item>
-        <item quantity="other"/>
+        <item quantity="other">Ficheiros guardados com sucesso</item>
     </plurals>
     <string name="confirm_storage_access_restricted_text">Devido a restrições do sistema, esta pasta não está disponível.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Abrir na aplicação do sistema</string>
     <string name="confirm_storage_access_restricted_text_not_found">Não foi possível encontrar uma app de gestor de ficheiros do sistema.</string>
-    <string name="requires_fossify_thank_you">Requer Fossify Thank You</string>
-    <string name="enables_more_customization">Permite maior personalização</string>
+    <string name="requires_fossify_thank_you">Requer Agradecimento Fossify</string>
+    <string name="enables_more_customization">Permite mais personalização</string>
     <string name="font">Fonte</string>
-    <string name="app_font">Fonte da App</string>
+    <string name="app_font">Fonte da aplicação</string>
     <string name="font_monospace">Monoespaçada</string>
-    <string name="select_font_file">Selecione o ficheiro de fonte…</string>
+    <string name="select_font_file">Selecione o ficheiro da fonte…</string>
     <string name="invalid_font_file">Ficheiro de fonte inválido</string>
-    <string name="more_fossify_apps">Mais apps Fossify</string>
+    <string name="more_fossify_apps">Mais apps do Fossify</string>
     <string name="rate_this_app">Avalie esta app</string>
-    <string name="badge_deprecated">Remoção de funcionalidade</string>
+    <string name="badge_deprecated">(obsoleto)</string>
     <string name="label_with_badge">%1$s %2$s</string>
     <string name="evalex_title">EvalEx (avaliação de expressões matemáticas)</string>
     <string name="edit_contact">Editar contacto</string>

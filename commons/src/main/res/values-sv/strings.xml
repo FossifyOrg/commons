@@ -679,7 +679,7 @@
     <string name="files_restored_successfully">Filerna har återställts</string>
     <string name="empty_recycle_bin_confirmation">Är du säker på att du vill tömma papperskorgen? Filerna tas bort permanent.</string>
     <string name="recycle_bin_empty">Papperskorgen är tom</string>
-    <string name="moving_recycle_bin_items_disabled">Flytt av objekt i papperskorgen är inaktiverad, använd Återställ</string>
+    <string name="moving_recycle_bin_items_disabled">Det går inte att flytta objekt i papperskorgen. Använd Återställ.</string>
     <string name="show_the_recycle_bin">Visa papperskorgen</string>
     <string name="hide_the_recycle_bin">Dölj papperskorgen</string>
     <string name="open_the_recycle_bin">Öppna papperskorgen</string>
@@ -872,7 +872,7 @@
     <string name="faq_4_title_commons">Jag gillar inte widgetfärgerna, kan jag ändra dem\?</string>
     <string name="faq_4_text_commons">Jadå, när du drar en widget på din startskärm visas en widgetkonfigurationsskärm. Du kommer att se färgade rutor i det nedre vänstra hörnet, tryck bara på dem för att välja en ny färg. Du kan också använda skjutreglaget för att justera alfa.</string>
     <string name="faq_5_title_commons">Kan jag på något sätt återställa raderade filer\?</string>
-    <string name="faq_5_text_commons">Om de verkligen raderades kan du inte. Men det finns en papperskorg aktiverad som standard, det kommer att göra att filerna bara flyttas till papperskorgen istället för att radera dem.</string>
+    <string name="faq_5_text_commons">Om de verkligen har raderats kan du inte återställa dem. Men papperskorgen är aktiverad som standard och filer flyttas till den istället för att raderas omedelbart.</string>
     <string name="faq_6_title_commons">Appstartikonen försvann. Vad kan jag göra\?</string>
     <string name="faq_7_title_commons">Pengarna har dragits från mitt bankkonto, men jag kan inte ladda ner appen. Vad kan jag göra\?</string>
     <string name="faq_7_text_commons">Betalningar hanteras till fullo av Google, deras system har fel då och då. Rensa bara Google Play-appens cache och starta om enheten och försök sedan ladda ner den igen.</string>

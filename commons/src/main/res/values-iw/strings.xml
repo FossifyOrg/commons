@@ -80,7 +80,7 @@
     <string name="filename_cannot_be_empty">שם קובץ לא יכול להיות ריק</string>
     <string name="filename_invalid_characters">שם קובץ כולל תווים לא חוקיים</string>
     <string name="filename_invalid_characters_placeholder">שם קובץ \'%s\' מכיל תווים לא חוקיים</string>
-    <string name="extension_cannot_be_empty">סיומת לא יכולה להיות ריקה.</string>
+    <string name="extension_cannot_be_empty">חובה להקליד סיומת</string>
     <string name="source_file_doesnt_exist">קובץ מקור %s לא קיים</string>
     <string name="pattern_renaming">דפוס</string>
     <string name="string_to_add">מלל להוספה</string>
@@ -97,15 +97,15 @@
     <string name="please_select_destination">נא לבחור יעד</string>
     <string name="source_and_destination_same">מקור ויעד לא יכולים להיות זהים</string>
     <string name="copy_failed">לא ניתן להעתיק את הקבצים</string>
-    <string name="copying">מעתיק...</string>
+    <string name="copying">מתבצעת העתקה…</string>
     <string name="copying_success">הקבצים הועתקו בהצלחה</string>
     <string name="copy_move_failed">אירעה שגיאה</string>
-    <string name="moving">מעביר...</string>
+    <string name="moving">מתבצעת העברה…</string>
     <string name="moving_success">הקבצים הועברו בהצלחה</string>
     <string name="moving_success_partial">חלק מהקבצים לא הועברו</string>
     <string name="copying_success_partial">חלק מהקבצים לא הועתקו</string>
     <string name="no_files_selected">לא נבחרו קבצים</string>
-    <string name="saving">שומר...</string>
+    <string name="saving">מתבצעת שמירה…</string>
     <string name="could_not_create_folder">לא ניתן ליצור תיקייה %s</string>
     <string name="could_not_create_file">לא ניתן ליצור קובת %s</string>
     <string name="no_new_items">לא נמצאו פריטים חדשים</string>
@@ -124,7 +124,7 @@
     <string name="keep_both">שמור את שניהם</string>
     <string name="overwrite">דרוס</string>
     <string name="skip">דלג</string>
-    <string name="apply_to_all">החל על הכל</string>
+    <string name="apply_to_all">החלה על הכול</string>
     <string name="select_folder">בחר תיקייה</string>
     <string name="select_file">בחר קובץ</string>
     <string name="confirm_storage_access_title">אישור גישה לאחסון חיצוני</string>
@@ -171,15 +171,15 @@
     <string name="share">שיתוף</string>
     <string name="share_via">שיתוף באמצעות</string>
     <string name="resize">שנה גודל</string>
-    <string name="select_all">בחר הכל</string>
+    <string name="select_all">לבחור הכול</string>
     <string name="hide">הסתר</string>
     <string name="unhide">בטל הסתרה</string>
     <string name="hide_folder">הסתר תיקייה</string>
     <string name="unhide_folder">בטל הסתרת תיקייה</string>
-    <string name="temporarily_show_hidden">הצג הכל באופן זמני</string>
+    <string name="temporarily_show_hidden">להציג זמנית את הכול</string>
     <string name="stop_showing_hidden">הפסק הצגה של מדיה</string>
     <string name="maximum_share_reached">אינך יכול לשתף כל כך הרבה תוכן בבת אחת</string>
-    <string name="empty_and_disable_recycle_bin">רוקן והשבת את האשפה</string>
+    <string name="empty_and_disable_recycle_bin">רוקן והשבת את פח האשפה</string>
     <string name="undo">שחזר</string>
     <string name="redo">בצע מחדש</string>
     <string name="print">הדפס</string>
@@ -204,9 +204,9 @@
     <string name="full_name">שם מלא</string>
     <string name="proceed_with_deletion">להמשיך במחיקה?</string>
     <string name="deletion_confirmation">האם למחוק את %s?</string>
-    <string name="move_to_recycle_bin_confirmation">האם להעביר את %s לאשפה?</string>
+    <string name="move_to_recycle_bin_confirmation">האם בטוח שברצונך להעביר את %s לפח האשפה?</string>
     <string name="are_you_sure_delete">האם למחוק פריט זה?</string>
-    <string name="are_you_sure_recycle_bin">האם אתה בטוח שברצונך להעביר פריט זה לאשפה?</string>
+    <string name="are_you_sure_recycle_bin">האם אתה בטוח שברצונך להעביר פריט זה לפח האשפה?</string>
     <string name="yes">כן</string>
     <string name="no">לא</string>
     <string name="maybe">אולי</string>
@@ -258,9 +258,9 @@
     <string name="sunday_first">השבוע מתחיל ביום ראשון</string>
     <string name="widgets">יישומונים</string>
     <string name="vibrate_on_button_press">רטט בעת לחיצה על כפתורים</string>
-    <string name="move_items_into_recycle_bin">העבר פריטים לאשפה במקום למחוק לצמיתות</string>
-    <string name="recycle_bin_cleaning_interval">זמן ריקון אשפה</string>
-    <string name="empty_recycle_bin">רוקן את האשפה</string>
+    <string name="move_items_into_recycle_bin">העבר פריטים שנמחקו לפח האשפה</string>
+    <string name="recycle_bin_cleaning_interval">זמני ריקון פח האשפה</string>
+    <string name="empty_recycle_bin">רוקן את פח האשפה</string>
     <string name="force_portrait_mode">כפה מצב אנכי</string>
     <string name="export_settings">ייצא הגדרות</string>
     <string name="import_settings">יבא הגדרות</string>
@@ -271,15 +271,15 @@
     <string name="security">אבטחה</string>
     <string name="scrolling">גלילה</string>
     <string name="file_operations">פעולות קובץ</string>
-    <string name="recycle_bin">אשפה</string>
+    <string name="recycle_bin">פח אשפה</string>
     <string name="saving_label">שומר</string>
     <string name="text">טקסט</string>
     <string name="thumbnails">תמונות ממוזערות</string>
     <string name="exclude">החרג</string>
     <string name="excluded_folders">תיקיות מוחרגות</string>
-    <string name="excluded">(מוחרגים)</string>
+    <string name="excluded">(מוחרגת)</string>
     <string name="manage_excluded_folders">נהל תיקיות מוחרגות</string>
-    <string name="remove_all">להסיר הכל</string>
+    <string name="remove_all">להסיר הכול</string>
     <string name="remove_all_description">להסיר את כל התיקיות מרשימת החרגות\? פעולה זו לא תמחק את התיקיות.</string>
     <string name="temporarily_show_excluded">הצג זמנית פריטים מוחרגים</string>
     <string name="stop_showing_excluded">הפסק להציג החרגות</string>
@@ -292,13 +292,13 @@
     <string name="restore_this_file">שחזר קובץ זה</string>
     <string name="restore_selected_files">שחזר קבצים נבחרים</string>
     <string name="restore_all_files">שחזר את כל הקבצים</string>
-    <string name="recycle_bin_emptied">האשפה רוקנה</string>
+    <string name="recycle_bin_emptied">פח האשפה רוקן בהצלחה</string>
     <string name="files_restored_successfully">קבצים שוחזרו בהצלחה</string>
-    <string name="empty_recycle_bin_confirmation">האם אתה בטוח שברצונך לרוקן את האשפה? הקבצים יאבדו לצמיתות.</string>
-    <string name="recycle_bin_empty">אין כלום באשפה</string>
-    <string name="moving_recycle_bin_items_disabled">לא ניתן להעביר פריטים באשפה. נא להשתמש בשחזור</string>
-    <string name="show_the_recycle_bin">הצג את האשפה</string>
-    <string name="hide_the_recycle_bin">הסתר את האשפה</string>
+    <string name="empty_recycle_bin_confirmation">האם אתה בטוח שברצונך לרוקן את פח האשפה? הקבצים יאבדו לצמיתות.</string>
+    <string name="recycle_bin_empty">פח האשפה ריק</string>
+    <string name="moving_recycle_bin_items_disabled">לא ניתן להעביר פריטים מפח האשפה. נא להשתמש בשחזור.</string>
+    <string name="show_the_recycle_bin">הצג את פח האשפה</string>
+    <string name="hide_the_recycle_bin">הסתר את פח האשפה</string>
     <string name="importing">מייבא…</string>
     <string name="exporting">מייצא…</string>
     <string name="importing_successful">ייבוא הצליח</string>
@@ -356,7 +356,7 @@
     <string name="sunday_short">א\'</string>
     <string name="more_info">מידע נוסף</string>
     <string name="upgrade">עדכון</string>
-    <string name="about">אודות</string>
+    <string name="about">על אודות</string>
     <string name="donate">תרום</string>
     <string name="additional_info">מידע נוסף</string>
     <string name="calculator_short">מחשבון</string>
@@ -478,8 +478,8 @@
     <string name="exclude_folder">החרג תיקיה</string>
     <string name="files_tab">קבצים</string>
     <string name="recent_files_tab">קבצים אחרונים</string>
-    <string name="open_the_recycle_bin">פתח את האשפה</string>
-    <string name="skip_the_recycle_bin">דלג על האשפה, ומחק קבצים ישירות (לצמיתות)</string>
+    <string name="open_the_recycle_bin">פתח את פח האשפה</string>
+    <string name="skip_the_recycle_bin">דלג על פח האשפה, מחק קבצים ישירות (לצמיתות)</string>
     <string name="backups">גיבויים</string>
     <string name="enable_automatic_backups">אפשר גיבויים אוטומטיים</string>
     <string name="manage_automatic_backups">נהל גיבויים אוטומטיים</string>
@@ -625,7 +625,7 @@
     <string name="duration">משך</string>
     <string name="shared_theme_note">שים לב שגם אם אתה משתמש בגרסה המקצועית של האפליקציה, אתה עדיין צריך את Fosify תודה מסיבות טכניות. הוא מטפל בסנכרון הצבעים.</string>
     <string name="purchase_thank_you"><![CDATA[
-אנא רכשו <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">תודה Fossify</a> כדי לפתוח תכונה זו ולתמוך בפיתוח. תודה!
+אנא רכשו <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">תודה Fossify</a> כדי להשתמש בתכונה זו ולתמוך בפיתוח. תודה!
 ]]></string>
     <string name="apply_to_all_apps">החלת עיצוב על כל אפליקציות Fossify</string>
     <string name="solarized">‌</string>
@@ -691,7 +691,7 @@
     <string name="faq_8_title_commons">למה כדאי לי לשדרג לגרסת ה-Pro?</string>
     <string name="translation_central_kurdish">כורדית מרכזית</string>
     <string name="translation_bengali">בנגלית</string>
-    <string name="faq_5_text_commons">אם הם באמת נמחקו, לא ניתן לעשות זאת. עם זאת, כברירת מחדל, האשפה מופעלת, וזה יגרום לקבצים פשוט להיות מועברים לאשפה במקום למחוק אותם.</string>
+    <string name="faq_5_text_commons">אם הם באמת נמחקו, לא ניתן לשחזר אותם. עם זאת, פח האשפה מופעל כברירת מחדל, ומעביר קבצים לפח במקום למחוק אותם באופן מיידי.</string>
     <string name="translation_korean">קוראנית</string>
     <string name="translation_hindi">הינדי</string>
     <string name="translation_galician">גליציאנית</string>
@@ -938,9 +938,9 @@
         <item quantity="other">%d שנים</item>
     </plurals>
     <plurals name="moving_items_into_bin">
-        <item quantity="one">מעביר פריט %d לאשפה</item>
-        <item quantity="two">מעביר %d פריטים לאשפה</item>
-        <item quantity="other">מעביר %d פריטים לאשפה</item>
+        <item quantity="one">מעביר פריט %d לפח האשפה</item>
+        <item quantity="two">מעביר %d פריטים לפח האשפה</item>
+        <item quantity="other">מעביר %d פריטים לפח האשפה</item>
     </plurals>
     <string name="faq_3_title_commons">מחקתי כמה קבצים בטעות, איך אני יכול לשחזר אותם?</string>
     <string name="faq_3_text_commons">למרבה הצער, לא ניתן. קבצים נמחקים באופן מיידי לאחר תיבת הדו-שיח לאישור, אין פח אשפה זמין.</string>
@@ -1094,7 +1094,7 @@
     <string name="label_with_badge">%1$s %2$s</string>
     <string name="font">גופן</string>
     <string name="app_font">גופן האפלקציה</string>
-    <string name="font_monospace">Monospace</string>
+    <string name="font_monospace">ברוחב אחיד</string>
     <string name="select_font_file">בחר קובץ גופן…</string>
     <string name="invalid_font_file">קובץ גופן לא תקין</string>
     <string name="edit_contact">ערוך איש קשר</string>
