@@ -811,7 +811,12 @@ fun Context.storeNewYourAlarmSound(resultData: Intent): AlarmSound {
     baseConfig.yourAlarmSounds = Gson().toJson(yourAlarmSounds)
 
     val takeFlags = Intent.FLAG_GRANT_READ_URI_PERMISSION
-    contentResolver.takePersistableUriPermission(uri, takeFlags)
+    try {
+        contentResolver.takePersistableUriPermission(uri, takeFlags)
+    } catch (_: SecurityException) {
+        // some file managers return a content uri without a persistable
+        // permission grant, which would otherwise crash the app
+    }
 
     return newAlarmSound
 }
