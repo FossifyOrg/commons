@@ -512,7 +512,7 @@
     <string name="create_new_contact">ایجاد مخاطب جدید</string>
     <string name="add_to_existing_contact">افزودن به مخاطب موجود</string>
     <string name="record_video">ضبط ویدیو</string>
-    <string name="audio">صدا</string>
+    <string name="audio">صوت</string>
     <string name="birthday">تاریخ تولد</string>
     <string name="anniversary">سالگرد</string>
     <string name="main_number">اصلی</string>
@@ -545,4 +545,7 @@
     <string name="view_contact">دیدن جزئیات مخاطب</string>
     <string name="edit_contact">ویرایش مخاطب</string>
     <string name="on_contact_click">با کلیک بر روی مخاطب</string>
+    <string name="vibrate_on_button_press">لرزش با فشردن دکمه</string>
+    <string name="upgrade_to_pro_long">نسخهٔ برنامهٔ شما دیگر به‌روزرسانی نخواهد شد. لطفاً برای دریافت اصلاحات و بهبودهای جدید، به نسخهٔ حرفه‌ای ارتقا دهید.</string>
+    <string name="upgrade_to_pro_long_click">نسخهٔ برنامهٔ شما دیگر به‌روزرسانی نخواهد شد. لطفاً برای دریافت رفع‌اشکال‌ها و بهبودهای جدید با کلیک کردن در اینجا به نسخهٔ حرفه‌ای ارتقا دهید.</string>
 </resources>
