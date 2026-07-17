@@ -335,10 +335,18 @@ abstract class MyRecyclerViewAdapter(val activity: BaseSimpleActivity, val recyc
                 val currentPosition = adapterPosition - positionOffset
                 val isSelected = selectedKeys.contains(getItemSelectionKey(currentPosition))
                 toggleItemSelection(!isSelected, currentPosition, true)
+                // While in selection mode, remember the tapped row as the range anchor so a following
+                // long-press selects every row between it and the long-pressed row. Previously the anchor
+                // was always cleared here, so range selection only worked across two *consecutive*
+                // long-presses; tapping a row in between (to select or skip it) reset the anchor and the
+                // next long-press selected only its single row. Tracking the last touched row instead lets
+                // "tap a row, then long-press a later row" fill in everything between.
+                lastLongPressedItem = currentPosition
             } else {
                 itemClick.invoke(any)
+                // not in selection mode: no anchor to keep
+                lastLongPressedItem = -1
             }
-            lastLongPressedItem = -1
         }
 
         fun viewLongClicked() {
