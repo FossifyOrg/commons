@@ -37,6 +37,7 @@ import androidx.biometric.BiometricPrompt
 import androidx.biometric.auth.AuthPromptCallback
 import androidx.biometric.auth.AuthPromptHost
 import androidx.biometric.auth.Class2BiometricAuthPrompt
+import androidx.core.content.FileProvider
 import androidx.core.net.toUri
 import androidx.core.view.WindowInsetsCompat
 import androidx.fragment.app.FragmentActivity
@@ -56,6 +57,7 @@ import org.fossify.commons.dialogs.UpgradeToProDialog
 import org.fossify.commons.dialogs.WhatsNewDialog
 import org.fossify.commons.dialogs.WritePermissionDialog
 import org.fossify.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
+import org.fossify.commons.enums.ConnectionTypes
 import org.fossify.commons.helpers.CREATE_DOCUMENT_SDK_30
 import org.fossify.commons.helpers.EXTRA_SHOW_ADVANCED
 import org.fossify.commons.helpers.IS_FROM_GALLERY
@@ -470,6 +472,34 @@ fun Activity.sharePathIntent(path: String, applicationId: String) {
     }
 }
 
+fun Activity.shareNetworkPathIntent(path: String, applicationId: String,file: File) {
+    ensureBackgroundThread {
+        val newUri = FileProvider.getUriForFile(this, "$applicationId.provider", file)
+        Intent().apply {
+            action = Intent.ACTION_SEND
+            putExtra(EXTRA_STREAM, newUri)
+            type = getUriMimeType(path, newUri).normalizeMimeTypeForSharing()
+            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            grantUriPermission("android", newUri, Intent.FLAG_GRANT_READ_URI_PERMISSION)
+
+            try {
+                startActivity(Intent.createChooser(this, getString(R.string.share_via)))
+            } catch (e: ActivityNotFoundException) {
+                toast(R.string.no_app_found)
+            } catch (e: RuntimeException) {
+                if (e.cause is TransactionTooLargeException) {
+                    toast(R.string.maximum_share_reached)
+                } else {
+                    showErrorToast(e)
+                }
+            } catch (e: Exception) {
+                showErrorToast(e)
+            }
+        }
+    }
+}
+
 fun Activity.sharePathsIntent(paths: List<String>, applicationId: String) {
     ensureBackgroundThread {
         if (paths.size == 1) {
@@ -513,9 +543,73 @@ fun Activity.sharePathsIntent(paths: List<String>, applicationId: String) {
     }
 }
 
+fun Activity.shareNetworkPathsIntent(paths: List<String>, applicationId: String,file: File) {
+    ensureBackgroundThread {
+        if (paths.size == 1) {
+            shareNetworkPathIntent(paths.first(), applicationId,file)
+        } else {
+            val uriPaths = ArrayList<String>()
+            val newUris = paths.map {
+                val uri = getFinalUriFromPath(it, applicationId) ?: return@ensureBackgroundThread
+                uriPaths.add(uri.path!!)
+                uri
+            } as ArrayList<Uri>
+
+            var mimeType = uriPaths.getMimeType()
+            if (mimeType.isEmpty() || mimeType == "*/*") {
+                mimeType = paths.getMimeType()
+            }
+            mimeType = mimeType.normalizeMimeTypeForSharing()
+
+            Intent().apply {
+                action = Intent.ACTION_SEND_MULTIPLE
+                type = mimeType
+                addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+                addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+                putParcelableArrayListExtra(EXTRA_STREAM, newUris)
+
+                try {
+                    startActivity(Intent.createChooser(this, getString(R.string.share_via)))
+                } catch (e: ActivityNotFoundException) {
+                    toast(R.string.no_app_found)
+                } catch (e: RuntimeException) {
+                    if (e.cause is TransactionTooLargeException) {
+                        toast(R.string.maximum_share_reached)
+                    } else {
+                        showErrorToast(e)
+                    }
+                } catch (e: Exception) {
+                    showErrorToast(e)
+                }
+            }
+        }
+    }
+}
+
 fun Activity.setAsIntent(path: String, applicationId: String) {
     ensureBackgroundThread {
         val newUri = getFinalUriFromPath(path, applicationId) ?: return@ensureBackgroundThread
+        Intent().apply {
+            action = Intent.ACTION_ATTACH_DATA
+            setDataAndType(newUri, getUriMimeType(path, newUri))
+            addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION)
+            addFlags(Intent.FLAG_ACTIVITY_NEW_TASK)
+            val chooser = Intent.createChooser(this, getString(R.string.set_as))
+
+            try {
+                startActivityForResult(chooser, REQUEST_SET_AS)
+            } catch (e: ActivityNotFoundException) {
+                toast(R.string.no_app_found)
+            } catch (e: Exception) {
+                showErrorToast(e)
+            }
+        }
+    }
+}
+
+fun Activity.setAsNetworkIntent(path: String, applicationId: String,file: File) {
+    ensureBackgroundThread {
+        val newUri = FileProvider.getUriForFile(this, "$applicationId.provider", file)
         Intent().apply {
             action = Intent.ACTION_ATTACH_DATA
             setDataAndType(newUri, getUriMimeType(path, newUri))
@@ -701,6 +795,8 @@ fun Activity.getFinalUriFromPath(path: String, applicationId: String): Uri? {
 
     return uri
 }
+
+
 
 fun Activity.tryGenericMimeType(intent: Intent, mimeType: String, uri: Uri): Boolean {
     var genericMimeType = mimeType.getGenericMimeType()

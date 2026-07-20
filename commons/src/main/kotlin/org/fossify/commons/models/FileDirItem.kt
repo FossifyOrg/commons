@@ -5,6 +5,7 @@ import android.net.Uri
 import android.provider.MediaStore
 import androidx.compose.runtime.Immutable
 import com.bumptech.glide.signature.ObjectKey
+import org.fossify.commons.enums.ConnectionTypes
 import org.fossify.commons.extensions.*
 import org.fossify.commons.helpers.*
 import java.io.File
@@ -16,7 +17,8 @@ open class FileDirItem(
     var children: Int = 0,
     var size: Long = 0L,
     var modified: Long = 0L,
-    var mediaStoreId: Long = 0L
+    var mediaStoreId: Long = 0L,
+    var connectionType: ConnectionTypes = ConnectionTypes.Default
 ) :
     Comparable<FileDirItem> {
     companion object {
