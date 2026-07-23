@@ -978,7 +978,7 @@
     <string name="remove_all">Remover todas</string>
     <string name="remove_all_description">Remover todas as pastas da lista de pastas ignoradas? Esta ação não exclui as pastas.</string>
     <string name="temporarily_show_excluded">Exibir excluído temporariamente</string>
-    <string name="recycle_bin_emptied">O lixo foi esvaziada com sucesso</string>
+    <string name="recycle_bin_emptied">O lixo foi esvaziado com sucesso</string>
     <string name="files_restored_successfully">Os ficheiros foram restaurados com sucesso</string>
     <string name="friday_short">Sex</string>
     <string name="saturday_short">Sáb</string>
@@ -1085,7 +1085,7 @@ O guia para tradução está <a href="https://github.com/FossifyOrg/General-Disc
     <string name="confirm_storage_access_restricted_text">Devido a restrições do sistema, esta pasta não está disponível.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Abrir na aplicação do sistema</string>
     <string name="confirm_storage_access_restricted_text_not_found">Não foi possível encontrar uma app de gestor de ficheiros do sistema.</string>
-    <string name="requires_fossify_thank_you">Requer Agradecimento Fossify</string>
+    <string name="requires_fossify_thank_you">Requer Fossify Thank You</string>
     <string name="enables_more_customization">Permite mais personalização</string>
     <string name="font">Fonte</string>
     <string name="app_font">Fonte da aplicação</string>
