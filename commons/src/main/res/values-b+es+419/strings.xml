@@ -457,4 +457,19 @@
     <string name="move_to_recycle_bin_confirmation">Verdaderamente quieres mover %s a la papelera?</string>
     <string name="are_you_sure_delete">Verdaderamente quieres borrar este ítem?</string>
     <string name="do_not_ask_again">No preguntar otra vez en esta sesión</string>
+    <string name="solarized">Solarizado</string>
+    <string name="are_you_sure_recycle_bin">Verdaderamente quieres mover este ítem a la papelera?</string>
+    <string name="do_not_show_again">No mostrar de nuevo</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="maybe">Quizás</string>
+    <plurals name="delete_warning">
+        <item quantity="one">AVISO: Está borrando %d carpeta</item>
+        <item quantity="many">AVISO: Está borrando %d carpetas</item>
+        <item quantity="other">AVISO: Está borrando %d carpetas</item>
+    </plurals>
+    <string name="pin">PIN</string>
+    <string name="enter_pin">Ingresar PIN</string>
+    <string name="please_enter_pin">Por favor ingrese un PIN</string>
+    <string name="wrong_pin">PIN equivocado</string>
 </resources>
