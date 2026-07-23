@@ -632,7 +632,7 @@
     <string name="use_same_snooze">Mindig ugyanazt a szundi időt használja</string>
     <string name="snooze_time">Szundi ideje</string>
     <string name="vibrate_on_button_press">Rezgés koppintáskor</string>
-    <string name="move_items_into_recycle_bin">Törlendő elemek Lomtár-ba helyezése</string>
+    <string name="move_items_into_recycle_bin">Törlendő elemek Lomtárba helyezése</string>
     <string name="recycle_bin_cleaning_interval">Lomtár ürítési intervallum</string>
     <string name="empty_recycle_bin">Lomtár ürítése</string>
     <string name="force_portrait_mode">Álló mód kényszerítése</string>
