@@ -137,7 +137,7 @@
     <string name="unblock_contact_success">تم إلغاء حظر جهة الاتصال</string>
     <string name="unblock_contact_fail">لا يمكن إلغاء حظر جهة الاتصال</string>
     <string name="favorites">المفضلة</string>
-    <string name="add_favorites">أضف المفصلات</string>
+    <string name="add_favorites">أضف المفضلات</string>
     <string name="add_to_favorites">أضف إلى المفضلة</string>
     <string name="remove_from_favorites">أزِل من المفضلة</string>
     <string name="search">بحث</string>
