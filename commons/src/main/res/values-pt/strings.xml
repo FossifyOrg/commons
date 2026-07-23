@@ -661,7 +661,7 @@
     <string name="restore_this_file">Restaurar este ficheiro</string>
     <string name="restore_selected_files">Restaurar os ficheiros selecionados</string>
     <string name="restore_all_files">Restaurar todos os ficheiros</string>
-    <string name="recycle_bin_emptied">O lixo foi esvaziada com sucesso</string>
+    <string name="recycle_bin_emptied">O lixo foi esvaziado com sucesso</string>
     <string name="files_restored_successfully">Os ficheiros foram restaurados com sucesso</string>
     <string name="empty_recycle_bin_confirmation">Deseja realmente esvaziar o lixo? Os ficheiros serão perdidos permanentemente.</string>
     <string name="recycle_bin_empty">O lixo está vazio</string>
@@ -1090,7 +1090,7 @@ Obrigado a todos os contribuidores e outros apoiadores!
     <string name="on_contact_click">Ao tocar no contacto</string>
     <string name="call_contact">Ligar</string>
     <string name="view_contact">Ver detalhes</string>
-    <string name="requires_fossify_thank_you">Requer Agradecimento Fossify</string>
+    <string name="requires_fossify_thank_you">Requer Fossify Thank You</string>
     <string name="enables_more_customization">Permite mais personalização</string>
     <string name="font">Fonte</string>
     <string name="app_font">Fonte da app</string>
