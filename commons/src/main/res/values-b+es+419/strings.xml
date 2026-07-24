@@ -472,4 +472,249 @@
     <string name="enter_pin">Ingresar PIN</string>
     <string name="please_enter_pin">Por favor ingrese un PIN</string>
     <string name="wrong_pin">PIN equivocado</string>
+    <string name="purchase_thank_you"><![CDATA[
+            Porfavor compre <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Gracias</a> para usar esta función y apoyar el desarrollo. ¡Gracias!
+        ]]></string>
+    <string name="pin_must_be_4_digits_long">El PIN debe tener por al menos 4 dígitos de largo</string>
+    <string name="too_many_incorrect_attempts">Demasiados intentos fallidos.\nVuelva a intentar en %d segundos.</string>
+    <string name="repeat_pin">Repetir PIN</string>
+    <string name="pattern">Patrón</string>
+    <string name="insert_pattern">Insertar patrón</string>
+    <string name="wrong_pattern">Patrón equivocado</string>
+    <string name="repeat_pattern">Repetir patrón</string>
+    <string name="biometrics">Biometricas</string>
+    <string name="fingerprint">Huella dactilar</string>
+    <string name="add_fingerprint">Añadir huella dactilar</string>
+    <string name="place_finger">Por favor apoye su dedo sobre el sensor</string>
+    <string name="open_biometric_dialog">Abrir dialogo de verificación de ID biométrico</string>
+    <string name="authenticate">Autenticar</string>
+    <string name="authentication_failed">Autenticación fallida</string>
+    <string name="authentication_blocked">Autenticación bloqueada, vuelva a intentarlo en un momento</string>
+    <string name="no_fingerprints_registered">No tienes huellas dactilares registradas, por favor añade unas en la Configuración de su dispositivo</string>
+    <string name="go_to_settings">Ir a la configuración</string>
+    <string name="protection_setup_successfully">Contraseña ajustada con éxito. Por favor reinstale la aplicación en caso de que la olvide.</string>
+    <string name="fingerprint_setup_successfully">Protección ajustada con éxito. Por favor reinstale la aplicación en caso de que tenga problemas reiniciandola.</string>
+    <string name="lock_folder">Bloquear carpeta</string>
+    <string name="lock_folder_pro">Bloquear carpeta (Pro)</string>
+    <string name="unlock_folder">Desbloquear carpeta</string>
+    <string name="lock_folder_notice">Está protección solo funciona en esta app, no puede reemplazar un cifrado de carpetas parte del sistema.</string>
+    <string name="enter_password">Ingresar contraseña</string>
+    <string name="password">Contraseña</string>
+    <string name="add_password">Añadir contraseña</string>
+    <string name="empty_password_new">Por favor ingrese una contraseña</string>
+    <string name="empty_password">Por favor ingrese la contraseña</string>
+    <string name="invalid_password">Contraseña incorrecta</string>
+    <string name="yesterday">Ayer</string>
+    <string name="today">Hoy</string>
+    <string name="tomorrow">Mañana</string>
+    <string name="every_day">Todos los días</string>
+    <string name="hide_year">Ocultar año</string>
+    <string name="seconds_raw">segundos</string>
+    <string name="minutes_raw">minutos</string>
+    <string name="hours_raw">horas</string>
+    <string name="days_raw">días</string>
+    <string name="seconds_letter">%ds</string>
+    <string name="minutes_letter">%dm</string>
+    <string name="hours_letter">%dh</string>
+    <string name="days_letter">%dd</string>
+    <string name="week_number_short">sem.</string>
+    <plurals name="seconds">
+        <item quantity="one">%d segundo</item>
+        <item quantity="many">%d segundos</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="many">%d minutos</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="many">%d horas</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="days">
+        <item quantity="one">%d día</item>
+        <item quantity="many">%d días</item>
+        <item quantity="other">%d días</item>
+    </plurals>
+    <plurals name="weeks">
+        <item quantity="one">%d semana</item>
+        <item quantity="many">%d semanas</item>
+        <item quantity="other">%d semanas</item>
+    </plurals>
+    <plurals name="months">
+        <item quantity="one">%d mes</item>
+        <item quantity="many">%d meses</item>
+        <item quantity="other">%d meses</item>
+    </plurals>
+    <plurals name="years">
+        <item quantity="one">%d año</item>
+        <item quantity="many">%d años</item>
+        <item quantity="other">%d años</item>
+    </plurals>
+    <plurals name="in_seconds">
+        <item quantity="one">%d segundo</item>
+        <item quantity="many">%d segundos</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="in_minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="many">%d minutos</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="in_hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="many">%d horas</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="in_days">
+        <item quantity="one">%d día</item>
+        <item quantity="many">%d días</item>
+        <item quantity="other">%d días</item>
+    </plurals>
+    <plurals name="in_weeks">
+        <item quantity="one">%d semana</item>
+        <item quantity="many">%d semanas</item>
+        <item quantity="other">%d semanas</item>
+    </plurals>
+    <plurals name="in_months">
+        <item quantity="one">%d mes</item>
+        <item quantity="many">%d meses</item>
+        <item quantity="other">%d meses</item>
+    </plurals>
+    <plurals name="in_years">
+        <item quantity="one">%d año</item>
+        <item quantity="many">%d años</item>
+        <item quantity="other">%d años</item>
+    </plurals>
+    <plurals name="seconds_before">
+        <item quantity="one">%d segundo antes</item>
+        <item quantity="many">%d segundos antes</item>
+        <item quantity="other">%d segundos antes</item>
+    </plurals>
+    <plurals name="minutes_before">
+        <item quantity="one">%d minuto antes</item>
+        <item quantity="many">%d minutos antes</item>
+        <item quantity="other">%d minutos antes</item>
+    </plurals>
+    <plurals name="hours_before">
+        <item quantity="one">%d hora antes</item>
+        <item quantity="many">%d horas antes</item>
+        <item quantity="other">%d horas antes</item>
+    </plurals>
+    <plurals name="days_before">
+        <item quantity="one">%d día antes</item>
+        <item quantity="many">%d días antes</item>
+        <item quantity="other">%d días antes</item>
+    </plurals>
+    <plurals name="weeks_before">
+        <item quantity="one">%d semana antes</item>
+        <item quantity="many">%d semanas antes</item>
+        <item quantity="other">%d semanas antes</item>
+    </plurals>
+    <plurals name="months_before">
+        <item quantity="one">%d mes antes</item>
+        <item quantity="many">%d meses antes</item>
+        <item quantity="other">%d meses antes</item>
+    </plurals>
+    <plurals name="years_before">
+        <item quantity="one">%d año antes</item>
+        <item quantity="many">%d años antes</item>
+        <item quantity="other">%d años antes</item>
+    </plurals>
+    <plurals name="by_seconds">
+        <item quantity="one">%d segundo</item>
+        <item quantity="many">%d segundos</item>
+        <item quantity="other">%d segundos</item>
+    </plurals>
+    <plurals name="by_minutes">
+        <item quantity="one">%d minuto</item>
+        <item quantity="many">%d minutos</item>
+        <item quantity="other">%d minutos</item>
+    </plurals>
+    <plurals name="by_hours">
+        <item quantity="one">%d hora</item>
+        <item quantity="many">%d horas</item>
+        <item quantity="other">%d horas</item>
+    </plurals>
+    <plurals name="by_days">
+        <item quantity="one">%d día</item>
+        <item quantity="many">%d días</item>
+        <item quantity="other">%d días</item>
+    </plurals>
+    <plurals name="by_weeks">
+        <item quantity="one">%d semana</item>
+        <item quantity="many">%d semanas</item>
+        <item quantity="other">%d semanas</item>
+    </plurals>
+    <plurals name="by_months">
+        <item quantity="one">%d mes</item>
+        <item quantity="many">%d meses</item>
+        <item quantity="other">%d meses</item>
+    </plurals>
+    <plurals name="by_years">
+        <item quantity="one">%d año</item>
+        <item quantity="many">%d años</item>
+        <item quantity="other">%d años</item>
+    </plurals>
+    <string name="alarm_goes_off_in">Tiempo restante hasta que suene la alarma:\n%s</string>
+    <string name="reminder_triggers_in">Tiempo restante hasta que el recordatorio se active:\n%s</string>
+    <string name="time_remaining">Tiempo restante:\n%s</string>
+    <string name="alarm_warning">Por favor verifique que la alarma funcione correctamente antes de usarla. Podría llegar a funcionar incorrectamente debido a restricciones del sistema relacionadas al ahorro de batería.</string>
+    <string name="snooze">Posponer</string>
+    <string name="dismiss">Apagar</string>
+    <string name="no_reminder">Sin recordatorio</string>
+    <string name="at_start">Al inicio</string>
+    <string name="system_sounds">Sonidos del sistema</string>
+    <string name="your_sounds">Tus sonidos</string>
+    <string name="add_new_sound">Añadir un nuevo sonido</string>
+    <string name="no_sound">Sin sonidos</string>
+    <string name="during_day_at_hh_mm">Durante el día a la hh:mm</string>
+    <string name="during_day_at">Durante el día a la %1$02d:%2$02d</string>
+    <string name="settings">Configuraciones</string>
+    <string name="purchase_simple_thank_you">Comprar Fossify Grácias</string>
+    <string name="requires_fossify_thank_you">Requiere Fossify Grácias</string>
+    <string name="enables_more_customization">Permitir más personalización</string>
+    <string name="general_settings">General</string>
+    <string name="color_customization">Color y sentimiento</string>
+    <string name="customize_colors">Personalizar apariencia</string>
+    <string name="theme_and_colors">Colores y tema</string>
+    <string name="feature_locked">Bloqueado</string>
+    <string name="customize_widget_colors">Personalizar colores de widget</string>
+    <string name="customize_notifications">Personalizar notificaciones</string>
+    <string name="notification_sound">Sonido de notificación</string>
+    <string name="use_english_language">Usar idioma Inglés</string>
+    <string name="language">Idioma</string>
+    <string name="show_hidden_items">Mostrar ítems ocultados</string>
+    <string name="font_size">Tamaño de letra</string>
+    <string name="font">Letra</string>
+    <string name="app_font">Letra de la aplicación</string>
+    <string name="font_monospace">Monoespaciado</string>
+    <string name="select_font_file">Seleccionar archivo de letra…</string>
+    <string name="invalid_font_file">Archivo de letra inválido</string>
+    <string name="small">Pequeño</string>
+    <string name="medium">Medio</string>
+    <string name="large">Largo</string>
+    <string name="extra_large">Extra largo</string>
+    <string name="password_protect_hidden_items">Visibilidad del ítem oculto de protección de contraseña</string>
+    <string name="password_protect_whole_app">Proteger con contraseña la app entera</string>
+    <string name="deprecated_app">DEPRECADO: Está versión de la app ya no es mantenida, obten la versión Pro en https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="reminder_warning">Por favor verifique que los recordatorios funcionen antes de utilizarlos. Chequee la configuración de la bateria del dispositivo y de las notificaciones, si no hay nada bloqueando los recordatorios, o cerrando la aplicación mientras no se usa.</string>
+    <string name="notifications_disabled">Notificaciones de esta aplicación están deshabilitadas. Por favor vaya a la configuración de su dispositivo para activarlas.</string>
+    <string name="alarm">Alarma</string>
+    <string name="password_protect_file_deletion">Eliminar y mover archivo de protección de contraseña</string>
+    <string name="keep_last_modified">Mantener el último valor modificado viejo en las operaciones de archivo</string>
+    <string name="show_info_bubble">Mostrar una burbuja de info en los ítems desplazándose al arrastrar la barra de desplazamiento</string>
+    <string name="prevent_phone_from_sleeping">Prevenir que el teléfono se ponga en reposo mientras que la app se esté usando</string>
+    <string name="skip_delete_confirmation">Siempre saltear diálogo de confirmación de eliminación</string>
+    <string name="enable_pull_to_refresh">Activar arrastar-para-recargar desde arriba de todo</string>
+    <string name="use_24_hour_time_format">Usar formato de 24 horas</string>
+    <string name="change_date_and_time_format">Cambiar formato de hora y fecha</string>
+    <string name="sunday_first">Empezar semana en Domingos</string>
+    <string name="start_week_on">Empezar semana en</string>
+    <string name="widgets">Widgets</string>
+    <string name="use_same_snooze">Siempre usar el mismo tiempo a posponer</string>
+    <string name="snooze_time">Tiempo a Posponer</string>
+    <string name="move_items_into_recycle_bin">Mover ítems eliminados a la papelera</string>
 </resources>
