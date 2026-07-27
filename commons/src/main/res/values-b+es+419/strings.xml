@@ -788,4 +788,7 @@
     <string name="no_entries_for_importing">No se encontraron datos a importar</string>
     <string name="no_new_entries_for_importing">No se encontraron nuevos datos a importar</string>
     <string name="no_entries_for_exporting">No se encontraron datos a exportar</string>
+    <string name="backups">Respaldos</string>
+    <string name="enable_automatic_backups">Activar respaldos automáticos</string>
+    <string name="manage_automatic_backups">Administrar respaldos automáticos</string>
 </resources>
