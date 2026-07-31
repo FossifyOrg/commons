@@ -1190,6 +1190,10 @@
     <string name="android_lame_title">AndroidLame (mp3 encoder)</string>
     <string name="zip4j_title">Zip4j (ZIP compression and decompression)</string>
     <string name="evalex_title">EvalEx (math expression evaluation)</string>
+    <string name="mammoth_title">Mammoth (DOCX converter)</string>
+    <string name="commonmark_title">CommonMark (Markdown parser)</string>
+    <string name="jsoup_title">jsoup (HTML parser)</string>
+    <string name="commons_csv_title">Apache Commons CSV (CSV parser)</string>
 
     <!-- Trial -->
     <string name="trial_expired">Trial expired</string>
