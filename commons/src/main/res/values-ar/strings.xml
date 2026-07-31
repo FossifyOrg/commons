@@ -1269,4 +1269,8 @@
         <item quantity="many">حُفظت الملفات بنجاح</item>
         <item quantity="other">حُفظت الملفات بنجاح</item>
     </plurals>
+    <string name="mammoth_title">Mammoth (محوّل DOCX)</string>
+    <string name="commonmark_title">CommonMark (محلّل Markdown)</string>
+    <string name="jsoup_title">jsoup (محلّل HTML)</string>
+    <string name="commons_csv_title">Apache Commons CSV (محلّل CSV)</string>
 </resources>
