@@ -1264,7 +1264,7 @@
     <plurals name="files_saved">
         <item quantity="zero">حُفظ الملف بنجاح</item>
         <item quantity="one">حُفظ الملف بنجاح</item>
-        <item quantity="two">حُفظ ملفين بنجاح</item>
+        <item quantity="two">حُفظ ملفان بنجاح</item>
         <item quantity="few">حُفظت الملفات بنجاح</item>
         <item quantity="many">حُفظت الملفات بنجاح</item>
         <item quantity="other">حُفظت الملفات بنجاح</item>
