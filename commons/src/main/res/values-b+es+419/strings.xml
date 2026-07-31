@@ -167,7 +167,7 @@
     <string name="search_recordings">Buscar grabaciones</string>
     <string name="filter">Filtros</string>
     <string name="filter_pro">Filtros (Pro)</string>
-    <string name="no_items_found">No sé encontraron ítems.</string>
+    <string name="no_items_found">No se encontraron ítems.</string>
     <string name="change_filter">Cambiar filtro</string>
     <string name="no_storage_permissions">Se requiere el permiso al almacenamiento</string>
     <string name="no_contacts_permission">Se requiere permiso a la lista de contactos</string>
@@ -198,7 +198,7 @@
     <string name="renaming_folder">Renombrando carpeta</string>
     <string name="filename_cannot_be_empty">El nombre del archivo no puede estar vacío</string>
     <string name="filename_invalid_characters">El nombre del archivo contiene caracteres inválidos</string>
-    <string name="filename_invalid_characters_placeholder">Nombre del archivo \"%s\" contiene carácteres inválidos</string>
+    <string name="filename_invalid_characters_placeholder">Nombre del archivo \\\"%s\\\" contiene caracteres inválidos</string>
     <string name="extension_cannot_be_empty">La extensión no puede estar vacía</string>
     <string name="source_file_doesnt_exist">El archivo fuente %s no existe</string>
     <string name="prepend_filenames">Agregar texto antes del nombre de archivos</string>
@@ -277,7 +277,7 @@
     <string name="confirm_storage_access_text_sd">Si no ve la tarjeta SD, intente esto</string>
     <string name="confirm_storage_access_android_text">Por favor permita a la aplicación a qué acceda el almacenamiento seleccionado en la siguiente pantalla presionando \"Usar esta carpeta\" en la parte de abajo.</string>
     <string name="excluded">(excluido)</string>
-    <string name="confirm_storage_access_restricted_text_not_found">No sé pudo encontrar una aplicación del sistema de administración de archivos.</string>
+    <string name="confirm_storage_access_restricted_text_not_found">No se pudo encontrar una aplicación del sistema de administración de archivos.</string>
     <string name="confirm_create_doc_for_new_folder_text">Por favor presione \"&lt;b&gt;Guardar&lt;/b&gt;\" en la parte de abajo de la siguiente pantalla para crear la nueva carpeta.</string>
     <string name="confirm_selection">Confirmar selección</string>
     <string name="loading">Cargando…</string>
@@ -310,7 +310,7 @@
     <string name="root">Raíz</string>
     <string name="wrong_root_selected">Carpeta errónea seleccionada, por favor seleccione la carpeta principal de su tarjeta SD</string>
     <string name="sd_card_usb_same">La ubicación de la tarjeta SD y del dispositivo USB no pueden ser iguales</string>
-    <string name="app_on_sd_card">Parece que tienes la aplicación instalada en una tarjeta SD, eso hace que los widgets de la aplicación no estén disponibles. Ni si quiera los verá en la lista de widgets disponibles. Es una limitación del sistema, así que si quieres usar los widgets, tendrás que mover la aplicación al almacenamiento interno.</string>
+    <string name="app_on_sd_card">Parece que tienes la aplicación instalada en una tarjeta SD, eso hace que los widgets de la aplicación no estén disponibles. Ni siquiera los verá en la lista de widgets disponibles. Es una limitación del sistema, así que si quieres usar los widgets, tendrás que mover la aplicación al almacenamiento interno.</string>
     <string name="wrong_folder_selected">Carpeta seleccionada errónea, por favor seleccione la ruta \"%s\"</string>
     <string name="properties">Propiedades</string>
     <string name="path">Ruta</string>
@@ -361,14 +361,14 @@
         <item quantity="many">Tu prueba expirará en %d días.</item>
         <item quantity="other">Tu prueba expirará en %d días.</item>
     </plurals>
-    <string name="trial_end_description">Por favor actualize a la versión Pro para disfrutar la aplicación completamente.\n\nSolo tienes que pagarla una sola vez y si no te satisfecha, puedes desinstalarla y recibir un reembolso.\n\nTe esperaremos :)</string>
+    <string name="trial_end_description">Por favor actualize a la versión Pro para disfrutar la aplicación completamente.\\n\\nSolo tienes que pagarla una sola vez y si no te satisface, puedes desinstalarla y recibir un reembolso.\\n\\nTe esperaremos :)</string>
     <string name="welcome_to_app_name">Bienvenid@ a %s!</string>
     <string name="unlock_for_one_final_day">Desbloquea la aplicación para un día final</string>
     <string name="trial_expires_soon">Tu prueba expirará pronto.</string>
     <string name="confirm_storage_access_android_text_specific">Por favor permita a \"&lt;b&gt;%s&lt;/b&gt;\" en el siguiente apartado presionando \"&lt;b&gt;Usar esta carpeta&lt;/b&gt;\" en el fondo.</string>
     <string name="confirm_storage_access_restricted_text">Debido a restricciones del sistema, esta carpeta no está disponible.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Abrir en la aplicación del sistema</string>
-    <string name="app_icon_color_warning">Peligro: Ciertos launchers pueden no controlar la personalización de iconos de aplicaciones correctamente. Si el icono desaparece, intenté abrir la aplicación desde Google Play o un widget, si es accesible. Después de abrirla, restaura el icono verde por defecto color #106D1F. En casos extremos, reinstalar la aplicación podría ser necesario.</string>
+    <string name="app_icon_color_warning">Peligro: Ciertos launchers pueden no controlar la personalización de iconos de aplicaciones correctamente. Si el icono desaparece, intenta abrir la aplicación desde Google Play o un widget, si es accesible. Después de abrirla, restaura el icono verde por defecto color #106D1F. En casos extremos, reinstalar la aplicación podría ser necesario.</string>
     <string name="global_theme_success">El tema actual se ha aplicado con éxito a todas las aplicaciones Fossify. Todos los cambios futuros a este tema se sincronizarán automáticamente.</string>
     <string name="shared_theme_note">Recuerde que aunque esté usando la versión Pro de la aplicación, aún así necesitará Fossify Thank You por razones técnicas. Se encargará de la sincronización del color.</string>
     <string name="light_theme">Claro</string>
@@ -460,7 +460,7 @@
     <string name="solarized">Solarizado</string>
     <string name="are_you_sure_recycle_bin">Verdaderamente quieres mover este ítem a la papelera?</string>
     <string name="do_not_show_again">No mostrar de nuevo</string>
-    <string name="yes">Si</string>
+    <string name="yes">Sí</string>
     <string name="no">No</string>
     <string name="maybe">Quizás</string>
     <plurals name="delete_warning">
@@ -482,7 +482,7 @@
     <string name="insert_pattern">Insertar patrón</string>
     <string name="wrong_pattern">Patrón equivocado</string>
     <string name="repeat_pattern">Repetir patrón</string>
-    <string name="biometrics">Biometricas</string>
+    <string name="biometrics">Biométricas</string>
     <string name="fingerprint">Huella dactilar</string>
     <string name="add_fingerprint">Añadir huella dactilar</string>
     <string name="place_finger">Por favor apoye su dedo sobre el sensor</string>
@@ -497,7 +497,7 @@
     <string name="lock_folder">Bloquear carpeta</string>
     <string name="lock_folder_pro">Bloquear carpeta (Pro)</string>
     <string name="unlock_folder">Desbloquear carpeta</string>
-    <string name="lock_folder_notice">Está protección solo funciona en esta app, no puede reemplazar un cifrado de carpetas parte del sistema.</string>
+    <string name="lock_folder_notice">Esta protección solo funciona en esta app, no puede reemplazar un cifrado de carpetas parte del sistema.</string>
     <string name="enter_password">Ingresar contraseña</string>
     <string name="password">Contraseña</string>
     <string name="add_password">Añadir contraseña</string>
@@ -673,8 +673,8 @@
     <string name="during_day_at_hh_mm">Durante el día a la hh:mm</string>
     <string name="during_day_at">Durante el día a la %1$02d:%2$02d</string>
     <string name="settings">Configuraciones</string>
-    <string name="purchase_simple_thank_you">Comprar Fossify Grácias</string>
-    <string name="requires_fossify_thank_you">Requiere Fossify Grácias</string>
+    <string name="purchase_simple_thank_you">Comprar Fossify Gracias</string>
+    <string name="requires_fossify_thank_you">Requiere Fossify Gracias</string>
     <string name="enables_more_customization">Permitir más personalización</string>
     <string name="general_settings">General</string>
     <string name="color_customization">Color y sentimiento</string>
@@ -699,7 +699,7 @@
     <string name="extra_large">Extra largo</string>
     <string name="password_protect_hidden_items">Visibilidad del ítem oculto de protección de contraseña</string>
     <string name="password_protect_whole_app">Proteger con contraseña la app entera</string>
-    <string name="deprecated_app">DEPRECADO: Está versión de la app ya no es mantenida, obten la versión Pro en https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="deprecated_app">DEPRECADO: Esta versión de la app ya no es mantenida, obten la versión Pro en https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="reminder_warning">Por favor verifique que los recordatorios funcionen antes de utilizarlos. Chequee la configuración de la bateria del dispositivo y de las notificaciones, si no hay nada bloqueando los recordatorios, o cerrando la aplicación mientras no se usa.</string>
     <string name="notifications_disabled">Notificaciones de esta aplicación están deshabilitadas. Por favor vaya a la configuración de su dispositivo para activarlas.</string>
     <string name="alarm">Alarma</string>
@@ -708,7 +708,7 @@
     <string name="show_info_bubble">Mostrar una burbuja de info en los ítems desplazándose al arrastrar la barra de desplazamiento</string>
     <string name="prevent_phone_from_sleeping">Prevenir que el teléfono se ponga en reposo mientras que la app se esté usando</string>
     <string name="skip_delete_confirmation">Siempre saltear diálogo de confirmación de eliminación</string>
-    <string name="enable_pull_to_refresh">Activar arrastar-para-recargar desde arriba de todo</string>
+    <string name="enable_pull_to_refresh">Activar arrastrar-para-recargar desde arriba de todo</string>
     <string name="use_24_hour_time_format">Usar formato de 24 horas</string>
     <string name="change_date_and_time_format">Cambiar formato de hora y fecha</string>
     <string name="sunday_first">Empezar semana en Domingos</string>
@@ -748,7 +748,7 @@
     <string name="excluded_folders">Excluir carpetas</string>
     <string name="manage_excluded_folders">Administrar carpetas excluidas</string>
     <string name="remove_all">Remover todas</string>
-    <string name="remove_all_description">¿Remover todas las carpetas de la lista de excluidas? Esto no borrara las carpetas.</string>
+    <string name="remove_all_description">¿Remover todas las carpetas de la lista de excluidas? Esto no borrará las carpetas.</string>
     <string name="temporarily_show_excluded">Temporalmente mostrar excluidas</string>
     <string name="stop_showing_excluded">Dejar de mostrar excluidas</string>
     <string name="manage_shown_tabs">Administrar pestañas mostradas</string>
@@ -766,7 +766,7 @@
     <string name="recycle_bin_emptied">La papelera se ha vaciado con éxito</string>
     <string name="files_restored_successfully">Se han restaurado los archivos con éxito</string>
     <string name="empty_recycle_bin_confirmation">¿Verdaderamente quieres vaciar la papelera? Los archivos se perderán permanentemente.</string>
-    <string name="recycle_bin_empty">La papelera esta vacía</string>
+    <string name="recycle_bin_empty">La papelera está vacía</string>
     <string name="moving_recycle_bin_items_disabled">Mover ítems en la papelera esta deshabilitado. Por favor use Restaurar.</string>
     <string name="show_the_recycle_bin">Mostrar la papelera</string>
     <string name="hide_the_recycle_bin">Ocultar la papelera</string>
