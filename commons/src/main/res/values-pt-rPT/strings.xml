@@ -583,7 +583,7 @@
     <string name="friday">Sexta-feira</string>
     <string name="saturday">Sábado</string>
     <string name="sunday">Domingo</string>
-    <string name="monday_letter">M</string>
+    <string name="monday_letter">S</string>
     <string name="thursday_short">Qui</string>
     <string name="sunday_short">Dom</string>
     <string name="upgrade_to_pro_long">A versão do seu aplicativo não será mais atualizada. Atualize para a versão Pro para receber novas correções e outras melhorias.</string>
@@ -878,7 +878,7 @@
     <string name="april">Abril</string>
     <string name="in_november">em Novembro</string>
     <string name="thursday_letter">Q</string>
-    <string name="friday_letter">F</string>
+    <string name="friday_letter">S</string>
     <string name="saturday_letter">S</string>
     <string name="sunday_letter">D</string>
     <string name="monday_short">Seg</string>
