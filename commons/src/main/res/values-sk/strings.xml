@@ -1107,9 +1107,9 @@
     <string name="call_contact">Zavolať kontakt</string>
     <string name="view_contact">Zobraziť údaje kontaktu</string>
     <plurals name="files_saved">
-        <item quantity="one">Súbor</item>
-        <item quantity="few">Súbory</item>
-        <item quantity="many">Súborov</item>
-        <item quantity="other">Súborov</item>
+        <item quantity="one">Súbor bol úspešne uložený</item>
+        <item quantity="few">Súbory boli úspešne uložené</item>
+        <item quantity="many">Súbory boli úspešne uložené</item>
+        <item quantity="other">Súbory boli úspešne uložené</item>
     </plurals>
 </resources>
