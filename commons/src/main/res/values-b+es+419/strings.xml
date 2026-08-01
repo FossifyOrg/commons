@@ -198,7 +198,7 @@
     <string name="renaming_folder">Renombrando carpeta</string>
     <string name="filename_cannot_be_empty">El nombre del archivo no puede estar vacío</string>
     <string name="filename_invalid_characters">El nombre del archivo contiene caracteres inválidos</string>
-    <string name="filename_invalid_characters_placeholder">Nombre del archivo \\\"%s\\\" contiene caracteres inválidos</string>
+    <string name="filename_invalid_characters_placeholder">Nombre del archivo \"%s\" contiene caracteres inválidos</string>
     <string name="extension_cannot_be_empty">La extensión no puede estar vacía</string>
     <string name="source_file_doesnt_exist">El archivo fuente %s no existe</string>
     <string name="prepend_filenames">Agregar texto antes del nombre de archivos</string>
@@ -361,7 +361,7 @@
         <item quantity="many">Tu prueba expirará en %d días.</item>
         <item quantity="other">Tu prueba expirará en %d días.</item>
     </plurals>
-    <string name="trial_end_description">Por favor actualize a la versión Pro para disfrutar la aplicación completamente.\\n\\nSolo tienes que pagarla una sola vez y si no te satisface, puedes desinstalarla y recibir un reembolso.\\n\\nTe esperaremos :)</string>
+    <string name="trial_end_description">Por favor actualize a la versión Pro para disfrutar la aplicación completamente.\n\nSolo tienes que pagarla una sola vez y si no te satisface, puedes desinstalarla y recibir un reembolso.\n\nTe esperaremos :)</string>
     <string name="welcome_to_app_name">Bienvenid@ a %s!</string>
     <string name="unlock_for_one_final_day">Desbloquea la aplicación para un día final</string>
     <string name="trial_expires_soon">Tu prueba expirará pronto.</string>
