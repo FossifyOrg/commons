@@ -791,4 +791,6 @@
     <string name="backups">Respaldos</string>
     <string name="enable_automatic_backups">Activar respaldos automáticos</string>
     <string name="manage_automatic_backups">Administrar respaldos automáticos</string>
+    <string name="date_time_pattern_info">Puedes usar los siguientes patrones para nombrar tu archivo automáticamente:\n\n%Y - año\n%M - mes\n%D - día\n%h - hora\n%m - minuto\n%s - segundo</string>
+    <string name="usb">USB</string>
 </resources>
