@@ -1161,29 +1161,6 @@
     <ID>MaxLineLength:ItemMoveCallback.kt$ItemMoveCallback$open</ID>
     <ID>MaxLineLength:ItemMoveCallback.kt$ItemMoveCallback$override</ID>
     <ID>MaxLineLength:LanguageContributor.kt$LanguageContributor$data</ID>
-    <ID>MaxLineLength:LicenseActivity.kt$LicenseActivity$License(LICENSE_ANDROID_LAME, R.string.android_lame_title, R.string.android_lame_text, R.string.android_lame_url)</ID>
-    <ID>MaxLineLength:LicenseActivity.kt$LicenseActivity$License(LICENSE_AUDIO_RECORD_VIEW, R.string.audio_record_view_title, R.string.audio_record_view_text, R.string.audio_record_view_url)</ID>
-    <ID>MaxLineLength:LicenseActivity.kt$LicenseActivity$License(LICENSE_AUTOFITTEXTVIEW, R.string.autofittextview_title, R.string.autofittextview_text, R.string.autofittextview_url)</ID>
-    <ID>MaxLineLength:LicenseActivity.kt$LicenseActivity$License(LICENSE_GESTURE_VIEWS, R.string.gesture_views_title, R.string.gesture_views_text, R.string.gesture_views_url)</ID>
-    <ID>MaxLineLength:LicenseActivity.kt$LicenseActivity$License(LICENSE_GIF_DRAWABLE, R.string.gif_drawable_title, R.string.gif_drawable_text, R.string.gif_drawable_url)</ID>
-    <ID>MaxLineLength:LicenseActivity.kt$LicenseActivity$License(LICENSE_INDICATOR_FAST_SCROLL, R.string.indicator_fast_scroll_title, R.string.indicator_fast_scroll_text, R.string.indicator_fast_scroll_url)</ID>
-    <ID>MaxLineLength:LicenseActivity.kt$LicenseActivity$License(LICENSE_NUMBER_PICKER, R.string.number_picker_title, R.string.number_picker_text, R.string.number_picker_url)</ID>
-    <ID>MaxLineLength:LicenseActivity.kt$LicenseActivity$License(LICENSE_PDF_VIEW_PAGER, R.string.pdf_view_pager_title, R.string.pdf_view_pager_text, R.string.pdf_view_pager_url)</ID>
-    <ID>MaxLineLength:LicenseActivity.kt$LicenseActivity$val thirdPartyLicenses by remember { derivedStateOf { initLicenses().filter { licenseMask and it.id != 0L }.toImmutableList() } }</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_ANDROID_LAME, R.string.android_lame_title, R.string.android_lame_text, R.string.android_lame_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_AUDIO_RECORD_VIEW, R.string.audio_record_view_title, R.string.audio_record_view_text, R.string.audio_record_view_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_AUTOFITTEXTVIEW, R.string.autofittextview_title, R.string.autofittextview_text, R.string.autofittextview_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_GESTURE_VIEWS, R.string.gesture_views_title, R.string.gesture_views_text, R.string.gesture_views_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_GIF_DRAWABLE, R.string.gif_drawable_title, R.string.gif_drawable_text, R.string.gif_drawable_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_LEAK_CANARY, R.string.leak_canary_title, R.string.leakcanary_text, R.string.leakcanary_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_M3U_PARSER, R.string.m3u_parser_title, R.string.m3u_parser_text, R.string.m3u_parser_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_NUMBER_PICKER, R.string.number_picker_title, R.string.number_picker_text, R.string.number_picker_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_PDF_VIEWER, R.string.pdf_viewer_title, R.string.pdf_viewer_text, R.string.pdf_viewer_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_PDF_VIEW_PAGER, R.string.pdf_view_pager_title, R.string.pdf_view_pager_text, R.string.pdf_view_pager_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_ROBOLECTRIC, R.string.robolectric_title, R.string.robolectric_text, R.string.robolectric_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_RTL, R.string.rtl_viewpager_title, R.string.rtl_viewpager_text, R.string.rtl_viewpager_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$License(LICENSE_SUBSAMPLING, R.string.subsampling_title, R.string.subsampling_text, R.string.subsampling_url)</ID>
-    <ID>MaxLineLength:LicenseScreen.kt$}</ID>
     <ID>MaxLineLength:LineColorPickerDialog.kt$if (isPrimaryColorPicker) dialogLineColorPickerBinding!!.secondaryLineColorPicker else dialogLineColorPickerBinding!!.primaryLineColorPicker</ID>
     <ID>MaxLineLength:LocalContactsHelper.kt$LocalContactsHelper$fun</ID>
     <ID>MaxLineLength:LocalContactsHelper.kt$LocalContactsHelper$return (contacts.map { convertLocalContactToContact(it, storedGroups) }.toMutableList() as? ArrayList&lt;Contact&gt;) ?: arrayListOf()</ID>
@@ -1619,8 +1596,6 @@
     <ID>WildcardImport:FilepickerItemsAdapter.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:FingerprintTab.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:FolderLockingNoticeDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
-    <ID>WildcardImport:LicenseActivity.kt$import org.fossify.commons.helpers.*</ID>
-    <ID>WildcardImport:LicenseScreen.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:LineColorPickerDialog.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:LineColorPickerDialog.kt$import androidx.compose.runtime.*</ID>
     <ID>WildcardImport:LineColorPickerDialog.kt$import org.fossify.commons.extensions.*</ID>
