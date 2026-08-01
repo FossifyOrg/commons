@@ -1,5 +1,6 @@
 package org.fossify.commons.models
 
+import android.content.ContentUris
 import android.content.Context
 import android.net.Uri
 import android.provider.MediaStore
@@ -152,14 +153,19 @@ open class FileDirItem(
 
     fun getKey() = ObjectKey(getSignature())
 
-    fun assembleContentUri(): Uri {
+    @Deprecated("Use Context.resolveMediaStoreUris() and handle unresolved files explicitly.")
+    fun assembleContentUri(): Uri? {
+        if (mediaStoreId <= 0) {
+            return null
+        }
+
         val uri = when {
             path.isImageFast() -> MediaStore.Images.Media.EXTERNAL_CONTENT_URI
             path.isVideoFast() -> MediaStore.Video.Media.EXTERNAL_CONTENT_URI
             else -> MediaStore.Files.getContentUri("external")
         }
 
-        return Uri.withAppendedPath(uri, mediaStoreId.toString())
+        return ContentUris.withAppendedId(uri, mediaStoreId)
     }
 }
 
