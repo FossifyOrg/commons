@@ -1074,7 +1074,7 @@
     <string name="genre">Gènere</string>
     <string name="apply_to_all_apps">Aplicar el tema a totes les aplicacions de Fossify</string>
     <string name="purchase_thank_you"><![CDATA[
-            Compreu la <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> per a fer serrvir aquesta característica i col·laborar amb el desenvolupament. Gràcies!
+            Compreu la <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> per a fer servir aquesta característica i col·laborar amb el desenvolupament. Gràcies!
         ]]></string>
     <string name="enter_password">Introduïu la contrasenya</string>
     <string name="password">Contrasenya</string>
@@ -1155,4 +1155,8 @@
     <string name="on_contact_click">En fer clic al contacte</string>
     <string name="call_contact">Truca al contacte</string>
     <string name="view_contact">Mostra les dades del contacte</string>
+    <string name="mammoth_title">Mammoth (convertidor de DOCX)</string>
+    <string name="commonmark_title">CommonMark (analitzador de Markdown)</string>
+    <string name="jsoup_title">jsoup (analitzador de HTML)</string>
+    <string name="commons_csv_title">Apache Commons CSV (analitzador de CSV)</string>
 </resources>
