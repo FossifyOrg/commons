@@ -771,7 +771,7 @@
     <string name="donate_please"><![CDATA[
             Hallo,<br><br>
             Hopelijk vind je dit een fijne app. Het bevat geen advertenties, maar je kunt de verdere ontwikkeling wel ondersteunen door de app <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Bedankje</a> aan te schaffen. Het voorkomt ook dat dit venster nog eens verschijnt.<br><br>
-             Dankjewel!
+            Dankjewel!
         ]]></string>
     <string name="purchase">Kopen</string>
     <string name="before_asking_question_read_faq">Controleer bij problemen eerst de instellingen van de app en neem de Veelgestelde vragen door. Misschien staat de oplossing daar.</string>
@@ -809,7 +809,7 @@
     <string name="thank_you_short">Bedankt!</string>
     <string name="voice_recorder_short">Geluidsrecorder</string>
     <string name="sideloaded_app"><![CDATA[
-            Het lijkt erop dat deze versie van de app corrupt is. Download de originele versie <a href="%s">hier</a>
+            Het lijkt erop dat deze versie van de app corrupt is. Download de originele versie <a href="%s">hier</a>.
         ]]></string>
     <string name="frequently_asked_questions">Veelgestelde vragen</string>
     <string name="before_asking_question">Lees vóór het insturen van een vraag eerst de</string>
@@ -1003,7 +1003,8 @@
     <string name="why_upgrade_pro_version">Pro</string>
     <string name="contributors_label"><![CDATA[
             Deze lijst bevat de namen van iedereen die aan een app binnen de Fossify suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers,
-            dus laat het ons weten als je ook wilt helpen. Lees de instructies <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>op deze website</a>, of stuur bij vragen een bericht naar <a href=mailto:hello@fossify.org>hello@fossify.org</a>. Bedankt voor alle bijdragen en andere ondersteuning!
+            dus laat het ons weten als je ook wilt helpen. Lees de instructies <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>op deze website</a>, of stuur bij vragen een bericht naar <a href=mailto:hello@fossify.org>hello@fossify.org</a>.
+            Bedankt voor alle bijdragen en andere ondersteuning!
         ]]></string>
     <string name="features_locked">Deze functie is vergrendeld. Overweeg het aanschaffen van &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; om alle functies in deze app te kunnen gebruiken.&lt;br&gt;&lt;br&gt;Dit is een eenmalige aanschaf met een niet-goed-geld-teruggarantie.</string>
     <string name="launcher_short">Launcher</string>
