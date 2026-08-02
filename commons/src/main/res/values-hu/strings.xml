@@ -631,7 +631,7 @@
     <string name="widgets">Modulok</string>
     <string name="use_same_snooze">Mindig ugyanazt a szundi időt használja</string>
     <string name="snooze_time">Szundi ideje</string>
-    <string name="vibrate_on_button_press">Rezgés koppintáskor</string>
+    <string name="vibrate_on_button_press">Rezgés gombnyomáskor</string>
     <string name="move_items_into_recycle_bin">Törlendő elemek Lomtárba helyezése</string>
     <string name="recycle_bin_cleaning_interval">Lomtár ürítési intervallum</string>
     <string name="empty_recycle_bin">Lomtár ürítése</string>
@@ -1089,7 +1089,7 @@
     <string name="confirm_storage_access_restricted_text_open_system">Megnyitás rendszeralkalmazásban</string>
     <string name="confirm_storage_access_restricted_text_not_found">Nem található rendszerfájl-kezelő alkalmazás.</string>
     <string name="number_of_items">Elemek száma</string>
-    <string name="reorder_items_by_dragging">Elemek újrarendezése kézzel</string>
+    <string name="reorder_items_by_dragging">Elemek átrendezése húzással</string>
     <string name="requires_fossify_thank_you">Fossify Köszönet szükséges hozzá</string>
     <string name="more_fossify_apps">Még több Fossify alkalmazás</string>
     <string name="rate_this_app">Értékeld az alkalmazást</string>
