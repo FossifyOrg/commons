@@ -86,7 +86,7 @@
     <string name="scanning">Escaneando…</string>
     <string name="birthday">Cumpleaños</string>
     <string name="anniversary">Aniversario</string>
-    <string name="home">Inicio</string>
+    <string name="home">Casa</string>
     <string name="work">Trabajo</string>
     <string name="mobile">Móvil</string>
     <string name="main_number">Principal</string>
@@ -127,7 +127,7 @@
     <string name="import_blocked_numbers">Importar números bloqueados</string>
     <string name="must_make_default_dialer">Debes hacer esta aplicación como la aplicación predeterminada para marcar números para poder bloquear números.</string>
     <string name="set_as_default">Establecer como predeterminada</string>
-    <string name="block_confirmation">Verdaderamente quieres bloquear a \"%s\"?</string>
+    <string name="block_confirmation">¿Verdaderamente quieres bloquear a \"%s\"?</string>
     <string name="block_unknown_calls">Bloquear llamadas de números que no están en tus contactos</string>
     <string name="block_hidden_calls">Bloquear llamadas de números ocultos</string>
     <string name="block_unknown_messages">Bloquear mensajes de números que no están en tus contactos</string>
@@ -249,17 +249,17 @@
     <string name="empty_name">Por favor ingrese un nombre</string>
     <string name="unknown_error_occurred">Un error desconocido ha ocurrido</string>
     <string name="file_already_exists">Archivo \"%s\" ya existe</string>
-    <string name="file_already_exists_overwrite">Archivo \"%s\" ya existe. Desea sobreescribirlo?</string>
+    <string name="file_already_exists_overwrite">Archivo \"%s\" ya existe. ¿Desea sobreescribirlo?</string>
     <string name="folder_already_exists">Carpeta \"%s\" ya existe</string>
     <string name="merge">Unir</string>
     <string name="keep_both">Mantener ambos</string>
     <string name="overwrite">Sobreescribir</string>
     <string name="skip">Saltear</string>
     <string name="append">Añadir al final \"_1\"</string>
-    <string name="apply_to_all">Añadir a todos</string>
+    <string name="apply_to_all">Aplicar a todos</string>
     <string name="system_folder_restriction">El sistema no permite la operación en esta carpeta, por favor seleccione otra</string>
     <string name="system_folder_copy_restriction">El sistema no permite copiar en esta carpeta, por favor seleccione otra</string>
-    <string name="developer_description">Un grupo de simple, aplicaciones de Android de código libre con widgets personalizables, sin anuncios y permisos innecesarios.</string>
+    <string name="developer_description">Un grupo de aplicaciones simples de Android de código libre con widgets personalizables, sin anuncios y permisos innecesarios.</string>
     <string name="pro_app_refund">No te olvides de que si desinstalas cualquier aplicación de pago dentro de 2 horas, automáticamente recibirás un reembolso. Si quieres un reembolso luego, solo contáctenos a hello@fossify.org y lo recibirás. Eso hará que sea más fácil probarlo :)</string>
     <string name="number_picker_title">Seleccionador de Números (seleccionador de números personalizable)</string>
     <string name="exoplayer_title">ExoPlayer (reproductor de videos)</string>
@@ -275,13 +275,13 @@
     <string name="confirm_folder_access_title">Confirmar acceso a carpeta</string>
     <string name="confirm_storage_access_text">Por favor seleccione la carpeta raíz de la tarjeta SD en la siguiente pantalla, para dar el acceso a escribir</string>
     <string name="confirm_storage_access_text_sd">Si no ve la tarjeta SD, intente esto</string>
-    <string name="confirm_storage_access_android_text">Por favor permita a la aplicación a qué acceda el almacenamiento seleccionado en la siguiente pantalla presionando \"Usar esta carpeta\" en la parte de abajo.</string>
+    <string name="confirm_storage_access_android_text">Por favor permita que la aplicación acceda al almacenamiento seleccionado en la siguiente pantalla presionando \"Usar esta carpeta\" en la parte de abajo.</string>
     <string name="excluded">(excluido)</string>
     <string name="confirm_storage_access_restricted_text_not_found">No se pudo encontrar una aplicación del sistema de administración de archivos.</string>
     <string name="confirm_create_doc_for_new_folder_text">Por favor presione \"&lt;b&gt;Guardar&lt;/b&gt;\" en la parte de abajo de la siguiente pantalla para crear la nueva carpeta.</string>
     <string name="confirm_selection">Confirmar selección</string>
     <string name="loading">Cargando…</string>
-    <string name="access_storage_prompt">Por favor permitale a la aplicación a qué acceda a tus archivos, ya que no funcionará bien sin ello.</string>
+    <string name="access_storage_prompt">Por favor permítale a la aplicación acceder a tus archivos, ya que no funcionará bien sin ello.</string>
     <plurals name="items">
         <item quantity="one">%d ítem</item>
         <item quantity="many">%d ítems</item>
@@ -351,9 +351,9 @@
     <string name="save">Guardar</string>
     <string name="discard">Descartar</string>
     <string name="undo_changes">Deshacer cambios</string>
-    <string name="undo_changes_confirmation">Verdaderamente quieres deshacer tus cambios?</string>
+    <string name="undo_changes_confirmation">¿Verdaderamente quieres deshacer tus cambios?</string>
     <string name="cannot_be_undone">Esta acción no se puede deshacer.</string>
-    <string name="save_before_closing">Tienes cambios sin guardar. Quieres guardar antes de salir?</string>
+    <string name="save_before_closing">Tienes cambios sin guardar. ¿Quieres guardar antes de salir?</string>
     <string name="apply_to_all_apps">Aplicar tema a todas las aplicaciones Fossify</string>
     <string name="format_phone_numbers">Dar formato a números telefónicos</string>
     <plurals name="trial_expires_days">
@@ -361,11 +361,11 @@
         <item quantity="many">Tu prueba expirará en %d días.</item>
         <item quantity="other">Tu prueba expirará en %d días.</item>
     </plurals>
-    <string name="trial_end_description">Por favor actualize a la versión Pro para disfrutar la aplicación completamente.\n\nSolo tienes que pagarla una sola vez y si no te satisface, puedes desinstalarla y recibir un reembolso.\n\nTe esperaremos :)</string>
+    <string name="trial_end_description">Por favor actualice a la versión Pro para disfrutar la aplicación completamente.\n\nSolo tienes que pagarla una sola vez y si no te satisface, puedes desinstalarla y recibir un reembolso.\n\nTe esperaremos :)</string>
     <string name="welcome_to_app_name">Bienvenid@ a %s!</string>
     <string name="unlock_for_one_final_day">Desbloquea la aplicación para un día final</string>
     <string name="trial_expires_soon">Tu prueba expirará pronto.</string>
-    <string name="confirm_storage_access_android_text_specific">Por favor permita a \"&lt;b&gt;%s&lt;/b&gt;\" en el siguiente apartado presionando \"&lt;b&gt;Usar esta carpeta&lt;/b&gt;\" en el fondo.</string>
+    <string name="confirm_storage_access_android_text_specific">Por favor permita el acceso a \"&lt;b&gt;%s&lt;/b&gt;\" en el siguiente apartado presionando \"&lt;b&gt;Usar esta carpeta&lt;/b&gt;\" en el fondo.</string>
     <string name="confirm_storage_access_restricted_text">Debido a restricciones del sistema, esta carpeta no está disponible.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Abrir en la aplicación del sistema</string>
     <string name="app_icon_color_warning">Peligro: Ciertos launchers pueden no controlar la personalización de iconos de aplicaciones correctamente. Si el icono desaparece, intenta abrir la aplicación desde Google Play o un widget, si es accesible. Después de abrirla, restaura el icono verde por defecto color #106D1F. En casos extremos, reinstalar la aplicación podría ser necesario.</string>
@@ -452,13 +452,13 @@
     <string name="more_options">Más opciones</string>
     <string name="reorder_items_by_dragging">Reordenar ítems arrastrándolos</string>
     <string name="proceed_with_deletion">¿Verdaderamente quieres continuar con la eliminación?</string>
-    <string name="deletion_confirmation">Verdaderamente quieres borrar %s?</string>
-    <string name="deletion_confirmation_short">Borrar %s?</string>
-    <string name="move_to_recycle_bin_confirmation">Verdaderamente quieres mover %s a la papelera?</string>
-    <string name="are_you_sure_delete">Verdaderamente quieres borrar este ítem?</string>
+    <string name="deletion_confirmation">¿Verdaderamente quieres borrar %s?</string>
+    <string name="deletion_confirmation_short">¿Borrar %s?</string>
+    <string name="move_to_recycle_bin_confirmation">¿Verdaderamente quieres mover %s a la papelera?</string>
+    <string name="are_you_sure_delete">¿Verdaderamente quieres borrar este ítem?</string>
     <string name="do_not_ask_again">No preguntar otra vez en esta sesión</string>
     <string name="solarized">Solarizado</string>
-    <string name="are_you_sure_recycle_bin">Verdaderamente quieres mover este ítem a la papelera?</string>
+    <string name="are_you_sure_recycle_bin">¿Verdaderamente quieres mover este ítem a la papelera?</string>
     <string name="do_not_show_again">No mostrar de nuevo</string>
     <string name="yes">Sí</string>
     <string name="no">No</string>
@@ -472,10 +472,8 @@
     <string name="enter_pin">Ingresar PIN</string>
     <string name="please_enter_pin">Por favor ingrese un PIN</string>
     <string name="wrong_pin">PIN equivocado</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Porfavor compre <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Gracias</a> para usar esta función y apoyar el desarrollo. ¡Gracias!
-        ]]></string>
-    <string name="pin_must_be_4_digits_long">El PIN debe tener por al menos 4 dígitos de largo</string>
+    <string name="purchase_thank_you"><![CDATA[Por favor compre <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Gracias</a> para usar esta función y apoyar el desarrollo. ¡Gracias!]]></string>
+    <string name="pin_must_be_4_digits_long">El PIN debe tener al menos 4 dígitos de largo</string>
     <string name="too_many_incorrect_attempts">Demasiados intentos fallidos.\nVuelva a intentar en %d segundos.</string>
     <string name="repeat_pin">Repetir PIN</string>
     <string name="pattern">Patrón</string>
@@ -486,14 +484,14 @@
     <string name="fingerprint">Huella dactilar</string>
     <string name="add_fingerprint">Añadir huella dactilar</string>
     <string name="place_finger">Por favor apoye su dedo sobre el sensor</string>
-    <string name="open_biometric_dialog">Abrir dialogo de verificación de ID biométrico</string>
+    <string name="open_biometric_dialog">Abrir diálogo de verificación de ID biométrico</string>
     <string name="authenticate">Autenticar</string>
     <string name="authentication_failed">Autenticación fallida</string>
     <string name="authentication_blocked">Autenticación bloqueada, vuelva a intentarlo en un momento</string>
     <string name="no_fingerprints_registered">No tienes huellas dactilares registradas, por favor añade unas en la Configuración de su dispositivo</string>
     <string name="go_to_settings">Ir a la configuración</string>
     <string name="protection_setup_successfully">Contraseña ajustada con éxito. Por favor reinstale la aplicación en caso de que la olvide.</string>
-    <string name="fingerprint_setup_successfully">Protección ajustada con éxito. Por favor reinstale la aplicación en caso de que tenga problemas reiniciandola.</string>
+    <string name="fingerprint_setup_successfully">Protección ajustada con éxito. Por favor reinstale la aplicación en caso de que tenga problemas reiniciándola.</string>
     <string name="lock_folder">Bloquear carpeta</string>
     <string name="lock_folder_pro">Bloquear carpeta (Pro)</string>
     <string name="unlock_folder">Desbloquear carpeta</string>
@@ -677,7 +675,7 @@
     <string name="requires_fossify_thank_you">Requiere Fossify Gracias</string>
     <string name="enables_more_customization">Permitir más personalización</string>
     <string name="general_settings">General</string>
-    <string name="color_customization">Color y sentimiento</string>
+    <string name="color_customization">Aspecto y comportamiento</string>
     <string name="customize_colors">Personalizar apariencia</string>
     <string name="theme_and_colors">Colores y tema</string>
     <string name="feature_locked">Bloqueado</string>
@@ -695,15 +693,15 @@
     <string name="invalid_font_file">Archivo de letra inválido</string>
     <string name="small">Pequeño</string>
     <string name="medium">Medio</string>
-    <string name="large">Largo</string>
-    <string name="extra_large">Extra largo</string>
-    <string name="password_protect_hidden_items">Visibilidad del ítem oculto de protección de contraseña</string>
+    <string name="large">Grande</string>
+    <string name="extra_large">Extra grande</string>
+    <string name="password_protect_hidden_items">Proteger con contraseña la visibilidad de ítems ocultos</string>
     <string name="password_protect_whole_app">Proteger con contraseña la app entera</string>
-    <string name="deprecated_app">DEPRECADO: Esta versión de la app ya no es mantenida, obten la versión Pro en https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
-    <string name="reminder_warning">Por favor verifique que los recordatorios funcionen antes de utilizarlos. Chequee la configuración de la bateria del dispositivo y de las notificaciones, si no hay nada bloqueando los recordatorios, o cerrando la aplicación mientras no se usa.</string>
+    <string name="deprecated_app">DEPRECADO: Esta versión de la app ya no es mantenida, obtén la versión Pro en https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
+    <string name="reminder_warning">Por favor verifique que los recordatorios funcionen antes de utilizarlos. Chequee la configuración de la batería del dispositivo y de las notificaciones, si no hay nada bloqueando los recordatorios, o cerrando la aplicación mientras no se usa.</string>
     <string name="notifications_disabled">Notificaciones de esta aplicación están deshabilitadas. Por favor vaya a la configuración de su dispositivo para activarlas.</string>
     <string name="alarm">Alarma</string>
-    <string name="password_protect_file_deletion">Eliminar y mover archivo de protección de contraseña</string>
+    <string name="password_protect_file_deletion">Proteger con contraseña la eliminación y movimiento de archivos</string>
     <string name="keep_last_modified">Mantener el último valor modificado viejo en las operaciones de archivo</string>
     <string name="show_info_bubble">Mostrar una burbuja de info en los ítems desplazándose al arrastrar la barra de desplazamiento</string>
     <string name="prevent_phone_from_sleeping">Prevenir que el teléfono se ponga en reposo mientras que la app se esté usando</string>
@@ -726,7 +724,7 @@
     <string name="settings_imported_successfully">Configuraciones importadas con éxito</string>
     <string name="start_name_with_surname">Iniciar nombre con apellido</string>
     <string name="clear_cache">Limpiar la cache</string>
-    <string name="show_call_confirmation_dialog">Mostrar un dialogo de confirmación de llamada antes de iniciar una llamada</string>
+    <string name="show_call_confirmation_dialog">Mostrar un diálogo de confirmación de llamada antes de iniciar una llamada</string>
     <string name="edit_contact">Editar contacto</string>
     <string name="call_contact">Llamar contacto</string>
     <string name="view_contact">Mostrar detalles del contacto</string>
@@ -745,7 +743,7 @@
     <string name="list_view">Vista de lista</string>
     <string name="exclude">Excluir</string>
     <string name="exclude_folder">Excluir carpeta</string>
-    <string name="excluded_folders">Excluir carpetas</string>
+    <string name="excluded_folders">Carpetas excluidas</string>
     <string name="manage_excluded_folders">Administrar carpetas excluidas</string>
     <string name="remove_all">Remover todas</string>
     <string name="remove_all_description">¿Remover todas las carpetas de la lista de excluidas? Esto no borrará las carpetas.</string>
@@ -757,7 +755,7 @@
     <string name="favorites_tab">Favoritos</string>
     <string name="call_history_tab">Historial de Llamadas</string>
     <string name="groups_tab">Grupos</string>
-    <string name="last_used_tab">Ultimo usado</string>
+    <string name="last_used_tab">Último usado</string>
     <string name="files_tab">Archivos</string>
     <string name="recent_files_tab">Archivos recientes</string>
     <string name="restore_this_file">Restaurar este archivo</string>
@@ -767,7 +765,7 @@
     <string name="files_restored_successfully">Se han restaurado los archivos con éxito</string>
     <string name="empty_recycle_bin_confirmation">¿Verdaderamente quieres vaciar la papelera? Los archivos se perderán permanentemente.</string>
     <string name="recycle_bin_empty">La papelera está vacía</string>
-    <string name="moving_recycle_bin_items_disabled">Mover ítems en la papelera esta deshabilitado. Por favor use Restaurar.</string>
+    <string name="moving_recycle_bin_items_disabled">Mover ítems en la papelera está deshabilitado. Por favor use Restaurar.</string>
     <string name="show_the_recycle_bin">Mostrar la papelera</string>
     <string name="hide_the_recycle_bin">Ocultar la papelera</string>
     <string name="open_the_recycle_bin">Abrir la papelera</string>
