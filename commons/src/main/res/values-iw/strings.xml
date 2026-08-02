@@ -176,7 +176,7 @@
     <string name="unhide">בטל הסתרה</string>
     <string name="hide_folder">הסתר תיקייה</string>
     <string name="unhide_folder">בטל הסתרת תיקייה</string>
-    <string name="temporarily_show_hidden">להציג זמנית את הכול</string>
+    <string name="temporarily_show_hidden">להציג זמנית פריטים מוסתרים</string>
     <string name="stop_showing_hidden">הפסק הצגה של מדיה</string>
     <string name="maximum_share_reached">אינך יכול לשתף כל כך הרבה תוכן בבת אחת</string>
     <string name="empty_and_disable_recycle_bin">רוקן והשבת את פח האשפה</string>
