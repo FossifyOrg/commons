@@ -1262,7 +1262,7 @@
     <string name="badge_deprecated">(مهجور)</string>
     <string name="translation_latvian">لاتفية</string>
     <plurals name="files_saved">
-        <item quantity="zero">حُفظ الملف بنجاح</item>
+        <item quantity="zero">حُفظت الملفات بنجاح</item>
         <item quantity="one">حُفظ الملف بنجاح</item>
         <item quantity="two">حُفظ ملفان بنجاح</item>
         <item quantity="few">حُفظت الملفات بنجاح</item>
