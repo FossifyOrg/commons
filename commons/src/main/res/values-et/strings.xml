@@ -1100,4 +1100,8 @@
     <string name="on_contact_click">Kontaktil klõpsamisel</string>
     <string name="call_contact">Helista</string>
     <string name="view_contact">Vaata kontaktandmeid</string>
+    <string name="mammoth_title">Mammoth (DOCX-vormingu teisendaja)</string>
+    <string name="commonmark_title">CommonMark (Markdown-vormingu parser)</string>
+    <string name="jsoup_title">jsoup (HTML-vormingu parser)</string>
+    <string name="commons_csv_title">Apache Commons CSV (CSV-vormingu parser)</string>
 </resources>
