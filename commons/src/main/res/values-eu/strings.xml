@@ -1116,4 +1116,8 @@
     <string name="on_contact_click">Kontaktua sakatzean</string>
     <string name="call_contact">Kontaktuari deitu</string>
     <string name="view_contact">Ikusi kontaktuaren xehetasunak</string>
+    <string name="mammoth_title">Mammoth (DOCX bihurgailua)</string>
+    <string name="commonmark_title">CommonMark (Markdown analizatzailea)</string>
+    <string name="jsoup_title">jsoup (HTML analizatzailea)</string>
+    <string name="commons_csv_title">Apache Commons CSV (CSV analizatzailea)</string>
 </resources>
