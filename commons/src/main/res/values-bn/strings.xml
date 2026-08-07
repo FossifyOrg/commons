@@ -7,4 +7,5 @@
     <string name="remove_all">সবগুলো সরান</string>
     <string name="remove_all_description">বাদ দেওয়া তালিকা থেকে সমস্ত ফোল্ডার সরাবেন\? এটি ফোল্ডারগুলি মুছবে না।</string>
     <string name="edit">সম্পাদনা</string>
+    <string name="ok">ওকে</string>
 </resources>

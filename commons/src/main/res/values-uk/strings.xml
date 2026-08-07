@@ -918,10 +918,12 @@
     <string name="widget_locked_pro">Віджет заблоковано.
 \nБудь ласка, оновіть застосунок до версії Pro, щоб розблокувати віджет.</string>
     <string name="new_app"><![CDATA[
-             Привіт,<br><br> просто повідомляємо, що нещодавно випущено нові застосунки:<br><br> 
-            <a href="%1$s">%2$s</a><br><br> 
-            <a href="%3$s">%4$s</a><br><br> 
-            <a href="%5$s">%6$s</a><br><br> Ви можете завантажити їх, натиснувши на заголовок.<br><br>
+            Вітаємо,<br><br>
+            просто повідомляємо, що нещодавно вийшли нові застосунки:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Ви можете завантажити їх, натиснувши на їхні назви або значки.<br><br>
             Дякуємо
         ]]></string>
     <string name="app_launcher_short">Лаунчер</string>
@@ -943,7 +945,7 @@
     <string name="thank_you_short">Подяка</string>
     <string name="voice_recorder_short">Диктофон</string>
     <string name="sideloaded_app"><![CDATA[
-             Схоже, що ваша версія застосунку пошкоджена. Завантажте оригінальну версію <a href="%s">тут</a>.
+            Схоже, ваша версія застосунку пошкоджена. Завантажте оригінальну версію <a href="%s">тут</a>.
         ]]></string>
     <string name="frequently_asked_questions">Часті питання - ЧаПи</string>
     <string name="before_asking_question">Перш ніж запитувати, будь ласка, прочитайте</string>
@@ -1106,22 +1108,21 @@
     <string name="developer_description">Група простих Android-застосунків з відкритим вихідним кодом, персоналізованими віджетами, без реклами та непотрібних дозволів.</string>
     <string name="purchase_simple_thank_you">Придбайте Fossify Thank You</string>
     <string name="donate_please"><![CDATA[
-            Вітаємо,<br><br>
-            сподіваємось, вам подобається цей застосунок. Він не містить реклами, підтримайте його розробку, придбавши застосунок <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, також це прибере це повідомлення.<br><br>
+            Вітаємо!<br><br>
+            Сподіваємося, вам подобається цей застосунок. У ньому немає реклами, тому просимо підтримати його розробку, придбавши застосунок <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. Це також запобіжить повторній появі цього вікна.<br><br>
             Дякуємо!
         ]]></string>
     <string name="contributors_label"><![CDATA[
-            У цьому списку перелічені ті, хто помітно допоміг будь-якому застосунку з набору Fossify, не тільки цьому. Переклади робляться волонтерами,
-            скажіть нам, якщо ви теж хочете допомогти. Посібник з перекладу знаходиться <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">тут</a>, або напишіть нам на <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас є будь-які питання.
-            Дякуємо всім, хто долучився та підтримав!
+            Цей список містить усіх, хто помітно допоміг будь-якому застосунку в пакеті Fossify, а не лише цьому. Перекладами займаються волонтери,
+            дайте нам знати, якщо ви теж хочете допомогти. Посібник із перекладу знаходиться на <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">цьому вебсайті</a>, або просто зв’яжіться з нами за адресою <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас виникнуть запитання.
+            Дякуємо всім вкладникам та іншим прихильникам!
         ]]></string>
     <string name="faq_2_text_commons"><![CDATA[
-  <![CDATA[
-            Так, звісно. Ви можете розповідати про наші застосунки або лишити відгук та рейтинг. Також ви можете допомогти з їхнім перекладом новою мовою або оновленням перекладів, що вже існують.
-            Посібник з перекладів доступний <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">тут</a>, або просто напишіть нам на <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас є будь-які питання.
+            Так, звісно. Ви можете розповісти про застосунки іншим або залишити хороший відгук та оцінку. Ви також можете допомогти з перекладом застосунків на нову мову або просто оновити вже наявні переклади.
+            Інструкцію з перекладу можна знайти на <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">цьому сайті</a>, або просто напишіть нам на <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас виникнуть запитання.
         ]]></string>
     <string name="purchase_thank_you"><![CDATA[
-            Будь ласка, придбайте <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Дякую вам</a> щоб використовувати цю функцію та підтримати розробку. Дякуємо вам!
+            Придбайте <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, щоб користуватися цією функцією та підтримати розробку. Дякуємо!
         ]]></string>
     <string name="donate_short">Будь ласка, підтримайте нас, придбавши &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, також це розблокує всі функції застосунку, включно з налаштуванням кольорів.</string>
     <string name="pin">PIN</string>
@@ -1183,4 +1184,8 @@
     <string name="on_contact_click">При натисканні на контакт</string>
     <string name="call_contact">Телефонувати контакту</string>
     <string name="view_contact">Переглянути деталі контакту</string>
+    <string name="mammoth_title">Mammoth (конвертер DOCX)</string>
+    <string name="commonmark_title">CommonMark (аналізатор Markdown)</string>
+    <string name="jsoup_title">jsoup (аналізатор HTML)</string>
+    <string name="commons_csv_title">Apache Commons CSV (аналізатор CSV)</string>
 </resources>

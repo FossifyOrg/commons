@@ -1028,7 +1028,7 @@
     <string name="autofittextview_title">AutoFitTextView (metin boyutunu değiştirme)</string>
     <string name="robolectric_title">Robolectric (test çerçevesi)</string>
     <string name="espresso_title">Espresso (test yardımcısı)</string>
-    <string name="gson_title">Gson (JSON ayrıştırıcısı)</string>
+    <string name="gson_title">Gson (JSON işleyici)</string>
     <string name="leak_canary_title">Leak Canary (bellek sızıntısı dedektörü)</string>
     <string name="number_picker_title">Number Picker (özelleştirilebilir numara seçici)</string>
     <string name="exoplayer_title">ExoPlayer (video oynatıcı)</string>
@@ -1099,7 +1099,7 @@
     <string name="days_letter">%dd</string>
     <string name="more_fossify_apps">Daha fazla Fossify uygulaması</string>
     <string name="rate_this_app">Uygulamayı değerlendirin</string>
-    <string name="evalex_title">EvalEx (Matematik ifade değerlendirmesi)</string>
+    <string name="evalex_title">EvalEx (matematik çözücü)</string>
     <string name="requires_fossify_thank_you">Fossify Teşekkürler uygulamasını gerektirir</string>
     <string name="enables_more_customization">Daha fazla kişiselleştirme sağlar</string>
     <string name="translation_latvian">Letonca</string>
@@ -1118,4 +1118,8 @@
     <string name="on_contact_click">Kişi tıklandığında</string>
     <string name="call_contact">Kişiyi ara</string>
     <string name="view_contact">Kişi bilgilerini göster</string>
+    <string name="mammoth_title">Mammoth (DOCX dönüştürücü)</string>
+    <string name="commonmark_title">CommonMark (Markdown işleyici)</string>
+    <string name="jsoup_title">jsoup (HTML işleyici)</string>
+    <string name="commons_csv_title">Apache Commons CSV (CSV işleyici)</string>
 </resources>
