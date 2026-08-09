@@ -33,19 +33,31 @@ import org.fossify.commons.databinding.DialogDonateBinding
 import org.fossify.commons.extensions.*
 
 class DonateDialog(val activity: Activity) {
+    private var onPurchase: () -> Unit = { activity.launchViewIntent(R.string.thank_you_url) }
+    private var onLater: () -> Unit = {}
+
+    internal constructor(
+        activity: Activity,
+        onPurchase: () -> Unit,
+        onLater: () -> Unit,
+    ) : this(activity) {
+        this.onPurchase = onPurchase
+        this.onLater = onLater
+    }
+
     init {
         val view = DialogDonateBinding.inflate(activity.layoutInflater, null, false).apply {
             dialogDonateImage.applyColorFilter(activity.getProperTextColor())
             dialogDonateText.text = Html.fromHtml(activity.getString(R.string.donate_short))
             dialogDonateText.movementMethod = LinkMovementMethod.getInstance()
             dialogDonateImage.setOnClickListener {
-                activity.launchViewIntent(R.string.thank_you_url)
+                onPurchase()
             }
         }
 
         activity.getAlertDialogBuilder()
-            .setPositiveButton(R.string.purchase) { _, _ -> activity.launchViewIntent(R.string.thank_you_url) }
-            .setNegativeButton(R.string.later, null)
+            .setPositiveButton(R.string.purchase) { _, _ -> onPurchase() }
+            .setNegativeButton(R.string.later) { _, _ -> onLater() }
             .apply {
                 activity.setupDialogStuff(view.root, this, cancelOnTouchOutside = false)
             }

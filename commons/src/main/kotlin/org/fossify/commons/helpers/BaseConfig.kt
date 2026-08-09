@@ -29,6 +29,30 @@ open class BaseConfig(val context: Context) {
         get() = prefs.getInt(APP_RUN_COUNT, 0)
         set(appRunCount) = prefs.edit().putInt(APP_RUN_COUNT, appRunCount).apply()
 
+    var supportPromptFirstLaunchTimestamp: Long
+        get() = prefs.getLong(SUPPORT_PROMPT_FIRST_LAUNCH_TIMESTAMP, 0L)
+        set(timestamp) = prefs.edit().putLong(SUPPORT_PROMPT_FIRST_LAUNCH_TIMESTAMP, timestamp).apply()
+
+    var supportPromptLastShownTimestamp: Long
+        get() = prefs.getLong(SUPPORT_PROMPT_LAST_SHOWN_TIMESTAMP, 0L)
+        set(timestamp) = prefs.edit().putLong(SUPPORT_PROMPT_LAST_SHOWN_TIMESTAMP, timestamp).apply()
+
+    var supportPromptLastShownAppRunCount: Int
+        get() = prefs.getInt(SUPPORT_PROMPT_LAST_SHOWN_APP_RUN_COUNT, 0)
+        set(appRunCount) = prefs.edit().putInt(SUPPORT_PROMPT_LAST_SHOWN_APP_RUN_COUNT, appRunCount).apply()
+
+    var supportPromptDismissalCount: Int
+        get() = prefs.getInt(SUPPORT_PROMPT_DISMISSAL_COUNT, 0)
+        set(dismissalCount) = prefs.edit().putInt(SUPPORT_PROMPT_DISMISSAL_COUNT, dismissalCount).apply()
+
+    var supportPromptNextType: Int
+        get() = prefs.getInt(SUPPORT_PROMPT_NEXT_TYPE, 0)
+        set(promptType) = prefs.edit().putInt(SUPPORT_PROMPT_NEXT_TYPE, promptType).apply()
+
+    var wasRatePromptAccepted: Boolean
+        get() = prefs.getBoolean(WAS_RATE_PROMPT_ACCEPTED, false)
+        set(wasAccepted) = prefs.edit().putBoolean(WAS_RATE_PROMPT_ACCEPTED, wasAccepted).apply()
+
     var lastVersion: Int
         get() = prefs.getInt(LAST_VERSION, 0)
         set(lastVersion) = prefs.edit().putInt(LAST_VERSION, lastVersion).apply()

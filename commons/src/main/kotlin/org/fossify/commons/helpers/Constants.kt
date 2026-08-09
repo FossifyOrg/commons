@@ -81,6 +81,12 @@ const val YEAR_SECONDS = YEAR_MINUTES * 60
 // shared preferences
 const val PREFS_KEY = "Prefs"
 const val APP_RUN_COUNT = "app_run_count"
+const val SUPPORT_PROMPT_FIRST_LAUNCH_TIMESTAMP = "support_prompt_first_launch_timestamp"
+const val SUPPORT_PROMPT_LAST_SHOWN_TIMESTAMP = "support_prompt_last_shown_timestamp"
+const val SUPPORT_PROMPT_LAST_SHOWN_APP_RUN_COUNT = "support_prompt_last_shown_app_run_count"
+const val SUPPORT_PROMPT_DISMISSAL_COUNT = "support_prompt_dismissal_count"
+const val SUPPORT_PROMPT_NEXT_TYPE = "support_prompt_next_type"
+const val WAS_RATE_PROMPT_ACCEPTED = "was_rate_prompt_accepted"
 const val LAST_VERSION = "last_version"
 const val SD_TREE_URI = "tree_uri_2"
 const val PRIMARY_ANDROID_DATA_TREE_URI = "primary_android_data_tree_uri_2"
