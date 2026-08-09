@@ -35,18 +35,19 @@ internal fun Activity.showAutomaticSupportPromptIfEligible() {
         return
     }
 
-    if (resources.getBoolean(R.bool.hide_google_relations) || config.supportPromptDismissalCount >= MAX_PROMPT_DISMISSALS) {
-        return
-    }
-
     val hasEnoughInitialUse = config.appRunCount >= FIRST_PROMPT_MIN_LAUNCHES
     val hasEnoughInitialTime = now - config.supportPromptFirstLaunchTimestamp >= FIRST_PROMPT_DELAY_MILLIS
-    if (!hasEnoughInitialUse || !hasEnoughInitialTime) {
+    val isSupportPromptDisabled =
+        resources.getBoolean(R.bool.hide_google_relations) ||
+            config.supportPromptDismissalCount >= MAX_PROMPT_DISMISSALS
+    val lacksInitialEligibility = !hasEnoughInitialUse || !hasEnoughInitialTime
+    if (isSupportPromptDisabled || lacksInitialEligibility) {
         return
     }
 
     if (config.supportPromptLastShownTimestamp != 0L) {
-        val hasEnoughFurtherUse = config.appRunCount - config.supportPromptLastShownAppRunCount >= NEXT_PROMPT_MIN_LAUNCHES
+        val hasEnoughFurtherUse =
+            config.appRunCount - config.supportPromptLastShownAppRunCount >= NEXT_PROMPT_MIN_LAUNCHES
         val hasEnoughFurtherTime = now - config.supportPromptLastShownTimestamp >= NEXT_PROMPT_DELAY_MILLIS
         if (!hasEnoughFurtherUse || !hasEnoughFurtherTime) {
             return
@@ -59,7 +60,8 @@ internal fun Activity.showAutomaticSupportPromptIfEligible() {
     config.supportPromptNextType = promptType.alternate().value
 
     val onLater = {
-        config.supportPromptDismissalCount = (config.supportPromptDismissalCount + 1).coerceAtMost(MAX_PROMPT_DISMISSALS)
+        config.supportPromptDismissalCount =
+            (config.supportPromptDismissalCount + 1).coerceAtMost(MAX_PROMPT_DISMISSALS)
     }
 
     when (promptType) {
