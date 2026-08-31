@@ -1011,4 +1011,5 @@
     <string name="on_contact_click">Ob kliku na stik</string>
     <string name="call_contact">Pokliči stik</string>
     <string name="view_contact">Poglej podrobnosti stika</string>
+    <string name="format_phone_numbers">Oblika telefonskih številk</string>
 </resources>
