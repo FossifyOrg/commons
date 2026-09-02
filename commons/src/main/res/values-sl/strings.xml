@@ -112,8 +112,8 @@
     <string name="must_make_default_dialer">Če želite uporabljati blokirane številke, je potrebno to aplikacijo nastaviti kot privzeto aplikacijo za klicanje.</string>
     <string name="set_as_default">Nastavi kot privzeto</string>
     <string name="block_confirmation">Ste prepričani, da želite blokirati \"%s\"\?</string>
-    <string name="block_unknown_calls">Blokiranje klicev iz neohranjenih stikov</string>
-    <string name="block_unknown_messages">Blokiranje sporočil iz neohranjenih stikov</string>
+    <string name="block_unknown_calls">Blokiraj klice s številk, ki niso v stikih</string>
+    <string name="block_unknown_messages">Blokiraj sporočila s številk, ki niso v stikih</string>
     <string name="add_blocked_number_helper_text">Vnesite številko ali vzorec (npr. *12345*, +1*8888), da se blokirajo vsi klici in sporočila iz številk, ki ustrezajo vzorcu.</string>
     <string name="must_make_default_caller_id_app">Neznanih številk ni mogoče blokirati brez dovoljenja za ID klicalca.</string>
     <string name="favorites">Priljubljeno</string>
@@ -162,11 +162,11 @@
     <string name="filename_invalid_characters_placeholder">Ime \'%s\' vsebuje neveljavne znake</string>
     <string name="extension_cannot_be_empty">Končnica ne more biti prazna</string>
     <string name="source_file_doesnt_exist">Datoteka %s ne obstaja</string>
-    <string name="prepend_filenames">Dodaj pred imena datotek</string>
-    <string name="append_filenames">Dodaj zadaj za imena datotek</string>
+    <string name="prepend_filenames">Dodaj besedilo pred imena datotek</string>
+    <string name="append_filenames">Dodaj besedilo za imeni datotek</string>
     <string name="simple_renaming">Enostavno preimenovanje</string>
     <string name="pattern_renaming">Vzorec</string>
-    <string name="string_to_add">Niz za dodati</string>
+    <string name="string_to_add">Besedilo za dodajanje</string>
     <string name="rename_date_time_pattern">%Y - leto
 \n%M - mesec
 \n%D - dan
@@ -237,7 +237,7 @@
     <string name="confirm_storage_access_text">Izberi korensko mapo SD kartice na naslednjem zaslonu, da odobrite dovoljenje za pisanje</string>
     <string name="confirm_storage_access_text_sd">Če SD kartica ni vidna, poskusite to</string>
     <string name="confirm_storage_access_android_text">Na naslednjem zaslonu dovolite aplikaciji dostop do izbrane shrambe tako, da na dnu pritisnete \"Uporabi to mapo\".</string>
-    <string name="confirm_storage_access_android_text_specific">Omogočite dostop do \'<b>%s</b>\' ,da na dnu naslednjega zaslona pritisnite \'<b>Uporabite to mapo</b>\'.</string>
+    <string name="confirm_storage_access_android_text_specific">Na naslednjem zaslonu dovolite dostop do mape »&lt;b&gt;%s&lt;/b&gt;« tako, da na dnu pritisnete »&lt;b&gt;Uporabi to mapo&lt;/b&gt;«.</string>
     <string name="confirm_create_doc_for_new_folder_text">Pritisnite \'<b>Shrani</b>\' na dnu naslednjega zaslona, da ustvarite novo mapo.</string>
     <string name="confirm_selection">Potrdi izbor</string>
     <string name="loading">Nalaganje…</string>
@@ -307,7 +307,7 @@
     <string name="use_default">Uporabi privzeto</string>
     <string name="default_color">Privzeto</string>
     <string name="change_color">Spremeni barvo</string>
-    <string name="theme">Tema</string>
+    <string name="theme">Tema aplikacije</string>
     <string name="changing_color_description">Spreminjanje barve bo preklopilo na temo po meri</string>
     <string name="save">Shrani</string>
     <string name="discard">Zavrzi</string>
@@ -344,7 +344,7 @@
     <string name="temporarily_show_hidden">Začasno pokaži skrito</string>
     <string name="stop_showing_hidden">Ne prikazuj skritih medijev</string>
     <string name="maximum_share_reached">Toliko vsebine naenkrat ni mogoče deliti</string>
-    <string name="empty_and_disable_recycle_bin">Izprazni in onemogoči Koš</string>
+    <string name="empty_and_disable_recycle_bin">Izpraznite in onemogočite koš za smeti</string>
     <string name="undo">Razveljavi</string>
     <string name="redo">Ponovno uveljavi</string>
     <string name="print">Natisni</string>
@@ -391,9 +391,9 @@
     <string name="proceed_with_deletion">Ste prepričani, da nadaljujete brisanje\?</string>
     <string name="deletion_confirmation">Res želite izbrisati \'%s\'?</string>
     <string name="deletion_confirmation_short">Izbriši %s\?</string>
-    <string name="move_to_recycle_bin_confirmation">Res želite \'%s\' premakniti v Koš?</string>
+    <string name="move_to_recycle_bin_confirmation">Ali ste prepričani, da želite %s premakniti v koš?</string>
     <string name="are_you_sure_delete">Res želite izbrisati ta element?</string>
-    <string name="are_you_sure_recycle_bin">Res želite premakniti ta element v Koš?</string>
+    <string name="are_you_sure_recycle_bin">Ali ste prepričani, da želite premakniti ta element v koš?</string>
     <string name="do_not_ask_again">Ne sprašuj več to sejo</string>
     <string name="do_not_show_again">Ne prikazuj več</string>
     <string name="yes">Da</string>
@@ -626,8 +626,8 @@
     <string name="during_day_at_hh_mm">Čez dan ob hh:mm</string>
     <string name="during_day_at">Čez dan ob %1$02d:%2$02d</string>
     <string name="settings">Nastavitve</string>
-    <string name="color_customization">Prilagajanje barv</string>
-    <string name="customize_colors">Prilagodi barve</string>
+    <string name="color_customization">Videz in občutek</string>
+    <string name="customize_colors">Prilagodi videz</string>
     <string name="feature_locked">Zaklenjeno</string>
     <string name="customize_widget_colors">Prilagoditev barv pripomočka</string>
     <string name="customize_notifications">Prilagodi obvestila</string>
@@ -655,9 +655,9 @@
     <string name="use_same_snooze">Vedno uporabi enak čas dremeža</string>
     <string name="snooze_time">Čas dremeža</string>
     <string name="vibrate_on_button_press">Vibriraj ob pritisku gumba</string>
-    <string name="move_items_into_recycle_bin">Premakni datoteke v koš namesto dokončnega brisanja</string>
-    <string name="recycle_bin_cleaning_interval">Čas med čiščenji Koša</string>
-    <string name="empty_recycle_bin">Izprazni Koš</string>
+    <string name="move_items_into_recycle_bin">Premakni izbrisane elemente v koš</string>
+    <string name="recycle_bin_cleaning_interval">Čas med čiščenji koša</string>
+    <string name="empty_recycle_bin">Izprazni koš</string>
     <string name="force_portrait_mode">Vsili pokončni zaslon</string>
     <string name="export_settings">Izvozi nastavitve</string>
     <string name="import_settings">Uvozi nastavitve</string>
@@ -702,17 +702,17 @@
     <string name="restore_all_files">Obnovi vse datoteke</string>
     <string name="recycle_bin_emptied">Koš je bil uspešno izpraznjen</string>
     <string name="files_restored_successfully">Datoteke so bile uspešno obnovljene</string>
-    <string name="empty_recycle_bin_confirmation">Res želite izprazniti Koš? Datoteke bodo izgubljene za vedno.</string>
+    <string name="empty_recycle_bin_confirmation">Res želite izprazniti koš? Datoteke bodo izgubljene za vedno.</string>
     <string name="recycle_bin_empty">Koš je prazen</string>
-    <string name="moving_recycle_bin_items_disabled">Premikanje elementov v Košu je onemogočeno, uporabite Obnovitev</string>
-    <string name="show_the_recycle_bin">Prikaži Koš</string>
-    <string name="hide_the_recycle_bin">Skrij Koš</string>
-    <string name="open_the_recycle_bin">Odpri Koš</string>
+    <string name="moving_recycle_bin_items_disabled">Premikanje elementov koša je onemogočeno. Uporabite možnost »Obnovi«.</string>
+    <string name="show_the_recycle_bin">Prikaži koš</string>
+    <string name="hide_the_recycle_bin">Skrij koš</string>
+    <string name="open_the_recycle_bin">Odpri koš</string>
     <plurals name="moving_items_into_bin">
-        <item quantity="one">Premikanje %d elementa v Koš</item>
-        <item quantity="two">Premikanje %d elementa v Koš</item>
-        <item quantity="few">Premikanje %d elementov v Koš</item>
-        <item quantity="other">Premikanje %d elementov v Koš</item>
+        <item quantity="one">Premikanje %d elementa v koš</item>
+        <item quantity="two">Premikanje %d elementov v koš</item>
+        <item quantity="few">Premikanje %d elementov v koš</item>
+        <item quantity="other">Premikanje %d elementov v koš</item>
     </plurals>
     <string name="importing">Uvažanje…</string>
     <string name="exporting">Izvažanje…</string>
@@ -907,7 +907,7 @@
     <string name="faq_4_title_commons">Barve pripomočkov mi niso všeč. Jih lahko spremenim?</string>
     <string name="faq_4_text_commons">Seveda. Ko pripomoček dodate na domači zaslon, sem vam prikaže zaslon z nastavitvami. S klikom na barvne kvadratke, lahko izberete novo barvo. Z drsnikom lahko nastavljate tudi prosojnost.</string>
     <string name="faq_5_title_commons">Lahko kako obnovim izbrisane datoteke?</string>
-    <string name="faq_5_text_commons">Če so bile zares izbrisane, jih ne morete. Kakorkoli privzeto je omogočen Koš in povzroči, da se datoteke le premaknejo v Koš namesto dokončnega izbrisa.</string>
+    <string name="faq_5_text_commons">Če so bile res izbrisane, jih ne morete obnoviti. Vendar pa je koš privzeto omogočen in datoteke premakne vanj, namesto da bi jih takoj izbrisal.</string>
     <string name="faq_6_title_commons">Ikona v zaganjalniku je izginila. Kaj lahko naredim?</string>
     <string name="faq_7_title_commons">Denar je bil odtegnjen z mojega bančnega računa, vendar aplikacije ne morem prenesti. Kaj lahko storim\?</string>
     <string name="faq_7_text_commons">Plačila v celoti obdeluje Google, njihov sistem pa se občasno zaplete. Počistite predpomnilnik aplikacije Google Play in znova zaženite napravo, nato pa poskusite znova prenesti aplikacijo.</string>
@@ -992,7 +992,7 @@
     <string name="trial_expires_soon">Vaše poskusno obdobje bo kmalu poteklo.</string>
     <string name="unlock_for_one_final_day">Odkleni aplikacijo še za en zadnji dan</string>
     <string name="welcome_to_app_name">Dobrodošli v %s!</string>
-    <string name="trial_start_description">Zahvaljujemo se vam za uporabo naše aplikacije. To odklenjeno različico lahko uporabljate <font color="#FFFFFF">%d dni</font>. Ko se preizkusno obdobje konča, razmislite o nadgradnji na Pro verzijo. Ima ogromno novih funkcij, sodobno obliko, brez oglasov in številne druge izboljšave. \n \nPlačati jo morate le enkrat v življenju in če ne boste zadovoljni, jo lahko odstranite in zahtevate vračilo denarja. \n \nUpamo, da vam bo všeč :)</string>
+    <string name="trial_start_description">Zahvaljujemo se vam za uporabo naše aplikacije. To odklenjeno različico lahko uporabljate &lt;font color=\"#FFFFFF\"&gt;%d dni&lt;/font&gt;. Ko se preizkusno obdobje konča, razmislite o nadgradnji na Pro verzijo. Ima ogromno novih funkcij, sodobno obliko, brez oglasov in številne druge izboljšave. \n \nPlačati jo morate le enkrat v življenju in če ne boste zadovoljni, jo lahko odstranite in zahtevate vračilo denarja. \n \nUpamo, da vam bo všeč :)</string>
     <string name="trial_end_description">Če želite v celoti uživati v aplikaciji, jo nadgradite na Pro verzijo.
 \n
 \nPlačati jo morate le enkrat v življenju in če ne boste zadovoljni, jo lahko odstranite in dobite povračilo.
@@ -1011,4 +1011,198 @@
     <string name="on_contact_click">Ob kliku na stik</string>
     <string name="call_contact">Pokliči stik</string>
     <string name="view_contact">Poglej podrobnosti stika</string>
+    <string name="format_phone_numbers">Oblika telefonskih številk</string>
+    <string name="ok">V redu</string>
+    <plurals name="files_saved">
+        <item quantity="one">Datoteka je bila uspešno shranjena</item>
+        <item quantity="two">Datoteki sta bili uspešno shranjeni</item>
+        <item quantity="few">Datoteke so bile uspešno shranjene</item>
+        <item quantity="other">Datotek je bilo uspešno shranjenih</item>
+    </plurals>
+    <string name="error">Napaka: %s</string>
+    <string name="email">E-pošta</string>
+    <string name="audio">Zvok</string>
+    <string name="scanning">Skeniranje …</string>
+    <string name="mobile">Telefonska številka</string>
+    <plurals name="row_counts">
+        <item quantity="one">%d vrstica</item>
+        <item quantity="two">%d vrstici</item>
+        <item quantity="few">%d vrstice</item>
+        <item quantity="other">%d vrstic</item>
+    </plurals>
+    <string name="block_hidden_calls">Blokiraj klice s skritih številk</string>
+    <string name="block_hidden_messages">Blokiraj sporočila s skritih številk</string>
+    <string name="block_contact">Blokiraj stik</string>
+    <string name="block_contact_success">Stik blokiran</string>
+    <string name="block_contact_fail">Stika ni bilo mogoče blokirati</string>
+    <string name="unblock_contact">Odblokiraj stik</string>
+    <string name="unblock_contact_success">Stik odblokiran</string>
+    <string name="unblock_contact_fail">Stika ni bilo mogoče odblokirati</string>
+    <string name="show_search">Pokaži iskalno vrstico</string>
+    <string name="filter">Filter</string>
+    <string name="allow_notifications_reminders">Aplikaciji morate dovoliti prikazovanje obvestil, sicer ne more prikazovati opomnikov.</string>
+    <string name="allow_full_screen_notifications_reminders">Aplikaciji morate dovoliti prikazovanje obvestil na celotnem zaslonu, sicer lahko zamudite nekatere opomnike.</string>
+    <string name="allow_notifications_files">Aplikaciji morate dovoliti prikazovanje obvestil, sicer ne more prikazati vrstice napredka.</string>
+    <string name="allow_notifications_music_player">Aplikaciji morate dovoliti prikazovanje obvestil, sicer ne more predvajati pesmi.</string>
+    <string name="allow_notifications_voice_recorder">Aplikaciji morate dovoliti prikazovanje obvestil, sicer ne more snemati zvoka.</string>
+    <string name="allow_notifications_incoming_calls">Aplikaciji morate dovoliti prikazovanje obvestil, sicer ne more prikazati dohodnih klicev.</string>
+    <string name="allow_full_screen_notifications_incoming_calls">Aplikaciji morate dovoliti prikazovanje obvestil na celotnem zaslonu, sicer lahko zamudite nekatere dohodne klice.</string>
+    <string name="allow_notifications_incoming_messages">Aplikaciji morate dovoliti prikazovanje obvestil, sicer ne more prikazati dohodnih sporočil.</string>
+    <string name="allow_alarm_scheduled_messages">Aplikaciji morate dovoliti dostop do notranjih alarmov, sicer ne more pošiljati načrtovanih sporočil.</string>
+    <string name="allow_alarm_sleep_timer">Aplikaciji morate dovoliti dostop do notranjih alarmov, sicer aplikacije ne more izklopiti po preteku časovnika za spanje.</string>
+    <string name="allow_location_permission">Aplikaciji morate dovoliti dostop do vaše lokacije, sicer je ne bo poznala.</string>
+    <string name="grant_permission">Podeli dovoljenje</string>
+    <string name="permission_required">Potrebno dovoljenje</string>
+    <string name="confirm_storage_access_restricted_text">Zaradi sistemskih omejitev ta mapa ni na voljo.</string>
+    <string name="confirm_storage_access_restricted_text_open_system">Odpri v sistemski aplikaciji</string>
+    <string name="confirm_storage_access_restricted_text_not_found">Aplikacije za upravljanje sistemskih datotek ni bilo mogoče najti.</string>
+    <string name="album">Album</string>
+    <string name="genre">Žanr</string>
+    <string name="exif">EXIF</string>
+    <string name="apply_to_all_apps">Uporabi temo za vse aplikacije Fossify</string>
+    <string name="app_icon_color_warning">Pozor: Nekateri zaganjalniki morda ne bodo pravilno prilagodili ikon aplikacij. Če ikona izgine, poskusite zagnati aplikacijo prek trgovine Google Play ali pripomočka, če je na voljo. Po zagonu obnovite privzeto zeleno barvo ikone #106D1F. V skrajnih primerih bo morda potrebna ponovna namestitev aplikacije.</string>
+    <string name="shared_theme_note">Upoštevajte, da čeprav uporabljate različico aplikacije Pro, iz tehničnih razlogov še vedno potrebujete Fossify Thank You. Ta poskrbi za sinhronizacijo barv.</string>
+    <string name="purchase_thank_you"><![CDATA[
+Za uporabo te funkcije in podporo razvoju kupite aplikacijo <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. Hvala!
+]]></string>
+    <string name="allow_access_more_media">Dovoli dostop do več medijev</string>
+    <string name="show_line_numbers">Prikaži številke vrstic</string>
+    <string name="hide_line_numbers">Skrij številke vrstic</string>
+    <string name="unblock">Odblokiraj</string>
+    <string name="number_of_items">Število artiklov</string>
+    <string name="date_added">Datum dodajanja</string>
+    <string name="full_name">Polno ime</string>
+    <string name="more_options">Več možnosti</string>
+    <string name="reorder_items_by_dragging">Preurejanje elementov z vlečenjem</string>
+    <string name="pin">PIN</string>
+    <string name="pin_must_be_4_digits_long">PIN mora biti dolg vsaj 4 števke</string>
+    <string name="too_many_incorrect_attempts">Preveč napačnih poskusov odklepanja.\nPoskusite znova čez %d sekund.</string>
+    <string name="enter_password">Vnesite geslo</string>
+    <string name="password">Geslo</string>
+    <string name="add_password">Dodaj geslo</string>
+    <string name="empty_password_new">Vnesite geslo</string>
+    <string name="empty_password">Vnesite geslo</string>
+    <string name="invalid_password">Napačno geslo</string>
+    <string name="seconds_letter">%d s</string>
+    <string name="minutes_letter">%d min</string>
+    <string name="hours_letter">%d h</string>
+    <string name="days_letter">%d dni</string>
+    <string name="week_number_short">tednov</string>
+    <string name="alarm">Alarm</string>
+    <string name="purchase_simple_thank_you">Nakup Fossify Thank You</string>
+    <string name="requires_fossify_thank_you">Zahteva Fossify Thank You</string>
+    <string name="enables_more_customization">Omogoča večjo prilagoditev</string>
+    <string name="general_settings">Splošno</string>
+    <string name="theme_and_colors">Teme in barve</string>
+    <string name="font">Pisava</string>
+    <string name="app_font">Pisava aplikacije</string>
+    <string name="font_monospace">Pisava s fiksno širino</string>
+    <string name="select_font_file">Izberite datoteko pisave …</string>
+    <string name="invalid_font_file">Neveljavna datoteka pisave</string>
+    <string name="start_week_on">Začni teden</string>
+    <string name="skip_the_recycle_bin">Preskoči koš, izbrišite datoteke neposredno</string>
+    <string name="usb">USB</string>
+    <string name="april">April</string>
+    <string name="september">September</string>
+    <string name="november">November</string>
+    <string name="december">December</string>
+    <string name="january_short">Jan</string>
+    <string name="february_short">Feb</string>
+    <string name="march_short">Mar</string>
+    <string name="april_short">Apr</string>
+    <string name="november_short">Nov</string>
+    <string name="december_short">Dec</string>
+    <string name="tuesday_letter">T</string>
+    <string name="saturday_letter">S</string>
+    <string name="known_issues">Znane težave</string>
+    <string name="more_fossify_apps">Več aplikacij Fossify</string>
+    <string name="rate_this_app">Ocenite to aplikacijo</string>
+    <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
+    <string name="support">Podpora</string>
+    <string name="help_us">Pomagajte nam</string>
+    <string name="social">Družabna omrežja</string>
+    <string name="other">Ostalo</string>
+    <string name="version_placeholder">Različica %s</string>
+    <string name="donate_new">Pozdravljeni,&lt;br&gt;&lt;br&gt;upam, da uživate v aplikaciji. Ne vsebuje oglasov in tudi ne zbiramo vaših podatkov. Prosimo, podprite njen razvoj z nakupom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Odklenjene bodo tudi vse funkcije aplikacije, vključno s prilagajanjem barv.&lt;br&gt;&lt;br&gt;Hvala!</string>
+    <string name="donate_short">Podprite nas z nakupom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, s čimer boste odklenili tudi vse funkcije aplikacije, vključno s prilagajanjem barv.</string>
+    <string name="update_thank_you">Posodobite Fossify Thank You na najnovejšo različico</string>
+    <string name="features_locked">Ta funkcija je zaklenjena. Za odklepanje celotne aplikacije kupite &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Gre za enkratno plačilo in če ne boste zadovoljni, vam lahko vrnemo denar.</string>
+    <string name="all_fossify_apps">Vse aplikacije Fossify</string>
+    <string name="donate_to_fossify">Darujte Fossifyu</string>
+    <string name="platforms">Platforme</string>
+    <string name="little_to_no_fee">Majhna ali brez provizije</string>
+    <string name="fee_up_to_pct">Provizija do %1$d%%</string>
+    <string name="cryptocurrency">Kriptovalute</string>
+    <string name="badge_deprecated">(zastarelo)</string>
+    <string name="label_with_badge">%1$s %2$s</string>
+    <string name="faq_2_text_commons"><![CDATA[
+Da, seveda. Lahko širite glas o aplikacijah ali podate dobre povratne informacije in ocene. Pomagate lahko tudi s prevajanjem aplikacij v nov jezik ali pa preprosto posodobite nekatere obstoječe prevode.
+Vodnik za prevajanje je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej spletni strani</a> ali pa nas preprosto kontaktirajte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>, če imate kakršna koli vprašanja.
+]]></string>
+    <string name="faq_6_text_commons">Do te težave pride, če vaš zaganjalnik ne podpira v celoti prilagajanja ikon. Poskusite zagnati aplikacijo prek trgovine Google Play ali pripomočka, če je na voljo. Po zagonu obnovite privzeto zeleno barvo ikone #106D1F. V skrajnih primerih bo morda potrebna ponovna namestitev aplikacije.</string>
+    <string name="contributors_label"><![CDATA[
+Ta seznam vsebuje vse, ki so opazno pomagali kateri koli aplikaciji v paketu Fossify, ne le tej. Prevode opravljajo prostovoljci,
+sporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej spletni strani</a> ali pa nas preprosto kontaktirajte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>, če imate kakršna koli vprašanja.
+Hvala vsem sodelujočim in drugim podpornikom!
+]]></string>
+    <string name="translation_arabic">Arabsko</string>
+    <string name="translation_azerbaijani">Azerbajdžanščina</string>
+    <string name="translation_belarusian">Beloruščina</string>
+    <string name="translation_bengali">Bengalščina</string>
+    <string name="translation_breton">Bretonščina</string>
+    <string name="translation_bulgarian">Bolgarščina</string>
+    <string name="translation_central_kurdish">Osrednje kurdski jezik</string>
+    <string name="translation_catalan">Katalonščina</string>
+    <string name="translation_chuvash">Čuvaščina</string>
+    <string name="translation_czech">Češčina</string>
+    <string name="translation_esperanto">Esperanto</string>
+    <string name="translation_welsh">Valižanščina</string>
+    <string name="translation_danish">Danščina</string>
+    <string name="translation_english">Angleščina</string>
+    <string name="translation_german">Nemščina</string>
+    <string name="translation_greek">Grščina</string>
+    <string name="translation_spanish">Španščina</string>
+    <string name="translation_basque">baskovščina</string>
+    <string name="translation_persian">perzijščina</string>
+    <string name="translation_finnish">finščina</string>
+    <string name="translation_french">francoščina</string>
+    <string name="translation_galician">galicijščina</string>
+    <string name="translation_gujarati">gudžaratščina</string>
+    <string name="translation_hindi">hindijščina</string>
+    <string name="translation_croatian">hrvaščina</string>
+    <string name="translation_hungarian">madžarščina</string>
+    <string name="translation_indonesian">indonezijščina</string>
+    <string name="translation_italian">italijanščina</string>
+    <string name="translation_hebrew">hebrejščina</string>
+    <string name="translation_japanese">japonščina</string>
+    <string name="translation_kabyle">Kabyle</string>
+    <string name="translation_korean">korejščina</string>
+    <string name="translation_latvian">latvijščina</string>
+    <string name="translation_lithuanian">litovščina</string>
+    <string name="translation_nepali">nepalščina</string>
+    <string name="translation_norwegian">norveščina</string>
+    <string name="translation_dutch">nizozemščina</string>
+    <string name="translation_polish">poljščina</string>
+    <string name="translation_portuguese">portugalščina</string>
+    <string name="translation_romanian">romunščina</string>
+    <string name="translation_russian">ruščina</string>
+    <string name="translation_slovak">slovaščina</string>
+    <string name="translation_slovenian">slovenščina</string>
+    <string name="translation_serbian">srbščina</string>
+    <string name="translation_swedish">švedščina</string>
+    <string name="translation_tamil">tamilščina</string>
+    <string name="translation_turkish">turščina</string>
+    <string name="translation_ukrainian">ukrajinščina</string>
+    <string name="translation_vietnamese">Vietnamščina</string>
+    <string name="translation_chinese_hk">kitajščina (Hongkong)</string>
+    <string name="translation_chinese_cn">kitajščina (poenostavljena)</string>
+    <string name="translation_chinese_tw">kitajščina (tradicionalna)</string>
+    <string name="why_upgrade_pro_version">Pro</string>
+    <string name="why_upgrade_many_other_improvements">Številne druge izboljšave</string>
+    <string name="zip4j_title">Zip4j (kompresija in dekompresija ZIP)</string>
+    <string name="evalex_title">EvalEx (vrednotenje matematičnega izraza)</string>
+    <string name="mammoth_title">Mammoth (pretvornik DOCX)</string>
+    <string name="commonmark_title">CommonMark (razčlenjevalnik Markdown)</string>
+    <string name="jsoup_title">jsoup (razčlenjevalnik HTML)</string>
+    <string name="commons_csv_title">CSV Apache Commons (razčlenjevalnik CSV)</string>
 </resources>
