@@ -3,12 +3,8 @@ package org.fossify.commons.samples.activities
 import android.content.Intent
 import android.os.Bundle
 import androidx.activity.compose.setContent
-import androidx.compose.runtime.Composable
-import androidx.compose.runtime.LaunchedEffect
 import org.fossify.commons.activities.BaseSimpleActivity
 import org.fossify.commons.activities.ManageBlockedNumbersActivity
-import org.fossify.commons.compose.alert_dialog.AlertDialogState
-import org.fossify.commons.compose.alert_dialog.rememberAlertDialogState
 import org.fossify.commons.compose.extensions.DEVELOPER_PLAY_STORE_URL
 import org.fossify.commons.compose.extensions.FAKE_VERSION_APP_LABEL
 import org.fossify.commons.compose.extensions.appLaunchedCompose
@@ -16,8 +12,6 @@ import org.fossify.commons.compose.extensions.enableEdgeToEdgeSimple
 import org.fossify.commons.compose.extensions.onEventValue
 import org.fossify.commons.compose.theme.AppThemeSurface
 import org.fossify.commons.dialogs.ConfirmationDialog
-import org.fossify.commons.dialogs.DonateAlertDialog
-import org.fossify.commons.extensions.appLaunched
 import org.fossify.commons.extensions.launchMoreAppsFromUsIntent
 import org.fossify.commons.extensions.launchViewIntent
 import org.fossify.commons.helpers.LICENSE_AUTOFITTEXTVIEW
@@ -30,7 +24,7 @@ class MainActivity : BaseSimpleActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        appLaunched(BuildConfig.APPLICATION_ID)
+        appLaunchedCompose(BuildConfig.APPLICATION_ID)
         enableEdgeToEdgeSimple()
         setContent {
             AppThemeSurface {
@@ -58,31 +52,9 @@ class MainActivity : BaseSimpleActivity() {
                     openAbout = ::launchAbout,
                     moreAppsFromUs = ::launchMoreAppsFromUsIntent
                 )
-                AppLaunched()
             }
         }
     }
-
-    @Composable
-    private fun AppLaunched(
-        donateAlertDialogState: AlertDialogState = getDonateAlertDialogState(),
-    ) {
-        LaunchedEffect(Unit) {
-            appLaunchedCompose(
-                appId = BuildConfig.APPLICATION_ID,
-                showDonateDialog = donateAlertDialogState::show,
-                showUpgradeDialog = {}
-            )
-        }
-    }
-
-    @Composable
-    private fun getDonateAlertDialogState() =
-        rememberAlertDialogState().apply {
-            DialogMember {
-                DonateAlertDialog(alertDialogState = this)
-            }
-        }
 
     private fun launchAbout() {
         val licenses = LICENSE_AUTOFITTEXTVIEW

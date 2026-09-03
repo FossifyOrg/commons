@@ -49,10 +49,8 @@ import org.fossify.commons.dialogs.AppSideloadedDialog
 import org.fossify.commons.dialogs.ConfirmationAdvancedDialog
 import org.fossify.commons.dialogs.ConfirmationDialog
 import org.fossify.commons.dialogs.CustomIntervalPickerDialog
-import org.fossify.commons.dialogs.DonateDialog
 import org.fossify.commons.dialogs.RadioGroupDialog
 import org.fossify.commons.dialogs.SecurityDialog
-import org.fossify.commons.dialogs.UpgradeToProDialog
 import org.fossify.commons.dialogs.WhatsNewDialog
 import org.fossify.commons.dialogs.WritePermissionDialog
 import org.fossify.commons.dialogs.WritePermissionDialog.WritePermissionDialogMode
@@ -127,19 +125,7 @@ fun Activity.appLaunched(appId: String) {
     }
 
     baseConfig.appRunCount++
-    if (baseConfig.appRunCount % 30 == 0 && !isAProApp()) {
-        if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            showDonateOrUpgradeDialog()
-        }
-    }
-}
-
-fun Activity.showDonateOrUpgradeDialog() {
-    if (getCanAppBeUpgraded()) {
-        UpgradeToProDialog(this)
-    } else if (!isOrWasThankYouInstalled()) {
-        DonateDialog(this)
-    }
+    showAutomaticSupportPromptIfEligible()
 }
 
 fun Activity.isAppInstalledOnSDCard(): Boolean = try {

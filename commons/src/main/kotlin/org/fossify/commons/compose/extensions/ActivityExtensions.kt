@@ -13,13 +13,11 @@ import org.fossify.commons.R
 import org.fossify.commons.extensions.baseConfig
 import org.fossify.commons.extensions.checkAppIconColor
 import org.fossify.commons.extensions.getAppIconColors
-import org.fossify.commons.extensions.getCanAppBeUpgraded
 import org.fossify.commons.extensions.getInternalStoragePath
-import org.fossify.commons.extensions.isAProApp
 import org.fossify.commons.extensions.isAppInstalledOnSDCard
-import org.fossify.commons.extensions.isOrWasThankYouInstalled
 import org.fossify.commons.extensions.launchViewIntent
 import org.fossify.commons.extensions.random
+import org.fossify.commons.extensions.showAutomaticSupportPromptIfEligible
 import org.fossify.commons.extensions.toggleAppIconColor
 import org.fossify.commons.extensions.updateSDCardPath
 import org.fossify.commons.helpers.isOreoMr1Plus
@@ -27,8 +25,6 @@ import org.fossify.commons.models.Release
 
 fun ComponentActivity.appLaunchedCompose(
     appId: String,
-    showUpgradeDialog: () -> Unit,
-    showDonateDialog: () -> Unit,
 ) {
     baseConfig.internalStoragePath = getInternalStoragePath()
     updateSDCardPath()
@@ -64,15 +60,20 @@ fun ComponentActivity.appLaunchedCompose(
     }
 
     baseConfig.appRunCount++
-    if (baseConfig.appRunCount % 30 == 0 && !isAProApp()) {
-        if (!resources.getBoolean(R.bool.hide_google_relations)) {
-            if (getCanAppBeUpgraded()) {
-                showUpgradeDialog()
-            } else if (!isOrWasThankYouInstalled()) {
-                showDonateDialog()
-            }
-        }
-    }
+    showAutomaticSupportPromptIfEligible()
+}
+
+@Deprecated(
+    message = "Automatic support prompts are now handled by Commons.",
+    replaceWith = ReplaceWith("appLaunchedCompose(appId)"),
+)
+@Suppress("UNUSED_PARAMETER")
+fun ComponentActivity.appLaunchedCompose(
+    appId: String,
+    showUpgradeDialog: () -> Unit,
+    showDonateDialog: () -> Unit,
+) {
+    appLaunchedCompose(appId)
 }
 
 fun ComponentActivity.checkWhatsNewCompose(releases: List<Release>, currVersion: Int, showWhatsNewDialog: (List<Release>) -> Unit) {
