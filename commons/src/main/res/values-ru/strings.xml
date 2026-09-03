@@ -34,7 +34,7 @@
     <string name="transparent">Прозрачный</string>
     <string name="transparent_color">Прозрачный цвет</string>
     <string name="select_a_different_color">Выберите другой цвет</string>
-    <string name="download">Загрузка</string>
+    <string name="download">Скачивание</string>
     <string name="notification">Уведомление</string>
     <string name="notifications">Уведомления</string>
     <string name="email">Электронная почта</string>
@@ -266,8 +266,8 @@
     <string name="select_file">Выбор файла</string>
     <string name="confirm_storage_access_title">Предоставление доступа к внешнему накопителю</string>
     <string name="confirm_folder_access_title">Подтвердить доступ к папке</string>
-    <string name="confirm_storage_access_text">Чтобы предоставить доступ для записи, выберите корневую папку SD-карты на следующем шаге</string>
-    <string name="confirm_storage_access_text_sd">Если SD-карта не видна, попробуйте это</string>
+    <string name="confirm_storage_access_text">Чтобы предоставить доступ для записи, выберите корневую папку карты памяти на следующем шаге</string>
+    <string name="confirm_storage_access_text_sd">Если карта памяти не видна, попробуйте это</string>
     <string name="confirm_storage_access_android_text">Разрешите приложению доступ к выбранному хранилищу на следующем экране, нажав \"Использовать эту папку\" в нижней части.</string>
     <string name="confirm_storage_access_android_text_specific">Разрешите доступ к \"<b>%s</b>\" на следующем экране, нажав \"<b>Использовать эту папку</b>\" внизу.</string>
     <string name="confirm_create_doc_for_new_folder_text">Нажмите \"&lt;b&gt;Сохранить&lt;/b&gt;\" внизу на следующем экране, чтобы создать новую папку.</string>
@@ -298,11 +298,11 @@
     <string name="storage">Хранилище</string>
     <string name="internal">Внутренняя память</string>
     <string name="internal_storage">Внутреннее хранилище</string>
-    <string name="sd_card">SD-карта</string>
+    <string name="sd_card">Карта памяти</string>
     <string name="root">Корневая папка</string>
-    <string name="wrong_root_selected">Выбрана неправильная папка, выберите SD-карту</string>
-    <string name="sd_card_usb_same">Пути к SD-карте и USB-накопителю не могут быть одинаковыми</string>
-    <string name="app_on_sd_card">Похоже, что приложение установлено на SD-карту, из-за чего виджеты приложения недоступны. Вы даже не увидите их в списке доступных виджетов. Это системное ограничение, поэтому, если хотите использовать виджеты, вам нужно переместить приложение обратно во внутреннюю память.</string>
+    <string name="wrong_root_selected">Выбрана неправильная папка, выберите карту памяти</string>
+    <string name="sd_card_usb_same">Пути к карте памяти и USB-накопителю не могут быть одинаковыми</string>
+    <string name="app_on_sd_card">Похоже, что приложение установлено на карту памяти, из-за чего виджеты приложения недоступны. Вы даже не увидите их в списке доступных виджетов. Это системное ограничение, поэтому, если хотите использовать виджеты, вам нужно переместить приложение обратно во внутреннюю память.</string>
     <string name="wrong_folder_selected">Выбрана неправильная папка, выберите \"%s\"</string>
     <string name="properties">Свойства</string>
     <string name="path">Путь</string>
@@ -876,13 +876,13 @@
     <string name="invite_via">Предложить с помощью</string>
     <string name="donate">Пожертвовать</string>
     <string name="follow_us">Подписаться на нас</string>
-    <string name="copyright">v%1$s
+    <string name="copyright">вер. %1$s
 \nАвторские права © Fossify %2$d</string>
     <string name="support">Поддержка</string>
     <string name="help_us">Помочь нам</string>
     <string name="social">Сообщество</string>
     <string name="other">Другое</string>
-    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="privacy_policy">Политика приватности</string>
     <string name="version_placeholder">Версия %s</string>
     <string name="hello">Привет :)</string>
     <string name="about_footer">Сделано с ❤️ в Словакии</string>
@@ -931,7 +931,7 @@
     <string name="frequently_asked_questions">Часто задаваемые вопросы</string>
     <string name="before_asking_question">Прежде чем задать вопрос, прочитайте</string>
     <string name="faq_1_title_commons">Почему я не вижу виджет этого приложения в списке виджетов?</string>
-    <string name="faq_1_text_commons">Это, скорее всего, потому, что вы перенесли приложение на SD-карту. Существует ограничение системы Android, которое скрывает виджеты приложения в этом случае. Единственное решение — переместить приложение обратно во внутреннее хранилище через настройки вашего устройства.</string>
+    <string name="faq_1_text_commons">Это, скорее всего, потому, что вы перенесли приложение на карту памяти. Существует ограничение системы Android, которое скрывает виджеты приложения в этом случае. Единственное решение — переместить приложение обратно во внутреннее хранилище через настройки вашего устройства.</string>
     <string name="faq_2_title_commons">Я хочу поддержать вас, но не могу пожертвовать деньги. Есть ли что-нибудь ещё, что я могу сделать?</string>
     <string name="faq_2_text_commons"><![CDATA[
             Да, конечно. Вы можете рассказывать о наших приложениях или оставлять хорошие отзывы и оценки. Также вы можете помочь, переведя приложения на новый язык или обновив существующий перевод.
