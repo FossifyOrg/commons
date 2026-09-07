@@ -1052,11 +1052,7 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="deprecated_app">ATTENTION : cette version de l\'application n\'est plus maintenue à jour. Vous pouvez vous procurer la version \"Pro\" à l\'adresse web suivante : https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les deux heures qui suivent son achat, le remboursement sera automatique. À tout moment, si vous souhaitez un remboursement, contactez-nous à l\'adresse électronique suivante : hello@fossify.org et vous l\'obtiendrez dans les plus brefs délais. Cela facilite l\'essai de nos applications :)</string>
     <string name="developer_description">Une suite d\'applications Android simples, à code source ouvert, comprenant des widgets personnalisables, sans publicités ni permissions inutiles.</string>
-    <string name="contributors_label"><![CDATA[
-            Cette liste contient toutes les personnes qui ont sensiblement contribué à une application de la suite Fossify, pas seulement celle-ci. Les traductions sont assurées par des bénévoles,
-            faites-nous savoir si vous souhaitez aider aussi. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.
-            Merci à tous les contributeurs et tous ceux qui nous soutiennent !
-        ]]></string>
+    <string name="contributors_label"><![CDATA[Cette liste contient toutes les personnes qui ont sensiblement contribué à une application de la suite Fossify, pas seulement celle-ci. Les traductions sont assurées par des bénévoles,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020faites-nous savoir si vous souhaitez aider aussi. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Merci à tous les contributeurs et tous ceux qui nous soutiennent !]]></string>
     <string name="notes">Notes</string>
     <string name="transparent">Transparent</string>
     <string name="notification">Notification</string>
@@ -1144,4 +1140,8 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
             Veuillez acheter <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pour utiliser cette fonctionnalité et soutenir le développement. Merci !
         ]]></string>
     <string name="label_with_badge">%1$s %2$s</string>
+    <string name="mammoth_title">Mammoth (convertisseur DOCX)</string>
+    <string name="commonmark_title">CommonMark (analyseur Markdown)</string>
+    <string name="jsoup_title">jsoup (analyseur HTML)</string>
+    <string name="commons_csv_title">Apache Commons CSV (analyseur CSV)</string>
 </resources>
