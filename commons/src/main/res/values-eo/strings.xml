@@ -433,9 +433,7 @@
     <string name="undo_changes_confirmation">Ĉu vi vere volas malfari viajn ŝanĝojn?</string>
     <string name="cannot_be_undone">Oni ne povas malfari tiun ĉi akcion.</string>
     <string name="save_before_closing">Estas nekonservitaj ŝanĝoj. Ĉu konservi ilin antaŭ eliri?</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Bonvolu aĉeti <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a> por uzi ĉi tiun funkcion kaj subteni la programadon. Dankon!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA["<![CDATA\n            Bonvolu aĉeti <a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\">Fossify Dankon</a> por uzi ĉi tiun funkcion kaj subteni la programadon. Dankon!\n        ]]]]><![CDATA[>"]]></string>
     <string name="light_theme">Hela</string>
     <string name="dark_theme">Malhela</string>
     <string name="auto_theme">Aŭtomata</string>
@@ -917,10 +915,7 @@
     <string name="little_to_no_fee">Malmultekosta aŭ senpaga</string>
     <string name="fee_up_to_pct">Pago ĝis %1$d%%</string>
     <string name="cryptocurrency">Ĉifrovaluto</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Jes, kompreneble. Vi povus mencii niajn aplikaĵojn al aliuloj, bone taksi ilin aŭ doni al ni utilajn komentojn. Vi ankaŭ povus helpi nin traduki la aplikaĵojn en novan lingvon aŭ simple ĝisdatigi tiujn kiuj jam ekzistas.
-            La tradukada gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA["!<[CDATA[\n            Jes, kompreneble. Vi povus mencii niajn aplikaĵojn al aliuloj, bone taksi ilin aŭ doni al ni utilajn komentojn. Vi ankaŭ povus helpi nin traduki la aplikaĵojn en novan lingvon aŭ simple ĝisdatigi tiujn kiuj jam ekzistas.\n            La tradukada gvido troviĝas <a href=\"https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file\">ĉi tie</a>, aŭ simple kontaktu nin je <a href=\"mailto:hello@fossify.org\">hello@fossify.org</a> se vi havas demandojn.\n        ]]]]><![CDATA[>"]]></string>
     <string name="faq_3_title_commons">Mi senvole forigis kelkajn dosierojn. Kiel mi povas restaŭri ilin?</string>
     <string name="faq_8_title_commons">Kial mi devus promociiĝi al la versio Pro?</string>
     <string name="faq_9_title_commons">Kiel mi povas elekti multajn elementojn samtempe?</string>
