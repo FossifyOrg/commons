@@ -998,7 +998,7 @@
     <string name="trial_expires_soon">Din prövotid tar snart slut.</string>
     <string name="unlock_for_one_final_day">Lås upp appen för en sista dag</string>
     <string name="welcome_to_app_name">Välkommen till %s!</string>
-    <string name="trial_start_description">Tack för att du använder vår app. Du kan använda den här olåsta versionen i <font color="#FFFFFF">%d dagar</font>. När testperioden är slut, överväg att uppgradera till Pro-versionen. Den har en enorm mängd nya funktioner, modern design, inga annonser och många andra förbättringar. \n \nDu behöver bara betala för det en gång i livet och om du inte blir nöjd kan du avinstallera det och få en återbetalning. \n \nHoppas du kommer att gilla det :)</string>
+    <string name="trial_start_description">Tack för att du använder vår app. Du kan använda den här olåsta versionen i &lt;font color=\"#FFFFFF\"&gt;%d dagar&lt;/font&gt;. När testperioden är slut kan du överväga att uppgradera till Pro-versionen. Den har många nya funktioner, modern design, inga annonser och flera andra förbättringar.\n\nDu behöver bara betala en gång, och om du inte blir nöjd kan du avinstallera den och få pengarna tillbaka.\n\nVi hoppas att du kommer att gilla den :)</string>
     <string name="trial_end_description">Uppgradera till Pro-versionen för att njuta av appen till fullo.
 \n
 \nDu behöver bara betala för det en gång i livet och om du inte blir nöjd kan du avinstallera det och få en återbetalning.
