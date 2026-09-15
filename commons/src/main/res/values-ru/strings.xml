@@ -1162,4 +1162,8 @@
     <string name="on_contact_click">При нажатии на контакт</string>
     <string name="call_contact">Вызов контакта</string>
     <string name="view_contact">Просмотр подробностей</string>
+    <string name="mammoth_title">Mammoth (конвертер DOCX)</string>
+    <string name="commonmark_title">CommonMark (обработка Markdown)</string>
+    <string name="jsoup_title">jsoup (обработка HTML)</string>
+    <string name="commons_csv_title">Apache Commons CSV (обработка CSV)</string>
 </resources>

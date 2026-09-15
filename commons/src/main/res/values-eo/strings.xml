@@ -1063,4 +1063,8 @@
     <string name="view_contact">Vidi kontaktajn detalojn</string>
     <string name="on_contact_click">Kiam kontakto estas frapetita</string>
     <string name="call_contact">Alvoki kontakton</string>
+    <string name="mammoth_title">Mammoth (konvertilo de DOCX)</string>
+    <string name="commonmark_title">CommonMark (analizilo de Markdown)</string>
+    <string name="jsoup_title">jsoup (analizilo de HTML)</string>
+    <string name="commons_csv_title">Apache Commons CSV (analizilo de CSV)</string>
 </resources>

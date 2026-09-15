@@ -1090,7 +1090,7 @@
     <string name="allow_alarm_sleep_timer">Musíte aplikaci povolit přístup k interním budíkům, jinak nemůže vypnout aplikaci po časovači spánku.</string>
     <string name="website">Webové stránky</string>
     <string name="donate_please"><![CDATA[
-            Dobrý den,<br><br><br>
+            Dobrý den,<br><br>
             doufáme, že si užíváte aplikaci. Neobsahuje žádné reklamy, zvažte proto prosím podpoření jejího vývoje zakoupením aplikace <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Poděkování Fossify</a>. Tím také zabráníte opětovnému zobrazení tohoto dialogu<br><br>
             Děkujeme!
         ]]></string>
@@ -1161,4 +1161,8 @@
     <string name="on_contact_click">Po klepnutí na kontakt</string>
     <string name="call_contact">Zavolat kontakt</string>
     <string name="view_contact">Zobrazit údaje kontaktu</string>
+    <string name="mammoth_title">Mammoth (převodník DOCX)</string>
+    <string name="commonmark_title">CommonMark (parser Markdown)</string>
+    <string name="jsoup_title">jsoup (parser HTML)</string>
+    <string name="commons_csv_title">Apache Commons CSV (parser CSV)</string>
 </resources>

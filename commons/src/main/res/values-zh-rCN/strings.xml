@@ -1075,4 +1075,8 @@
     <string name="on_contact_click">点击联系人</string>
     <string name="call_contact">打电话给联系人</string>
     <string name="view_contact">查看联系人详情</string>
+    <string name="mammoth_title">Mammoth（DOCX 转换器）</string>
+    <string name="commonmark_title">CommonMark（Markdown 解析器）</string>
+    <string name="jsoup_title">jsoup（HTML 解析器）</string>
+    <string name="commons_csv_title">Apache Commons CSV（CSV 解析器）</string>
 </resources>

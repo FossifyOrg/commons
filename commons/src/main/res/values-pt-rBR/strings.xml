@@ -495,39 +495,39 @@
         <item quantity="other">%d anos</item>
     </plurals>
     <plurals name="seconds_before">
-        <item quantity="one">%d segundo atrás</item>
-        <item quantity="many">%d segundos atrás</item>
-        <item quantity="other">%d segundos atrás</item>
+        <item quantity="one">%d segundo antes</item>
+        <item quantity="many">%d segundos antes</item>
+        <item quantity="other">%d segundos antes</item>
     </plurals>
     <plurals name="minutes_before">
-        <item quantity="one">%d minuto atrás</item>
-        <item quantity="many">%d minutos atrás</item>
-        <item quantity="other">%d minutos atrás</item>
+        <item quantity="one">%d minuto antes</item>
+        <item quantity="many">%d minutos antes</item>
+        <item quantity="other">%d minutos antes</item>
     </plurals>
     <plurals name="hours_before">
-        <item quantity="one">%d hora atrás</item>
-        <item quantity="many">%d horas atrás</item>
-        <item quantity="other">%d horas atrás</item>
+        <item quantity="one">%d hora antes</item>
+        <item quantity="many">%d horas antes</item>
+        <item quantity="other">%d horas antes</item>
     </plurals>
     <plurals name="days_before">
-        <item quantity="one">%d dia atrás</item>
-        <item quantity="many">%d dias atrás</item>
-        <item quantity="other">%d dias atrás</item>
+        <item quantity="one">%d dia antes</item>
+        <item quantity="many">%d dias antes</item>
+        <item quantity="other">%d dias antes</item>
     </plurals>
     <plurals name="weeks_before">
-        <item quantity="one">%d semana atrás</item>
-        <item quantity="many">%d semanas atrás</item>
-        <item quantity="other">%d semanas atrás</item>
+        <item quantity="one">%d semana antes</item>
+        <item quantity="many">%d semanas antes</item>
+        <item quantity="other">%d semanas antes</item>
     </plurals>
     <plurals name="months_before">
-        <item quantity="one">%d mês atrás</item>
-        <item quantity="many">%d meses atrás</item>
-        <item quantity="other">%d meses atrás</item>
+        <item quantity="one">%d mês antes</item>
+        <item quantity="many">%d meses antes</item>
+        <item quantity="other">%d meses antes</item>
     </plurals>
     <plurals name="years_before">
-        <item quantity="one">%d ano atrás</item>
-        <item quantity="many">%d anos atrás</item>
-        <item quantity="other">%d anos atrás</item>
+        <item quantity="one">%d ano antes</item>
+        <item quantity="many">%d anos antes</item>
+        <item quantity="other">%d anos antes</item>
     </plurals>
     <plurals name="by_seconds">
         <item quantity="one">%d segundo</item>

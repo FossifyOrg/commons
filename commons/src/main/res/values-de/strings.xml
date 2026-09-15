@@ -1113,4 +1113,8 @@
     <string name="on_contact_click">Beim Klicken auf den Kontakt</string>
     <string name="call_contact">Kontakt anrufen</string>
     <string name="view_contact">Kontaktdetails anzeigen</string>
+    <string name="mammoth_title">Mammoth (DOCX-Konverter)</string>
+    <string name="commonmark_title">CommonMark (Markdown-Parser)</string>
+    <string name="jsoup_title">jsoup (HTML-Parser)</string>
+    <string name="commons_csv_title">Apache Commons CSV (CSV-Parser)</string>
 </resources>

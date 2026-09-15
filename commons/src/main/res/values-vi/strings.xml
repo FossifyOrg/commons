@@ -1027,4 +1027,8 @@
     <string name="on_contact_click">Khi nhấn vào liên hệ</string>
     <string name="call_contact">Gọi liên hệ</string>
     <string name="view_contact">Xem chi tiết liên hệ</string>
+    <string name="mammoth_title">Mammoth (Chuyển đổi DOCX)</string>
+    <string name="commonmark_title">CommonMark (Markdown parser)</string>
+    <string name="jsoup_title">jsoup (HTML parser)</string>
+    <string name="commons_csv_title">Apache Commons CSV (CSV parser)</string>
 </resources>

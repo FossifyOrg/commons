@@ -1160,4 +1160,8 @@
     <string name="invalid_font_file">File del font non valido</string>
     <string name="badge_deprecated">(deprecato)</string>
     <string name="label_with_badge">%1$s%2$s</string>
+    <string name="mammoth_title">Mammoth (convertitore DOCX)</string>
+    <string name="commonmark_title">CommonMark (parser Markdown)</string>
+    <string name="jsoup_title">jsoup (parser HTML)</string>
+    <string name="commons_csv_title">Apache Commons CSV (parser CSV)</string>
 </resources>
