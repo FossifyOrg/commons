@@ -163,7 +163,7 @@
     <string name="extension_cannot_be_empty">Končnica ne more biti prazna</string>
     <string name="source_file_doesnt_exist">Datoteka %s ne obstaja</string>
     <string name="prepend_filenames">Dodaj besedilo pred imena datotek</string>
-    <string name="append_filenames">Dodaj besedilo za imeni datotek</string>
+    <string name="append_filenames">Dodaj besedilo za imena datotek</string>
     <string name="simple_renaming">Enostavno preimenovanje</string>
     <string name="pattern_renaming">Vzorec</string>
     <string name="string_to_add">Besedilo za dodajanje</string>
@@ -710,7 +710,7 @@
     <string name="open_the_recycle_bin">Odpri koš</string>
     <plurals name="moving_items_into_bin">
         <item quantity="one">Premikanje %d elementa v koš</item>
-        <item quantity="two">Premikanje %d elementov v koš</item>
+        <item quantity="two">Premikanje %d elementa v koš</item>
         <item quantity="few">Premikanje %d elementov v koš</item>
         <item quantity="other">Premikanje %d elementov v koš</item>
     </plurals>
@@ -1086,8 +1086,8 @@ Za uporabo te funkcije in podporo razvoju kupite aplikacijo <a href="https://pla
     <string name="seconds_letter">%d s</string>
     <string name="minutes_letter">%d min</string>
     <string name="hours_letter">%d h</string>
-    <string name="days_letter">%d dni</string>
-    <string name="week_number_short">tednov</string>
+    <string name="days_letter">%d d</string>
+    <string name="week_number_short">ted.</string>
     <string name="alarm">Alarm</string>
     <string name="purchase_simple_thank_you">Nakup Fossify Thank You</string>
     <string name="requires_fossify_thank_you">Zahteva Fossify Thank You</string>
@@ -1100,7 +1100,7 @@ Za uporabo te funkcije in podporo razvoju kupite aplikacijo <a href="https://pla
     <string name="select_font_file">Izberite datoteko pisave …</string>
     <string name="invalid_font_file">Neveljavna datoteka pisave</string>
     <string name="start_week_on">Začni teden</string>
-    <string name="skip_the_recycle_bin">Preskoči koš, izbrišite datoteke neposredno</string>
+    <string name="skip_the_recycle_bin">Preskoči koš, izbriši datoteke neposredno</string>
     <string name="usb">USB</string>
     <string name="april">April</string>
     <string name="september">September</string>
@@ -1151,7 +1151,7 @@ Hvala vsem sodelujočim in drugim podpornikom!
     <string name="translation_bengali">Bengalščina</string>
     <string name="translation_breton">Bretonščina</string>
     <string name="translation_bulgarian">Bolgarščina</string>
-    <string name="translation_central_kurdish">Osrednje kurdski jezik</string>
+    <string name="translation_central_kurdish">Osrednji kurdski jezik</string>
     <string name="translation_catalan">Katalonščina</string>
     <string name="translation_chuvash">Čuvaščina</string>
     <string name="translation_czech">Češčina</string>
@@ -1204,5 +1204,5 @@ Hvala vsem sodelujočim in drugim podpornikom!
     <string name="mammoth_title">Mammoth (pretvornik DOCX)</string>
     <string name="commonmark_title">CommonMark (razčlenjevalnik Markdown)</string>
     <string name="jsoup_title">jsoup (razčlenjevalnik HTML)</string>
-    <string name="commons_csv_title">CSV Apache Commons (razčlenjevalnik CSV)</string>
+    <string name="commons_csv_title">Apache Commons CSV (razčlenjevalnik CSV)</string>
 </resources>
