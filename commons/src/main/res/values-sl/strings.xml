@@ -1023,7 +1023,7 @@
     <string name="email">E-pošta</string>
     <string name="audio">Zvok</string>
     <string name="scanning">Skeniranje …</string>
-    <string name="mobile">Telefonska številka</string>
+    <string name="mobile">Mobilni</string>
     <plurals name="row_counts">
         <item quantity="one">%d vrstica</item>
         <item quantity="two">%d vrstici</item>
@@ -1128,7 +1128,7 @@ Za uporabo te funkcije in podporo razvoju kupite aplikacijo <a href="https://pla
     <string name="update_thank_you">Posodobite Fossify Thank You na najnovejšo različico</string>
     <string name="features_locked">Ta funkcija je zaklenjena. Za odklepanje celotne aplikacije kupite &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;.&lt;br&gt;&lt;br&gt;Gre za enkratno plačilo in če ne boste zadovoljni, vam lahko vrnemo denar.</string>
     <string name="all_fossify_apps">Vse aplikacije Fossify</string>
-    <string name="donate_to_fossify">Darujte Fossifyu</string>
+    <string name="donate_to_fossify">Darujte Kavdori</string>
     <string name="platforms">Platforme</string>
     <string name="little_to_no_fee">Majhna ali brez provizije</string>
     <string name="fee_up_to_pct">Provizija do %1$d%%</string>
@@ -1145,7 +1145,7 @@ Ta seznam vsebuje vse, ki so opazno pomagali kateri koli aplikaciji v paketu Fos
 sporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej spletni strani</a> ali pa nas preprosto kontaktirajte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>, če imate kakršna koli vprašanja.
 Hvala vsem sodelujočim in drugim podpornikom!
 ]]></string>
-    <string name="translation_arabic">Arabsko</string>
+    <string name="translation_arabic">Arabščina</string>
     <string name="translation_azerbaijani">Azerbajdžanščina</string>
     <string name="translation_belarusian">Beloruščina</string>
     <string name="translation_bengali">Bengalščina</string>
@@ -1175,7 +1175,7 @@ Hvala vsem sodelujočim in drugim podpornikom!
     <string name="translation_italian">italijanščina</string>
     <string name="translation_hebrew">hebrejščina</string>
     <string name="translation_japanese">japonščina</string>
-    <string name="translation_kabyle">Kabyle</string>
+    <string name="translation_kabyle">Kabilščina</string>
     <string name="translation_korean">korejščina</string>
     <string name="translation_latvian">latvijščina</string>
     <string name="translation_lithuanian">litovščina</string>
