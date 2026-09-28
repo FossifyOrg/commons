@@ -856,7 +856,7 @@
     <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
     <string name="donate_please"><![CDATA[
             Bonjour, <br><br>
-j\'espère que vous appréciez l\'application. Elle ne contient pas de publicités, vous pouvez soutenir son développement en achetant l\'appli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. Cela empêchera également cette boite de dialogue de se montrer à nouveau.<br><br>
+            j'espère que vous appréciez l'application. Elle ne contient pas de publicités, vous pouvez soutenir son développement en achetant l'appli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. Cela empêchera également cette boite de dialogue d'apparaître à nouveau.<br><br>
             Merci !
         ]]></string>
     <string name="purchase">Acheter</string>
@@ -870,8 +870,8 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="widget_locked_pro">Le widget est verrouillé.
 \nVeuillez passer à la version \"Pro\" pour le déverrouiller.</string>
     <string name="new_app"><![CDATA[
-            Bonjour,<br><br>
-            Nous vous informons que de nouvelles applications ont été publiées récemment :<br><br>
+            Salut,<br><br>
+            Je voulais juste vous signaler que de nouvelles applications ont été lancées récemment :<br><br>
             <a href="%1$s">%2$s</a><br><br>
             <a href="%3$s">%4$s</a><br><br>
             <a href="%5$s">%6$s</a><br><br>
@@ -895,7 +895,7 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="thank_you_short">Merci</string>
     <string name="voice_recorder_short">Enregistreur vocal</string>
     <string name="sideloaded_app"><![CDATA[
-            La version de votre application semble corrompue. Merci de télécharger la version originale <a href="%s"> en suivant ce lien</a>.
+            La version de votre application semble corrompue. Merci de télécharger la version originale <a href="%s">ici</a>.
         ]]></string>
     <string name="frequently_asked_questions">Foire aux questions</string>
     <string name="before_asking_question">Avant de poser une question, veuillez tout d\'abord consulter la</string>
@@ -1052,7 +1052,11 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="deprecated_app">ATTENTION : cette version de l\'application n\'est plus maintenue à jour. Vous pouvez vous procurer la version \"Pro\" à l\'adresse web suivante : https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les deux heures qui suivent son achat, le remboursement sera automatique. À tout moment, si vous souhaitez un remboursement, contactez-nous à l\'adresse électronique suivante : hello@fossify.org et vous l\'obtiendrez dans les plus brefs délais. Cela facilite l\'essai de nos applications :)</string>
     <string name="developer_description">Une suite d\'applications Android simples, à code source ouvert, comprenant des widgets personnalisables, sans publicités ni permissions inutiles.</string>
-    <string name="contributors_label"><![CDATA[Cette liste contient toutes les personnes qui ont sensiblement contribué à une application de la suite Fossify, pas seulement celle-ci. Les traductions sont assurées par des bénévoles,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020faites-nous savoir si vous souhaitez aider aussi. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Merci à tous les contributeurs et tous ceux qui nous soutiennent !]]></string>
+    <string name="contributors_label"><![CDATA[
+Cette liste contient toutes les personnes qui ont sensiblement contribué à une application de la suite Fossify, et pas seulement celle-ci. Les traductions sont assurées par des bénévoles,
+            faites-nous savoir si vous souhaitez aider aussi. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.
+            Merci à tous les contributeurs et tous ceux qui nous soutiennent !
+        ]]></string>
     <string name="notes">Notes</string>
     <string name="transparent">Transparent</string>
     <string name="notification">Notification</string>
@@ -1087,10 +1091,7 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="translation_bengali">Bengali</string>
     <string name="translation_breton">Breton</string>
     <string name="translation_hindi">Hindi</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Oui bien sûr. Vous pouvez nous aider en partageant les applications ou en laissant des notes et commentaires positifs. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue, ou simplement en mettant à jour certaines traductions existantes.
-            Le guide de traduction se trouve sur <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>ce site Web</a>, ou contactez-nous simplement à <a href=mailto:hello@fossify.org>hello@fossify.org</a> si vous avez des questions.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA["<![CDATA\n            Oui bien sûr. Vous pouvez nous aider en partageant les applications ou en laissant des notes et commentaires positifs. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue, ou simplement en mettant à jour certaines traductions existantes.\n            Le guide de traduction se trouve sur <a href=\"https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file\">ce site Web</a>, ou contactez-nous simplement à <a href=\"mailto:hello@fossify.org>hello@fossify.org\"</a> si vous avez des questions.\n        ]]]]><![CDATA[>"]]></string>
     <string name="translation_catalan">Catalan</string>
     <string name="translation_basque">Basque</string>
     <string name="translation_tamil">Tamil</string>
@@ -1136,9 +1137,7 @@ j\'espère que vous appréciez l\'application. Elle ne contient pas de publicit�
     <string name="select_font_file">Sélectionner le fichier de police de caractère…</string>
     <string name="invalid_font_file">Fichier de police de caractère invalide</string>
     <string name="badge_deprecated">(déprécié)</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Veuillez acheter <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pour utiliser cette fonctionnalité et soutenir le développement. Merci !
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA["<![CDATA\n            Veuillez acheter <a href=\"https://play.google.com/store/apps/details ?id=org.fossify.thankyou\">Fossify Thank You</a> pour utiliser cette fonctionnalité et soutenir le développement. Merci !\n        ]]]]><![CDATA[>"]]></string>
     <string name="label_with_badge">%1$s %2$s</string>
     <string name="mammoth_title">Mammoth (convertisseur DOCX)</string>
     <string name="commonmark_title">CommonMark (analyseur Markdown)</string>
