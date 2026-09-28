@@ -264,7 +264,7 @@
     <string name="root">Raiz</string>
     <string name="wrong_root_selected">Pasta inválida, por favor selecione a raiz do cartão SD</string>
     <string name="sd_card_usb_same">As pastas do cartão SD e do dispositivo USB não podem ser a mesma</string>
-    <string name="app_on_sd_card">Parece que você instalou o aplicativo num cartão SD, o que torna os widgets indisponíveis. Não os verá na lista de widgets. Isto é uma limitação do sistema operativo, caso você queira ter acesso aos widgets será preciso mover o aplicativo para o armazenamento interno.</string>
+    <string name="app_on_sd_card">Parece que você instalou a aplicação num cartão SD, o que torna os widgets indisponíveis. Não os verá na lista de widgets. Isto é uma limitação do sistema operativo, caso você queira ter acesso aos widgets será preciso mover a aplicação para o armazenamento interno.</string>
     <string name="wrong_folder_selected">A pasta esrrada foi selecionada, por favor, selecione \'%s\'</string>
     <string name="properties">Propriedades</string>
     <string name="path">Caminho</string>
@@ -421,7 +421,7 @@
     <string name="lock_folder">Bloquear pasta</string>
     <string name="lock_folder_pro">Bloquear pasta (Pro)</string>
     <string name="unlock_folder">Desbloquear pasta</string>
-    <string name="lock_folder_notice">Esta proteção funciona apenas neste aplicativo, não foi criada para substituir uma criptografia de pasta real a nível de sistema.</string>
+    <string name="lock_folder_notice">Esta proteção funciona apenas nesta aplicação, não foi criada para substituir uma criptografia de pasta real a nível de sistema.</string>
     <string name="yesterday">Ontem</string>
     <string name="today">Hoje</string>
     <string name="tomorrow">Amanhã</string>
