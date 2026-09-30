@@ -10,7 +10,7 @@ import androidx.lifecycle.findViewTreeLifecycleOwner
 import org.fossify.commons.R
 import org.fossify.commons.extensions.beGoneIf
 import org.fossify.commons.extensions.findActivity
-import org.fossify.commons.extensions.isOrWasThankYouInstalled
+import org.fossify.commons.extensions.hasThankYouUnlock
 import org.fossify.commons.extensions.launchPurchaseThankYouIntent
 import org.fossify.commons.extensions.toast
 
@@ -21,7 +21,7 @@ class PurchaseThankYouItem @JvmOverloads constructor(
 ) : RelativeLayout(context, attrs, defStyle) {
 
     private var lifecycleOwner: LifecycleOwner? = null
-    private val hideGoogleRelations = resources.getBoolean(R.bool.hide_google_relations)
+    private val isGooglePlayBuild = resources.getBoolean(R.bool.is_google_play_build)
     private val lifecycleObserver = object : DefaultLifecycleObserver {
         override fun onResume(owner: LifecycleOwner) {
             updateVisibility()
@@ -39,7 +39,7 @@ class PurchaseThankYouItem @JvmOverloads constructor(
         findViewById<MyTextView>(R.id.purchase_thank_you_value).text = subtitle
         updateVisibility()
 
-        if (!context.isOrWasThankYouInstalled(allowPretend = false)) {
+        if (!context.hasThankYouUnlock()) {
             setOnClickListener {
                 val activity = context.findActivity()
                 if (activity != null) {
@@ -65,7 +65,7 @@ class PurchaseThankYouItem @JvmOverloads constructor(
 
     fun updateVisibility() {
         beGoneIf(
-            context.isOrWasThankYouInstalled(allowPretend = false) || hideGoogleRelations
+            context.hasThankYouUnlock() || !isGooglePlayBuild
         )
     }
 }

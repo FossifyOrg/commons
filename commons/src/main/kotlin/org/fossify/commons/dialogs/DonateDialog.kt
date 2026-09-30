@@ -1,6 +1,7 @@
 package org.fossify.commons.dialogs
 
 import android.app.Activity
+import android.content.Intent
 import android.text.Html
 import android.text.method.LinkMovementMethod
 import android.widget.TextView
@@ -22,6 +23,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.window.DialogProperties
 import org.fossify.commons.R
+import org.fossify.commons.activities.DonationActivity
 import org.fossify.commons.compose.alert_dialog.*
 import org.fossify.commons.compose.components.LinkifyTextComponent
 import org.fossify.commons.compose.extensions.MyDevices
@@ -32,23 +34,38 @@ import org.fossify.commons.compose.theme.SimpleTheme
 import org.fossify.commons.databinding.DialogDonateBinding
 import org.fossify.commons.extensions.*
 
-class DonateDialog(val activity: Activity) {
+class DonateDialog(val activity: Activity, onShown: () -> Unit = {}) {
     init {
+        val isGooglePlayBuild = activity.resources.getBoolean(R.bool.is_google_play_build)
+        val positiveButtonId = if (isGooglePlayBuild) R.string.purchase else R.string.donate
         val view = DialogDonateBinding.inflate(activity.layoutInflater, null, false).apply {
             dialogDonateImage.applyColorFilter(activity.getProperTextColor())
-            dialogDonateText.text = Html.fromHtml(activity.getString(R.string.donate_short))
+            val messageId = if (isGooglePlayBuild) R.string.donate_short else R.string.donation_prompt
+            dialogDonateText.text = Html.fromHtml(activity.getString(messageId))
             dialogDonateText.movementMethod = LinkMovementMethod.getInstance()
             dialogDonateImage.setOnClickListener {
-                activity.launchViewIntent(R.string.thank_you_url)
+                activity.openDonationOptions()
             }
         }
 
         activity.getAlertDialogBuilder()
-            .setPositiveButton(R.string.purchase) { _, _ -> activity.launchViewIntent(R.string.thank_you_url) }
+            .setPositiveButton(positiveButtonId) { _, _ -> activity.openDonationOptions() }
             .setNegativeButton(R.string.later, null)
             .apply {
-                activity.setupDialogStuff(view.root, this, cancelOnTouchOutside = false)
+                activity.setupDialogStuff(view.root, this) { dialog ->
+                    if (dialog.isShowing) {
+                        onShown()
+                    }
+                }
             }
+    }
+}
+
+private fun Activity.openDonationOptions() {
+    if (resources.getBoolean(R.bool.is_google_play_build)) {
+        launchPurchaseThankYouIntent()
+    } else {
+        startActivity(Intent(this, DonationActivity::class.java))
     }
 }
 
@@ -58,9 +75,8 @@ fun DonateAlertDialog(
     modifier: Modifier = Modifier
 ) {
     val localContext = LocalContext.current.getActivity()
-    val donateIntent = {
-        localContext.launchViewIntent(R.string.thank_you_url)
-    }
+    val isGooglePlayBuild = localContext.resources.getBoolean(R.bool.is_google_play_build)
+    val donateIntent = { localContext.openDonationOptions() }
     androidx.compose.material3.AlertDialog(
         containerColor = dialogContainerColor,
         modifier = modifier
@@ -81,7 +97,7 @@ fun DonateAlertDialog(
                 donateIntent()
                 alertDialogState.hide()
             }) {
-                Text(text = stringResource(id = R.string.purchase))
+                Text(text = stringResource(id = if (isGooglePlayBuild) R.string.purchase else R.string.donate))
             }
         },
         title = {
@@ -107,7 +123,7 @@ fun DonateAlertDialog(
             }
         },
         text = {
-            val source = stringResource(id = R.string.donate_short)
+            val source = stringResource(id = if (isGooglePlayBuild) R.string.donate_short else R.string.donation_prompt)
             LinkifyTextComponent(
                 fontSize = 16.sp,
                 removeUnderlines = false,

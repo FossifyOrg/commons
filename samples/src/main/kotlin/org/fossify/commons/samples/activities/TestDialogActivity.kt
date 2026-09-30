@@ -41,7 +41,6 @@ import org.fossify.commons.dialogs.CreateNewFolderAlertDialog
 import org.fossify.commons.dialogs.CustomIntervalPickerAlertDialog
 import org.fossify.commons.dialogs.DonateAlertDialog
 import org.fossify.commons.dialogs.EnterPasswordAlertDialog
-import org.fossify.commons.dialogs.FeatureLockedAlertDialog
 import org.fossify.commons.dialogs.FileConflictAlertDialog
 import org.fossify.commons.dialogs.FolderLockingNoticeAlertDialog
 import org.fossify.commons.dialogs.LineColorPickerAlertDialog
@@ -49,13 +48,10 @@ import org.fossify.commons.dialogs.OpenDeviceSettingsAlertDialog
 import org.fossify.commons.dialogs.PermissionRequiredAlertDialog
 import org.fossify.commons.dialogs.PurchaseThankYouAlertDialog
 import org.fossify.commons.dialogs.RadioGroupAlertDialog
-import org.fossify.commons.dialogs.UpgradeToProAlertDialog
 import org.fossify.commons.dialogs.WhatsNewAlertDialog
 import org.fossify.commons.dialogs.WritePermissionAlertDialog
 import org.fossify.commons.dialogs.WritePermissionDialog
 import org.fossify.commons.extensions.baseConfig
-import org.fossify.commons.extensions.launchUpgradeToProIntent
-import org.fossify.commons.extensions.launchViewIntent
 import org.fossify.commons.extensions.toHex
 import org.fossify.commons.extensions.toast
 import org.fossify.commons.models.FileDirItem
@@ -84,7 +80,6 @@ class TestDialogActivity : ComponentActivity() {
                     ShowButton(getConfirmationAdvancedAlertDialogState(), text = "Confirmation advanced")
                     ShowButton(getPermissionRequiredAlertDialogState(), text = "Permission required")
                     ShowButton(getDonateAlertDialogState(), text = "Donate")
-                    ShowButton(getFeatureLockedAlertDialogState(), text = "Feature Locked")
                     ShowButton(getPurchaseThankYouAlertDialogState(), text = "Purchase thank you")
                     ShowButton(getLineColorPickerAlertDialogState(), text = "Line color picker")
                     ShowButton(getOpenDeviceSettingsAlertDialogState(), text = "Open device settings")
@@ -92,7 +87,6 @@ class TestDialogActivity : ComponentActivity() {
                     ShowButton(getCallConfirmationAlertDialogState(), text = "Call confirmation")
                     ShowButton(getChangeDateTimeFormatAlertDialogState(), text = "Change date time")
                     ShowButton(getRadioGroupDialogAlertDialogState(), text = "Radio group")
-                    ShowButton(getUpgradeToProAlertDialogState(), text = "Upgrade to pro")
                     ShowButton(getWhatsNewAlertDialogState(), text = "What's new")
                     ShowButton(getChangeViewTypeAlertDialogState(), text = "Change view type")
                     ShowButton(getWritePermissionAlertDialogState(), text = "Write permission")
@@ -216,15 +210,6 @@ class TestDialogActivity : ComponentActivity() {
     }
 
     @Composable
-    private fun getUpgradeToProAlertDialogState() = rememberAlertDialogState().apply {
-        DialogMember {
-            UpgradeToProAlertDialog(alertDialogState = this, onMoreInfoClick = {
-                launchViewIntent("https://fossify.org/upgrade_to_pro")
-            }, onUpgradeClick = ::launchUpgradeToProIntent)
-        }
-    }
-
-    @Composable
     private fun getRadioGroupDialogAlertDialogState() = rememberAlertDialogState().apply {
         DialogMember {
             RadioGroupAlertDialog(
@@ -311,13 +296,6 @@ class TestDialogActivity : ComponentActivity() {
     private fun getCallConfirmationAlertDialogState() = rememberAlertDialogState().apply {
         DialogMember {
             CallConfirmationAlertDialog(alertDialogState = this, callee = "Fossify") {}
-        }
-    }
-
-    @Composable
-    private fun getFeatureLockedAlertDialogState() = rememberAlertDialogState().apply {
-        DialogMember {
-            FeatureLockedAlertDialog(alertDialogState = this, cancelCallback = {})
         }
     }
 

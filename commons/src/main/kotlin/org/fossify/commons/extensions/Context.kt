@@ -124,7 +124,6 @@ import org.fossify.commons.helpers.isQPlus
 import org.fossify.commons.helpers.isRPlus
 import org.fossify.commons.helpers.isSPlus
 import org.fossify.commons.helpers.isUpsideDownCakePlus
-import org.fossify.commons.helpers.proPackages
 import org.fossify.commons.models.AlarmSound
 import org.fossify.commons.models.BlockedNumber
 import org.joda.time.DateTimeConstants
@@ -597,7 +596,7 @@ fun Context.canAccessGlobalConfig(): Boolean {
     return isThankYouInstalled() && ContextCompat.checkSelfPermission(this, PERMISSION_WRITE_GLOBAL_SETTINGS) == PERMISSION_GRANTED
 }
 
-fun Context.isOrWasThankYouInstalled(allowPretend: Boolean = true): Boolean {
+fun Context.hasThankYouUnlock(): Boolean {
     return when {
         isThankYouInstalled() -> {
             if (!baseConfig.hadThankYouInstalled) {
@@ -606,18 +605,7 @@ fun Context.isOrWasThankYouInstalled(allowPretend: Boolean = true): Boolean {
             true
         }
         baseConfig.hadThankYouInstalled -> true
-        resources.getBoolean(R.bool.pretend_thank_you_installed) && allowPretend -> true
         else -> false
-    }
-}
-
-fun Context.isAProApp() = packageName.startsWith("org.fossify.") && packageName.removeSuffix(".debug").endsWith(".pro")
-
-fun Context.addLockedLabelIfNeeded(stringId: Int): String {
-    return if (isOrWasThankYouInstalled()) {
-        getString(stringId)
-    } else {
-        "${getString(stringId)} (${getString(R.string.feature_locked)})"
     }
 }
 
@@ -842,10 +830,6 @@ fun Context.saveExifRotation(exif: ExifInterface, degrees: Int) {
 }
 
 fun Context.getLaunchIntent() = packageManager.getLaunchIntentForPackage(baseConfig.appId)
-
-fun Context.getCanAppBeUpgraded() = proPackages.contains(baseConfig.appId.removeSuffix(".debug").removePrefix("org.fossify."))
-
-fun Context.getProUrl() = "https://play.google.com/store/apps/details?id=${baseConfig.appId.removeSuffix(".debug")}.pro"
 
 fun Context.getStoreUrl() = "https://play.google.com/store/apps/details?id=${packageName.removeSuffix(".debug")}"
 

@@ -67,7 +67,7 @@ class AboutActivity : BaseComposeActivity() {
             val resources = context.resources
             AppThemeSurface {
                 val showGoogleRelations =
-                    remember { !resources.getBoolean(R.bool.hide_google_relations) }
+                    remember { resources.getBoolean(R.bool.is_google_play_build) }
                 val showGithubRelations = showGithubRelations()
                 val showDonationLinks = remember { !isThankYouInstalled() || !showGoogleRelations }
                 val onEmailClickAlertDialogState = getOnEmailClickAlertDialogState()
@@ -135,11 +135,8 @@ class AboutActivity : BaseComposeActivity() {
 
     @Composable
     private fun getPackageInfo(): Pair<String, String> {
-        var versionName = remember { intent.getStringExtra(APP_VERSION_NAME) ?: "" }
+        val versionName = remember { intent.getStringExtra(APP_VERSION_NAME) ?: "" }
         val packageName = remember { intent.getStringExtra(APP_PACKAGE_NAME) ?: "" }
-        if (baseConfig.appId.removeSuffix(".debug").endsWith(".pro")) {
-            versionName += " ${getString(R.string.pro)}"
-        }
 
         val fullVersion = stringResource(R.string.version_placeholder, versionName)
         return Pair(fullVersion, packageName)
@@ -240,8 +237,8 @@ class AboutActivity : BaseComposeActivity() {
 
     private fun onInviteClick() {
         val storeUrl = when {
-            resources.getBoolean(R.bool.hide_google_relations) -> getGithubUrl()
-            else -> getStoreUrl()
+            resources.getBoolean(R.bool.is_google_play_build) -> getStoreUrl()
+            else -> getGithubUrl()
         }
 
         val text = String.format(getString(R.string.share_text), appName, storeUrl)
@@ -261,10 +258,10 @@ class AboutActivity : BaseComposeActivity() {
     }
 
     private fun onDonateClick() {
-        if (resources.getBoolean(R.bool.hide_google_relations)) {
-            startActivity(Intent(applicationContext, DonationActivity::class.java))
-        } else {
+        if (resources.getBoolean(R.bool.is_google_play_build)) {
             launchPurchaseThankYouIntent()
+        } else {
+            startActivity(Intent(applicationContext, DonationActivity::class.java))
         }
     }
 
@@ -282,7 +279,7 @@ class AboutActivity : BaseComposeActivity() {
     }
 
     private fun onPrivacyPolicyClick() {
-        val appId = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro")
+        val appId = baseConfig.appId.removeSuffix(".debug")
             .removePrefix("org.fossify.")
         val url = "https://www.fossify.org/policy/$appId"
         launchViewIntent(url)

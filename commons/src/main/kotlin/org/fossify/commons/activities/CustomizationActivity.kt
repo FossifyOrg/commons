@@ -28,7 +28,7 @@ import org.fossify.commons.extensions.getProperTextColor
 import org.fossify.commons.extensions.getThemeId
 import org.fossify.commons.extensions.isDynamicTheme
 import org.fossify.commons.extensions.isFontFile
-import org.fossify.commons.extensions.isOrWasThankYouInstalled
+import org.fossify.commons.extensions.hasThankYouUnlock
 import org.fossify.commons.extensions.isThankYouFontsSupported
 import org.fossify.commons.extensions.isSystemInDarkMode
 import org.fossify.commons.extensions.isThankYouInstalled
@@ -607,8 +607,8 @@ class CustomizationActivity : BaseSimpleActivity() {
             val selectedType = selected as Int
             if (selectedType == FONT_TYPE_CUSTOM) {
                 if (
-                    !resources.getBoolean(R.bool.hide_google_relations)
-                    && !isOrWasThankYouInstalled(allowPretend = false)
+                    resources.getBoolean(R.bool.is_google_play_build)
+                    && !hasThankYouUnlock()
                 ) {
                     PurchaseThankYouDialog(this)
                     return@RadioGroupDialog
@@ -917,7 +917,7 @@ class CustomizationActivity : BaseSimpleActivity() {
 
     private fun showOrHideThankYouFeatures() {
         val showThankYouFeatures = canAccessGlobalConfig()
-                || !resources.getBoolean(R.bool.hide_google_relations)
+                || resources.getBoolean(R.bool.is_google_play_build)
         binding.applyToAllNote.beVisibleIf(!canAccessGlobalConfig())
         binding.applyToAllHolder.beVisibleIf(showThankYouFeatures)
         binding.applyToAllDivider.root.beVisibleIf(showThankYouFeatures)

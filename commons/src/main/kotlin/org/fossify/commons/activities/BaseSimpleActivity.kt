@@ -1316,7 +1316,7 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
     }
 
     private fun getExportSettingsFilename(): String {
-        val appName = baseConfig.appId.removeSuffix(".debug").removeSuffix(".pro")
+        val appName = baseConfig.appId.removeSuffix(".debug")
             .removePrefix("org.fossify.")
         return "$appName-settings_${getCurrentFormattedDateTime()}"
     }
