@@ -918,7 +918,7 @@
     <string name="additional_info">Additional info</string>
     <string name="app_version">App version: %s</string>
     <string name="device_os">Device OS: %s</string>
-    <string name="donate_short">Support Fossify by purchasing &lt;a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou"&gt;Fossify Thank You&lt;/a&gt;. It enables custom font files and shared customization across our apps.</string>
+    <string name="donate_short">Enjoying Fossify? Support the development of our ad-free apps by purchasing &lt;a href="https://play.google.com/store/apps/details?id=org.Fossify.thankyou"&gt;Fossify Thank You&lt;/a&gt;. It\'ll also enable custom fonts and shared customization across Fossify apps. Thank you for your support!</string>
     <string name="donation_prompt">If you enjoy using this app, please consider supporting Fossify\'s development.</string>
     <string name="purchase">Purchase</string>
     <string name="update_thank_you">Please update Fossify Thank You to the latest version</string>
