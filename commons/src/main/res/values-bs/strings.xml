@@ -91,7 +91,6 @@
     <string name="no_phone_number_found">Nije pronađen nijedan telefonski broj</string>
     <string name="change_view_type">Promijeni vrstu prikaza</string>
     <string name="grid">Prikaz ikona</string>
-    <string name="grid_pro">Prikaz ikona (Pro)</string>
     <string name="uneven_grid">Neravnomjerni prikaz ikona</string>
     <string name="list">Prikaz popisa</string>
     <string name="increase_column_count">Povećaj broj kolona</string>
@@ -377,10 +376,8 @@
     <string name="undo">Poništi</string>
     <string name="redo">Ponovi</string>
     <string name="print">Ispiši</string>
-    <string name="print_pro">Ispiši (Pro)</string>
     <string name="shortcut">Prečac</string>
     <string name="create_shortcut">Stvori prečac</string>
-    <string name="create_shortcut_pro">Stvori prečac (Pro)</string>
     <string name="add_number_to_contact">Dodaj broj kontaktu</string>
     <string name="view_contact_details">Prikaži detalje kontakta</string>
     <string name="call_from_sim_1">Poziv sa SIM 1</string>
@@ -462,7 +459,6 @@
     <string name="protection_setup_successfully">Uspješno postavljanje lozinke. Molimo reinstalirajte aplikaciju u slučaju da je zaboravite.</string>
     <string name="fingerprint_setup_successfully">Uspješno postavljanje zaštite. Molimo reinstalirajte aplikaciju u slučaju problema s resetiranjem.</string>
     <string name="lock_folder">Zaključaj mapu</string>
-    <string name="lock_folder_pro">Zaključaj mapu (Pro)</string>
     <string name="unlock_folder">Otključaj mapu</string>
     <string name="lock_folder_notice">Ova zaštita radi samo u ovoj aplikaciji. Nije namijenjena za stvarno mijenjanje šifriranja mapa cijelog sustava.</string>
     <string name="enter_password">Unesite lozinku</string>
@@ -643,7 +639,6 @@
     <string name="general_settings">Opće</string>
     <string name="color_customization">Prilagođavanje boja</string>
     <string name="customize_colors">Prilagodi boje</string>
-    <string name="feature_locked">Zaključano</string>
     <string name="customize_widget_colors">Prilagodi boje widgeta</string>
     <string name="customize_notifications">Prilagodi obavijesti</string>
     <string name="notification_sound">Zvuk obavijesti</string>
@@ -802,58 +797,14 @@
     <string name="friday_short">Pet</string>
     <string name="saturday_short">Sub</string>
     <string name="sunday_short">Ned</string>
-    <string name="upgrade_to_pro_long">Tvoja verzija aplikacije se više neće ažurirati. Nadogradi na Pro verziju za primanje novih ispravki i druga poboljšanja.</string>
-    <string name="upgrade_to_pro_long_click">Tvoja verzija aplikacije se više neće ažurirati. Pritisni ovdje za nadogradnju na Pro verziju za primanje novih ispravki i druga poboljšanja.</string>
     <string name="it_is_free">Besplatno je do: %s. Ako je preuzmete do tada, moći ćete je koristiti zauvijek.</string>
     <string name="more_info">Više informacija</string>
     <string name="upgrade">Nadogradi</string>
     <string name="upgrade_calendar">Lokalno pohranjene događaje morate migrirati ručno putem izvoza u .ics datoteku, a zatim uvoza. Možete pronaći oba gumba za izvoz/uvoz na izborniku glavnog zaslona.</string>
-    <string name="upgraded_from_free_gallery">Zdravo,
-\n
-\nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako ti nadograđena verzija odgovara i ako preuzmeš svoje postavke i favorite, staru besplatnu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare verzije jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
-\n
-\nHvala!</string>
-    <string name="upgraded_to_pro_gallery">Zdravo,
-\n
-\nčini se da već imaš i Pro verziju aplikacije. Ako ti Pro verzija odgovara i ako preuzmeš svoje postavke i favorite, staru besplatnu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare verzije jer ti više neće trebati.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free">Zdravo,
-\n
-\nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako ti nadograđena verzija odgovara i ako preuzmeš tvoje podatke, staru besplatnu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare verzije jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
-\n
-\nHvala!</string>
-    <string name="upgraded_to_pro">Zdravo,
-\n
-\nčini se da već imaš i Pro verziju aplikacije. Ako ti Pro verzija odgovara i ako preuzmeš tvoje podatke, ovu aplikaciju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje te verzije jer ti više neće trebati.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free_calendar">Zdravo,
-\n
-\nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako želiš preuzeti tvoje lokalno spremljene događaje, to moraš učiniti ručno izvozom u .ics datoteku u besplatnoj verziji aplikacije i uvozom ovdje putem gornjeg izbornika.
-\n
-\nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati kako bi se izbjeglo slučajno pokretanje stare besplatne verzije jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free_contacts">Zdravo,
-\n
-\nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Tvoje spremljene kontakte u „%s” moraš preuzeti ručno izvozom u .vcf datoteku u besplatnoj verziji aplikacije i uvozom ovdje putem gornjeg izbornika.
-\n
-\nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
-\n
-\nHvala!</string>
-    <string name="upgraded_from_free_notes">Zdravo,
-\n
-\nčini se da si upravo nadogradio/la besplatnu verziju aplikacije. Ako želiš preuzeti tvoje lokalno spremljene bilješke, to moraš učiniti ručno izvozom u datoteku u besplatnoj verziji aplikacije i uvozom ovdje putem gornjeg izbornika.
-\n
-\nAko ti postava Pro verzije odgovara, staru besplatnu verziju možeš deinstalirati jer ti više neće trebati. Time će se spriječiti prikazivanje ovog dijaloga.
-\n
-\nHvala!</string>
     <string name="about">Informacije</string>
     <string name="website">Web stranica</string>
     <string name="website_label">Za izvorni kod posjeti</string>
     <string name="email_label">Pošalji nam povratne informacije ili prijedloge na</string>
-    <string name="upgrade_to_pro">Nadogradi na Pro verziju</string>
     <string name="invite_friends">Pozovi prijatelje</string>
     <string name="share_text">Hej, posjeti nas na %1$s u %2$s</string>
     <string name="invite_via">Pozovi putem</string>
@@ -870,22 +821,12 @@
     <string name="additional_info">Dodatne informacije</string>
     <string name="app_version">Verzija aplikacije: %s</string>
     <string name="device_os">OS uređaja: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Pozdrav,<br><br>
-            nadam se da uživate u aplikaciji. Ne sadrži reklame, zato nas podržite njen razvoj kupovinom <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> aplikacije, što će spriječiti da se ovaj prozor ponovno pojavljuje.<br><br>
-            Hvala Vam!
-        ]]>
-    </string>
     <string name="purchase">Kupi</string>
     <string name="before_asking_question_read_faq">Prije nego što postaviš pitanje, provjeri postavke aplikacije i najprije pročitaj stranicu „Često postavljena pitanja”. Rješenje možda već postoji.</string>
     <string name="make_sure_latest">Također osiguraj da koristiš najnoviju verziju aplikacije.</string>
-    <string name="make_sure_upgrade">Također imaj na umu da se ova verzija aplikacije više ne razvija. Nabavi Pro verziju za mnoga poboljšanja.</string>
     <string name="read_it">Pročitajte</string>
     <string name="read_faq">Pročitaj ČPP</string>
     <string name="thank_you">Hvala</string>
-    <string name="widget_locked_pro">Widget je zaključan.
-\nZa otključavanje widgeta nadogradi na Pro verziju.</string>
     <string name="new_app">Hej,&lt;br&gt;&lt;br&gt; nedavno su objavljene nove aplikacije:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Možeš ih preuzeti pritiskom na njihove naslove ili ikone.&lt;br&gt;&lt;br&gt; Hvala</string>
     <string name="app_launcher_short">Pokretač aplikacija</string>
     <string name="calculator_short">Kalkulator</string>
@@ -920,8 +861,6 @@
     <string name="faq_6_title_commons">Ikona pokretača aplikacija je nestala. Što mogu učiniti?</string>
     <string name="faq_7_title_commons">Novac je već povučen sa mog računa, ali ne mogu skinuti aplikaciju. Šta da radim\?</string>
     <string name="faq_7_text_commons">Uplatama upravlja Google. Njihov sistem nekada ima problema. Očistite cache vaše Google Play aplikacije i ponovno pokrenite vaš uređaj i pokušajte ponovo.</string>
-    <string name="faq_8_title_commons">Zašto bih trebao kupiti Pro verziju\?</string>
-    <string name="faq_8_text_commons">S obzirom da se vaša verzija aplikacije više ne ažurira, problemi koje pronađete neće biti popravljeni. Također neće biti ni novih funkcionalnosti. Možete kupiti Pro verziju na Google Play-u za simboličnu sumu novca. Jednokratna je uplata, što znači kada je kupite, nikada nećete morati platiti opet. Čak ni nakon mijenjanja uređadaj. Ukoliko Vam se ne sviđa Pro verzija, možete je ukloniti u nekoliko sati nakon kupovine i automatski ćete dobiti novac nazad. Ukoliko želite povrat novca bilo kada kasnije, kontaktirajte nas na hello@fossify.org i dobit ćete ga (na engleskom).</string>
     <string name="faq_9_title_commons">Kako mogu izabrati više stavki\?</string>
     <string name="faq_9_text_commons">Ima više načina za to. Možete započeti izbor dugim pritiskom na jednu stavku, a zatim kratkim pritiskom na ostale stavke. Drugi način je sličan korištenju miša na računaru, započnite na isti način dugim priskom, a zatim nastavite prstom vući preko drugih stavki. Treći način je da se dugim pritiskom izabere jedna stavka, a zatim dugim pritiskom na drugu stavku izabirete sve stavke između njih. Ukoliko želite izabrati sve stavke, izaberite jednu stavku dugim pritiskom, a zatim u gornjem desnom uglu pritinite na broj izabranih stavki. To će izabrati sve stavke ili ih ukloniti sve iz izbora.</string>
     <string name="faq_10_title_commons">Kupio sam aplikaciju, ali je ne mogu skinuti na drugi uređaj.</string>
@@ -975,39 +914,6 @@
     <string name="translation_chinese_hk">Kineski (Hong Kong)</string>
     <string name="translation_chinese_cn">Kineski (pojednostavljeni)</string>
     <string name="translation_chinese_tw">Kineski (tradicionalni)</string>
-    <string name="why_upgrade">Nabavi Pro verziju sada!</string>
-    <string name="why_upgrade_basic_version">Osnovna</string>
-    <string name="why_upgrade_no_ads">Bez oglasa</string>
-    <string name="why_upgrade_no_internet_access">Bez pristupa intrnetu</string>
-    <string name="why_upgrade_footer">Jamstvo za 100 % povrata novca</string>
-    <string name="why_upgrade_footer_one_time_payment">Jednokratno plaćanje</string>
-    <string name="why_upgrade_improved_design">Poboljšan dizajn</string>
-    <string name="why_upgrade_advanced_photo_editor">Napredni uređivač fotografija</string>
-    <string name="why_upgrade_advanced_photo_video_editor">Napredni uređivač fotografija i videa</string>
-    <string name="why_upgrade_heic_support">Podrška za HEIC/HEIF datoteke</string>
-    <string name="why_upgrade_batch_renaming">Napredno grupno preimenovanje datoteka</string>
-    <string name="why_upgrade_folder_locking">Zaključavanje pojedinačnih mapa</string>
-    <string name="why_upgrade_printing_support">Podrška za ispis</string>
-    <string name="why_upgrade_time_zone_support">Podrška za vremenske zone</string>
-    <string name="why_upgrade_attendees_emails">Učesnici i podsjetnici putem e-maila</string>
-    <string name="why_upgrade_easy_event_importing">Jednostavan uvoz događaja</string>
-    <string name="why_upgrade_new_widgets">Novi widgeti</string>
-    <string name="why_upgrade_duplicate_contact_merging">Poboljšano spajanje duplih kontakata</string>
-    <string name="why_upgrade_font_size_customization">Prilagođavanje veličine fonta</string>
-    <string name="why_upgrade_private_contact_sharing">Opcionalno dijeljenje privatnih kontakata unutar naših aplikacija</string>
-    <string name="why_upgrade_customizable_contact_ringtones">Prilagodljive melodije zvona za kontakte</string>
-    <string name="why_upgrade_contact_filtering">Filtriranje kontakata</string>
-    <string name="why_upgrade_contact_private_contacts">Privatno spremljeni kontakti</string>
-    <string name="why_upgrade_checklists">Popisi zadataka</string>
-    <string name="why_upgrade_different_note_per_widget">Različite bilješke i boje po widgetu</string>
-    <string name="why_upgrade_note_locking">Zaključavanje bilješki</string>
-    <string name="why_upgrade_date_and_time_format">Prilagođavanje formata datuma i vremena</string>
-    <string name="why_upgrade_shortcuts">Prečaci za početni ekran</string>
-    <string name="why_upgrade_file_compression">Podrška za komprimiranje datoteka</string>
-    <string name="why_upgrade_recents_tab">Kartica s nedavno korištenim datotekama</string>
-    <string name="why_upgrade_background_color_customization">Prilagođavanje boje pozadine</string>
-    <string name="why_upgrade_file_importing">Podrška za uvoz datoteka</string>
-    <string name="why_upgrade_zooming">Zumiranje</string>
     <string name="third_party_licences">Licence trećih strana</string>
     <string name="kotlin_title">Kotlin (programski jezik)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zumiranje prikaza slika)</string>
@@ -1046,21 +952,14 @@
     <string name="trial_expires_soon">Tvoj probni rok uskoro isteče.</string>
     <string name="unlock_for_one_final_day">Otključaj aplikaciju za još jedan zadnji dan</string>
     <string name="welcome_to_app_name">Pozdrav u %s!</string>
-    <string name="trial_end_description">Nadogradi na Pro verziju za potpuni užitak.
-\n
-\nPlati samo jednom. Ako ti Pro verzija ne odgovara, deinstaliraj je i dobij povrat novca.
-\n
-\nVidimo se tamo :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Tvoj probni period ističe za %d dan.</item>
         <item quantity="few">Tvoj probni period ističe za %d dana.</item>
         <item quantity="other">Tvoj probni period ističe za %d dana.</item>
     </plurals>
-    <string name="deprecated_app">ZASTARJELO: Ova verzija aplikacije se više ne održava. Nabavi Pro verziju na https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Ako deinstaliraš bilo koju plaćenu aplikaciju u roku od 2 sata automatski ćeš dobiti povrat novca. Ako kasnije želiš povrat novca, jednostavno nas kontaktiraj na hello@fossify.org. To olakšava isprobavanje :)</string>
     <string name="developer_description">Skup jednostavnih Android aplikacija otvorenog koda s prilagodljivim widgetima, bez oglasa i nepotrebnih dozvola.</string>
     <string name="filter">Filter</string>
-    <string name="filter_pro">Filter (Pro)</string>
     <string name="root">Početak</string>
     <string name="internal_storage">Interno skladište</string>
 </resources>

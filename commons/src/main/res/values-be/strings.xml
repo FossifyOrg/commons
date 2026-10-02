@@ -87,7 +87,6 @@
     <string name="no_phone_number_found">Нумар тэлефона не знойдзены</string>
     <string name="change_view_type">Выгляд</string>
     <string name="grid">Табліца</string>
-    <string name="grid_pro">Табліца (Pro)</string>
     <string name="uneven_grid">Няроўная сетка</string>
     <string name="list">Спіс</string>
     <string name="increase_column_count">Павялічыць колькасць слупкоў</string>
@@ -143,7 +142,6 @@
     <string name="search_conversations">Пошук размоў</string>
     <string name="search_recordings">Пошук запісаў</string>
     <string name="filter">Фільтр</string>
-    <string name="filter_pro">Фільтр (Pro)</string>
     <string name="no_items_found">Нічога не знойдзена.</string>
     <string name="change_filter">Змяніць фільтр</string>
     <string name="no_storage_permissions">Патрабуецца дазвол на доступ да сховішча</string>
@@ -358,10 +356,8 @@
     <string name="undo">Адрабіць</string>
     <string name="redo">Узнавіць</string>
     <string name="print">Друкаваць</string>
-    <string name="print_pro">Друкаваць (Pro)</string>
     <string name="shortcut">Ярлык</string>
     <string name="create_shortcut">Стварыць ярлык</string>
-    <string name="create_shortcut_pro">Стварыць ярлык (Pro)</string>
     <string name="add_number_to_contact">Дадаць нумар да кантакту</string>
     <string name="view_contact_details">Паказаць звесткі аб кантакце</string>
     <string name="call_from_sim_1">Выклік з SIM 1</string>
@@ -435,7 +431,6 @@
     <string name="protection_setup_successfully">Ўстаноўка пароля прайшла паспяхова. Калі ласка, пераўсталюеце прыкладанне на выпадак, калі вы яго забудзецеся.</string>
     <string name="fingerprint_setup_successfully">Налада абароны выканана паспяхова. Калі ласка, пераўсталюеце праграму ў выпадку ўзнікнення праблем з яго скідам.</string>
     <string name="lock_folder">Заблакіраваць тэчку</string>
-    <string name="lock_folder_pro">Заблакіраваць тэчку (Pro)</string>
     <string name="unlock_folder">Разблакіраваць тэчку</string>
     <string name="lock_folder_notice">Гэтая абарона працуе толькі ў гэтым дадатку, яна не павінна замяняць сапраўднае агульнасістэмнае шыфраванне папак.</string>
     <string name="yesterday">Учора</string>
@@ -639,7 +634,6 @@
     <string name="general_settings">Генерал</string>
     <string name="color_customization">Налады колераў</string>
     <string name="customize_colors">Наладзіць колеры</string>
-    <string name="feature_locked">Заблакавана</string>
     <string name="customize_widget_colors">Наладзіць колеры віджэтаў</string>
     <string name="customize_notifications">Наладзіць апавяшчэнні</string>
     <string name="use_english_language">Выкарыстоўваць англійскую мову</string>
@@ -795,51 +789,14 @@
     <string name="friday_short">Пят</string>
     <string name="saturday_short">Суб</string>
     <string name="sunday_short">Няд</string>
-    <string name="upgrade_to_pro_long">Версія вашага прыкладання больш не будзе абнаўляцца. Калі ласка, абнавіць да версіі Pro, каб атрымаць новыя выпраўлення і іншыя паляпшэння.</string>
-    <string name="upgrade_to_pro_long_click">Версія вашага прыкладання больш не будзе абнаўляцца. Калі ласка, абнавіць да версіі Pro, каб атрымаць новыя выпраўлення і іншыя паляпшэння, націснуўшы тут.</string>
     <string name="it_is_free">Гэта бясплатна да %s. Калі вы спампуеце яго да таго часу, вы зможаце выкарыстоўваць яго бясплатна назаўжды.</string>
     <string name="more_info">Дадатковая інфармацыя</string>
     <string name="upgrade">Абнаўленне</string>
     <string name="upgrade_calendar">Вы павінны перанесці лакальна захаваныя падзеі ўручную шляхам экспарту ў файл .ics, а затым імпарту. Вы можаце знайсці абедзве кнопкі экспарту/імпарту ў галоўным меню экрана.</string>
-    <string name="upgraded_from_free_gallery">Добры дзень,
-\n
-\nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі вы задаволены гэтым і, магчыма, перанясеце свае налады і абранае, вы можаце выдаліць старую бясплатную праграму, каб пазбегнуць яе выпадковага запуску, бо яна вам больш не спатрэбіцца, гэта таксама прадухіліць з\'яўленне гэтага дыялогу.
-\n
-\nДзякуй!</string>
-    <string name="upgraded_to_pro_gallery">Добры дзень,
-\n
-\nздаецца, у вас ужо ёсць версія праграмы Pro. Калі вы задаволены ім і, магчыма, перанясеце свае налады і абранае, вы можаце выдаліць яго, каб пазбегнуць яго выпадковага запуску, бо ён вам больш не спатрэбіцца.
-\n
-\nДзякуй!</string>
-    <string name="upgraded_from_free">Добры дзень,
-\n
-\nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі вы будзеце задаволены гэтым і, магчыма, перанясеце свае даныя, вы можаце выдаліць старую бясплатную праграму, каб пазбегнуць яе выпадковага запуску, бо яна вам больш не спатрэбіцца, гэта таксама прадухіліць з\'яўленне гэтага дыялогу.
-\n
-\nДзякуй!</string>
-    <string name="upgraded_to_pro">Добры дзень,
-\n
-\nздаецца, у вас ужо ёсць версія праграмы Pro. Калі вы задаволеныя ім і, магчыма, перанеслі свае даныя, вы можаце выдаліць яго, каб пазбегнуць выпадковага запуску, бо ён вам больш не спатрэбіцца.
-\n
-\nДзякуй!</string>
-    <string name="upgraded_from_free_calendar">Добры дзень,
-\n
-\nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі вы хочаце перанесці свае лакальна захаваныя падзеі, вам трэба зрабіць гэта ўручную, экспартаваўшы іх у файл .ics у бясплатнай версіі праграмы і імпартаваўшы сюды праз верхняе меню.
-\n
-\nКалі вы будзеце задаволены сваімі наладамі ў версіі Pro, вы можаце выдаліць старую бясплатную версію, бо яна вам больш не спатрэбіцца, гэта таксама прадухіліць з\'яўленне гэтага дыялогу.
-\n
-\nДзякуй!</string>
-    <string name="upgraded_from_free_contacts">Добры дзень,
-\n
-\nздаецца, вы толькі што перайшлі з бясплатнай версіі. Калі ў вас былі якія-небудзь кантакты, захаваныя ў \"%s\", вы павінны перанесці іх уручную, экспартаваўшы ў файл .vcf з бясплатнай версіі праграмы і імпартаваўшы сюды праз верхняе меню.
-\n
-\nКалі вы будзеце задаволены сваімі наладамі ў версіі Pro, вы можаце выдаліць старую бясплатную версію, бо яна вам больш не спатрэбіцца.
-\n
-\nДзякуй!</string>
     <string name="about">Аб</string>
     <string name="website">Сайт</string>
     <string name="website_label">Для атрымання зыходных кодаў наведайце</string>
     <string name="email_label">Дасылайце свае водгукі або прапановы на</string>
-    <string name="upgrade_to_pro">Абнаўленне да Pro</string>
     <string name="invite_friends">Запрашайце сяброў</string>
     <string name="share_text">Гэй, выпісвайся %1$s у%2$s</string>
     <string name="invite_via">Запрасіць праз</string>
@@ -861,11 +818,9 @@
     <string name="purchase">Купіць</string>
     <string name="before_asking_question_read_faq">Перш чым задаць пытанне, праверце налады праграмы і спачатку прачытайце раздзел \"Часта задаюць пытанні\". Магчыма, рашэнне ёсць.</string>
     <string name="make_sure_latest">Таксама пераканайцеся, што вы выкарыстоўваеце апошнюю версію праграмы.</string>
-    <string name="make_sure_upgrade">Таксама звярніце ўвагу, што гэтая версія праграмы больш не распрацоўваецца, купіце версію Pro для многіх паляпшэнняў.</string>
     <string name="read_it">Прачытаць</string>
     <string name="read_faq">Прачытаць FAQ</string>
     <string name="thank_you">Дзякуй</string>
-    <string name="widget_locked_pro">Віджэт заблакіраваны.\nАбнавіце яго да версіі Pro, каб разблакіраваць яго.</string>
     <string name="new_app">Гэй,&lt;br&gt;&lt;br&gt;проста паведамляю вам, што нядаўна былі выпушчаны некаторыя новыя праграмы:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Вы можаце загрузіць іх, націснуўшы іх загалоўкі або значкі.&lt;br&gt;&lt;br&gt; дзякуй</string>
     <string name="app_launcher_short">Працоўны стол</string>
     <string name="calculator_short">Калькулятар</string>
@@ -901,8 +856,6 @@
     <string name="faq_6_title_commons">Значок запуску прыкладання знік. Што я магу зрабіць\?</string>
     <string name="faq_7_title_commons">Грошы былі зняты з майго банкаўскага рахунку, але я не магу спампаваць праграму. Што я магу зрабіць\?</string>
     <string name="faq_7_text_commons">Плацяжы цалкам апрацоўваюцца Google, у іх сістэме час ад часу даюцца збоі. Проста ачысціце кэш праграмы Google Play і перазапусціце прыладу, а затым паўтарыце спробу загрузкі.</string>
-    <string name="faq_8_title_commons">Чаму я павінен перайсці на версію Pro\?</string>
-    <string name="faq_8_text_commons">Паколькі версія вашага прыкладання больш не абнаўляецца, памылкі, якія вы, магчыма, заўважылі, ніколі не будуць выпраўленыя. Таксама не будзе дададзена ніякіх новых функцый. Вы можаце набыць Pro-версію ў Google Play за невялікую суму грошай. Гэта аднаразовы плацёж, а гэта значыць, што як толькі вы яго купіце, вам больш ніколі не прыйдзецца плаціць. Нават пасля атрымання новага прылады. Калі вам не падабаецца Pro-версія, вы можаце проста выдаліць яе на працягу некалькіх гадзін, і вы аўтаматычна атрымаеце свае грошы назад. Калі вы хочаце вярнуць грошы ў любы час пазней, проста звяжыцеся з намі па адрасе hello@fossify.org і вы гэта атрымаеце.</string>
     <string name="faq_9_title_commons">Як я магу выбраць некалькі элементаў адначасова\?</string>
     <string name="faq_9_text_commons">Ёсць некалькі спосабаў зрабіць гэта. Першы з іх заключаецца ў запуску рэжыму выбару шляхам працяглага націску на адзін элемент, а затым кароткага націску на іншыя, каб выбраць іх. Другі спосаб аналагічны выбару элементаў на ПК з дапамогай мышы, проста запусціце рэжым выбару, доўга націскаючы на адзін элемент, затым, усё яшчэ утрымліваючы палец націснутым, правядзіце ім па іншых элементах для выбару. Трэці спосаб выбару некалькіх элементаў-доўгі націск на адзін элемент, затым доўгі націск на іншы, і выбіраецца ўсё, што знаходзіцца паміж імі. Калі вы хочаце выбраць усе тавары, проста доўга націсніце на адзін тавар, а затым пстрыкніце на лічыльніку выбраных тавараў у левым верхнім куце. Гэта дазволіць выбраць або адмяніць выбар усяго.</string>
     <string name="faq_10_title_commons">Я набыў праграму, але не магу загрузіць яе на іншую прыладу.</string>
@@ -911,36 +864,6 @@
     <string name="translation">Пераклад</string>
     <string name="development">Распрацоўка</string>
     <string name="other_help">Іншая дапамога</string>
-    <string name="why_upgrade">Атрымайце версію Pro зараз!</string>
-    <string name="why_upgrade_basic_version">Базавы</string>
-    <string name="why_upgrade_no_ads">Без рэкламы</string>
-    <string name="why_upgrade_no_internet_access">Няма доступу ў інтэрнэт</string>
-    <string name="why_upgrade_footer">100% Гарантыя Вяртання Грошай</string>
-    <string name="why_upgrade_footer_one_time_payment">Аднаразовая аплата</string>
-    <string name="why_upgrade_improved_design">Палепшаны дызайн</string>
-    <string name="why_upgrade_advanced_photo_editor">Пашыраны рэдактар фатаграфій</string>
-    <string name="why_upgrade_heic_support">Падтрымка файлаў HEIC/HEIF</string>
-    <string name="why_upgrade_batch_renaming">Пашыранае перайменаванне пакетнага файла</string>
-    <string name="why_upgrade_folder_locking">Індывідуальнае блакаванне папак</string>
-    <string name="why_upgrade_printing_support">Падтрымка друку</string>
-    <string name="why_upgrade_time_zone_support">Падтрымка гадзінных паясоў</string>
-    <string name="why_upgrade_attendees_emails">Удзельнікі і напаміны па электроннай пошце</string>
-    <string name="why_upgrade_easy_event_importing">Лёгкі імпарт падзей</string>
-    <string name="why_upgrade_new_widgets">Новыя віджэты</string>
-    <string name="why_upgrade_duplicate_contact_merging">Палепшана аб\'яднанне дублікатаў кантактаў</string>
-    <string name="why_upgrade_font_size_customization">Настройка памеру шрыфта</string>
-    <string name="why_upgrade_private_contact_sharing">Неабавязковы прыватны абмен кантактамі ў нашых праграмах</string>
-    <string name="why_upgrade_customizable_contact_ringtones">Наладжвальныя рынгтоны для кантактаў</string>
-    <string name="why_upgrade_contact_filtering">Фільтраванне кантактаў</string>
-    <string name="why_upgrade_contact_private_contacts">Кантакты, якія захоўваюцца ў прыватным парадку</string>
-    <string name="why_upgrade_checklists">Кантрольныя спісы</string>
-    <string name="why_upgrade_different_note_per_widget">Розныя нататкі і колеры для кожнага віджэта</string>
-    <string name="why_upgrade_note_locking">Блакаванне нататак</string>
-    <string name="why_upgrade_date_and_time_format">Настройка фармату даты і часу</string>
-    <string name="why_upgrade_shortcuts">Ярлыкі на галоўным экране</string>
-    <string name="why_upgrade_recents_tab">Укладка з апошнімі файламі</string>
-    <string name="why_upgrade_background_color_customization">Настройка колеру фону</string>
-    <string name="why_upgrade_file_importing">Падтрымка імпарту файлаў</string>
     <string name="third_party_licences">Ліцэнзіі трэціх асоб</string>
     <string name="kotlin_title">Kotlin (мова праграмавання)</string>
     <string name="subsampling_title">Шкала падвыбаркі. Прагляд выявы (прагляды малюнкаў з магчымасцю маштабавання)</string>
@@ -974,7 +897,6 @@
     <string name="pdf_viewer_title">Android PdfViewer (Прагляд PDF)</string>
     <string name="m3u_parser_title">M3U Parser (апрацоўка файла спісу прайгравання m3u)</string>
     <string name="android_lame_title">AndroidLame (кадавальнік mp3)</string>
-    <string name="deprecated_app">САСТАРЕЛА: гэтая версія праграмы больш не падтрымліваецца, атрымайце версію Pro па адрасе https://play.google.com/store/apps/details\?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Не забывайце, што калі вы выдаліце любую платную праграму на працягу 2 гадзін, вам аўтаматычна вернуць грошы. Калі вы хочаце вярнуць грошы ў любы час пазней, проста звяжыцеся з намі па адрасе hello@fossify.org, і вы атрымаеце іх. Гэта дазваляе лёгка паспрабаваць :)</string>
     <string name="developer_description">Група простых праграм для Android з адкрытым зыходным кодам і віджэтамі, якія можна наладзіць, без рэкламы і непатрэбных дазволаў.</string>
     <string name="app_icon_color_warning">Увага: екаторыя лаўнчаоы могуць не каррэктна адлюстроўваць іконку праграмы. Калі іконка знікае, паспрабуйце запусціць праграму праз Google Play ці віджэт, калі гэта магчыма. Пасля запуску, аднавіце стандартную зялёную іконку #106D1F. Калі гэта не дапамагло, пераўстанавіце праграму.</string>

@@ -86,7 +86,6 @@
     <string name="no_phone_number_found">Nenašlo sa žiadne telefónne číslo</string>
     <string name="change_view_type">Zmeniť typ zobrazenia</string>
     <string name="grid">Mriežka</string>
-    <string name="grid_pro">Mriežka (Pro)</string>
     <string name="uneven_grid">Nerovnomerná mriežka</string>
     <string name="list">Zoznam</string>
     <string name="increase_column_count">Zvýšiť počet stĺpcov</string>
@@ -156,7 +155,6 @@
     <string name="search_conversations">Vyhľadať konverzácie</string>
     <string name="search_recordings">Vyhľadať nahrávky</string>
     <string name="filter">Filtrovať</string>
-    <string name="filter_pro">Filtrovať (Pro)</string>
     <string name="no_items_found">Nenašli sa žiadne položky.</string>
     <string name="change_filter">Upraviť filter</string>
     <string name="no_storage_permissions">Je potrebné povolenie pre prístup k súborom</string>
@@ -372,10 +370,8 @@
     <string name="undo">Späť</string>
     <string name="redo">Obnoviť</string>
     <string name="print">Tlačiť</string>
-    <string name="print_pro">Tlačiť (Pro)</string>
     <string name="shortcut">Skratka</string>
     <string name="create_shortcut">Vytvoriť skratku</string>
-    <string name="create_shortcut_pro">Vytvoriť skratku (Pro)</string>
     <string name="add_number_to_contact">Priradiť číslo kontaktu</string>
     <string name="view_contact_details">Zobraziť detaily kontaktu</string>
     <string name="call_from_sim_1">Zavolať zo SIM 1</string>
@@ -458,7 +454,6 @@
     <string name="protection_setup_successfully">Heslo bolo úspešne nastavené. Ak ho zabudnete, prosím preinštalujte aplikáciu.</string>
     <string name="fingerprint_setup_successfully">Ochrana bola úspešne nastavená. Prosím preinštalujte aplikáciu v prípade problémov s jej zmenou.</string>
     <string name="lock_folder">Uzamknúť priečinok</string>
-    <string name="lock_folder_pro">Uzamknúť priečinok (Pro)</string>
     <string name="unlock_folder">Odomknúť priečinok</string>
     <string name="lock_folder_notice">Táto ochrana funguje iba v tejto aplikácii, nemá za cieľ nahradiť šifrovanie fungujúce po celom systéme.</string>
     <string name="enter_password">Zadajte heslo</string>
@@ -637,7 +632,6 @@
     <string name="general_settings">Všeobecné</string>
     <string name="color_customization">Úprava farieb</string>
     <string name="customize_colors">Upraviť farby</string>
-    <string name="feature_locked">Uzamknuté</string>
     <string name="customize_widget_colors">Upraviť farby widgetov</string>
     <string name="customize_notifications">Upraviť pripomienky</string>
     <string name="notification_sound">Zvuk upozornenia</string>
@@ -786,24 +780,14 @@
     <string name="friday_short">Pi</string>
     <string name="saturday_short">So</string>
     <string name="sunday_short">Ne</string>
-    <string name="upgrade_to_pro_long">Vaša verzia aplikácie už nebude dostávať aktualizácie. Pre nové opravy a iné vylepšenia si prosím stiahnite Pro verziu.</string>
-    <string name="upgrade_to_pro_long_click">Vaša verzia aplikácie už nebude dostávať aktualizácie. Pre nové opravy a iné vylepšenia si prosím stiahnite Pro verziu kliknutím sem.</string>
     <string name="it_is_free">Je do bezplatné do: %s. Ak ju dovtedy stiahnete, budete ju môcť zadarmo navždy používať.</string>
     <string name="more_info">Viac info</string>
     <string name="upgrade">Stiahnuť</string>
     <string name="upgrade_calendar">Lokálne uložené udalosti musíte exportovať manuálne do .ics súboru, následne importovať. Tlačidlá pre exportovanie/importovanie nájdete v menu hlavnej obrazovky.</string>
-    <string name="upgraded_from_free_gallery">Zdravím,\n\nvyzerá to tak, že ste sem práve prešli z bezplatnej verzie apky. Ak ste s touto apkou spokojný a možno aj premigrovali obľúbené položky a nastavenia, môžete bezplatnú apku odinštalovať, aby ste ju nespúšťali náhodou. Nebudete ju už potrebovať. Zastaví to aj vyskakovanie tohto okna.\n\nVďaka!</string>
-    <string name="upgraded_to_pro_gallery">Zdravím,\n\nvyzerá to tak, že už máte nainštalovanú aj Pro verziu apky. Ak ste s ňou spokojný a možno aj premigrovali obľúbené položky a nastavenia, túto verziu už nebudete potrebovať a môžete ju odinštalovať, aby ste ju nespúšťali náhodou.\n\nVďaka!</string>
-    <string name="upgraded_from_free">Zdravím,\n\nvyzerá to tak, že ste sem práve prešli z bezplatnej verzie apky. Ak ste s touto apkou spokojný a možno aj premigrovali nejaké dáta, môžete bezplatnú apku odinštalovať, aby ste ju nespúšťali náhodou. Nebudete ju už potrebovať. Zastaví to aj vyskakovanie tohto okna.\n\nVďaka!</string>
-    <string name="upgraded_to_pro">Zdravím,\n\nvyzerá to tak, že už máte nainštalovanú aj Pro verziu apky. Ak ste s ňou spokojný a možno aj premigrovali nejaké dáta, túto verziu už nebudete potrebovať a môžete ju odinštalovať, aby ste ju nespúšťali náhodou.\n\nVďaka!</string>
-    <string name="upgraded_from_free_calendar">Zdravím,\n\nvyzerá to tak, že ste prišiel zo starej, bezplatnej apky. Ak si chcete premigrovať lokálne uložené udalosti, musíte to spraviť ručne exportovaním do .ics súboru v starej apke a následným importovaním do tejto cez horné menu.\n\nAk ste spokojný so všetkým v Pro verzii, môžete odinštalovať starú, keďže ju už potrebovať nebudete. Zastaví to aj vyskakovanie tohto okna.\n\nVďaka!</string>
-    <string name="upgraded_from_free_contacts">Zdravím,\n\nvyzerá to tak, že ste prišiel zo starej, bezplatnej apky. Ak ste mali niektoré kontakty uložené v \"%s\", musíte ich premigrovať ručne exportovaním do .vcf súboru v starej apke a následným importovaním do tejto cez horné menu.\n\nAk ste spokojný so všetkým v Pro verzii, môžete odinštalovať starú, keďže ju už potrebovať nebudete. Zastaví to aj vyskakovanie tohto okna.\n\nVďaka!</string>
-    <string name="upgraded_from_free_notes">Zdravím,\n\nvyzerá to tak, že ste prišiel zo starej, bezplatnej apky. Ak chcete premigrovať vaše poznámky, musíte to spraviť ručne exportovaním do súboru v starej apke a následným importovaním do tejto cez horné menu.\n\nAk ste spokojný so všetkým v Pro verzii, môžete odinštalovať starú, keďže ju už potrebovať nebudete. Zastaví to aj vyskakovanie tohto okna.\n\nVďaka!</string>
     <string name="about">O aplikácií</string>
     <string name="website">Webstránka</string>
     <string name="website_label">Pre zdrojové kódy navštívte</string>
     <string name="email_label">Odozvu a návrhy posielajte na</string>
-    <string name="upgrade_to_pro">Stiahnuť Pro verziu</string>
     <string name="invite_friends">Pozvať priateľov</string>
     <string name="share_text">Ahoj, skús %1$s na %2$s</string>
     <string name="invite_via">Pozvať cez</string>
@@ -820,21 +804,12 @@
     <string name="additional_info">Dodatočné informácie</string>
     <string name="app_version">Verzia aplikácie: %s</string>
     <string name="device_os">Operačný systém zariadenia: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Zdravím,<br><br>
-            dúfam, že sa vám moja apka páči. Neobsahuje žiadne reklamy, podporte prosím jej vývoj zakúpením aplikácie <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Jednoduché ďakujem</a>. Zaručí to aj to, že tento dialóg už neuvidíte.<br><br>
-            Ďakujem!
-        ]]>
-    </string>
     <string name="purchase">Zakúpiť</string>
     <string name="before_asking_question_read_faq">Predtým, ako sa niečo opýtate, si prosím prejdite nastavenia aplikácie a prečítajte Často Kladené Otázky. Možno v nich nájdete svoju odpoveď.</string>
     <string name="make_sure_latest">Taktiež sa uistite, že používate najnovšiu verziu apky.</string>
-    <string name="make_sure_upgrade">Taktiež vám dávame na vedomie, že táto verzia apky už nie je vyvíjaná. Pre množstvo vylepšení prejdite na Pro verziu.</string>
     <string name="read_it">Prečítať</string>
     <string name="read_faq">Prečítať FAQ</string>
     <string name="thank_you">Ďakujeme</string>
-    <string name="widget_locked_pro">Widget je uzamknutý.\nNa odomknutie prosím prejdite na Pro verziu.</string>
     <string name="new_app">
         <![CDATA[
             Zdravím,<br><br>
@@ -890,10 +865,6 @@
     <string name="faq_6_title_commons">Spúšťacia ikonka apky zmizla. Čo mám spraviť?</string>
     <string name="faq_7_title_commons">Peniaze som mal stiahnuté z účtu, ale neviem stiahnuť aplikáciu. Čo s tým?</string>
     <string name="faq_7_text_commons">Platby sú plne spravované Googlom, ich systém z času na čas nefunguje. Skúste vymazať cache apky Google Play, reštartujte zariadenie a skúste apku opäť stiahnuť.</string>
-    <string name="faq_8_title_commons">Prečo by som si mal stiahnuť Pro verziu?</string>
-    <string name="faq_8_text_commons">Keďže táto verzia aplikácie už nebude aktualizovaná, chyby, ktoré ste možno našli, nebudú nikdy opravené. Taktiež už nepribudnú žiadne nové funkcie. Pro verziu si viete kúpiť lacno na Google Play.
-        Ide o jednorázovú platbu, čo znamená, že ak ju raz zaplatíte, už nikdy nebudete musieť platiť nič. Ani vtedy, ak si kúpite nové zariadenie. Ak sa vám Pro verzia nebude páčiť, môžete ju do pár hodín odinštalovať a peniaze vám budú automaticky vrátené.
-        Ak budete chcieť vrátiť apku kedykoľvek neskôr, stačí, ak nám napíšete na hello@fossify.org a peniaze vám vrátime.</string>
     <string name="faq_9_title_commons">Akým spôsobom viem naraz označiť viacero položiek?</string>
     <string name="faq_9_text_commons">Existuje viacero spôsobov. Prvým je aktivovanie označovacieho módu dlhým podržaním jednej položky, následne viete označiť ďalšie krátkymi ťuknutiami. Druhý spôsob je podobný označovaniu položiek myšou na PC. Dlhým podržaním označte jednu položku a bez dvihnutia prsta
         ho potiahnite cez ďalšie položky, to ich označí. Tretím spôsobom je dlhé podržanie jednej položky, následne dlhé podržanie inej položky. Označí to všetko medzi týmito 2 položkami. Ak chcete označiť všetko, aktivujte označovací mód dlhým podržaním jednej položky,
@@ -956,40 +927,6 @@
     <string name="translation_chinese_hk">Čínština (Hong Kong)</string>
     <string name="translation_chinese_cn">Čínština (zjednodušená)</string>
     <string name="translation_chinese_tw">Čínština (tradičná)</string>
-    <string name="why_upgrade">Prejdite na Pro verziu teraz!</string>
-    <string name="why_upgrade_basic_version">Základná</string>
-    <string name="why_upgrade_no_ads">Žiadne reklamy</string>
-    <string name="why_upgrade_no_internet_access">Žiadny prístup na internet</string>
-    <string name="why_upgrade_footer">100% Garancia vrátenia peňazí</string>
-    <string name="why_upgrade_footer_one_time_payment">Jednorázová platba</string>
-    <string name="why_upgrade_improved_design">Vylepšený dizajn</string>
-    <string name="why_upgrade_many_other_improvements">Veľa ďalších vylepšení</string>
-    <string name="why_upgrade_advanced_photo_editor">Pokročilý editor fotiek</string>
-    <string name="why_upgrade_advanced_photo_video_editor">Pokročilý editor fotiek a videí</string>
-    <string name="why_upgrade_heic_support">Podpora pre súbory HEIC/HEIF</string>
-    <string name="why_upgrade_batch_renaming">Pokročilé skupinové premenovávanie súborov</string>
-    <string name="why_upgrade_folder_locking">Uzamykanie jednotlivých priečinkov</string>
-    <string name="why_upgrade_printing_support">Podpora tlače</string>
-    <string name="why_upgrade_time_zone_support">Podpora časových pásiem</string>
-    <string name="why_upgrade_attendees_emails">Účastníci a emailové pripomienky</string>
-    <string name="why_upgrade_easy_event_importing">Jednoduché importovanie udalostí</string>
-    <string name="why_upgrade_new_widgets">Nové widgety</string>
-    <string name="why_upgrade_duplicate_contact_merging">Pokročilé spájanie duplicitných kontaktov</string>
-    <string name="why_upgrade_font_size_customization">Nastaviteľná veľkosť písma</string>
-    <string name="why_upgrade_private_contact_sharing">Voliteľné zdieľanie súkromných kontaktov vrámci našich apiek</string>
-    <string name="why_upgrade_customizable_contact_ringtones">Vlastné zvonenie kontaktov</string>
-    <string name="why_upgrade_contact_filtering">Filtrovanie kontaktov</string>
-    <string name="why_upgrade_contact_private_contacts">Súkromne uložené kontakty</string>
-    <string name="why_upgrade_checklists">Zoznamy položiek</string>
-    <string name="why_upgrade_different_note_per_widget">Iná poznámka a farby na každom widgete</string>
-    <string name="why_upgrade_note_locking">Uzamykanie poznámok</string>
-    <string name="why_upgrade_date_and_time_format">Nastaviteľný formát dátumu a času</string>
-    <string name="why_upgrade_shortcuts">Skratky na domovskú stránku</string>
-    <string name="why_upgrade_file_compression">Kompresia súborov</string>
-    <string name="why_upgrade_recents_tab">Karta s najnovšími súbormi</string>
-    <string name="why_upgrade_background_color_customization">Meniteľná farba pozadia</string>
-    <string name="why_upgrade_file_importing">Podpora importovania súborov</string>
-    <string name="why_upgrade_zooming">Zoomovanie</string>
     <string name="third_party_licences">Knižnice tretích strán</string>
     <string name="kotlin_title">Kotlin (programovací jazyk)</string>
     <string name="subsampling_title">Subsampling Scale Image View (priblížiteľné obrázky)</string>
@@ -1028,15 +965,11 @@
     <string name="trial_expires_soon">Vaša skúšobná doba čoskoro vyprší.</string>
     <string name="unlock_for_one_final_day">Odomknúť apku na 1 posledný deň</string>
     <string name="welcome_to_app_name">Vitajte v %s!</string>
-    <string name="trial_start_description">Ďakujeme za používanie našej apky. Túto odomknutú verziu môžete používať po dobu &lt;font color=\'#FFFFFF\'&gt;%d dní&lt;/font&gt;. Keď skúšobná doba skončí, zvážte prosím prechod na Pro verziu. Má veľké množstvo nových funkcií, moderný dizajn, žiadne reklamy a mnoho ďalších vylepšení.
-        \n\nPlatiť za ňu treba iba raz za život a ak nebudete spokojný, môžete ju odinštalovať a peniaze vám budú vrátené.\n\nDúfame, že sa vám bude páčiť :)</string>
-    <string name="trial_end_description">Prosím prejdite na Pro verziu, aby ste si apku mohli užívať naplno.\n\nPlatiť za ňu treba iba raz za život a ak nebudete spokojný, môžete ju odinštalovať a peniaze vám budú vrátené.\n\nStretneme sa tam :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Vaša skúšobná doba uplynie o %d deň.</item>
         <item quantity="few">Vaša skúšobná doba uplynie o %d dni.</item>
         <item quantity="other">Vaša skúšobná doba uplynie o %d dní.</item>
     </plurals>
-    <string name="deprecated_app">ZASTARALÁ: Táto verzia aplikácie už nie je podporovaná. Stiahnite si Pro verziu na https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Nezabudnite, že ak odinštalujete platenú verziu do 2 hodín, peniaze vám budú automaticky vrátené. Ak ich budete chcieť späť hocikedy neskôr, len nám dajte vedieť na hello@fossify.org. To vám zabezpečí jednoduchý spôsob na ich vyskúšanie :)</string>
     <string name="developer_description">Skupina jednoduchých, open source Android apiek s nastaviteľnými widgetmi, bez reklám a nepotrebných oprávnení.</string>
     <string name="ok">OK</string>
@@ -1051,7 +984,6 @@
     <string name="exif">EXIF</string>
     <string name="apply_to_all_apps">Použiť tieto farby na všetky aplikácie Fossify</string>
     <string name="app_icon_color_warning">Upozornenie: V niektorých spúšťačoch môže prispôsobenie ikony spôsobiť problémy. Ak by ikona zmizla, skúste spustiť aplikáciu cez Google Play alebo widget, ak je to možné. Po spustení znovu obnovte pôvodnú zelenú farbu ikony #106D1F. V extrémnych prípadoch môže byť potrebné aplikáciu odinštalovať a znovu nainštalovať.</string>
-    <string name="shared_theme_note">Upozornenie: Napriek tomu, že používate Pro verziu aplikácie, potrebujete aplikáciu Fossify Thank You (Ďakujem) z technických dôvodov. Táto aplikácia sa stará o synchronizáciu farieb.</string>
     <string name="number_of_items">Počet položiek</string>
     <string name="reorder_items_by_dragging">Poradie položiek zmeníte potiahnutím</string>
     <string name="pin">PIN</string>
@@ -1082,10 +1014,8 @@
     <string name="more_fossify_apps">Ďalšie aplikácie Fossify</string>
     <string name="rate_this_app">Ohodnoťte túto aplikáciu</string>
     <string name="copyright">v %1$s\nCopyright © Fossify %2$d</string>
-    <string name="donate_new">Dobrý deň,&lt;br&gt;&lt;br&gt;dúfame, že sa Vám páči táto aplikácia. Neobsahuje žiadne reklamy a nezbiera žiadne Vaše údaje, prosím podporte jej vývoj zakúpením &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Ďakujem&lt;/a&gt;. Odomknete tým všetky funkcie aplikácie vrátane prispôsobenia farieb.&lt;br&gt;&lt;br&gt;Ďakujeme!</string>
     <string name="donate_short">Prosím, podporte nás zakúpením &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You (Ďakujem)&lt;/a&gt;. Odomknú sa vám taktiež všetky funkcie aplikácií vrátane úpravy farieb.</string>
     <string name="update_thank_you">Prosím aktualizujte Fossify Ďakujem na najnovšiu verziu</string>
-    <string name="features_locked">Táto funkcia je zamknutá, prosím, zakúpte si &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You (Ďakujem)&lt;/a&gt; pre odomknutie všetkých funkcií aplikácie.&lt;br&gt;&lt;br&gt;Je to jednorazová kúpa; ak nebudete spokojní, vieme vám vrátiť peniaze.</string>
     <string name="all_fossify_apps">Všetky Fossify aplikácie</string>
     <string name="donate_to_fossify">Prispieť projektu Fossify</string>
     <string name="platforms">Platformy</string>
@@ -1099,7 +1029,6 @@
     <string name="translation_esperanto">Esperanto</string>
     <string name="translation_gujarati">Gudžarátčina</string>
     <string name="translation_kabyle">Kabylčina</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="otto_title">Otto (zbernica udalostí)</string>
     <string name="evalex_title">EvalEx (vyhodnotenie matematického výrazu)</string>
     <string name="edit_contact">Upraviť kontakt</string>

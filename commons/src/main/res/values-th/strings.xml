@@ -101,7 +101,6 @@
     <string name="no_phone_number_found">ไม่พบหมายเลขโทรศัพท์</string>
     <string name="change_view_type">เปลี่ยนรูปแบบมุมมอง</string>
     <string name="grid">ตาราง</string>
-    <string name="grid_pro">ตาราง (Pro)</string>
     <string name="uneven_grid">ตารางไม่สม่ำเสมอ</string>
     <string name="list">รายการ</string>
     <string name="increase_column_count">เพิ่มจำนวนคอลัมน์</string>
@@ -164,7 +163,6 @@
     <string name="search_conversations">ค้นหาการสนทนา</string>
     <string name="search_recordings">ค้นหาการบันทึก</string>
     <string name="filter">กรอง</string>
-    <string name="filter_pro">กรอง (Pro)</string>
     <string name="no_items_found">ไม่พบรายการ</string>
     <string name="change_filter">เปลี่ยนตัวกรอง</string>
     <string name="no_storage_permissions">ต้องการสิทธิ์เข้าถึงพื้นที่เก็บข้อมูล</string>
@@ -342,7 +340,6 @@
     <string name="apply_to_all_apps">ใช้ธีมกับแอป Fossify ทั้งหมด</string>
     <string name="app_icon_color_warning">ข้อควรระวัง: Launcher บางตัวอาจจัดการการปรับแต่งไอคอนแอปได้ไม่ถูกต้อง หากไอคอนหายไป ให้ลองเปิดแอปผ่าน Google Play หรือวิดเจ็ตหากใช้งานได้ หลังจากเปิดแล้ว ให้คืนค่าสีไอคอนสีเขียวเริ่มต้น #106D1F ในกรณีร้ายแรง อาจต้องติดตั้งแอปใหม่</string>
     <string name="global_theme_success">ธีมปัจจุบันถูกนำไปใช้กับแอป Fossify ทั้งหมดเรียบร้อยแล้ว การเปลี่ยนแปลงธีมในอนาคตจะซิงค์โดยอัตโนมัติ</string>
-    <string name="shared_theme_note">โปรดทราบว่าแม้คุณจะใช้แอปเวอร์ชัน Pro คุณยังต้องใช้ Fossify Thank You ด้วยเหตุผลทางเทคนิค โดยทำหน้าที่ซิงค์สี</string>
     <string name="purchase_thank_you"><![CDATA[
             กรุณาซื้อ <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> เพื่อใช้ฟีเจอร์นี้และสนับสนุนการพัฒนา ขอบคุณ!
         ]]></string>
@@ -379,10 +376,8 @@
     <string name="undo">เลิกทำ</string>
     <string name="redo">ทำซ้ำ</string>
     <string name="print">พิมพ์</string>
-    <string name="print_pro">พิมพ์ (Pro)</string>
     <string name="shortcut">ทางลัด</string>
     <string name="create_shortcut">สร้างทางลัด</string>
-    <string name="create_shortcut_pro">สร้างทางลัด (Pro)</string>
     <string name="view_contact_details">ดูรายละเอียดรายชื่อ</string>
     <string name="call_from_sim_1">โทรจาก SIM 1</string>
     <string name="call_from_sim_2">โทรจาก SIM 2</string>
@@ -464,7 +459,6 @@
     <string name="protection_setup_successfully">ตั้งรหัสผ่านเรียบร้อยแล้ว กรุณาติดตั้งแอปใหม่หากลืมรหัสผ่าน</string>
     <string name="fingerprint_setup_successfully">ตั้งค่าการป้องกันเรียบร้อยแล้ว กรุณาติดตั้งแอปใหม่หากมีปัญหาในการรีเซ็ต</string>
     <string name="lock_folder">ล็อกโฟลเดอร์</string>
-    <string name="lock_folder_pro">ล็อกโฟลเดอร์ (Pro)</string>
     <string name="unlock_folder">ปลดล็อกโฟลเดอร์</string>
     <string name="lock_folder_notice">การป้องกันนี้ใช้งานได้ในแอปนี้เท่านั้น ไม่ได้ทดแทนการเข้ารหัสโฟลเดอร์ระดับระบบ</string>
     <string name="enter_password">ใส่รหัสผ่าน</string>
@@ -596,7 +590,6 @@
     <string name="color_customization">รูปลักษณ์</string>
     <string name="customize_colors">ปรับแต่งรูปลักษณ์</string>
     <string name="theme_and_colors">ธีมและสี</string>
-    <string name="feature_locked">ล็อก</string>
     <string name="customize_widget_colors">ปรับแต่งสีวิดเจ็ต</string>
     <string name="customize_notifications">ปรับแต่งการแจ้งเตือน</string>
     <string name="notification_sound">เสียงแจ้งเตือน</string>
@@ -763,25 +756,15 @@
     <string name="friday_short">ศ.</string>
     <string name="saturday_short">ส.</string>
     <string name="sunday_short">อา.</string>
-    <string name="upgrade_to_pro_long">เวอร์ชันของแอปนี้จะไม่ได้รับการอัปเดตอีกต่อไป กรุณาอัปเกรดเป็นเวอร์ชัน Pro เพื่อรับการแก้ไขและการปรับปรุงใหม่</string>
-    <string name="upgrade_to_pro_long_click">เวอร์ชันของแอปนี้จะไม่ได้รับการอัปเดตอีกต่อไป กรุณาคลิกที่นี่เพื่ออัปเกรดเป็นเวอร์ชัน Pro เพื่อรับการแก้ไขและการปรับปรุงใหม่</string>
     <string name="it_is_free">ฟรีถึง: %s หากดาวน์โหลดก่อนวันนั้น คุณสามารถใช้งานฟรีตลอดไป</string>
     <string name="more_info">ข้อมูลเพิ่มเติม</string>
     <string name="upgrade">อัปเกรด</string>
     <string name="upgrade_calendar">คุณต้องย้ายกิจกรรมที่เก็บในเครื่องด้วยตนเองโดยการส่งออกเป็นไฟล์ .ics แล้วนำเข้า คุณจะพบปุ่มส่งออก/นำเข้าในเมนูหน้าจอหลัก</string>
-    <string name="upgraded_from_free_gallery">สวัสดี\n\nดูเหมือนคุณเพิ่งอัปเกรดจากเวอร์ชันฟรี เมื่อคุณพอใจกับเวอร์ชันนี้และอาจย้ายการตั้งค่าและรายการโปรดแล้ว คุณสามารถถอนการติดตั้งเวอร์ชันฟรีเก่าเพื่อป้องกันการเปิดโดยไม่ตั้งใจ เนื่องจากคุณไม่จำเป็นต้องใช้อีกต่อไป และยังป้องกันกล่องโต้ตอบนี้จากการแสดงขึ้นอีกด้วย\n\nขอบคุณ!</string>
-    <string name="upgraded_to_pro_gallery">สวัสดี\n\nดูเหมือนคุณมีแอปเวอร์ชัน Pro อยู่แล้ว เมื่อคุณพอใจกับมันและอาจย้ายการตั้งค่าและรายการโปรดแล้ว คุณสามารถถอนการติดตั้งตัวนี้เพื่อป้องกันการเปิดโดยไม่ตั้งใจ เนื่องจากคุณไม่จำเป็นต้องใช้อีกต่อไป\n\nขอบคุณ!</string>
-    <string name="upgraded_from_free">สวัสดี\n\nดูเหมือนคุณเพิ่งอัปเกรดจากเวอร์ชันฟรี เมื่อคุณพอใจกับเวอร์ชันนี้และอาจย้ายข้อมูลแล้ว คุณสามารถถอนการติดตั้งเวอร์ชันฟรีเก่าเพื่อป้องกันการเปิดโดยไม่ตั้งใจ เนื่องจากคุณไม่จำเป็นต้องใช้อีกต่อไป และยังป้องกันกล่องโต้ตอบนี้จากการแสดงขึ้นอีกด้วย\n\nขอบคุณ!</string>
-    <string name="upgraded_to_pro">สวัสดี\n\nดูเหมือนคุณมีแอปเวอร์ชัน Pro อยู่แล้ว เมื่อคุณพอใจกับมันและอาจย้ายข้อมูลแล้ว คุณสามารถถอนการติดตั้งตัวนี้เพื่อป้องกันการเปิดโดยไม่ตั้งใจ เนื่องจากคุณไม่จำเป็นต้องใช้อีกต่อไป\n\nขอบคุณ!</string>
-    <string name="upgraded_from_free_calendar">สวัสดี\n\nดูเหมือนคุณเพิ่งอัปเกรดจากเวอร์ชันฟรี หากต้องการย้ายกิจกรรมที่เก็บในเครื่อง คุณต้องทำด้วยตนเองโดยส่งออกเป็นไฟล์ .ics ในเวอร์ชันฟรี แล้วนำเข้าที่นี่ผ่านเมนูด้านบน\n\nเมื่อคุณพอใจกับการตั้งค่าในเวอร์ชัน Pro แล้ว คุณสามารถถอนการติดตั้งเวอร์ชันฟรีเก่าได้ เนื่องจากคุณไม่จำเป็นต้องใช้อีกต่อไป และยังป้องกันกล่องโต้ตอบนี้จากการแสดงขึ้นอีกด้วย\n\nขอบคุณ!</string>
-    <string name="upgraded_from_free_contacts">สวัสดี\n\nดูเหมือนคุณเพิ่งอัปเกรดจากเวอร์ชันฟรี หากคุณมีรายชื่อที่เก็บไว้ใน \"%s\" คุณต้องย้ายด้วยตนเองโดยส่งออกเป็นไฟล์ .vcf จากเวอร์ชันฟรี แล้วนำเข้าที่นี่ผ่านเมนูด้านบน\n\nเมื่อคุณพอใจกับการตั้งค่าในเวอร์ชัน Pro แล้ว คุณสามารถถอนการติดตั้งเวอร์ชันฟรีเก่าได้ เนื่องจากคุณไม่จำเป็นต้องใช้อีกต่อไป และยังป้องกันกล่องโต้ตอบนี้จากการแสดงขึ้นอีกด้วย\n\nขอบคุณ!</string>
-    <string name="upgraded_from_free_notes">สวัสดี\n\nดูเหมือนคุณเพิ่งอัปเกรดจากเวอร์ชันฟรี หากต้องการย้ายบันทึกของคุณ คุณต้องทำด้วยตนเองโดยส่งออกเป็นไฟล์ในเวอร์ชันฟรี แล้วนำเข้าที่นี่ผ่านเมนูด้านบน\n\nเมื่อคุณพอใจกับการตั้งค่าในเวอร์ชัน Pro แล้ว คุณสามารถถอนการติดตั้งเวอร์ชันฟรีเก่าได้ เนื่องจากคุณไม่จำเป็นต้องใช้อีกต่อไป และยังป้องกันกล่องโต้ตอบนี้จากการแสดงขึ้นอีกด้วย\n\nขอบคุณ!</string>
     <string name="about">เกี่ยวกับ</string>
     <string name="website">เว็บไซต์</string>
     <string name="website_label">สำหรับซอร์สโค้ด เยี่ยมชมได้ที่</string>
     <string name="email_label">ส่งข้อเสนอแนะหรือคำแนะนำไปที่</string>
     <string name="known_issues">ปัญหาที่ทราบแล้ว</string>
-    <string name="upgrade_to_pro">อัปเกรดเป็น Pro</string>
     <string name="more_fossify_apps">แอป Fossify อื่นๆ</string>
     <string name="invite_friends">เชิญเพื่อน</string>
     <string name="share_text">เฮ้ มาดู %1$s ได้ที่ %2$s</string>
@@ -801,23 +784,14 @@
     <string name="additional_info">ข้อมูลเพิ่มเติม</string>
     <string name="app_version">เวอร์ชันแอป: %s</string>
     <string name="device_os">ระบบปฏิบัติการ: %s</string>
-    <string name="donate_please"><![CDATA[
-            สวัสดี,<br><br>
-            หวังว่าคุณจะชอบแอปนี้ แอปไม่มีโฆษณา กรุณาสนับสนุนการพัฒนาโดยซื้อแอป <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> ซึ่งจะป้องกันไม่ให้กล่องโต้ตอบนี้แสดงอีกด้วย<br><br>
-            ขอบคุณ!
-        ]]></string>
-    <string name="donate_new">สวัสดี,&lt;br&gt;&lt;br&gt;หวังว่าคุณจะชอบแอปนี้ แอปไม่มีโฆษณาและเราไม่เก็บข้อมูลของคุณด้วย กรุณาสนับสนุนการพัฒนาโดยซื้อ &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; คุณจะได้ฟีเจอร์ทั้งหมดของแอปรวมถึงการปรับแต่งสีด้วย&lt;br&gt;&lt;br&gt;ขอบคุณ!</string>
     <string name="donate_short">กรุณาสนับสนุนโดยซื้อ &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; ซึ่งจะปลดล็อกฟีเจอร์ทั้งหมดของแอปรวมถึงการปรับแต่งสีด้วย</string>
     <string name="purchase">ซื้อ</string>
     <string name="update_thank_you">กรุณาอัปเดต Fossify Thank You เป็นเวอร์ชันล่าสุด</string>
     <string name="before_asking_question_read_faq">ก่อนถามคำถาม กรุณาตรวจสอบการตั้งค่าแอปและอ่านคำถามที่พบบ่อยก่อน อาจมีคำตอบอยู่แล้ว</string>
     <string name="make_sure_latest">โปรดตรวจสอบให้แน่ใจว่าคุณใช้แอปเวอร์ชันล่าสุด</string>
-    <string name="make_sure_upgrade">โปรดทราบว่าเวอร์ชันแอปนี้ไม่ได้รับการพัฒนาอีกต่อไป รับเวอร์ชัน Pro สำหรับการปรับปรุงมากมาย</string>
     <string name="read_it">อ่านแล้ว</string>
     <string name="read_faq">อ่าน FAQ</string>
     <string name="thank_you">ขอบคุณ</string>
-    <string name="widget_locked_pro">วิดเจ็ตถูกล็อก\nกรุณาอัปเกรดเป็นเวอร์ชัน Pro เพื่อปลดล็อก</string>
-    <string name="features_locked">ฟีเจอร์นี้ถูกล็อก กรุณาซื้อ &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; เพื่อปลดล็อกแอปเต็มรูปแบบ&lt;br&gt;&lt;br&gt;ชำระครั้งเดียว และหากไม่พอใจสามารถขอคืนเงินได้</string>
     <string name="all_fossify_apps">แอป Fossify ทั้งหมด</string>
     <string name="new_app"><![CDATA[
             เฮ้,<br><br>
@@ -875,8 +849,6 @@
     <string name="faq_6_text_commons">ปัญหานี้เกิดขึ้นเมื่อ Launcher ของคุณไม่รองรับการปรับแต่งไอคอนอย่างเต็มที่ ลองเปิดแอปผ่าน Google Play หรือวิดเจ็ตหากใช้งานได้ หลังจากเปิดแล้ว ให้คืนค่าสีไอคอนสีเขียวเริ่มต้น #106D1F ในกรณีร้ายแรง อาจต้องติดตั้งแอปใหม่</string>
     <string name="faq_7_title_commons">เงินถูกหักจากบัญชีแล้ว แต่ไม่สามารถดาวน์โหลดแอปได้ จะทำอย่างไร?</string>
     <string name="faq_7_text_commons">การชำระเงินจัดการโดย Google ทั้งหมด ระบบของเขาอาจมีข้อผิดพลาดบ้างเป็นครั้งคราว เพียงล้างแคชของแอป Google Play แล้วรีสตาร์ทอุปกรณ์ จากนั้นลองดาวน์โหลดอีกครั้ง</string>
-    <string name="faq_8_title_commons">ทำไมต้องอัปเกรดเป็นเวอร์ชัน Pro?</string>
-    <string name="faq_8_text_commons">เนื่องจากเวอร์ชันแอปของคุณไม่ได้รับการอัปเดตอีกต่อไป บั๊กที่คุณพบอาจไม่ได้รับการแก้ไข และจะไม่มีฟีเจอร์ใหม่เพิ่ม คุณสามารถซื้อเวอร์ชัน Pro บน Google Play ในราคาที่เข้าถึงได้ ชำระครั้งเดียวตลอดชีพ แม้เปลี่ยนอุปกรณ์ใหม่ก็ไม่ต้องจ่ายอีก หากไม่ชอบเวอร์ชัน Pro สามารถถอนการติดตั้งภายในไม่กี่ชั่วโมงแล้วได้รับเงินคืนอัตโนมัติ หากต้องการคืนเงินในภายหลัง ติดต่อเราได้ที่ hello@fossify.org</string>
     <string name="faq_9_title_commons">จะเลือกหลายรายการพร้อมกันได้อย่างไร?</string>
     <string name="faq_9_text_commons">มีหลายวิธี วิธีแรกคือเริ่มโหมดเลือกโดยกดค้างที่รายการหนึ่ง แล้วกดสั้นๆ ที่รายการอื่น วิธีที่สองคล้ายกับการเลือกรายการบน PC ด้วยเมาส์ โดยกดค้างที่รายการหนึ่งแล้วลากนิ้วผ่านรายการอื่น วิธีที่สามคือกดค้างที่รายการหนึ่ง แล้วกดค้างที่อีกรายการ ทุกรายการระหว่างนั้นจะถูกเลือก หากต้องการเลือกทั้งหมด กดค้างที่รายการหนึ่งแล้วกดตัวนับรายการที่เลือกที่มุมบนซ้าย</string>
     <string name="faq_10_title_commons">ฉันซื้อแอปแล้ว แต่ไม่สามารถดาวน์โหลดบนอุปกรณ์อื่นได้</string>
@@ -941,41 +913,6 @@
     <string name="translation_chinese_hk">จีน (ฮ่องกง)</string>
     <string name="translation_chinese_cn">จีน (ตัวย่อ)</string>
     <string name="translation_chinese_tw">จีน (ตัวเต็ม)</string>
-    <string name="why_upgrade">รับเวอร์ชัน Pro ตอนนี้เลย!</string>
-    <string name="why_upgrade_basic_version">พื้นฐาน</string>
-    <string name="why_upgrade_pro_version">โปร</string>
-    <string name="why_upgrade_no_ads">ไม่มีโฆษณา</string>
-    <string name="why_upgrade_no_internet_access">ไม่ต้องการอินเทอร์เน็ต</string>
-    <string name="why_upgrade_footer">รับประกันคืนเงิน 100%</string>
-    <string name="why_upgrade_footer_one_time_payment">ชำระครั้งเดียว</string>
-    <string name="why_upgrade_improved_design">ดีไซน์ที่ดีขึ้น</string>
-    <string name="why_upgrade_many_other_improvements">การปรับปรุงอื่นๆ อีกมากมาย</string>
-    <string name="why_upgrade_advanced_photo_editor">เครื่องมือแก้ไขรูปภาพขั้นสูง</string>
-    <string name="why_upgrade_advanced_photo_video_editor">เครื่องมือแก้ไขรูปภาพและวิดีโอขั้นสูง</string>
-    <string name="why_upgrade_heic_support">รองรับไฟล์ HEIC/HEIF</string>
-    <string name="why_upgrade_batch_renaming">การเปลี่ยนชื่อไฟล์แบบกลุ่มขั้นสูง</string>
-    <string name="why_upgrade_folder_locking">การล็อกโฟลเดอร์แยกแต่ละโฟลเดอร์</string>
-    <string name="why_upgrade_printing_support">รองรับการพิมพ์</string>
-    <string name="why_upgrade_time_zone_support">รองรับเขตเวลา</string>
-    <string name="why_upgrade_attendees_emails">ผู้เข้าร่วมและการแจ้งเตือนทางอีเมล</string>
-    <string name="why_upgrade_easy_event_importing">นำเข้ากิจกรรมได้ง่าย</string>
-    <string name="why_upgrade_new_widgets">วิดเจ็ตใหม่</string>
-    <string name="why_upgrade_duplicate_contact_merging">การรวมรายชื่อซ้ำที่ดีขึ้น</string>
-    <string name="why_upgrade_font_size_customization">การปรับขนาดตัวอักษร</string>
-    <string name="why_upgrade_private_contact_sharing">การแชร์รายชื่อส่วนตัวระหว่างแอปของเรา (ตัวเลือก)</string>
-    <string name="why_upgrade_customizable_contact_ringtones">เสียงเรียกเข้าแบบปรับได้สำหรับแต่ละรายชื่อ</string>
-    <string name="why_upgrade_contact_filtering">การกรองรายชื่อ</string>
-    <string name="why_upgrade_contact_private_contacts">รายชื่อที่เก็บเป็นส่วนตัว</string>
-    <string name="why_upgrade_checklists">รายการตรวจสอบ</string>
-    <string name="why_upgrade_different_note_per_widget">บันทึกและสีแตกต่างกันในแต่ละวิดเจ็ต</string>
-    <string name="why_upgrade_note_locking">การล็อกบันทึก</string>
-    <string name="why_upgrade_date_and_time_format">การปรับรูปแบบวันที่และเวลา</string>
-    <string name="why_upgrade_shortcuts">ทางลัดหน้าจอหลัก</string>
-    <string name="why_upgrade_file_compression">รองรับการบีบอัดไฟล์</string>
-    <string name="why_upgrade_recents_tab">แท็บไฟล์ล่าสุด</string>
-    <string name="why_upgrade_background_color_customization">การปรับสีพื้นหลัง</string>
-    <string name="why_upgrade_file_importing">รองรับการนำเข้าไฟล์</string>
-    <string name="why_upgrade_zooming">การซูม</string>
     <string name="third_party_licences">ใบอนุญาตของบุคคลที่สาม</string>
     <string name="kotlin_title">Kotlin (ภาษาโปรแกรม)</string>
     <string name="subsampling_title">Subsampling Scale Image View (รูปภาพที่ซูมได้)</string>
@@ -1016,12 +953,9 @@
     <string name="trial_expires_soon">ช่วงทดลองใช้ของคุณกำลังจะหมดอายุ</string>
     <string name="unlock_for_one_final_day">ปลดล็อกแอปสำหรับวันสุดท้าย</string>
     <string name="welcome_to_app_name">ยินดีต้อนรับสู่ %s!</string>
-    <string name="trial_start_description">ขอบคุณที่ใช้แอปของเรา คุณสามารถใช้เวอร์ชันที่ปลดล็อกนี้ได้ &lt;font color=\"#FFFFFF\"&gt;%d วัน&lt;/font&gt; เมื่อหมดช่วงทดลองแล้ว กรุณาพิจารณาอัปเกรดเป็นเวอร์ชัน Pro ซึ่งมีฟีเจอร์ใหม่มากมาย ดีไซน์ทันสมัย ไม่มีโฆษณา และการปรับปรุงอื่นๆ อีกมาก\n\nชำระครั้งเดียวตลอดชีพ และหากไม่พอใจสามารถถอนการติดตั้งและได้รับเงินคืน\n\nหวังว่าคุณจะชอบ :)</string>
-    <string name="trial_end_description">กรุณาอัปเกรดเป็นเวอร์ชัน Pro เพื่อใช้แอปได้เต็มรูปแบบ\n\nชำระครั้งเดียวตลอดชีพ และหากไม่พอใจสามารถถอนการติดตั้งและได้รับเงินคืน\n\nเจอกันที่นั่น :)</string>
     <plurals name="trial_expires_days">
         <item quantity="other">ช่วงทดลองของคุณจะหมดอายุในอีก %d วัน</item>
     </plurals>
-    <string name="deprecated_app">เลิกสนับสนุนแล้ว: เวอร์ชันนี้ไม่ได้รับการดูแลอีกต่อไป รับเวอร์ชัน Pro ได้ที่ https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">อย่าลืมว่าหากถอนการติดตั้งแอปที่ซื้อภายใน 2 ชั่วโมง คุณจะได้รับเงินคืนอัตโนมัติ หากต้องการคืนเงินในภายหลัง ติดต่อเราได้ที่ hello@fossify.org แล้วคุณจะได้รับเงินคืน ทำให้ทดลองใช้ได้ง่ายมาก :)</string>
     <string name="developer_description">กลุ่มแอป Android แบบง่าย โอเพ่นซอร์ส พร้อมวิดเจ็ตที่ปรับแต่งได้ ไม่มีโฆษณา และไม่ขอสิทธิ์ที่ไม่จำเป็น</string>
 </resources>

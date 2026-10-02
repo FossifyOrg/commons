@@ -91,7 +91,6 @@
     <string name="no_phone_number_found">未找到电话号码</string>
     <string name="change_view_type">更改视图类型</string>
     <string name="grid">网格</string>
-    <string name="grid_pro">网格 (专业版)</string>
     <string name="uneven_grid">非等距网格</string>
     <string name="list">列表</string>
     <string name="increase_column_count">增加列数</string>
@@ -156,7 +155,6 @@
     <string name="search_conversations">搜索对话</string>
     <string name="search_recordings">搜索录音</string>
     <string name="filter">过滤</string>
-    <string name="filter_pro">过滤 (专业版)</string>
     <string name="no_items_found">未找到任何项目。</string>
     <string name="change_filter">更改过滤条件</string>
     <string name="no_storage_permissions">需要授予存储权限</string>
@@ -337,7 +335,6 @@
     <string name="apply_to_all_apps">将主题应用于所有 Fossify 应用</string>
     <string name="app_icon_color_warning">注意：某些启动器无法正确处理自定义的应用图标。如图标消失，请尝试通过 Google Play 商店或者微件启动对应的应用。启动后请还原为默认的绿色图标色 #106D1F。在某些情形下你可能要重新安装应用。</string>
     <string name="global_theme_success">颜色已成功更新。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
-    <string name="shared_theme_note">请注意：即便你使用的是专业版的应用，你仍要需要通过 Fossify Thank You 应用来同步颜色。</string>
     <string name="purchase_thank_you"><![CDATA[
             请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 以使用此功能并支持开发。谢谢！
         ]]></string>
@@ -374,10 +371,8 @@
     <string name="undo">撤销</string>
     <string name="redo">重做</string>
     <string name="print">打印</string>
-    <string name="print_pro">打印 (专业版)</string>
     <string name="shortcut">快捷方式</string>
     <string name="create_shortcut">创建快捷方式</string>
-    <string name="create_shortcut_pro">创建快捷方式 (专业版)</string>
     <string name="add_number_to_contact">将号码添加到联系人</string>
     <string name="view_contact_details">查看联系人详情</string>
     <string name="call_from_sim_1">来自 SIM 1 的通话</string>
@@ -458,7 +453,6 @@
     <string name="protection_setup_successfully">密码设置成功。如果您不慎遗忘了密码，请重新安装本应用。</string>
     <string name="fingerprint_setup_successfully">保护设置成功。如果重置保护时发生问题，请重新安装本应用。</string>
     <string name="lock_folder">锁定文件夹</string>
-    <string name="lock_folder_pro">锁定文件夹 (专业版)</string>
     <string name="unlock_folder">取消锁定文件夹</string>
     <string name="lock_folder_notice">此保护仅在本应用中有效，它不能取代真正的系统级文件夹加密。</string>
     <string name="enter_password">请输入密码</string>
@@ -584,7 +578,6 @@
     <string name="general_settings">常规</string>
     <string name="color_customization">外观</string>
     <string name="customize_colors">自定义外观</string>
-    <string name="feature_locked">已锁定</string>
     <string name="customize_widget_colors">自定义微件颜色</string>
     <string name="customize_notifications">自定义通知</string>
     <string name="use_english_language">使用英语显示</string>
@@ -739,52 +732,14 @@
     <string name="friday_short">周五</string>
     <string name="saturday_short">周六</string>
     <string name="sunday_short">周日</string>
-    <string name="upgrade_to_pro_long">您的应用将不会再收到更新。请升级到专业版以获取最新的程序缺陷修复和改进。</string>
-    <string name="upgrade_to_pro_long_click">您的应用将不会再收到更新。请点击此处升级到专业版以获取最新的程序缺陷修复和改进。</string>
     <string name="it_is_free">免费截止期：%s。如果您是在截止期之前下载的，您将可以永久免费使用。</string>
     <string name="more_info">更多信息</string>
     <string name="upgrade">升级</string>
     <string name="upgrade_calendar">您必须通过导出/导入 .ics 文件来自行迁移本地存储的事件。您可以在主屏幕的菜单中找到导出/导入选项。</string>
-    <string name="upgraded_from_free_gallery">您好，
-\n
-\n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了设置和收藏项目的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
-    <string name="upgraded_to_pro_gallery">您好，
-\n
-\n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了设置和收藏项目的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
-    <string name="upgraded_from_free">您好，
-\n
-\n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了数据的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
-    <string name="upgraded_to_pro">您好，
-\n
-\n本应用已从免费版升级为专业版。如果你对专业版感到满意，并且已经完成了数据的迁移，你将无需再次使用免费版。为了避免不慎启动免费版应用，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
-    <string name="upgraded_from_free_calendar">您好，
-\n
-\n本应用已从免费版升级为专业版。如果您想将免费版在本地存储的事件迁移到专业版，请在免费版中将事件手动导出为 .ics 文件，然后在专业版的顶部菜单中导入它们。
-\n
-\n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
-    <string name="upgraded_from_free_contacts">您好， \n \n本应用已从免费版升级为专业版。如果您在“%s”中存储了联系人，请在免费版中将联系人手动导出为 .vcf 文件，然后在专业版的顶部菜单中导入它们。 \n \n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。 \n \n感谢您的支持！</string>
-    <string name="upgraded_from_free_notes">您好，
-\n
-\n本应用已从免费版升级为专业版。如果您想要将免费版的笔记迁移到专业版，请在免费版中将笔记手动导出为文件，然后在专业版的顶部菜单中导入它们。
-\n
-\n如果你对专业版感到满意，你将无需再次使用免费版。为了避免不慎启动免费版应用，或者造成本对话框反复出现，您可以卸载之前安装的免费版应用。
-\n
-\n感谢您的支持！</string>
     <string name="about">关于</string>
     <string name="website">网站</string>
     <string name="website_label">源代码仓库</string>
     <string name="email_label">发送反馈</string>
-    <string name="upgrade_to_pro">升级到专业版</string>
     <string name="invite_friends">分享给好友</string>
     <string name="share_text">请前往 %2$s 了解 %1$s</string>
     <string name="invite_via">分享到</string>
@@ -802,23 +757,14 @@
     <string name="additional_info">额外信息</string>
     <string name="app_version">应用版本：%s</string>
     <string name="device_os">设备系统：%s</string>
-    <string name="donate_please"><![CDATA[
-            你好，<br><br>
-            希望您喜欢本应用。它不包含广告，请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 应用支持开发，安装该应用后不会再显示此对话框。<br><br>
-            谢谢！
-        ]]></string>
-    <string name="donate_new">你好，&lt;br&gt;&lt;br&gt;希望您喜欢本应用。本应用不包含广告，也不会收集您的数据。如果条件允许，请考虑购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用支持我们的开发工作。购买后将解锁包括颜色自定义在内的所有功能。&lt;br&gt;&lt;br&gt;非常感谢！</string>
     <string name="donate_short">如果条件允许，请考虑购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用支持我们的开发工作。购买后将解锁包括颜色自定义在内的所有功能。</string>
     <string name="purchase">购买</string>
     <string name="update_thank_you">请更新 Fossify Thank You 到最新版本</string>
     <string name="before_asking_question_read_faq">在提问之前，请先打开应用的设置并阅读常见问题。也许您可以在那里找到答案。</string>
     <string name="make_sure_latest">另外，请确保您正在使用的是最新版本的应用。</string>
-    <string name="make_sure_upgrade">请注意：作者已经不再开发本应用的免费版。请购买专业版以获取新的改进。</string>
     <string name="read_it">阅读</string>
     <string name="read_faq">阅读常见问题</string>
     <string name="thank_you">非常感谢</string>
-    <string name="widget_locked_pro">微件已被锁定。\n请升级到专业版解锁。</string>
-    <string name="features_locked">此功能已被锁定，请购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用以获取全部功能。&lt;br&gt;&lt;br&gt;购买是一次性的。如果您不满意，我们可以为您退款。</string>
     <string name="new_app"><![CDATA[
             嘿，<br><br>
             最近发布了一些新应用：<br><br>
@@ -868,8 +814,6 @@
     <string name="faq_6_text_commons">如果您正在使用的启动器不能完全支持自定义图标的话会发生此问题。您可以尝试通过 Google Play 商店或者微件启动应用。应用启动后，请还原默认的绿色图标色 #106D1F。在某些情形下，你可能需要重新安装应用。</string>
     <string name="faq_7_title_commons">我已付费，但我无法下载这个应用，我该怎么办？</string>
     <string name="faq_7_text_commons">我们的付款是由 Google 处理的，他们的系统偶尔会发生故障。您可以在清除 Google Play 的应用缓存之后，重新启动设备并再次尝试下载。</string>
-    <string name="faq_8_title_commons">为什么我需要升级到专业版？</string>
-    <string name="faq_8_text_commons">由于本应用的免费版不再更新，您在使用中遇到的问题可能永远也不会得到改善，也不会得到新的功能。您可以在 Google Play 商店支付少许费用购买专业版。此购买是一次性的，以后不会再产生其他费用，即使是在新设备上使用也一样。如果您不满意专业版，可以在购买后的数小时内卸载，我们将自动为您退款。如果您在超过自动退款期限后仍然希望退款，请通过 hello@fossify.org 联系我们为您办理。</string>
     <string name="faq_9_title_commons">我如何同时选中多个项目？</string>
     <string name="faq_9_text_commons">您可以通过多种方式同时选中多个项目。第一种方式是长按一个项目进入选择模式，然后点击其他项目即可选择它们。第二种方式类似于在电脑上使用鼠标选择项目， 长按一个项目进入选择模式并且不要松手，然后将手指向拖动到其他项目上面即可选择它们。第三种方式是先长按一个项目，然后再长按另一个项目，即可选择它们和位于两者之间的所有项目。如果您想要选择所有项目，先长按一个项目，然后点击位于视图左上角的项目计数器，即可选择或者取消选择所有项目。</string>
     <string name="faq_10_title_commons">我已经购买了这个应用，但我无法在其他设备下载它。</string>
@@ -883,41 +827,6 @@
             如果您也想帮忙，也请让我们知晓。 翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。
             感谢所有贡献者和其他支持者！
         ]]></string>
-    <string name="why_upgrade">立即获取专业版！</string>
-    <string name="why_upgrade_basic_version">基础版</string>
-    <string name="why_upgrade_pro_version">专业版</string>
-    <string name="why_upgrade_no_ads">无广告</string>
-    <string name="why_upgrade_no_internet_access">不要求互联网访问权限</string>
-    <string name="why_upgrade_footer">100% 退款保证</string>
-    <string name="why_upgrade_footer_one_time_payment">一次性付款</string>
-    <string name="why_upgrade_improved_design">改进的设计</string>
-    <string name="why_upgrade_many_other_improvements">各种其他改进</string>
-    <string name="why_upgrade_advanced_photo_editor">高级照片编辑器</string>
-    <string name="why_upgrade_advanced_photo_video_editor">高级照片和视频编辑器</string>
-    <string name="why_upgrade_heic_support">支持 HEIC/HEIF 文件</string>
-    <string name="why_upgrade_batch_renaming">高级批量文件重命名</string>
-    <string name="why_upgrade_folder_locking">个别文件夹锁定</string>
-    <string name="why_upgrade_printing_support">支持打印</string>
-    <string name="why_upgrade_time_zone_support">支持时区</string>
-    <string name="why_upgrade_attendees_emails">出席者和电邮提醒</string>
-    <string name="why_upgrade_easy_event_importing">轻松导入事件</string>
-    <string name="why_upgrade_new_widgets">新版微件</string>
-    <string name="why_upgrade_duplicate_contact_merging">改进了重复联系人合并功能</string>
-    <string name="why_upgrade_font_size_customization">自定义字体大小</string>
-    <string name="why_upgrade_private_contact_sharing">可选的应用内私密联系人共享</string>
-    <string name="why_upgrade_customizable_contact_ringtones">自定义联系人铃声</string>
-    <string name="why_upgrade_contact_filtering">联系人过滤</string>
-    <string name="why_upgrade_contact_private_contacts">私密地保存联系人</string>
-    <string name="why_upgrade_checklists">核对清单</string>
-    <string name="why_upgrade_different_note_per_widget">每个微件显示不同的笔记和颜色</string>
-    <string name="why_upgrade_note_locking">笔记锁定</string>
-    <string name="why_upgrade_date_and_time_format">自定义日期和时间格式</string>
-    <string name="why_upgrade_shortcuts">主屏幕快捷方式</string>
-    <string name="why_upgrade_file_compression">文件压缩支持</string>
-    <string name="why_upgrade_recents_tab">显示最近文件的标签页</string>
-    <string name="why_upgrade_background_color_customization">自定义背景色</string>
-    <string name="why_upgrade_file_importing">支持导入文件</string>
-    <string name="why_upgrade_zooming">缩放</string>
     <string name="third_party_licences">第三方许可</string>
     <string name="kotlin_title">Kotlin (编程语言)</string>
     <string name="subsampling_title">Subsampling Scale Image View (可缩放图像视图)</string>
@@ -957,16 +866,9 @@
     <string name="trial_expires_soon">您的试用期即将结束。</string>
     <string name="unlock_for_one_final_day">继续最后一天的试用</string>
     <string name="welcome_to_app_name">欢迎使用 %s！</string>
-    <string name="trial_start_description">感谢您使用我们开发的应用。您可以免费试用此解锁版应用 <font color="#FFFFFF">%d 天</font>。试用期结束后请考虑升级到专业版。专业版有大量新功能，更现代化的设计，无广告，以及大量其他改进。\n \n您只需为专业版付款一次即可终生使用。如果您不满意，可以随时卸载并得到退款。 \n \n祝您使用愉快 :)</string>
-    <string name="trial_end_description">请升级到专业版以享受本应用的全部功能。
-\n
-\n您只需为专业版付款一次即可终生使用。如果您不满意，可以随时卸载并获得退款。
-\n
-\n祝您使用愉快 :)</string>
     <plurals name="trial_expires_days">
         <item quantity="other">试用期将在 %d 天后结束。</item>
     </plurals>
-    <string name="deprecated_app">已弃用：该应用版本已不再维护，请在以下链接获取专业版 https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">别忘了：如果您在付款 2 小时以内卸载了任意一款付费应用，系统将自动为您退款。如果您想在超过 2 小时之后退款，请通过 hello@fossify.org 联系我们为您办理。请放心试用 :)</string>
     <string name="developer_description">一系列简洁、开源的 Android 应用，带有自定义微件，不含广告，不要求非必要的权限。</string>
     <string name="translation_welsh">威尔士语</string>

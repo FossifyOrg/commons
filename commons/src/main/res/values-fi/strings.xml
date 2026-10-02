@@ -88,7 +88,6 @@
     <string name="no_phone_number_found">Puhelinnumeroa ei löytynyt</string>
     <string name="change_view_type">Vaihda näkymää</string>
     <string name="grid">Ruudukko</string>
-    <string name="grid_pro">Ruudukko (Pro)</string>
     <string name="uneven_grid">Epätasainen ruudukko</string>
     <string name="list">Lista</string>
     <string name="increase_column_count">Lisää sarakkeita</string>
@@ -155,7 +154,6 @@
     <string name="search_conversations">Etsi keskustelua</string>
     <string name="search_recordings">Etsi äänitteitä</string>
     <string name="filter">Suodata</string>
-    <string name="filter_pro">Suodata (Pro)</string>
     <string name="no_items_found">Kohteita ei löytynyt.</string>
     <string name="change_filter">Vaihda suodatin</string>
     <string name="no_storage_permissions">Lupa tallennustilaan vaaditaan</string>
@@ -366,10 +364,8 @@
     <string name="undo">Kumoa</string>
     <string name="redo">Tee uudelleen</string>
     <string name="print">Tulosta</string>
-    <string name="print_pro">Tulosta (Pro)</string>
     <string name="shortcut">Pikakuvake</string>
     <string name="create_shortcut">Luo pikakuvake</string>
-    <string name="create_shortcut_pro">Luo pikakuvake (Pro)</string>
     <string name="add_number_to_contact">Lisää numero yhteystietoihin</string>
     <string name="view_contact_details">Näytä yhteystieto</string>
     <string name="call_from_sim_1">Soita SIM 1-kortilla</string>
@@ -450,7 +446,6 @@
     <string name="protection_setup_successfully">Salasana tallennettu. Asenna sovellus uudelleen jos unohdat sen.</string>
     <string name="fingerprint_setup_successfully">Suojauksen asetus onnistui. Asenna sovellus uudelleen jos kohtaat ongelmia.</string>
     <string name="lock_folder">Lukitse kansio</string>
-    <string name="lock_folder_pro">Lukitse kansio (Pro)</string>
     <string name="unlock_folder">Avaa kansion lukitus</string>
     <string name="lock_folder_notice">Tämä suojaus toimii vain tässä sovelluksessa, se ei korvaa laajempaa järjestelmän kattavaa suojausta.</string>
     <string name="empty_password_new">Syötä salasana</string>
@@ -599,7 +594,6 @@
     <string name="general_settings">Yleistä</string>
     <string name="color_customization">Värien mukautus</string>
     <string name="customize_colors">Muokkaa sovelluksen värejä</string>
-    <string name="feature_locked">Lukittu</string>
     <string name="customize_widget_colors">Mukauta pienoissovelluksen värejä</string>
     <string name="customize_notifications">Mukauta ilmoituksia</string>
     <string name="use_english_language">Käytä englannin kieltä</string>
@@ -751,58 +745,14 @@
     <string name="friday_short">Pe</string>
     <string name="saturday_short">La</string>
     <string name="sunday_short">Su</string>
-    <string name="upgrade_to_pro_long">Sovellusversiotasi ei enää päivitetä. Hanki päivitys Pro-versioon vastaanottaaksesi uusimmat korjaukset ja kohennukset.</string>
-    <string name="upgrade_to_pro_long_click">Sovellusversiotasi ei enää päivitetä. Hanki päivitys Pro-versioon vastaanottaaksesi uusimmat korjaukset ja kohennukset klikkaamalla tästä.</string>
     <string name="it_is_free">Se on ilmainen %s asti. Jos lataat ennen sitä, voit käyttää sovellusta ilmaiseksi ikuisesti.</string>
     <string name="more_info">Lisää tietoa</string>
     <string name="upgrade">Päivitä</string>
     <string name="upgrade_calendar">Sinun tulee yhdistää paikallisesti tallennetut tapahtumat manuaalisesti viemällä ne .ics-tiedostoon ja sen jälkeen tuomalla tiedostosta. Löydät vienti- ja tuontipainikkeet päävalikosta.</string>
-    <string name="upgraded_from_free_gallery">Hei,
-\n
-\nnäyttää siltä, että päivitit juuri ilmaisversiosta. Kun olet tähän versioon tyytyväinen ja kenties tuonut asetuksesi ja merkannut suosikkisi, voit poistaa ilmaisversion sekaannusten välttämiseksi.
-\n
-\nKiitos!</string>
-    <string name="upgraded_to_pro_gallery">Hei,
-\n
-\nnäyttää siltä että sinulla on myös sovelluksen Pro-versio asennettuna. Kun olet siihen tyytyväinen ja kenties vienyt asetuksesi ja merkannut suosikkisi, voit poistaa tämän ilmaisversion sekaannusten välttämiseksi.
-\n
-\nKiitos!</string>
-    <string name="upgraded_from_free">Hei,
-\n
-\nnäytät juuri päivittäneen ilmaisversiosta. Kun olet tyytyväinen tähän ja mahdollisesti siirtänyt tietosi, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää.
-\n
-\nKiitos!</string>
-    <string name="upgraded_to_pro">Hei,
-\n
-\nsinulla näyttää jo olevan myös sovelluksen Pro-versio. Kun olet tyytyväinen siihen ja mahdollisesti siirtänyt tietosi, voit poistaa tämän sovelluksen asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää.
-\n
-\nKiitos!</string>
-    <string name="upgraded_from_free_calendar">Hei,
-\n
-\nnäytät juuri päivittäneen ilmaisversiosta. Jos haluat siirtää paikallisesti säilytetyt tapahtumatiedot tähän sovellukseen, on se tehtävä manuaalisesti viemällä ne ensin ilmaisversiosta .ics-tiedostoon, joka voidaan sen jälkeen tuoda tähän sovellukseen ylävalikon kautta.
-\n
-\nKun olet tyytyväinen Pro-versioon, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää.
-\n
-\nKiitos!</string>
-    <string name="upgraded_from_free_contacts">Hei,
-\n
-\nnäytät juuri päivittäneen ilmaisversiosta. Jos haluat siirtää kohteessa \"%s\" säilytetyt yhteystiedot tähän sovellukseen, on se tehtävä manuaalisesti viemällä ne ensin ilmaisversiosta .vcf-tiedostoon, joka voidaan sen jälkeen tuoda tähän sovellukseen ylävalikon kautta.
-\n
-\nKun olet tyytyväinen Pro-versioon, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää.
-\n
-\nKiitos!</string>
-    <string name="upgraded_from_free_notes">Hei,
-\n
-\nnäytät juuri päivittäneen ilmaisversiosta. Jos haluat siirtää muistiinpanosi tähän sovellukseen, on se tehtävä manuaalisesti viemällä ne ensin ilmaisversiosta tiedostoon, joka voidaan sen jälkeen tuoda tähän sovellukseen ylävalikon kautta.
-\n
-\nKun olet tyytyväinen Pro-versioon, voit poistaa vanhan ilmaisversion asennuksen, ettet vahingossa turhaan avaa sitä, koska et tarvitse sitä enää.
-\n
-\nKiitos!</string>
     <string name="about">Tietoa</string>
     <string name="website">Verkkosivusto</string>
     <string name="website_label">Lähdekoodin löydät täältä</string>
     <string name="email_label">Lähetä palautteesi ja ehdotuksia osoitteeseen</string>
-    <string name="upgrade_to_pro">Päivitä Pro-versioon</string>
     <string name="invite_friends">Kutsu ystäviä</string>
     <string name="share_text">Hei, tutustu %1$s täällä %2$s</string>
     <string name="invite_via">Kutsu sovelluksella</string>
@@ -819,22 +769,12 @@
     <string name="additional_info">Lisätietoa</string>
     <string name="app_version">Sovelluksen versio: %s</string>
     <string name="device_os">Laitteen käyttöjärjestelmä: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Hei,<br><br>
-            toivottavasti pidät sovelluksesta. Se ei sisällä mainoksia, tue sen kehitystä ostamalla <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> sovellus, tämä myös estää tämän ilmoituksen jatkossa.<br><br>
-            Kiitos!
-        ]]>
-    </string>
     <string name="purchase">Osta</string>
     <string name="before_asking_question_read_faq">Ennen kysymyksen esittämistä varmista, löytyykö vastaus asetuksista tai usein kysytyistä kysymyksistä (Frequently Asked Questions).</string>
     <string name="make_sure_latest">Varmista myös, että käytät viimeisintä versiota.</string>
-    <string name="make_sure_upgrade">Huomioi, että tätä sovellusversiota ei enää kehitetä, hanki Pro-versio parannuksia varten.</string>
     <string name="read_it">Lue</string>
     <string name="read_faq">Lue FAQ</string>
     <string name="thank_you">Kiitos</string>
-    <string name="widget_locked_pro">Pienoissovellus on lukittu.
-\nOle hyvä ja päivitä Pro-versioon ottaaksesi sen käyttöön.</string>
     <string name="new_app"><![CDATA[
             Hei,<br><br>
            uusia sovelluksia on julkaistu äskettäin::<br><br>
@@ -881,10 +821,6 @@
     <string name="faq_6_title_commons">Sovelluksen kuvake hävisi. Mitä voin tehdä?</string>
     <string name="faq_7_title_commons">Tiliäni on veloitettu, mutta en voi ladata sovellusta. Mitä voin tehdä\?</string>
     <string name="faq_7_text_commons">Google hoitaa maksut täysin, ajoittain heidän järjestelmässä on häiriöitä. Tyhjennä Google Play-sovelluksen välimuisti, käynnistä laitteesi uudelleen ja yritä latausta uudelleen.</string>
-    <string name="faq_8_title_commons">Miksi päivittäisin Pro-versioon?</string>
-    <string name="faq_8_text_commons">Koska sovellusversiotasi ei enää päivitetä, et saa korjauksia mahdollisiin bugeihin etkä uusia ominaisuuksia. Voit ostaa Pro-version Google Playsta edullisesti.
-        Kyseessä on kertamaksu, joka tarkoittaa sitä, että oston jälkeen sinun ei koskaan enää tarvitse maksaa siitä. Ei edes uuden laitteen hankinnan jälkeen. Jos et pidä Pro-versiosta, voit poistaa sen muutaman tunnin kuluessa ja saat automaattisesti rahasi takaisin.
-        Jos haluat palauttaa myöhemmin. ota yhteyttä hello@fossify.org ja maksusi palautetaan.</string>
     <string name="faq_9_title_commons">Kuinka valitsen useamman kohteen kerralla?</string>
     <string name="faq_9_text_commons">Siihen on useampi tapa. Ensimmäinen on aloittaa valitsemistila painamalla pitkään yhtä kohdetta ja sen jälkeen napauttamalla muita valittavia kohteita. Toinen tapa on vastaava kuin kohteiden valinta tietokoneella: paina pitkään yhtä kohdetta ja vie sormi muiden valittavien kohteen yli. Kolmas tapa on painaa ensimmäistä kohdetta pitkään ja sen jälkeen viimeistä kohdetta painamalla pitkään valitaan kaikki kohteet niiden väliltä. Jos haluat valita kaikki kohteet, paina vain yhtä kohdetta pitkään ja sen jälkeen valittujen kohteiden lukumäärää yläpalkista napauttamalla valitset kaikki kohteet tai poistat kaikista valinnan.</string>
     <string name="faq_10_title_commons">Olen ostanut sovelluksen, mutta en voi ladata sitä toiselle laitteelle.</string>
@@ -932,40 +868,6 @@
     <string name="translation_chinese_hk">Kiinalainen (Hongkong)</string>
     <string name="translation_chinese_cn">kiina (yksinkertaistettu)</string>
     <string name="translation_chinese_tw">kiina (perinteinen)</string>
-    <string name="why_upgrade">Hanki Pro-versio nyt!</string>
-    <string name="why_upgrade_basic_version">Perus</string>
-    <string name="why_upgrade_no_ads">Ei mainoksia</string>
-    <string name="why_upgrade_no_internet_access">Ei internetyhteyttä</string>
-    <string name="why_upgrade_footer">100% rahat takaisin-takuu</string>
-    <string name="why_upgrade_footer_one_time_payment">Kertamaksu</string>
-    <string name="why_upgrade_improved_design">Kehittyneempi ulkoasu</string>
-    <string name="why_upgrade_many_other_improvements">Paljon muita parannuksia</string>
-    <string name="why_upgrade_advanced_photo_editor">Kehittyt valokuvaeditori</string>
-    <string name="why_upgrade_advanced_photo_video_editor">Edistynyt valokuva- ja videoeditori</string>
-    <string name="why_upgrade_heic_support">Tuki HEIC/HEIF-tiedostoille</string>
-    <string name="why_upgrade_batch_renaming">Kehittynyt monen tiedoston uudelleennimeäminen kerralla </string>
-    <string name="why_upgrade_folder_locking">Yksittäisten hakemistojen lukitseminen</string>
-    <string name="why_upgrade_printing_support">Tuki tulostamiselle</string>
-    <string name="why_upgrade_time_zone_support">Tuki aikavyöhykkeille</string>
-    <string name="why_upgrade_attendees_emails">Osallistujat ja sähköpostimuistutukset</string>
-    <string name="why_upgrade_easy_event_importing">Helppo tapahtumien tuonti</string>
-    <string name="why_upgrade_new_widgets">Uudet pienoissovellukset</string>
-    <string name="why_upgrade_duplicate_contact_merging">Parannettu yhteystietojen kaksoiskappaleiden yhdistys</string>
-    <string name="why_upgrade_font_size_customization">Fonttikoon kustomointi</string>
-    <string name="why_upgrade_private_contact_sharing">Valinnainen yhteystietojako sovellustemme välillä</string>
-    <string name="why_upgrade_customizable_contact_ringtones">Mukautettavat soittoäänet yhteystiedoille</string>
-    <string name="why_upgrade_contact_filtering">Yhteystietojen suodatus</string>
-    <string name="why_upgrade_contact_private_contacts">Yksityisesti tallennetut yhteystiedot</string>
-    <string name="why_upgrade_checklists">Tarkistuslistat</string>
-    <string name="why_upgrade_different_note_per_widget">Pienoissovelluskohtainen muistiinpano ja värit</string>
-    <string name="why_upgrade_note_locking">Muistiinpanojen lukitseminen</string>
-    <string name="why_upgrade_date_and_time_format">Päivämäärän ja ajan näyttömuotojen kustomointi</string>
-    <string name="why_upgrade_shortcuts">Pikakuvakkeet kotivalikkoon</string>
-    <string name="why_upgrade_file_compression">Tuki tiedostojen pakkaukselle</string>
-    <string name="why_upgrade_recents_tab">Viimeisimmät tiedostot-välilehti</string>
-    <string name="why_upgrade_background_color_customization">Taustavärin kustomointi</string>
-    <string name="why_upgrade_file_importing">Tuki tiedostojen tuonnille</string>
-    <string name="why_upgrade_zooming">Zoomaus</string>
     <string name="third_party_licences">Kolmansien osapuolien lisenssit</string>
     <string name="kotlin_title">Kotlin (ohjelmointikieli)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoomattavat kuvannäkymät)</string>
@@ -1005,17 +907,10 @@
     <string name="trial_expires_soon">Ilmainen kokeilusi päättyy pian.</string>
     <string name="unlock_for_one_final_day">Avaa sovelluksen lukitus yhdelle viimeiselle päivälle</string>
     <string name="welcome_to_app_name">Tervetuloa sovellukseen %s!</string>
-    <string name="trial_start_description">Kiitos sovelluksemme käytöstä. Voit käyttää tätä avattua versiota <font color="#FFFFFF">%d päivän ajan</font>. Harkitse kokeilujakson päättyessä päivitystä Pro-versioon. Se tarjoaa merkittävästi enemmän ominaisuuksoa, modernin ulkoasun ja monia muita parannuksia, eikä siinä ole mainoksia. \n \nSe on elinikäinen kertaostos ja jos et ole tyytyväinen, voit poistaa sen ja saada hyvityksen. \n \nToivottavasti pidät siitä :)</string>
-    <string name="trial_end_description">Päivitä Pro-versioon nauttiaksesi sovelluksesta täysin.
-\n
-\nSe on elinikäinen kertaostos ja jos et ole tyytyväinen, voit poistaa sen ja saada hyvityksen.
-\n
-\nNähdään siellä :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Kokeilujaksosi päättyy %d päivän kuluttua.</item>
         <item quantity="other">Kokeilujaksosi päättyy %d päivän kuluttua.</item>
     </plurals>
-    <string name="deprecated_app">VANHENTUNUT:: Tätä sovellusversiota ei enää ylläpidetä, hanki Pro-versio osoitteesta https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Muista, että saat rahasi automaattisesti takaisin, jos poistat minkä tahansa maksullisista sovelluksistamme kahden tunnin sisällä asentamisesta. Jos haluat rahasi milloin vain myöhemmin takaisin, ota yhteyttä sähköpostitse hello@fossify.org ja saat rahat takaisin. Tämä tekee kokeilun helpoksi :)</string>
     <string name="developer_description">Yksinkertaisia vapaan lähdekoodin Android-sovelluksia kustomoitavilla pienoissovelluksilla, ilman mainoksia ja tarpeettomia käyttöoikeuksia.</string>
     <string name="block_contact">Estä yhteystieto</string>
@@ -1044,7 +939,6 @@
     <string name="october_short">Lok</string>
     <string name="november_short">Mar</string>
     <string name="translation_bulgarian">Bulgaria</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="ok">OK</string>
     <string name="audio">Ääni</string>
     <string name="genre">Tyylilaji</string>
@@ -1063,10 +957,8 @@
     <string name="reorder_items_by_dragging">Uudelleenjärjestele kohteita vetämällä</string>
     <string name="known_issues">Tunnettuja ongelmia</string>
     <string name="number_of_items">Kohteiden lukumäärä</string>
-    <string name="donate_new">Hei, &lt;br&gt;&lt;br&gt; toivottavasti nautit sovelluksen käyttämisestä. Emme näytä mainoksia ja emmekä myöskään kerää tietojasi. Tue sovelluksen kehitystä ostamalla &lt;a href=https:/play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You &lt;/a&gt; Saat käyttöösi kaikki sovelluksenominaisuudet kuten sovelluksen värien mukautuksen.&lt;b&gt; Kiitos!</string>
     <string name="all_fossify_apps">Kaikki Fossify sovellukset</string>
     <string name="allow_alarm_sleep_timer">Sovellus tarvitsee pääsyn hälytyksiin. Muutoin hälytystä ei voi kytkeä pois päältä uniajastimen ajan loputtua.</string>
-    <string name="shared_theme_note">Huomaa, että vaikka käytät sovelluksen Pro-versiota, tarvitset silti Fossify Thank You:ta teknisten syiden vuoksi. Värisynkronointi toimii sen kautta.</string>
     <string name="purchase_simple_thank_you">Osta Fossify Thank You</string>
     <string name="theme_and_colors">Teema ja värit</string>
     <string name="app_icon_color_warning">Varoitus: Tietyt käynnistimet eivät välttämättä käsittele mukautettuja sovelluskuvakkeita oikein. Mikäli kuvake katoaa, yritä käynnistää sovellus Google Play:n tai sovelman kautta. Käynnistyksen jälkeen, palauta kuvakkeen vihreä väri #106D1F. Joissain tapauksissa sovelluksen uudelleenasennus voi olla tarpeen.</string>
@@ -1075,7 +967,6 @@
     <string name="days_letter">%dp</string>
     <string name="donate_short">Tue meitä ostamalla &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; saadaksesi käyttöön kaikki sovellusominaisuudet mukaan luettuna värien mukautusominaisuuden.</string>
     <string name="update_thank_you">Päivitä Fossify Thank You viimeisimpään versioon</string>
-    <string name="features_locked">Tämä ominaisuus on lukittu, tue meitä ostamalla &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; avataksesi sovelluksen kaikki ominaisuudet.&lt;br&gt;&lt;br&gt;Osto on kertaluonteinen. Huomioi, että mikäli et ole tyytyväinen, emme voi hyvittää ostosta.</string>
     <string name="translation_kabyle">Kabyyli</string>
     <string name="confirm_storage_access_restricted_text">Järjestelmärajoitusten vuoksi tämä kansio ei ole käytettävissä.</string>
     <string name="confirm_storage_access_restricted_text_open_system">Avaa järjestelmäsovelluksessa</string>

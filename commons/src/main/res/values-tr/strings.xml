@@ -89,7 +89,6 @@
     <string name="no_phone_number_found">Telefon numarası bulunamadı</string>
     <string name="change_view_type">Görünüm türünü değiştir</string>
     <string name="grid">Izgara</string>
-    <string name="grid_pro">Izgara (Pro)</string>
     <string name="uneven_grid">Düzensiz Izgara</string>
     <string name="list">Liste</string>
     <string name="increase_column_count">Sütun sayısını artır</string>
@@ -157,7 +156,6 @@
     <string name="search_conversations">Görüşmeleri ara</string>
     <string name="search_recordings">Kayıt ara</string>
     <string name="filter">Filtre</string>
-    <string name="filter_pro">Filtre (Pro)</string>
     <string name="no_items_found">Hiçbir öge bulunamadı.</string>
     <string name="change_filter">Filtreyi değiştir</string>
     <string name="no_storage_permissions">Depolama izni gerekiyor</string>
@@ -334,7 +332,6 @@
     <string name="apply_to_all_apps">Temayı tüm Fossify uygulamalarına uygula</string>
     <string name="app_icon_color_warning">Dikkat: Bazı başlatıcılar uygulama simgesi özelleştirmesini doğru şekilde yapamayabilir. Simge kaybolursa, uygulamayı Google Play veya erişilebiliyorsa bir widget aracılığıyla başlatmayı deneyin. Başlattıktan sonra, öntanımlı #106D1F yeşil simge rengini geri yükleyin. Aşırı durumlarda, uygulamanın yeniden kurulması gerekebilir.</string>
     <string name="global_theme_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
-    <string name="shared_theme_note">Pro uygulama sürümünü kullanıyor olsanız bile, teknik nedenlerden dolayı hala Fossify Teşekkürler\'e ihtiyacınız olduğunu unutmayın. Renk eşitlemesini o yapar.</string>
     <string name="purchase_thank_you"><![CDATA[
             Lütfen bu özelliği kullanmak ve geliştirme sürecine destek olmak için <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Teşekkürler</a> uygulamasını satın alın. Teşekkür ederiz!
             ]]></string>
@@ -371,10 +368,8 @@
     <string name="undo">Geri al</string>
     <string name="redo">Yinele</string>
     <string name="print">Yazdır</string>
-    <string name="print_pro">Yazdır (Pro)</string>
     <string name="shortcut">Kısayol</string>
     <string name="create_shortcut">Kısayol oluştur</string>
-    <string name="create_shortcut_pro">Kısayol oluştur (Pro)</string>
     <string name="add_number_to_contact">Kişiye numara ekle</string>
     <string name="view_contact_details">İletişim bilgilerini görüntüle</string>
     <string name="call_from_sim_1">SIM 1\'den ara</string>
@@ -455,7 +450,6 @@
     <string name="protection_setup_successfully">Parola kurulumu başarıyla yapıldı. Unutursanız lütfen uygulamayı yeniden yükleyin.</string>
     <string name="fingerprint_setup_successfully">Koruma kurulumu başarıyla yapıldı. Sıfırlamayla ilgili sorun olursa lütfen uygulamayı yeniden yükleyin.</string>
     <string name="lock_folder">Klasörü kilitle</string>
-    <string name="lock_folder_pro">Klasörü kilitle (Pro)</string>
     <string name="unlock_folder">Klasörün kilidini aç</string>
     <string name="lock_folder_notice">Bu koruma yalnızca bu uygulamada çalışır, gerçek bir sistem çapında klasör şifrelemesinin yerini almaz.</string>
     <string name="enter_password">Parola gir</string>
@@ -610,7 +604,6 @@
     <string name="general_settings">Genel</string>
     <string name="color_customization">Görünüm &amp; Hissiyat</string>
     <string name="customize_colors">Görünümü özelleştir</string>
-    <string name="feature_locked">Kilitli</string>
     <string name="customize_widget_colors">Widget renklerini özelleştir</string>
     <string name="customize_notifications">Bildirimleri özelleştir</string>
     <string name="use_english_language">İngilizce dilini kullan</string>
@@ -775,58 +768,14 @@
     <string name="friday_short">Cum</string>
     <string name="saturday_short">Cmt</string>
     <string name="sunday_short">Paz</string>
-    <string name="upgrade_to_pro_long">Uygulama sürümünüz artık güncellenmeyecek. Yeni düzeltmeler ve diğer iyileştirmeleri almak için lütfen Pro sürümüne yükseltin.</string>
-    <string name="upgrade_to_pro_long_click">Uygulama sürümünüz artık güncellenmeyecek. Buraya tıklayarak yeni düzeltmeler ve diğer iyileştirmeleri almak için lütfen Pro sürümüne yükseltin.</string>
     <string name="it_is_free">Şu süre kadar ücretsiz: %s. O zamana kadar indirirseniz, sonsuza dek ücretsiz olarak kullanabileceksiniz.</string>
     <string name="more_info">Daha fazla bilgi</string>
     <string name="upgrade">Yükselt</string>
     <string name="upgrade_calendar">Yerel olarak depolanan etkinlikleri bir .ics dosyasına dışa aktarıp ardından içe aktarma yoluyla el ile geçirmeniz gerekir. Her iki dışa aktarma/içe aktarma düğmelerini ana ekran menüsünde bulabilirsiniz.</string>
-    <string name="upgraded_from_free_gallery">Merhaba,
-\n
-\nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Bu sürümden memnun kaldığınızda ve belki de ayarlarınızı ve favorilerinizi taşıdığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatmaktan kaçınmak için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_to_pro_gallery">Merhaba,
-\n
-\nGörünüşe göre zaten Pro uygulama sürümüne de sahipsiniz. Bundan memnun kaldığınızda ve belki ayarlarınızı ve favorilerinizi taşıdığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatmaktan kaçınmak için bunu kaldırabilirsiniz.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_from_free">Merhaba,
-\n
-\nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Bundan memnun olduğunuzda ve belki de verilerinizi aktardığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatılmasını önlemek için eski ücretsiz olanı kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_to_pro">Merhaba,
-\n
-\nGörünüşe göre zaten Pro uygulama sürümüne de sahipsiniz. Bundan memnun olduğunuzda ve belki de verilerinizi taşıdığınızda, artık ihtiyacınız olmayacağı için yanlışlıkla başlatmaktan kaçınmak için bunu kaldırabilirsiniz.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_from_free_calendar">Merhaba,
-\n
-\nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Yerel olarak depolanan etkinliklerinizi taşımak istiyorsanız, ücretsiz uygulama sürümünde bunları bir .ics dosyasına aktararak ve üst menüden buraya aktararak bunu elle yapmanız gerekir.
-\n
-\nPro sürümdeki kurulumunuzdan memnun olduğunuzda, artık ihtiyacınız olmayacağı için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_from_free_contacts">Merhaba,
-\n
-\nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. \"%s\" altında kayıtlı kişileriniz varsa, ücretsiz uygulama sürümünde bunları bir .vcf dosyasına aktararak ve üst menüden buraya aktararak bunu elle yapmanız gerekir.
-\n
-\nPro sürümdeki kurulumunuzdan memnun olduğunuzda, artık ihtiyacınız olmayacağı için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir.
-\n
-\nTeşekkürler!</string>
-    <string name="upgraded_from_free_notes">Merhaba,
-\n
-\nGörünüşe göre ücretsiz sürümden yeni yükseltme yaptınız. Notlarınızı taşımak istiyorsanız, ücretsiz uygulama sürümünde bunları bir dosyaya aktararak ve üst menüden buraya aktararak bunu elle yapmanız gerekir.
-\n
-\nPro sürümdeki kurulumunuzdan memnun olduğunuzda, artık ihtiyacınız olmayacağı için eski ücretsiz sürümü kaldırabilirsiniz, ayrıca bu iletişim kutusunun görünmesini de önleyecektir.
-\n
-\nTeşekkürler!</string>
     <string name="about">Hakkında</string>
     <string name="website">Web sitesi</string>
     <string name="website_label">Kaynak kodları için ziyaret edin</string>
     <string name="email_label">Görüşlerinizi veya önerilerinizi şuraya gönderin:</string>
-    <string name="upgrade_to_pro">Pro\'ya Yükselt</string>
     <string name="invite_friends">Arkadaşlarınızı davet edin</string>
     <string name="share_text">Selam, %1$s adlı harika bir uygulama buldum. %2$s adresinden indir</string>
     <string name="invite_via">Şununla davet et</string>
@@ -843,23 +792,14 @@
     <string name="additional_info">Ek bilgiler</string>
     <string name="app_version">Uygulama sürümü: %s</string>
     <string name="device_os">Aygıt İS: %s</string>
-    <string name="donate_please"><![CDATA[
-            Merhaba, <br><br>
-            Umarım uygulamanın tadını çıkarırsınız. Hiçbir reklam içermiyor, bu yüzden lütfen <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Teşekkürler</a> uygulamasını satın alarak geliştirmeyi destekleyip, bu pencerenin tekrar görünmesini sağlayabilirsiniz.<br><br>
-            Teşekkür ederim!
-        ]]></string>
-    <string name="donate_new">Merhaba,&lt;br&gt;&lt;br&gt; umarım uygulamadan memnunsunuzdur. Hiçbir reklam içermiyor ve verilerinizi de toplamıyoruz, lütfen &lt;href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alarak geliştirmeyi destekleyin. Ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.&lt;br&gt;&lt;br&gt; Teşekkürler!</string>
     <string name="donate_short">Lütfen &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alarak bizi destekleyin, ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.</string>
     <string name="purchase">Satın al</string>
     <string name="update_thank_you">Lütfen Fossify Teşekkürler\'i son sürüme güncelleyin</string>
     <string name="before_asking_question_read_faq">Bir soru sormadan önce, lütfen uygulama ayarlarını gözden geçirin ve önce Sık Sorulan Sorular bölümünü okuyun. Belki çözüm oradadır.</string>
     <string name="make_sure_latest">Ayrıca uygulamanın en son sürümünü kullandığınızdan emin olun.</string>
-    <string name="make_sure_upgrade">Ayrıca bu uygulama sürümünün artık geliştirilmediğini unutmayın, birçok iyileştirme için Pro sürümünü edinin.</string>
     <string name="read_it">Oku</string>
     <string name="read_faq">SSS\'yi oku</string>
     <string name="thank_you">Teşekkürler</string>
-    <string name="widget_locked_pro">Widget kilitli.\nKilidi açmak için lütfen Pro sürümüne yükseltin.</string>
-    <string name="features_locked">Bu özellik kilitlidir, lütfen tam uygulamanın kilidini açmak için &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alın.&lt;br&gt;&lt;br&gt;Bu yalnızca tek seferlik bir ödemedir ve memnun kalmazsanız geri ödeme yapabiliriz.</string>
     <string name="new_app">
         <![CDATA[
             Selam,<br><br>
@@ -915,8 +855,6 @@
     <string name="faq_6_text_commons">Bu sorun, başlatıcınız simge özelleştirmeyi tam olarak desteklemediğinde ortaya çıkar. Uygulamayı Google Play veya erişilebiliyorsa bir widget aracılığıyla başlatmayı deneyin. Başlattıktan sonra, öntanımlı #106D1F yeşil simge rengini geri yükleyin. Aşırı durumlarda, uygulamanın yeniden kurulması gerekebilir.</string>
     <string name="faq_7_title_commons">Para banka hesabımdan düşüldü, ancak uygulamayı indiremiyorum. Ne yapabilirim?</string>
     <string name="faq_7_text_commons">Ödemeler tamamen Google tarafından işlenir, zaman zaman sistemleri aksar. Sadece Google Play uygulama önbelleğinizi temizleyin ve aygıtınızı yeniden başlatın, ardından yeniden indirmeyi deneyin.</string>
-    <string name="faq_8_title_commons">Neden Pro sürümüne yükseltmeliyim?</string>
-    <string name="faq_8_text_commons">Uygulama sürümünüz artık güncellenmediğinden, tespit ettiğiniz hatalar asla düzeltilmeyecektir. Ayrıca yeni işlevler eklenmeyecektir. Pro sürümünü Google Play\'den az miktarda para karşılığında satın alabilirsiniz. Bir kerelik ödeme, yani bir kez satın aldığınızda, bir daha asla ödeme yapmanız gerekmeyeceği anlamına gelir. Yeni bir aygıt aldıktan sonra bile. Pro sürümünü beğenmediyseniz, birkaç saat içinde kaldırabilirsiniz ve paranızı otomatik olarak geri alırsınız. Daha sonra istediğiniz zaman geri ödeme almak isterseniz, hello@fossify.org adresinden bizimle iletişime geçmeniz yeterlidir.</string>
     <string name="faq_9_title_commons">Aynı anda birden çok ögeyi nasıl seçebilirim?</string>
     <string name="faq_9_text_commons">Bunu yapmanın birçok yolu var. İlki, bir ögeye uzun süre basarak seçim modunu başlatmak, ardından diğerlerini seçmek için kısa tıklamaktır. İkinci yol, PC\'lerdeki ögeleri fareyle seçmeye benzer, yalnızca bir ögeye uzun basarak seçim modunu başlatın ve ardından parmağınızı aşağı doğru kaydırarak diğer ögelere sürükleyin. Birden fazla öge seçmenin üçüncü yolu, bir ögeye uzun süre basmak, ardından diğerine uzun basmaktır. Tüm ögeleri seçmek istiyorsanız, yalnızca bir ögeye uzun basın, ardından sol üst köşedeki seçili öge sayacına tıklayın. Bu, her şeyi seçecek veya seçimini kaldıracaktır.</string>
     <string name="faq_10_title_commons">Uygulamayı satın aldım ancak başka bir aygıta indiremiyorum.</string>
@@ -977,40 +915,6 @@
     <string name="translation_chinese_hk">Çince (Hong Kong)</string>
     <string name="translation_chinese_cn">Çince (Basitleştirilmiş)</string>
     <string name="translation_chinese_tw">Çince (Geleneksel)</string>
-    <string name="why_upgrade">Pro sürümünü şimdi alın!</string>
-    <string name="why_upgrade_basic_version">Temel</string>
-    <string name="why_upgrade_no_ads">Reklamsız</string>
-    <string name="why_upgrade_no_internet_access">İnternet erişimi yok</string>
-    <string name="why_upgrade_footer">%100 Para İadesi Garantisi</string>
-    <string name="why_upgrade_footer_one_time_payment">Tek seferlik ödeme</string>
-    <string name="why_upgrade_improved_design">Geliştirilmiş tasarım</string>
-    <string name="why_upgrade_many_other_improvements">Diğer birçok iyileştirme</string>
-    <string name="why_upgrade_advanced_photo_editor">Gelişmiş fotoğraf düzenleyici</string>
-    <string name="why_upgrade_advanced_photo_video_editor">Gelişmiş fotoğraf ve video düzenleyici</string>
-    <string name="why_upgrade_heic_support">HEIC/HEIF dosya desteği</string>
-    <string name="why_upgrade_batch_renaming">Gelişmiş toplu dosya adlandırma</string>
-    <string name="why_upgrade_folder_locking">Kişisel klasör kilidi</string>
-    <string name="why_upgrade_printing_support">Yazıcı desteği</string>
-    <string name="why_upgrade_time_zone_support">Zaman dilimi desteği</string>
-    <string name="why_upgrade_attendees_emails">Toplantı ve e-posta hatırlatıcıları</string>
-    <string name="why_upgrade_easy_event_importing">Kolay etkinlik ekleme</string>
-    <string name="why_upgrade_new_widgets">Yeni widget\'lar</string>
-    <string name="why_upgrade_duplicate_contact_merging">Rehberde tekrarlanan kişilerin birleştirilmesi</string>
-    <string name="why_upgrade_font_size_customization">Metin boyutu kişiselleştirme</string>
-    <string name="why_upgrade_private_contact_sharing">Uygulamalarımız arasında tercihe bağlı rehber bilgileri paylaşma</string>
-    <string name="why_upgrade_customizable_contact_ringtones">Özelleştirilebilir kişi zil sesleri</string>
-    <string name="why_upgrade_contact_filtering">Kişi filtreleme</string>
-    <string name="why_upgrade_contact_private_contacts">Özel olarak saklanan kişiler</string>
-    <string name="why_upgrade_checklists">Yapılacaklar listeleri</string>
-    <string name="why_upgrade_different_note_per_widget">Her araç için farklı not ve renkler</string>
-    <string name="why_upgrade_note_locking">Not kilitleme</string>
-    <string name="why_upgrade_date_and_time_format">Saat ve tarih biçimini kişiselleştirme</string>
-    <string name="why_upgrade_shortcuts">Ana sayfada kısayollar</string>
-    <string name="why_upgrade_file_compression">Dosya sıkıştırma desteği</string>
-    <string name="why_upgrade_recents_tab">Son dosyaların bulunduğu sekme</string>
-    <string name="why_upgrade_background_color_customization">Arka plan renklerini kişiselleştirme</string>
-    <string name="why_upgrade_file_importing">Dosya ekleme desteği</string>
-    <string name="why_upgrade_zooming">Yakınlaştırma</string>
     <string name="third_party_licences">Üçüncü taraf lisansları</string>
     <string name="kotlin_title">Kotlin (programlama dili)</string>
     <string name="subsampling_title">Subsampling Scale Image View (yakınlaştırılabilir görüntü görünümleri)</string>
@@ -1050,17 +954,10 @@
     <string name="trial_expires_soon">Deneme süreniz yakında sona eriyor.</string>
     <string name="unlock_for_one_final_day">Son bir gün için uygulamanın kilidini aç</string>
     <string name="welcome_to_app_name">%s uygulamasına hoş geldiniz!</string>
-    <string name="trial_start_description">Uygulamamızı kullandığınız için teşekkür ederiz. Bu kilidi açılmış sürümü <font color="#FFFFFF">%d gün</font> için kullanabilirsiniz. Deneme sürümü sona erdiğinde, lütfen Pro sürümüne yükseltmeyi düşünün. Çok sayıda yeni özellik, modern tasarım, reklamsız kullanıma ve diğer birçok iyileştirmeye sahiptir. \n\nBunun için yalnızca bir kez ödeme yapmanız yeterlidir, memnun kalmazsanız kaldırabilir ve geri ödeme alabilirsiniz.\n\nUmarım beğenirsiniz :)</string>
-    <string name="trial_end_description">Uygulamanın keyfini sonuna kadar çıkarmak için lütfen Pro sürümüne yükseltin.
-\n
-\nYalnızca bir kez ödeme yapmanız yeterlidir, memnun kalmazsanız kaldırabilir ve geri ödeme alabilirsiniz.
-\n
-\nOrada görüşürüz :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Deneme süreniz %d gün içinde sona erecektir.</item>
         <item quantity="other">Deneme süreniz %d gün içinde sona erecek.</item>
     </plurals>
-    <string name="deprecated_app">Kullanımdan kaldırıldı: Uygulamanın bu sürümü artık sağlanmıyor, Pro sürümünü şuradan indirin: https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Ücretli herhangi bir uygulamayı 2 saat içinde kaldırırsanız, otomatik olarak iade edileceğini unutmayın. İstediğiniz zaman geri ödeme almak isterseniz, hello@fossify.org adresinden bizimle iletişime geçmeniz yeterli olacaktır. Bu denemeyi kolaylaştırır :)</string>
     <string name="developer_description">Özelleştirilebilir widget\'lara sahip, reklamlar ve gereksiz izinler içermeyen bir grup basit, açık kaynaklı Android uygulaması.</string>
     <string name="deletion_confirmation_short">%s silinsin mi?</string>
@@ -1068,7 +965,6 @@
     <string name="usb">USB</string>
     <string name="march_short">Mar</string>
     <string name="may_short">May</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="audio">Ses</string>
     <string name="genre">Tür</string>
     <string name="exif">EXIF</string>

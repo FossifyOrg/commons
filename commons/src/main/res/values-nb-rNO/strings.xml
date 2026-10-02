@@ -61,7 +61,6 @@
     <string name="no_phone_number_found">Fant ikke noe telefonnummer</string>
     <string name="change_view_type">Endre visningstype</string>
     <string name="grid">Rutenett</string>
-    <string name="grid_pro">Rutenett (Pro)</string>
     <string name="list">Liste</string>
     <string name="increase_column_count">Øk antall kolonner</string>
     <string name="reduce_column_count">Reduser antall kolonner</string>
@@ -214,9 +213,7 @@
     <string name="undo">Angre</string>
     <string name="redo">Annuler angre</string>
     <string name="print">Skriv ut</string>
-    <string name="print_pro">Skriv ut (Pro)</string>
     <string name="create_shortcut">Opprett snarvei</string>
-    <string name="create_shortcut_pro">Opprett snarvei (Pro)</string>
     <string name="add_number_to_contact">Legg til nummer i kontakt</string>
     <string name="view_contact_details">Vis kontaktdetaljer</string>
     <string name="toggle_filename">Vis/skjul filnavn</string>
@@ -273,7 +270,6 @@
     <string name="protection_setup_successfully">Passord er stilt inn. Installer appen på nytt hvis du glemmer det.</string>
     <string name="fingerprint_setup_successfully">Beskyttelse er stilt inn. Installer appen på nytt i tilfelle problemer med å tilbakestille.</string>
     <string name="lock_folder">Lås mappe</string>
-    <string name="lock_folder_pro">Lås mappe (Pro)</string>
     <string name="unlock_folder">Lås opp mappe</string>
     <string name="yesterday">I går</string>
     <string name="today">I dag</string>
