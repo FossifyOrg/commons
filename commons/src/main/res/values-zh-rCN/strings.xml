@@ -757,7 +757,7 @@
     <string name="additional_info">额外信息</string>
     <string name="app_version">应用版本：%s</string>
     <string name="device_os">设备系统：%s</string>
-    <string name="donate_short">如果条件允许，请考虑购买 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 应用支持我们的开发工作。购买后将解锁包括颜色自定义在内的所有功能。</string>
+    <string name="donate_short">喜欢 Fossify 吗？购买 &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt; 以支持我们无广告应用的开发。还支持自定义字体功能，并实现各 Fossify 应用间的个性化设置共享。感谢您的支持！</string>
     <string name="purchase">购买</string>
     <string name="update_thank_you">请更新 Fossify Thank You 到最新版本</string>
     <string name="before_asking_question_read_faq">在提问之前，请先打开应用的设置并阅读常见问题。也许您可以在那里找到答案。</string>
@@ -981,4 +981,6 @@
     <string name="commonmark_title">CommonMark（Markdown 解析器）</string>
     <string name="jsoup_title">jsoup（HTML 解析器）</string>
     <string name="commons_csv_title">Apache Commons CSV（CSV 解析器）</string>
+    <string name="rate_app_prompt">喜欢这款应用吗？请在 Google Play 上为它评分。</string>
+    <string name="donation_prompt">如果您喜欢使用这款应用，请考虑支持 Fossify 的开发。</string>
 </resources>
