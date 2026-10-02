@@ -959,7 +959,7 @@
     <string name="saturday_letter">S</string>
     <string name="copyright">v %1$s
 \nCopyright © Fossify %2$d</string>
-    <string name="donate_short">Podpořte nás zakoupením aplikace &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Poděkování Fossify&lt;/a&gt;, odemknete tím také všechny funkce aplikace včetně přizpůsobení barvy.</string>
+    <string name="donate_short">Líbí se vám Fossify? Podpořte vývoj naší aplikace bez reklam zakoupením aplikace &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Poděkování Fossify&lt;/a&gt;. Zároveň s tím se vám aktivují vlastní písma a sdílené přizpůsobení napříč aplikacemi Fossify. Děkujeme za vaši podporu!</string>
     <string name="update_thank_you">Aktualizujte prosím aplikaci Poděkování Fossify na nejnovější verzi</string>
     <string name="faq_2_text_commons"><![CDATA[
             Ano, samozřejmě. Rozšiřte povědomí o aplikacích nebo nám dejte zpětnou vazbu a hodnocení. Můžete také pomoci s překladem aplikací do nového jazyka, nebo aktualizací některého z existujících.
@@ -1064,4 +1064,6 @@
     <string name="commonmark_title">CommonMark (parser Markdown)</string>
     <string name="jsoup_title">jsoup (parser HTML)</string>
     <string name="commons_csv_title">Apache Commons CSV (parser CSV)</string>
+    <string name="rate_app_prompt">Líbí se vám aplikace? Ohodnoťte ji na Google Play.</string>
+    <string name="donation_prompt">Pokud se vám líbí tato aplikace, zvažte podpoření vývoje Fossify.</string>
 </resources>
