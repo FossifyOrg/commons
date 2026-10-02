@@ -993,7 +993,7 @@ Cette liste contient toutes les personnes qui ont sensiblement contribué à une
     <string name="usb">USB</string>
     <string name="saturday_letter">S</string>
     <string name="version_placeholder">Version %s</string>
-    <string name="donate_short">Soutenez-nous en achetant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, s\'il vous plaît ! Cela débloquera également toutes les fonctionnalités de l\'application, y compris la personnalisation des couleurs.</string>
+    <string name="donate_short">Soutenez-nous en achetant &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, s\'il vous plaît ! Cela débloquera également toutes les fonctionnalités de l\'application, y compris la personnalisation des couleurs.</string>
     <string name="contacts_short">Contacts</string>
     <string name="notes_short">Notes</string>
     <string name="faq_6_text_commons">Ce problème survient lorsque votre lanceur ne prend pas totalement en charge la personnalisation des icônes. Essayez de lancer l\'application via Google Play ou un widget, s\'il est accessible. Après le lancement, rétablissez la couleur verte par défaut de l\'icône #106D1F. Dans les cas extrêmes, il peut être nécessaire de réinstaller l\'application.</string>
