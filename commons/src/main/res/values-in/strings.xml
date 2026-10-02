@@ -921,7 +921,7 @@
     <string name="june_short">Jun</string>
     <string name="july_short">Jul</string>
     <string name="saturday_letter">S</string>
-    <string name="donate_short">Silakan mendukung kami dengan membeli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Terima Kasih Fossify</a>, ini juga akan membuka semua fitur aplikasi termasuk kustomisasi warna.</string>
+    <string name="donate_short">Silakan mendukung kami dengan membeli &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Terima Kasih Fossify&lt;/a&gt;, ini juga akan membuka semua fitur aplikasi termasuk kustomisasi warna.</string>
     <string name="notes_short">Catatan</string>
     <string name="donate_to_fossify">Berdonasi ke Fossify</string>
     <string name="little_to_no_fee">Biaya kecil sampai tidak ada</string>
