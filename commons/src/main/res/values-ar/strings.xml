@@ -1040,7 +1040,7 @@
     <string name="reorder_items_by_dragging">إعادة ترتيب العناصر بالسحب</string>
     <string name="during_day_at">خلال اليوم في الساعة %1$02d:%2$02d</string>
     <string name="copyright">الإصدار %1$s\nحقوق الطبع والنشر © Fossify %2$d</string>
-    <string name="donate_short">ادعمنا بشراء <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> من فضلك، سيفتح ذلك أيضًا جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
+    <string name="donate_short">ادعمنا بشراء &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt; من فضلك، سيفتح ذلك أيضًا جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
     <string name="platforms">المنصات</string>
     <string name="confirm_storage_access_restricted_text">بسبب قيود النظام، هذا المجلد غير متوفر.</string>
     <string name="confirm_storage_access_restricted_text_open_system">فتح في تطبيق النظام</string>
