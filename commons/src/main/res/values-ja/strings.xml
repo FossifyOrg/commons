@@ -85,7 +85,6 @@
     <string name="no_phone_number_found">電話番号が見つかりません</string>
     <string name="change_view_type">表示形式の変更</string>
     <string name="grid">グリッド</string>
-    <string name="grid_pro">グリッド (Pro)</string>
     <string name="list">リスト</string>
     <string name="increase_column_count">列数を増やす</string>
     <string name="reduce_column_count">列数を減らす</string>
@@ -137,7 +136,6 @@
     <string name="search_conversations">会話を検索</string>
     <string name="search_recordings">録音を検索</string>
     <string name="filter">フィルタ</string>
-    <string name="filter_pro">フィルタ (Pro)</string>
     <string name="no_items_found">何も見つかりませんでした。</string>
     <string name="change_filter">フィルタを変更</string>
     <string name="no_storage_permissions">ストレージへのアクセス許可が必要です</string>
@@ -330,10 +328,8 @@
     <string name="undo">元に戻す</string>
     <string name="redo">やり直し</string>
     <string name="print">印刷</string>
-    <string name="print_pro">印刷 (Pro)</string>
     <string name="shortcut">ショートカット</string>
     <string name="create_shortcut">ショートカットを作成</string>
-    <string name="create_shortcut_pro">ショートカットを作成 (Pro)</string>
     <string name="add_number_to_contact">連絡先に番号を追加</string>
     <string name="view_contact_details">連絡先の詳細を表示</string>
     <string name="call_from_sim_1">SIM 1 から電話</string>
@@ -406,7 +402,6 @@
     <string name="protection_setup_successfully">パスワードの設定が完了しました。パスワードを紛失した場合は、アプリを再インストールしてください。</string>
     <string name="fingerprint_setup_successfully">指紋認証の設定が完了しました。何らかの問題によりアプリを再インストールした場合には、再度設定し直してください。</string>
     <string name="lock_folder">フォルダに鍵をかける</string>
-    <string name="lock_folder_pro">フォルダに鍵をかける (Pro)</string>
     <string name="unlock_folder">フォルダの鍵を外す</string>
     <string name="lock_folder_notice">この保護はアプリ内のみの機能となっており、実際にフォルダ全体を暗号化保護しているわけではありません。</string>
     <string name="yesterday">昨日</string>
@@ -677,42 +672,14 @@
     <string name="friday_short">金</string>
     <string name="saturday_short">土</string>
     <string name="sunday_short">日</string>
-    <string name="upgrade_to_pro_long">アプリのバージョンはこれ以上更新されません。新しい修正や改善を受けるには、Pro版へアップグレードしてください。</string>
-    <string name="upgrade_to_pro_long_click">このアプリのバージョンはこれ以上更新されません。新たな修正と改善を受けるには、ここをタップしてPro版にアップグレードしてください。</string>
     <string name="it_is_free">%sまで無料です。それまでにダウンロードすれば、永久に無料でご利用いただけます。 </string>
     <string name="more_info">詳細を確認</string>
     <string name="upgrade">アップグレード</string>
     <string name="upgrade_calendar">ローカルに保存されたイベントは、手動で.icsファイルにエクスポートしてインポートする必要があります。インポート/エクスポートボタンはメイン画面のメニューにあります。</string>
-    <string name="upgraded_from_free">こんにちは。
-\n
-\n無料版からアップグレードされたようですね。データの移行やセットアップが完了したら、誤って起動しないように、無料版のアプリをアンインストールしてください。
-\n
-\nありがとうございます！</string>
-    <string name="upgraded_to_pro">こんにちは。
-\n
-\nすでにPro版のアプリをお持ちのようですね。データの移行が完了したら、誤って起動しないように、こちらのアプリをアンインストールしてください。
-\n
-\nありがとうございます！</string>
-    <string name="upgraded_from_free_calendar">こんにちは。
-\n
-\n無料版からアップグレードされたようですね。ローカルに保存された予定を移行したい場合は、手動で予定を移行する必要があります。無料版のアプリのトップメニューから.icsファイルにエクスポートした後に、Pro版のアプリのトップメニューから.icsファイルをインポートしてください。
-\n
-\n予定の移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。
-\n
-\nありがとうございます！</string>
-    <string name="upgraded_from_free_contacts">こんにちは。\n\n無料版からアップグレードされたようですね。「%s」以下に保存されている連絡先がある場合は、手動で連絡先を移行する必要があります。無料版のアプリのトップメニューから.vcfファイルにエクスポートした後に、Pro版のアプリのトップメニューから.vcfファイルをインポートしてください。\n\n連絡先の移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。\n\nありがとうございます！</string>
-    <string name="upgraded_from_free_notes">こんにちは。
-\n
-\n無料版からアップグレードされたようですね。メモを移行したい場合は、手動でメモを移行する必要があります。無料版のアプリのトップメニューからメモをエクスポートした後に、Pro版のアプリのトップメニューからメモをインポートしてください。
-\n
-\nメモの移行やセットアップが完了したら、不要になった無料版のアプリをアンインストールして構いません。アンインストールしたら、このダイアログは表示されなくなります。
-\n
-\nありがとうございます！</string>
     <string name="about">このアプリについて</string>
     <string name="website">Webサイト</string>
     <string name="website_label">ソースコードはこちら</string>
     <string name="email_label">ご意見やご提案をお送りください</string>
-    <string name="upgrade_to_pro">Pro版にアップグレード</string>
     <string name="invite_friends">友達を招待</string>
     <string name="share_text">%2$s で %1$s を確認してください</string>
     <string name="invite_via">招待</string>
@@ -726,20 +693,12 @@
     <string name="additional_info">追加情報</string>
     <string name="app_version">アプリバージョン: %s</string>
     <string name="device_os">デバイスOS: %s</string>
-    <string name="donate_please"><![CDATA[
-            こんにちは。<br><br>
-            アプリを楽しんでもらえているでしょうか。このアプリには広告は含まれていません。<a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>アプリを購入し、開発をサポートしてください。購入すれば、このダイアログが今後表示されることはありません。<br><br>
-            よろしくお願いします！
-        ]]></string>
     <string name="purchase">購入</string>
     <string name="before_asking_question_read_faq">お問い合わせいただく前に、アプリの設定を確認し、よくある質問を見てください。答えが載っているかもしれません。</string>
     <string name="make_sure_latest">最新バージョンのアプリを利用しているかご確認ください。</string>
-    <string name="make_sure_upgrade">また、このアプリのバージョンは開発されていないことにご注意ください。Pro版を入手すると、多くの改善が得られます。</string>
     <string name="read_it">見る</string>
     <string name="read_faq">FAQ</string>
     <string name="thank_you">ありがとうございます</string>
-    <string name="widget_locked_pro">ウィジェットはロックされています。
-\nロックを解除するには、Pro版にアップグレードしてください。</string>
     <string name="new_app"><![CDATA[
             こんにちは、<br><br>
             最近、新しいアプリをいくつかリリースしたのでお知らせします:<br><br>
@@ -785,8 +744,6 @@
     <string name="faq_6_title_commons">ランチャーからアプリのアイコンが消えました。どうしたらいいですか？</string>
     <string name="faq_7_title_commons">銀行口座から引き落としされていますが、アプリがダウンロードできません。どうしたらいいですか？</string>
     <string name="faq_7_text_commons">お支払いはGoogleが対応していますが、時にシステム上で不具合があるようです。Google Playのアプリキャッシュを削除し、デバイスを再起動してダウンロードしてみてください。</string>
-    <string name="faq_8_title_commons">なぜPro版にアップグレードしたほうがいいのですか？</string>
-    <string name="faq_8_text_commons">あなたのアプリのバージョンは既にアップデートの対象ではないため、バグが発見されても修復は行われず、新機能も追加されません。Pro版はGoogle Playで少額で販売されています。支払いは1度のみで、購入後に追加の支払いを行う必要はありません。これは機種の変更を行った場合も同じです。購入後、数時間以内にアンインストールすれば自動的に返金されます。 それ以降に払い戻しが必要な場合は hello@fossify.org までご連絡ください。</string>
     <string name="faq_9_title_commons">一度に複数のアイテムを選択する方法はありますか？</string>
     <string name="faq_9_text_commons">いくつかの方法があります。1つ目は、アイテムを長押しして選択モードを開始し、他のアイテムを短くタップして選択する方法です。2つ目は、パソコンのマウスでアイテムを選択するのと同じように、アイテムを長押しして選択モードを開始し、そのまま指を他のアイテムにドラッグして選択する方法です。3つ目は、1つ目のアイテムを長押ししてから別のアイテムを長押しする方法で、間にある全てのアイテムが選択されます。全てのアイテムを選択したい場合は、アイテムを長押ししてから、左上にあるアイテムカウンターをタップしてください。アイテムカウンターで全て選択をしたり、解除したりできます。</string>
     <string name="faq_10_title_commons">アプリを購入しましたが、違うデバイスでダウンロードできません。</string>
@@ -794,40 +751,6 @@
     <string name="contributors">貢献者</string>
     <string name="translation">翻訳</string>
     <string name="development">開発</string>
-    <string name="why_upgrade">今すぐPro版をゲットしよう！</string>
-    <string name="why_upgrade_basic_version">ベーシック</string>
-    <string name="why_upgrade_pro_version">プロ</string>
-    <string name="why_upgrade_no_ads">広告なし</string>
-    <string name="why_upgrade_no_internet_access">インターネットにアクセス不要</string>
-    <string name="why_upgrade_footer">100％返金保証</string>
-    <string name="why_upgrade_footer_one_time_payment">1回払い</string>
-    <string name="why_upgrade_improved_design">改良されたデザイン</string>
-    <string name="why_upgrade_advanced_photo_editor">高度な写真編集機能</string>
-    <string name="why_upgrade_advanced_photo_video_editor">高度な写真＆動画編集機能</string>
-    <string name="why_upgrade_heic_support">HEIC / HEIFファイル対応</string>
-    <string name="why_upgrade_batch_renaming">高度なファイル名の一括変更機能</string>
-    <string name="why_upgrade_folder_locking">個々のフォルダのロック</string>
-    <string name="why_upgrade_printing_support">印刷対応</string>
-    <string name="why_upgrade_time_zone_support">現地時間対応</string>
-    <string name="why_upgrade_attendees_emails">出席者とメール通知</string>
-    <string name="why_upgrade_easy_event_importing">簡単な予定のインポート</string>
-    <string name="why_upgrade_new_widgets">新しいウィジェット</string>
-    <string name="why_upgrade_duplicate_contact_merging">より優れた重複する連絡先の統合機能</string>
-    <string name="why_upgrade_font_size_customization">文字サイズのカスタマイズ</string>
-    <string name="why_upgrade_private_contact_sharing">アプリ内で個別連絡先をシェアするオプション</string>
-    <string name="why_upgrade_customizable_contact_ringtones">カスタマイズ可能な連絡先の着信音</string>
-    <string name="why_upgrade_contact_filtering">連絡先フィルタリング</string>
-    <string name="why_upgrade_contact_private_contacts">非公開の連絡先</string>
-    <string name="why_upgrade_checklists">チェックリスト</string>
-    <string name="why_upgrade_different_note_per_widget">各ウィジェットに違うメモと色</string>
-    <string name="why_upgrade_note_locking">メモのロック</string>
-    <string name="why_upgrade_date_and_time_format">日付と時刻の表示形式のカスタマイズ</string>
-    <string name="why_upgrade_shortcuts">ホーム画面のショートカット</string>
-    <string name="why_upgrade_file_compression">ファイル圧縮対応</string>
-    <string name="why_upgrade_recents_tab">最近のファイルのタブ</string>
-    <string name="why_upgrade_background_color_customization">背景色のカスタマイズ</string>
-    <string name="why_upgrade_file_importing">ファイル入力対応</string>
-    <string name="why_upgrade_zooming">拡大縮小</string>
     <string name="third_party_licences">サードパーティー ライセンス</string>
     <string name="kotlin_title">Kotlin (プログラミング言語)</string>
     <string name="subsampling_title">Subsampling Scale Image View (ズーム可能画像ビュー)</string>
@@ -866,16 +789,9 @@
     <string name="trial_expires_soon">試用期間はまもなく終了します。</string>
     <string name="unlock_for_one_final_day">最終日にアプリのロックを解除する</string>
     <string name="welcome_to_app_name">ようこそ %s へ！</string>
-    <string name="trial_start_description">私たちのアプリをご利用いただきありがとうございます。このアプリのロック解除版を <font color="#FFFFFF">%d 日間</font> 試用することができます。試用が終了したら、Pro版へのアップグレードをご検討ください。多くの新しい機能、モダンなデザイン、広告なし、その他多くの改善点があります。 \n \n一度きりの購入で永続的に使用することができます。ご満足いただけない場合は、アプリをアンインストールして払い戻しを受けることもできます。 \n \n気に入っていただければ幸いです :)</string>
-    <string name="trial_end_description">多くの機能をともなったPro版へのアップグレードをご検討ください。
-\n
-\n一度きりの購入で永続的に使用することができます。ご満足いただけない場合は、アプリをアンインストールして払い戻しを受けることもできます。
-\n
-\nそれでは、また :)</string>
     <plurals name="trial_expires_days">
         <item quantity="other">試用期間の残りは %d 日です。</item>
     </plurals>
-    <string name="deprecated_app">非推奨: このバージョンのアプリはメンテナンスが行われなくなります。こちらのURLからPro版を入手してください。https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">どのアプリでも、購入後２時間以内にアンインストールすると自動的に払い戻しされることを覚えていてください。それ以降に払い戻しが必要な場合は、こちらにお問い合わせください。hello@fossify.org
 お試ししやすいかと思います :)</string>
     <string name="developer_description">広告や不要な権限がなく、カスタマイズ可能なウィジェットを備えたシンプルな複数のオープンソースAndroidアプリ。</string>
@@ -956,7 +872,6 @@
     <string name="enter_password">パスワードを入力</string>
     <string name="empty_password_new">パスワードを入力してください</string>
     <string name="empty_password">パスワードを入力してください</string>
-    <string name="feature_locked">ロック</string>
     <string name="start_week_on">週の開始日</string>
     <string name="backups">バックアップ</string>
     <string name="manage_automatic_backups">自動バックアップの管理</string>
@@ -998,10 +913,8 @@
     <string name="translation_turkish">トルコ語</string>
     <string name="translation_chinese_hk">中国語（香港）</string>
     <string name="purchase_simple_thank_you">Simple Thank Youを購入</string>
-    <string name="shared_theme_note">なお、Proアプリのバージョンを使用している場合でも、技術上の理由でFossify Thank Youは必要となります。このアプリは色の同期を実行します。</string>
     <string name="translation_lithuanian">リトアニア語</string>
     <string name="translation_nepali">ネパール語</string>
-    <string name="why_upgrade_many_other_improvements">その他多くの改善</string>
     <string name="faq_2_text_commons"><![CDATA[
             はい、もちろんです。アプリについて広めたり、良いフィードバックと評価を行ったり、または翻訳に参加したりしていただけます。
             翻訳のガイドは<a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>このウェブサイト</a>にあります。質問があれば、<a href=mailto:hello@fossify.org>hello@fossify.org</a>までご連絡ください。
@@ -1014,22 +927,10 @@
 \n%h - 時
 \n%m - 分
 \n%s - 秒</string>
-    <string name="upgraded_from_free_gallery">こんにちは。
-\n
-\n無料版からアップグレードされたようですね。データやお気に入りの移行が完了したら、誤って起動しないように、無料版のアプリをアンインストールしてください。アンインストールしたら、このダイアログは表示されなくなります。
-\n
-\nありがとうございます！</string>
-    <string name="features_locked">この機能はロックされています。&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;の購入でロックを解除できます。&lt;br&gt;&lt;br&gt;これは1回きりの支払いで、もし満足できなかった場合は、返金にも対応します。</string>
     <string name="faq_6_text_commons">この問題は、使用しているランチャーがアイコンのカスタマイズを完全にサポートしていない場合に生じます。Google Play、または、利用可能な場合はウィジェットからアプリを起動してみてください。開始したら、既定の緑のアイコンの色 #106D1F を復元してください。ごくまれに、アプリの再インストールが必要になる場合があります。</string>
     <string name="too_many_incorrect_attempts">間違ったロック解除の試行回数が多すぎます。
 \n%d秒後に再度試してください。</string>
-    <string name="upgraded_to_pro_gallery">こんにちは。
-\n
-\nすでにPro版のアプリをお持ちのようですね。データやお気に入りの移行が完了したら、誤って起動しないように、こちらのアプリをアンインストールしてください。
-\n
-\nありがとうございます！</string>
     <string name="version_placeholder">バージョン %s</string>
-    <string name="donate_new">こんにちは。&lt;br&gt;&lt;br&gt;アプリの使い勝手はいかがでしょうか。アプリには広告は含まれておらず、ユーザーのデータの収集も行っていません。よろしければ&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;を購入して、アプリの開発を支援してください。アプリには、全アプリで色のカスタマイズを有効にするなどの機能もあります。&lt;br&gt;&lt;br&gt;よろしくお願いします！</string>
     <string name="donate_short">&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;を購入して私たちを援助してください。アプリには、全アプリで色をカスタマイズするなどの機能もあります。</string>
     <string name="update_thank_you">Fossify Thank Youを最新バージョンに更新してください</string>
     <string name="little_to_no_fee">ゼロまたはわずか</string>

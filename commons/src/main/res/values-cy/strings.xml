@@ -76,7 +76,6 @@
     <string name="search">Chwilio</string>
     <string name="type_2_characters">Rho o leiaf dau nod i chwilio.</string>
     <string name="filter">Hidlo</string>
-    <string name="filter_pro">Hidlo (Pro)</string>
     <string name="no_items_found">Ni chanfuwyd eitemau.</string>
     <string name="change_filter">Newid hidlydd</string>
     <string name="no_storage_permissions">Rhaid cael caniatâd storfa</string>
@@ -244,7 +243,6 @@
     <string name="undo">Dad-wneud</string>
     <string name="redo">Ail-wneud</string>
     <string name="print">Argraffu</string>
-    <string name="print_pro">Argraffu (Pro)</string>
     <string name="sort_by">Trefnu yn ôl</string>
     <string name="name">Enw</string>
     <string name="size">Maint</string>
@@ -664,7 +662,6 @@
     <string name="about">Ynghylch</string>
     <string name="website_label">Am y ffynonellau, gweler</string>
     <string name="email_label">Anfona dy adborth neu awgrymiadau at</string>
-    <string name="upgrade_to_pro">Uwchraddio i Pro</string>
     <string name="invite_friends">Gwahodd ffrindiau</string>
     <string name="share_text">Hei, cymer olwg ar %1$s a %2$s</string>
     <string name="invite_via">Gwahodd trwy</string>
@@ -673,13 +670,6 @@
     <string name="additional_info">Gwybodaeth ychwanegol</string>
     <string name="app_version">Fersiwn ap: %s</string>
     <string name="device_os">System y ddyfais: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            S\'mae<br><br>
-            Gobeithio dy fod yn mwynhau\'r ap. Nid yw\'n cynnwys unrhyw hysbysebion, felly a fyddi di mor garedig â chefnogi ei ddatblygiad gan brynu ap <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. Mi fydd hefyd yn stopio\'r neges hon ymddangos eto.<br><br>
-            Diolch!
-        ]]>
-    </string>
     <string name="purchase">Prynu</string>
     <string name="before_asking_question_read_faq">Cyn gofyn cwestiwn, gwiria osodiadau\'r ap a\'r atebion i Gwestiynau Cyffredin yn gyntaf. Gall fod y datrysiad yno.</string>
     <string name="new_app">

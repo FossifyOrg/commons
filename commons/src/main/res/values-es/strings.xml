@@ -88,7 +88,6 @@
     <string name="no_phone_number_found">No se encontraron números de teléfono</string>
     <string name="change_view_type">Cambiar tipo de vista</string>
     <string name="grid">Cuadrícula</string>
-    <string name="grid_pro">Cuadrícula (Pro)</string>
     <string name="uneven_grid">Parrilla irregular</string>
     <string name="list">Lista</string>
     <string name="increase_column_count">Aumentar el número de columnas</string>
@@ -157,7 +156,6 @@
     <string name="search_conversations">Buscar conversaciones</string>
     <string name="search_recordings">Buscar grabaciones</string>
     <string name="filter">Filtrar</string>
-    <string name="filter_pro">Filtrar (Pro)</string>
     <string name="no_items_found">No se ha encontrado ningún elemento.</string>
     <string name="change_filter">Cambiar filtro</string>
     <string name="no_storage_permissions">Se requiere permiso de Almacenamiento</string>
@@ -373,10 +371,8 @@
     <string name="undo">Deshacer</string>
     <string name="redo">Rehacer</string>
     <string name="print">Imprimir</string>
-    <string name="print_pro">Imprimir (Pro)</string>
     <string name="shortcut">Atajo</string>
     <string name="create_shortcut">Crear atajo</string>
-    <string name="create_shortcut_pro">Crear atajo (Pro)</string>
     <string name="add_number_to_contact">Añadir número al contacto</string>
     <string name="view_contact_details">Ver detalles de contacto</string>
     <string name="call_from_sim_1">Llamar desde SIM 1</string>
@@ -457,7 +453,6 @@
     <string name="protection_setup_successfully">Se ha agregado la contraseña con éxito. Por favor, vuelva a instalar la aplicación en caso de que la olvide.</string>
     <string name="fingerprint_setup_successfully">La protección se ha configurado correctamente. Si tiene problemas para restablecer la aplicación, vuelva a instalarla.</string>
     <string name="lock_folder">Bloquear carpeta</string>
-    <string name="lock_folder_pro">Bloquear carpeta (Pro)</string>
     <string name="unlock_folder">Desbloquear carpeta</string>
     <string name="lock_folder_notice">Esta protección funciona solo en esta aplicación, no reemplaza un cifrado de carpetas en todo el sistema.</string>
     <string name="empty_password_new">Por favor, escribe una contraseña</string>
@@ -633,7 +628,6 @@
     <string name="settings">Ajustes</string>
     <string name="color_customization">Apariencia y estilo</string>
     <string name="customize_colors">Personalizar la apariencia</string>
-    <string name="feature_locked">Bloqueado</string>
     <string name="customize_widget_colors">Personaliza los colores del widget</string>
     <string name="customize_notifications">Personaliza las notificaciones</string>
     <string name="use_english_language">Usar el idioma inglés</string>
@@ -788,57 +782,13 @@
     <string name="friday_short">Vie</string>
     <string name="saturday_short">Sáb</string>
     <string name="sunday_short">Dom</string>
-    <string name="upgrade_to_pro_long">La versión de tu aplicación ya no será actualizada. Por favor, mejora a la versión Pro para recibir nuevas correcciones y otras mejoras.</string>
-    <string name="upgrade_to_pro_long_click">La versión de tu aplicación ya no será actualizada. Por favor, mejora a la versión Pro para recibir nuevas correcciones y otras mejoras haciendo clic aquí.</string>
     <string name="it_is_free">Es gratis hasta: %s. Si lo descargas hasta entonces, podrás usarlo gratis para siempre.</string>
     <string name="more_info">Más información</string>
     <string name="upgrade">Actualizar</string>
     <string name="upgrade_calendar">Tienes que migrar manualmente los eventos almacenados localmente mediante la exportación en un archivo .ics, y luego importarlos. Puedes encontrar los botones de exportar / importar en el menú de la pantalla principal.</string>
-    <string name="upgraded_from_free_gallery">Hola,
-\n
-\nparece que acabas de actualizar desde la versión gratuita. Una vez que estés contento con esta y tal vez hayas migrado tu configuración y favoritos, puedes desinstalar la antigua versión gratuita para evitar lanzarla accidentalmente, ya que no la necesitarás más, también evitarás que aparezca este cuadro de diálogo.
-\n
-\n¡Gracias!</string>
-    <string name="upgraded_to_pro_gallery">Hola,
-\n
-\nparece que ya tienes la versión Pro de la aplicación también. Una vez que estés satisfecho con ella y hayas migrado tus ajustes y favoritos, puedes desinstalar esta para evitar iniciarla accidentalmente, ya que no la necesitarás más.
-\n
-\n¡Gracias!</string>
-    <string name="upgraded_from_free">Hola,
-\n
-\nparece que acabas de actualizar desde la versión gratuita. Una vez que estés contento con esta y tal vez hayas migrado tus datos, puedes desinstalar la antigua versión gratuita para evitar lanzarla accidentalmente, ya que no la necesitarás más, también evitarás que aparezca este cuadro de diálogo.
-\n
-\n¡Gracias!</string>
-    <string name="upgraded_to_pro">Hola,
-\n
-\nparece que ya tienes la versión pro de la aplicación también. Una vez que esté satisfecho con ella y haya migrado sus datos, puede desinstalar esta aplicación. Para evitar ponerla en marcha accidentalmente porque ya no la necesitas.
-\n
-\n¡Muchas gracias!</string>
-    <string name="upgraded_from_free_calendar">Hola,
-\n
-\nparece que acabas de actualizarte desde la versión gratuita. Si quieres migrar tus eventos almacenados localmente, tienes que hacerlo manualmente exportándolos a un archivo .ics en la versión gratuita e importándolos aquí a través del menú superior.
-\n
-\nUna vez que estés satisfecho con tu configuración en la versión Pro, puedes desinstalar la antigua versión gratuita ya que no la necesitarás más, también evitará que aparezca este cuadro de diálogo.
-\n
-\n¡Gracias!</string>
-    <string name="upgraded_from_free_contacts">Hola,
-\n
-\nparece que acabas de actualizar desde la versión gratuita. Si tenías contactos almacenados en \"%s\", tienes que migrarlos manualmente exportándolos en un archivo .vcf desde la versión gratuita de la aplicación e importándolos aquí a través del menú superior.
-\n
-\nUna vez que estés satisfecho con tu configuración en la versión Pro, puedes desinstalar la antigua versión gratuita ya que no la necesitarás más, también evitarás que este diálogo aparezca.
-\n
-\n¡Gracias!</string>
-    <string name="upgraded_from_free_notes">Hola,
-\n
-\nparece que acabas de actualizar desde la versión gratuita. Si quieres migrar tus notas, tienes que hacerlo manualmente exportándolas a un archivo en la versión gratuita e importándolas aquí a través del menú superior.
-\n
-\nUna vez que estés satisfecho con tu configuración en la versión Pro, puedes desinstalar la antigua versión gratuita ya que no la necesitarás más, también evitarás que aparezca este cuadro de diálogo.
-\n
-\n¡Gracias!</string>
     <string name="about">Acerca de</string>
     <string name="website_label">Más aplicaciones sencillas y código fuente en</string>
     <string name="email_label">Envía tus comentarios o sugerencias a</string>
-    <string name="upgrade_to_pro">Actualizar a Pro</string>
     <string name="invite_friends">Invitar a amigos</string>
     <string name="share_text">Hola, ven y mira %1$s en %2$s</string>
     <string name="invite_via">Invitar con</string>
@@ -856,21 +806,12 @@
     <string name="additional_info">Información adicional</string>
     <string name="app_version">Versión de la app: %s</string>
     <string name="device_os">SO del dispositivo: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Hola,<br><br>
-            Espero que estés disfrutando de la aplicación. No contiene anuncios, por lo que debe respaldar su desarrollo comprando la aplicación <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, también evitará que este diálogo vuelva a aparecer.<br><br>
-            ¡Gracias!
-        ]]>
-    </string>
     <string name="purchase">Comprar</string>
     <string name="before_asking_question_read_faq">Antes de hacer una pregunta, lea las preguntas más frecuentes. Quizás la solución esté ahí.</string>
     <string name="make_sure_latest">También asegúrese de estar utilizando la última versión de la aplicación.</string>
-    <string name="make_sure_upgrade">También tenga en cuenta que esta versión de la aplicación ya no se está desarrollando, obtenga la versión Pro para obtener muchas mejoras.</string>
     <string name="read_it">Leer</string>
     <string name="read_faq">Leer Preguntas Frecuentes</string>
     <string name="thank_you">Gracias</string>
-    <string name="widget_locked_pro">El widget está bloqueado.\nActualice a la versión Pro para desbloquearlo.</string>
     <string name="new_app">
         <![CDATA[
             Hola,<br><br>
@@ -927,10 +868,6 @@
     <string name="faq_6_text_commons">Este problema surge cuando tu lanzador no es totalmente compatible con la personalización de iconos. Intente iniciar la aplicación a través de Google Play o un widget, si es accesible. Una vez iniciada, restaura el icono verde predeterminado #106D1F. En casos extremos, puede ser necesario reinstalar la aplicación.</string>
     <string name="faq_7_title_commons">El dinero se ha deducido de mi cuenta bancaria, pero no puedo descargar la aplicación. ¿Qué puedo hacer?</string>
     <string name="faq_7_text_commons">Los pagos son manejados completamente por Google, su sistema falla de vez en cuando. Simplemente borre el caché de su aplicación Google Play y reinicie su dispositivo, luego intente descargarlo nuevamente.</string>
-    <string name="faq_8_title_commons">¿Por qué debería actualizar a la versión Pro?</string>
-    <string name="faq_8_text_commons">Ya que la versión de tu aplicación ya no será actualizada, los errores que tiene podrían nunca ser arreglados. Tampoco se añadirán nuevas funciones. Puedes comprar la versión Pro en Google Play por una pequeña cantidad de dinero.
-        Sólo pagas una vez, lo que significa que, una vez que la hayas comprado, nunca tendrás que pagar de nuevo. Incluso cuando consigas un nuevo dispositivo. Si no te gusta la versión Pro, puedes sólo desinstalarla en un periodo de unas horas y automáticamente recibirás tu dinero de vuelta.
-        Si quieres un rembolso en cualquier otro momento, sólo contáctanos en hello@fossify.org y lo tendrás.</string>
     <string name="faq_9_title_commons">¿Cómo puedo seleccionar varios elementos a la vez?</string>
     <string name="faq_9_text_commons">Hay varias formas de hacerlo. La primera es iniciar el modo de selección pulsando durante mucho tiempo un elemento, luego pulse brevemente en otros elementos para seleccionarlos. La segunda forma es similar a seleccionar elementos en PCs con un ratón,
         solo tiene que iniciar el modo de selección pulsando durante mucho tiempo un elemento, luego, con el dedo aún hacia abajo, arrástrelo por otros elementos para seleccionar. La tercera forma de seleccionar varios elementos es presionar durante mucho tiempo un elemento, luego presionando prolongadamente otro y todo lo demás se selecciona. Si
@@ -990,40 +927,6 @@
     <string name="translation_chinese_hk">Chino (Hong Kong)</string>
     <string name="translation_chinese_cn">Chino (Simplificado)</string>
     <string name="translation_chinese_tw">Chino (Tradicional)</string>
-    <string name="why_upgrade">¡Obtén la versión Pro ahora!</string>
-    <string name="why_upgrade_basic_version">Básica</string>
-    <string name="why_upgrade_no_ads">Sin anuncios</string>
-    <string name="why_upgrade_no_internet_access">Sin acceso a Internet</string>
-    <string name="why_upgrade_footer">Garantía de devolución del 100% del dinero</string>
-    <string name="why_upgrade_footer_one_time_payment">Pago único</string>
-    <string name="why_upgrade_improved_design">Diseño mejorado</string>
-    <string name="why_upgrade_many_other_improvements">Muchas otras mejoras</string>
-    <string name="why_upgrade_advanced_photo_editor">Editor de fotos avanzado</string>
-    <string name="why_upgrade_advanced_photo_video_editor">Editor avanzado de fotos y videos</string>
-    <string name="why_upgrade_heic_support">Compatible con archivos HEIC/HEIF</string>
-    <string name="why_upgrade_batch_renaming">Cambio de nombre de archivo por lotes avanzado</string>
-    <string name="why_upgrade_folder_locking">Bloqueo de carpeta individual</string>
-    <string name="why_upgrade_printing_support">Compatible para impresión</string>
-    <string name="why_upgrade_time_zone_support">Soporte de zona horaria</string>
-    <string name="why_upgrade_attendees_emails">Asistencia y recordatorios por correo electrónico</string>
-    <string name="why_upgrade_easy_event_importing">Importación sencilla de eventos</string>
-    <string name="why_upgrade_new_widgets">Nuevos widgets</string>
-    <string name="why_upgrade_duplicate_contact_merging">Fusión de contactos duplicados mejorada</string>
-    <string name="why_upgrade_font_size_customization">Personalización del tamaño de fuente</string>
-    <string name="why_upgrade_private_contact_sharing">Uso compartido opcional de contactos privados dentro de nuestras aplicaciones</string>
-    <string name="why_upgrade_customizable_contact_ringtones">Tonos de llamada de contacto personalizables</string>
-    <string name="why_upgrade_contact_filtering">Filtrado de contactos</string>
-    <string name="why_upgrade_contact_private_contacts">Contactos almacenados de forma privada</string>
-    <string name="why_upgrade_checklists">Listas de verificación</string>
-    <string name="why_upgrade_different_note_per_widget">Diferentes notas y colores por widget</string>
-    <string name="why_upgrade_note_locking">Bloqueo de notas</string>
-    <string name="why_upgrade_date_and_time_format">Personalización del formato de fecha y hora</string>
-    <string name="why_upgrade_shortcuts">Atajos de la pantalla de inicio</string>
-    <string name="why_upgrade_file_compression">Soporte de compresión de archivos</string>
-    <string name="why_upgrade_recents_tab">Ficha con archivos recientes</string>
-    <string name="why_upgrade_background_color_customization">Personalización del color de fondo</string>
-    <string name="why_upgrade_file_importing">Soporte de importación de archivos</string>
-    <string name="why_upgrade_zooming">Zoom</string>
     <string name="third_party_licences">Licencias de terceros</string>
     <string name="kotlin_title">Kotlin (lenguaje de programación)</string>
     <string name="subsampling_title">Subsampling Scale Image View (Visor de imágenes con zoom)</string>
@@ -1063,18 +966,11 @@
     <string name="trial_expires_soon">Su período de prueba está a punto de expirar.</string>
     <string name="unlock_for_one_final_day">Desbloquear aplicación un último día</string>
     <string name="welcome_to_app_name">¡Bienvenido/a a %s!</string>
-    <string name="trial_start_description">Gracias por usar nuestra aplicación . Puedes usar esta versión desbloqueada durante <font color="#FFFFFF">%ddías</font> . Una vez que finalice la prueba, considera actualizar a la versión Pro . Tiene una gran cantidad de nuevas funciones, diseño moderno, sin anuncios y muchas otras mejoras. \n\nSolo tienes que pagarlo una vez en la vida y si no quedas satisfecho, puedes desinstalarlo y obtener un reembolso.\n\nEspero que te guste :)</string>
-    <string name="trial_end_description">Por favor, actualice a la versión Pro para disfrutar de la aplicación al máximo.
-\n
-\nSólo tienes que pagar por ella una vez en la vida y si no quedas satisfecho, puedes desinstalarla y obtener un reembolso.
-\n
-\nNos vemos :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Su prueba expira en %d día.</item>
         <item quantity="many">Su prueba expira en %d días.</item>
         <item quantity="other">Su prueba expira en %d días.</item>
     </plurals>
-    <string name="deprecated_app">OBSOLETO: Esta versión de la aplicación ya no es mantenida, obtén la versión Pro en https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">No olvides que si desinstalas cualquier aplicación de paga dentro de un periodo de 2 horas, automáticamente recibirás un rembolso. Si quieres un rembolso en cualquier otro momento, solo contáctanos en hello@fossify.org y lo recibirás. Eso hace que sea fácil probarlo :)</string>
     <string name="developer_description">Un grupo de aplicaciones de Android simples y de código abierto con widgets personalizables, sin anuncios y permisos innecesarios.</string>
     <string name="error">Error: %s</string>
@@ -1082,12 +978,10 @@
     <string name="usb">USB</string>
     <string name="translation_hindi">Hindi</string>
     <string name="translation_tamil">Tamil</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="audio">Audio</string>
     <string name="block_contact">Bloquear contacto</string>
     <string name="genre">Género</string>
     <string name="apply_to_all_apps">Aplicar el tema a todas las aplicaciones de Fossify</string>
-    <string name="shared_theme_note">Tenga en cuenta que aunque esté utilizando la versión Pro de la aplicación, sigue necesitando Gracias a Fossify por razones técnicas. Se encarga de la sincronización de colores.</string>
     <string name="auto_theme">Automático</string>
     <string name="deletion_confirmation_short">¿Borrar %s?</string>
     <string name="no">No</string>
@@ -1117,10 +1011,8 @@
     <string name="saturday_letter">S</string>
     <string name="website">Página web</string>
     <string name="social">Social</string>
-    <string name="donate_new">Hola,&lt;br&gt;&lt;br&gt;espero que estés disfrutando de la aplicación. No contiene anuncios y tampoco estamos recopilando tus datos, por favor apoya su desarrollo comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. También tendrás desbloqueadas todas las funciones de la aplicación, incluida la personalización del color.&lt;br&gt;&lt;br&gt;¡Gracias!</string>
     <string name="update_thank_you">Por favor, actualice Fossify Thank You a la última versión</string>
     <string name="donate_short">Apóyanos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; por favor, también desbloqueará todas las características de la app incluyendo la personalización de colores.</string>
-    <string name="features_locked">Esta función está bloqueada, por favor compre &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; para desbloquear la aplicación completa.&lt;br&gt;&lt;br&gt;Es un pago único y si usted no está satisfecho, podemos reembolsarle.</string>
     <string name="translation_bulgarian">Búlgaro</string>
     <string name="translation_chuvash">Chuvasio</string>
     <string name="translation_gujarati">Guyaratí</string>

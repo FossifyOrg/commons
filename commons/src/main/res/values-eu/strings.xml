@@ -84,7 +84,6 @@
     <string name="no_phone_number_found">Ez da telefono zenbakirik aurkitu</string>
     <string name="change_view_type">Aldatu ikuspegi mota</string>
     <string name="grid">Sareta</string>
-    <string name="grid_pro">Sareta (Pro)</string>
     <string name="uneven_grid">Sare irregularra</string>
     <string name="list">Zerrenda</string>
     <string name="increase_column_count">Gehitu errenkadak</string>
@@ -151,7 +150,6 @@
     <string name="search_conversations">Bilatu elkarrizketak</string>
     <string name="search_recordings">Bilatu grabazioak</string>
     <string name="filter">Iragazkia</string>
-    <string name="filter_pro">Iragazkia (Pro)</string>
     <string name="no_items_found">Elementurik ez da aurkitu.</string>
     <string name="change_filter">Aldatu iragazkia</string>
     <string name="no_storage_permissions">Biltegiratzerako baimena behar da</string>
@@ -359,10 +357,8 @@
     <string name="undo">Desegin</string>
     <string name="redo">Berregin</string>
     <string name="print">Inprimatu</string>
-    <string name="print_pro">Inprimatu (Pro)</string>
     <string name="shortcut">Lasterbidea</string>
     <string name="create_shortcut">Sortu lasterbidea</string>
-    <string name="create_shortcut_pro">Sortu lasterbidea (Pro)</string>
     <string name="add_number_to_contact">Gehitu zenbakia kontaktuari</string>
     <string name="view_contact_details">Ikusi kontaktuaren xehetasunak</string>
     <string name="call_from_sim_1">Deitu 1. SIMetik</string>
@@ -439,7 +435,6 @@
     <string name="protection_setup_successfully">Pasahitza ondo ezarri da. Berrinstalatu aplikazioa ahazten baduzu.</string>
     <string name="fingerprint_setup_successfully">Babesa ondo ezarri da. Berrinstalatu aplikazioa berrezartzean arazorik baduzu.</string>
     <string name="lock_folder">Blokeatu karpeta</string>
-    <string name="lock_folder_pro">Blokeatu karpeta (Pro)</string>
     <string name="unlock_folder">Deblokeatu karpeta</string>
     <string name="lock_folder_notice">Protekzio hau aplikazio honetan soilik funtzionatuko du, ez du balio it is not supposed to replace a real systemwide folder encryption.</string>
     <string name="empty_password_new">Sartu pasahitz bat</string>
@@ -587,7 +582,6 @@
     <string name="settings">Ezarpenak</string>
     <string name="color_customization">Begiratu eta sentitu</string>
     <string name="customize_colors">Pertsonalizatu itxurak</string>
-    <string name="feature_locked">Blokeatua</string>
     <string name="customize_widget_colors">Pertsonalizatu widgeten koloreak</string>
     <string name="customize_notifications">Pertsonalizatu jakinarazpenak</string>
     <string name="use_english_language">Erabili ingelesa</string>
@@ -742,58 +736,14 @@
     <string name="friday_short">Or</string>
     <string name="saturday_short">Lr</string>
     <string name="sunday_short">Ig</string>
-    <string name="upgrade_to_pro_long">Zure aplikazioaren bertsioa ez da berriro berrituko. Aldatu Pro bertsiora konponketa eta hobekuntza gehiago jasotzeko.</string>
-    <string name="upgrade_to_pro_long_click">Zure aplikazioaren bertsioa ez da berriro berrituko. Aldatu Pro bertsiora konponketa eta hobekuntza gehiago jasotzeko hemen klik eginez.</string>
     <string name="it_is_free">%s arte dohainik da. Hori baino lehen deskargatuz gero, betiko dohainik erabili ahal izango duzu.</string>
     <string name="more_info">Informazio gehiago</string>
     <string name="upgrade">Bertsio-berritu</string>
     <string name="upgrade_calendar">Eskuz biltegiratutako gertaerak migratu behar dituzu .ics fitxategi batean esportatuz, eta gero inportatuz. Esportazio- eta inportazio-botoiak pantaila nagusiaren menuan aurki ditzakezu.</string>
-    <string name="upgraded_from_free_gallery">Kaixo,
-\n
-\nbadirudi doako bertsiotik berritu duzula. Honekin pozik ba zaude eta agian zure ezarpenak eta gogokoak migratu ondoren, doako zaharra desinstalatu dezakezu ez duzulako gehiago beharko, elkarrizketa-koadro hau agertzea eragotziko du.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_to_pro_gallery">Kaixo,
-\n
-\nbadirudi dagoeneko baduzula Pro aplikazioaren bertsioa ere. Pozik bazaude eta agian zure ezarpenak eta gogokoak migratu ondoren, hau desinstalatu dezakezu ez duzulako gehiago beharko.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_from_free">Kaixo,
-\n
-\nbadirudi doako bertsiotik berritu duzula. Honekin pozik bazaude eta agian zure ezarpenak eta gogokoak migratu ondoren, doako zaharra desinstalatu dezakezu ez duzulako gehiago beharko, elkarrizketa-koadro hau agertzea eragotziko du.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_to_pro">Kaixo,
-\n
-\nbadirudi dagoeneko baduzula Pro aplikazioaren bertsioa ere. Pozik bazaude eta agian zure datuak migratu ondoren, hau desinstalatu dezakezu ez duzulako gehiago beharko.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_from_free_calendar">Kaixo,
-\n
-\nbadirudi doako bertsiotik berritu duzula. Lokalean gordetako gertaerak migratu nahi badituzu, eskuz egin behar dituzu .ics fitxategi batera esportatu doako aplikazioaren bertsioan eta hemen inportatu goiko menutik.
-\n
-\nPro bertsioan zure konfigurazioarekin pozik zaudenean, doako zaharra desinstalatu dezakezu, ez baituzu gehiago beharko.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_from_free_contacts">Kaixo,
-\n
-\nbadirudi doako bertsiotik berritu duzula. Kontakturen bat \"%s\"-n gordeta bazenuen, eskuz migratu behar dituzu doako aplikazioaren bertsiotik .vcf fitxategi batean esportatuz eta hemen inportatuz goiko menutik.
-\n
-\nPro bertsioan zure konfigurazioarekin pozik zaudenean, doako zaharra desinstalatu dezakezu, ez baituzu gehiago beharko.
-\n
-\nEskerrik asko!</string>
-    <string name="upgraded_from_free_notes">Kaixo,
-\n
-\nbadirudi doako bertsiotik berritu duzula. Zure oharrak migratu nahi badituzu, eskuz egin behar dituzu doako aplikazioaren bertsioko fitxategi batera esportatu eta goiko menutik hemen inportatuz.
-\n
-\nPro bertsioan zure konfigurazioarekin pozik zaudenean, doako zaharra desinstalatu dezakezu, ez baituzu gehiago beharko.
-\n
-\nEskerrik asko!</string>
     <string name="about">Honi buruz</string>
     <string name="website">Webgunea</string>
     <string name="website_label">Iturburu-kodeak ikusteko joan hona</string>
     <string name="email_label">Bidali zure iritziak edo iradokizunak hona</string>
-    <string name="upgrade_to_pro">Pro-ra aldatu</string>
     <string name="invite_friends">Gonbidatu lagunak</string>
     <string name="share_text">Aupa, zatoz %1$s ikustera %2$s-en</string>
     <string name="invite_via">Gonbidatu honen bidez</string>
@@ -808,11 +758,9 @@
     <string name="purchase">Erosi</string>
     <string name="before_asking_question_read_faq">Galdera bat egin aurretik, begiratu aplikazioaren ezarpenetan eta Ohiko galderak atala irakur ezazu. Konponbidea hor egon liteke.</string>
     <string name="make_sure_latest">Horretaz gain, aplikazioaren azken bertsioa erabiltzen ari zarela egiaztatu.</string>
-    <string name="make_sure_upgrade">Kontuan izan, gainera, aplikazioaren bertsio hau ez dela dagoeneko garatzen, lortu Pro-a hobekuntza asko lortzeko.</string>
     <string name="read_it">Irakurri</string>
     <string name="read_faq">Irakurri FAQ atala</string>
     <string name="thank_you">Eskerrik asko</string>
-    <string name="widget_locked_pro">Trepeta blokeatuta dago.\nEguneratu Pro bertsiora desblokeatzeko.</string>
     <string name="new_app">
         <![CDATA[
             Aupa,<br><br>
@@ -887,7 +835,6 @@
     <string name="block_contact">Blokeatu kontaktua</string>
     <string name="exif">EXIF</string>
     <string name="apply_to_all_apps">Aplikatu gaiak Fossify aplikazio guztietan</string>
-    <string name="shared_theme_note">Kontuan izan aplikazioaren Pro bertsioa erabiltzen ari zaren arren, Fossify-ri Eskerrak behar duzula arrazoi teknikoengatik. Koloreen sinkronizazioaz arduratzen da.</string>
     <string name="auto_theme">Automatikoa</string>
     <string name="system_default">Sistema lehenetsia</string>
     <string name="pin_item">Ainguratu elementua</string>
@@ -926,11 +873,8 @@
     <string name="social">Soziala</string>
     <string name="other">Beste bat</string>
     <string name="version_placeholder">%s bertsioa</string>
-    <string name="donate_new">Kaixo,&lt;br&gt;&lt;br&gt;aplikazioaz gozatzea espero duzu. Ez dauka iragarkirik eta ez ditugu zure datuak biltzen ari. Mesedez, lagundu haren garapena &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko erosiz. Zuk&lt;/a&gt;. Gainera, aplikazioaren eginbide guztiak desblokeatuta izango dituzu koloreen pertsonalizazioa barne.&lt;br&gt;&lt;br&gt;Eskerrik asko!</string>
-    <string name="donate_please"><![CDATA["Kaixo,<br><br>\n                     aplikazioaz gozatzea espero dugu. Ez dauka iragarkirik. Mesedez, lagundu bere garapena <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Eskerrik Asko</a> aplikazioa erosiz. elkarrizketa-koadro hau berriro agertzea ere eragotziko du.<br><br> \n                    Eskerrik asko!"]]></string>
     <string name="donate_short">Lagundu iezaguzu &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko&lt;/a&gt; erosiz, aplikazioen eginbide guztiak ere desblokeatuko ditu kolorea barne. pertsonalizazioa.</string>
     <string name="format_phone_numbers">Eman formatu telefono-zenbakiei</string>
-    <string name="features_locked">Eginbide hau blokeatuta dago. Erosi &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Eskerrik asko&lt;/a&gt; aplikazio osoa desblokeatzeko.&lt;br &gt;&lt;br&gt;Ordainketa bakarra da eta asetzen ez bazara, itzuliko dizugu.</string>
     <string name="platforms">Plataformak</string>
     <string name="donate_to_fossify">Dohaintza egin Fossify-ri</string>
     <string name="little_to_no_fee">Kuota txikia</string>
@@ -970,8 +914,6 @@
     <string name="faq_6_text_commons">Arazo hau zure abiarazleak ikonoen pertsonalizazioa guztiz onartzen ez duenean sortzen da. Saiatu aplikazioa abiarazten Google Play edo trepeta baten bidez, eskuragarri badago. Abiarazi ondoren, lehenetsi #106D1F ikono berdearen kolore lehenetsia. Muturreko kasuetan, baliteke aplikazioa berriro instalatzea beharrezkoa izatea.</string>
     <string name="faq_7_title_commons">Dirua nire bankuko kontutik kendu da, baina ezin dut aplikazioa deskargatu. Zer egin dezaket?</string>
     <string name="faq_7_text_commons">Ordainketak Google-k kudeatzen ditu osorik, eta noizean behin haien sistemak akatsak izaten ditu. Garbitu Google Play aplikazioaren cachea eta berrabiarazi gailua, eta saiatu berriro deskargatzen.</string>
-    <string name="faq_8_title_commons">Zertarako merezi du Pro bertsiora pasatzeak?</string>
-    <string name="faq_8_text_commons">Zure aplikazioaren bertsioa eguneratuko ez denez, agian ikusi dituzun akatsak ez dira inoiz konponduko. Ez da funtzio berririk gehituko. Google Play-n Pro bertsioa eros dezakezu diru kopuru txiki baten truke. Ordainketa bakarrekoa da, hau da, erosi ondoren, ez duzu inoiz ordaindu beharko. Ezta gailu berri bat eskuratu ondoren ere. Pro bertsioa gustatzen ez bazaizu, ordu gutxiren buruan desinstalatu dezakezu eta automatikoki itzuliko zaizu dirua. Geroago itzulketa bat nahi baduzu, jarri gurekin harremanetan hello@fossify.org helbidera eta lortuko duzu.</string>
     <string name="faq_9_title_commons">Nola hauta dezaket hainbat elementu batera?</string>
     <string name="faq_9_text_commons">Hori egiteko modu anitz daude. Lehenengoa hautaketa modua abiaraztea da elementu bat luze sakatuz, eta ondoren besteetan klik laburra eginez, hauek hautatzeko. Bigarren modua ordenagailuetan elementuak saguarekin hautatzearen antzekoa da, abiarazi hautatze modua elementu bat luze sakatuz, eta hatza behera arrastatu beste elementu batzuk aukeratzeko. Elementu bat baino gehiago hautatzeko hirugarren modua elementu bat luze sakatzea da, gero beste bat luze sakatzea eta tartean dagoen guztia hautatzen da. Elementu guztiak hautatu nahi badituzu, sakatu luze elementu bat, eta egin klik goiko ezkerreko izkinan dagoen hautatutako elementuen kontagailuan. Horrek dena hautatu edo desautatuko du.</string>
     <string name="faq_10_title_commons">Aplikazioa erosi dut, baina ezin dut beste gailu batean deskargatu.</string>
@@ -1033,41 +975,6 @@
     <string name="translation_chinese_hk">Txinera (Hong Kong)</string>
     <string name="translation_chinese_cn">Txinera (Sinplifikatua)</string>
     <string name="translation_chinese_tw">Txinera (Tradizionala)</string>
-    <string name="why_upgrade">Eskuratu Pro bertsioa orain!</string>
-    <string name="why_upgrade_basic_version">Oinarrizkoa</string>
-    <string name="why_upgrade_pro_version">Pro</string>
-    <string name="why_upgrade_no_ads">Iragarkirik gabe</string>
-    <string name="why_upgrade_no_internet_access">Interneteko sarbiderik gabe</string>
-    <string name="why_upgrade_footer">%100eko dirua itzultzeko bermea</string>
-    <string name="why_upgrade_footer_one_time_payment">Ordainketa bakarra</string>
-    <string name="why_upgrade_improved_design">Diseinu hobetua</string>
-    <string name="why_upgrade_many_other_improvements">Beste hainbat hobekuntza</string>
-    <string name="why_upgrade_advanced_photo_editor">Argazki-editore aurreratua</string>
-    <string name="why_upgrade_advanced_photo_video_editor">Argazki eta bideo editore aurreratua</string>
-    <string name="why_upgrade_heic_support">HEIC/HEIF fitxategiak onartzen ditu</string>
-    <string name="why_upgrade_batch_renaming">Fitxategiei izena multzoka aldatzeko sistema aurreratua</string>
-    <string name="why_upgrade_folder_locking">Norberaren karpetaren blokeoa</string>
-    <string name="why_upgrade_printing_support">Inprimatzeko aukera</string>
-    <string name="why_upgrade_time_zone_support">Ordu zona aldatzeko aukera</string>
-    <string name="why_upgrade_attendees_emails">Posta elektroniko bidezko asistentzia eta abisuak</string>
-    <string name="why_upgrade_easy_event_importing">Gertaeren inportazio erraza</string>
-    <string name="why_upgrade_new_widgets">Trepeta berriak</string>
-    <string name="why_upgrade_duplicate_contact_merging">Bikoiztutako kontaktuen bateratze hobetua</string>
-    <string name="why_upgrade_font_size_customization">Letren tamainaren pertsonalizazioa</string>
-    <string name="why_upgrade_private_contact_sharing">Aukerako kontaktu pribatuak partekatzea gure aplikazioetan</string>
-    <string name="why_upgrade_customizable_contact_ringtones">Kontaktuen tonu pertsonalizagarriak</string>
-    <string name="why_upgrade_contact_filtering">Kontaktuen iragaztea</string>
-    <string name="why_upgrade_contact_private_contacts">Pribatuan gordetako kontaktuak</string>
-    <string name="why_upgrade_checklists">Kontrol zerrendak</string>
-    <string name="why_upgrade_different_note_per_widget">Trepetentzako nota eta kolore desberdinak</string>
-    <string name="why_upgrade_note_locking">Oharren blokeoa</string>
-    <string name="why_upgrade_date_and_time_format">Data eta denboraren formatuen pertsonalizazioa</string>
-    <string name="why_upgrade_shortcuts">Hasierako pantailako lasterbideak</string>
-    <string name="why_upgrade_file_compression">Fitxategiak trinkotzeko aukera</string>
-    <string name="why_upgrade_recents_tab">Duela gutxiko fitxategien fitxa</string>
-    <string name="why_upgrade_background_color_customization">Atzeko planoaren kolorearen pertsonalizazioa</string>
-    <string name="why_upgrade_file_importing">Fitxategiak inportatzeko aukera</string>
-    <string name="why_upgrade_zooming">Zoom</string>
     <string name="subsampling_title">Subsampling Scale Image View (zoom bidezko irudi ikustailea)</string>
     <string name="robolectric_title">Robolectric (probarako frameworka)</string>
     <string name="espresso_title">Espresso (proben laguntzailea)</string>
@@ -1085,13 +992,10 @@
     <string name="trial_expires_soon">Zure proba garaia laster iraungiko da.</string>
     <string name="unlock_for_one_final_day">Desblokeatu aplikazio azken egun batez</string>
     <string name="welcome_to_app_name">Ongi etorri %s-ra!</string>
-    <string name="trial_start_description">Eskerrik asko gure aplikazioa erabiltzeagatik. Desblokeatutako bertsio hau <font color="#FFFFFF">%d egunetan</font> erabil dezakezu. Proba amaitutakoan, kontuan hartu Pro bertsiora berritzea. Ezaugarri berri ugari, diseinu modernoa, iragarkirik gabe eta beste hainbat hobekuntza ditu. \n\nBizitzan behin ordaindu behar duzu eta asetzen ez bazara, desinstalatu eta dirua berreskuratu dezakezu.\n\nEspero gustukoa izatea :)</string>
-    <string name="trial_end_description">Mesedez, pasa Pro bertsiora aplikazioaz ahalik eta gehien gozatzeko.\n\nBizitzan behin ordaindu behar duzu eta asetzen ez bazara, desinstalatu eta dirua itzul dezakezu.\n\nHan ikusiko dugu elkar :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Zure proba garaia egun %d-ean iraungiko da.</item>
         <item quantity="other">Zure proba garaia %d egunetan iraungiko da.</item>
     </plurals>
-    <string name="deprecated_app">ZAHARKITUA: Aplikazioaren bertsio hau ez da mantentzen; eskuratu Pro bertsioa https://play.google.com/store/apps/details?id=org.fossify..xxx.pro helbidean</string>
     <string name="pro_app_refund">Ez ahaztu 2 orduko epean ordaindutako edozein aplikazio desinstalatzen baduzu, dirua automatikoki itzuliko zaizula. Geroago itzulketa bat nahi baduzu, jarri gurekin harremanetan hello@fossify.org helbidera eta lortuko duzu. Horrek erraztu egiten du probatzea :)</string>
     <string name="developer_description">Trepeta pertsonalizagarriak dituzten Android aplikazio soil eta irekiko talde bat, iragarkirik eta alferrikako baimenik gabe.</string>
     <string name="app_font">Aplikazioaren letra mota</string>

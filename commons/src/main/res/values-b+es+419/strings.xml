@@ -96,7 +96,6 @@
     <string name="no_phone_number_found">No se encontró un número de teléfono</string>
     <string name="change_view_type">Cambiar tipo de vista</string>
     <string name="grid">Cuadrículas</string>
-    <string name="grid_pro">Cuadrículas (Pro)</string>
     <string name="uneven_grid">Cuadrículas Desiguales</string>
     <string name="list">Lista</string>
     <string name="increase_column_count">Incrementar cantidad de columnas</string>
@@ -166,7 +165,6 @@
     <string name="search_conversations">Buscar conversaciones</string>
     <string name="search_recordings">Buscar grabaciones</string>
     <string name="filter">Filtros</string>
-    <string name="filter_pro">Filtros (Pro)</string>
     <string name="no_items_found">No se encontraron ítems.</string>
     <string name="change_filter">Cambiar filtro</string>
     <string name="no_storage_permissions">Se requiere el permiso al almacenamiento</string>
@@ -361,7 +359,6 @@
         <item quantity="many">Tu prueba expirará en %d días.</item>
         <item quantity="other">Tu prueba expirará en %d días.</item>
     </plurals>
-    <string name="trial_end_description">Por favor actualice a la versión Pro para disfrutar la aplicación completamente.\n\nSolo tienes que pagarla una sola vez y si no te satisface, puedes desinstalarla y recibir un reembolso.\n\nTe esperaremos :)</string>
     <string name="welcome_to_app_name">¡Bienvenid@ a %s!</string>
     <string name="unlock_for_one_final_day">Desbloquea la aplicación para un día final</string>
     <string name="trial_expires_soon">Tu prueba expirará pronto.</string>
@@ -370,7 +367,6 @@
     <string name="confirm_storage_access_restricted_text_open_system">Abrir en la aplicación del sistema</string>
     <string name="app_icon_color_warning">Peligro: Ciertos launchers pueden no controlar la personalización de iconos de aplicaciones correctamente. Si el icono desaparece, intenta abrir la aplicación desde Google Play o un widget, si es accesible. Después de abrirla, restaura el icono verde por defecto color #106D1F. En casos extremos, reinstalar la aplicación podría ser necesario.</string>
     <string name="global_theme_success">El tema actual se ha aplicado con éxito a todas las aplicaciones Fossify. Todos los cambios futuros a este tema se sincronizarán automáticamente.</string>
-    <string name="shared_theme_note">Recuerde que aunque esté usando la versión Pro de la aplicación, aun así necesitará Fossify Thank You por razones técnicas. Se encargará de la sincronización del color.</string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>
     <string name="auto_theme">Automático</string>
@@ -403,10 +399,8 @@
     <string name="undo">Deshacer</string>
     <string name="redo">Rehacer</string>
     <string name="print">Imprimir</string>
-    <string name="print_pro">Imprimir (Pro)</string>
     <string name="shortcut">Atajo</string>
     <string name="create_shortcut">Crear atajo</string>
-    <string name="create_shortcut_pro">Crear atajo (Pro)</string>
     <string name="add_number_to_contact">Añadir número al contacto</string>
     <string name="view_contact_details">Ver detalles del contacto</string>
     <string name="call_from_sim_1">Llamar desde SIM 1</string>
@@ -493,7 +487,6 @@
     <string name="protection_setup_successfully">Contraseña ajustada con éxito. Por favor reinstale la aplicación en caso de que la olvide.</string>
     <string name="fingerprint_setup_successfully">Protección ajustada con éxito. Por favor reinstale la aplicación en caso de que tenga problemas restableciéndola.</string>
     <string name="lock_folder">Bloquear carpeta</string>
-    <string name="lock_folder_pro">Bloquear carpeta (Pro)</string>
     <string name="unlock_folder">Desbloquear carpeta</string>
     <string name="lock_folder_notice">Esta protección solo funciona en esta app, no puede reemplazar un cifrado de carpetas parte del sistema.</string>
     <string name="enter_password">Ingresar contraseña</string>
@@ -678,7 +671,6 @@
     <string name="color_customization">Aspecto y comportamiento</string>
     <string name="customize_colors">Personalizar apariencia</string>
     <string name="theme_and_colors">Colores y tema</string>
-    <string name="feature_locked">Bloqueado</string>
     <string name="customize_widget_colors">Personalizar colores de widget</string>
     <string name="customize_notifications">Personalizar notificaciones</string>
     <string name="notification_sound">Sonido de notificación</string>
@@ -697,7 +689,6 @@
     <string name="extra_large">Extra grande</string>
     <string name="password_protect_hidden_items">Proteger con contraseña la visibilidad de ítems ocultos</string>
     <string name="password_protect_whole_app">Proteger con contraseña la app entera</string>
-    <string name="deprecated_app">DEPRECADO: Esta versión de la app ya no es mantenida, obtén la versión Pro en https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="reminder_warning">Por favor verifique que los recordatorios funcionen antes de utilizarlos. Chequee la configuración de la batería del dispositivo y de las notificaciones, si no hay nada bloqueando los recordatorios, o cerrando la aplicación mientras no se usa.</string>
     <string name="notifications_disabled">Notificaciones de esta aplicación están deshabilitadas. Por favor vaya a la configuración de su dispositivo para activarlas.</string>
     <string name="alarm">Alarma</string>
@@ -852,8 +843,6 @@
     <string name="friday_short">Vie</string>
     <string name="saturday_short">Sáb</string>
     <string name="sunday_short">Dom</string>
-    <string name="upgrade_to_pro_long">La versión de tu app ya no será actualizada. Actualízala a la versión Pro para recibir nuevas mejoras y otras actualizaciones.</string>
-    <string name="upgrade_to_pro_long_click">La versión de tu app ya no será actualizada. Actualízala a la versión Pro para recibir nuevas mejoras y otras actualizaciones tocando aquí.</string>
     <string name="it_is_free">Será gratis hasta: %s. Si la descargas hasta ese entonces, podrás usarla gratis para siempre.</string>
     <string name="more_info">Más info</string>
     <string name="upgrade">Actualizar</string>
@@ -862,7 +851,6 @@
     <string name="website_label">Para los códigos fuente visite</string>
     <string name="email_label">Envíe sus sugerencias y retroalimentación a</string>
     <string name="known_issues">Errores conocidos</string>
-    <string name="upgrade_to_pro">Actualizar a Pro</string>
     <string name="more_fossify_apps">Más apps Fossify</string>
     <string name="invite_friends">Invitar amig@s</string>
     <string name="share_text">Hey, ven a ver %1$s en %2$s</string>
@@ -882,16 +870,7 @@
     <string name="additional_info">Info adicional</string>
     <string name="app_version">Versión de app: %s</string>
     <string name="device_os">SO del Dispositivo: %s</string>
-    <string name="donate_please"><![CDATA[
-            Hola,<br><br>
-            esperamos que esté disfrutando de la app. No contiene anuncios, por favor apoye el desarrollo comprando la aplicación de <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Gracias</a>, también evitará que este diálogo se vuelva a mostrar.<br><br>
-            ¡Gracias!
-        ]]></string>
     <string name="purchase">Comprar</string>
     <string name="update_thank_you">Por favor actualiza Fossify Gracias a la última versión</string>
     <string name="upgrade_calendar">Tienes que migrar los eventos almacenados localmente manualmente exportándolos en un archivo .ics y luego importándolos. Puedes encontrar tanto los botones de exportación como de importación en el menú principal.</string>
-    <string name="upgraded_from_free_gallery">Hola,\n\nParece que acabas de actualizar desde la versión gratuita. Cuando estés satisfecho con este y quizá hayas migrado tus ajustes y favoritos, puedes desinstalar el antiguo gratuito para evitar que se inicie accidentalmente, ya que ya no lo necesitarás y también evitará que aparezca este diálogo.\n\n¡Gracias!</string>
-    <string name="upgraded_to_pro_gallery">Hola,\n\nParece que ya tienes la versión Pro app también. Cuando estés satisfecho con él y quizá hayas migrado tus ajustes y favoritos, puedes desinstalar este para evitar que se inicie accidentalmente, ya que ya no lo necesitarás más.\n\n¡Gracias!</string>
-    <string name="upgraded_from_free">Hola,\n\nParece que acabas de actualizar desde la versión gratuita. Una vez que estés satisfecho con este y quizá hayas migrado tus datos, puedes desinstalar el antiguo gratuito para evitar que se inicie accidentalmente, ya que ya no lo necesitarás y también evitará que aparezca este diálogo.\n\n¡Gracias!</string>
-    <string name="upgraded_to_pro">Hola,\n\nParece que ya tienes la versión Pro app también. Una vez que estés satisfecho y quizá hayas migrado tus datos, puedes desinstalar este para evitar que se inicie accidentalmente, ya que ya no lo necesitarás más.\n\n¡Gracias!</string>
 </resources>

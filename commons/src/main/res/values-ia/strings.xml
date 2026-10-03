@@ -87,7 +87,6 @@
     <string name="search_tracks">Cercar tracias</string>
     <string name="search_text">Cercar texto</string>
     <string name="filter">Filtrar</string>
-    <string name="filter_pro">Filtrar (Pro)</string>
     <string name="no_items_found">Necun elemento trovate.</string>
     <string name="grant_permission">Conceder permission</string>
     <string name="permission_required">Permission requirite</string>
@@ -108,7 +107,6 @@
     <string name="mobile">Mobile</string>
     <string name="home_fax">Fax de casa</string>
     <string name="change_view_type">Cambiar typo de visualisation</string>
-    <string name="grid_pro">Grillia (Pro)</string>
     <string name="record_audio">Registrar audio</string>
     <string name="no_phone_number_found">Necun numero de telephono esseva trovate</string>
     <string name="deleting_folder">Suppression de dossier “%s”</string>

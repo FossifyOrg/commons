@@ -48,7 +48,6 @@
     <string name="search">Axtar</string>
     <string name="type_2_characters">Axtarışa başlamaq üçün ən az 2 simvol yazın.</string>
     <string name="filter">Filtr</string>
-    <string name="filter_pro">Filtr (Pro)</string>
     <string name="no_items_found">Heçnə tapılmadı.</string>
     <string name="change_filter">Filtri dəyiş</string>
     <string name="no_storage_permissions">Yaddaş icazəsi tələb olunur</string>
@@ -424,7 +423,6 @@
     <string name="friday_short">Cü</string>
     <string name="saturday_short">Şnb</string>
     <string name="sunday_short">Bzr</string>
-    <string name="upgraded_to_pro">Hey,\n\nseems like you already have the Pro app version too. You will not need this one anymore, you can uninstall it.</string>
     <string name="about">Haqqında</string>
     <string name="website_label">Kök koda keçiş üçün</string>
     <string name="email_label">Geri dönüş və tövsiyələrinizi göndərin</string>
@@ -436,13 +434,6 @@
     <string name="additional_info">Əlavə məlumat</string>
     <string name="app_version">Tətbiq versiyası: %s</string>
     <string name="device_os">Cihaz ƏS: %s</string>
-    <string name="donate_please">
-        <![CDATA[
-            Salam,<br><br>
-            arzu edirəm tətbiqdən zövq alırsan. Reklam ehtiva etmir, please support its development by purchasing the <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> app, it will also prevent this dialog from showing up again.<br><br>
-            Thank you!
-        ]]>
-    </string>
     <string name="purchase">Ödəniş Et</string>
     <string name="calculator_short">Kalkulyator</string>
     <string name="calendar_short">Təqvim</string>

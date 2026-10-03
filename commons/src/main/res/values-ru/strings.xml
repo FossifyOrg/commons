@@ -89,7 +89,6 @@
     <string name="no_phone_number_found">Номер не найден</string>
     <string name="change_view_type">Вид</string>
     <string name="grid">Сетка</string>
-    <string name="grid_pro">Сетка (Pro)</string>
     <string name="uneven_grid">Неровная сетка</string>
     <string name="list">Список</string>
     <string name="increase_column_count">Добавить столбец</string>
@@ -160,7 +159,6 @@
     <string name="search_conversations">Поиск переписок</string>
     <string name="search_recordings">Поиск записей</string>
     <string name="filter">Фильтр</string>
-    <string name="filter_pro">Фильтр (Pro)</string>
     <string name="no_items_found">Ничего не найдено.</string>
     <string name="change_filter">Изменить фильтр</string>
     <string name="no_storage_permissions">Требуется разрешение для доступа к хранилищу</string>
@@ -266,8 +264,8 @@
     <string name="select_file">Выбор файла</string>
     <string name="confirm_storage_access_title">Предоставление доступа к внешнему накопителю</string>
     <string name="confirm_folder_access_title">Подтвердить доступ к папке</string>
-    <string name="confirm_storage_access_text">Чтобы предоставить доступ для записи, выберите корневую папку SD-карты на следующем шаге</string>
-    <string name="confirm_storage_access_text_sd">Если SD-карта не видна, попробуйте это</string>
+    <string name="confirm_storage_access_text">Чтобы предоставить доступ для записи, выберите корневую папку карты памяти на следующем шаге</string>
+    <string name="confirm_storage_access_text_sd">Если карта памяти не видна, попробуйте это</string>
     <string name="confirm_storage_access_android_text">Разрешите приложению доступ к выбранному хранилищу на следующем экране, нажав \"Использовать эту папку\" в нижней части.</string>
     <string name="confirm_storage_access_android_text_specific">Разрешите доступ к \"<b>%s</b>\" на следующем экране, нажав \"<b>Использовать эту папку</b>\" внизу.</string>
     <string name="confirm_create_doc_for_new_folder_text">Нажмите \"&lt;b&gt;Сохранить&lt;/b&gt;\" внизу на следующем экране, чтобы создать новую папку.</string>
@@ -298,11 +296,11 @@
     <string name="storage">Хранилище</string>
     <string name="internal">Внутренняя память</string>
     <string name="internal_storage">Внутреннее хранилище</string>
-    <string name="sd_card">SD-карта</string>
+    <string name="sd_card">Карта памяти</string>
     <string name="root">Корневая папка</string>
     <string name="wrong_root_selected">Выбрана неправильная папка, выберите SD-карту</string>
-    <string name="sd_card_usb_same">Пути к SD-карте и USB-накопителю не могут быть одинаковыми</string>
-    <string name="app_on_sd_card">Похоже, что приложение установлено на SD-карту, из-за чего виджеты приложения недоступны. Вы даже не увидите их в списке доступных виджетов. Это системное ограничение, поэтому, если хотите использовать виджеты, вам нужно переместить приложение обратно во внутреннюю память.</string>
+    <string name="sd_card_usb_same">Пути к карте памяти и USB-накопителю не могут быть одинаковыми</string>
+    <string name="app_on_sd_card">Похоже, что приложение установлено на карту памяти, из-за чего виджеты приложения недоступны. Вы даже не увидите их в списке доступных виджетов. Это системное ограничение, поэтому, если хотите использовать виджеты, вам нужно переместить приложение обратно во внутреннюю память.</string>
     <string name="wrong_folder_selected">Выбрана неправильная папка, выберите \"%s\"</string>
     <string name="properties">Свойства</string>
     <string name="path">Путь</string>
@@ -379,10 +377,8 @@
     <string name="undo">Отменить</string>
     <string name="redo">Повторить</string>
     <string name="print">Печать</string>
-    <string name="print_pro">Печать (Pro)</string>
     <string name="shortcut">Ярлык</string>
     <string name="create_shortcut">Создать ярлык</string>
-    <string name="create_shortcut_pro">Создать ярлык (Pro)</string>
     <string name="add_number_to_contact">Добавить номер для контакта</string>
     <string name="view_contact_details">Просмотр данных контакта</string>
     <string name="call_from_sim_1">Вызов с SIM 1</string>
@@ -466,7 +462,6 @@
     <string name="protection_setup_successfully">Пароль установлен. Переустановите приложение в случае, если вы его забудете.</string>
     <string name="fingerprint_setup_successfully">Установка защиты выполнена успешно. Переустановите приложение в случае возникновения проблем с её отключением.</string>
     <string name="lock_folder">Защитить папку</string>
-    <string name="lock_folder_pro">Защитить папку (Pro)</string>
     <string name="unlock_folder">Снять защиту папки</string>
     <string name="lock_folder_notice">Данная защита работает только в этом приложении. Она не должна заменять собой реальное общесистемное шифрование.</string>
     <string name="enter_password">Введите пароль</string>
@@ -649,7 +644,6 @@
     <string name="general_settings">Общие</string>
     <string name="color_customization">Внешний вид</string>
     <string name="customize_colors">Настройка внешнего вида</string>
-    <string name="feature_locked">Заблокировано</string>
     <string name="customize_widget_colors">Настройка цветов виджета</string>
     <string name="customize_notifications">Настройка уведомлений</string>
     <string name="notification_sound">Звук уведомления</string>
@@ -819,58 +813,14 @@
     <string name="friday_short">пт</string>
     <string name="saturday_short">сб</string>
     <string name="sunday_short">вс</string>
-    <string name="upgrade_to_pro_long">Ваша версия приложения больше не будет обновляться. Обновите её до Pro-версии, чтобы получать исправления и улучшения.</string>
-    <string name="upgrade_to_pro_long_click">Ваша версия приложения больше не будет обновляться. Обновите её до Pro-версии, чтобы получать исправления и улучшения, нажав здесь.</string>
     <string name="it_is_free">Это бесплатно до %s. При загрузке до указанного времени вы получаете её бесплатно навсегда.</string>
     <string name="more_info">Подробнее</string>
     <string name="upgrade">Обновить</string>
     <string name="upgrade_calendar">Локально сохранённые события необходимо перенести вручную через экспорт и последующий импорт ICS-файла. Кнопки экспорта/импорта находятся в главном меню.</string>
-    <string name="upgraded_from_free_gallery">Привет,
-\n
-\nпохоже, что вы обновились с бесплатной версии. Если вы будете довольны работой этого приложения и, возможно, перенесёте в него свои настройки и избранное, то можете удалить старую бесплатную версию, чтобы избежать её случайного запуска, поскольку она вам больше не понадобится. Это также предотвратит появление этого уведомления.
-\n
-\nСпасибо!</string>
-    <string name="upgraded_to_pro_gallery">Привет,
-\n
-\nпохоже, что у вас уже есть Pro-версия приложения. Если вы будете довольны работой этого приложения и, возможно, перенесёте в него свои настройки и избранное, то можете удалить старую бесплатную версию, чтобы избежать её случайного запуска, поскольку она вам больше не понадобится.
-\n
-\nСпасибо!</string>
-    <string name="upgraded_from_free">Привет,
-\n
-\nпохоже, что вы обновились с бесплатной версии. Если вы будете довольны работой этого приложения и, возможно, перенесёте в него свои данные, то можете удалить старую бесплатную версию, чтобы избежать её случайного запуска, поскольку она вам больше не понадобится. Это также предотвратит появление этого уведомления.
-\n
-\nСпасибо!</string>
-    <string name="upgraded_to_pro">Привет,
-\n
-\nпохоже, что у вас уже есть Pro-версия приложения. Если вы будете довольны работой этого приложения и, возможно, перенесёте в него свои данные, то можете удалить старую бесплатную версию, чтобы избежать её случайного запуска, поскольку она вам больше не понадобится.
-\n
-\nСпасибо!</string>
-    <string name="upgraded_from_free_calendar">Привет,
-\n
-\nпохоже, что вы обновились с бесплатной версии. Если хотите перенести локально сохранённые события, это нужно сделать вручную, экспортировав их в ICS-файл в бесплатной версии приложения и импортировав сюда через верхнее меню.
-\n
-\nЕсли вы будете довольны работой Pro-версии, то можете удалить старую бесплатную версию, поскольку она вам больше не понадобится. Это также предотвратит появление этого уведомления.
-\n
-\nСпасибо!</string>
-    <string name="upgraded_from_free_contacts">Привет,
-\n
-\nпохоже, что вы обновились с бесплатной версии. Если у вас есть какие-нибудь контакты, сохранённые в \"%s\", нужно перенести их вручную, экспортировав в VCF-файл в бесплатной версии приложения и импортировав сюда через верхнее меню.
-\n
-\nЕсли вы будете довольны работой Pro-версии, то можете удалить старую бесплатную версию, поскольку она вам больше не понадобится. Это также предотвратит появление этого уведомления.
-\n
-\nСпасибо!</string>
-    <string name="upgraded_from_free_notes">Привет,
-\n
-\nпохоже, что вы обновились с бесплатной версии. Если хотите перенести свои заметки, это нужно сделать вручную, экспортировав их в файл в бесплатной версии приложения и импортировав сюда через верхнее меню.
-\n
-\nЕсли вы будете довольны работой Pro-версии, то можете удалить старую бесплатную версию, поскольку она вам больше не понадобится. Это также предотвратит появление этого уведомления.
-\n
-\nСпасибо!</string>
     <string name="about">О приложении</string>
     <string name="website">Сайт</string>
     <string name="website_label">Исходный код можно найти по адресу</string>
     <string name="email_label">Отправить отзывы или предложения</string>
-    <string name="upgrade_to_pro">Обновить до Pro</string>
     <string name="invite_friends">Предложить другу</string>
     <string name="share_text">Попробуйте %1$s по ссылке %2$s</string>
     <string name="invite_via">Предложить с помощью</string>
@@ -892,12 +842,9 @@
     <string name="purchase">Купить</string>
     <string name="before_asking_question_read_faq">Прежде чем задать вопрос, изучите настройки приложения и прочтите FAQ (часто задаваемые вопросы). Возможно, решение уже есть.</string>
     <string name="make_sure_latest">Также убедитесь, что используете последнюю версию приложения.</string>
-    <string name="make_sure_upgrade">Также обратите внимание, что эта версия приложения больше не разрабатывается. Установите Pro-версию для получения множества улучшений.</string>
     <string name="read_it">Прочитать</string>
     <string name="read_faq">Прочитать FAQ</string>
     <string name="thank_you">Спасибо</string>
-    <string name="widget_locked_pro">Виджет заблокирован.
-\nПерейдите на Pro-версию, чтобы разблокировать его.</string>
     <string name="new_app"><![CDATA[
             Привет,<br><br>
             просто сообщаем, что недавно были выпущены новые приложения:<br><br>
@@ -931,7 +878,7 @@
     <string name="frequently_asked_questions">Часто задаваемые вопросы</string>
     <string name="before_asking_question">Прежде чем задать вопрос, прочитайте</string>
     <string name="faq_1_title_commons">Почему я не вижу виджет этого приложения в списке виджетов?</string>
-    <string name="faq_1_text_commons">Это, скорее всего, потому, что вы перенесли приложение на SD-карту. Существует ограничение системы Android, которое скрывает виджеты приложения в этом случае. Единственное решение — переместить приложение обратно во внутреннее хранилище через настройки вашего устройства.</string>
+    <string name="faq_1_text_commons">Это, скорее всего, потому, что вы перенесли приложение на карту памяти. Существует ограничение системы Android, которое скрывает виджеты приложения в этом случае. Единственное решение — переместить приложение обратно во внутреннее хранилище через настройки вашего устройства.</string>
     <string name="faq_2_title_commons">Я хочу поддержать вас, но не могу пожертвовать деньги. Есть ли что-нибудь ещё, что я могу сделать?</string>
     <string name="faq_2_text_commons"><![CDATA[
             Да, конечно. Вы можете рассказывать о наших приложениях или оставлять хорошие отзывы и оценки. Также вы можете помочь, переведя приложения на новый язык или обновив существующий перевод.
@@ -946,8 +893,6 @@
     <string name="faq_6_title_commons">Значок запуска приложения исчез. Что делать?</string>
     <string name="faq_7_title_commons">Деньги были списаны с моего банковского счета, но я не могу загрузить приложение. Что можно сделать?</string>
     <string name="faq_7_text_commons">Платежи полностью обрабатываются Google, их система время от времени даёт сбои. Просто очистите кэш приложения Google Play и перезагрузите устройство, затем повторите попытку загрузки.</string>
-    <string name="faq_8_title_commons">Почему следует перейти на Pro-версию?</string>
-    <string name="faq_8_text_commons">Поскольку версия приложения больше не обновляется, ошибки, которые вы, возможно, заметили, никогда не будут исправлены. Также не будет добавлено никаких новых функций. Вы можете приобрести Pro-версию на Google Play за очень небольшую сумму. Это разовая покупка, которая означает, что вам никогда не придётся платить снова. Даже после смены устройства. Если вам не понравится Pro-версия, вы можете просто удалить её в течение нескольких часов, после чего автоматически получите свои деньги обратно. Если вы захотите вернуть деньги в любое время позже, просто свяжитесь с нами по адресу: hello@fossify.org, и мы вернём их.</string>
     <string name="faq_9_title_commons">Как выбрать сразу несколько элементов?</string>
     <string name="faq_9_text_commons">Есть несколько способов сделать это. Первый — это включить режим выделения длительным нажатием на одном элементе, а затем выделять другие короткими нажатиями на них. Второй способ аналогичен выбору элементов на ПК с помощью мыши: включите режим выбора длительным нажатием на одном элементе, затем, не отпуская пальца, проведите им по другим элементам для выбора. Третий способ выбора нескольких элементов — длительное нажатие на один элемент, затем длительное нажатие на другой, и всё, что находится между ними, будет выбрано. Если нужно выбрать все элементы, длительным нажатием выделите один элемент, а затем нажмите на счётчик выбранных элементов в левом верхнем углу. Это действие выберет или отменит выбор всего.</string>
     <string name="faq_10_title_commons">Я купил приложение, но не могу загрузить его на другое устройство.</string>
@@ -1009,40 +954,6 @@
     <string name="translation_chinese_hk">Китайский (Гонконг)</string>
     <string name="translation_chinese_cn">Китайский (упрощённый)</string>
     <string name="translation_chinese_tw">Китайский (традиционный)</string>
-    <string name="why_upgrade">Получите Pro-версию прямо сейчас!</string>
-    <string name="why_upgrade_basic_version">Базовая</string>
-    <string name="why_upgrade_no_ads">Без рекламы</string>
-    <string name="why_upgrade_no_internet_access">Без доступа к интернету</string>
-    <string name="why_upgrade_footer">100% гарантия возврата денег</string>
-    <string name="why_upgrade_footer_one_time_payment">Разовый платёж</string>
-    <string name="why_upgrade_improved_design">Улучшенный дизайн</string>
-    <string name="why_upgrade_many_other_improvements">Множество других улучшений</string>
-    <string name="why_upgrade_advanced_photo_editor">Мощный фоторедактор</string>
-    <string name="why_upgrade_advanced_photo_video_editor">Расширенный редактор фото и видео</string>
-    <string name="why_upgrade_heic_support">Поддержка файлов HEIC/HEIF</string>
-    <string name="why_upgrade_batch_renaming">Пакетное переименование файлов</string>
-    <string name="why_upgrade_folder_locking">Индивидуальная блокировка папок</string>
-    <string name="why_upgrade_printing_support">Поддержка печати</string>
-    <string name="why_upgrade_time_zone_support">Поддержка часовых поясов</string>
-    <string name="why_upgrade_attendees_emails">Участники и напоминания по электронной почте</string>
-    <string name="why_upgrade_easy_event_importing">Удобный импорт событий</string>
-    <string name="why_upgrade_new_widgets">Новые виджеты</string>
-    <string name="why_upgrade_duplicate_contact_merging">Улучшенная функция объединения контактов</string>
-    <string name="why_upgrade_font_size_customization">Настройка размера шрифта</string>
-    <string name="why_upgrade_private_contact_sharing">Дополнительный обмен конфиденциальными контактами в наших приложениях</string>
-    <string name="why_upgrade_customizable_contact_ringtones">Настройка мелодии вызова для контакта</string>
-    <string name="why_upgrade_contact_filtering">Фильтрация контактов</string>
-    <string name="why_upgrade_contact_private_contacts">Сохранение конфиденциальности контактов</string>
-    <string name="why_upgrade_checklists">Контрольные списки</string>
-    <string name="why_upgrade_different_note_per_widget">Разные заметки и цвета для каждого виджета</string>
-    <string name="why_upgrade_note_locking">Блокировка заметок</string>
-    <string name="why_upgrade_date_and_time_format">Настройка формата даты и времени</string>
-    <string name="why_upgrade_shortcuts">Ярлыки на главном экране</string>
-    <string name="why_upgrade_file_compression">Поддержка сжатия файлов</string>
-    <string name="why_upgrade_recents_tab">Вкладка с последними файлами</string>
-    <string name="why_upgrade_background_color_customization">Настройка цвета фона</string>
-    <string name="why_upgrade_file_importing">Поддержка импорта файлов</string>
-    <string name="why_upgrade_zooming">Масштабирование</string>
     <string name="third_party_licences">Лицензии третьих сторон</string>
     <string name="kotlin_title">Kotlin (язык программирования)</string>
     <string name="subsampling_title">Subsampling Scale Image View (возможность масштабирования изображений)</string>
@@ -1082,41 +993,25 @@
     <string name="trial_expires_soon">Пробный период скоро истечёт.</string>
     <string name="unlock_for_one_final_day">Разблокировать приложение на один последний день</string>
     <string name="welcome_to_app_name">Добро пожаловать в %s!</string>
-    <string name="trial_start_description">Благодарим вас за использование нашего приложения. Вы можете использовать эту разблокированную версию <font color="#FFFFFF">%d дней</font>. После окончания пробного периода рассмотрите возможность обновления до pro-версии. Она имеет огромное количество новых функций, современный дизайн, отсутствие рекламы и множество других улучшений.\n \nОплата потребуется один раз в жизни, и если вы останетесь недовольны работой приложения, то можете удалить его и получить возврат средств. \n \nНадеемся, вам понравится :)</string>
-    <string name="trial_end_description">Пожалуйста, обновитесь до Pro-версии, чтобы пользоваться приложением в полном объёме.
-\n
-\nОплата потребуется один раз в жизни, и если вы останетесь недовольны работой приложения, то можете удалить его и получить возврат средств.
-\n
-\nУвидимся :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Пробный период истекает через %d день.</item>
         <item quantity="few">Пробный период истекает через %d дня.</item>
         <item quantity="many">Пробный период истекает через %d дней.</item>
         <item quantity="other">Пробный период истекает через %d дней.</item>
     </plurals>
-    <string name="deprecated_app">УСТАРЕВШЕЕ: данная версия приложения больше не поддерживается, переходите на Pro-версию https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">Не забывайте, что если вы удалите любое платное приложение в течение 2 часов, вам будет автоматически возвращена сумма покупки. Если вы захотите вернуть деньги позднее, просто свяжитесь с нами по адресу: hello@fossify.org, и вы их получите. Так что можно легко попробовать это приложение :)</string>
     <string name="developer_description">Группа простых приложений для Android с открытым исходным кодом, настраиваемыми виджетами, без рекламы и ненужных разрешений.</string>
-    <string name="donate_new">Привет,&lt;br&gt;&lt;br&gt; надеюсь, вам нравится приложение. Оно не содержит рекламы, и мы не собираем ваши данные, пожалуйста, поддержите его развитие, купив &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Вы также получите все функции приложения, включая настройку цвета.&lt;br&gt;&lt;br&gt; Спасибо!</string>
     <string name="update_thank_you">Пожалуйста, обновите до последней версии Fossify Thank You</string>
     <string name="purchase_thank_you"><![CDATA[
             Пожалуйста, купите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, чтобы использовать эту функцию и поддержать развитие. Спасибо!
         ]]></string>
-    <string name="shared_theme_note">Обратите внимание, что даже если вы используете Pro-версию приложения, по техническим причинам вам всё ещё необходимо приложение Fossify Thank You. Оно обеспечивает синхронизацию цветов.</string>
-    <string name="features_locked">Это платная функция. Пожалуйста, купите &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;, чтобы разблокировать все возможности приложения.&lt;br&gt;&lt;br&gt;Это разовый платёж, и если вы останетесь недовольны, мы вернём вам деньги.</string>
     <string name="ok">OK</string>
     <string name="block_contact">Заблокировать контакт</string>
     <string name="exif">EXIF</string>
     <string name="apply_to_all_apps">Применить тему ко всем приложениям Fossify</string>
     <string name="purchase_simple_thank_you">Купить Fossify Thank You</string>
     <string name="usb">USB</string>
-    <string name="donate_please"><![CDATA[
-            Привет,<br><br> 
-            надеемся, вам нравится приложение. Оно не содержит рекламы, пожалуйста, поддержите его развитие, купив <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. После покупки это сообщение больше не будет показываться.<br><br>
-            Спасибо!
-        ]]></string>
     <string name="donate_short">Пожалуйста, поддержите нас покупкой &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Это также разблокирует все функции приложения, включая настройку цвета.</string>
-    <string name="why_upgrade_pro_version">Pro</string>
     <string name="faq_6_text_commons">Эта проблема возникает, когда лаунчер не полностью поддерживает пользовательские значки. Попробуйте запустить приложение через Google Play или через виджет, если он доступен. После запуска восстановите стандартный зеленый цвет значка #106D1F. В крайних случаях может потребоваться переустановка приложения.</string>
     <string name="app_icon_color_warning">Внимание: некоторые лаунчеры могут некорректно отображать пользовательский значок приложения. Если значок исчезает, попробуйте запустить приложение через Google Play или через его виджет (если возможно). После запуска восстановите стандартный зелёный цвет значка #106D1F. В крайних случаях может потребоваться переустановка приложения.</string>
     <string name="translation_esperanto">Эсперанто</string>

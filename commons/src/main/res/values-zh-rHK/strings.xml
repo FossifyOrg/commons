@@ -89,7 +89,6 @@
     <string name="no_phone_number_found">未發現電話號碼</string>
     <string name="change_view_type">顯示方式</string>
     <string name="grid">格狀</string>
-    <string name="grid_pro">格狀（專業版）</string>
     <string name="uneven_grid">無邊界網格</string>
     <string name="list">列表</string>
     <string name="increase_column_count">增加欄數</string>
@@ -121,7 +120,6 @@
     <string name="search">搜尋</string>
     <string name="type_2_characters">輸入兩個字以上來開始搜尋。</string>
     <string name="filter">篩選</string>
-    <string name="filter_pro">篩選（專業版）</string>
     <string name="no_items_found">未發現相符的檔案。</string>
     <string name="change_filter">更改篩選條件</string>
     <string name="no_storage_permissions">儲存空間權限是必要的</string>
@@ -310,10 +308,8 @@
     <string name="undo">復原</string>
     <string name="redo">取消復原</string>
     <string name="print">列印</string>
-    <string name="print_pro">列印（專業版）</string>
     <string name="shortcut">捷徑</string>
     <string name="create_shortcut">建立捷徑</string>
-    <string name="create_shortcut_pro">建立捷徑（專業版）</string>
     <string name="add_number_to_contact">將號碼加入聯絡人</string>
     <string name="view_contact_details">檢視聯絡人詳細資料</string>
     <string name="call_from_sim_1">使用 SIM 卡 1 撥號</string>
@@ -385,7 +381,6 @@
     <string name="protection_setup_successfully">密碼設置成功。若遺忘了，請重新安裝應用程式。</string>
     <string name="fingerprint_setup_successfully">保護設定成功。如果重設時發生問題，請重新安裝應用程式。</string>
     <string name="lock_folder">上鎖資料夾</string>
-    <string name="lock_folder_pro">上鎖資料夾（專業版）</string>
     <string name="unlock_folder">解鎖資料夾</string>
     <string name="lock_folder_notice">這保護僅限作用於此應用程式，並不該用來取代真正系統級的資料夾加密。</string>
     <string name="yesterday">昨天</string>
@@ -502,7 +497,6 @@
     <string name="general_settings">一般</string>
     <string name="color_customization">自訂色彩</string>
     <string name="customize_colors">自訂顏色</string>
-    <string name="feature_locked">已鎖定</string>
     <string name="customize_widget_colors">自訂小工具顏色</string>
     <string name="customize_notifications">自訂通知</string>
     <string name="use_english_language">強制使用英語</string>
@@ -642,8 +636,6 @@
     <string name="friday_short">週五</string>
     <string name="saturday_short">週六</string>
     <string name="sunday_short">週日</string>
-    <string name="upgrade_to_pro_long">你的應用程式版本將不再更新。請更新到專業版以獲得新的修復和其他改善。</string>
-    <string name="upgrade_to_pro_long_click">你的應用程式版本將不再更新。請點擊這裡，更新到專業版以獲得新的修復和其他改善。</string>
     <string name="it_is_free">它在此日期前免費：%s。如果您在到期前下載，將能夠永久免費使用。</string>
     <string name="more_info">更多資訊</string>
     <string name="upgrade">升級</string>
@@ -652,7 +644,6 @@
     <string name="website">網站</string>
     <string name="website_label">觀看原始碼</string>
     <string name="email_label">傳送您的反饋或建議</string>
-    <string name="upgrade_to_pro">升級至專業版</string>
     <string name="invite_friends">邀請朋友</string>
     <string name="share_text">嘿，來試試看「%1$s」吧！ %2$s</string>
     <string name="invite_via">邀請</string>
@@ -670,19 +661,12 @@
     <string name="additional_info">進階資訊</string>
     <string name="app_version">應用程式版本: %s</string>
     <string name="device_os">裝置系統: %s</string>
-    <string name="donate_please"><![CDATA[
-            哈囉 <br><br>
-            希望您喜愛這應用程式。 它不含廣告，所以請購買應用程式 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 來支持開發者，這對話框也不會再出現。<br><br>
-            感謝!
-        ]]></string>
     <string name="purchase">購買</string>
     <string name="before_asking_question_read_faq">在您發問前，請先檢查程式設定及閱讀[常見問題]。或許解決方法就在那裡。</string>
     <string name="make_sure_latest">並且確保您正使用最新的應用程式版本。</string>
-    <string name="make_sure_upgrade">另請注意，此應用程式版本已不再開發，請取得專業版以獲得許多改進。</string>
     <string name="read_it">讀它</string>
     <string name="read_faq">閱讀FAQ</string>
     <string name="thank_you">感謝</string>
-    <string name="widget_locked_pro">小工具已鎖定。\n請升級到專業版來解鎖。</string>
     <string name="new_app"><![CDATA[
             嗨，<br><br>
             告訴你最近有一個新的應用程式剛發布:<br><br>
@@ -727,8 +711,6 @@
     <string name="faq_6_title_commons">應用程式啟動器上的圖示消失了。我該怎麼辦?</string>
     <string name="faq_7_title_commons">錢已經從我的銀行帳戶扣除，但我無法下載這應用程式。我能怎麼做?</string>
     <string name="faq_7_text_commons">支付完全交由Google處理，他們的系統偶爾會發生故障。只要清除您的Google Play應用程式快取並重新啟動裝置，然後再次嘗試下載。</string>
-    <string name="faq_8_title_commons">為什麼我應該升級到專業版?</string>
-    <string name="faq_8_text_commons">由於你的程式版本不再更新，將永遠不會修復可能遇到的錯誤，也不會再加入新功能。你可以在Google Play上用一小筆錢購買專業版。 這是一次性付款。也就是說，一旦你購買了將不必再次付費，即使之後有新裝置也不用。如果你不喜歡專業版，則可以在幾個小時內解除安裝，將自動拿回你的錢。 之後如果何時想退款，只要你以 hello@fossify.org 聯絡我們然後就能獲得退款了。</string>
     <string name="faq_9_title_commons">如何一次選取多個項目？</string>
     <string name="faq_9_text_commons">有幾種方法可以做到。第一種是長按一個項目以啟動選取模式，然後點選其他項目來選取它們。第二種類似於在電腦上用滑鼠選擇項目，長按一個項目以啟動選取模式，然後手指不放開拖曳至其他項目上進行選取。第三種方法是先長按一個項目，然後再長按另一個項目，中間的所有內容都會被選取。如果您想選取所有項目，只需長按一個項目，然後點選左上角的已選取項目計數器，即可全選或取消全選。</string>
     <string name="faq_10_title_commons">我已購買應用程式，但無法在其他裝置上下載。</string>
@@ -737,40 +719,6 @@
     <string name="translation">翻譯</string>
     <string name="development">開發</string>
     <string name="other_help">其他協助</string>
-    <string name="why_upgrade">立即取得專業版！</string>
-    <string name="why_upgrade_basic_version">基本版</string>
-    <string name="why_upgrade_pro_version">專業版</string>
-    <string name="why_upgrade_no_ads">無廣告</string>
-    <string name="why_upgrade_no_internet_access">無網路存取</string>
-    <string name="why_upgrade_footer">100% 退款保證</string>
-    <string name="why_upgrade_footer_one_time_payment">一次性付款</string>
-    <string name="why_upgrade_improved_design">改進的設計</string>
-    <string name="why_upgrade_advanced_photo_editor">進階相片編輯器</string>
-    <string name="why_upgrade_advanced_photo_video_editor">進階相片和影片編輯器</string>
-    <string name="why_upgrade_heic_support">HEIC/HEIF 檔案支援</string>
-    <string name="why_upgrade_batch_renaming">進階批次檔案重新命名</string>
-    <string name="why_upgrade_folder_locking">個別資料夾鎖定</string>
-    <string name="why_upgrade_printing_support">列印支援</string>
-    <string name="why_upgrade_time_zone_support">時區支援</string>
-    <string name="why_upgrade_attendees_emails">參與者和短訊提醒</string>
-    <string name="why_upgrade_easy_event_importing">輕鬆匯入活動</string>
-    <string name="why_upgrade_new_widgets">新的小工具</string>
-    <string name="why_upgrade_duplicate_contact_merging">改進的重複聯絡人合併</string>
-    <string name="why_upgrade_font_size_customization">字型大小自訂</string>
-    <string name="why_upgrade_private_contact_sharing">在我們的應用程式中選擇性地分享私人聯絡人</string>
-    <string name="why_upgrade_customizable_contact_ringtones">可自訂的聯絡人鈴聲</string>
-    <string name="why_upgrade_contact_filtering">聯絡人篩選</string>
-    <string name="why_upgrade_contact_private_contacts">私密儲存的聯絡人</string>
-    <string name="why_upgrade_checklists">檢查清單</string>
-    <string name="why_upgrade_different_note_per_widget">每個小工具可使用不同的筆記和顏色</string>
-    <string name="why_upgrade_note_locking">筆記鎖定</string>
-    <string name="why_upgrade_date_and_time_format">日期和時間格式自訂</string>
-    <string name="why_upgrade_shortcuts">主畫面捷徑</string>
-    <string name="why_upgrade_file_compression">檔案壓縮支援</string>
-    <string name="why_upgrade_recents_tab">包含最近檔案的分頁</string>
-    <string name="why_upgrade_background_color_customization">背景顏色自訂</string>
-    <string name="why_upgrade_file_importing">檔案匯入支援</string>
-    <string name="why_upgrade_zooming">縮放</string>
     <string name="third_party_licences">第三方授權</string>
     <string name="kotlin_title">Kotlin（程式語言）</string>
     <string name="subsampling_title">Subsampling Scale Image View（可縮放圖片檢視）</string>
@@ -804,7 +752,6 @@
     <string name="pdf_viewer_title">Android PdfViewer（PDF 檢視器）</string>
     <string name="m3u_parser_title">M3U Parser（m3u 播放清單檔案處理）</string>
     <string name="android_lame_title">AndroidLame（mp3 編碼器）</string>
-    <string name="deprecated_app">已捨棄: 這版本的應用程式不再維護，在這取得專業版 https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">別忘記如果您在2小時內解除安裝任何付費應用程式，將會自動被退款。若您在之後隨時想退款，只要透過 @fossify.org 聯絡我們，即可收到退款。這麼一來輕鬆就能試用了 :)</string>
     <string name="developer_description">一系列簡單、開放原始碼的 Android 應用程式，具有可自訂的小工具，沒有廣告和不必要的權限。</string>
     <string name="format_phone_numbers">設定電話號碼格式</string>
@@ -867,7 +814,6 @@
     <string name="exif">EXIF</string>
     <string name="apply_to_all_apps">將顏色套用至所有 Fossify 應用程式</string>
     <string name="app_icon_color_warning">注意：某些啟動器可能無法正確處理應用程式圖示自訂。如果圖示消失，請嘗試透過 Google Play 或小工具（如果有的話）來啟動應用程式。啟動後，請將應用程式圖示顏色還原為預設的綠色 #106D1F。在極少數情況下，可能會需要重新安裝應用程式。</string>
-    <string name="shared_theme_note">請注意，即使您使用的是專業版應用程式，因為技術原因，您仍然需要 Fossify Thank You。它負責處理顏色同步。</string>
     <string name="purchase_thank_you"><![CDATA[
             請購買 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 來解鎖此功能及支持開發者。謝謝!
         ]]></string>
@@ -919,20 +865,11 @@
     <string name="october_short">10 月</string>
     <string name="november_short">11 月</string>
     <string name="december_short">12 月</string>
-    <string name="upgraded_from_free_gallery">您好， \n \n看起來您剛從免費版升級。一旦您對這個版本感到滿意，並且可能已經遷移了您的設定和收藏，您可以卸載舊的免費版本，以避免意外啟動它，因為您將不再需要它，這也將防止此對話框彈出。 \n \n謝謝！</string>
-    <string name="upgraded_to_pro_gallery">嗨！\n\n看來您已經安裝了專業版。在您確認專業版使用正常，且完成設定和收藏項目的移轉後，您可以移除這個版本來避免誤用，因為您不再需要它了。\n\n感謝！</string>
-    <string name="upgraded_from_free">您好， \n \n看起來您剛剛從免費版升級到付費版。一旦您對新版本滿意，並且可能已經將您的數據遷移過來，您就可以卸載舊的免費版，以避免意外啟動它，因為您將不再需要它了，這也將防止此對話框顯示。 \n \n謝謝！</string>
-    <string name="upgraded_to_pro">嗨！\n\n看來您已經安裝了專業版。在您確認專業版使用正常，且完成資料移轉後，您可以移除這個版本來避免誤用，因為您不再需要它了。\n\n感謝！</string>
-    <string name="upgraded_from_free_calendar">您好， \n \n看來您剛從免費版本升級上來。如果您想要將本地儲存的活動遷移到新版本，您必須手動將它們從免費的應用版本中導出成 .ics 檔案，然後透過頂部選單導入。 \n \n一旦您對 Pro 版本的設定感到滿意，您可以卸載舊的免費版本，因為您將不再需要它，這也將阻止此對話框的再次出現。 \n \n謝謝！</string>
-    <string name="upgraded_from_free_contacts">您好， \n \n看來您剛從免費版本升級。若您在「%s」之下儲存了任何聯絡人，您必須手動遷移，方法是從免費版本的應用程式匯出 .vcf 檔案，然後透過頂部選單在此匯入。 \n \n一旦您對於 Pro 版本的設定感到滿意，您就可以解除安裝舊的免費版本，因為您將不再需要它，這也將避免此對話框再次出現。 \n \n謝謝！</string>
-    <string name="upgraded_from_free_notes">您好， \n \n看起來您剛剛由免費版本升級過來。如果您想要將您的筆記遷移過來，您需要手動進行，首先在免費版本的應用程式中將它們匯出成一個檔案，然後透過上方選單匯入到這裡。 \n \n一旦您對 Pro 版本的設定感到滿意，您就可以卸載舊的免費版本，因為您將不再需要它，這也會避免這個對話框再次彈出。 \n \n謝謝！</string>
     <string name="known_issues">已知問題</string>
     <string name="more_fossify_apps">更多 Fossify 應用程式</string>
     <string name="rate_this_app">為此應用程式評分</string>
-    <string name="donate_new">您好，&lt;br&gt;&lt;br&gt;希望您喜歡這個應用程式。它沒有廣告，也不會收集您的資料，請透過購買 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 來支援它的開發。您也將解鎖所有應用程式功能，包括顏色自訂。&lt;br&gt;&lt;br&gt;謝謝您！</string>
     <string name="donate_short">請透過購買 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 來支援我們，這也將解鎖所有應用程式功能，包括顏色自訂。</string>
     <string name="update_thank_you">請將 Fossify Thank You 更新到最新版本</string>
-    <string name="features_locked">此功能已鎖定，請透過購買 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 來解鎖完整應用程式。&lt;br&gt;&lt;br&gt;這是一次性的付款，如果您不滿意，我們可以退款給您。</string>
     <string name="all_fossify_apps">所有 Fossify 應用程式</string>
     <string name="donate_to_fossify">贊助 Fossify</string>
     <string name="platforms">平臺</string>
@@ -1001,7 +938,6 @@
     <string name="translation_chinese_hk">正體中文（香港）</string>
     <string name="translation_chinese_cn">簡體中文</string>
     <string name="translation_chinese_tw">正體中文（台灣）</string>
-    <string name="why_upgrade_many_other_improvements">許多其他改進</string>
     <string name="zip4j_title">Zip4j（ZIP 壓縮和解壓縮）</string>
     <string name="evalex_title">EvalEx（數學表達式評估）</string>
     <string name="trial_expired">試用期已結束</string>
@@ -1009,8 +945,6 @@
     <string name="trial_expires_soon">您的試用期即將到期。</string>
     <string name="unlock_for_one_final_day">解鎖應用程式到最後一天</string>
     <string name="welcome_to_app_name">歡迎使用 %s！</string>
-    <string name="trial_start_description">感謝您使用我們的應用程式。您可以使用這個解鎖的版本 <font color="#FFFFFF">%d 天</font>。試用期結束後，請考慮升級至專業版。專業版有大量新功能、現代化設計、無廣告以及許多其他改進。\n\n只需支付一次費用，如果您不滿意，可以解除安裝並獲得退款。\n\n希望您會喜歡 :)</string>
-    <string name="trial_end_description">請升級到專業版，以最完整的方式享受應用程式。\n\n只需支付一次費用，如果您不滿意，可以將其解除安裝並獲得退款。\n\n到時見 :)</string>
     <plurals name="trial_expires_days">
         <item quantity="other">您的試用期將在 %d 天後到期。</item>
     </plurals>

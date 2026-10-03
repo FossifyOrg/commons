@@ -44,7 +44,6 @@
     <string name="insert_text_here">متن را اینجا وارد کنید</string>
     <string name="change_view_type">تغییر حالت نمایش</string>
     <string name="grid">شبکه</string>
-    <string name="grid_pro">شبکه (Pro)</string>
     <string name="list">لیست</string>
     <string name="increase_column_count">افزایش تعداد ستون</string>
     <string name="reduce_column_count">کاهش تعداد ستون</string>
@@ -63,7 +62,6 @@
     <string name="search">جست‌وجو</string>
     <string name="type_2_characters">حداقل دو نویسه برای شروع جست‌وجو بنویسید.</string>
     <string name="filter">پالایش</string>
-    <string name="filter_pro">پالایش (Pro)</string>
     <string name="no_items_found">موردی پیدا نشد.</string>
     <string name="change_filter">تغییر پالایش</string>
     <string name="no_storage_permissions">مجوز انبار مورد نیاز است</string>
@@ -203,10 +201,8 @@
     <string name="undo">برگرداندن</string>
     <string name="redo">انجام دوباره</string>
     <string name="print">چاپ</string>
-    <string name="print_pro">چاپ (Pro)</string>
     <string name="shortcut">میانبر</string>
     <string name="create_shortcut">ساخت میانبر</string>
-    <string name="create_shortcut_pro">ساخت میانبر (Pro)</string>
     <string name="add_number_to_contact">افزودن شماره به مخاطب</string>
     <string name="view_contact_details">نمایش جزئیات مخاطب</string>
     <string name="call_from_sim_1">تماس با سیم‌کارت 1</string>
@@ -249,7 +245,6 @@
     <string name="authentication_failed">احراز هویت ناموفق</string>
     <string name="go_to_settings">رفتن به تنظیمات</string>
     <string name="lock_folder">قفل کردن پوشه</string>
-    <string name="lock_folder_pro">قفل کردن پوشه (Pro)</string>
     <string name="unlock_folder">باز کردن قفل پوشه</string>
     <string name="yesterday">دیروز</string>
     <string name="today">امروز</string>
@@ -396,7 +391,7 @@
     <string name="text">متن</string>
     <string name="exclude">مستثنی</string>
     <string name="excluded_folders">شاخه‌های مستثنی شده</string>
-    <string name="excluded">(شامل نمی‌شود)</string>
+    <string name="excluded">(مستثنی شده)</string>
     <string name="manage_excluded_folders">مدیریت شاخه‌های مستثنی</string>
     <string name="remove_all_description">Remove all folders from the list of excluded\? This will not delete the folders.</string>
     <string name="contacts_tab">مخاطب</string>
@@ -460,7 +455,6 @@
     <string name="about">درباره</string>
     <string name="website">وب‌سایت</string>
     <string name="email_label">پیشنهادات و بازخوردهایتان را بفرستید به</string>
-    <string name="upgrade_to_pro">ارتقا به Pro</string>
     <string name="invite_friends">دعوت دوستان</string>
     <string name="invite_via">دعوت با</string>
     <string name="donate">اهدا</string>
@@ -477,11 +471,6 @@
     <string name="app_version">نسخهٔ برنامه: %s</string>
     <string name="device_os">سیستم‌عامل دستگاه: %s</string>
     <string name="thank_you">ممنونیم</string>
-    <string name="why_upgrade">هم‌اکنون نسخهٔ حرفه‌ای را بگیر!</string>
-    <string name="why_upgrade_basic_version">پایه</string>
-    <string name="why_upgrade_pro_version">حرفه‌ای</string>
-    <string name="why_upgrade_no_ads">بدونه تبلیغات</string>
-    <string name="why_upgrade_no_internet_access">بدونه دسترسی به اینترنت</string>
     <string name="home">خانه</string>
     <string name="work">کار</string>
     <string name="mobile">تلفن همراه</string>
@@ -540,12 +529,10 @@
     <string name="two">دو</string>
     <string name="three">سه</string>
     <string name="four">چهار</string>
-    <string name="thumbnails">نمایه‌ها</string>
+    <string name="thumbnails">ریزنماها</string>
     <string name="call_contact">تماس با مخاطب</string>
     <string name="view_contact">دیدن جزئیات مخاطب</string>
     <string name="edit_contact">ویرایش مخاطب</string>
     <string name="on_contact_click">با کلیک بر روی مخاطب</string>
     <string name="vibrate_on_button_press">لرزش با فشردن دکمه</string>
-    <string name="upgrade_to_pro_long">نسخهٔ برنامهٔ شما دیگر به‌روزرسانی نخواهد شد. لطفاً برای دریافت اصلاحات و بهبودهای جدید، به نسخهٔ حرفه‌ای ارتقا دهید.</string>
-    <string name="upgrade_to_pro_long_click">نسخهٔ برنامهٔ شما دیگر به‌روزرسانی نخواهد شد. لطفاً برای دریافت رفع‌اشکال‌ها و بهبودهای جدید با کلیک کردن در اینجا به نسخهٔ حرفه‌ای ارتقا دهید.</string>
 </resources>

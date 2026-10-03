@@ -61,7 +61,6 @@
     <string name="search">חיפוש</string>
     <string name="type_2_characters">הקלד לפחות 2 תווים כדי להתחיל את החיפוש.</string>
     <string name="filter">סינון</string>
-    <string name="filter_pro">סינון (Pro)</string>
     <string name="no_items_found">לא נמצאו פריטים.</string>
     <string name="change_filter">שינוי סינון</string>
     <string name="no_storage_permissions">נדרש הרשאות אחסון</string>
@@ -183,9 +182,7 @@
     <string name="undo">שחזר</string>
     <string name="redo">בצע מחדש</string>
     <string name="print">הדפס</string>
-    <string name="print_pro">הדפס (Pro)</string>
     <string name="create_shortcut">צור קיצור דרך</string>
-    <string name="create_shortcut_pro">צור קיצור דרך (Pro)</string>
     <string name="add_number_to_contact">הוסף מספר לאנשי קשר</string>
     <string name="sleep_timer">טיימר שינה</string>
     <string name="sort_by">מיין לפי</string>
@@ -227,7 +224,6 @@
     <string name="go_to_settings">עבור להגדרות</string>
     <string name="protection_setup_successfully">סיסמה הוגדרה בהצלחה. נא להתקין שוב את האפליקציה במיקרה של איבוד הסיסמה.</string>
     <string name="lock_folder">נעל תיקייה</string>
-    <string name="lock_folder_pro">נעל תיקייה (Pro)</string>
     <string name="unlock_folder">בטל נעילת תיקייה</string>
     <string name="yesterday">אתמול</string>
     <string name="today">היום</string>
@@ -425,7 +421,6 @@
     <string name="color_customization">מראה ותחושה</string>
     <string name="notification_sound">צליל התראה</string>
     <string name="customize_notifications">התאם אישית התראות</string>
-    <string name="feature_locked">נעול</string>
     <string name="language">שפה</string>
     <string name="theme_and_colors">עיצוב וצבעים</string>
     <plurals name="minutes">
@@ -581,22 +576,13 @@
     </plurals>
     <string name="add_blocked_number_helper_text">הזן מספר או תבנית (למשל *12345*, +1*8888) כדי לחסום את כל השיחות וההודעות ממספרים התואמים לתבנית.</string>
     <string name="cannot_hide_files">החל מאנדרואיד 11 אי אפשר יותר להסתיר קבצים ותיקיות ככה</string>
-    <string name="upgraded_from_free_gallery">שלום,\n\nנראה שזה עתה שדרגתם מהגרסה החינמית. לאחר שתהיו מרוצים מהגרסה הזו ואולי תעבירו את ההגדרות והמועדפים שלכם, תוכלו להסיר את הגרסה החינמית הישנה כדי למנוע הפעלה מקרית שלה, מכיוון שלא תצטרכו אותה יותר. זה גם ימנע מהודעה זו להופיע.\n\nתודה!</string>
-    <string name="upgraded_from_free">שלום,\n\nנראה שזה עתה שדרגתם מהגרסה החינמית. ברגע שתהיו מרוצים מהגרסה הזו ואולי תעבירו את הנתונים שלכם, תוכלו להסיר את הגרסה החינמית הישנה כדי למנוע הפעלה מקרית שלה, מכיוון שלא תזדקקו לה יותר. זה גם ימנע את הופעת הדו-שיח הזה.\n\nתודה!</string>
-    <string name="upgraded_from_free_calendar">שלום,\n\nנראה שזה עתה שדרגתם מהגרסה החינמית. אם תרצו להעביר את האירועים השמורים מקומית, עליכם לעשות זאת באופן ידני על ידי ייצואם לקובץ .ics בגרסה החינמית של האפליקציה וייבואם לכאן דרך התפריט העליון.\nלאחר שתהיו מרוצים מההגדרות שלכם בגרסה המקצועית, תוכלו להסיר את הגרסה החינמית הישנה מכיוון שלא תזדקקו לה יותר, וזה גם ימנע את הופעת הדו-שיח הזה.\n\nתודה!</string>
-    <string name="faq_8_text_commons">מכיוון שגרסת האפליקציה שלך אינה מעודכנת עוד, ייתכן שהבאגים שזיהית לעולם לא יתוקנו. כמו כן, לא יתווספו פונקציות חדשות. ניתן לרכוש את גרסת ה-Pro ב-Google Play תמורת סכום כסף קטן. זהו תשלום חד פעמי, מה שאומר שברגע שתרכוש אותה, לעולם לא תצטרך לשלם שוב. אפילו לא לאחר קבלת מכשיר חדש. אם לא תאהב את גרסת ה-Pro, תוכל פשוט להסיר אותה תוך מספר שעות ותקבל את כספך בחזרה באופן אוטומטי. אם תרצה החזר כספי בכל עת מאוחר יותר, פשוט צור איתנו קשר בכתובת hello@fossify.org ותקבל אותו.</string>
-    <string name="why_upgrade_footer_one_time_payment">תשלום חד פעמי</string>
     <string name="zip4j_title">Zip4j (דחיסה וחילוץ ZIP)</string>
-    <string name="deprecated_app">לא נתמך יותר: גרסה זו של האפליקציה אינה מתוחזקת עוד. ניתן להשיג את גרסת ה-Pro בכתובת: https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="pro_app_refund">זכור שאם תסיר כל אפליקציה בתשלום בתוך שעתיים, תקבל החזר כספי אוטומטי. אם תרצה החזר בכל עת מאוחר יותר, פשוט צור איתנו קשר בכתובת hello@fossify.org ותקבל אותו. זה מקל על ההתנסות :)</string>
     <string name="before_asking_question_read_faq">לפני שאתה שואל שאלה, אנא בדוק את הגדרות האפליקציה וקרא תחילה את השאלות הנפוצות. אולי הפתרון נמצא שם.</string>
     <string name="donate_short">תמכו בנו על ידי רכישת &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; בבקשה, זה גם יפתח את כל תכונות האפליקציה כולל התאמה אישית של צבעים.</string>
     <string name="translation_belarusian">בלארוסית</string>
     <string name="glide_title">Glide (טעינה ושמירת תמונות במטמון)</string>
-    <string name="why_upgrade_contact_private_contacts">אחסון אנשי קשר באופן פרטי</string>
-    <string name="why_upgrade_recents_tab">כרטיסייה עם הקבצים האחרונים</string>
     <string name="gesture_views_title">Gesture Views (תמונות ניתנות להגדלה)</string>
-    <string name="upgrade_to_pro">שדרוג לגרסת Pro</string>
     <string name="joda_title">Joda-Time (החלפת תאריכים ב-Java)</string>
     <string name="sms_mms_title">SMS MMS (טיפול ב-SMS ו-MMS)</string>
     <string name="android_lame_title">AndroidLame (מקודד mp3)</string>
@@ -623,7 +609,6 @@
     </plurals>
     <string name="files_count">סך כל הקבצים</string>
     <string name="duration">משך</string>
-    <string name="shared_theme_note">שים לב שגם אם אתה משתמש בגרסה המקצועית של האפליקציה, אתה עדיין צריך את Fosify תודה מסיבות טכניות. הוא מטפל בסנכרון הצבעים.</string>
     <string name="purchase_thank_you"><![CDATA[
 אנא רכשו <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">תודה Fossify</a> כדי להשתמש בתכונה זו ולתמוך בפיתוח. תודה!
 ]]></string>
@@ -683,12 +668,10 @@
     <string name="follow_us">עקוב אחרינו</string>
     <string name="support">תמיכה</string>
     <string name="update_thank_you">אנא עדכן את Fossify Thank לגרסה האחרונה</string>
-    <string name="widget_locked_pro">הווידג\'ט נעול.\nאנא שדרג לגרסת ה-Pro כדי לפתוח אותו.</string>
     <string name="sideloaded_app"><![CDATA[
             נראה שגרסת האפליקציה שלך פגומה. אנא הורד את הגרסה המקורית <a href="%s">כאן</a>.
         ]]></string>
     <string name="faq_4_title_commons">אני לא אוהב את צבעי הווידג\'ט, האם אני יכול לשנות אותם?</string>
-    <string name="faq_8_title_commons">למה כדאי לי לשדרג לגרסת ה-Pro?</string>
     <string name="translation_central_kurdish">כורדית מרכזית</string>
     <string name="translation_bengali">בנגלית</string>
     <string name="faq_5_text_commons">אם הם באמת נמחקו, לא ניתן לשחזר אותם. עם זאת, פח האשפה מופעל כברירת מחדל, ומעביר קבצים לפח במקום למחוק אותם באופן מיידי.</string>
@@ -703,20 +686,6 @@
     <string name="translation_serbian">סרבית</string>
     <string name="translation_tamil">טמילית</string>
     <string name="translation_turkish">טורקית</string>
-    <string name="why_upgrade_many_other_improvements">שיפורים רבים אחרים</string>
-    <string name="why_upgrade_advanced_photo_editor">עורך תמונות מתקדם</string>
-    <string name="why_upgrade_advanced_photo_video_editor">עורך תמונות ווידאו מתקדם</string>
-    <string name="why_upgrade_heic_support">תמיכה בקבצי HEIC/HEIF</string>
-    <string name="why_upgrade_easy_event_importing">ייבוא אירועים קל</string>
-    <string name="why_upgrade_folder_locking">נעילת תיקיות בודדות</string>
-    <string name="why_upgrade_printing_support">תמיכה בהדפסה</string>
-    <string name="why_upgrade_note_locking">נעילת הערות</string>
-    <string name="why_upgrade_customizable_contact_ringtones">רינגטונים הניתנים להתאמה אישית לפי אנשי קשר</string>
-    <string name="why_upgrade_checklists">רשימות משימות</string>
-    <string name="why_upgrade_contact_filtering">סינון אנשי קשר</string>
-    <string name="why_upgrade_background_color_customization">התאמה אישית של צבע הרקע</string>
-    <string name="why_upgrade_zooming">זום</string>
-    <string name="why_upgrade_shortcuts">קיצורי דרך למסך הבית</string>
     <string name="third_party_licences">רישיונות צד-שלישי</string>
     <string name="subsampling_title">תצוגת תמונה עם שינוי קנה מידה בדגימת משנה (תמונות הניתנות להגדלה/הקטנה)</string>
     <string name="picasso_title">Picasso (טעינה ושמירת תמונות במטמון)</string>
@@ -725,7 +694,6 @@
     <string name="trial_expires_soon">תקופת הניסיון שלך תסתיים בקרוב.</string>
     <string name="espresso_title">Espresso (כלי עזר לבדיקות)</string>
     <string name="leak_canary_title">Leak Canary (מאתר דליפות זיכרון)</string>
-    <string name="features_locked">תכונה זו נעולה, אנא רכשו את &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; כדי לפתוח את האפליקציה המלאה.&lt;br&gt;&lt;br&gt;זהו תשלום חד פעמי בלבד, ואם לא תהיו מרוצים, נוכל להחזיר לכם את כספכם.</string>
     <string name="new_app"><![CDATA[
             היי,<br><br>
             רק רציתי ליידע אתכם שאפליקציות חדשות שוחררו לאחרונה:<br><br>
@@ -738,9 +706,6 @@
     <string name="faq_1_text_commons">סביר להניח שזה בגלל שהעברת את האפליקציה לכרטיס SD. במקרה כזה, יש מגבלה של מערכת אנדרואיד שמסתירה את ווידג\'טי האפליקציה הנתונים. הפתרון היחיד הוא להעביר את האפליקציה בחזרה לאחסון הפנימי דרך הגדרות המכשיר.</string>
     <string name="developer_description">קבוצה של אפליקציות אנדרואיד פשוטות בקוד פתוח עם ווידג\'טים הניתנים להתאמה אישית, ללא פרסומות או הרשאות מיותרות.</string>
     <string name="translation_ukrainian">אוקראינית</string>
-    <string name="why_upgrade_date_and_time_format">התאמה אישית של פורמט תאריך ושעה</string>
-    <string name="why_upgrade_footer">100% אחריות להחזר כספי</string>
-    <string name="trial_start_description">תודה שהשתמשת באפליקציה שלנו. באפשרותך להשתמש בגרסה זו (הפתוחה) למשך <font color="#FFFFFF">%d ימים</font>. לאחר שתקופת הניסיון תסתיים, אנא שקול לשדרג לגרסת ה-Pro. היא כוללת כמות עצומה של תכונות חדשות, עיצוב מודרני, ללא פרסומות ושיפורים רבים אחרים. \n\nתצטרך לשלם עליה רק פעם אחת לכל החיים, אם לא תהיה מרוצה, תוכל להסיר אותה ולקבל החזר כספי.\n\nמקווים שתאהב אותה :)</string>
     <string name="faq_9_text_commons">ישנן מספר דרכים לעשות זאת. הראשונה היא הפעלת מצב הבחירה על ידי לחיצה ארוכה על פריט אחד, ולאחר מכן לחיצה קצרה על אחרים כדי לבחור אותם. הדרך השנייה דומה לבחירת פריטים במחשבים אישיים באמצעות עכבר, פשוט הפעל את מצב הבחירה על ידי לחיצה ארוכה על פריט אחד, ולאחר מכן, כאשר האצבע עדיין מופנית, גרור אותה על פני פריטים אחרים לבחירה. הדרך השלישית לבחירת פריטים מרובים היא לחיצה ארוכה על פריט אחד, לאחר מכן לחיצה ארוכה על אחר וכל מה שביניהם ייבחר. אם ברצונך לבחור את כל הפריטים, פשוט לחץ לחיצה ארוכה על פריט אחד, ולאחר מכן לחץ על מונה הפריטים שנבחרו בפינה השמאלית העליונה. פעולה זו תסמן או תבטל את הבחירה של הכל.</string>
     <string name="faq_7_text_commons">התשלומים מטופלים במלואם על ידי גוגל, אך המערכת שלהם נתקלת בתקלות מדי פעם. פשוט נקה את המטמון של אפליקציית Google Play והפעל מחדש את המכשיר, ולאחר מכן נסה שוב להוריד אותו.</string>
     <string name="translation_arabic">ערבית</string>
@@ -748,8 +713,6 @@
     <string name="translation_dutch">הולנדית</string>
     <string name="translation_norwegian">נורווגית</string>
     <string name="translation_swedish">שוודית</string>
-    <string name="why_upgrade_file_importing">תמיכה בייבוא קבצים</string>
-    <string name="why_upgrade_file_compression">תמיכה בדחיסת קבצים</string>
     <string name="translation_russian">רוסית</string>
     <string name="fee_up_to_pct">עמלה של עד %1$d%%</string>
     <string name="notifications_disabled">ההתראות מיישום זה אינן מופעלות. אנא עבור להגדרות המכשיר שלך כדי להפעיל אותן.</string>
@@ -798,7 +761,6 @@
     <string name="dismiss">דחה</string>
     <string name="date_taken">תאריך צילום</string>
     <string name="pager">ביפר</string>
-    <string name="grid_pro">רשת (Pro)</string>
     <string name="portrait_column_count">מספר עמודות לאורך</string>
     <string name="block_contact_fail">לא ניתן היה לחסום את איש הקשר</string>
     <string name="unblock_contact">בטל חסימת איש הקשר</string>
@@ -856,17 +818,7 @@
     <string name="usb_detected">נראה שהתקן USB מחובר למכשיר שלך. כדי לוודא שהקבצים שבו מוצגים כראוי, עליך להעניק לו הרשאות נוספות.</string>
     <string name="december_short">דצמבר</string>
     <string name="october_short">אוקטובר</string>
-    <string name="upgrade_to_pro_long">גרסת האפליקציה שלך לא תעודכן יותר. אנא שדרג לגרסת Pro כדי לקבל תיקונים חדשים ושיפורים נוספים.</string>
-    <string name="upgraded_to_pro_gallery">שלום,\n\nנראה שכבר יש לכם גם את הגרסה המקצועית של האפליקציה. לאחר שתהיו מרוצים ממנה ואולי תעבירו את ההגדרות והמועדפים שלכם, תוכלו להסיר את הגרסה הזו כדי למנוע הפעלה מקרית שלה, מכיוון שלא תצטרכו אותה יותר.\n\nתודה!</string>
-    <string name="upgraded_from_free_contacts">שלום,\n\nנראה שזה עתה שדרגתם מהגרסה החינמית. אם היו לכם אנשי קשר שמורים תחת \"%s\", עליכם להעביר אותם ידנית על ידי ייצואם לקובץ .vcf מגרסת האפליקציה החינמית וייבואם לכאן דרך התפריט העליון.\nלאחר שתהיו מרוצים מההגדרות שלכם בגרסה המקצועית, תוכלו להסיר את הגרסה החינמית הישנה מכיוון שלא תזדקקו לה יותר. זה גם ימנע את הופעת הדו-שיח הזה.\n\nתודה!</string>
-    <string name="donate_new">שלום,&lt;br&gt;&lt;br&gt;מקווים שאתה נהנה מהאפליקציה. היא אינה מכילה פרסומות ואיננו אוספים את הנתונים שלך, אנא תמוך בפיתוח על ידי רכישת &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. כמו כן, כל תכונות האפליקציה, כולל התאמה אישית של צבעים, ייפתחו עבורכם.&lt;br&gt;&lt;br&gt;תודה רבה!</string>
     <string name="hello">שלום :)</string>
-    <string name="donate_please"><![CDATA[
-            שלום,<br><br>
-            מקווים שאתה נהנה מהאפליקציה. היא אינה מכילה פרסומות, אנא תמכו בפיתוח על ידי רכישת האפליקציה <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, זה גם ימנע מהודעה זו להופיע שוב.<br><br>
-            תודה!
-        ]]></string>
-    <string name="make_sure_upgrade">כמו כן, שימו לב שגרסת אפליקציה זו אינה מפותחת עוד, הורידו את גרסת ה-Pro לשיפורים רבים.</string>
     <string name="read_it">קרא את זה</string>
     <string name="thank_you">תודה רבה</string>
     <string name="app_launcher_short">משגר אפלקציות</string>
@@ -879,14 +831,6 @@
     <string name="translation_polish">הולנדית</string>
     <string name="translation_portuguese">פורטוגזית</string>
     <string name="translation_lithuanian">ליטאית</string>
-    <string name="why_upgrade_pro_version">מקצועי</string>
-    <string name="why_upgrade_no_ads">ללא פרסומות</string>
-    <string name="why_upgrade_no_internet_access">ללא גישה לאינטרנט</string>
-    <string name="why_upgrade_private_contact_sharing">שיתוף אופציונלי של אנשי קשר פרטיים בתוך האפליקציות שלנו</string>
-    <string name="why_upgrade_batch_renaming">שינוי שם קבצים מתקדם בקבוצה</string>
-    <string name="why_upgrade_time_zone_support">תמיכה באזורי זמן</string>
-    <string name="why_upgrade_attendees_emails">משתתפים ותזכורות בדוא\"ל</string>
-    <string name="why_upgrade_new_widgets">ווידג\'טים חדשים</string>
     <string name="stetho_title">Stetho (ניפוי באגים במסדי נתונים)</string>
     <string name="cropper_title">Android Image Cropper (חיתוך וסיבוב תמונה)</string>
     <string name="kotlin_title">Kotlin (שפת תיכנות)</string>
@@ -950,7 +894,6 @@
     <string name="translation_breton">ברטונית</string>
     <string name="translation_catalan">קטלאנית</string>
     <string name="translation_czech">צ\'כית</string>
-    <string name="why_upgrade_different_note_per_widget">הערות וצבעים שונים לכל ווידג\'ט</string>
     <string name="april_short">אפריל</string>
     <string name="may_short">מאי</string>
     <string name="august_short">אוגוסט</string>
@@ -958,9 +901,7 @@
     <string name="february_short">פברואר</string>
     <string name="march_short">מרץ</string>
     <string name="it_is_free">זה בחינם עד: %s. אם תורידו את זה עד אז, תוכלו להשתמש בזה בחינם לנצח.</string>
-    <string name="upgrade_to_pro_long_click">גרסת האפליקציה שלך לא תעודכן יותר. אנא שדרג לגרסת Pro כדי לקבל תיקונים חדשים ושיפורים נוספים על ידי לחיצה כאן.</string>
     <string name="upgrade_calendar">עליך להעביר אירועים המאוחסנים באופן מקומי באופן ידני באמצעות ייצוא לקובץ .ics, ולאחר מכן ייבוא. ניתן למצוא את שני כפתורי הייצוא/ייבוא בתפריט המסך הראשי.</string>
-    <string name="upgraded_to_pro">שלום,\n\nנראה שכבר יש לכם גם את הגרסה ה-מקצועית של האפליקציה. ברגע שתהיו מרוצים ממנה ואולי תעבירו את הנתונים שלכם, תוכלו להסיר את הגרסה הזו כדי למנוע הפעלה מקרית שלה, מכיוון שלא תזדקקו לה יותר.\n\nתודה!</string>
     <string name="website">אתר אינטרנט</string>
     <string name="about_footer">נוצר עם -❤️ בסלובקיה</string>
     <string name="keyboard_short">מקלדת</string>
@@ -977,10 +918,7 @@
     <string name="translation_german">גרמנית</string>
     <string name="translation_greek">יוונית</string>
     <string name="translation_vietnamese">וייטנאמית</string>
-    <string name="why_upgrade_font_size_customization">התאמה אישית של גודל הגופן</string>
-    <string name="why_upgrade_duplicate_contact_merging">מיזוג משופר של אנשי קשר כפולים</string>
     <string name="days_letter">%dי</string>
-    <string name="upgraded_from_free_notes">שלום,\n\nנראה שזה עתה שדרגתם מהגרסה החינמית. אם תרצו להעביר את ההערות שלכם, עליכם לעשות זאת ידנית על ידי ייצואן לקובץ מגרסת האפליקציה החינמית וייבואן לכאן דרך התפריט העליון. \nלאחר שתהיו מרוצים מההגדרות שלכם בגרסה המקצועית, תוכלו להסיר את הגרסה החינמית הישנה מכיוון שלא תזדקקו לה יותר, וזה גם ימנע את הופעת הדו-שיח הזה.\n\nתודה!</string>
     <string name="help_us">עזרו לנו</string>
     <string name="version_placeholder">גירסא %s</string>
     <string name="faq_6_title_commons">סמל משגר האפליקציות נעלם. מה אני יכול לעשות?</string>
@@ -988,7 +926,6 @@
     <string name="faq_4_text_commons">כן, כשאתה גורר ווידג\'ט על מסך הבית, יופיע מסך הגדרות ווידג\'ט. תראה ריבועים צבעוניים בפינה השמאלית התחתונה, פשוט הקש עליהם כדי לבחור צבע חדש. אתה יכול להשתמש במחוון גם כדי להתאים את האלפא.</string>
     <string name="purchase_simple_thank_you">רכישת Fossify Thank You</string>
     <string name="faq_2_title_commons">אני רוצה לתמוך בך, אבל אני לא יכולה לתרום כסף. האם יש משהו אחר שאני יכולה לעשות?</string>
-    <string name="trial_end_description">אנא שדרג לגרסת ה-Pro כדי ליהנות מהאפליקציה במלואה.\n\nאתה צריך לשלם עליה רק פעם אחת לכל החיים, ואם לא תהיה מרוצה, תוכלו להסיר אותה ולקבל החזר כספי.\n\nנתראה שם :)</string>
     <string name="event_bus_title">Event Bus (תקשורת בתוך האפליקציה)</string>
     <plurals name="by_minutes">
         <item quantity="one">דקה %d</item>
@@ -1039,9 +976,6 @@
     <string name="translation_chinese_hk">סינית (הונג קונג)</string>
     <string name="translation_chinese_cn">סינית (פשוטה)</string>
     <string name="translation_chinese_tw">סינית (מסורתית)</string>
-    <string name="why_upgrade">קבל את גרסת ה-Pro עכשיו!</string>
-    <string name="why_upgrade_basic_version">בסיסי</string>
-    <string name="why_upgrade_improved_design">עיצוב משופר</string>
     <string name="gif_drawable_title">Gif Drawable (טעינת קובצי GIF)</string>
     <string name="robolectric_title">Robolectric (מסגרת לבדיקות)</string>
     <string name="gson_title">Gson (מנתח JSON)</string>

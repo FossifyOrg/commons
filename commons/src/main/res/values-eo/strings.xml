@@ -37,11 +37,9 @@
     <string name="home">Hejmo</string>
     <string name="work">Laboro</string>
     <string name="grid">Krado</string>
-    <string name="grid_pro">Krado (Pro)</string>
     <string name="list">Listo</string>
     <string name="set_as_default">Uzi kiel impliciton</string>
     <string name="filter">Filtri</string>
-    <string name="filter_pro">Filtri (Pro)</string>
     <string name="yes">Jes</string>
     <string name="no">Ne</string>
     <string name="vibrate_on_button_press">Vibrigi je butonpremo</string>
@@ -416,7 +414,6 @@
     <string name="remove_exif_confirmation">Ĉu vi vere volas forigi la EXIF-datumojn kiel la GPS-koordinatoj, kameramodelo ktp.?</string>
     <string name="exif_removed">EXIF-datumoj sukcese forigitaj</string>
     <string name="change_color">Ŝanĝi koloron</string>
-    <string name="shared_theme_note">Rimarku ke kvankam vi uzas la version Pro de la aplikaĵo, vi bezonas Fossify Dankon pro teknikaj kialoj. Ĝi ebligas la sinkronigadon de koloroj.</string>
     <string name="restore_defaults">Restaŭri defaŭltojn</string>
     <string name="custom">Laŭmenda</string>
     <string name="system_default">Sistema defaŭlto</string>
@@ -461,7 +458,6 @@
     <string name="send_sms">Sendi SMS</string>
     <string name="toggle_filename">Baskuligi videblecon de dosiernomoj</string>
     <string name="create_shortcut">Krei ligilon</string>
-    <string name="create_shortcut_pro">Krei ligilon (Pro)</string>
     <string name="contact_details">Kontaktdetaloj</string>
     <string name="view_contact_details">Vidi kontaktdetalojn</string>
     <string name="redo">Refari</string>
@@ -480,7 +476,6 @@
     <string name="empty_and_disable_recycle_bin">Malplenigi kaj malŝalti rubujon</string>
     <string name="undo">Malfari</string>
     <string name="print">Presi</string>
-    <string name="print_pro">Presi (Pro)</string>
     <string name="shortcut">Ligilo</string>
     <string name="add_number_to_contact">Aldoni telefonnumeron al kontakto</string>
     <string name="move_to_top">Movi al la supro</string>
@@ -608,7 +603,6 @@
     <string name="authenticate">Aŭtentikiĝi</string>
     <string name="authentication_blocked">Aŭtentikiĝo blokita. Bonvolu provi denove post kelkaj momentoj</string>
     <string name="go_to_settings">Iri al agordoj</string>
-    <string name="lock_folder_pro">Ŝlosi dosierujon (Pro)</string>
     <string name="unlock_folder">Malŝlosi dosierujon</string>
     <string name="lock_folder_notice">Tiu ĉi protektado nur funkcias en tiu ĉi aplikaĵo. Ĝi ne anstataŭigas veran tutsisteman ĉifradon.</string>
     <string name="password">Pasvorto</string>
@@ -691,7 +685,6 @@
         <item quantity="one">%d horo</item>
         <item quantity="other">%d horoj</item>
     </plurals>
-    <string name="feature_locked">Ŝlosita</string>
     <string name="reminder_warning">Bonvolu certigi, ke la memorigiloj ĝuste funkcias antaŭ dependi de ili. Kontrolu viajn agordojn de baterio kaj de sciigoj, kaj ĉu io ajn blokas la memorigilojn aŭ ĉesigas la aplikaĵon en la fono.</string>
     <string name="notifications_disabled">Sciigoj de tiu ĉi aplikaĵo estas malŝaltataj. Bonvolu ŝalti ilin en la aparataj agordoj.</string>
     <string name="add_new_sound">Aldoni novan sonon</string>
@@ -848,20 +841,10 @@
     <string name="january_short">Jan</string>
     <string name="in_march">Marton</string>
     <string name="in_february">Februaron</string>
-    <string name="upgrade_to_pro_long_click">La versio de via aplikaĵo ne plu estos ĝisdatigita. Bonvolu promociiĝi al la versio Pro por ricevi novajn korektojn kaj aliajn plibonigojn per alklaki ĉi tie.</string>
     <string name="upgrade_calendar">Vi devas migrigi loke deponitajn eventojn mane per eksporti .ics-dosieron kaj poste importi ilin. La butonoj de eksporti/importi troviĝas en la menuo de la ĉefa ekrano.</string>
     <string name="website">Retejo</string>
     <string name="it_is_free">Ĝi estas senpaga ĝis: %s. Se vi elŝutas ĝin antaŭ tiam, vi povos uzi ĝin senpage por ĉiam.</string>
     <string name="upgrade">Promociiĝi</string>
-    <string name="upgraded_to_pro">Saluton,\n\nVi ŝajne jam havas la version Pro de tiu ĉi aplikaĵo. Kiam vi estas kontenta kun tiu ĉi kaj eble post migrigi viajn datumojn, vi povas malinstali la malnovan senpagan por eviti lanĉi ĝin senvole, ĉar vi ne plu bezonos ĝin.\n\nDankon!</string>
-    <string name="upgraded_from_free_notes">Saluton,\n\nVi ŝajne ĵus promociiĝis el la senpaga versio. Se vi volas migrigi viajn notojn, vi devas fari ĝin mane per eksporti ilin el la senpaga versio al dosiero kaj poste importi ilin ĉi tie per la supra menuo.\n\nKiam vi estas kontenta kun viaj agordoj en la versio Pro, vi povas malinstali la malnovan senpagan, ĉar vi ne plu bezonos ĝin. Tio ankaŭ evitos, ke tiu ĉi dialogo aperu denove.\n\nDankon!</string>
-    <string name="upgraded_from_free">Saluton,\n\nVi ŝajne ĵus promociiĝis el la senpaga versio. Kiam vi estas kontenta kun tiu ĉi kaj eble post migrigi viajn datumojn, vi povas malinstali la malnovan senpagan por eviti lanĉi ĝin senvole, ĉar vi ne plu bezonos ĝin. Tio ankaŭ evitos, ke tiu ĉi dialogo aperu denove.\n\nDankon!</string>
-    <string name="upgraded_from_free_calendar">Saluton,\n\nVi ŝajne ĵus promociiĝis el la senpaga versio. Se vi volas migrigi viajn loke deponitajn eventojn, vi devas fari ĝin mane per eksporti .ics-dosieron el la senpaga versio kaj poste importi ilin ĉi tie per la supra menuo.\n\nKiam vi estas kontenta kun viaj agordoj en la versio Pro, vi povas malinstali la malnovan senpagan, ĉar vi ne plu bezonos ĝin. Tio ankaŭ evitos, ke tiu ĉi dialogo aperu denove.\n\nDankon!</string>
-    <string name="upgraded_to_pro_gallery">Saluton,\n\nVi ŝajne jam havas la version Pro de tiu ĉi aplikaĵo. Kiam vi estas kontenta kun ĝi kaj eble post migrigi viajn agordojn kaj plej ŝatatajn, vi povas malinstali tiun ĉi por eviti lanĉi ĝin senvole, ĉar vi ne plu bezonos ĝin.\n\nDankon!</string>
-    <string name="upgrade_to_pro_long">La versio de via aplikaĵo ne plu estos ĝisdatigita. Bonvolu promociiĝi al la versio Pro por ricevi novajn korektojn kaj aliajn plibonigojn.</string>
-    <string name="upgraded_from_free_gallery">Saluton,\n\nVi ŝajne ĵus promociiĝis el la senpaga versio. Kiam vi estas kontenta kun tiu ĉi kaj eble post migrigi viajn agordojn kaj plej ŝatatajn, vi povas malinstali la malnovan senpagan por eviti lanĉi ĝin senvole, ĉar vi ne plu bezonos ĝin. Tio ankaŭ evitos, ke tiu ĉi dialogo aperu denove.\n\nDankon!</string>
-    <string name="upgraded_from_free_contacts">Saluton,\n\nVi ŝajne ĵus promociiĝis el la senpaga versio. Se vi havis kontaktojn deponitajn sub \"%s\", vi devas migrigi ilin mane per eksporti .vcf-dosieron el la senpaga versio kaj poste importi ilin ĉi tie per la supra menuo.\n\nKiam vi estas kontenta kun viaj agordoj en la versio Pro, vi povas malinstali la malnovan senpagan, ĉar vi ne plu bezonos ĝin. Tio ankaŭ evitos, ke tiu ĉi dialogo aperu denove.\n\nDankon!</string>
-    <string name="upgrade_to_pro">Promociiĝi al la versio Pro</string>
     <string name="purchase">Aĉeti</string>
     <string name="invite_friends">Inviti amikojn</string>
     <string name="share_text">He, venu vidi %1$s je %2$s</string>
@@ -874,20 +857,11 @@
     <string name="donate_short">Bonvolu subteni nin per aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.</string>
     <string name="update_thank_you">Bonvolu ĝisdatigi Fossify Dankon al la plej nova versio</string>
     <string name="before_asking_question_read_faq">Antaŭ fari demandon, bonvolu kontroli la aplikaĵajn agordojn kaj legi la oftajn demandojn. La solvo eble estos tie.</string>
-    <string name="make_sure_upgrade">Rimarku ankaŭ, ke tiu ĉi versio de la aplikaĵo ne plu estas ĝisdatigita. Uzu la version Pro por multe da plibonigoj.</string>
     <string name="read_it">Legi</string>
     <string name="website_label">Por fontkodo, iru al</string>
-    <string name="donate_please"><![CDATA[
-            Saluton,<br><br>
-            Mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon, do bonvolu subteni ĝian programadon per aĉeti la aplikaĵon <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a>, kiu ankaŭ evitos, ke tiu ĉi dialogo aperu denove.<br><br>
-            Dankon!
-        ]]></string>
-    <string name="donate_new">Saluton,&lt;br&gt;&lt;br&gt;mi esperas, ke vi ĝuu la aplikaĵon. Ĝi enhavas neniun reklamon kaj ni nek kolektas viajn datumojn. Bonvolu subteni ĝian programadon per aĉeti la aplikaĵon &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.&lt;br&gt;&lt;br&gt;Dankon!</string>
     <string name="known_issues">Konataj problemoj</string>
     <string name="keyboard_short">Klavaro</string>
     <string name="thank_you">Dankon</string>
-    <string name="widget_locked_pro">Tiu ĉi fenestraĵo estas ŝlosita.\nBonvolu promociiĝi al la versio Pro por malŝlosi ĝin.</string>
-    <string name="features_locked">Tiu ĉi funkcio estas ŝlosita. Bonvolu aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt; por malŝlosi la tutan aplikaĵon.&lt;br&gt;&lt;br&gt;Estas nur unufoja pago, kaj se vi ne kontentas, ni povas repagi vin.</string>
     <string name="new_app"><![CDATA[
             He,<br><br>
             Ni nur sciigas vin, ke ni lastatempe eldonis kelkajn novajn aplikaĵojn:<br><br>
@@ -922,7 +896,6 @@
             La tradukada gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
         ]]></string>
     <string name="faq_3_title_commons">Mi senvole forigis kelkajn dosierojn. Kiel mi povas restaŭri ilin?</string>
-    <string name="faq_8_title_commons">Kial mi devus promociiĝi al la versio Pro?</string>
     <string name="faq_9_title_commons">Kiel mi povas elekti multajn elementojn samtempe?</string>
     <string name="faq_3_text_commons">Tio bedaŭrinde ne eblas. Dosieroj estas tuje forigitaj post la konfirma dialogo, kaj neniu rubujo ekzistas.</string>
     <string name="faq_4_title_commons">Mi ne ŝatas la kolorojn de la fenestraĵoj. Ĉu mi povas ŝanĝi ilin?</string>
@@ -932,18 +905,7 @@
     <string name="faq_7_title_commons">La mono estis prenita el mi bankokonto, sed mi ne povas elŝuti la aplikaĵon. Kion povas mi fari?</string>
     <string name="faq_7_text_commons">Pagoj estas tute traktitaj pro Google, kies sistemo fojfoje misfunkcias. Simple viŝu la aplikaĵan kaŝon de Google Play, restartigu vian aparaton, kaj provu elŝuti ĝin denove.</string>
     <string name="faq_5_text_commons">Se vi vere forigis ilin, ne eblas restaŭri ilin. Tamen, la rubujo defaŭlte estas ŝaltita kaj movas la dosierojn al la rubujo anstataŭ tuje forigi ilin.</string>
-    <string name="faq_8_text_commons">Ĉar la versio de via aplikaĵo ne plu estos ĝisdatigita, la cimoj kiujn vi eble rimarkis neniam estos korektitaj, nek estos aldonita iu ajn nova funkcio. Vi povas aĉeti la version Pro je Google Play pro malgranda kvanto da mono. Estas unufoja pago, kiu volas diri, ke post aĉeti ĝin, vi neniam devos pagi denove, ne eĉ post aĉeti novan aparaton. Se vi ne ŝatas la version Pro, vi povas simple malinstali ĝin en kelkaj horoj, kaj via mono estos aŭtomate repagita. Se vi volas repagon post tio, nur kontaktu nin je hello@fossify.org kaj vi ricevos ĝin.</string>
     <string name="translation_bulgarian">Bulgara</string>
-    <string name="why_upgrade_batch_renaming">Altnivela renomado de multaj dosieroj</string>
-    <string name="why_upgrade_printing_support">Subteno de presado</string>
-    <string name="why_upgrade_basic_version">Baza</string>
-    <string name="why_upgrade_many_other_improvements">Multe da aliaj plibonigoj</string>
-    <string name="why_upgrade_advanced_photo_editor">Altnivela fotoredaktilo</string>
-    <string name="why_upgrade_time_zone_support">Subteno de horzonoj</string>
-    <string name="why_upgrade_pro_version">Pro</string>
-    <string name="why_upgrade_easy_event_importing">Facila importado de eventoj</string>
-    <string name="why_upgrade_footer">Garantio de 100% repago</string>
-    <string name="why_upgrade_improved_design">Plibonigita desegno</string>
     <string name="faq_9_text_commons">Ekzistas kelkaj manieroj de tion fari. La unua estas longe premi elementon por aktivigi la elektan reĝimon, kaj poste frapeti aliajn por elekti ilin. La dua similas al elekti elementojn sur komputilo per muso. Simple aktivigu la elektan reĝimon per longe premi elementon, kaj kun via fingro ankoraŭ sur la ekrano, movu vian fingron trans aliaj elementoj. La tria maniero estas longe premi elementon kaj poste longe premi alian por elekti ĉion inter ili. Se vi volas elekti ĉiujn elementojn, simple longe premu unu kaj poste frapetu la nombrilon de elektitaj elementoj supre-maldekstre. Tio ĉion elektos aŭ malelektos.</string>
     <string name="faq_10_title_commons">Mi aĉetis la aplikaĵon, sed mi ne povas elŝuti ĝin sur alia aparato.</string>
     <string name="faq_10_text_commons">Provu forigi la aplikaĵan kaŝon de Google Play kaj restartigi vian aparaton. Estas iu cimo de Google Play, ne vere la aplikaĵo mem.</string>
@@ -951,15 +913,6 @@
     <string name="development">Programado</string>
     <string name="other_help">Alia helpo</string>
     <string name="translation_english">Angla</string>
-    <string name="why_upgrade">Akiru la version Pro nun!</string>
-    <string name="why_upgrade_no_ads">Sen reklamoj</string>
-    <string name="why_upgrade_no_internet_access">Sen retkonekto</string>
-    <string name="why_upgrade_footer_one_time_payment">Unufoja pago</string>
-    <string name="why_upgrade_advanced_photo_video_editor">Altnivela redaktilo de fotoj kaj filmetoj</string>
-    <string name="why_upgrade_heic_support">Subteno de dosieroj HEIC/HEIF</string>
-    <string name="why_upgrade_folder_locking">Ŝlosado de unuopaj dosierujoj</string>
-    <string name="why_upgrade_attendees_emails">Ĉeestantoj kaj retpoŝtaj memorigiloj</string>
-    <string name="why_upgrade_new_widgets">Novaj fenestraĵoj</string>
     <string name="translation_belarusian">Belorusa</string>
     <string name="translation_chuvash">Ĉuvaŝa</string>
     <string name="translation_esperanto">Esperanto</string>
@@ -979,30 +932,16 @@
     <string name="pattern_title">PatternLockView (protektado per ŝablono)</string>
     <string name="number_picker_title">Number Picker (tajlorebla nombroselektilo)</string>
     <string name="sanselan_title">Apache Sanselan (legado de bildaj metadatumoj)</string>
-    <string name="why_upgrade_file_importing">Subteno de importado de dosieroj</string>
     <string name="rtl_viewpager_title">RtlViewPager (glitado el dekstre al maldekstre)</string>
     <string name="exoplayer_title">ExoPlayer (filmetospektilo)</string>
     <string name="audio_record_view_title">Audio Record View (videbligado de sonoj)</string>
     <string name="pdf_view_pager_title">PDFViewPager (PDF-legilo)</string>
-    <string name="trial_start_description">Dankon pro uzi nian aplikaĵon. Vi povas uzi tiun ĉi malŝlositan version <font color="#FFFFFF">%d tagojn</font>. Kiam la provo finiĝos, bonvolu konsideri promociiĝi al la versio Pro. Ĝi havas multege da novaj funkcioj, modernan desegnon, neniom da reklamoj kaj multe da aliaj plibonigoj.\n\nVi nur pagas unu fojon vian tutan vivon, kaj se vi ne kontentas, vi povas malinstali ĝin por ricevi repagon.\n\nMi esperas, ke vi ŝatu ĝin :)</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Via provo finiĝos en %d tago.</item>
         <item quantity="other">Via provo finiĝos en %d tagoj.</item>
     </plurals>
-    <string name="why_upgrade_duplicate_contact_merging">Plibonigita kunfandado de duobligitaj kontaktoj</string>
     <string name="stetho_title">Stetho (datumbaza sencimigado)</string>
     <string name="gesture_views_title">Gesture Views (zomeblaj bildoj)</string>
-    <string name="why_upgrade_font_size_customization">Tajlorado de tekstogrando</string>
-    <string name="why_upgrade_private_contact_sharing">Nedeviga kunhavo de privataj kontaktoj inter niaj aplikaĵoj</string>
-    <string name="why_upgrade_customizable_contact_ringtones">Vokosonoj tajloreblaj laŭ kontakto</string>
-    <string name="why_upgrade_contact_private_contacts">Private deponitaj kontaktoj</string>
-    <string name="why_upgrade_checklists">Kontrololistoj</string>
-    <string name="why_upgrade_different_note_per_widget">Notoj kaj koloroj tajloreblaj laŭ fenestraĵo</string>
-    <string name="why_upgrade_date_and_time_format">Tajlorado de data kaj hora aranĝoj</string>
-    <string name="why_upgrade_shortcuts">Hejmekranaj fulmbildetoj</string>
-    <string name="why_upgrade_recents_tab">Langeto de lastatempaj dosieroj</string>
-    <string name="why_upgrade_background_color_customization">Tajlorado de fonkoloro</string>
-    <string name="why_upgrade_file_compression">Subteno de densigado de dosieroj</string>
     <string name="third_party_licences">Permesiloj de eksteraj liverantoj</string>
     <string name="kotlin_title">Kotlin (programlingvo)</string>
     <string name="subsampling_title">Subsampling Scale Image View (zomeblaj bildovidoj)</string>
@@ -1024,18 +963,13 @@
     <string name="zip4j_title">Zip4j (densigado kaj maldensigado de ZIP-dosieroj)</string>
     <string name="pro_app_refund">Ne forgesu, ke se vi malinstalas iun ajn pagan aplikaĵon ene de du horoj, vi estos aŭtomate repagita. Se vi volas repagon post tiam, simple kontaktu nin je hello@fossify.org, kaj vi ricevos repagon. Tiel, facilas provi ĝin :)</string>
     <string name="developer_description">Aro de simplaj, malfermitkodaj aplikaĵoj de Android kun tajloreblaj fenestraĵoj, sen reklamoj nek nenecesaj permesoj.</string>
-    <string name="why_upgrade_zooming">Zomado</string>
     <string name="start_free_trial">Komenci senpagan provon</string>
     <string name="trial_expires_soon">Via provo baldaŭ finiĝos.</string>
     <string name="unlock_for_one_final_day">Malŝlosi aplikaĵon por unu lasta tago</string>
     <string name="welcome_to_app_name">Bonvenon al %s!</string>
-    <string name="trial_end_description">Bonvolu promociiĝi al la versio Pro por plej ĝui la aplikaĵon.\n\nVi nur pagas unu fojon vian tutan vivon, kaj se vi ne kontentas, vi povas malinstali ĝin por ricevi repagon.\n\nĜis :)</string>
-    <string name="deprecated_app">EVITINDA: Tiu ĉi versio de la aplikaĵo ne plu estas prizorgita. Elŝutu la version Pro el https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="reprint_title">Reprint (protektado per fingropremo)</string>
     <string name="gif_drawable_title">Gif Drawable (ŝargado de GIF-dosieroj)</string>
     <string name="gson_title">Gson (malkomponilo de JSON)</string>
-    <string name="why_upgrade_note_locking">Ŝlosado de notoj</string>
-    <string name="why_upgrade_contact_filtering">Filtrado de kontaktoj</string>
     <string name="number_of_items">Nombro de elementoj</string>
     <string name="reorder_items_by_dragging">Reordigi elementojn per treni</string>
     <string name="days_letter">%dt</string>

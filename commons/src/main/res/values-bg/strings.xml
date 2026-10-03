@@ -89,7 +89,6 @@
     <string name="no_phone_number_found">Не е намерен телефонен номер</string>
     <string name="change_view_type">Изглед</string>
     <string name="grid">Решетка</string>
-    <string name="grid_pro">Решетка (Про)</string>
     <string name="uneven_grid">Неравномерна решетка</string>
     <string name="list">Списък</string>
     <string name="increase_column_count">Увеличаване на броя на колоните</string>
@@ -151,7 +150,6 @@
     <string name="search_conversations">Търсене на разговори</string>
     <string name="search_recordings">Търсене на записи</string>
     <string name="filter">Филтър</string>
-    <string name="filter_pro">Филтър (Про)</string>
     <string name="no_items_found">Не са намерени елементи.</string>
     <string name="change_filter">Промяна на филтър</string>
     <string name="no_storage_permissions">Необходимо е разрешение за достъп до хранилището</string>
@@ -356,10 +354,8 @@
     <string name="undo">Отменяне</string>
     <string name="redo">Повторение</string>
     <string name="print">Отпечатване</string>
-    <string name="print_pro">Отпечатване (Про)</string>
     <string name="shortcut">Пряк път</string>
     <string name="create_shortcut">Създаване на пряк път</string>
-    <string name="create_shortcut_pro">Създаване на пряк път (Про)</string>
     <string name="add_number_to_contact">Добавяне на номера към контакт</string>
     <string name="view_contact_details">Преглед на контакта</string>
     <string name="call_from_sim_1">Обаждане от SIM 1</string>
@@ -432,7 +428,6 @@
     <string name="protection_setup_successfully">Паролата е зададена. В случай на забравена парола, инсталирайте приложението отново.</string>
     <string name="fingerprint_setup_successfully">Защитата е настроена. При проблеми с нулирането на приложението го инсталирайте отново.</string>
     <string name="lock_folder">Заключване на папка</string>
-    <string name="lock_folder_pro">Заключване на папка (Про)</string>
     <string name="unlock_folder">Отключване на папка</string>
     <string name="lock_folder_notice">Защита работи само в това приложение, не е предвидена да замества шифроване на папките в цялата система.</string>
     <string name="empty_password_new">Въведете парола</string>
@@ -584,7 +579,6 @@
     <string name="general_settings">Общи</string>
     <string name="color_customization">Външен вид</string>
     <string name="customize_colors">Настройка на външния вид</string>
-    <string name="feature_locked">Заключено</string>
     <string name="customize_widget_colors">Настройка на цветовете на приспособлението</string>
     <string name="customize_notifications">Настройка на известията</string>
     <string name="use_english_language">Интерфейс на английски език</string>
@@ -744,22 +738,14 @@
     <string name="friday_short">Пт</string>
     <string name="saturday_short">Сб</string>
     <string name="sunday_short">Нд</string>
-    <string name="upgrade_to_pro_long">Приложението вече няма да бъде обновявано. Надстройте до Про, за да получавате поправки и подобрения.</string>
-    <string name="upgrade_to_pro_long_click">Приложението вече няма да бъде обновявано. Надстройте до Про, за да получавате поправки и подобрения като докоснете тук.</string>
     <string name="it_is_free">Безплатно е до: %s. Ако го изтеглите дотогава, ще можете да го използвате безплатно завинаги.</string>
     <string name="more_info">Подробности</string>
     <string name="upgrade">Обновяване</string>
     <string name="upgrade_calendar">Трябва ръчно да пренесете събитията, които се съхраняват в приложението чрез изнасяне в .ics файл и последващо внасяне. Бутоните за внасяне и изнасяне ще намерите в главното меню.</string>
-    <string name="upgraded_to_pro_gallery">Здравейте,
-\n
-\nизглежда, че вече имате и Pro версията на приложението. След като сте доволни от него и мигрирате вашите настройки и любими, можете да го деинсталирате, за да избегнете случайното му стартиране, тъй като вече няма да ви трябва.
-\n
-\nБлагодаря!</string>
     <string name="about">Относно</string>
     <string name="website">Страница</string>
     <string name="website_label">За изходния код посетете</string>
     <string name="email_label">Изпращайте отзиви или предложения на</string>
-    <string name="upgrade_to_pro">Обновяване до Про</string>
     <string name="invite_friends">Препоръчайте на приятел</string>
     <string name="share_text">Пробвайте „%1$s“ от %2$s</string>
     <string name="invite_via">Препоръка с помощта на</string>
@@ -779,11 +765,9 @@
     <string name="purchase">Поръчване</string>
     <string name="before_asking_question_read_faq">Преди да зададете въпрос, проверете настройките на приложението и прочетете често задаваните въпроси. Може да намерите решението там.</string>
     <string name="make_sure_latest">Също така се уверете, че използвате последното издание на приложението.</string>
-    <string name="make_sure_upgrade">Също имайте предвид, че това издание на приложението вече не се разработва. Инсталирайте Про за още много подобрения.</string>
     <string name="read_it">Прочитане</string>
     <string name="read_faq">Прочетете често задаваните въпроси</string>
     <string name="thank_you">Благодарим ви</string>
-    <string name="widget_locked_pro">Приспособлението е заключено.\nНадстройте до Про , за да го отключите.</string>
     <string name="app_launcher_short">Начален екран</string>
     <string name="calculator_short">Калкулатор</string>
     <string name="calendar_short">Календар</string>
@@ -817,8 +801,6 @@
     <string name="faq_6_title_commons">Иконата за стартиране на приложението изчезна. Какво мога да направя\?</string>
     <string name="faq_7_title_commons">Парите са приспаднати от банковата ми сметка, но не мога да изтегля приложението. Какво мога да направя\?</string>
     <string name="faq_7_text_commons">Плащанията се обработват изцяло от Google, системната им има гличове от време на време. Просто изчистете кеша на приложението Google Play и рестартирайте устройството си, след което отново го изтегляте.</string>
-    <string name="faq_8_title_commons">Защо трябва да обновя до Про версията\?</string>
-    <string name="faq_8_text_commons">Тъй като версията на приложението ви вече не се актуализира, грешките, които сте забелязали, никога няма да бъдат поправени. Няма да се добавят и нови функции. Можете да закупите Pro версията в Google Play за малка сума пари. Това е еднократно плащане, което означава, че след като го закупите, никога няма да се налага да плащате отново. Дори и след получаване на ново устройство. Ако няма да ви хареса Pro версията, можете просто да я деинсталирате в рамките на няколко часа и автоматично ще си върнете парите. Ако искате възстановяване на сумата по -късно, просто се свържете с нас на hello@fossify.org и ще го получите.</string>
     <string name="faq_9_title_commons">Как мога да избера няколко елемента наведнъж\?</string>
     <string name="faq_10_title_commons">Закупих приложението, но не мога да го изтегля на друго устройство.</string>
     <string name="faq_10_text_commons">Опитай да изчистиш кеша на Google Play приложението и да рестартираш устройството. Това е някакъв проблем с Google Play, който всъщност не е свързан със самото приложение.</string>
@@ -870,32 +852,6 @@
     <string name="translation_chinese_hk">Китайски (Хонконг)</string>
     <string name="translation_chinese_cn">Китайски (опростен)</string>
     <string name="translation_chinese_tw">Китайски (традиционен)</string>
-    <string name="why_upgrade">Вземете Про версията сега!</string>
-    <string name="why_upgrade_basic_version">Основна</string>
-    <string name="why_upgrade_pro_version">Про</string>
-    <string name="why_upgrade_no_ads">Без реклами</string>
-    <string name="why_upgrade_no_internet_access">Без достъп до интернет</string>
-    <string name="why_upgrade_footer">100% гаранция за връщане на парите</string>
-    <string name="why_upgrade_footer_one_time_payment">Еднократно плащане</string>
-    <string name="why_upgrade_improved_design">Подобрен дизайн</string>
-    <string name="why_upgrade_advanced_photo_editor">Разширен редактор за снимки</string>
-    <string name="why_upgrade_heic_support">Поддръжка на HEIC/HEIF файлове</string>
-    <string name="why_upgrade_batch_renaming">Групово преименуване на файлове</string>
-    <string name="why_upgrade_folder_locking">Индивидуално заключване на папки</string>
-    <string name="why_upgrade_printing_support">Възможност за отпечатване</string>
-    <string name="why_upgrade_time_zone_support">Поддръжка на часови пояси</string>
-    <string name="why_upgrade_attendees_emails">Участници и напомняния по ел. поща</string>
-    <string name="why_upgrade_easy_event_importing">Лесно внасяне на събития</string>
-    <string name="why_upgrade_new_widgets">Нови приспособления</string>
-    <string name="why_upgrade_duplicate_contact_merging">Подобрено сливане на дублирани контакти</string>
-    <string name="why_upgrade_font_size_customization">Настройка на размера на шрифта</string>
-    <string name="why_upgrade_customizable_contact_ringtones">Настройка на мелодиите за контакти</string>
-    <string name="why_upgrade_contact_filtering">Филтриране на контактите</string>
-    <string name="why_upgrade_different_note_per_widget">Различна бележка и цвят за всяко приспособление</string>
-    <string name="why_upgrade_file_compression">Поддръжка за компресиране на файлове</string>
-    <string name="why_upgrade_recents_tab">Раздел със последно използваните файлове</string>
-    <string name="why_upgrade_file_importing">Възможност за внасяне на файлове</string>
-    <string name="why_upgrade_zooming">Мащабиране</string>
     <string name="third_party_licences">Лицензи на трети страни</string>
     <string name="welcome_to_app_name">Добре дошли при %s!</string>
     <string name="pro_app_refund">Не забравяйте, че ако премахнете някое платено приложение в рамките на 2 часа след плащането, сумата автоматично ще бъде възстановена. Ако желаете възстановяване на сумата след този период, просто се свържете с нас на hello@fossify.org и ще ви ги върнем. Така е по-лесно да изпробвате приложенията :)</string>
@@ -939,32 +895,20 @@
     <string name="translation_central_kurdish">Кюрдски, централен</string>
     <string name="photoview_title">PhotoView (мащабиране на GIF)</string>
     <string name="theme_and_colors">Тема и цветове</string>
-    <string name="upgraded_from_free_gallery">Здравейте,\n\nизглежда, че току-що сте преминали от безплатната версия. След като сте доволни от тази версия и може би сте прехвърлили настройките и предпочитанията си в нея, можете да премахнете старата безплатна версия, за да избегнете случайното ѝ стартиране, тъй като вече няма да ви е необходима, а също така ще предотвратите показването на този диалогов прозорец.\n\nБлагодаря!</string>
-    <string name="upgraded_from_free">Здравейте,\n\nизглежда, че току-що сте преминали от безплатната версия. След като сте доволни от тази версия и може би сте прехвърлили данните си, можете да деинсталирате старата безплатна версия, за да избегнете случайното ѝ стартиране, тъй като вече няма да ви е необходима, а също така ще предотвратите показването на този диалогов прозорец.\n\nБлагодаря!</string>
-    <string name="upgraded_from_free_calendar">Здравейте,\n\nизглежда, че току-що сте преминали от безплатната версия. Ако искате да прехвърлите местно пазените събития, трябва да го направите ръчно, като ги изнесете във файл от безплатната версия на приложението и ги внесете тук от горното меню.\n\nСлед като сте доволни от настройките си в Про, можете да махнете старата безплатна версия, тъй като тя вече няма да ви е необходима, а също ще предотврати показването на този прозорец.\n\nБлагодаря!</string>
-    <string name="upgraded_from_free_notes">Здравейте,\n\nизглежда, че току-що сте преминали от безплатната версия. Ако искате да прехвърлите бележките, трябва да го направите ръчно, като ги изнесете във файл от безплатната версия на приложението и ги внесете тук от горното меню.\n\nСлед като сте доволни от настройките си в Про, можете да махнете старата безплатна версия, тъй като тя вече няма да ви е необходима, а така ще предотврати показването на този прозорец.\n\nБлагодаря!</string>
     <string name="known_issues">Известни дефекти</string>
-    <string name="donate_please"><![CDATA[Здравейте,<br><br>надяваме се, че се наслаждавате на приложението. То не съдържа реклами, подкрепете развитието му, като купите приложението <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, което също така ще предотврати повторното показване на този диалог.<br><br>Благодарим ви!]]></string>
-    <string name="features_locked">Това е платена възможност, поръчайте &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, за да отключите всички възможности на приложението.&lt;bг&gt;&lt;br&gt;Това е еднократно плащане и ако не останете доволни ще ви върнем парите.</string>
     <string name="translation_belarusian">Беларуски</string>
     <string name="contributors_label"><![CDATA[Този списък съдържа всички, които значително са помогнали за някое от приложенията в пакета на Fossify, а не само на това. Преводите се извършват от доброволци — уведомете ни, ако искате да помогнете и вие. Ръководството за превод се намира на <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>тази страница</a>, или просто се свържете с нас на <a href=mailto:hello@fossify.org>hello@fossify.org</a>, ако имате въпроси. Благодарим на всички сътрудници и поддръжници!]]></string>
     <string name="m3u_parser_title">M3U Parser (обработка на списъци за възпроизвеждане m3u)</string>
     <string name="trial_expires_soon">Пробният период изтича скоро.</string>
-    <string name="why_upgrade_advanced_photo_video_editor">Разширен редактор за снимки и видео</string>
     <string name="subsampling_title">Subsampling Scale Image View (мащабиране на изображенията в реално време)</string>
     <string name="kotlin_title">Kotlin (език за програмиране)</string>
     <string name="otto_title">Otto (шина за събития)</string>
     <string name="leak_canary_title">Leak Canary (намиране на изтичаща памет)</string>
     <string name="exoplayer_title">ExoPlayer (възпроизвеждане на видео)</string>
-    <string name="why_upgrade_contact_private_contacts">Поверително съхранени на контакти</string>
-    <string name="why_upgrade_checklists">Контролни списъци</string>
-    <string name="why_upgrade_note_locking">Заключване на бележки</string>
     <string name="espresso_title">Espresso (помощ при изпитване)</string>
     <string name="notification_sound">Звук на известието</string>
-    <string name="upgraded_from_free_contacts">Здравейте,\n\nизглежда, че току-що сте преминали от безплатната версия. Ако сте имали контакти в „%s“, трябва да ги преместите ръчно, като ги изнесете във файл от безплатната версия на приложението и ги внесете тук от горното меню.\n\nСлед като сте доволни от настройките си в Про, можете да махнете старата безплатна версия, тъй като тя вече няма да ви е необходима, а също ще предотврати показването на този прозорец.\n\nБлагодаря!</string>
     <string name="donate_short">Подкрепете ни, като закупите &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Така ще отключите всички възможности на приложението, включително настройка на цветовете.</string>
     <string name="cryptocurrency">Криптовалута</string>
-    <string name="upgraded_to_pro">Здравейте,\n\nизглежда, че вече имате и версията на приложението Pro. След като сте доволни от нея и може би сте прехвърлили данните си, можете да деинсталирате тази, за да избегнете случайното ѝ стартиране, тъй като вече няма да ви е необходима.\n\nБлагодаря!</string>
     <string name="update_thank_you">Обновете Fossify Thank You до последното издание</string>
     <string name="translation_chuvash">Чувашки</string>
     <string name="translation_esperanto">Есперанто</string>
@@ -981,18 +925,12 @@
     <string name="zip4j_title">Zip4j (работа с формата ZIP)</string>
     <string name="android_lame_title">AndroidLame (кодиране на mp3)</string>
     <string name="start_free_trial">Начало на пробен период</string>
-    <string name="donate_new">Здравейте,&lt;br&gt;&lt;br&gt;надяваме се, че се наслаждавате на приложението. То не съдържа реклами и не събира данни, подкрепете развитието му, като закупите &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Освен това ще имате отключени всички възможности на приложението, включително настройка на цветовете.&lt;br&gt;&lt;br&gt;Благодарим ви!</string>
     <string name="all_fossify_apps">Всички приложения от Fossify</string>
     <string name="new_app"><![CDATA[Здравейте,<br><br>искаме само да ви кажем, че скоро пуснахме нови приложения:<br><br><a href=%1$s>%2$s</a><br><br><a href=%3$s>%4$s</a><br><br><a href=%5$s>%6$s</a><br><br>Можете да ги изтеглите като докоснете заглавията или пиктограмите им.<br><br>Благодарим ви]]></string>
     <string name="donate_to_fossify">Даряване на Fossify</string>
     <string name="platforms">Платформи</string>
     <string name="little_to_no_fee">Почти без такси</string>
     <string name="fee_up_to_pct">Такса до %1$d %%</string>
-    <string name="why_upgrade_many_other_improvements">Много други подобрения</string>
-    <string name="why_upgrade_private_contact_sharing">Допълнително споделяне на поверителни контакти между нашите приложения</string>
-    <string name="why_upgrade_date_and_time_format">Настройка на формата на датата и часа</string>
-    <string name="why_upgrade_shortcuts">Бързи връзки на началния екран</string>
-    <string name="why_upgrade_background_color_customization">Настройка на цвета на фона</string>
     <string name="pattern_title">PatternLockView (защита с форми)</string>
     <string name="reprint_title">Reprint (защита с пръстов отпечатък)</string>
     <string name="gif_drawable_title">Gif Drawable (зареждане на GIF)</string>
@@ -1001,12 +939,8 @@
     <string name="gson_title">Gson (разбор на JSON)</string>
     <string name="number_picker_title">Number Picker (контрол за въвеждане на числа)</string>
     <string name="audio_record_view_title">Audio Record View (визуализация на звуци)</string>
-    <string name="trial_start_description">Благодарим ви, че използвате нашето приложение. Можете да използвате тази отключена версия в продължение на <font color="#fff">%d дни</font>. След като пробният период изтече, помислете за надграждане до версия Про. Тя разполага с огромно количество нови възможности, модерен дизайн, без реклами и много други подобрения.\n\nЕдинствено трябва еднократно да платите и ако не останете доволни, можете да премахнете приложението и да получите обратно парите си.\n\nНадявам се, че ще ви хареса :)</string>
-    <string name="trial_end_description">Надградете до Про, за да се насладите на пълните възможности на приложението.\n\nЕдинствено трябва еднократно да платите и ако не останете доволни, можете да премахнете приложението и да получите обратно парите си.\n\nЩе се видим там :)</string>
-    <string name="deprecated_app">Изведено от употреба: това приложение вече не се поддържа, надградете до Про на https://play.google.com/store/apps/details?id=org.fossify..xxx.pro</string>
     <string name="app_icon_color_warning">Внимание: Някои начални екрани може да не изобразят правилно потребителските настройки на пиктограмите на приложенията. Ако пиктограмата изчезне, стартирате приложението от Google Play или, ако има, от приспособление. След това възстановете подразбирания зелен цвят на пиктограмата – #106D1F. В краен случаи може да се наложи преинсталиране на приложението.</string>
     <string name="apply_to_all_apps">Прилагане на темата към всички приложения на Fossify</string>
-    <string name="shared_theme_note">Обърнете внимание, че въпреки че използвате Про, все още се нуждаете от Fossify Thank You по технически причини. То се грижи за синхронизирането на цветовете.</string>
     <string name="purchase_thank_you"><![CDATA[Поръчайте <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>, за да използвате тази възможност и да подкрепите разработката. Благодарим ви!]]></string>
     <string name="purchase_simple_thank_you">Поръчайте Fossify Thank You</string>
     <plurals name="trial_expires_days">
