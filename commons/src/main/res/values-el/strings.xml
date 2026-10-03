@@ -886,7 +886,7 @@
     <string name="theme_and_colors">Χρώματα θέματος</string>
     <string name="app_icon_color_warning">Προσοχή: Ορισμένα προγράμματα εκκίνησης ενδέχεται να μην χειρίζονται σωστά την προσαρμογή εικονιδίων εφαρμογών. Εάν το εικονίδιο εξαφανιστεί, δοκιμάστε να εκκινήσετε την εφαρμογή μέσω του Google Play ή ενός γραφικού στοιχείου, εάν είναι προσβάσιμο. Μετά την εκκίνηση, επαναφέρετε το προεπιλεγμένο πράσινο χρώμα εικονιδίου #106D1F. Σε ακραίες περιπτώσεις, ενδέχεται να χρειαστεί επανεγκατάσταση της εφαρμογής.</string>
     <string name="apply_to_all_apps">Εφαρμογή θέματος σε όλες τις εφαρμογές Fossify</string>
-    <string name="donate_short">Υποστηρίξτε μας αγοράζοντας το &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Ευχαριστώ&lt;/a&gt;. Θα ξεκλειδώσει επίσης όλες τις λειτουργίες της εφαρμογής, συμπεριλαμβανομένης της προσαρμογής χρωμάτων.</string>
+    <string name="donate_short">Υποστηρίξτε την ανάπτυξη των χωρίς διαφημίσεις εφαρμογών μας αγοράζοντας το &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Ευχαριστώ&lt;/a&gt;. Θα ξεκλειδώσει επίσης την επιλογή γραμματοσειρών και την κοινή προσαρμογή διεπαφής για όλες τις εφαρμογές Fossify!</string>
     <string name="all_fossify_apps">Όλες οι εφαρμογές Fossify</string>
     <string name="requires_fossify_thank_you">Χρειάζεται την Fossify Thank You</string>
     <string name="purchase_simple_thank_you">Αγορά Fossify Thank You</string>
@@ -910,4 +910,5 @@
     <string name="on_contact_click">Στην επιλογή επαφής</string>
     <string name="call_contact">Κλήση επαφής</string>
     <string name="view_contact">Εμφάνιση λεπτομερειών επαφής</string>
+    <string name="donation_prompt">Αν σας αρέσει αυτή η εφαρμογή, παρακαλώ υποστήριξης την ανάπτυξη των εφαρμογών Fossify.</string>
 </resources>
