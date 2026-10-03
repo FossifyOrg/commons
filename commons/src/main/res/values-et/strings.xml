@@ -927,7 +927,7 @@
     <string name="thursday_short">Neljap</string>
     <string name="friday_short">Reede</string>
     <string name="saturday_short">Laup</string>
-    <string name="donate_short">Palun toeta meid ostes rakenduse &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Suur Tänu&lt;/a&gt;. Muu hulgas avab see antud rakenduse kõik funktsionaalsused ja sealhulgas võimaldab kohandada liidese värve.</string>
+    <string name="donate_short">Kas Fossify rakendused meeldivad sulle? Palun toeta meie reklaamivabade rakenduste arendust ostes rakenduse &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Suur Tänu&lt;/a&gt;. Muu hulgas saad kõigis Fossify rakendustes kasutada enda valitud kirjatüüpe ja jagatud kohendusi. Täname sind toetuse eest!</string>
     <string name="translation_english">inglise keel</string>
     <string name="translation_bengali">bengali keel</string>
     <string name="translation_hindi">hindi keel</string>
@@ -1017,4 +1017,6 @@
     <string name="commonmark_title">CommonMark (Markdown-vormingu parser)</string>
     <string name="jsoup_title">jsoup (HTML-vormingu parser)</string>
     <string name="commons_csv_title">Apache Commons CSV (CSV-vormingu parser)</string>
+    <string name="rate_app_prompt">Kas sulle see rakendus meeldib? Hinda teda Google Play teenuses.</string>
+    <string name="donation_prompt">Kui sulle see rakendus meeldib, siis kaalu Fossify toetamist.</string>
 </resources>
