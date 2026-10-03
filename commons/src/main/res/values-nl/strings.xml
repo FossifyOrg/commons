@@ -895,7 +895,7 @@
     <string name="show_line_numbers">Regelnummers tonen</string>
     <string name="hide_line_numbers">Regelnummers verbergen</string>
     <string name="purchase_simple_thank_you">Fossify Bedankje aanschaffen</string>
-    <string name="donate_short">Ondersteun ons door de app &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Dit zal alle functionaliteit in de apps ontgrendelen.</string>
+    <string name="donate_short">Bevalt Fossify? Steun dan de ontwikkeling van onze advertentievrije apps door &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Dit geeft ook de mogelijkheid om lettertypen aan te passen en de aanpassingen te delen tussen alle Fossify-apps. Bedankt!</string>
     <string name="update_thank_you">Update Fossify Bedankje naar de nieuwste versie</string>
     <string name="app_icon_color_warning">Let op: Sommige launchers verwerken het aanpassen van het icoon mogelijk niet goed. Als het icoon verdwijnt, probeer dan de app te starten via Google Play, F-Droid of een widget. Herstel na het starten de groene standaardkleur #106D1F. In extreme gevallen kan het zijn dat de app opnieuw geïnstalleerd moet worden.</string>
     <string name="copyright">v %1$s
@@ -981,4 +981,6 @@
     <string name="on_contact_click">Bij klikken op een contact</string>
     <string name="call_contact">Contact bellen</string>
     <string name="view_contact">Contactgegevens bekijken</string>
+    <string name="rate_app_prompt">Bevalt de app goed? Geef dan een beoordeling op Google Play.</string>
+    <string name="donation_prompt">Bevalt Fossify? Overweeg dan om de ontwikkeling te steunen.</string>
 </resources>
