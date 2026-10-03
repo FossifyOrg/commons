@@ -998,7 +998,7 @@
     <string name="copyright">v %1$s
 \nCopyright © Fossify %2$d</string>
     <string name="social">Social</string>
-    <string name="donate_short">Ajudeu-nos comprant la &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, també desbloquejarà totes les funcions de l\'aplicació incloent-hi la personalització del color.</string>
+    <string name="donate_short">Gaudiu de Fossify? Ajudeu el desenvolupament de les nostres aplicacions lliures d\'anuncis comprant la &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. També activarà les lletres personalitzades i la personalització compartida de totes les aplicacions Fossify. Gràcies per la vostra ajuda!</string>
     <string name="app_icon_color_warning">Atenció: És possible que alguns llançadors no gestionin correctament la personalització de la icona de l\'aplicació. Si la icona desapareix, intenteu llançar l\'aplicació a través de Google Play o d\'un giny, si és accessible. Després del llançament, restaureu el color predeterminat de la icona verda #106D1F. En casos extrems, pot ser necessària la reinstal·lació de l\'aplicació.</string>
     <string name="faq_6_text_commons">Aquest problema sorgeix quan el llançador no admet completament la personalització d\'icones. Intenteu llançar l\'aplicació a través de Google Play o d\'un giny, si és accessible. Després del llançament, restaureu el color predeterminat de la icona verda #106D1F. En casos extrems, pot ser necessària la reinstal·lació de l\'aplicació.</string>
     <string name="block_contact">Bloqueja el contacte</string>
@@ -1058,4 +1058,6 @@
     <string name="commonmark_title">CommonMark (analitzador de Markdown)</string>
     <string name="jsoup_title">jsoup (analitzador de HTML)</string>
     <string name="commons_csv_title">Apache Commons CSV (analitzador de CSV)</string>
+    <string name="rate_app_prompt">Gaudiu de l\'aplicació? Valoreu-la a Google Play.</string>
+    <string name="donation_prompt">Si us agrada utilitzar aquesta aplicació, considereu donar suport al desenvolupament de Fossify.</string>
 </resources>
