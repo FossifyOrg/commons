@@ -334,7 +334,7 @@
     <string name="global_theme_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
     <string name="purchase_thank_you"><![CDATA[
             Lütfen bu özelliği kullanmak ve geliştirme sürecine destek olmak için <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Teşekkürler</a> uygulamasını satın alın. Teşekkür ederiz!
-            ]]></string>
+        ]]></string>
     <string name="light_theme">Aydınlık</string>
     <string name="dark_theme">Karanlık</string>
     <string name="auto_theme">Otomatik</string>
@@ -792,7 +792,7 @@
     <string name="additional_info">Ek bilgiler</string>
     <string name="app_version">Uygulama sürümü: %s</string>
     <string name="device_os">Aygıt İS: %s</string>
-    <string name="donate_short">Lütfen &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Teşekkürler&lt;/a&gt; uygulamasını satın alarak bizi destekleyin, ayrıca renk özelleştirme dahil tüm uygulama özelliklerinin kilidi açılacaktır.</string>
+    <string name="donate_short">Fossify\'dan memnun musunuz? &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Teşekkürler&lt;/a&gt;\'i satın alarak reklamsız uygulamalarımızın geliştirilmesine destek olun. Bu, aynı zamanda özel yazı tiplerinin kullanılmasını ve Fossify uygulamaları arasında özelleştirme ayarlarının paylaşılmasını da sağlayacaktır. Desteğiniz için teşekkür ederiz!</string>
     <string name="purchase">Satın al</string>
     <string name="update_thank_you">Lütfen Fossify Teşekkürler\'i son sürüme güncelleyin</string>
     <string name="before_asking_question_read_faq">Bir soru sormadan önce, lütfen uygulama ayarlarını gözden geçirin ve önce Sık Sorulan Sorular bölümünü okuyun. Belki çözüm oradadır.</string>
@@ -1018,4 +1018,6 @@
     <string name="commonmark_title">CommonMark (Markdown işleyici)</string>
     <string name="jsoup_title">jsoup (HTML işleyici)</string>
     <string name="commons_csv_title">Apache Commons CSV (CSV işleyici)</string>
+    <string name="rate_app_prompt">Uygulamayı beğendiniz mi? Lütfen Google Play\'de değerlendirin.</string>
+    <string name="donation_prompt">Bu uygulamayı kullanmaktan memnun kaldıysanız, lütfen Fossify\'ın geliştirilmesine destek olmayı düşünün.</string>
 </resources>
