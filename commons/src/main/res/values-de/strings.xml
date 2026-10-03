@@ -961,7 +961,7 @@
     <string name="translation_english">Englisch</string>
     <string name="translation_hindi">Hindi</string>
     <string name="otto_title">Otto (Eventbus)</string>
-    <string name="donate_short">Unterstütze uns bitte durch den Kauf von &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, dies wird auch alle App-Funktionen einschließlich der Farbanpassung freischalten.</string>
+    <string name="donate_short">Gefällt dir Fossify? Unterstütze die Entwicklung unserer werbefreien Apps, indem du &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt; erwirbst. Damit werden außerdem eigene Schriftarten und die gemeinsame Anpassung aller Fossify-Apps ermöglicht. Vielen Dank für deine Unterstützung!</string>
     <string name="faq_2_text_commons"><![CDATA[
             Ja, natürlich. Du kannst die Apps weiterempfehlen oder gute Bewertungen abgeben. Du kannst auch helfen, indem du die Apps in eine neue Sprache übersetzt oder einfach einige bestehende Übersetzungen aktualisierst.
             Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.
@@ -1018,4 +1018,6 @@
     <string name="commonmark_title">CommonMark (Markdown-Parser)</string>
     <string name="jsoup_title">jsoup (HTML-Parser)</string>
     <string name="commons_csv_title">Apache Commons CSV (CSV-Parser)</string>
+    <string name="rate_app_prompt">Gefällt dir die App? Dann bewerte sie bitte bei Google Play.</string>
+    <string name="donation_prompt">Wenn dir diese App gefällt, würden wir uns freuen, wenn du die Entwicklung von Fossify unterstützt.</string>
 </resources>
