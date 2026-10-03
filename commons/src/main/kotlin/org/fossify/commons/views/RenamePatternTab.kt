@@ -188,61 +188,71 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
         callback: (success: Boolean) -> Unit,
     ) {
         val fileDirItems = paths.map { File(it).toFileDirItem(context) }
-        val uriPairs = context.getUrisPathsFromFileDirItems(fileDirItems)
-        val validPaths = uriPairs.first
-        val uris = uriPairs.second
-        val activity = activity
-        activity?.updateSDK30Uris(uris) { success ->
-            if (success) {
-                try {
-                    uris.forEachIndexed { index, uri ->
-                        val path = validPaths[index]
-                        val newFileName = getNewPath(path, useMediaFileExtension)?.getFilenameFromPath() ?: return@forEachIndexed
-                        when (android30Format) {
-                            Android30RenameFormat.SAF -> {
-                                val sourceFile = File(path).toFileDirItem(context)
-                                val newPath = "${path.getParentPath()}/$newFileName"
-                                val destinationFile = FileDirItem(
-                                    newPath,
-                                    newFileName,
-                                    sourceFile.isDirectory,
-                                    sourceFile.children,
-                                    sourceFile.size,
-                                    sourceFile.modified
-                                )
-                                if (activity.copySingleFileSdk30(sourceFile, destinationFile)) {
-                                    if (!activity.baseConfig.keepLastModified) {
-                                        File(newPath).setLastModified(System.currentTimeMillis())
+        val activity = activity ?: return
+        context.resolveMediaStoreUris(fileDirItems) { resolution ->
+            if (resolution.unresolved.isNotEmpty()) {
+                activity.toast(R.string.unknown_error_occurred)
+                callback(false)
+                return@resolveMediaStoreUris
+            }
+
+            val resolved = resolution.resolved
+            activity.updateSDK30Uris(resolution.uris) { success ->
+                if (success) {
+                    try {
+                        resolved.forEach { resolvedUri ->
+                            val path = resolvedUri.fileDirItem.path
+                            val uri = resolvedUri.uri
+                            val newFileName = getNewPath(path, useMediaFileExtension)
+                                ?.getFilenameFromPath() ?: return@forEach
+                            when (android30Format) {
+                                Android30RenameFormat.SAF -> {
+                                    val sourceFile = File(path).toFileDirItem(context)
+                                    val newPath = "${path.getParentPath()}/$newFileName"
+                                    val destinationFile = FileDirItem(
+                                        newPath,
+                                        newFileName,
+                                        sourceFile.isDirectory,
+                                        sourceFile.children,
+                                        sourceFile.size,
+                                        sourceFile.modified
+                                    )
+                                    if (activity.copySingleFileSdk30(sourceFile, destinationFile)) {
+                                        if (!activity.baseConfig.keepLastModified) {
+                                            File(newPath).setLastModified(System.currentTimeMillis())
+                                        }
+                                        activity.contentResolver.delete(uri, null)
+                                        activity.updateInMediaStore(path, newPath)
+                                        activity.scanPathsRecursively(arrayListOf(newPath))
                                     }
-                                    activity.contentResolver.delete(uri, null)
-                                    activity.updateInMediaStore(path, newPath)
-                                    activity.scanPathsRecursively(arrayListOf(newPath))
                                 }
-                            }
 
-                            Android30RenameFormat.CONTENT_RESOLVER -> {
-                                val values = ContentValues().apply {
-                                    put(MediaStore.Images.Media.DISPLAY_NAME, newFileName)
+                                Android30RenameFormat.CONTENT_RESOLVER -> {
+                                    val values = ContentValues().apply {
+                                        put(MediaStore.Images.Media.DISPLAY_NAME, newFileName)
+                                    }
+                                    context.contentResolver.update(uri, values, null, null)
                                 }
-                                context.contentResolver.update(uri, values, null, null)
-                            }
 
-                            Android30RenameFormat.NONE -> {
-                                activity.runOnUiThread {
-                                    callback(true)
+                                Android30RenameFormat.NONE -> {
+                                    activity.runOnUiThread {
+                                        callback(true)
+                                    }
+                                    return@forEach
                                 }
-                                return@forEachIndexed
                             }
                         }
+                        activity.runOnUiThread {
+                            callback(true)
+                        }
+                    } catch (e: Exception) {
+                        activity.runOnUiThread {
+                            activity.showErrorToast(e)
+                            callback(false)
+                        }
                     }
-                    activity.runOnUiThread {
-                        callback(true)
-                    }
-                } catch (e: Exception) {
-                    activity.runOnUiThread {
-                        activity.showErrorToast(e)
-                        callback(false)
-                    }
+                } else {
+                    callback(false)
                 }
             }
         }

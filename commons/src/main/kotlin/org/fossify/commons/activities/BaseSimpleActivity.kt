@@ -63,7 +63,7 @@ import org.fossify.commons.extensions.getColoredDrawableWithColor
 import org.fossify.commons.extensions.getContrastColor
 import org.fossify.commons.extensions.getCurrentFormattedDateTime
 import org.fossify.commons.extensions.getDoesFilePathExist
-import org.fossify.commons.extensions.getFileUrisFromFileDirItems
+import org.fossify.commons.extensions.resolveMediaStoreUris
 import org.fossify.commons.extensions.getFirstParentLevel
 import org.fossify.commons.extensions.getFirstParentPath
 import org.fossify.commons.extensions.getPermissionString
@@ -546,16 +546,22 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
             val outputStream = contentResolver.openOutputStream(resultData.data!!)
             exportSettingsTo(outputStream, configItemsToExport)
         } else if (requestCode == DELETE_FILE_SDK_30_HANDLER) {
-            funAfterSdk30Action?.invoke(resultCode == RESULT_OK)
+            val funAfter = funAfterSdk30Action
+            funAfterSdk30Action = null
+            funAfter?.invoke(resultCode == RESULT_OK)
         } else if (requestCode == RECOVERABLE_SECURITY_HANDLER) {
             funRecoverableSecurity?.invoke(resultCode == RESULT_OK)
             funRecoverableSecurity = null
         } else if (requestCode == UPDATE_FILE_SDK_30_HANDLER) {
-            funAfterUpdate30File?.invoke(resultCode == RESULT_OK)
+            val funAfter = funAfterUpdate30File
+            funAfterUpdate30File = null
+            funAfter?.invoke(resultCode == RESULT_OK)
         } else if (requestCode == MANAGE_MEDIA_RC) {
             funAfterManageMediaPermission?.invoke()
         } else if (requestCode == TRASH_FILE_SDK_30_HANDLER) {
-            funAfterTrash30File?.invoke(resultCode == RESULT_OK)
+            val funAfter = funAfterTrash30File
+            funAfterTrash30File = null
+            funAfter?.invoke(resultCode == RESULT_OK)
         }
     }
 
@@ -788,16 +794,19 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
     @SuppressLint("NewApi")
     fun deleteSDK30Uris(uris: List<Uri>, callback: (success: Boolean) -> Unit) {
         hideKeyboard()
-        if (isRPlus()) {
-            funAfterSdk30Action = callback
-            try {
-                val deleteRequest =
-                    MediaStore.createDeleteRequest(contentResolver, uris).intentSender
-                startIntentSenderForResult(deleteRequest, DELETE_FILE_SDK_30_HANDLER, null, 0, 0, 0)
-            } catch (e: Exception) {
-                showErrorToast(e)
-            }
-        } else {
+        if (!isRPlus() || uris.isEmpty()) {
+            callback(false)
+            return
+        }
+
+        funAfterSdk30Action = callback
+        try {
+            val deleteRequest =
+                MediaStore.createDeleteRequest(contentResolver, uris).intentSender
+            startIntentSenderForResult(deleteRequest, DELETE_FILE_SDK_30_HANDLER, null, 0, 0, 0)
+        } catch (e: Exception) {
+            funAfterSdk30Action = null
+            showErrorToast(e)
             callback(false)
         }
     }
@@ -809,16 +818,19 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
         callback: (success: Boolean) -> Unit
     ) {
         hideKeyboard()
-        if (isRPlus()) {
-            funAfterTrash30File = callback
-            try {
-                val trashRequest =
-                    MediaStore.createTrashRequest(contentResolver, uris, toTrash).intentSender
-                startIntentSenderForResult(trashRequest, TRASH_FILE_SDK_30_HANDLER, null, 0, 0, 0)
-            } catch (e: Exception) {
-                showErrorToast(e)
-            }
-        } else {
+        if (!isRPlus() || uris.isEmpty()) {
+            callback(false)
+            return
+        }
+
+        funAfterTrash30File = callback
+        try {
+            val trashRequest =
+                MediaStore.createTrashRequest(contentResolver, uris, toTrash).intentSender
+            startIntentSenderForResult(trashRequest, TRASH_FILE_SDK_30_HANDLER, null, 0, 0, 0)
+        } catch (e: Exception) {
+            funAfterTrash30File = null
+            showErrorToast(e)
             callback(false)
         }
     }
@@ -829,15 +841,18 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
         callback: (success: Boolean) -> Unit
     ) {
         hideKeyboard()
-        if (isRPlus()) {
-            funAfterUpdate30File = callback
-            try {
-                val writeRequest = MediaStore.createWriteRequest(contentResolver, uris).intentSender
-                startIntentSenderForResult(writeRequest, UPDATE_FILE_SDK_30_HANDLER, null, 0, 0, 0)
-            } catch (e: Exception) {
-                showErrorToast(e)
-            }
-        } else {
+        if (!isRPlus() || uris.isEmpty()) {
+            callback(false)
+            return
+        }
+
+        funAfterUpdate30File = callback
+        try {
+            val writeRequest = MediaStore.createWriteRequest(contentResolver, uris).intentSender
+            startIntentSenderForResult(writeRequest, UPDATE_FILE_SDK_30_HANDLER, null, 0, 0, 0)
+        } catch (e: Exception) {
+            funAfterUpdate30File = null
+            showErrorToast(e)
             callback(false)
         }
     }
@@ -912,29 +927,41 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
 
                 copyMoveCallback = callback
                 var fileCountToCopy = fileDirItems.size
+
+                fun startCopyMoveNow() {
+                    startCopyMove(
+                        files = fileDirItems,
+                        destinationPath = destination,
+                        isCopyOperation = isCopyOperation,
+                        copyPhotoVideoOnly = copyPhotoVideoOnly,
+                        copyHidden = copyHidden
+                    )
+                }
+
+                fun requestSdk30UpdateThenStart() {
+                    resolveMediaStoreUris(fileDirItems) { resolution ->
+                        val fileUris = resolution.uris
+                        if (fileUris.isEmpty()) {
+                            startCopyMoveNow()
+                            return@resolveMediaStoreUris
+                        }
+
+                        updateSDK30Uris(fileUris) { sdk30UriSuccess ->
+                            if (sdk30UriSuccess) {
+                                startCopyMoveNow()
+                            } else {
+                                copyMoveListener.copyFailed()
+                            }
+                        }
+                    }
+                }
+
                 if (isCopyOperation) {
                     val recycleBinPath = fileDirItems.first().isRecycleBinPath(this)
                     if (canManageMedia() && !recycleBinPath) {
-                        val fileUris = getFileUrisFromFileDirItems(fileDirItems)
-                        updateSDK30Uris(fileUris) { sdk30UriSuccess ->
-                            if (sdk30UriSuccess) {
-                                startCopyMove(
-                                    files = fileDirItems,
-                                    destinationPath = destination,
-                                    isCopyOperation = isCopyOperation,
-                                    copyPhotoVideoOnly = copyPhotoVideoOnly,
-                                    copyHidden = copyHidden
-                                )
-                            }
-                        }
+                        requestSdk30UpdateThenStart()
                     } else {
-                        startCopyMove(
-                            files = fileDirItems,
-                            destinationPath = destination,
-                            isCopyOperation = isCopyOperation,
-                            copyPhotoVideoOnly = copyPhotoVideoOnly,
-                            copyHidden = copyHidden
-                        )
+                        startCopyMoveNow()
                     }
                 } else {
                     if (isPathOnOTG(source) || isPathOnOTG(destination) || isPathOnSD(source) || isPathOnSD(
@@ -948,26 +975,9 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
                             if (safSuccess) {
                                 val recycleBinPath = fileDirItems.first().isRecycleBinPath(this)
                                 if (canManageMedia() && !recycleBinPath) {
-                                    val fileUris = getFileUrisFromFileDirItems(fileDirItems)
-                                    updateSDK30Uris(fileUris) { sdk30UriSuccess ->
-                                        if (sdk30UriSuccess) {
-                                            startCopyMove(
-                                                files = fileDirItems,
-                                                destinationPath = destination,
-                                                isCopyOperation = isCopyOperation,
-                                                copyPhotoVideoOnly = copyPhotoVideoOnly,
-                                                copyHidden = copyHidden
-                                            )
-                                        }
-                                    }
+                                    requestSdk30UpdateThenStart()
                                 } else {
-                                    startCopyMove(
-                                        files = fileDirItems,
-                                        destinationPath = destination,
-                                        isCopyOperation = isCopyOperation,
-                                        copyPhotoVideoOnly = copyPhotoVideoOnly,
-                                        copyHidden = copyHidden
-                                    )
+                                    startCopyMoveNow()
                                 }
                             }
                         }
