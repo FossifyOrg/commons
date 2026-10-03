@@ -35,7 +35,6 @@ compose = "1.7.6"
 composeMaterial3 = "1.4.0"
 #Glide
 glide = "5.0.7"
-glideCompose = "4.14.0"
 #Room
 room = "2.8.4"
 #ezVcard
@@ -88,7 +87,6 @@ compose-view-binding = { module = "androidx.compose.ui:ui-viewbinding", version.
 compose-detekt = { module = "io.nlopez.compose.rules:detekt", version.ref = "detektCompose" }
 #Glide
 glide = { module = "com.github.bumptech.glide:glide", version.ref = "glide" }
-glide-compose = { module = "com.github.bumptech.glide:compose", version.ref = "glideCompose" }
 glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glide" }
 #Material
 material = { module = "com.google.android.material:material", version.ref = "material" }
