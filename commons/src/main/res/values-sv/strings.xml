@@ -192,7 +192,7 @@
     <string name="source_file_doesnt_exist">Källfilen %s finns inte</string>
     <string name="prepend_filenames">Lägg till text före filnamnen</string>
     <string name="append_filenames">Lägg till text efter filnamnen</string>
-    <string name="simple_renaming">Enkel namnändring</string>
+    <string name="simple_renaming">Enkelt namnbyte</string>
     <string name="pattern_renaming">Mönster</string>
     <string name="rename_date_time_pattern">%Y - år\n%M - månad\n%D - dag\n%h - timme\n%m - minut\n%s - sekund\n%i - tal som ökar från 1</string>
     <string name="filename_without_txt">Filnamn (utan .txt)</string>
@@ -898,7 +898,7 @@
     <string name="pdf_viewer_title">Android PdfViewer (PDF-visare)</string>
     <string name="m3u_parser_title">M3U Parser (m3u spellista filhantering)</string>
     <string name="android_lame_title">Android Lame (mp3 encoder)</string>
-    <string name="zip4j_title">Zip4j (ZIP-komprimering och dekompression)</string>
+    <string name="zip4j_title">Zip4j (ZIP-komprimering och dekomprimering)</string>
     <string name="trial_expired">Prövotiden har löpt ut</string>
     <string name="start_free_trial">Starta gratis prövotid</string>
     <string name="trial_expires_soon">Din prövotid tar snart slut.</string>
@@ -1012,4 +1012,6 @@
     <string name="commonmark_title">CommonMark (Markdown-parser)</string>
     <string name="jsoup_title">jsoup (HTML-parser)</string>
     <string name="commons_csv_title">Apache Commons CSV (CSV-parser)</string>
+    <string name="rate_app_prompt">Gillar du appen? Betygsätt den gärna på Google Play.</string>
+    <string name="donation_prompt">Överväg gärna att stödja utvecklingen av Fossify om du gillar den här appen.</string>
 </resources>
