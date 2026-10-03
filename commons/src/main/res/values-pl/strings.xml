@@ -862,7 +862,7 @@
     <string name="additional_info">Dodatkowe informacje</string>
     <string name="app_version">Wersja aplikacji: %s</string>
     <string name="device_os">System: %s</string>
-    <string name="donate_short">Wesprzyj nas, kupując &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, co również odblokuje wszystkie funkcje aplikacji, w tym dostosowywanie kolorów.</string>
+    <string name="donate_short">Podoba Ci się Fossify? Wesprzyj rozwój naszych aplikacji wolnych od reklam, kupując &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. Umożliwi to także używanie niestandardowych czcionek i współdzielonej personalizacji między aplikacjami Fossify. Dziękujemy za Twoje wsparcie!</string>
     <string name="purchase">Kup</string>
     <string name="update_thank_you">Zaktualizuj aplikację Fossify Thank You do najnowszej wersji</string>
     <string name="before_asking_question_read_faq">Zanim zadasz pytanie, najpierw sprawdź ustawienia aplikacji i przeczytaj często zadawane pytania. Może znajduje się tam rozwiązanie.</string>
@@ -1088,4 +1088,6 @@
     <string name="commonmark_title">CommonMark (parser Markdown)</string>
     <string name="jsoup_title">jsoup (parser HTML)</string>
     <string name="commons_csv_title">Apache Commons CSV (parser CSV)</string>
+    <string name="rate_app_prompt">Podoba Ci się aplikacja? Oceń ją na Google Play.</string>
+    <string name="donation_prompt">Jeśli lubisz używać tej aplikacji, rozważ wsparcie rozwoju Fossify.</string>
 </resources>
