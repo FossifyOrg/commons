@@ -1011,7 +1011,7 @@
     <string name="apply_to_all_apps">Применить тему ко всем приложениям Fossify</string>
     <string name="purchase_simple_thank_you">Купить Fossify Thank You</string>
     <string name="usb">USB</string>
-    <string name="donate_short">Пожалуйста, поддержите нас покупкой &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;. Это также разблокирует все функции приложения, включая настройку цвета.</string>
+    <string name="donate_short">Вам нравятся приложения Fossify? Поддержите разработку этих приложений без рекламы покупкой &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. Это также позволит использовать свои шрифты и общие настройки во всех приложениях Fossify. Благодарим вас за поддержку!</string>
     <string name="faq_6_text_commons">Эта проблема возникает, когда лаунчер не полностью поддерживает пользовательские значки. Попробуйте запустить приложение через Google Play или через виджет, если он доступен. После запуска восстановите стандартный зеленый цвет значка #106D1F. В крайних случаях может потребоваться переустановка приложения.</string>
     <string name="app_icon_color_warning">Внимание: некоторые лаунчеры могут некорректно отображать пользовательский значок приложения. Если значок исчезает, попробуйте запустить приложение через Google Play или через его виджет (если возможно). После запуска восстановите стандартный зелёный цвет значка #106D1F. В крайних случаях может потребоваться переустановка приложения.</string>
     <string name="translation_esperanto">Эсперанто</string>
@@ -1061,4 +1061,6 @@
     <string name="commonmark_title">CommonMark (обработка Markdown)</string>
     <string name="jsoup_title">jsoup (обработка HTML)</string>
     <string name="commons_csv_title">Apache Commons CSV (обработка CSV)</string>
+    <string name="rate_app_prompt">Нравится приложение? Пожалуйста, оцените его в Google Play.</string>
+    <string name="donation_prompt">Если вам нравится пользоваться этим приложением, подумайте о том, чтобы поддержать разработку Fossify.</string>
 </resources>
