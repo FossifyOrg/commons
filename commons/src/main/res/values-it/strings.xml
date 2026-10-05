@@ -1061,4 +1061,6 @@
     <string name="commonmark_title">CommonMark (parser Markdown)</string>
     <string name="jsoup_title">jsoup (parser HTML)</string>
     <string name="commons_csv_title">Apache Commons CSV (parser CSV)</string>
+    <string name="rate_app_prompt">Ti piace l\'app? Lasciaci una recensione su Google Play.</string>
+    <string name="donation_prompt">Se ti piace questa app, sostieni lo sviluppo di Fossify.</string>
 </resources>
