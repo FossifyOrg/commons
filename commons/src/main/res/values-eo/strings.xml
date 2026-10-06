@@ -854,7 +854,7 @@
     <string name="copyright">v %1$s\nKopirajto © Fossify %2$d</string>
     <string name="social">Sociaj retejoj</string>
     <string name="privacy_policy">Privateca politiko</string>
-    <string name="donate_short">Bonvolu subteni nin per aĉeti &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Dankon&lt;/a&gt;. Ĉiuj funkcioj de la aplikaĵoj, kiel tajlorado de koloroj, ankaŭ iĝos uzeblaj.</string>
+    <string name="donate_short">Ĉu vi ĝuas Fossify? Subtenu niajn senreklamajn aplikaĵojn per aĉeti &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Dankon&lt;/a&gt;. Ĝi ankaŭ ŝaltos la tajloradon de tiparoj kaj la kunhavigadon de tajlorado inter aplikaĵoj de Fossify. Dankon pro via subteno!</string>
     <string name="update_thank_you">Bonvolu ĝisdatigi Fossify Dankon al la plej nova versio</string>
     <string name="before_asking_question_read_faq">Antaŭ fari demandon, bonvolu kontroli la aplikaĵajn agordojn kaj legi la oftajn demandojn. La solvo eble estos tie.</string>
     <string name="read_it">Legi</string>
@@ -1001,4 +1001,6 @@
     <string name="commonmark_title">CommonMark (analizilo de Markdown)</string>
     <string name="jsoup_title">jsoup (analizilo de HTML)</string>
     <string name="commons_csv_title">Apache Commons CSV (analizilo de CSV)</string>
+    <string name="rate_app_prompt">Cu vi ĝuas la aplikaĵon? Bonvolu taksi ĝin sur Google Play.</string>
+    <string name="donation_prompt">Se via ĝuas uzi tiun ĉi aplikaĵon, bonvolu konsideri subteni Fossify.</string>
 </resources>
