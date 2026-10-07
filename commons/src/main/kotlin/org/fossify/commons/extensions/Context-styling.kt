@@ -149,6 +149,7 @@ fun Context.getPopupMenuTheme(): Int {
 fun Context.syncGlobalConfig(callback: (() -> Unit)? = null) {
     if (canAccessGlobalConfig()) {
         withGlobalConfig {
+            baseConfig.useBinaryStorageUnits = it?.useBinaryStorageUnits ?: false
             if (it != null) {
                 baseConfig.apply {
                     showCheckmarksOnSwitches = it.showCheckmarksOnSwitches
@@ -182,6 +183,7 @@ fun Context.syncGlobalConfig(callback: (() -> Unit)? = null) {
     } else {
         baseConfig.isGlobalThemeEnabled = false
         baseConfig.showCheckmarksOnSwitches = false
+        baseConfig.useBinaryStorageUnits = false
         validateFontSettings()
         callback?.invoke()
     }
@@ -224,7 +226,8 @@ fun Context.getGlobalConfig(cursorLoader: CursorLoader): GlobalConfig? {
                     showCheckmarksOnSwitches = cursor.getIntValue(MyContentProvider.COL_SHOW_CHECKMARKS_ON_SWITCHES) != 0,
                     lastUpdatedTS = cursor.getIntValue(MyContentProvider.COL_LAST_UPDATED_TS),
                     fontType = cursor.getIntValueOr(MyContentProvider.COL_FONT_TYPE, -1),
-                    fontName = cursor.getStringValueOr(MyContentProvider.COL_FONT_NAME, "")
+                    fontName = cursor.getStringValueOr(MyContentProvider.COL_FONT_NAME, ""),
+                    useBinaryStorageUnits = cursor.getIntValueOr(MyContentProvider.COL_USE_BINARY_STORAGE_UNITS, 0) != 0
                 )
             } catch (_: Exception) {
             }

@@ -106,6 +106,7 @@ dependencies {
     implementation(libs.androidx.exifinterface)
     implementation(libs.androidx.biometric.ktx)
     implementation(libs.androidx.lifecycle.process)
+    implementation(libs.androidx.startup)
     implementation(libs.ez.vcard)
 
     implementation(libs.bundles.lifecycle)

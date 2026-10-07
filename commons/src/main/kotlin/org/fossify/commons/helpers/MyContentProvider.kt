@@ -22,6 +22,7 @@ object MyContentProvider {
     const val COL_APP_ICON_COLOR = "app_icon_color"
     const val COL_SHOW_CHECKMARKS_ON_SWITCHES = "show_checkmarks_on_switches"
     const val COL_LAST_UPDATED_TS = "last_updated_ts"
+    const val COL_USE_BINARY_STORAGE_UNITS = "use_binary_storage_units"
 
     // Font customization
     const val COL_FONT_TYPE = "font_type"

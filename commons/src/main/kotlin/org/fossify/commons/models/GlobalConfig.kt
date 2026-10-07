@@ -14,6 +14,7 @@ data class GlobalConfig(
     val lastUpdatedTS: Int = 0,
     val fontType: Int = FONT_TYPE_SYSTEM_DEFAULT,
     val fontName: String = "",
+    val useBinaryStorageUnits: Boolean = false,
 )
 
 fun GlobalConfig?.isGlobalThemingEnabled(): Boolean {

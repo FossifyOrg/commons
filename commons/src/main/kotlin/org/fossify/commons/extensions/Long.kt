@@ -4,19 +4,11 @@ import android.content.Context
 import android.text.format.DateFormat
 import android.text.format.DateUtils
 import android.text.format.Time
-import java.text.DecimalFormat
+import org.fossify.commons.helpers.FileSizeFormatter
 import java.util.Calendar
 import java.util.Locale
-import kotlin.math.log10
-import kotlin.math.pow
 
-fun Long.formatSize(): String {
-    if (this <= 0) return "0 B"
-
-    val units = arrayOf("B", "kB", "MB", "GB", "TB", "PB", "EB")
-    val digitGroups = (log10(toDouble()) / log10(1000.0)).toInt()
-    return "${DecimalFormat("#,##0.#").format(this / 1000.0.pow(digitGroups.toDouble()))} ${units[digitGroups]}"
-}
+fun Long.formatSize(): String = FileSizeFormatter.format(this)
 
 fun Long.formatDate(context: Context, dateFormat: String? = null, timeFormat: String? = null): String {
     val useDateFormat = dateFormat ?: context.baseConfig.dateFormat

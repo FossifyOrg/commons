@@ -145,6 +145,7 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
     var configItemsToExport = LinkedHashMap<String, Any>()
 
     private lateinit var backCallback: OnBackPressedCallback
+    private var useBinaryStorageUnits = false
 
     companion object {
         private const val GENERIC_PERM_HANDLER = 100
@@ -190,6 +191,7 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
 
         installFontInflaterFactory()
         super.onCreate(savedInstanceState)
+        useBinaryStorageUnits = baseConfig.useBinaryStorageUnits
         WindowCompat.enableEdgeToEdge(window)
         registerBackPressedCallback()
 
@@ -221,6 +223,10 @@ abstract class BaseSimpleActivity : EdgeToEdgeActivity() {
 
     override fun onResume() {
         super.onResume()
+        if (useBinaryStorageUnits != baseConfig.useBinaryStorageUnits) {
+            recreate()
+            return
+        }
         if (useDynamicTheme) {
             setTheme(getThemeId(showTransparentTop = true))
             updateBackgroundColor(getProperBackgroundColor())

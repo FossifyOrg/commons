@@ -612,6 +612,12 @@ open class BaseConfig(val context: Context) {
 
     var showCheckmarksOnSwitchesFlow = ::showCheckmarksOnSwitches.asFlowNonNull()
 
+    var useBinaryStorageUnits: Boolean
+        get() = prefs.getBoolean(USE_BINARY_STORAGE_UNITS, false)
+        set(useBinaryStorageUnits) = prefs.edit().putBoolean(USE_BINARY_STORAGE_UNITS, useBinaryStorageUnits).apply()
+
+    val useBinaryStorageUnitsFlow = ::useBinaryStorageUnits.asFlowNonNull()
+
     // Font customization
     var fontType: Int
         get() = prefs.getInt(CUSTOM_FONT_TYPE, FONT_TYPE_SYSTEM_DEFAULT)

@@ -12,6 +12,7 @@ detektCompose = "0.4.28"
 androidx-customView = "1.2.0"
 androidx-customViewPooling = "1.1.0"
 androidx-lifecycle = "2.10.0"
+androidx-startup = "1.2.0"
 androidx-constraintlayout = "2.2.1"
 androidx-documentfile = "1.1.0"
 androidx-biometricKtx = "1.4.0-alpha02"
@@ -53,6 +54,7 @@ app-build-javaVersion = "VERSION_17"
 app-build-kotlinJVMTarget = "17"
 [libraries]
 #Android X
+androidx-startup = { module = "androidx.startup:startup-runtime", version.ref = "androidx-startup" }
 androidx-appcompat = { module = "androidx.appcompat:appcompat", version.ref = "androidx-appcompat" }
 androidx-biometric-ktx = { module = "androidx.biometric:biometric-ktx", version.ref = "androidx-biometricKtx" }
 androidx-constraintlayout = { module = "androidx.constraintlayout:constraintlayout", version.ref = "androidx-constraintlayout" }

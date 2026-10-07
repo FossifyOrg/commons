@@ -9,7 +9,10 @@ import org.fossify.commons.helpers.MyContentProvider
 class FossifyBroadcastReceiver : BroadcastReceiver() {
     override fun onReceive(context: Context?, intent: Intent?) {
         if (intent?.action == MyContentProvider.ACTION_GLOBAL_CONFIG_UPDATED) {
-            context?.syncGlobalConfig()
+            context?.let {
+                val pendingResult = goAsync()
+                it.syncGlobalConfig { pendingResult.finish() }
+            }
         }
     }
 }

@@ -10,11 +10,8 @@ import androidx.core.graphics.ColorUtils
 import androidx.core.os.postDelayed
 import org.fossify.commons.helpers.DARK_GREY
 import org.fossify.commons.helpers.WCAG_AA_NORMAL
-import java.text.DecimalFormat
 import java.util.Locale
 import java.util.Random
-import kotlin.math.log10
-import kotlin.math.pow
 
 fun Int.getContrastColor(): Int {
     val luminance = ColorUtils.calculateLuminance(this)
@@ -49,13 +46,7 @@ fun Int.getFormattedDuration(forceShowHours: Boolean = false): String {
 }
 
 @Deprecated("Use Long.formatSize() instead.")
-fun Int.formatSize(): String {
-    if (this <= 0) return "0 B"
-
-    val units = arrayOf("B", "kB", "MB", "GB", "TB")
-    val digitGroups = (log10(toDouble()) / log10(1000.0)).toInt()
-    return "${DecimalFormat("#,##0.#").format(this / 1000.0.pow(digitGroups.toDouble()))} ${units[digitGroups]}"
-}
+fun Int.formatSize(): String = toLong().formatSize()
 
 @Deprecated(
     message = "Broken due to the Year 2038 problem. Use Long.formatDate() instead (but note that it uses milliseconds, not seconds).",
