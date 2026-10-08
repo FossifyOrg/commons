@@ -1125,11 +1125,11 @@
     <string name="rate_this_app">قيّم هذا التطبيق</string>
     <string name="faq_2_text_commons"><![CDATA[
             نعم، بالطبع. يمكنك نشر الكلمة عن التطبيقات أو تقديم ملاحظات وتقييمات جيدة. يمكنك أيضًا المساعدة بترجمة التطبيقات إلى لغة جديدة، أو تحديث بعض الترجمات الحالية.
-            دليل الترجمة موجود على <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:hello@fossify.org">hello@fossify.org</a> إذا كانت لديك أي أسئلة.
+            دليل الترجمة موجود على <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:hello@fossify.org">hello@fossify.org</a> إذا كانت لديك أي أسئلة.
         ]]></string>
     <string name="contributors_label"><![CDATA[
             تحتوي هذه القائمة على كل من ساعد بشكل ملحوظ في أي تطبيق ضمن مجموعة Fossify، وليس هذا التطبيق فقط. تتم الترجمات بواسطة متطوعين،
-            أخبرنا إذا كنت تريد المساعدة أيضًا. دليل الترجمة موجود على <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:hello@fossify.org">hello@fossify.org</a> إذا كانت لديك أي أسئلة.
+            أخبرنا إذا كنت تريد المساعدة أيضًا. دليل الترجمة موجود على <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:hello@fossify.org">hello@fossify.org</a> إذا كانت لديك أي أسئلة.
             شكرًا لجميع المساهمين والداعمين الآخرين!
         ]]></string>
     <string name="translation_spanish">الإسبانية</string>

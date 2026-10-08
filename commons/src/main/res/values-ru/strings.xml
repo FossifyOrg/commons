@@ -882,7 +882,7 @@
     <string name="faq_2_title_commons">Я хочу поддержать вас, но не могу пожертвовать деньги. Есть ли что-нибудь ещё, что я могу сделать?</string>
     <string name="faq_2_text_commons"><![CDATA[
             Да, конечно. Вы можете рассказывать о наших приложениях или оставлять хорошие отзывы и оценки. Также вы можете помочь, переведя приложения на новый язык или обновив существующий перевод.
-            Руководство по переводу находится <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.
+            Руководство по переводу находится <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.
         ]]></string>
     <string name="faq_3_title_commons">Я по ошибке удалил некоторые файлы. Как их восстановить?</string>
     <string name="faq_3_text_commons">К сожалению, вы не можете этого сделать. Файлы удаляются сразу после диалога подтверждения, корзина недоступна.</string>
@@ -904,7 +904,7 @@
     <string name="contributors_label">
         <![CDATA[
             В данном списке перечислены все, кто заметно помог любому приложению из набора Fossify, а не только этому. Переводы выполняются волонтёрами,
-            дайте нам знать, если вы тоже хотите помочь. Руководство по переводу находится <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.
+            дайте нам знать, если вы тоже хотите помочь. Руководство по переводу находится <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.
             Спасибо всем участникам и другим помощникам!
         ]]>
     </string>
@@ -1011,7 +1011,7 @@
     <string name="apply_to_all_apps">Применить тему ко всем приложениям Fossify</string>
     <string name="purchase_simple_thank_you">Купить Fossify Thank You</string>
     <string name="usb">USB</string>
-    <string name="donate_short">Вам нравятся приложения Fossify? Поддержите разработку этих приложений без рекламы покупкой &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. Это также позволит использовать свои шрифты и общие настройки во всех приложениях Fossify. Благодарим вас за поддержку!</string>
+    <string name="donate_short">Вам нравятся приложения Fossify? Поддержите разработку этих приложений без рекламы покупкой &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. Это также позволит использовать свои шрифты и общие настройки во всех приложениях Fossify. Благодарим вас за поддержку!</string>
     <string name="faq_6_text_commons">Эта проблема возникает, когда лаунчер не полностью поддерживает пользовательские значки. Попробуйте запустить приложение через Google Play или через виджет, если он доступен. После запуска восстановите стандартный зеленый цвет значка #106D1F. В крайних случаях может потребоваться переустановка приложения.</string>
     <string name="app_icon_color_warning">Внимание: некоторые лаунчеры могут некорректно отображать пользовательский значок приложения. Если значок исчезает, попробуйте запустить приложение через Google Play или через его виджет (если возможно). После запуска восстановите стандартный зелёный цвет значка #106D1F. В крайних случаях может потребоваться переустановка приложения.</string>
     <string name="translation_esperanto">Эсперанто</string>

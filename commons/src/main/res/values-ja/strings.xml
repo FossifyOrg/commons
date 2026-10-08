@@ -917,7 +917,7 @@
     <string name="translation_nepali">ネパール語</string>
     <string name="faq_2_text_commons"><![CDATA[
             はい、もちろんです。アプリについて広めたり、良いフィードバックと評価を行ったり、または翻訳に参加したりしていただけます。
-            翻訳のガイドは<a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>このウェブサイト</a>にあります。質問があれば、<a href=mailto:hello@fossify.org>hello@fossify.org</a>までご連絡ください。
+            翻訳のガイドは<a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>このウェブサイト</a>にあります。質問があれば、<a href=mailto:hello@fossify.org>hello@fossify.org</a>までご連絡ください。
         ]]></string>
     <string name="date_time_pattern_info">以下の変数を使ってファイルの名前を自動的に設定できます。
 \n

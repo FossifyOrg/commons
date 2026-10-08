@@ -881,7 +881,7 @@
     <string name="faq_3_title_commons">Fitxategi batzuk errorez ezabatu ditut, nola berreskura ditzaket?</string>
     <string name="fee_up_to_pct">Gehienez %1$d%%ko kuota</string>
     <string name="cryptocurrency">Criptomoneta</string>
-    <string name="faq_2_text_commons"><![CDATA["Bai, noski. Aplikazioen berri zabal dezakezu edo iritzi eta balorazio onak eman. Aplikazioak hizkuntza berri batera itzultzen ere lagundu dezakezu edo lehendik dauden itzulpen batzuk eguneratu besterik ez duzu egin. \n                             Itzultzeko gida <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>webgune honetan</a> helbidean dago, edo Galderarik baduzu, jarri gurekin harremanetan <a href=mailto:hello@fossify.org>hello@fossify.org</a> helbidera."]]></string>
+    <string name="faq_2_text_commons"><![CDATA["Bai, noski. Aplikazioen berri zabal dezakezu edo iritzi eta balorazio onak eman. Aplikazioak hizkuntza berri batera itzultzen ere lagundu dezakezu edo lehendik dauden itzulpen batzuk eguneratu besterik ez duzu egin. \n                             Itzultzeko gida <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>webgune honetan</a> helbidean dago, edo Galderarik baduzu, jarri gurekin harremanetan <a href=mailto:hello@fossify.org>hello@fossify.org</a> helbidera."]]></string>
     <string name="faq_4_title_commons">Ez zaizkit widgetaren koloreak gustatzen, aldatu ditzaket?</string>
     <string name="faq_3_text_commons">Ezin duzu. Fitxategiak baieztapen leihoaren ostean ezabatzen dira, ez dago zakarrontzirik.</string>
     <string name="faq_6_title_commons">Aplikazioa abiarazteko ikonoa desagertu egin da. Zer egin dezaket?</string>
@@ -961,7 +961,7 @@
     <string name="translation_dutch">Nederlandera</string>
     <string name="translation_polish">Poloniera</string>
     <string name="translation_portuguese">Portugesa</string>
-    <string name="contributors_label"><![CDATA[Zerrenda honek Fossify suiteko edozein aplikaziori nabarmen lagundu dioten guztiak biltzen ditu, ez hau bakarrik. Itzulpenak boluntarioek kudeatzen dituzte,\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Esan iezaguzu zuk ere lagundu nahi baduzu. Itzultzeko gida <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">webgune honetan</a> helbidean dago, edo jar zaitez gurekin harremanetan <a href="mailto:hello@fossify.org">hello@fossify.org-en galderarik baduzu</a>.\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Eskerrik asko laguntzaile guztiei eta gainerako laguntzaileei!]]></string>
+    <string name="contributors_label"><![CDATA[Zerrenda honek Fossify suiteko edozein aplikaziori nabarmen lagundu dioten guztiak biltzen ditu, ez hau bakarrik. Itzulpenak boluntarioek kudeatzen dituzte,\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Esan iezaguzu zuk ere lagundu nahi baduzu. Itzultzeko gida <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">webgune honetan</a> helbidean dago, edo jar zaitez gurekin harremanetan <a href="mailto:hello@fossify.org">hello@fossify.org-en galderarik baduzu</a>.\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Eskerrik asko laguntzaile guztiei eta gainerako laguntzaileei!]]></string>
     <string name="translation_romanian">Errumaniera</string>
     <string name="translation_russian">Errusiera</string>
     <string name="translation_slovak">Eslovakiera</string>

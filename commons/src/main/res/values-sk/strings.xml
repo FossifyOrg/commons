@@ -853,7 +853,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Áno, samozrejme. Môžete napr. šíriť apky medzi známymi, alebo nám poslať užitočnú odozvu a hodnotenia. Viete pomôcť aj preložením apiek do nových jazykov, alebo upraviť existujúce preklady.
-            Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo nám v prípade potreby napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
+            Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tejto webstránke</a>, alebo nám v prípade potreby napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
         ]]>
     </string>
     <string name="faq_3_title_commons">Náhodou som vymazal niektoré súbory, viem ich obnoviť?</string>
@@ -878,7 +878,7 @@
     <string name="contributors_label">
         <![CDATA[
             Tento zoznam obsahuje každého, kto citeľne pomohol ktorejkoľvek apke z celej sady Fossify, nie iba tejto apke. Preklady sú spracovávané dobrovoľníkmi,
-            dajte nám vedieť, ak chcete pomôcť tiež. Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tejto webstránke</a>, alebo ak máte nejaké otázky, tak nám jednoducho napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
+            dajte nám vedieť, ak chcete pomôcť tiež. Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tejto webstránke</a>, alebo ak máte nejaké otázky, tak nám jednoducho napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
             Ďakujeme všetkým prispievateľom a iným podporovateľom!
         ]]>
     </string>

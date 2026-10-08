@@ -792,7 +792,7 @@
     <string name="additional_info">Ek bilgiler</string>
     <string name="app_version">Uygulama sürümü: %s</string>
     <string name="device_os">Aygıt İS: %s</string>
-    <string name="donate_short">Fossify\'dan memnun musunuz? &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Teşekkürler&lt;/a&gt;\'i satın alarak reklamsız uygulamalarımızın geliştirilmesine destek olun. Bu, aynı zamanda özel yazı tiplerinin kullanılmasını ve Fossify uygulamaları arasında özelleştirme ayarlarının paylaşılmasını da sağlayacaktır. Desteğiniz için teşekkür ederiz!</string>
+    <string name="donate_short">Fossify\'dan memnun musunuz? &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Teşekkürler&lt;/a&gt;\'i satın alarak reklamsız uygulamalarımızın geliştirilmesine destek olun. Bu, aynı zamanda özel yazı tiplerinin kullanılmasını ve Fossify uygulamaları arasında özelleştirme ayarlarının paylaşılmasını da sağlayacaktır. Desteğiniz için teşekkür ederiz!</string>
     <string name="purchase">Satın al</string>
     <string name="update_thank_you">Lütfen Fossify Teşekkürler\'i son sürüme güncelleyin</string>
     <string name="before_asking_question_read_faq">Bir soru sormadan önce, lütfen uygulama ayarlarını gözden geçirin ve önce Sık Sorulan Sorular bölümünü okuyun. Belki çözüm oradadır.</string>
@@ -842,7 +842,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Evet tabi ki. Uygulamalar hakkında farkındalığı artırabilir veya iyi geri bildirim ve puanlar verebilirsiniz. Ayrıca, uygulamaları yeni bir dile çevirerek veya sadece mevcut çevirileri güncelleyerek de yardımcı olabilirsiniz.
-            Çeviri rehberi <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
+            Çeviri rehberi <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
         ]]>
     </string>
     <string name="faq_3_title_commons">Bazı dosyaları yanlışlıkla sildim, onları nasıl kurtarabilirim?</string>
@@ -866,7 +866,7 @@
     <string name="contributors_label">
         <![CDATA[
             Bu liste, yalnızca buna değil, Fossify paketindeki herhangi bir uygulamaya belirgin şekilde yardımcı olan herkesi içerir. Çeviriler gönüllüler tarafından yapılır,
-            siz de yardım etmek isterseniz bize bildirin. Çeviri rehberi <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
+            siz de yardım etmek isterseniz bize bildirin. Çeviri rehberi <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
             Tüm katkıda bulunanlara ve diğer destekçilere teşekkürler!
         ]]>
     </string>

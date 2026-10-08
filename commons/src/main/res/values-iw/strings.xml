@@ -909,7 +909,7 @@
     <string name="frequently_asked_questions">שאלות נפוצות</string>
     <string name="faq_2_text_commons"><![CDATA[
             כן, כמובן. אתה יכול לפרסם את האפליקציות או לתת משוב ודירוגים טובים. תוכל גם לעזור על ידי תרגום האפליקציות לשפה חדשה, או פשוט לעדכן תרגומים קיימים.
-            המדריך לתרגום נמצא <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">באתר זה</a>, או פשוט צור קשר איתנו בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש לך שאלות כלשהן.
+            המדריך לתרגום נמצא <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">באתר זה</a>, או פשוט צור קשר איתנו בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש לך שאלות כלשהן.
         ]]></string>
     <string name="translation_spanish">ספרדית</string>
     <string name="translation_welsh">וולשית</string>
@@ -1012,7 +1012,7 @@
     <string name="trial_expired">תקופת הניסיון הסתיימה</string>
     <string name="contributors_label"><![CDATA[
             רשימה זו כוללת את כל מי שעזר באופן בולט לכל אפליקציה בחבילת Fossify, לא רק זו. תרגומים מטופלים על ידי מתנדבים,
-            ספרו לנו אם גם אתם רוצים לעזור. המדריך לתרגום נמצא בכתובת <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">באתר זה</a>, או פשוט צרו איתנו קשר בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש לכם שאלות.
+            ספרו לנו אם גם אתם רוצים לעזור. המדריך לתרגום נמצא בכתובת <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">באתר זה</a>, או פשוט צרו איתנו קשר בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש לכם שאלות.
             תודה לכל התורמים ולתומכים אחרים!
         ]]></string>
     <string name="requires_fossify_thank_you">דורש Fossify תודה</string>

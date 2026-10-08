@@ -1004,11 +1004,11 @@
     <string name="donate_short">Podrži nas kupnjom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Time će se otključati sve funkcije aplikacije uključujući prilagođavanje boja.</string>
     <string name="faq_2_text_commons"><![CDATA[
             Da naravno. Možete širiti vijest o aplikacijama ili slati povratne informacije i ocjene. Također možete pomoći prevođenjem aplikacija na novi jezik ili aktualizirati postojeće prijevode.
-            Vodič za prevođenje nalazi se na <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>ovoj web stranici</a> ili nas kontaktiraj na <a href=mailto:hello@fossify.org>hello@fossify.org</a> ako imaš pitanja.
+            Vodič za prevođenje nalazi se na <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>ovoj web stranici</a> ili nas kontaktiraj na <a href=mailto:hello@fossify.org>hello@fossify.org</a> ako imaš pitanja.
         ]]></string>
     <string name="contributors_label"><![CDATA[
             Ovaj popis sadrži sve osobe koje su značajno pomogli bilo kojoj aplikaciji unutar paketa Fossify, ne samo ovoj. Prijevode obavljaju volonteri,
-            javi nam ako želiš pomoći. Vodič za prevođenje nalazi se na <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>ovoj web stranici</a> ili nas kontaktiraj na <a href=mailto:hello@fossify.org>hello@fossify.org</a> ako imaš pitanja.
+            javi nam ako želiš pomoći. Vodič za prevođenje nalazi se na <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>ovoj web stranici</a> ili nas kontaktiraj na <a href=mailto:hello@fossify.org>hello@fossify.org</a> ako imaš pitanja.
             Hvala svim suradnicima i ostalim podržavateljima!
         ]]></string>
     <string name="translation_chuvash">Čuvaški</string>

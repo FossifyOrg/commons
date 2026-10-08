@@ -893,7 +893,7 @@
     <string name="cryptocurrency">Ĉifrovaluto</string>
     <string name="faq_2_text_commons"><![CDATA[
             Jes, kompreneble. Vi povus mencii niajn aplikaĵojn al aliuloj, bone taksi ilin aŭ doni al ni utilajn komentojn. Vi ankaŭ povus helpi nin traduki la aplikaĵojn en novan lingvon aŭ simple ĝisdatigi tiujn kiuj jam ekzistas.
-            La tradukada gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
+            La tradukada gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
         ]]></string>
     <string name="faq_3_title_commons">Mi senvole forigis kelkajn dosierojn. Kiel mi povas restaŭri ilin?</string>
     <string name="faq_9_title_commons">Kiel mi povas elekti multajn elementojn samtempe?</string>
@@ -922,7 +922,7 @@
     <string name="translation">Tradukado</string>
     <string name="contributors_label"><![CDATA[
             Tiu ĉi listo enhavas ĉiujn kiuj rimarkeble helpis iun ajn aplikaĵon de Fossify, ne nur tiu ĉi. La tradukado estas traktita pro volontuloj.
-            Sciigu nin se vi ankaŭ ŝatus helpi nin. La traduka gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ĉi tie</a>, aŭ vi povas kontakti nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
+            Sciigu nin se vi ankaŭ ŝatus helpi nin. La traduka gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ĉi tie</a>, aŭ vi povas kontakti nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
             Dankon al ĉiuj kontribuantoj kaj aliaj subtenantoj!
         ]]></string>
     <string name="m3u_parser_title">M3U Parser (traktado de dosieroj de m3u-ludlistoj)</string>

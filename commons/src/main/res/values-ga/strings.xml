@@ -975,11 +975,11 @@
             ]]></string>
     <string name="faq_2_text_commons"><![CDATA[
             Sea, ar ndóigh. Is féidir leat an scéal a scaipeadh faoi na haipeanna nó aiseolas agus rátálacha maithe a thabhairt. Is féidir leat cabhrú freisin trí na haipeanna a aistriú go teanga nua, nó trí roinnt aistriúcháin atá ann cheana a nuashonrú.
-            Tá an treoir maidir le haistriúchán ar fáil ar <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">an suíomh Gréasáin seo</a>, nó déan teagmháil linn ag <a href="mailto:hello@fossify.org">hello@fossify.org</a> má tá aon cheist agat.
+            Tá an treoir maidir le haistriúchán ar fáil ar <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">an suíomh Gréasáin seo</a>, nó déan teagmháil linn ag <a href="mailto:hello@fossify.org">hello@fossify.org</a> má tá aon cheist agat.
             ]]></string>
     <string name="contributors_label"><![CDATA[
             Tá gach duine a chuidigh go suntasach le haon aip laistigh de shraith Fossify ar an liosta seo, ní hamháin an ceann seo. Déanann oibrithe deonacha na haistriúcháin a láimhseáil,
-            cuir in iúl dúinn más mian leat cabhrú freisin. Tá an treoir maidir le haistriúcháin ar fáil ar <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">an suíomh Gréasáin seo</a>, nó déan teagmháil linn ag <a href="mailto:hello@fossify.org">hello@fossify.org</a> má tá aon cheist agat.
+            cuir in iúl dúinn más mian leat cabhrú freisin. Tá an treoir maidir le haistriúcháin ar fáil ar <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">an suíomh Gréasáin seo</a>, nó déan teagmháil linn ag <a href="mailto:hello@fossify.org">hello@fossify.org</a> má tá aon cheist agat.
             Buíochas leis na rannpháirtithe agus leis na tacadóirí eile go léir!
         ]]></string>
     <string name="august_short">Lún</string>

@@ -988,11 +988,11 @@
     <string name="app_icon_color_warning">Cuidado: Certos lançadores podem não lidar corretamente com a personalização do ícone da app. Se o ícone desaparecer, tente iniciar a app pelo Google Play ou por um widget, se acessível. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar a app.</string>
     <string name="faq_2_text_commons"><![CDATA[
 Sim, claro. Pode espalhar a informação sobre as apps ou dar um bom feedback e avaliações. Também pode ajudar traduzindo as apps para um novo idioma ou apenas atualizando algumas traduções existentes.
-O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
+O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
 ]]></string>
     <string name="contributors_label"><![CDATA[
             Esta lista contém todos que ajudaram visivelmente qualquer app dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,
-            avise-nos se também quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
+            avise-nos se também quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
             Obrigado a todos os contribuidores e outros apoiadores!
         ]]></string>
     <string name="translation_chuvash">Chuvache</string>

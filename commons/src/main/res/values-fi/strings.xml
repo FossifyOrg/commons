@@ -982,10 +982,10 @@
     <string name="translation_chuvash">Tšuvassi</string>
     <string name="faq_2_text_commons"><![CDATA[
             Tottakai. Voit levittää sovelluksista sanaa tai antaa arvosteluita. Voit myös auttaa kääntämällä sovelluksia uusille kielille tai päivittämällä jo olemassaolevia kieliä.
-            Käännösohjeet seuraavasta <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">osoitteesta</a> tai ottamalla yhteyttä osoitteeseen <a href="mailto:hello@fossify.org">hello@fossify.org</a>
+            Käännösohjeet seuraavasta <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">osoitteesta</a> tai ottamalla yhteyttä osoitteeseen <a href="mailto:hello@fossify.org">hello@fossify.org</a>
         ]]></string>
     <string name="contributors_label"><![CDATA[
-            Tämä lista sisältää Fossify-perheen sovellusten kehityksessä autteneet henkilöt. Käännökset on tehty vapaaehtoisten voimin. Ota yhteyttä mikäli haluat auttaa. Käännösohjeet seuraavasta: <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">osoitteesta</a>. Voit myös olla yhteydessä osoitteeseen <a href="mailto:hello@fossify.org">hello@fossify.org</a>
+            Tämä lista sisältää Fossify-perheen sovellusten kehityksessä autteneet henkilöt. Käännökset on tehty vapaaehtoisten voimin. Ota yhteyttä mikäli haluat auttaa. Käännösohjeet seuraavasta: <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">osoitteesta</a>. Voit myös olla yhteydessä osoitteeseen <a href="mailto:hello@fossify.org">hello@fossify.org</a>
 
             Kiitos kaikille kehitystyössä avustaneille ja tukijoille!
         ]]></string>

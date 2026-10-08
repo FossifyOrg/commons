@@ -857,7 +857,7 @@
     <string name="audio">Audio</string>
     <string name="faq_2_text_commons"><![CDATA[
             Claro que si. Podes falarlle á xente sobre as aplicacións ou valoralas positivamente. Tamén podes colaborar traducíndoas ao teu idioma ou actualizando e mantendo as xa existentes.
-            Aquí tes a guía para traducir <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">nesta web</a>, ou contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se queres facer algunha pregunta.
+            Aquí tes a guía para traducir <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">nesta web</a>, ou contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se queres facer algunha pregunta.
         ]]></string>
     <plurals name="files_saved">
         <item quantity="one">Ficheiro gardado correctamente</item>
@@ -995,7 +995,7 @@
     <string name="faq_6_text_commons">Este problema xurde cando o lanzador non é compatible coa personalización das iconas. Intenta iniciar a app a través de Google Play ou un widget, se é accesible. Após iniciala, restablece a cor verde #106D1F orixinal. En casos extremos pode ser preciso ter que reinstalar a aplicación.</string>
     <string name="contributors_label"><![CDATA[
             Nesta lista están todas as persoas que colaborarón significativamente con Fossify, non só esta app. As traducións fanas persoas voluntarias,
-            contacta con nós se tamén queres axudar. As instruccións para traducir están <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">nesta páxina web</a>, ou simplemente contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tes algunha pregunta.
+            contacta con nós se tamén queres axudar. As instruccións para traducir están <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">nesta páxina web</a>, ou simplemente contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tes algunha pregunta.
             Grazas a todas as colaboradoras e persoas que nos apoian!
         ]]></string>
     <string name="edit_contact">Editar contacto</string>

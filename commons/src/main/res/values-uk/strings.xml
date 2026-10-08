@@ -1019,17 +1019,17 @@
     <string name="purchase_simple_thank_you">Придбайте Fossify Thank You</string>
     <string name="contributors_label"><![CDATA[
             У цьому списку зазначені всі, хто помітно допоміг будь-якому застосунку з набору Fossify, а не лише цьому. Перекладами займаються волонтери.
-            Дайте нам знати, якщо теж хочете допомогти. Посібник із перекладу доступний на <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">цьому сайті</a>, або просто напишіть нам на <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас є запитання.
+            Дайте нам знати, якщо теж хочете допомогти. Посібник із перекладу доступний на <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">цьому сайті</a>, або просто напишіть нам на <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас є запитання.
             Дякуємо всім вкладникам і всім, хто нас підтримує!
         ]]></string>
     <string name="faq_2_text_commons"><![CDATA[
             Так, звісно. Ви можете розповідати про застосунки або залишати позитивні відгуки й оцінки. Також можна допомогти, переклавши застосунки новою мовою або просто оновивши наявні переклади.
-            Інструкція з перекладу доступна на <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">цьому сайті</a>. Якщо у вас виникли запитання, просто напишіть нам на адресу <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
+            Інструкція з перекладу доступна на <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">цьому сайті</a>. Якщо у вас виникли запитання, просто напишіть нам на адресу <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
         ]]></string>
     <string name="purchase_thank_you"><![CDATA[
             Придбайте <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, щоб користуватися цією функцією та підтримати розробку. Дякуємо!
         ]]></string>
-    <string name="donate_short">Подобається Fossify? Підтримайте розробку наших застосунків без реклами, придбавши &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. Це також дасть змогу використовувати власні шрифти та спільні налаштування в усіх застосунках Fossify. Дякуємо за вашу підтримку!</string>
+    <string name="donate_short">Подобається Fossify? Підтримайте розробку наших застосунків без реклами, придбавши &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. Це також дасть змогу використовувати власні шрифти та спільні налаштування в усіх застосунках Fossify. Дякуємо за вашу підтримку!</string>
     <string name="pin">PIN</string>
     <string name="ok">OK</string>
     <string name="exif">EXIF</string>

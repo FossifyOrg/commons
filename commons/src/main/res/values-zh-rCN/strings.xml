@@ -757,7 +757,7 @@
     <string name="additional_info">额外信息</string>
     <string name="app_version">应用版本：%s</string>
     <string name="device_os">设备系统：%s</string>
-    <string name="donate_short">喜欢 Fossify 吗？购买 &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt; 以支持我们无广告应用的开发。还支持自定义字体功能，并实现各 Fossify 应用间的个性化设置共享。感谢您的支持！</string>
+    <string name="donate_short">喜欢 Fossify 吗？购买 &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt; 以支持我们无广告应用的开发。还支持自定义字体功能，并实现各 Fossify 应用间的个性化设置共享。感谢您的支持！</string>
     <string name="purchase">购买</string>
     <string name="update_thank_you">请更新 Fossify Thank You 到最新版本</string>
     <string name="before_asking_question_read_faq">在提问之前，请先打开应用的设置并阅读常见问题。也许您可以在那里找到答案。</string>
@@ -802,7 +802,7 @@
     <string name="faq_2_title_commons">我想支持你们的工作，但我无法捐款。还有什么是我能够做的吗？</string>
     <string name="faq_2_text_commons"><![CDATA[
             是的，当然了。您可以向其他人介绍这些应用或者给予良好反馈和评价。您也可以帮忙将应用翻译成新的语言，或是更新一些现有的翻译。
-            翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。
+            翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。
         ]]></string>
     <string name="faq_3_title_commons">我误删了文件。我应该如何恢复它们？</string>
     <string name="faq_3_text_commons">非常不幸，您已经无法恢复它们了。如果您在删除确认对话框中确认了删除操作，那么文件就会立即被彻底删除。因为它们没有经过回收站删除，因此也就无法通过回收站还原。</string>
@@ -824,7 +824,7 @@
     <string name="other_help">其他帮助</string>
     <string name="contributors_label"><![CDATA[
             此列表包含了每一个显著帮助了 Fossify 套件内任何应用的人，而不仅是这个应用。翻译由志愿者处理，
-            如果您也想帮忙，也请让我们知晓。 翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。
+            如果您也想帮忙，也请让我们知晓。 翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。
             感谢所有贡献者和其他支持者！
         ]]></string>
     <string name="third_party_licences">第三方许可</string>

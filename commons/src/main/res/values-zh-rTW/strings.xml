@@ -803,7 +803,7 @@
     <string name="development">開發</string>
     <string name="contributors_label"><![CDATA[
             此清單包含所有對 Fossify 套件中任何應用程式提供明顯幫助的人，不僅僅是這個應用程式。翻譯是由志工處理的，如果您也想幫忙，請告訴我們。
-            翻譯指南位於 <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。
+            翻譯指南位於 <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。
             感謝所有貢獻者和其他支持者！
         ]]></string>
     <string name="translation_belarusian">白俄羅斯文</string>
@@ -905,7 +905,7 @@
     <string name="faq_6_text_commons">當您的啟動器不完全支援圖示自訂時，就會發生此問題。請嘗試透過 Google Play 或小工具（如果有的話）啟動應用程式。啟動後，請將應用程式圖示顏色還原為預設的綠色 #106D1F。在極少數情況下，可能會需要重新安裝應用程式。</string>
     <string name="faq_2_text_commons"><![CDATA[
             當然可以。您可以幫忙宣傳應用程式，或者提供良好的意見回饋和評分。您也可以幫忙將應用程式翻譯成新的語言，或者更新現有的翻譯。.
-            翻譯指南位於<a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。
+            翻譯指南位於<a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。
         ]]></string>
     <string name="faq_9_title_commons">如何一次選取多個項目？</string>
     <string name="faq_10_title_commons">我已購買應用程式，但無法在其他裝置上下載。</string>

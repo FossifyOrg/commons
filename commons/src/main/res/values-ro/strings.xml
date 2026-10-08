@@ -748,7 +748,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Da, bineînțeles. Puteți să răspândiți vestea despre aplicațiile Simple sau să oferiți feedback și evaluări bune pe magaziul Google Play. De asemenea, puteți ajuta prin traducerea aplicațiilor într-o limbă nouă sau doar prin actualizarea unor traduceri existente.
-            Ghidul de traducere se găsește la <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">acest site</a>, sau pur și simplu contactați-ne la <a href="mailto:hello@fossify.org">hello@fossify.org</a> dacă aveți întrebări.
+            Ghidul de traducere se găsește la <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">acest site</a>, sau pur și simplu contactați-ne la <a href="mailto:hello@fossify.org">hello@fossify.org</a> dacă aveți întrebări.
         ]]>
     </string>
     <string name="faq_3_title_commons">Am șters niște fișiere din greșeală, cum pot să le recuperez?</string>

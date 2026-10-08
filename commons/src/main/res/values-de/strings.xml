@@ -961,15 +961,15 @@
     <string name="translation_english">Englisch</string>
     <string name="translation_hindi">Hindi</string>
     <string name="otto_title">Otto (Eventbus)</string>
-    <string name="donate_short">Gefällt dir Fossify? Unterstütze die Entwicklung unserer werbefreien Apps, indem du &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt; erwirbst. Damit werden außerdem eigene Schriftarten und die gemeinsame Anpassung aller Fossify-Apps ermöglicht. Vielen Dank für deine Unterstützung!</string>
+    <string name="donate_short">Gefällt dir Fossify? Unterstütze die Entwicklung unserer werbefreien Apps, indem du &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt; erwirbst. Damit werden außerdem eigene Schriftarten und die gemeinsame Anpassung aller Fossify-Apps ermöglicht. Vielen Dank für deine Unterstützung!</string>
     <string name="faq_2_text_commons"><![CDATA[
             Ja, natürlich. Du kannst die Apps weiterempfehlen oder gute Bewertungen abgeben. Du kannst auch helfen, indem du die Apps in eine neue Sprache übersetzt oder einfach einige bestehende Übersetzungen aktualisierst.
-            Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.
+            Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.
         ]]></string>
     <string name="faq_6_text_commons">Dieses Problem tritt auf, wenn dein Launcher das Anpassen der Symbole nicht vollständig unterstützt. Versuche, die App über Google Play oder ein Widget zu starten, falls dies möglich ist. Stelle nach dem Start die standardmäßige grüne Symbolfarbe #106D1F wieder her. In extremen Fällen kann eine Neuinstallation der App erforderlich sein.</string>
     <string name="contributors_label"><![CDATA[
             Diese Liste enthält alle Personen, die bei irgendeiner App innerhalb der Fossify-Suite merklich geholfen haben, nicht nur bei dieser. Die Übersetzungen werden von Freiwilligen erledigt,
-            sag uns Bescheid, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.
+            sag uns Bescheid, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.
             Vielen Dank an alle Mitwirkenden und sonstigen Unterstützer!
         ]]></string>
     <string name="translation_esperanto">Esperanto</string>

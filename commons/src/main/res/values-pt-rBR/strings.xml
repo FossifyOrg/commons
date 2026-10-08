@@ -955,7 +955,7 @@
     <string name="purchase_simple_thank_you">Compre Agradecimento Fossify</string>
     <string name="faq_2_text_commons"><![CDATA[
 Sim, claro. Você pode espalhar a informação sobre os aplicativos ou dar um bom feedback e avaliações. Você também pode ajudar traduzindo os aplicativos para um novo idioma ou apenas atualizando algumas traduções existentes.
-O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
+O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
 ]]></string>
     <string name="donate_short">Apoie-nos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Agradecimento Fossify&lt;/a&gt;, isso também desbloqueará todos os recursos do aplicativo, incluindo personalização de cores.</string>
     <string name="translation_slovenian">Esloveno</string>
@@ -976,7 +976,7 @@ O guia para tradução está <a href="https://github.com/FossifyOrg/General-Disc
     <string name="other_help">Outra ajuda</string>
     <string name="contributors_label"><![CDATA[
 Esta lista contém todos que ajudaram visivelmente qualquer aplicativo dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,
-nos avise se você quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se você tiver alguma dúvida.
+nos avise se você quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se você tiver alguma dúvida.
 Obrigado a todos os contribuidores e outros apoiadores!
 ]]></string>
     <string name="translation_finnish">Finlandês</string>

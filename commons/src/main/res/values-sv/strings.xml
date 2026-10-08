@@ -984,14 +984,14 @@
     <string name="faq_6_text_commons">Det här problemet uppstår när startprogrammet inte har fullt stöd för ikonanpassning. Prova att starta appen via Google Play eller en widget, om det är möjligt. När du har startat appen återställer du ikonens gröna standardfärg #106D1F. I extrema fall kan det vara nödvändigt att installera om appen.</string>
     <string name="contributors_label"><![CDATA[
             Den här listan innehåller alla som på ett märkbart sätt har bidragit till någon Fossify-app, inte bara den här. Översättningarna hanteras av volontärer,
-            kontakta oss om du också vill hjälpa till. Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.
+            kontakta oss om du också vill hjälpa till. Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.
             Tack till alla bidragsgivare och andra supportrar!
         ]]></string>
     <string name="enables_more_customization">Möjliggör mer anpassning</string>
     <string name="translation_latvian">Lettiska</string>
     <string name="faq_2_text_commons"><![CDATA[
             Ja, naturligtvis. Du kan sprida information om apparna eller ge bra feedback och betyg. Du kan också hjälpa till genom att översätta apparna till ett nytt språk eller bara uppdatera några befintliga översättningar.
-            Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.
+            Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.
         ]]></string>
     <plurals name="files_saved">
         <item quantity="one">Filen har sparats</item>

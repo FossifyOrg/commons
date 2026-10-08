@@ -942,12 +942,12 @@
     <string name="notification_sound">Értesítési hang</string>
     <string name="contributors_label"><![CDATA[
             A lista mindenkit tartalmaz, aki észrevehető mértékben segített a Fossify csomag bármelyik alkalmazásában, nem csak ebben. A fordításokat önkéntesek kezelik,
-            tudassa velünk, ha Ön is segítene. A fordítási útmutató <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ezen a webhelyen</a> található, de ha kérdése van, akkor a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címen is felteheti.
+            tudassa velünk, ha Ön is segítene. A fordítási útmutató <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ezen a webhelyen</a> található, de ha kérdése van, akkor a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címen is felteheti.
             Köszönjük az összes közreműködőnknek és támogatónknak!
         ]]></string>
     <string name="faq_2_text_commons"><![CDATA[
             Igen, természetesen. Népszerűsítheti az alkalmazásokat, adhat visszajelzést róluk és értékelheti őket. Le is fordíthatja az alkalmazásokat a saját nyelvére, vagy frissítheti a meglévő fordításokat.
-            A fordítási útmutató megtalálható <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ezen a webhelyen</a>, vagy ha kérdése van, akkor írjon nekünk a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címre.
+            A fordítási útmutató megtalálható <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ezen a webhelyen</a>, vagy ha kérdése van, akkor írjon nekünk a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címre.
         ]]></string>
     <string name="app_icon_color_warning">Figyelem: egyes indítók lehet, hogy nem helyesen kezelik az ikonok testreszábását. Ha az ikon eltűnik, próbálja a Google Playen vagy egy modulon keresztül elindítani, ha elérhető. Indítás után állítsa vissza az alapértelmezett zöld (#106D1F) ikonszínt. Extrém esetekben az alkalmazás újratelepítése is szükséges lehet.</string>
     <string name="purchase_thank_you"><![CDATA[

@@ -771,11 +771,11 @@
     <string name="date_time_pattern_info">Bạn có thể sử dụng các mẫu sau để đặt tên tệp tự động.:\n\n%Y - năm\n%M - tháng\n%D - ngày\n%h - giờ\n%m - phút\n%s - giây</string>
     <string name="faq_2_text_commons"><![CDATA[
             Tất nhiên rồi. Bạn có thể chia sẻ thông tin về ứng dụng hoặc xếp hạng và đánh giá tích cực. Bạn cũng có thể giúp đỡ bằng cách dịch ứng dụng sang ngôn ngữ mới, hoặc chỉ cần cập nhật một số bản dịch hiện có.
-            Xem hướng dẫn dịch thuật <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tại đây</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
+            Xem hướng dẫn dịch thuật <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tại đây</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
         ]]></string>
     <string name="contributors_label"><![CDATA[
             Danh sách này gồm những người đã đóng góp đáng kể cho bất kỳ ứng dụng nào của Fossify, không chỉ riêng ứng dụng này. Việc dịch thuật được thực hiện bởi các tình nguyện viên.
-            Hãy cho chúng tôi biết nếu bạn cũng muốn đóng góp. Xem hướng dẫn dịch thuật <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tại đây</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
+            Hãy cho chúng tôi biết nếu bạn cũng muốn đóng góp. Xem hướng dẫn dịch thuật <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tại đây</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
             Xin cảm ơn tất cả những người đóng góp và ủng hộ khác!
         ]]></string>
     <string name="m3u_parser_title">M3U Parser (xử lý tệp danh sách phát m3u)</string>

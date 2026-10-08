@@ -966,7 +966,7 @@
     <string name="developer_description">Une suite d\'applications Android simples, à code source ouvert, comprenant des widgets personnalisables, sans publicités ni permissions inutiles.</string>
     <string name="contributors_label"><![CDATA[
 Cette liste contient toutes les personnes qui ont sensiblement contribué à une application de la suite Fossify, et pas seulement celle-ci. Les traductions sont assurées par des bénévoles,
-            faites-nous savoir si vous souhaitez aider aussi. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.
+            faites-nous savoir si vous souhaitez aider aussi. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.
             Merci à tous les contributeurs et tous ceux qui nous soutiennent !
         ]]></string>
     <string name="notes">Notes</string>
@@ -1002,7 +1002,7 @@ Cette liste contient toutes les personnes qui ont sensiblement contribué à une
     <string name="translation_hindi">Hindi</string>
     <string name="faq_2_text_commons"><![CDATA[
             Oui bien sûr. Vous pouvez nous aider en partageant les applications ou en laissant des notes et commentaires positifs. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue, ou simplement en mettant à jour certaines traductions existantes.
-            Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">ce site Web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.
+            Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ce site Web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.
         ]]></string>
     <string name="translation_catalan">Catalan</string>
     <string name="translation_basque">Basque</string>

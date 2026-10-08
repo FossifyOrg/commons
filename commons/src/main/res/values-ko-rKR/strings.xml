@@ -858,7 +858,7 @@
     <string name="badge_deprecated">(지원 중단)</string>
     <string name="label_with_badge">%1$s %2$s</string>
     <string name="before_asking_question">질문하기 전에 먼저 다음 내용을 읽어 주세요:</string>
-    <string name="faq_2_text_commons"><![CDATA[물론입니다. 앱을 주변에 알리거나 좋은 피드백과 평가를 남겨 주세요. 새로운 언어로 앱을 번역하거나 기존 번역을 업데이트하는 것도 도움이 됩니다.\n번역 방법은 <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">이 웹사이트</a>에서 확인할 수 있으며, 궁금한 점이 있으면 <a href="mailto:hello@fossify.org">hello@fossify.org</a>로 문의해 주세요.]]></string>
+    <string name="faq_2_text_commons"><![CDATA[물론입니다. 앱을 주변에 알리거나 좋은 피드백과 평가를 남겨 주세요. 새로운 언어로 앱을 번역하거나 기존 번역을 업데이트하는 것도 도움이 됩니다.\n번역 방법은 <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">이 웹사이트</a>에서 확인할 수 있으며, 궁금한 점이 있으면 <a href="mailto:hello@fossify.org">hello@fossify.org</a>로 문의해 주세요.]]></string>
     <string name="faq_6_text_commons">런처가 앱 아이콘 사용자 지정을 완전히 지원하지 않을 때 발생하는 문제입니다. 가능하다면 Google Play 또는 위젯을 통해 앱을 실행해 보세요.\n앱을 실행한 뒤 기본 녹색 아이콘 색상인 #106D1F로 복원하세요. 그래도 해결되지 않으면 앱을 다시 설치해야 할 수도 있습니다.</string>
     <string name="faq_9_title_commons">여러 항목을 한 번에 선택하려면 어떻게 하나요?</string>
     <string name="faq_9_text_commons">여러 방법이 있습니다. 첫 번째는 항목 하나를 길게 눌러 선택 모드를 시작한 뒤 다른 항목을 짧게 눌러 추가로 선택하는 방법입니다. 두 번째는 PC에서 마우스로 항목을 선택하는 것과 비슷하게, 항목 하나를 길게 누른 상태에서 손가락을 떼지 않고 다른 항목 위로 드래그해 선택하는 방법입니다. 세 번째는 항목 하나를 길게 누른 뒤 다른 항목을 다시 길게 누르면 그 사이의 모든 항목이 선택됩니다.\n모든 항목을 선택하려면 항목 하나를 길게 누른 뒤 화면 왼쪽 위의 선택된 항목 수를 누르세요. 그러면 전체 항목을 선택하거나 선택 해제할 수 있습니다.</string>
@@ -868,7 +868,7 @@
     <string name="translation">번역</string>
     <string name="development">개발</string>
     <string name="other_help">기타 도움</string>
-    <string name="contributors_label"><![CDATA[이 목록에는 이 앱뿐 아니라 Fossify 제품군의 어느 앱이든 눈에 띄게 도움을 준 모든 사람이 포함됩니다. 번역은 자원봉사자들이 맡고 있습니다.\n함께 돕고 싶다면 알려 주세요. 번역 방법은 <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">이 웹사이트</a>에서 확인할 수 있으며, 궁금한 점이 있으면 <a href="mailto:hello@fossify.org">hello@fossify.org</a>로 문의해 주세요.\n모든 기여자와 후원자 여러분께 감사드립니다!]]></string>
+    <string name="contributors_label"><![CDATA[이 목록에는 이 앱뿐 아니라 Fossify 제품군의 어느 앱이든 눈에 띄게 도움을 준 모든 사람이 포함됩니다. 번역은 자원봉사자들이 맡고 있습니다.\n함께 돕고 싶다면 알려 주세요. 번역 방법은 <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">이 웹사이트</a>에서 확인할 수 있으며, 궁금한 점이 있으면 <a href="mailto:hello@fossify.org">hello@fossify.org</a>로 문의해 주세요.\n모든 기여자와 후원자 여러분께 감사드립니다!]]></string>
     <string name="translation_arabic">아랍어</string>
     <string name="translation_azerbaijani">아제르바이잔어</string>
     <string name="translation_belarusian">벨라루스어</string>

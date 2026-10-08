@@ -1032,12 +1032,12 @@ Za uporabo te funkcije in podporo razvoju kupite aplikacijo <a href="https://pla
     <string name="label_with_badge">%1$s %2$s</string>
     <string name="faq_2_text_commons"><![CDATA[
 Da, seveda. Lahko širite glas o aplikacijah ali podate dobre povratne informacije in ocene. Pomagate lahko tudi s prevajanjem aplikacij v nov jezik ali pa preprosto posodobite nekatere obstoječe prevode.
-Vodnik za prevajanje je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej spletni strani</a> ali pa nas preprosto kontaktirajte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>, če imate kakršna koli vprašanja.
+Vodnik za prevajanje je na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tej spletni strani</a> ali pa nas preprosto kontaktirajte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>, če imate kakršna koli vprašanja.
 ]]></string>
     <string name="faq_6_text_commons">Do te težave pride, če vaš zaganjalnik ne podpira v celoti prilagajanja ikon. Poskusite zagnati aplikacijo prek trgovine Google Play ali pripomočka, če je na voljo. Po zagonu obnovite privzeto zeleno barvo ikone #106D1F. V skrajnih primerih bo morda potrebna ponovna namestitev aplikacije.</string>
     <string name="contributors_label"><![CDATA[
 Ta seznam vsebuje vse, ki so opazno pomagali kateri koli aplikaciji v paketu Fossify, ne le tej. Prevode opravljajo prostovoljci,
-sporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">tej spletni strani</a> ali pa nas preprosto kontaktirajte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>, če imate kakršna koli vprašanja.
+sporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tej spletni strani</a> ali pa nas preprosto kontaktirajte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>, če imate kakršna koli vprašanja.
 Hvala vsem sodelujočim in drugim podpornikom!
 ]]></string>
     <string name="translation_arabic">Arabščina</string>

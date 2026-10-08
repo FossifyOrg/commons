@@ -909,7 +909,7 @@
     <string name="update_thank_you">Palun uuenda rakendus Fossify Suur Tänu viimase versioonini</string>
     <string name="contributors_label"><![CDATA[
             Selles loendis on kõik, kes aitasid märgatavalt arendada või tõlkida mis tahes rakendust komplektis „Fossify nutitarvikud“.Tõlkimisega tegelevad vabatahtlikud,
-            anna meile teada, kui soovid ka osaleda. Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">meie Githubi lehel</a> või kui sul on küsimusi, siis võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
+            anna meile teada, kui soovid ka osaleda. Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">meie Githubi lehel</a> või kui sul on küsimusi, siis võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
             Aitäh kõigile panustajatele ja teistele toetajatele!
         ]]></string>
     <string name="app_icon_color_warning">Hoiatus: Mõned käivitajad ei käsitse rakenduste ikoonide kohandamist korralikult. Kui ikoon kaob, proovi käivitada rakendus Google Play\'st või mõne muu olemasoleva vidina abil. Kui oled käivitanud rakenduse, seadista lihtsalt ikooni vaikimisi roheline toon #106D1F tagasi. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
@@ -969,7 +969,7 @@
     <string name="sunday_short">Pühap</string>
     <string name="faq_2_text_commons"><![CDATA[
             Jah, muidugi. Sa saad rakendust teistele tutvustada või jagada head tagasisidet ja hinnanguid. Samuti saad aidata ka rakenduste tõlkimisega uude keelde või lihtsalt mõne olemasoleva tõlke ajakohastamisega.
-            Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">siin lehel</a> või küsimuste puhul lihtsalt võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
+            Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">siin lehel</a> või küsimuste puhul lihtsalt võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
         ]]></string>
     <string name="translation_esperanto">esperanto</string>
     <string name="translation_chuvash">tšuvašši</string>

@@ -790,7 +790,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Maar natuurlijk! Vertel anderen over deze apps of geef feedback en beoordelingen. Ook het vertalen van de apps in een nieuwe taal of het bijwerken van bestaande vertalingen wordt gewaardeerd.
-            Een handleiding voor vertaling is te vinden op <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">deze website</a>, of stuur een bericht naar <a href="mailto:hello@fossify.org">hello@fossify.org</a> voor hulp.
+            Een handleiding voor vertaling is te vinden op <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">deze website</a>, of stuur een bericht naar <a href="mailto:hello@fossify.org">hello@fossify.org</a> voor hulp.
         ]]>
     </string>
     <string name="faq_3_title_commons">Ik heb per ongeluk bestanden verwijderd, hoe kan ik deze herstellen?</string>
@@ -895,7 +895,7 @@
     <string name="show_line_numbers">Regelnummers tonen</string>
     <string name="hide_line_numbers">Regelnummers verbergen</string>
     <string name="purchase_simple_thank_you">Fossify Bedankje aanschaffen</string>
-    <string name="donate_short">Bevalt Fossify? Steun dan de ontwikkeling van onze advertentievrije apps door &lt;a href=\"https://play.google.com/store/apps/details?id=org.Fossify.thankyou\"&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Dit geeft ook de mogelijkheid om lettertypen aan te passen en de aanpassingen te delen tussen alle Fossify-apps. Bedankt!</string>
+    <string name="donate_short">Bevalt Fossify? Steun dan de ontwikkeling van onze advertentievrije apps door &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Bedankje&lt;/a&gt; aan te schaffen. Dit geeft ook de mogelijkheid om lettertypen aan te passen en de aanpassingen te delen tussen alle Fossify-apps. Bedankt!</string>
     <string name="update_thank_you">Update Fossify Bedankje naar de nieuwste versie</string>
     <string name="app_icon_color_warning">Let op: Sommige launchers verwerken het aanpassen van het icoon mogelijk niet goed. Als het icoon verdwijnt, probeer dan de app te starten via Google Play, F-Droid of een widget. Herstel na het starten de groene standaardkleur #106D1F. In extreme gevallen kan het zijn dat de app opnieuw geïnstalleerd moet worden.</string>
     <string name="copyright">v %1$s
@@ -928,7 +928,7 @@
     <string name="camera_short">Camera</string>
     <string name="contributors_label"><![CDATA[
             Deze lijst bevat de namen van iedereen die aan een app binnen de Fossify suite heeft bijgedragen. Vertalingen worden gedaan door vrijwilligers,
-            dus laat het ons weten als je ook wilt helpen. Lees de instructies <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>op deze website</a>, of stuur bij vragen een bericht naar <a href=mailto:hello@fossify.org>hello@fossify.org</a>.
+            dus laat het ons weten als je ook wilt helpen. Lees de instructies <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>op deze website</a>, of stuur bij vragen een bericht naar <a href=mailto:hello@fossify.org>hello@fossify.org</a>.
             Bedankt voor alle bijdragen en andere ondersteuning!
         ]]></string>
     <string name="launcher_short">Launcher</string>

@@ -853,7 +853,7 @@
     <string name="faq_2_text_commons">
         <![CDATA[
             Sì, certo. Puoi spargere la voce sulle app o fornire feedback e valutazioni positive. Puoi anche contribuire a tradurre le app in una nuova lingua o ad aggiornare alcune traduzioni esistenti.
-            La guida alla traduzione è disponibile su <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all\'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
+            La guida alla traduzione è disponibile su <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>questo sito</a>, oppure contattaci all\'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
         ]]>
     </string>
     <string name="faq_3_title_commons">Ho eliminato dei file per errore, come posso recuperarli?</string>
@@ -878,7 +878,7 @@
     <string name="contributors_label">
         <![CDATA[
             Questo elenco contiene tutti coloro che hanno aiutato in modo significativo qualsiasi applicazione della suite Fossify, non solo questa. Le traduzioni sono gestite da volontari,
-            fateci sapere se volete aiutare anche voi. La guida alla traduzione si trova su <a href=https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file>questo sito</a>, oppure contattaci all\'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
+            fateci sapere se volete aiutare anche voi. La guida alla traduzione si trova su <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>questo sito</a>, oppure contattaci all\'indirizzo <a href=mailto:hello@fossify.org>hello@fossify.org</a> per qualsiasi domanda.
             Grazie a tutti i collaboratori e agli altri sostenitori!
         ]]>
     </string>

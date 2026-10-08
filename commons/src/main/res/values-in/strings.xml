@@ -802,14 +802,14 @@
     <string name="november_short">Nov</string>
     <string name="faq_2_text_commons"><![CDATA[
             Ya, tentu. Anda dapat membantu menyebarkan info tentang aplikasi atau memberikan umpan balik dan penilaian yang baik. Anda juga dapat membantu dengan menerjemahkan aplikasi ke bahasa baru, atau cukup memperbarui beberapa terjemahan yang sudah ada.
-           Panduan penerjemahan ada di <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika ada pertanyaan.
+           Panduan penerjemahan ada di <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika ada pertanyaan.
         ]]></string>
     <string name="december_short">Des</string>
     <string name="platforms">Platform</string>
     <string name="faq_6_text_commons">Isu ini muncul ketika peluncur Anda tidak mendukung kustomisasi ikon secara penuh. Coba luncurkan aplikasi melalui Google Play atau widget jika tersedia. Setelah meluncurkan, pulihkan warna ikon hijau #106D1F bawaan. Dalam beberapa kasus, memasang ulang aplikasi dapat dilakukan.</string>
     <string name="contributors_label"><![CDATA[
             Daftar ini berisi semua orang yang secara nyata membantu aplikasi apa pun dalam rangkaian Fossify, bukan hanya aplikasi ini. Terjemahan ditangani oleh relawan,
-            beri tahu kami jika Anda juga ingin membantu. Panduan penerjemahan ada di <a href="https://github.com/FossifyOrg/General-Discussion#how-can-i-suggest-an-edit-to-a-file">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika ada pertanyaan.
+            beri tahu kami jika Anda juga ingin membantu. Panduan penerjemahan ada di <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika ada pertanyaan.
             Terima kasih kepada semua kontributor dan pendukung lainnya!
         ]]></string>
     <string name="translation_indonesian">Indonesia</string>
