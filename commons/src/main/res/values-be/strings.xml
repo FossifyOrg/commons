@@ -112,7 +112,7 @@
     <string name="import_blocked_numbers">Імпартаваць заблакаваныя нумары</string>
     <string name="must_make_default_dialer">Вы павінны зрабіць гэта дадатак стандартным дадаткам дазвону, каб выкарыстоўваць заблакіраваныя нумары.</string>
     <string name="set_as_default">Ўсталяваць па змаўчанні</string>
-    <string name="block_confirmation">Заблакаваць \"%s\"\?</string>
+    <string name="block_confirmation">Заблакаваць \"%s\"?</string>
     <string name="block_unknown_calls">Блакаваць выклікі ад невядомых кантактаў</string>
     <string name="block_unknown_messages">Блакаваць паведамленні ад невядомых кантактаў</string>
     <string name="add_blocked_number_helper_text">Увядзіце нумар або шаблон (напрыклад, *12345*, +1*8888), каб заблакіраваць усе выклікі і паведамленні з нумароў, якія адпавядаюць шаблону.</string>
@@ -176,13 +176,7 @@
     <string name="simple_renaming">Простае перайменаванне</string>
     <string name="pattern_renaming">Шаблон</string>
     <string name="string_to_add">Тэкст для дадання</string>
-    <string name="rename_date_time_pattern">%Y - год
-\n%M - месяц
-\n%D - дзень
-\n%h - гадзіна
-\n%m - хвіліна
-\n%s - секунда
-\n%i - парадкавы нумар з 1</string>
+    <string name="rename_date_time_pattern">%Y - год \n%M - месяц \n%D - дзень \n%h - гадзіна \n%m - хвіліна \n%s - секунда \n%i - парадкавы нумар з 1</string>
     <string name="filename_without_txt">Назва файла (без .txt)</string>
     <string name="filename_without_json">Назва файла (без .json)</string>
     <string name="filename_without_zip">Назва файла (без .zip)</string>
@@ -225,7 +219,7 @@
     <string name="empty_name">Увядзіце назву</string>
     <string name="unknown_error_occurred">Адбылася невядомая памылка</string>
     <string name="file_already_exists">Файл \"%s\" ужо існуе</string>
-    <string name="file_already_exists_overwrite">Файл \"%s\" ужо існуе. Перазапісаць\?</string>
+    <string name="file_already_exists_overwrite">Файл \"%s\" ужо існуе. Перазапісаць?</string>
     <string name="folder_already_exists">Папка \"%s\" ужо існуе</string>
     <string name="merge">Аб\'яднаць</string>
     <string name="keep_both">Захаваць абодва</string>
@@ -245,8 +239,8 @@
     <string name="confirm_storage_access_text">Выберыце верхнюю папку SD-карты на наступным экране, каб даць доступ для запісу</string>
     <string name="confirm_storage_access_text_sd">Калі вы не бачыце SD-карту, паспрабуйце гэта</string>
     <string name="confirm_storage_access_android_text">Калі ласка, дазвольце праграме доступ да выбранага сховішча на наступным экране, націснуўшы \"Выкарыстоўваць гэту тэчку\" ўнізе.</string>
-    <string name="confirm_storage_access_android_text_specific">Калі ласка, дазвольце доступ \'<b>%s</b>\' на наступным экране, націснуўшы \'<b>Выкарыстоўвайце гэтую папку</b>\' ў нізе.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Калі ласка, націсніце \'<b>Захаваць</b>\' унізе наступнага экрана, каб стварыць новую тэчку.</string>
+    <string name="confirm_storage_access_android_text_specific">Калі ласка, дазвольце доступ \'&lt;b&gt;%s&lt;/b&gt;\' на наступным экране, націснуўшы \'&lt;b&gt;Выкарыстоўвайце гэтую папку&lt;/b&gt;\' ў нізе.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Калі ласка, націсніце \'&lt;b&gt;Захаваць&lt;/b&gt;\' унізе наступнага экрана, каб стварыць новую тэчку.</string>
     <string name="confirm_selection">Пацвердзіце выбар</string>
     <string name="loading">Загрузка…</string>
     <string name="access_storage_prompt">Дайце нашаму прылажэнню доступ да ўсіх вашых файлаў, без гэтага яно можа працаваць дрэнна.</string>
@@ -301,7 +295,7 @@
     <string name="gps_coordinates">Каардынаты GPS</string>
     <string name="altitude">Вышыня над узроўнем мора</string>
     <string name="remove_exif">Выдаліць EXIF</string>
-    <string name="remove_exif_confirmation">Вы ўпэўнены, што жадаеце выдаліць значэнні EXIF, такія як каардынаты GPS, мадэль камеры і г.д.\?</string>
+    <string name="remove_exif_confirmation">Вы ўпэўнены, што жадаеце выдаліць значэнні EXIF, такія як каардынаты GPS, мадэль камеры і г.д.?</string>
     <string name="exif_removed">Даныя EXIF паспяхова выдалены</string>
     <string name="background_color">Колер фону</string>
     <string name="text_color">Колер тэксту</string>
@@ -320,9 +314,9 @@
     <string name="save">Захаваць</string>
     <string name="discard">Адкідаць</string>
     <string name="undo_changes">Адмяніць змены</string>
-    <string name="undo_changes_confirmation">Вы ўпэўнены, што хочаце адмяніць зробленыя змены\?</string>
+    <string name="undo_changes_confirmation">Вы ўпэўнены, што хочаце адмяніць зробленыя змены?</string>
     <string name="cannot_be_undone">Гэта дзеянне нельга адмяніць.</string>
-    <string name="save_before_closing">У вас ёсць незахаваныя змены. Захаваць перад выхадам\?</string>
+    <string name="save_before_closing">У вас ёсць незахаваныя змены. Захаваць перад выхадам?</string>
     <string name="global_theme_success">Колеры паспяхова абноўлены. Была дададзена новая тэма пад назвай \"Агульны доступ\", выкарыстоўвайце яе для абнаўлення ўсіх колераў праграм у будучыні.</string>
     <string name="light_theme">Светлая</string>
     <string name="dark_theme">Цёмная</string>
@@ -393,10 +387,10 @@
     <string name="full_name">Поўнае імя</string>
     <string name="use_custom_sorting">Выкарыстоўвайце карыстацкую сартаванне</string>
     <string name="change_order">Змяніць парадак</string>
-    <string name="proceed_with_deletion">Вы ўпэўнены, што хочаце працягнуць выдаленне\?</string>
-    <string name="deletion_confirmation">Выдаліць %s\?</string>
+    <string name="proceed_with_deletion">Вы ўпэўнены, што хочаце працягнуць выдаленне?</string>
+    <string name="deletion_confirmation">Выдаліць %s?</string>
     <string name="move_to_recycle_bin_confirmation">Перамясціць %s у сметніцу?</string>
-    <string name="are_you_sure_delete">Выдаліць гэты элемент\?</string>
+    <string name="are_you_sure_delete">Выдаліць гэты элемент?</string>
     <string name="are_you_sure_recycle_bin">Перамясціць гэты элемент у сметніцу?</string>
     <string name="do_not_ask_again">Больш не пытацца ў гэтым сеансе</string>
     <string name="do_not_show_again">Больш не паказваць</string>
@@ -689,7 +683,7 @@
     <string name="excluded">(выключана)</string>
     <string name="manage_excluded_folders">Кіраванне выключанымі папкамі</string>
     <string name="remove_all">Выдаліць усе</string>
-    <string name="remove_all_description">Выдаліць усе тэчкі з спісу выключаных\? Гэта не прывядзе да выдалення тэчак.</string>
+    <string name="remove_all_description">Выдаліць усе тэчкі з спісу выключаных? Гэта не прывядзе да выдалення тэчак.</string>
     <string name="temporarily_show_excluded">Паказ часова выключаны</string>
     <string name="stop_showing_excluded">Спыніць паказ выключаны</string>
     <string name="manage_shown_tabs">Кіраванне ўкладкамі, якія адлюстроўваюцца</string>
@@ -733,14 +727,7 @@
     <string name="backups">Рэзервовыя копіі</string>
     <string name="enable_automatic_backups">Уключыць аўтаматычнае рэзервовае капіраванне</string>
     <string name="manage_automatic_backups">Кіраванне аўтаматычным рэзервовым капіраваннем</string>
-    <string name="date_time_pattern_info">Вы можаце выкарыстоўваць наступныя шаблоны, каб аўтаматычна назваць файл:
-\n
-\n%Y - год
-\n%M - месяц
-\n%D - дзень
-\n%h - гадзіна
-\n%m - хвіліна
-\n%s - другі</string>
+    <string name="date_time_pattern_info">Вы можаце выкарыстоўваць наступныя шаблоны, каб аўтаматычна назваць файл: \n \n%Y - год \n%M - месяц \n%D - дзень \n%h - гадзіна \n%m - хвіліна \n%s - другі</string>
     <string name="usb_detected">Падобна на тое, да вашага прылады падлучанае USB-прылада. Каб пераканацца, што яго файлы адлюстроўваюцца правільна, вам неабходна прадаставіць дадатковыя дазволу.</string>
     <string name="confirm_usb_storage_access_text">Калі ласка, абярыце верхнюю тэчку USB-прылады на наступным экране, каб даць доступ</string>
     <string name="wrong_root_selected_usb">Выбрана няправільная папка, выберыце асноўную папку вашай USB-прылады</string>
@@ -802,8 +789,7 @@
     <string name="invite_via">Запрасіць праз</string>
     <string name="donate">Ахвяраваць</string>
     <string name="follow_us">Сачыце за намі</string>
-    <string name="copyright">Версія %1$s
-\nАўтарскае права © Fossify %2$d</string>
+    <string name="copyright">Версія %1$s \nАўтарскае права © Fossify %2$d</string>
     <string name="support">Падтрымка</string>
     <string name="help_us">Дапамажы нам</string>
     <string name="social">Сацыяльны</string>
@@ -821,7 +807,7 @@
     <string name="read_it">Прачытаць</string>
     <string name="read_faq">Прачытаць FAQ</string>
     <string name="thank_you">Дзякуй</string>
-    <string name="new_app">Гэй,&lt;br&gt;&lt;br&gt;проста паведамляю вам, што нядаўна былі выпушчаны некаторыя новыя праграмы:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Вы можаце загрузіць іх, націснуўшы іх загалоўкі або значкі.&lt;br&gt;&lt;br&gt; дзякуй</string>
+    <string name="new_app"><![CDATA[Гэй,<br><br>проста паведамляю вам, што нядаўна былі выпушчаны некаторыя новыя праграмы:<br><br> <a href=%1$s>%2$s</a><br><br> <a href=%3$s>%4$s</a><br><br> <a href=%5$s>%6$s</a><br><br> Вы можаце загрузіць іх, націснуўшы іх загалоўкі або значкі.<br><br> дзякуй]]></string>
     <string name="app_launcher_short">Працоўны стол</string>
     <string name="calculator_short">Калькулятар</string>
     <string name="calendar_short">Каляндар</string>
@@ -839,24 +825,22 @@
     <string name="sms_messenger_short">Паведамленні</string>
     <string name="thank_you_short">Падзяка</string>
     <string name="voice_recorder_short">Дыктафон</string>
-    <string name="sideloaded_app"><![CDATA[
-            Выглядае так, што версія ваша праграмы нядзейная. Калі ласка, спампуйце арыгінальнкю версію <a href="%s">here</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Выглядае так, што версія ваша праграмы нядзейная. Калі ласка, спампуйце арыгінальнкю версію <a href="%s">here</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">Часта задаюць пытанні</string>
     <string name="before_asking_question">Перш чым задаць пытанне, прачытайце</string>
-    <string name="faq_1_title_commons">Чаму я не бачу гэты віджэт праграм у спісе віджэтаў\?</string>
+    <string name="faq_1_title_commons">Чаму я не бачу гэты віджэт праграм у спісе віджэтаў?</string>
     <string name="faq_1_text_commons">Хутчэй за ўсё, гэта звязана з тым, што вы перамясцілі прыкладанне на SD-карту. У гэтым выпадку існуе сістэмнае абмежаванне Android, якое хавае дадзеныя фішкі прыкладання. Адзінае рашэнне-перамясціць прыкладанне назад ва ўнутранае сховішча праз налады вашага прылады.</string>
-    <string name="faq_2_title_commons">Я хачу падтрымаць вас, але я не магу ахвяраваць грошы. Ці магу я яшчэ што-небудзь зрабіць\?</string>
-    <string name="faq_3_title_commons">Я памылкова выдаліў некаторыя файлы, як я магу іх аднавіць\?</string>
+    <string name="faq_2_title_commons">Я хачу падтрымаць вас, але я не магу ахвяраваць грошы. Ці магу я яшчэ што-небудзь зрабіць?</string>
+    <string name="faq_3_title_commons">Я памылкова выдаліў некаторыя файлы, як я магу іх аднавіць?</string>
     <string name="faq_3_text_commons">На жаль, вы не можаце гэтага зрабіць. Файлы выдаляюцца імгненна пасля дыялогавага акна пацверджання, кошык для смецця недаступная.</string>
-    <string name="faq_4_title_commons">Мне не падабаюцца колеры віджэтаў, ці магу я іх змяніць\?</string>
+    <string name="faq_4_title_commons">Мне не падабаюцца колеры віджэтаў, ці магу я іх змяніць?</string>
     <string name="faq_4_text_commons">Так, калі вы перацягнуць віджэт на галоўны экран, з\'яўляецца экран налады фішкі. Вы ўбачыце каляровыя квадраты ў левым ніжнім куце, проста націсніце на іх, каб выбраць новы колер. Вы таксама можаце выкарыстоўваць паўзунок для налады альфа-сігналу.</string>
-    <string name="faq_5_title_commons">Ці магу я неяк аднавіць выдаленыя файлы\?</string>
+    <string name="faq_5_title_commons">Ці магу я неяк аднавіць выдаленыя файлы?</string>
     <string name="faq_5_text_commons">Калі яны сапраўды былі выдалены, вы не можаце. Тым не менш, кошык уключаны па змаўчанні, гэта прывядзе да таго, што файлы проста перамяшчаюцца ў кошык, а не выдаляюцца.</string>
-    <string name="faq_6_title_commons">Значок запуску прыкладання знік. Што я магу зрабіць\?</string>
-    <string name="faq_7_title_commons">Грошы былі зняты з майго банкаўскага рахунку, але я не магу спампаваць праграму. Што я магу зрабіць\?</string>
+    <string name="faq_6_title_commons">Значок запуску прыкладання знік. Што я магу зрабіць?</string>
+    <string name="faq_7_title_commons">Грошы былі зняты з майго банкаўскага рахунку, але я не магу спампаваць праграму. Што я магу зрабіць?</string>
     <string name="faq_7_text_commons">Плацяжы цалкам апрацоўваюцца Google, у іх сістэме час ад часу даюцца збоі. Проста ачысціце кэш праграмы Google Play і перазапусціце прыладу, а затым паўтарыце спробу загрузкі.</string>
-    <string name="faq_9_title_commons">Як я магу выбраць некалькі элементаў адначасова\?</string>
+    <string name="faq_9_title_commons">Як я магу выбраць некалькі элементаў адначасова?</string>
     <string name="faq_9_text_commons">Ёсць некалькі спосабаў зрабіць гэта. Першы з іх заключаецца ў запуску рэжыму выбару шляхам працяглага націску на адзін элемент, а затым кароткага націску на іншыя, каб выбраць іх. Другі спосаб аналагічны выбару элементаў на ПК з дапамогай мышы, проста запусціце рэжым выбару, доўга націскаючы на адзін элемент, затым, усё яшчэ утрымліваючы палец націснутым, правядзіце ім па іншых элементах для выбару. Трэці спосаб выбару некалькіх элементаў-доўгі націск на адзін элемент, затым доўгі націск на іншы, і выбіраецца ўсё, што знаходзіцца паміж імі. Калі вы хочаце выбраць усе тавары, проста доўга націсніце на адзін тавар, а затым пстрыкніце на лічыльніку выбраных тавараў у левым верхнім куце. Гэта дазволіць выбраць або адмяніць выбар усяго.</string>
     <string name="faq_10_title_commons">Я набыў праграму, але не магу загрузіць яе на іншую прыладу.</string>
     <string name="faq_10_text_commons">Паспрабуйце ачысціць кэш праграмы Google Play і перазагрузіць прыладу. Гэта нейкі збой Google Play, які насамрэч не звязаны з самім дадаткам.</string>

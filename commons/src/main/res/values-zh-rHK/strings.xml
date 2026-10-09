@@ -209,8 +209,8 @@
     <string name="confirm_storage_access_text">請在下個畫面選擇SD卡的根目錄，以授予存取權限</string>
     <string name="confirm_storage_access_text_sd">如果看不到SD卡，試試這個</string>
     <string name="confirm_storage_access_android_text">請在下一頁點選下方的「使用此資料夾」來允許應用程式存取所選的儲存空間。</string>
-    <string name="confirm_storage_access_android_text_specific">請在下一頁點選下方的「<b>使用此資料夾</b>」來允許應用程式存取「<b>%s</b>」。</string>
-    <string name="confirm_create_doc_for_new_folder_text">請在下一頁點選下方的「<b>儲存</b>」以建立新的資料夾。</string>
+    <string name="confirm_storage_access_android_text_specific">請在下一頁點選下方的「&lt;b&gt;使用此資料夾&lt;/b&gt;」來允許應用程式存取「&lt;b&gt;%s&lt;/b&gt;」。</string>
+    <string name="confirm_create_doc_for_new_folder_text">請在下一頁點選下方的「&lt;b&gt;儲存&lt;/b&gt;」以建立新的資料夾。</string>
     <string name="confirm_selection">確認選擇</string>
     <string name="loading">載入中…</string>
     <string name="access_storage_prompt">請授予我們的 app 對所有檔案的存取權，否則其可能無法正常運作。</string>
@@ -667,15 +667,7 @@
     <string name="read_it">讀它</string>
     <string name="read_faq">閱讀FAQ</string>
     <string name="thank_you">感謝</string>
-    <string name="new_app"><![CDATA[
-            嗨，<br><br>
-            告訴你最近有一個新的應用程式剛發布:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            點標題下載來試試看吧<br><br>
-            謝謝
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            嗨，<br><br>\n            告訴你最近有一個新的應用程式剛發布:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            點標題下載來試試看吧<br><br>\n            謝謝\n        "]]></string>
     <string name="app_launcher_short">應用程式啟動器</string>
     <string name="calculator_short">計算機</string>
     <string name="calendar_short">行事曆</string>
@@ -694,9 +686,7 @@
     <string name="sms_messenger_short">短訊</string>
     <string name="thank_you_short">感謝您</string>
     <string name="voice_recorder_short">錄音機</string>
-    <string name="sideloaded_app"><![CDATA[
-            你的應用程式版本似乎是損壞的。請從 <a href="%s">這裡</a> 下載原始版本。
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020你的應用程式版本似乎是損壞的。請從 <a href="%s">這裡</a> 下載原始版本。\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">常見問題</string>
     <string name="before_asking_question">在你發問之前，請先閱讀</string>
     <string name="faq_1_title_commons">為什麼我在小工具列表中沒看到這應用程式的小工具?</string>
@@ -814,9 +804,7 @@
     <string name="exif">EXIF</string>
     <string name="apply_to_all_apps">將顏色套用至所有 Fossify 應用程式</string>
     <string name="app_icon_color_warning">注意：某些啟動器可能無法正確處理應用程式圖示自訂。如果圖示消失，請嘗試透過 Google Play 或小工具（如果有的話）來啟動應用程式。啟動後，請將應用程式圖示顏色還原為預設的綠色 #106D1F。在極少數情況下，可能會需要重新安裝應用程式。</string>
-    <string name="purchase_thank_you"><![CDATA[
-            請購買 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 來解鎖此功能及支持開發者。謝謝!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020請購買 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 來解鎖此功能及支持開發者。謝謝!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="allow_access_more_media">允許存取更多媒體</string>
     <string name="show_line_numbers">顯示行號</string>
     <string name="hide_line_numbers">隱藏行號</string>
@@ -876,16 +864,9 @@
     <string name="little_to_no_fee">很少或沒有費用</string>
     <string name="fee_up_to_pct">費用最高 %1$d%%</string>
     <string name="cryptocurrency">加密貨幣</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            當然可以。您可以幫忙宣傳應用程式，或者提供良好的意見回饋和評分。您也可以幫忙將應用程式翻譯成新的語言，或者更新現有的翻譯。.
-            翻譯指南位於<a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA["\n            當然可以。您可以幫忙宣傳應用程式，或者提供良好的意見回饋和評分。您也可以幫忙將應用程式翻譯成新的語言，或者更新現有的翻譯。.\n            翻譯指南位於<a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。\n        "]]></string>
     <string name="faq_6_text_commons">當您的啟動器不完全支援圖示自訂時，就會發生此問題。請嘗試透過 Google Play 或小工具（如果有的話）啟動應用程式。啟動後，請將應用程式圖示顏色還原為預設的綠色 #106D1F。在極少數情況下，可能會需要重新安裝應用程式。</string>
-    <string name="contributors_label"><![CDATA[
-            此清單包含所有對 Fossify 套件中任何應用程式提供明顯幫助的人，不僅僅是這個應用程式。翻譯是由志工處理的，如果您也想幫忙，請告訴我們。
-            翻譯指南位於 <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。
-            感謝所有貢獻者和其他支持者！
-        ]]></string>
+    <string name="contributors_label"><![CDATA["\n            此清單包含所有對 Fossify 套件中任何應用程式提供明顯幫助的人，不僅僅是這個應用程式。翻譯是由志工處理的，如果您也想幫忙，請告訴我們。\n            翻譯指南位於 <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。\n            感謝所有貢獻者和其他支持者！\n        "]]></string>
     <string name="translation_arabic">阿拉伯文</string>
     <string name="translation_azerbaijani">亞塞拜然文</string>
     <string name="translation_belarusian">白俄羅斯文</string>

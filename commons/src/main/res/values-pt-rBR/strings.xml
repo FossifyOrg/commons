@@ -226,7 +226,7 @@
     <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo passo para conceder acesso de escrita</string>
     <string name="confirm_storage_access_text_sd">Se você não encontrar o cartão SD, tente isto</string>
     <string name="confirm_storage_access_android_text">Por favor, permita que o aplicativo acesse o armazenamento utilizando o botão \"Use esta pasta\" no canto inferior da próxima tela.</string>
-    <string name="confirm_storage_access_android_text_specific">Por favor, permita o acesso a \'<b>%s</b>\' na próxima tela pressionando \'<b>Usar esta pasta</b>\' no canto inferior.</string>
+    <string name="confirm_storage_access_android_text_specific">Por favor, permita o acesso a \'&lt;b&gt;%s&lt;/b&gt;\' na próxima tela pressionando \'&lt;b&gt;Usar esta pasta&lt;/b&gt;\' no canto inferior.</string>
     <string name="confirm_create_doc_for_new_folder_text">Por favor, pressione \'&lt;b&gt;Save&lt;/b&gt;\' no canto inferior da próxima nela para criar uma nova pasta.</string>
     <string name="confirm_selection">Confirmar seleção</string>
     <string name="loading">Carregando…</string>
@@ -258,8 +258,7 @@
     <string name="root">Raiz</string>
     <string name="wrong_root_selected">Pasta inválida, por favor selecione a raiz do cartão SD</string>
     <string name="sd_card_usb_same">As pastas do cartão SD e do dispositivo USB não podem ser a mesma</string>
-    <string name="app_on_sd_card">Parece que você instalou o aplicativo em um cartão SD, o que torna os widgets indisponíveis. Você não os verá na lista de widgets.
-        Isto é uma limitação do sistema operacional, caso você queira ter acesso aos widgets será preciso mover o aplicativo para o armazenamento interno.</string>
+    <string name="app_on_sd_card">Parece que você instalou o aplicativo em um cartão SD, o que torna os widgets indisponíveis. Você não os verá na lista de widgets. Isto é uma limitação do sistema operacional, caso você queira ter acesso aos widgets será preciso mover o aplicativo para o armazenamento interno.</string>
     <string name="wrong_folder_selected">A pasta esrrada foi selecionada, por favor, selecione \'%s\'</string>
     <string name="properties">Propriedades</string>
     <string name="path">Caminho</string>
@@ -301,9 +300,7 @@
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
     <string name="global_theme_success">O tema atual foi aplicado com sucesso a todos os aplicativos Fossify. Quaisquer alterações futuras neste tema serão sincronizadas automaticamente.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Agradecimento Fossify</a> para usar essa função e apoiar o desenvolvimento. Obrigado!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA["\n            Compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Agradecimento Fossify</a> para usar essa função e apoiar o desenvolvimento. Obrigado!\n        "]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_light_dark_theme">Auto claro / escuro</string>
@@ -561,8 +558,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Tempo restante até o alarme disparar:\n%s</string>
     <string name="reminder_triggers_in">Tempo restante até o lembrete:\n%s</string>
-    <string name="time_remaining">Tempo restante:
-\n%s</string>
+    <string name="time_remaining">Tempo restante: \n%s</string>
     <string name="alarm_warning">Por favor, verifique se o alarme funciona corretamente antes de confiar nele. Ele pode não funcionar direito devido a restrições de sistema relacionadas à economia de bateria.</string>
     <string name="reminder_warning">Certifique-se de que os lembretes funcionam corretamente antes de confiar neles. Eles podem não funcionar direito devido a restrições de sistema relacionadas à economia de bateria.</string>
     <string name="notifications_disabled">As notificações deste aplicativo foram desativadas pelo sistema. Por favor, reative-as através nas configurações do seu aparelho.</string>
@@ -634,7 +630,7 @@
     <string name="excluded">(ignorado)</string>
     <string name="manage_excluded_folders">Gerenciar pastas ignoradas</string>
     <string name="remove_all">Remover todas</string>
-    <string name="remove_all_description">Remover todas as pastas da lista de pastas ignoradas\? Esta ação não exclui as pastas.</string>
+    <string name="remove_all_description">Remover todas as pastas da lista de pastas ignoradas? Esta ação não exclui as pastas.</string>
     <string name="temporarily_show_excluded">Exibir excluído temporariamente</string>
     <string name="stop_showing_excluded">Parar de exibir excluído</string>
     <string name="manage_shown_tabs">Gerenciar abas visíveis</string>
@@ -748,8 +744,7 @@
     <string name="read_it">Ler</string>
     <string name="read_faq">Leia as Perguntas Frequentes</string>
     <string name="thank_you">Obrigado</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Olá,<br><br>
             Gostariamos de avisar que lançamos um novo app recentemente:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -757,8 +752,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Você pode baixá-lo pressionando o título.<br><br>
             Obrigado
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Lançador de Aplicativos</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
@@ -776,16 +770,13 @@
     <string name="sms_messenger_short">Mensagens SMS</string>
     <string name="thank_you_short">Obrigado</string>
     <string name="voice_recorder_short">Gravador de Voz</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Parece que a sua versão do app está corrompida. Por favor, baixe a versão original <a href="%s">aqui</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Perguntas Frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro as</string>
     <string name="faq_1_title_commons">Por que não vejo o widget deste aplicativo na lista de widgets?</string>
-    <string name="faq_1_text_commons">O mais provável é que você tenha movido o aplicativo para um cartão SD. Existe uma limitação do sistema Android que oculta os widgets de aplicativos fornecidos neste caso.
-        A única solução é mover o aplicativo de volta para o Armazenamento Interno por meio das configurações do seu dispositivo.</string>
+    <string name="faq_1_text_commons">O mais provável é que você tenha movido o aplicativo para um cartão SD. Existe uma limitação do sistema Android que oculta os widgets de aplicativos fornecidos neste caso. A única solução é mover o aplicativo de volta para o Armazenamento Interno por meio das configurações do seu dispositivo.</string>
     <string name="faq_2_title_commons">Eu gostaria de apoiá-los, mas não posso doar dinheiro. Há algo mais que eu possa fazer?</string>
     <string name="faq_3_title_commons">Eu exclui alguns arquivos por engano, como posso recuperá-los?</string>
     <string name="faq_3_text_commons">Infelizmente, você não pode. Os arquivos são apagados instantaneamente após a caixa de diálogo de confirmação, não há lixeira disponível.</string>
@@ -953,10 +944,7 @@
     <string name="app_icon_color_warning">Cuidado: Certos lançadores podem não lidar corretamente com a personalização do ícone do aplicativo. Se o ícone desaparecer, tente iniciar o aplicativo pelo Google Play ou por um widget, se acessível. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar o aplicativo.</string>
     <string name="translation_vietnamese">Vietnamita</string>
     <string name="purchase_simple_thank_you">Compre Agradecimento Fossify</string>
-    <string name="faq_2_text_commons"><![CDATA[
-Sim, claro. Você pode espalhar a informação sobre os aplicativos ou dar um bom feedback e avaliações. Você também pode ajudar traduzindo os aplicativos para um novo idioma ou apenas atualizando algumas traduções existentes.
-O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
-]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\nSim, claro. Você pode espalhar a informação sobre os aplicativos ou dar um bom feedback e avaliações. Você também pode ajudar traduzindo os aplicativos para um novo idioma ou apenas atualizando algumas traduções existentes.\nO guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.\n]]></string>
     <string name="donate_short">Apoie-nos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Agradecimento Fossify&lt;/a&gt;, isso também desbloqueará todos os recursos do aplicativo, incluindo personalização de cores.</string>
     <string name="translation_slovenian">Esloveno</string>
     <string name="hide_line_numbers">Ocultar números de linha</string>
@@ -974,11 +962,7 @@ O guia para tradução está <a href="https://github.com/FossifyOrg/General-Disc
     <string name="date_time_pattern_info">Você pode usar os seguintes padrões para nomear seu arquivo automaticamente:\n\n%Y - ano\n%M - mês\n%D - dia\n%h - hora\n%m - minuto\n%s - segundo</string>
     <string name="launcher_short">Lançador</string>
     <string name="other_help">Outra ajuda</string>
-    <string name="contributors_label"><![CDATA[
-Esta lista contém todos que ajudaram visivelmente qualquer aplicativo dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,
-nos avise se você quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se você tiver alguma dúvida.
-Obrigado a todos os contribuidores e outros apoiadores!
-]]></string>
+    <string name="contributors_label"><![CDATA[\nEsta lista contém todos que ajudaram visivelmente qualquer aplicativo dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,\nnos avise se você quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se você tiver alguma dúvida.\nObrigado a todos os contribuidores e outros apoiadores!\n]]></string>
     <string name="translation_finnish">Finlandês</string>
     <string name="translation_persian">Persa</string>
     <string name="translation_french">Francês</string>

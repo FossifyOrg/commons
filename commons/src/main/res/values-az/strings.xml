@@ -131,8 +131,7 @@
     <string name="sd_card">SD Kart</string>
     <string name="wrong_root_selected">Seçilən qovluq yanlışdır, xahiş olunur SD kartın root qovluğunu seçin</string>
     <string name="sd_card_usb_same">SD kart və USB cihaz yolu eyni ola bilməz</string>
-    <string name="app_on_sd_card">Görünür tətbiqi SD karta yükləmisiniz, bu widgetlərin işləməsinin qarşısını alır. Siz widgetləri əlçatan widgetlər siyahısında belə görə bilməyəcəksiniz.
-        Bu sistem məhdudiyyətidir, əgər vidjetlərin işləməsini istəyirsinizsə, tətbiqi daxili yaddaşa köçürməlisiniz.</string>
+    <string name="app_on_sd_card">Görünür tətbiqi SD karta yükləmisiniz, bu widgetlərin işləməsinin qarşısını alır. Siz widgetləri əlçatan widgetlər siyahısında belə görə bilməyəcəksiniz. Bu sistem məhdudiyyətidir, əgər vidjetlərin işləməsini istəyirsinizsə, tətbiqi daxili yaddaşa köçürməlisiniz.</string>
     <string name="properties">Xüsusiyyətlər</string>
     <string name="path">Yol</string>
     <string name="items_selected">Fayl seçildi</string>
@@ -163,9 +162,7 @@
     <string name="undo_changes_confirmation">Dəyişiklikləri geri almaq istədiyinizə əminsiniz?</string>
     <string name="save_before_closing">Yadda saxlamadığınız dəyişikliklər var. Çıxmazdan əvvəl saxlanılsın?</string>
     <string name="global_theme_success">Rənglər uğurla yeniləndi. \'Paylanmış\' adlı yeni tema əlavə edildi, xahiş olunur gələcəkdə bütün tətbiqlərin yeniləmələri üçün bundan istifadə edin.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Lütfən bağış edin <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Bu funksiyanı açdığınız və təkmilləşdirməni dəstəklədiyiniz üçün Sadə Təşəkkür</a>. Çox Sağolun!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Lütfən bağış edin <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Bu funksiyanı açdığınız və təkmilləşdirməni dəstəklədiyiniz üçün Sadə Təşəkkür</a>. Çox Sağolun!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">İşıqlı</string>
     <string name="dark_theme">Qaranlıq</string>
     <string name="solarized">Közərmiş</string>
@@ -359,7 +356,7 @@
     <string name="startup">Başlanğıc</string>
     <string name="text">Mətn</string>
     <string name="excluded">(xaric edilmiş)</string>
-    <string name="remove_all_description">Remove all folders from the list of excluded\? This will not delete the folders.</string>
+    <string name="remove_all_description">Remove all folders from the list of excluded? This will not delete the folders.</string>
     <string name="manage_shown_tabs">Göstərilən nişanları idarə et</string>
     <string name="restore_this_file">Bu faylı geri qaytar</string>
     <string name="restore_selected_files">Bu faylları geri qaytar</string>

@@ -255,7 +255,7 @@
     <string name="confirm_storage_access_text">Valitse muistikortin juurihakemisto seuraavaksi antaaksesi kirjoitusoikeuden</string>
     <string name="confirm_storage_access_text_sd">Jos et näe muistikorttia, kokeile tätä</string>
     <string name="confirm_storage_access_android_text">Anna sovellukselle käyttöoikeus tallennustilan käyttöön painamalla seuraavassa näkymässä \"Käytä tätä hakemistoa\"-painiketta.</string>
-    <string name="confirm_storage_access_android_text_specific">Anna käyttöoikeus kohteeseen \'<b>%s</b>\' seuraavalla ruudulla painamalla \'<b>Käytä tätä kansiota</b>\' .</string>
+    <string name="confirm_storage_access_android_text_specific">Anna käyttöoikeus kohteeseen \'&lt;b&gt;%s&lt;/b&gt;\' seuraavalla ruudulla painamalla \'&lt;b&gt;Käytä tätä kansiota&lt;/b&gt;\' .</string>
     <string name="confirm_create_doc_for_new_folder_text">Paina \'&lt;b&gt;Tallenna&lt;/b&gt;\' seuraavan ruudun alalaidasta luodaksesi uuden kansion.</string>
     <string name="confirm_selection">Vahvista valinta</string>
     <string name="loading">Ladataan…</string>
@@ -284,8 +284,7 @@
     <string name="root">Juurihakemisto</string>
     <string name="wrong_root_selected">Väärä kansio valittu, valitse muistikortin juurihakemisto</string>
     <string name="sd_card_usb_same">Muistikortin ja USB-laitteen polut eivät voi olla samat</string>
-    <string name="app_on_sd_card">Sovellus on asennettu muistikortille, jonka vuoksi pienoissovellukset eivät ole käytettävissä. Niitä ei näytetä pienoissovellusten listalla.
-        Kyseessä on järjestelmän rajoitus, joten jos haluat käyttää pienoissovelluksia, siirrä sovellus takaisin sisäiseen tallennustilaan.</string>
+    <string name="app_on_sd_card">Sovellus on asennettu muistikortille, jonka vuoksi pienoissovellukset eivät ole käytettävissä. Niitä ei näytetä pienoissovellusten listalla. Kyseessä on järjestelmän rajoitus, joten jos haluat käyttää pienoissovelluksia, siirrä sovellus takaisin sisäiseen tallennustilaan.</string>
     <string name="wrong_folder_selected">Väärä kansio valittu, valitse \'%s\'</string>
     <string name="properties">Ominaisuudet</string>
     <string name="path">Polku</string>
@@ -305,7 +304,7 @@
     <string name="gps_coordinates">GPS-koordinaatit</string>
     <string name="altitude">Korkeus</string>
     <string name="remove_exif">Poista EXIF</string>
-    <string name="remove_exif_confirmation">Haluatko varmasti poistaa EXIF-arvot kuten GPS-koordinaatit, kameran mallin yms.\?</string>
+    <string name="remove_exif_confirmation">Haluatko varmasti poistaa EXIF-arvot kuten GPS-koordinaatit, kameran mallin yms.?</string>
     <string name="exif_removed">EXIF-arvot poistettu onnistuneesti</string>
     <string name="background_color">Taustaväri</string>
     <string name="text_color">Tekstin väri</string>
@@ -320,7 +319,7 @@
     <string name="default_color">Oletus</string>
     <string name="change_color">Vaihda väriä</string>
     <string name="theme">Teema</string>
-    <string name="changing_color_description">Värin vaihtaminen vaihtaa teemaksi "Oma teema"</string>
+    <string name="changing_color_description">Värin vaihtaminen vaihtaa teemaksi Oma teema</string>
     <string name="save">Tallenna</string>
     <string name="discard">Hylkää</string>
     <string name="undo_changes">Peru muutokset</string>
@@ -328,9 +327,7 @@
     <string name="cannot_be_undone">Toimintoa ei ole mahdollista kumota.</string>
     <string name="save_before_closing">Sinulla on tallentamattomia muutoksia. Tallennetaanko ennen sulkemista?</string>
     <string name="global_theme_success">Värit päivitetty. Uusi teema nimeltä \'Jaettu\' käytä sitä jatkossa muokataksesi värejä kaikissa sovelluksissa.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Osta <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Osta <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> avataksesi ominaisuuden ja tukeaksesi kehitystä. Kiitos!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">Vaalea</string>
     <string name="dark_theme">Tumma</string>
     <string name="auto_theme">Automaattinen</string>
@@ -426,8 +423,7 @@
     <string name="please_enter_pin">Syötä PIN</string>
     <string name="wrong_pin">Väärä PIN</string>
     <string name="pin_must_be_4_digits_long">PIN-koodissa tulee olla vähintään 4 numeroa</string>
-    <string name="too_many_incorrect_attempts">Liian monta virheellistä lukituksen avausyritystä.
-\nYritä uudelleen %d sekunnin kuluttua.</string>
+    <string name="too_many_incorrect_attempts">Liian monta virheellistä lukituksen avausyritystä. \nYritä uudelleen %d sekunnin kuluttua.</string>
     <string name="repeat_pin">Toista PIN</string>
     <string name="pattern">Kuvio</string>
     <string name="insert_pattern">Syötä kuvio</string>
@@ -574,8 +570,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Aikaa hälytykseen:\n%s</string>
     <string name="reminder_triggers_in">Aikaa jäljellä ennen muistutusta:\n%s</string>
-    <string name="time_remaining">Aikaa jäljellä:
-\n%s</string>
+    <string name="time_remaining">Aikaa jäljellä: \n%s</string>
     <string name="alarm_warning">Varmista että hälytys toimii ennenkuin turvaudut siihen. Se voi toimia virheellisesti laitteesi virransäästötoiminnoista riippuen.</string>
     <string name="reminder_warning">Varmista että muistutus toimii ennenkuin turvaudut siihen. Se voi toimia virheellisesti laitteesi virransäästötoiminnoista riippuen.</string>
     <string name="notifications_disabled">Tämän sovelluksen ilmoitukset ovat poissa käytöstä. Kytke ilmoitukset päälle laitteesi asetuksista.</string>
@@ -650,7 +645,7 @@
     <string name="excluded">(ohitettu)</string>
     <string name="manage_excluded_folders">Hallitse poissuljettuja kansioita</string>
     <string name="remove_all">Poista kaikki</string>
-    <string name="remove_all_description">Poista kaikki kansiot poissuljettujen listasta\? Tämä ei poista kansioita.</string>
+    <string name="remove_all_description">Poista kaikki kansiot poissuljettujen listasta? Tämä ei poista kansioita.</string>
     <string name="temporarily_show_excluded">Näytä tilapäisesti poissuljetut</string>
     <string name="stop_showing_excluded">Lopeta poissuljettujen näyttäminen</string>
     <string name="manage_shown_tabs">Valitse sovelluksen välilehdet</string>
@@ -686,20 +681,13 @@
     <string name="exporting_failed">Vienti epäonnistui</string>
     <string name="importing_some_entries_failed">Joidenkin kohteiden tuonti epäonnistui</string>
     <string name="exporting_some_entries_failed">Joidenkin kohteiden vienti epäonnistui</string>
-    <string name="no_entries_for_importing">Tuotavia kohteita ei löytynyt </string>
+    <string name="no_entries_for_importing">Tuotavia kohteita ei löytynyt</string>
     <string name="no_new_entries_for_importing">Ei uusia tuotavia kohteita</string>
     <string name="no_entries_for_exporting">Vientikohteita ei löydetty</string>
     <string name="backups">Varmuuskopiot</string>
     <string name="enable_automatic_backups">Ota käyttöön automaattiset varmuuskopiot</string>
     <string name="manage_automatic_backups">Hallitse automaattisia varmuuskopioita</string>
-    <string name="date_time_pattern_info">Voit käyttää seuraavia merkintöjä tiedostojen automaattiseen nimeämiseen:
-\n
-\n%Y - vuosi
-\n%M - kuukausi
-\n%D - päivä
-\n%h - tunti
-\n%m - minuutti
-\n%s - sekunti</string>
+    <string name="date_time_pattern_info">Voit käyttää seuraavia merkintöjä tiedostojen automaattiseen nimeämiseen: \n \n%Y - vuosi \n%M - kuukausi \n%D - päivä \n%h - tunti \n%m - minuutti \n%s - sekunti</string>
     <string name="usb_detected">Laitteeseesi on kytketty USB-lisälaite. Jotta tiedostot lisälaitteelta näkyvät oikein, vaaditaan lisäkäyttöoikeus.</string>
     <string name="confirm_usb_storage_access_text">Valitse USB-laitteen root-kansio salliaksesi pääsyn</string>
     <string name="wrong_root_selected_usb">Väärä kansio valittu, valitse USB-laitteen root-kansio</string>
@@ -775,15 +763,7 @@
     <string name="read_it">Lue</string>
     <string name="read_faq">Lue FAQ</string>
     <string name="thank_you">Kiitos</string>
-    <string name="new_app"><![CDATA[
-            Hei,<br><br>
-           uusia sovelluksia on julkaistu äskettäin::<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            Voita ladata ne painamalla sovelluksen otsikko tai kuvaketta..<br><br>
-            Kiitos
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            Hei,<br><br>\n           uusia sovelluksia on julkaistu äskettäin::<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            Voita ladata ne painamalla sovelluksen otsikko tai kuvaketta..<br><br>\n            Kiitos\n        "]]></string>
     <string name="app_launcher_short">Sovelluskäynnistin</string>
     <string name="calculator_short">Laskin</string>
     <string name="calendar_short">Kalenteri</string>
@@ -802,11 +782,9 @@
     <string name="sms_messenger_short">Tekstiviesti Messenger</string>
     <string name="thank_you_short">Kiitos</string>
     <string name="voice_recorder_short">Ääninauhuri</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Sovellusversiosi vaikuttaa korruptoituneelta. Lataa alkuperäinen versio <a href="%s">täältä</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Usein kysytyt kysymykset</string>
     <string name="before_asking_question">Ennen kuin esität kysymyksen, luethan ensin</string>
     <string name="faq_1_title_commons">Miksi en näe tämän sovelluksen pienoissovellusta pienoissovellusvalikossa?</string>
@@ -819,7 +797,7 @@
     <string name="faq_5_title_commons">Voinko jotenkin palauttaa poistetut tiedostot?</string>
     <string name="faq_5_text_commons">Jos ne todella on poistettu, et voi palauttaa niitä. Oletuksena poistetut tiedostot siirretään roskakoriin, joten varmista, onko tiedostot roskakorissa.</string>
     <string name="faq_6_title_commons">Sovelluksen kuvake hävisi. Mitä voin tehdä?</string>
-    <string name="faq_7_title_commons">Tiliäni on veloitettu, mutta en voi ladata sovellusta. Mitä voin tehdä\?</string>
+    <string name="faq_7_title_commons">Tiliäni on veloitettu, mutta en voi ladata sovellusta. Mitä voin tehdä?</string>
     <string name="faq_7_text_commons">Google hoitaa maksut täysin, ajoittain heidän järjestelmässä on häiriöitä. Tyhjennä Google Play-sovelluksen välimuisti, käynnistä laitteesi uudelleen ja yritä latausta uudelleen.</string>
     <string name="faq_9_title_commons">Kuinka valitsen useamman kohteen kerralla?</string>
     <string name="faq_9_text_commons">Siihen on useampi tapa. Ensimmäinen on aloittaa valitsemistila painamalla pitkään yhtä kohdetta ja sen jälkeen napauttamalla muita valittavia kohteita. Toinen tapa on vastaava kuin kohteiden valinta tietokoneella: paina pitkään yhtä kohdetta ja vie sormi muiden valittavien kohteen yli. Kolmas tapa on painaa ensimmäistä kohdetta pitkään ja sen jälkeen viimeistä kohdetta painamalla pitkään valitaan kaikki kohteet niiden väliltä. Jos haluat valita kaikki kohteet, paina vain yhtä kohdetta pitkään ja sen jälkeen valittujen kohteiden lukumäärää yläpalkista napauttamalla valitset kaikki kohteet tai poistat kaikista valinnan.</string>
@@ -927,8 +905,7 @@
     <string name="may_short">Tou</string>
     <string name="june_short">Kes</string>
     <string name="july_short">Hei</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="deletion_confirmation_short">Poistetaanko %s?</string>
     <string name="pin">PIN</string>
     <string name="add_password">Lisää salasana</string>
@@ -980,15 +957,8 @@
     <string name="translation_gujarati">Gujarati</string>
     <string name="translation_belarusian">Valko-Venäjä</string>
     <string name="translation_chuvash">Tšuvassi</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Tottakai. Voit levittää sovelluksista sanaa tai antaa arvosteluita. Voit myös auttaa kääntämällä sovelluksia uusille kielille tai päivittämällä jo olemassaolevia kieliä.
-            Käännösohjeet seuraavasta <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">osoitteesta</a> tai ottamalla yhteyttä osoitteeseen <a href="mailto:hello@fossify.org">hello@fossify.org</a>
-        ]]></string>
-    <string name="contributors_label"><![CDATA[
-            Tämä lista sisältää Fossify-perheen sovellusten kehityksessä autteneet henkilöt. Käännökset on tehty vapaaehtoisten voimin. Ota yhteyttä mikäli haluat auttaa. Käännösohjeet seuraavasta: <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">osoitteesta</a>. Voit myös olla yhteydessä osoitteeseen <a href="mailto:hello@fossify.org">hello@fossify.org</a>
-
-            Kiitos kaikille kehitystyössä avustaneille ja tukijoille!
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Tottakai. Voit levittää sovelluksista sanaa tai antaa arvosteluita. Voit myös auttaa kääntämällä sovelluksia uusille kielille tai päivittämällä jo olemassaolevia kieliä.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Käännösohjeet seuraavasta <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">osoitteesta</a> tai ottamalla yhteyttä osoitteeseen <a href="mailto:hello@fossify.org">hello@fossify.org</a>\n \u0020 \u0020 \u0020 \u0020]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Tämä lista sisältää Fossify-perheen sovellusten kehityksessä autteneet henkilöt. Käännökset on tehty vapaaehtoisten voimin. Ota yhteyttä mikäli haluat auttaa. Käännösohjeet seuraavasta: <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">osoitteesta</a>. Voit myös olla yhteydessä osoitteeseen <a href="mailto:hello@fossify.org">hello@fossify.org</a>\n\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Kiitos kaikille kehitystyössä avustaneille ja tukijoille!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="more_fossify_apps">Lisää Fossify-sovelluksia</string>
     <string name="rate_this_app">Arvostele sovellus</string>
     <string name="requires_fossify_thank_you">Vaatii Fossify Thank You:n</string>

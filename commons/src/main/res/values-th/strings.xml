@@ -340,9 +340,7 @@
     <string name="apply_to_all_apps">ใช้ธีมกับแอป Fossify ทั้งหมด</string>
     <string name="app_icon_color_warning">ข้อควรระวัง: Launcher บางตัวอาจจัดการการปรับแต่งไอคอนแอปได้ไม่ถูกต้อง หากไอคอนหายไป ให้ลองเปิดแอปผ่าน Google Play หรือวิดเจ็ตหากใช้งานได้ หลังจากเปิดแล้ว ให้คืนค่าสีไอคอนสีเขียวเริ่มต้น #106D1F ในกรณีร้ายแรง อาจต้องติดตั้งแอปใหม่</string>
     <string name="global_theme_success">ธีมปัจจุบันถูกนำไปใช้กับแอป Fossify ทั้งหมดเรียบร้อยแล้ว การเปลี่ยนแปลงธีมในอนาคตจะซิงค์โดยอัตโนมัติ</string>
-    <string name="purchase_thank_you"><![CDATA[
-            กรุณาซื้อ <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> เพื่อใช้ฟีเจอร์นี้และสนับสนุนการพัฒนา ขอบคุณ!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020กรุณาซื้อ <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> เพื่อใช้ฟีเจอร์นี้และสนับสนุนการพัฒนา ขอบคุณ!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">สว่าง</string>
     <string name="dark_theme">มืด</string>
     <string name="auto_theme">อัตโนมัติ</string>
@@ -793,15 +791,7 @@
     <string name="read_faq">อ่าน FAQ</string>
     <string name="thank_you">ขอบคุณ</string>
     <string name="all_fossify_apps">แอป Fossify ทั้งหมด</string>
-    <string name="new_app"><![CDATA[
-            เฮ้,<br><br>
-            แจ้งให้ทราบว่ามีแอปใหม่เปิดตัวเมื่อไม่นานมานี้:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            คุณสามารถดาวน์โหลดได้โดยกดที่ชื่อหรือไอคอน<br><br>
-            ขอบคุณ
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            เฮ้,<br><br>\n            แจ้งให้ทราบว่ามีแอปใหม่เปิดตัวเมื่อไม่นานมานี้:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            คุณสามารถดาวน์โหลดได้โดยกดที่ชื่อหรือไอคอน<br><br>\n            ขอบคุณ\n        "]]></string>
     <string name="app_launcher_short">ตัวเรียกใช้งาน</string>
     <string name="calculator_short">เครื่องคิดเลข</string>
     <string name="calendar_short">ปฏิทิน</string>
@@ -820,9 +810,7 @@
     <string name="sms_messenger_short">ส่งข้อความ</string>
     <string name="thank_you_short">ขอบคุณ</string>
     <string name="voice_recorder_short">บันทึกเสียง</string>
-    <string name="sideloaded_app"><![CDATA[
-            ดูเหมือนว่าเวอร์ชันแอปของคุณเสียหาย กรุณาดาวน์โหลดเวอร์ชันต้นฉบับ <a href="%s">ที่นี่</a>
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020ดูเหมือนว่าเวอร์ชันแอปของคุณเสียหาย กรุณาดาวน์โหลดเวอร์ชันต้นฉบับ <a href="%s">ที่นี่</a>\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="donate_to_fossify">บริจาคให้ Fossify</string>
     <string name="platforms">แพลตฟอร์ม</string>
     <string name="little_to_no_fee">ค่าธรรมเนียมน้อยหรือไม่มีเลย</string>
@@ -835,10 +823,7 @@
     <string name="faq_1_title_commons">ทำไมฉันไม่เห็นวิดเจ็ตของแอปนี้ในรายการวิดเจ็ต?</string>
     <string name="faq_1_text_commons">น่าจะเป็นเพราะคุณย้ายแอปไปไว้บน SD Card ระบบ Android มีข้อจำกัดที่ซ่อนวิดเจ็ตของแอปในกรณีนั้น วิธีแก้ไขเพียงอย่างเดียวคือย้ายแอปกลับไปยังหน่วยความจำภายในผ่านการตั้งค่าอุปกรณ์</string>
     <string name="faq_2_title_commons">ฉันอยากสนับสนุนคุณ แต่ไม่สามารถบริจาคเงินได้ มีวิธีอื่นไหม?</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            ได้แน่นอน คุณสามารถบอกต่อเกี่ยวกับแอป หรือให้คะแนนและรีวิวดีๆ คุณยังช่วยได้โดยการแปลแอปเป็นภาษาใหม่ หรืออัปเดตคำแปลที่มีอยู่
-            คำแนะนำการแปลอยู่ที่ <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">เว็บไซต์นี้</a> หรือติดต่อเราที่ <a href="mailto:hello@fossify.org">hello@fossify.org</a> หากมีคำถาม
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020ได้แน่นอน คุณสามารถบอกต่อเกี่ยวกับแอป หรือให้คะแนนและรีวิวดีๆ คุณยังช่วยได้โดยการแปลแอปเป็นภาษาใหม่ หรืออัปเดตคำแปลที่มีอยู่\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020คำแนะนำการแปลอยู่ที่ <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">เว็บไซต์นี้</a> หรือติดต่อเราที่ <a href="mailto:hello@fossify.org">hello@fossify.org</a> หากมีคำถาม\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="faq_3_title_commons">ฉันลบไฟล์โดยไม่ตั้งใจ จะกู้คืนได้อย่างไร?</string>
     <string name="faq_3_text_commons">น่าเสียดายที่ไม่สามารถกู้คืนได้ ไฟล์จะถูกลบทันทีหลังจากยืนยัน ไม่มีถังขยะให้ใช้</string>
     <string name="faq_4_title_commons">ฉันไม่ชอบสีวิดเจ็ต สามารถเปลี่ยนได้ไหม?</string>
@@ -857,10 +842,7 @@
     <string name="translation">การแปล</string>
     <string name="development">การพัฒนา</string>
     <string name="other_help">ความช่วยเหลืออื่นๆ</string>
-    <string name="contributors_label"><![CDATA[
-            รายชื่อนี้ประกอบด้วยทุกคนที่มีส่วนช่วยเหลืออย่างเห็นได้ชัดต่อแอปใดๆ ในชุด Fossify ไม่ใช่เฉพาะแอปนี้ การแปลดำเนินการโดยอาสาสมัคร
-            แจ้งให้เราทราบหากคุณต้องการช่วยด้วย คำแนะนำการแปลอยู่ที่ <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">เว็บไซต์นี้</a> หรือติดต่อเราที่ <a href="mailto:hello@fossify.org">hello@fossify.org</a> ขอบคุณผู้มีส่วนร่วมและผู้สนับสนุนทุกคน!
-        ]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020รายชื่อนี้ประกอบด้วยทุกคนที่มีส่วนช่วยเหลืออย่างเห็นได้ชัดต่อแอปใดๆ ในชุด Fossify ไม่ใช่เฉพาะแอปนี้ การแปลดำเนินการโดยอาสาสมัคร\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020แจ้งให้เราทราบหากคุณต้องการช่วยด้วย คำแนะนำการแปลอยู่ที่ <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">เว็บไซต์นี้</a> หรือติดต่อเราที่ <a href="mailto:hello@fossify.org">hello@fossify.org</a> ขอบคุณผู้มีส่วนร่วมและผู้สนับสนุนทุกคน!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="translation_arabic">อาหรับ</string>
     <string name="translation_azerbaijani">อาเซอร์ไบจาน</string>
     <string name="translation_belarusian">เบลารุส</string>

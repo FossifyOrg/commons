@@ -681,8 +681,7 @@
     <string name="date_created">생성 날짜</string>
     <string name="add_password">비밀번호 추가</string>
     <string name="open_the_recycle_bin">휴지통 열기</string>
-    <string name="too_many_incorrect_attempts">잘못된 잠금 해제 시도가 너무 많습니다.
-\n%d초 후에 다시 시도하세요.</string>
+    <string name="too_many_incorrect_attempts">잘못된 잠금 해제 시도가 너무 많습니다. \n%d초 후에 다시 시도하세요.</string>
     <string name="empty_password_new">비밀번호를 입력하세요</string>
     <string name="empty_password">비밀번호를 입력하세요</string>
     <string name="invalid_password">잘못된 비밀번호입니다</string>

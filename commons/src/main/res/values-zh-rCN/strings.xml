@@ -22,8 +22,7 @@
     <string name="copy_to_clipboard">复制到剪贴板</string>
     <string name="copy_number_to_clipboard">复制号码到剪贴板</string>
     <string name="value_copied_to_clipboard">数值已复制到剪贴板</string>
-    <string name="value_copied_to_clipboard_show">数值已复制到剪贴板：
-\n%s</string>
+    <string name="value_copied_to_clipboard_show">数值已复制到剪贴板： \n%s</string>
     <string name="dial_number">拨打电话号码</string>
     <string name="unknown">未知</string>
     <string name="always">总是</string>
@@ -194,13 +193,7 @@
     <string name="simple_renaming">简单重命名</string>
     <string name="pattern_renaming">格式</string>
     <string name="string_to_add">要添加的文本</string>
-    <string name="rename_date_time_pattern">%Y - 年
-\n%M - 月
-\n%D - 日
-\n%h - 时
-\n%m - 分
-\n%s - 秒
-\n%i - 数字从 1 起计</string>
+    <string name="rename_date_time_pattern">%Y - 年 \n%M - 月 \n%D - 日 \n%h - 时 \n%m - 分 \n%s - 秒 \n%i - 数字从 1 起计</string>
     <string name="filename_without_txt">文件名 (不含 .txt)</string>
     <string name="filename_without_json">文件名 (不含 .json)</string>
     <string name="filename_without_zip">文件名 (不含 .zip)</string>
@@ -232,8 +225,7 @@
     <string name="could_not_create_folder">无法创建文件夹 %s</string>
     <string name="could_not_create_file">创建文件 %s 失败</string>
     <string name="no_new_items">未找到新项目</string>
-    <string name="no_space">目标没有足够的可用空间。
-\n需要 %1$s，可用 %2$s</string>
+    <string name="no_space">目标没有足够的可用空间。 \n需要 %1$s，可用 %2$s</string>
     <string name="system_service_disabled">选择文件和文件夹的系统服务不可用</string>
     <string name="create_new">新建</string>
     <string name="folder">文件夹</string>
@@ -264,8 +256,8 @@
     <string name="confirm_storage_access_text">请选择 SD 卡根目录并授予写入权限</string>
     <string name="confirm_storage_access_text_sd">如果您没有找到 SD 卡目录，请尝试</string>
     <string name="confirm_storage_access_android_text">请在下一个屏幕中按底部的“使用此文件夹”以允许访问所选存储。</string>
-    <string name="confirm_storage_access_android_text_specific">请在下一个屏幕中按底部的“<b>使用此文件夹</b>”以允许访问“<b>%s</b>”。</string>
-    <string name="confirm_create_doc_for_new_folder_text">请在下一个屏幕中按底部的“<b>保存</b>”来新建文件夹。</string>
+    <string name="confirm_storage_access_android_text_specific">请在下一个屏幕中按底部的“&lt;b&gt;使用此文件夹&lt;/b&gt;”以允许访问“&lt;b&gt;%s&lt;/b&gt;”。</string>
+    <string name="confirm_create_doc_for_new_folder_text">请在下一个屏幕中按底部的“&lt;b&gt;保存&lt;/b&gt;”来新建文件夹。</string>
     <string name="confirm_selection">确认选择</string>
     <string name="loading">正在加载…</string>
     <string name="access_storage_prompt">请授权本应用访问您的所有文件，没有此权限它可能无法正常工作。</string>
@@ -335,9 +327,7 @@
     <string name="apply_to_all_apps">将主题应用于所有 Fossify 应用</string>
     <string name="app_icon_color_warning">注意：某些启动器无法正确处理自定义的应用图标。如图标消失，请尝试通过 Google Play 商店或者微件启动对应的应用。启动后请还原为默认的绿色图标色 #106D1F。在某些情形下你可能要重新安装应用。</string>
     <string name="global_theme_success">颜色已成功更新。已添加名为“共享”的新主题，以后您可以使用它来更改所有应用的颜色。</string>
-    <string name="purchase_thank_you"><![CDATA[
-            请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 以使用此功能并支持开发。谢谢！
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[请购买 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 以使用此功能并支持开发。谢谢！]]></string>
     <string name="light_theme">浅色主题</string>
     <string name="dark_theme">深色主题</string>
     <string name="auto_theme">自动</string>
@@ -433,8 +423,7 @@
     <string name="please_enter_pin">请输入 PIN 码</string>
     <string name="wrong_pin">PIN 码错误</string>
     <string name="pin_must_be_4_digits_long">PIN 码至少需要 4 个数字</string>
-    <string name="too_many_incorrect_attempts">解锁失败次数已达上限。
-\n请在 %d 秒后重试。</string>
+    <string name="too_many_incorrect_attempts">解锁失败次数已达上限。 \n请在 %d 秒后重试。</string>
     <string name="repeat_pin">请再输入一次 PIN 码</string>
     <string name="pattern">图案</string>
     <string name="insert_pattern">绘制解锁图案</string>
@@ -554,10 +543,8 @@
     <plurals name="by_years">
         <item quantity="other">%d 年</item>
     </plurals>
-    <string name="alarm_goes_off_in">闹钟响起倒计时：
-\n%s</string>
-    <string name="reminder_triggers_in">提醒触发倒计时：
-\n%s</string>
+    <string name="alarm_goes_off_in">闹钟响起倒计时： \n%s</string>
+    <string name="reminder_triggers_in">提醒触发倒计时： \n%s</string>
     <string name="time_remaining">剩余时间：\n%s</string>
     <string name="alarm_warning">请在使用闹钟之前确保它能够正常工作。由于系统的省电功能的影响，闹钟有时会失灵。</string>
     <string name="reminder_warning">请在使用提醒之前确保它能够正常工作。请检查本设备的电池和通知设置，确保没有任何选项会屏蔽通知，并避免相关应用在后台被系统清理。</string>
@@ -675,14 +662,7 @@
     <string name="backups">备份</string>
     <string name="enable_automatic_backups">启用自动备份</string>
     <string name="manage_automatic_backups">管理自动备份</string>
-    <string name="date_time_pattern_info">你可以使用下列模式自动命名你的文件：
-\n
-\n%Y - 年
-\n%M - 月
-\n%D - 天
-\n%h - 小时
-\n%m - 分钟
-\n%s - 秒</string>
+    <string name="date_time_pattern_info">你可以使用下列模式自动命名你的文件： \n \n%Y - 年 \n%M - 月 \n%D - 天 \n%h - 小时 \n%m - 分钟 \n%s - 秒</string>
     <string name="usb_detected">检测到有 USB 设备连接到本设备。您需要授予额外的权限以确保文件能够正确显示。</string>
     <string name="confirm_usb_storage_access_text">请在下一个画面选择 USB 设备的根文件夹以授予访问权限</string>
     <string name="wrong_root_selected_usb">选择了错误的文件夹，请选择该 USB 设备的根文件夹</string>
@@ -765,15 +745,7 @@
     <string name="read_it">阅读</string>
     <string name="read_faq">阅读常见问题</string>
     <string name="thank_you">非常感谢</string>
-    <string name="new_app"><![CDATA[
-            嘿，<br><br>
-            最近发布了一些新应用：<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            您可按这些应用的名称或图标下载它们。<br><br>
-            谢谢
-        ]]></string>
+    <string name="new_app"><![CDATA["嘿，<br><br>\n            最近发布了一些新应用：<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            您可按这些应用的名称或图标下载它们。<br><br>\n            谢谢"]]></string>
     <string name="app_launcher_short">应用启动器</string>
     <string name="calculator_short">计算器</string>
     <string name="calendar_short">日历</string>
@@ -792,18 +764,13 @@
     <string name="sms_messenger_short">信息</string>
     <string name="thank_you_short">感谢</string>
     <string name="voice_recorder_short">录音机</string>
-    <string name="sideloaded_app"><![CDATA[
-            似乎您的应用版本损坏了。 请在 <a href="%s">此处</a>下载原始版本。
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[似乎您的应用版本损坏了。 请在 <a href="%s">此处</a>下载原始版本。]]></string>
     <string name="frequently_asked_questions">常见问题</string>
     <string name="before_asking_question">在提问之前，请先阅读</string>
     <string name="faq_1_title_commons">为什么我在应用微件列表中没有找到此应用的微件？</string>
     <string name="faq_1_text_commons">这很可能是因为您将应用移动到了 SD 卡。由于 Android 系统的限制，安装在 SD 卡中的应用将不能显示微件。唯一的解决方法是在系统设置中将本应用移动回内部存储空间中。</string>
     <string name="faq_2_title_commons">我想支持你们的工作，但我无法捐款。还有什么是我能够做的吗？</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            是的，当然了。您可以向其他人介绍这些应用或者给予良好反馈和评价。您也可以帮忙将应用翻译成新的语言，或是更新一些现有的翻译。
-            翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[是的，当然了。您可以向其他人介绍这些应用或者给予良好反馈和评价。您也可以帮忙将应用翻译成新的语言，或是更新一些现有的翻译。\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。]]></string>
     <string name="faq_3_title_commons">我误删了文件。我应该如何恢复它们？</string>
     <string name="faq_3_text_commons">非常不幸，您已经无法恢复它们了。如果您在删除确认对话框中确认了删除操作，那么文件就会立即被彻底删除。因为它们没有经过回收站删除，因此也就无法通过回收站还原。</string>
     <string name="faq_4_title_commons">我不喜欢微件的颜色，我可以修改吗？</string>
@@ -822,11 +789,7 @@
     <string name="translation">翻译</string>
     <string name="development">开发</string>
     <string name="other_help">其他帮助</string>
-    <string name="contributors_label"><![CDATA[
-            此列表包含了每一个显著帮助了 Fossify 套件内任何应用的人，而不仅是这个应用。翻译由志愿者处理，
-            如果您也想帮忙，也请让我们知晓。 翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。
-            感谢所有贡献者和其他支持者！
-        ]]></string>
+    <string name="contributors_label"><![CDATA[此列表包含了每一个显著帮助了 Fossify 套件内任何应用的人，而不仅是这个应用。翻译由志愿者处理，\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020如果您也想帮忙，也请让我们知晓。 翻译指南位于 <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">此网站</a>，或者如果您有任何问题可以通过 <a href="mailto:hello@fossify.org">hello@fossify.org</a>联系我们。\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020感谢所有贡献者和其他支持者！]]></string>
     <string name="third_party_licences">第三方许可</string>
     <string name="kotlin_title">Kotlin (编程语言)</string>
     <string name="subsampling_title">Subsampling Scale Image View (可缩放图像视图)</string>

@@ -198,13 +198,7 @@
     <string name="simple_renaming">Простое переименование</string>
     <string name="pattern_renaming">Шаблон</string>
     <string name="string_to_add">Текст для добавления</string>
-    <string name="rename_date_time_pattern">%Y — год
-\n%M — месяц
-\n%D — день
-\n%h — час
-\n%m — минута
-\n%s — секунда
-\n%i — порядковый номер с 1</string>
+    <string name="rename_date_time_pattern">%Y — год \n%M — месяц \n%D — день \n%h — час \n%m — минута \n%s — секунда \n%i — порядковый номер с 1</string>
     <string name="filename_without_txt">Имя файла (без .txt)</string>
     <string name="filename_without_json">Имя файла (без .json)</string>
     <string name="filename_without_zip">Имя файла (без .zip)</string>
@@ -267,7 +261,7 @@
     <string name="confirm_storage_access_text">Чтобы предоставить доступ для записи, выберите корневую папку карты памяти на следующем шаге</string>
     <string name="confirm_storage_access_text_sd">Если карта памяти не видна, попробуйте это</string>
     <string name="confirm_storage_access_android_text">Разрешите приложению доступ к выбранному хранилищу на следующем экране, нажав \"Использовать эту папку\" в нижней части.</string>
-    <string name="confirm_storage_access_android_text_specific">Разрешите доступ к \"<b>%s</b>\" на следующем экране, нажав \"<b>Использовать эту папку</b>\" внизу.</string>
+    <string name="confirm_storage_access_android_text_specific">Разрешите доступ к \"&lt;b&gt;%s&lt;/b&gt;\" на следующем экране, нажав \"&lt;b&gt;Использовать эту папку&lt;/b&gt;\" внизу.</string>
     <string name="confirm_create_doc_for_new_folder_text">Нажмите \"&lt;b&gt;Сохранить&lt;/b&gt;\" внизу на следующем экране, чтобы создать новую папку.</string>
     <string name="confirm_selection">Подтвердить выделение</string>
     <string name="loading">Загрузка…</string>
@@ -276,21 +270,25 @@
         <item quantity="one">%d элемент</item>
         <item quantity="few">%d элемента</item>
         <item quantity="many">%d элементов</item>
+        <item quantity="other">%d элементов</item>
     </plurals>
     <plurals name="delete_items">
         <item quantity="one">%d элемент</item>
         <item quantity="few">%d элемента</item>
         <item quantity="many">%d элементов</item>
+        <item quantity="other">%d элементов</item>
     </plurals>
     <plurals name="deleting_items">
         <item quantity="one">Удаление %d элемента</item>
         <item quantity="few">Удаление %d элементов</item>
         <item quantity="many">Удаление %d элементов</item>
+        <item quantity="other">Удаление %d элементов</item>
     </plurals>
     <plurals name="delete_contacts">
         <item quantity="one">%d контакт</item>
         <item quantity="few">%d контакта</item>
         <item quantity="many">%d контактов</item>
+        <item quantity="other">%d контактов</item>
     </plurals>
     <string name="select_storage">Выбрать хранилище</string>
     <string name="storage">Хранилище</string>
@@ -321,7 +319,7 @@
     <string name="gps_coordinates">Координаты GPS</string>
     <string name="altitude">Высота над уровнем моря</string>
     <string name="remove_exif">Удалить EXIF</string>
-    <string name="remove_exif_confirmation">Вы уверены, что хотите удалить записи EXIF, такие как координаты GPS, модель камеры и т.д.\?</string>
+    <string name="remove_exif_confirmation">Вы уверены, что хотите удалить записи EXIF, такие как координаты GPS, модель камеры и т.д.?</string>
     <string name="exif_removed">Записи EXIF удалены</string>
     <string name="background_color">Цвет фона</string>
     <string name="text_color">Цвет текста</string>
@@ -423,7 +421,7 @@
     <string name="more_options">Ещё</string>
     <string name="proceed_with_deletion">Вы точно хотите удалить?</string>
     <string name="deletion_confirmation">Удалить %s?</string>
-    <string name="deletion_confirmation_short">Удалить %s\?</string>
+    <string name="deletion_confirmation_short">Удалить %s?</string>
     <string name="move_to_recycle_bin_confirmation">Переместить %s в корзину?</string>
     <string name="are_you_sure_delete">Удалить этот элемент?</string>
     <string name="are_you_sure_recycle_bin">Переместить этот элемент в корзину?</string>
@@ -436,14 +434,14 @@
         <item quantity="one">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папку</item>
         <item quantity="few">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папки</item>
         <item quantity="many">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папок</item>
+        <item quantity="other">ПРЕДУПРЕЖДЕНИЕ: вы удаляете %d папок</item>
     </plurals>
     <string name="pin">PIN-код</string>
     <string name="enter_pin">Ввод PIN-кода</string>
     <string name="please_enter_pin">Введите PIN-код</string>
     <string name="wrong_pin">Неправильный PIN-код</string>
     <string name="pin_must_be_4_digits_long">PIN-код должен содержать не менее 4 цифр</string>
-    <string name="too_many_incorrect_attempts">Слишком много неправильных попыток разблокировки.
-\nПовторите попытку через %d сек.</string>
+    <string name="too_many_incorrect_attempts">Слишком много неправильных попыток разблокировки. \nПовторите попытку через %d сек.</string>
     <string name="repeat_pin">Повторите PIN-код</string>
     <string name="pattern">Графический ключ</string>
     <string name="insert_pattern">Установить ключ</string>
@@ -487,141 +485,169 @@
         <item quantity="one">%d секунда</item>
         <item quantity="few">%d секунды</item>
         <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
     </plurals>
     <plurals name="minutes">
         <item quantity="one">%d минута</item>
         <item quantity="few">%d минуты</item>
         <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
     </plurals>
     <plurals name="hours">
         <item quantity="one">%d час</item>
         <item quantity="few">%d часа</item>
         <item quantity="many">%d часов</item>
+        <item quantity="other">%d часов</item>
     </plurals>
     <plurals name="days">
         <item quantity="one">%d день</item>
         <item quantity="few">%d дня</item>
         <item quantity="many">%d дней</item>
+        <item quantity="other">%d дней</item>
     </plurals>
     <plurals name="weeks">
         <item quantity="one">%d неделя</item>
         <item quantity="few">%d недели</item>
         <item quantity="many">%d недель</item>
+        <item quantity="other">%d недель</item>
     </plurals>
     <plurals name="months">
         <item quantity="one">%d месяц</item>
         <item quantity="few">%d месяца</item>
         <item quantity="many">%d месяцев</item>
+        <item quantity="other">%d месяцев</item>
     </plurals>
     <plurals name="years">
         <item quantity="one">%d год</item>
         <item quantity="few">%d года</item>
         <item quantity="many">%d лет</item>
+        <item quantity="other">%d лет</item>
     </plurals>
     <plurals name="in_seconds">
         <item quantity="one">%d секунду</item>
         <item quantity="few">%d секунды</item>
         <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
     </plurals>
     <plurals name="in_minutes">
         <item quantity="one">%d минуту</item>
         <item quantity="few">%d минуты</item>
         <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
     </plurals>
     <plurals name="in_hours">
         <item quantity="one">%d час</item>
         <item quantity="few">%d часа</item>
         <item quantity="many">%d часов</item>
+        <item quantity="other">%d часов</item>
     </plurals>
     <plurals name="in_days">
         <item quantity="one">%d день</item>
         <item quantity="few">%d дня</item>
         <item quantity="many">%d дней</item>
+        <item quantity="other">%d дней</item>
     </plurals>
     <plurals name="in_weeks">
         <item quantity="one">%d неделю</item>
         <item quantity="few">%d недели</item>
         <item quantity="many">%d недель</item>
+        <item quantity="other">%d недель</item>
     </plurals>
     <plurals name="in_months">
         <item quantity="one">%d месяц</item>
         <item quantity="few">%d месяца</item>
         <item quantity="many">%d месяцев</item>
+        <item quantity="other">%d месяцев</item>
     </plurals>
     <plurals name="in_years">
         <item quantity="one">%d год</item>
         <item quantity="few">%d года</item>
         <item quantity="many">%d лет</item>
+        <item quantity="other">%d лет</item>
     </plurals>
     <plurals name="seconds_before">
         <item quantity="one">%d секунда до события</item>
         <item quantity="few">%d секунды до события</item>
         <item quantity="many">%d секунд до события</item>
+        <item quantity="other">%d секунд до события</item>
     </plurals>
     <plurals name="minutes_before">
         <item quantity="one">%d минута до события</item>
         <item quantity="few">%d минуты до события</item>
         <item quantity="many">%d минут до события</item>
+        <item quantity="other">%d минут до события</item>
     </plurals>
     <plurals name="hours_before">
         <item quantity="one">%d час до события</item>
         <item quantity="few">%d часа до события</item>
         <item quantity="many">%d часов до события</item>
+        <item quantity="other">%d часов до события</item>
     </plurals>
     <plurals name="days_before">
         <item quantity="one">%d день до события</item>
         <item quantity="few">%d дня до события</item>
         <item quantity="many">%d дней до события</item>
+        <item quantity="other">%d дней до события</item>
     </plurals>
     <plurals name="weeks_before">
         <item quantity="one">%d неделя до события</item>
         <item quantity="few">%d недели до события</item>
         <item quantity="many">%d недель до события</item>
+        <item quantity="other">%d недель до события</item>
     </plurals>
     <plurals name="months_before">
         <item quantity="one">%d месяц до события</item>
         <item quantity="few">%d месяца до события</item>
         <item quantity="many">%d месяцев до события</item>
+        <item quantity="other">%d месяцев до события</item>
     </plurals>
     <plurals name="years_before">
         <item quantity="one">%d год до события</item>
         <item quantity="few">%d года до события</item>
         <item quantity="many">%d лет до события</item>
+        <item quantity="other">%d лет до события</item>
     </plurals>
     <plurals name="by_seconds">
         <item quantity="one">%d секунду</item>
         <item quantity="few">%d секунды</item>
         <item quantity="many">%d секунд</item>
+        <item quantity="other">%d секунд</item>
     </plurals>
     <plurals name="by_minutes">
         <item quantity="one">%d минуту</item>
         <item quantity="few">%d минуты</item>
         <item quantity="many">%d минут</item>
+        <item quantity="other">%d минут</item>
     </plurals>
     <plurals name="by_hours">
         <item quantity="one">%d час</item>
         <item quantity="few">%d часа</item>
         <item quantity="many">%d часов</item>
+        <item quantity="other">%d часов</item>
     </plurals>
     <plurals name="by_days">
         <item quantity="one">%d день</item>
         <item quantity="few">%d дня</item>
         <item quantity="many">%d дней</item>
+        <item quantity="other">%d дней</item>
     </plurals>
     <plurals name="by_weeks">
         <item quantity="one">%d неделю</item>
         <item quantity="few">%d недели</item>
         <item quantity="many">%d недель</item>
+        <item quantity="other">%d недель</item>
     </plurals>
     <plurals name="by_months">
         <item quantity="one">%d месяц</item>
         <item quantity="few">%d месяца</item>
         <item quantity="many">%d месяцев</item>
+        <item quantity="other">%d месяцев</item>
     </plurals>
     <plurals name="by_years">
         <item quantity="one">%d год</item>
         <item quantity="few">%d года</item>
         <item quantity="many">%d лет</item>
+        <item quantity="other">%d лет</item>
     </plurals>
     <string name="alarm_goes_off_in">Время до срабатывания будильника:\n%s</string>
     <string name="reminder_triggers_in">Время до срабатывания напоминания:\n%s</string>
@@ -677,7 +703,7 @@
     <string name="force_portrait_mode">Принудительный портретный режим</string>
     <string name="export_settings">Экспорт настроек</string>
     <string name="import_settings">Импорт настроек</string>
-    <string name="settings_exported_successfully">Настройки успешно экспортированы </string>
+    <string name="settings_exported_successfully">Настройки успешно экспортированы</string>
     <string name="settings_imported_successfully">Настройки успешно импортированы</string>
     <string name="start_name_with_surname">Показывать сначала фамилию</string>
     <string name="clear_cache">Очистка кэша</string>
@@ -701,7 +727,7 @@
     <string name="excluded">(исключено)</string>
     <string name="manage_excluded_folders">Управление исключёнными папками</string>
     <string name="remove_all">Удалить всё</string>
-    <string name="remove_all_description">Очистить список исключённых папок\? Сами папки не будут удалены.</string>
+    <string name="remove_all_description">Очистить список исключённых папок? Сами папки не будут удалены.</string>
     <string name="temporarily_show_excluded">Временно показать исключённые</string>
     <string name="stop_showing_excluded">Не показывать исключённые</string>
     <string name="manage_shown_tabs">Управление отображаемыми вкладками</string>
@@ -745,14 +771,7 @@
     <string name="backups">Резервные копии</string>
     <string name="enable_automatic_backups">Использовать авторезервирование</string>
     <string name="manage_automatic_backups">Управление авторезервированием</string>
-    <string name="date_time_pattern_info">Можно использовать следующие переменные для автоименования файла:
-\n
-\n%Y — год
-\n%M — месяц
-\n%D — день
-\n%h — час
-\n%m — минута
-\n%s — секунда</string>
+    <string name="date_time_pattern_info">Можно использовать следующие переменные для автоименования файла: \n \n%Y — год \n%M — месяц \n%D — день \n%h — час \n%m — минута \n%s — секунда</string>
     <string name="usb_detected">К устройству подключён USB-накопитель. Чтобы убедиться, что его файлы отображаются правильно, необходимо предоставить дополнительные разрешения.</string>
     <string name="confirm_usb_storage_access_text">Выберите корневую папку USB-накопителя на следующем экране, чтобы предоставить к нему доступ</string>
     <string name="wrong_root_selected_usb">Выбрана неправильная папка. Выберите корневую папку USB-накопителя</string>
@@ -826,8 +845,7 @@
     <string name="invite_via">Предложить с помощью</string>
     <string name="donate">Пожертвовать</string>
     <string name="follow_us">Подписаться на нас</string>
-    <string name="copyright">v%1$s
-\nАвторские права © Fossify %2$d</string>
+    <string name="copyright">v%1$s \nАвторские права © Fossify %2$d</string>
     <string name="support">Поддержка</string>
     <string name="help_us">Помочь нам</string>
     <string name="social">Сообщество</string>
@@ -845,15 +863,7 @@
     <string name="read_it">Прочитать</string>
     <string name="read_faq">Прочитать FAQ</string>
     <string name="thank_you">Спасибо</string>
-    <string name="new_app"><![CDATA[
-            Привет,<br><br>
-            просто сообщаем, что недавно были выпущены новые приложения:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            Их можно загрузить, нажав на заголовок или значок.<br><br>
-            Спасибо
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            Привет,<br><br>\n            просто сообщаем, что недавно были выпущены новые приложения:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            Их можно загрузить, нажав на заголовок или значок.<br><br>\n            Спасибо\n        "]]></string>
     <string name="app_launcher_short">Рабочий стол</string>
     <string name="calculator_short">Калькулятор</string>
     <string name="calendar_short">Календарь</string>
@@ -872,18 +882,13 @@
     <string name="sms_messenger_short">Сообщения</string>
     <string name="thank_you_short">Спасибо</string>
     <string name="voice_recorder_short">Диктофон</string>
-    <string name="sideloaded_app"><![CDATA[
-            Похоже, ваша версия приложения повреждена. Загрузите оригинальную версию <a href="%s">отсюда</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Похоже, ваша версия приложения повреждена. Загрузите оригинальную версию <a href="%s">отсюда</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">Часто задаваемые вопросы</string>
     <string name="before_asking_question">Прежде чем задать вопрос, прочитайте</string>
     <string name="faq_1_title_commons">Почему я не вижу виджет этого приложения в списке виджетов?</string>
     <string name="faq_1_text_commons">Это, скорее всего, потому, что вы перенесли приложение на карту памяти. Существует ограничение системы Android, которое скрывает виджеты приложения в этом случае. Единственное решение — переместить приложение обратно во внутреннее хранилище через настройки вашего устройства.</string>
     <string name="faq_2_title_commons">Я хочу поддержать вас, но не могу пожертвовать деньги. Есть ли что-нибудь ещё, что я могу сделать?</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Да, конечно. Вы можете рассказывать о наших приложениях или оставлять хорошие отзывы и оценки. Также вы можете помочь, переведя приложения на новый язык или обновив существующий перевод.
-            Руководство по переводу находится <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Да, конечно. Вы можете рассказывать о наших приложениях или оставлять хорошие отзывы и оценки. Также вы можете помочь, переведя приложения на новый язык или обновив существующий перевод.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Руководство по переводу находится <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="faq_3_title_commons">Я по ошибке удалил некоторые файлы. Как их восстановить?</string>
     <string name="faq_3_text_commons">К сожалению, вы не можете этого сделать. Файлы удаляются сразу после диалога подтверждения, корзина недоступна.</string>
     <string name="faq_4_title_commons">Мне не нравятся цвета виджета. Я могу их изменить?</string>
@@ -901,13 +906,11 @@
     <string name="translation">Перевод</string>
     <string name="development">Разработка</string>
     <string name="other_help">Другая помощь</string>
-    <string name="contributors_label">
-        <![CDATA[
+    <string name="contributors_label"><![CDATA[
             В данном списке перечислены все, кто заметно помог любому приложению из набора Fossify, а не только этому. Переводы выполняются волонтёрами,
             дайте нам знать, если вы тоже хотите помочь. Руководство по переводу находится <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">здесь</a>. Можно просто связаться с нами по электронной почте <a href="mailto:hello@fossify.org">hello@fossify.org</a>, если у вас есть какие-либо вопросы.
             Спасибо всем участникам и другим помощникам!
-        ]]>
-    </string>
+        ]]></string>
     <string name="translation_arabic">Арабский</string>
     <string name="translation_azerbaijani">Азербайджанский</string>
     <string name="translation_bengali">Бенгальский</string>
@@ -1002,9 +1005,7 @@
     <string name="pro_app_refund">Не забывайте, что если вы удалите любое платное приложение в течение 2 часов, вам будет автоматически возвращена сумма покупки. Если вы захотите вернуть деньги позднее, просто свяжитесь с нами по адресу: hello@fossify.org, и вы их получите. Так что можно легко попробовать это приложение :)</string>
     <string name="developer_description">Группа простых приложений для Android с открытым исходным кодом, настраиваемыми виджетами, без рекламы и ненужных разрешений.</string>
     <string name="update_thank_you">Пожалуйста, обновите до последней версии Fossify Thank You</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Пожалуйста, купите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, чтобы использовать эту функцию и поддержать развитие. Спасибо!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Пожалуйста, купите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, чтобы использовать эту функцию и поддержать развитие. Спасибо!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="ok">OK</string>
     <string name="block_contact">Заблокировать контакт</string>
     <string name="exif">EXIF</string>

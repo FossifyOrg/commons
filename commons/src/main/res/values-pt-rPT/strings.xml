@@ -273,7 +273,7 @@
     <string name="confirm_storage_access_text_sd">Se você não encontrar o cartão SD, tente isto</string>
     <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo passo para conceder acesso de escrita</string>
     <string name="confirm_storage_access_android_text">Por favor, permita que o aplicativo acesse o armazenamento utilizando o botão \"Use esta pasta\" no canto inferior da próxima tela.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Por favor, pressione \'<b>Save</b>\' no canto inferior da próxima nela para criar uma nova pasta.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Por favor, pressione \'&lt;b&gt;Save&lt;/b&gt;\' no canto inferior da próxima nela para criar uma nova pasta.</string>
     <string name="confirm_selection">Confirmar seleção</string>
     <string name="loading">Carregando…</string>
     <string name="access_storage_prompt">Conceda ao nosso aplicativo acesso a todos os seus ficheiros, ele pode não funcionar bem sem ele.</string>
@@ -312,9 +312,7 @@
     <string name="undo_changes">Desfazer alterações</string>
     <string name="undo_changes_confirmation">Tem certeza que deseja desfazer as alterações?</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Agradecimento Fossify</a> para usar esta função e apoiar o desenvolvimento. Obrigado!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA["\n            Compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Agradecimento Fossify</a> para usar esta função e apoiar o desenvolvimento. Obrigado!\n        "]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_theme">Auto</string>
@@ -667,9 +665,7 @@
         <item quantity="many">%d semanas atrás</item>
         <item quantity="other">%d semanas atrás</item>
     </plurals>
-    <string name="sideloaded_app"><![CDATA[
-            Parece que a sua versão do app está corrompida. Por favor, descarregue a versão original <a href="%s">aqui</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Parece que a sua versão do app está corrompida. Por favor, descarregue a versão original <a href="%s">aqui</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="rename_in_sd_card_system_restriction">O sistema não permite que você renomeie esta pasta</string>
     <string name="copy_move">Copiar / Mover</string>
     <string name="path">Caminho</string>
@@ -982,32 +978,17 @@
     <string name="allow_notifications_incoming_calls">Deve permitir que a app exiba notificações, caso contrário ele não poderá mostrar chamadas recebidas.</string>
     <string name="allow_full_screen_notifications_incoming_calls">Deve permitir que a app exiba notificações em ecrã cheia, caso contrário poderá perder algumas chamadas recebidas.</string>
     <string name="allow_notifications_incoming_messages">Deve permitir que a app exiba notificações, caso contrário ele não poderá mostrar mensagens recebidas.</string>
-    <string name="confirm_storage_access_android_text_specific">Por favor, permita o acesso a \'<b>%s</b>\' no próximo ecrã pressionando \'<b>Usar esta pasta</b>\' no canto inferior.</string>
+    <string name="confirm_storage_access_android_text_specific">Por favor, permita o acesso a \'&lt;b&gt;%s&lt;/b&gt;\' no próximo ecrã pressionando \'&lt;b&gt;Usar esta pasta&lt;/b&gt;\' no canto inferior.</string>
     <string name="direct_children_count">Elementos nesta pasta</string>
     <string name="remove_exif_confirmation">Tem certeza de que desejava remover os valores EXIF, como coordenadas de GPS, modelo de câmara, etc.?</string>
     <string name="app_icon_color_warning">Cuidado: Certos lançadores podem não lidar corretamente com a personalização do ícone da app. Se o ícone desaparecer, tente iniciar a app pelo Google Play ou por um widget, se acessível. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar a app.</string>
-    <string name="faq_2_text_commons"><![CDATA[
-Sim, claro. Pode espalhar a informação sobre as apps ou dar um bom feedback e avaliações. Também pode ajudar traduzindo as apps para um novo idioma ou apenas atualizando algumas traduções existentes.
-O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
-]]></string>
-    <string name="contributors_label"><![CDATA[
-            Esta lista contém todos que ajudaram visivelmente qualquer app dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,
-            avise-nos se também quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
-            Obrigado a todos os contribuidores e outros apoiadores!
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\nSim, claro. Pode espalhar a informação sobre as apps ou dar um bom feedback e avaliações. Também pode ajudar traduzindo as apps para um novo idioma ou apenas atualizando algumas traduções existentes.\nO guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.\n]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Esta lista contém todos que ajudaram visivelmente qualquer app dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020avise-nos se também quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Obrigado a todos os contribuidores e outros apoiadores!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="translation_chuvash">Chuvache</string>
     <string name="allow_alarm_scheduled_messages">Deve permitir que a app acede alarmes internos, caso contrário ele não poderá enviar mensagens programadas.</string>
     <string name="allow_alarm_sleep_timer">Deve permitir que a app acede os alarmes internos, caso contrário, não poderá desligar a app após o temporizador de suspensão.</string>
     <string name="allow_location_permission">Deve permitir que a app acede asua localização, caso contrário ele não saberá.</string>
-    <string name="new_app"><![CDATA[
-            Olá,<br><br>
-            Gostariamos de avisar que lançamos um novo app recentemente:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            Pode descarregá-lo pressionando o título.<br><br>
-            Obrigado
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            Olá,<br><br>\n            Gostariamos de avisar que lançamos um novo app recentemente:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            Pode descarregá-lo pressionando o título.<br><br>\n            Obrigado\n        "]]></string>
     <string name="translation_kabyle">Cabila</string>
     <string name="days_letter">%dd</string>
     <string name="translation_latvian">Letão</string>

@@ -97,6 +97,7 @@
     <plurals name="column_counts">
         <item quantity="one">%d stulpelis</item>
         <item quantity="few">%d stulpeliai</item>
+        <item quantity="many">%d stulpelių</item>
         <item quantity="other">%d stulpelių</item>
     </plurals>
     <string name="manage_blocked_numbers">Tvarkyti blokuojamus numerius</string>
@@ -164,13 +165,7 @@
     <string name="append_filenames">Po failo pavadinimo</string>
     <string name="simple_renaming">Paprastas pervadinimas</string>
     <string name="pattern_renaming">Šablonas</string>
-    <string name="rename_date_time_pattern">%Y - metai
-\n%M - mėnesis
-\n%D - diena
-\n%h - valanda
-\n%m - minutė
-\n%s - sekundė
-\n%i - nuo 1 didėjantis skaičius</string>
+    <string name="rename_date_time_pattern">%Y - metai \n%M - mėnesis \n%D - diena \n%h - valanda \n%m - minutė \n%s - sekundė \n%i - nuo 1 didėjantis skaičius</string>
     <string name="filename_without_txt">Failo pavadinimas (be .txt)</string>
     <string name="filename_without_json">Failo pavadinimas (be .json)</string>
     <string name="filename_without_zip">Failo pavadinimas (be .zip)</string>
@@ -231,21 +226,25 @@
     <plurals name="items">
         <item quantity="one">%d elementas</item>
         <item quantity="few">%d elementai</item>
+        <item quantity="many">%d elementų</item>
         <item quantity="other">%d elementų</item>
     </plurals>
     <plurals name="delete_items">
         <item quantity="one">%d elementą</item>
         <item quantity="few">%d elementus</item>
+        <item quantity="many">%d elementų</item>
         <item quantity="other">%d elementų</item>
     </plurals>
     <plurals name="deleting_items">
         <item quantity="one">Ištrinamas %d elementas</item>
         <item quantity="few">Ištrinami %d elementai</item>
+        <item quantity="many">Ištrinama %d elementų</item>
         <item quantity="other">Ištrinama %d elementų</item>
     </plurals>
     <plurals name="delete_contacts">
         <item quantity="one">%d adresatas</item>
         <item quantity="few">%d adresatai</item>
+        <item quantity="many">%d adresatų</item>
         <item quantity="other">%d adresatų</item>
     </plurals>
     <string name="select_storage">Pasirinkite saugyklą</string>
@@ -287,9 +286,9 @@
     <string name="save">Įrašyti</string>
     <string name="discard">Atmesti</string>
     <string name="undo_changes">Atšaukti pakeitimus</string>
-    <string name="undo_changes_confirmation">Ar tikrai norite atšaukti pakeitimus\?</string>
+    <string name="undo_changes_confirmation">Ar tikrai norite atšaukti pakeitimus?</string>
     <string name="cannot_be_undone">Šio veiksmo neįmanoma atšaukti.</string>
-    <string name="save_before_closing">Yra neįrašytų pakeitimų. Įrašyti prieš išeinant\?</string>
+    <string name="save_before_closing">Yra neįrašytų pakeitimų. Įrašyti prieš išeinant?</string>
     <string name="global_theme_success">Spalvos sėkmingai atnaujintos. Buvo pridėtas naujas apipavidalinimas, pavadinimu, „Bendrinamas“, naudokite jį, visų programėlių spalvų atnaujinimui ateityje.</string>
     <string name="light_theme">Šviesus</string>
     <string name="dark_theme">Tamsus</string>
@@ -352,9 +351,9 @@
     <string name="use_custom_sorting">Naudoti tinkintą rikiavimą</string>
     <string name="change_order">Keisti tvarką</string>
     <string name="proceed_with_deletion">Ar tikrai norite ištrinti?</string>
-    <string name="deletion_confirmation">Ar tikrai norite ištrinti %s\?</string>
+    <string name="deletion_confirmation">Ar tikrai norite ištrinti %s?</string>
     <string name="move_to_recycle_bin_confirmation">Ar tikrai norite perkelti %s į šiukšlinę?</string>
-    <string name="are_you_sure_delete">Ar tikrai norite ištrinti šį elementą\?</string>
+    <string name="are_you_sure_delete">Ar tikrai norite ištrinti šį elementą?</string>
     <string name="are_you_sure_recycle_bin">Ar tikrai norite perkelti šį elementą į šiukšlinę?</string>
     <string name="do_not_ask_again">Šiame seanse daugiau nebeklausti</string>
     <string name="do_not_show_again">Daugiau neberodyti</string>
@@ -364,6 +363,7 @@
     <plurals name="delete_warning">
         <item quantity="one">ĮSPĖJIMAS: Jūs ištrinate %d aplanką</item>
         <item quantity="few">ĮSPĖJIMAS: Jūs ištrinate %d aplankus</item>
+        <item quantity="many">ĮSPĖJIMAS: Jūs ištrinate %d aplankų</item>
         <item quantity="other">ĮSPĖJIMAS: Jūs ištrinate %d aplankų</item>
     </plurals>
     <string name="pin">PIN kodas</string>
@@ -404,141 +404,169 @@
     <plurals name="seconds">
         <item quantity="one">%d sekundė</item>
         <item quantity="few">%d sekundės</item>
+        <item quantity="many">%d sekundžių</item>
         <item quantity="other">%d sekundžių</item>
     </plurals>
     <plurals name="minutes">
         <item quantity="one">%d minutė</item>
         <item quantity="few">%d minutės</item>
+        <item quantity="many">%d minučių</item>
         <item quantity="other">%d minučių</item>
     </plurals>
     <plurals name="hours">
         <item quantity="one">%d valanda</item>
         <item quantity="few">%d valandos</item>
+        <item quantity="many">%d valandų</item>
         <item quantity="other">%d valandų</item>
     </plurals>
     <plurals name="days">
         <item quantity="one">%d diena</item>
         <item quantity="few">%d dienos</item>
+        <item quantity="many">%d dienų</item>
         <item quantity="other">%d dienų</item>
     </plurals>
     <plurals name="weeks">
         <item quantity="one">%d savaitė</item>
         <item quantity="few">%d savaitės</item>
+        <item quantity="many">%d savaičių</item>
         <item quantity="other">%d savaičių</item>
     </plurals>
     <plurals name="months">
         <item quantity="one">%d mėnuo</item>
         <item quantity="few">%d mėnesiai</item>
+        <item quantity="many">%d mėnesių</item>
         <item quantity="other">%d mėnesių</item>
     </plurals>
     <plurals name="years">
         <item quantity="one">%d metai</item>
         <item quantity="few">%d metai</item>
+        <item quantity="many">%d metų</item>
         <item quantity="other">%d metų</item>
     </plurals>
     <plurals name="in_seconds">
         <item quantity="one">%d sekundės</item>
         <item quantity="few">%d sekundžių</item>
+        <item quantity="many">%d sekundžių</item>
         <item quantity="other">%d sekundžių</item>
     </plurals>
     <plurals name="in_minutes">
         <item quantity="one">%d minutės</item>
         <item quantity="few">%d minučių</item>
+        <item quantity="many">%d minučių</item>
         <item quantity="other">%d minučių</item>
     </plurals>
     <plurals name="in_hours">
         <item quantity="one">%d valandos</item>
         <item quantity="few">%d valandų</item>
+        <item quantity="many">%d valandų</item>
         <item quantity="other">%d valandų</item>
     </plurals>
     <plurals name="in_days">
         <item quantity="one">%d dienos</item>
         <item quantity="few">%d dienų</item>
+        <item quantity="many">%d dienų</item>
         <item quantity="other">%d dienų</item>
     </plurals>
     <plurals name="in_weeks">
         <item quantity="one">%d savaitės</item>
         <item quantity="few">%d savaičių</item>
+        <item quantity="many">%d savaičių</item>
         <item quantity="other">%d savaičių</item>
     </plurals>
     <plurals name="in_months">
         <item quantity="one">%d mėnesio</item>
         <item quantity="few">%d mėnesių</item>
+        <item quantity="many">%d mėnesių</item>
         <item quantity="other">%d mėnesių</item>
     </plurals>
     <plurals name="in_years">
         <item quantity="one">%d metų</item>
         <item quantity="few">%d metų</item>
+        <item quantity="many">%d metų</item>
         <item quantity="other">%d metų</item>
     </plurals>
     <plurals name="seconds_before">
         <item quantity="one">%d sekundę prieš įvykį</item>
         <item quantity="few">%d sekundes prieš įvykį</item>
+        <item quantity="many">%d sekundžių prieš įvykį</item>
         <item quantity="other">%d sekundžių prieš įvykį</item>
     </plurals>
     <plurals name="minutes_before">
         <item quantity="one">%d minutę prieš įvykį</item>
         <item quantity="few">%d minutes prieš įvykį</item>
+        <item quantity="many">%d minučių prieš įvykį</item>
         <item quantity="other">%d minučių prieš įvykį</item>
     </plurals>
     <plurals name="hours_before">
         <item quantity="one">%d valandą prieš įvykį</item>
         <item quantity="few">%d valandas prieš įvykį</item>
+        <item quantity="many">%d valandų prieš įvykį</item>
         <item quantity="other">%d valandų prieš įvykį</item>
     </plurals>
     <plurals name="days_before">
         <item quantity="one">%d dieną prieš įvykį</item>
         <item quantity="few">%d dienas prieš įvykį</item>
+        <item quantity="many">%d dienų prieš įvykį</item>
         <item quantity="other">%d dienų prieš įvykį</item>
     </plurals>
     <plurals name="weeks_before">
         <item quantity="one">%d savaitę prieš įvykį</item>
         <item quantity="few">%d savaites prieš įvykį</item>
+        <item quantity="many">%d savaičių prieš įvykį</item>
         <item quantity="other">%d savaičių prieš įvykį</item>
     </plurals>
     <plurals name="months_before">
         <item quantity="one">%d mėnesį prieš įvykį</item>
         <item quantity="few">%d mėnesius prieš įvykį</item>
+        <item quantity="many">%d mėnesių prieš įvykį</item>
         <item quantity="other">%d mėnesių prieš įvykį</item>
     </plurals>
     <plurals name="years_before">
         <item quantity="one">%d metus prieš įvykį</item>
         <item quantity="few">%d metus prieš įvykį</item>
+        <item quantity="many">%d metų prieš įvykį</item>
         <item quantity="other">%d metų prieš įvykį</item>
     </plurals>
     <plurals name="by_seconds">
         <item quantity="one">%d sekundei</item>
         <item quantity="few">%d sekundėms</item>
+        <item quantity="many">%d sekundžių</item>
         <item quantity="other">%d sekundžių</item>
     </plurals>
     <plurals name="by_minutes">
         <item quantity="one">%d minutei</item>
         <item quantity="few">%d minutėms</item>
+        <item quantity="many">%d minučių</item>
         <item quantity="other">%d minučių</item>
     </plurals>
     <plurals name="by_hours">
         <item quantity="one">%d valandai</item>
         <item quantity="few">%d valandoms</item>
+        <item quantity="many">%d valandų</item>
         <item quantity="other">%d valandų</item>
     </plurals>
     <plurals name="by_days">
         <item quantity="one">%d dienai</item>
         <item quantity="few">%d dienoms</item>
+        <item quantity="many">%d dienų</item>
         <item quantity="other">%d dienų</item>
     </plurals>
     <plurals name="by_weeks">
         <item quantity="one">%d savaitei</item>
         <item quantity="few">%d savaitėms</item>
+        <item quantity="many">%d savaičių</item>
         <item quantity="other">%d savaičių</item>
     </plurals>
     <plurals name="by_months">
         <item quantity="one">%d mėnesiui</item>
         <item quantity="few">%d mėnesiams</item>
+        <item quantity="many">%d mėnesių</item>
         <item quantity="other">%d mėnesių</item>
     </plurals>
     <plurals name="by_years">
         <item quantity="one">%d metams</item>
         <item quantity="few">%d metams</item>
+        <item quantity="many">%d metų</item>
         <item quantity="other">%d metų</item>
     </plurals>
     <string name="alarm_goes_off_in">Liko laiko iki tol, kol suveiks žadintuvas:\n%s</string>
@@ -614,7 +642,7 @@
     <string name="excluded">(neįtraukta)</string>
     <string name="manage_excluded_folders">Tvarkyti išskirtus aplankus</string>
     <string name="remove_all">Pašalinti visus</string>
-    <string name="remove_all_description">Pašalinti visus aplankus iš išskirtųjų sąrašo\? Tai neištrins aplankų.</string>
+    <string name="remove_all_description">Pašalinti visus aplankus iš išskirtųjų sąrašo? Tai neištrins aplankų.</string>
     <string name="manage_shown_tabs">Tvarkyti rodomas korteles</string>
     <string name="default_tab_to_open">Kortelė, kuri bus rodoma atvėrus šią programėlę</string>
     <string name="contacts_tab">Adresatai</string>
@@ -709,8 +737,7 @@
     <string name="invite_via">Pasiūlyti per</string>
     <string name="donate">Paaukoti</string>
     <string name="follow_us">Sekite mus</string>
-    <string name="copyright">v %1$s
-\nAutorių teisės © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nAutorių teisės © Fossify %2$d</string>
     <string name="support">Palaikymas</string>
     <string name="help_us">Padėkite mums</string>
     <string name="social">Socialiniai tinklai</string>
@@ -727,7 +754,7 @@
     <string name="read_it">Skaityti</string>
     <string name="read_faq">Skaityti DUK</string>
     <string name="thank_you">Ačiū</string>
-    <string name="new_app">Sveiki,&lt;br&gt;&lt;br&gt; tiesiog, norime jums pranešti, kad neseniai buvo išleistos naujos programėlės:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; Galite jas atsisiųsti, spusteldami ant jų pavadinimų ar piktogramų.&lt;br&gt;&lt;br&gt;Ačiū</string>
+    <string name="new_app"><![CDATA[Sveiki,<br><br> tiesiog, norime jums pranešti, kad neseniai buvo išleistos naujos programėlės:<br><br> <a href=%1$s>%2$s</a><br><br> <a href=%3$s>%4$s</a><br><br> <a href=%5$s>%6$s</a><br><br> Galite jas atsisiųsti, spusteldami ant jų pavadinimų ar piktogramų.<br><br>Ačiū]]></string>
     <string name="app_launcher_short">Programėlių paleidyklė</string>
     <string name="calculator_short">Skaičiuotuvas</string>
     <string name="calendar_short">Kalendorius</string>
@@ -745,22 +772,22 @@
     <string name="sms_messenger_short">Žinutės</string>
     <string name="thank_you_short">Ačiū</string>
     <string name="voice_recorder_short">Garso rašytuvas</string>
-    <string name="sideloaded_app">Atrodo, kad jūsų programėlės versija yra pažeista. Atsisiųskite originalią versiją iš &lt;a href=%s&gt;čia&lt;/a&gt;.</string>
+    <string name="sideloaded_app"><![CDATA[Atrodo, kad jūsų programėlės versija yra pažeista. Atsisiųskite originalią versiją iš <a href=%s>čia</a>.]]></string>
     <string name="frequently_asked_questions">Dažniausiai užduodami klausimai</string>
     <string name="before_asking_question">Prieš užduodami klausimą, iš pradžių, perskaitykite</string>
-    <string name="faq_1_title_commons">Kodėl valdiklių sąraše nematau šios programėlės valdiklio\?</string>
+    <string name="faq_1_title_commons">Kodėl valdiklių sąraše nematau šios programėlės valdiklio?</string>
     <string name="faq_1_text_commons">Greičiausiai, taip yra dėl to, kad perkėlėte programėlę į SD kortelę. Yra „Android“ sistemos apribojimas, kuris tokiu atveju paslepia nurodytos programėlės valdiklius. Vienintelis sprendimas yra per įrenginio nustatymus perkelti programėlę atgal į vidinę atmintį.</string>
-    <string name="faq_2_title_commons">Aš noriu jus paremti, bet neturiu galimybės paaukoti pinigų. Ar yra kas nors, ką galiu padaryti\?</string>
-    <string name="faq_3_title_commons">Aš per klaidą ištryniau keletą failų, kaip galiu juos atkurti\?</string>
+    <string name="faq_2_title_commons">Aš noriu jus paremti, bet neturiu galimybės paaukoti pinigų. Ar yra kas nors, ką galiu padaryti?</string>
+    <string name="faq_3_title_commons">Aš per klaidą ištryniau keletą failų, kaip galiu juos atkurti?</string>
     <string name="faq_3_text_commons">Deja, to padaryti negalite. Failai yra ištrinami iš karto po patvirtinimo dialogo, o šiukšlinė yra neprieinama.</string>
-    <string name="faq_4_title_commons">Man nepatinka valdiklio spalvos, kaip galiu jas pakeisti\?</string>
+    <string name="faq_4_title_commons">Man nepatinka valdiklio spalvos, kaip galiu jas pakeisti?</string>
     <string name="faq_4_text_commons">Kai velkate valdiklį į pagrindinį ekraną, atsiranda valdiklio konfigūracijos ekranas. Apatiniame kairiajame kampe pamatysite spalvotus kvadratus. Tiesiog, paspauskite ant jų, kad pasirinktumėte naują spalvą. Be to, galite naudoti slankiklį, norėdami reguliuoti permatomumą.</string>
-    <string name="faq_5_title_commons">Ar galiu kaip nors atkurti ištrintus failus\?</string>
+    <string name="faq_5_title_commons">Ar galiu kaip nors atkurti ištrintus failus?</string>
     <string name="faq_5_text_commons">Jeigu tikrai juos ištrynėte, jų atkurti nebegalite. Vis dėlto, pagal numatymą yra įjungta šiukšlinė ir failai yra neištrinami, o vietoj to, perkeliami į ją.</string>
-    <string name="faq_6_title_commons">Programėlės paleidyklės piktograma dingo. Ką daryti\?</string>
-    <string name="faq_7_title_commons">Pinigai buvo nuskaičiuoti nuo mano banko sąskaitos, o aš vis tiek negaliu atsisiųsti programėlės. Ką daryti\?</string>
+    <string name="faq_6_title_commons">Programėlės paleidyklės piktograma dingo. Ką daryti?</string>
+    <string name="faq_7_title_commons">Pinigai buvo nuskaičiuoti nuo mano banko sąskaitos, o aš vis tiek negaliu atsisiųsti programėlės. Ką daryti?</string>
     <string name="faq_7_text_commons">Mokėjimus pilnai apdoroja „Google“, jų sistema laikas nuo laiko stringa. Tiesiog, išvalykite „Google Play“ programėlės podėlį ir paleiskite įrenginį iš naujo, o tuomet, bandykite atsisiųsti programėlę.</string>
-    <string name="faq_9_title_commons">Kaip vienu metu galiu pažymėti kelis elementus\?</string>
+    <string name="faq_9_title_commons">Kaip vienu metu galiu pažymėti kelis elementus?</string>
     <string name="faq_9_text_commons">Yra keli būdai, kaip galima tą padaryti. Pirmas būdas, tai įjungti žymėjimo veikseną, paspaudus ir ilgai palaikius ant vieno elemento, o tuomet trumpai paspaudžiant ant kitų, norimų pažymėti, elementų. Antras būdas yra panašus į tą, kuris naudojamas kompiuteriuose žymint elementus pele. Tiesiog, įjunkite žymėjimo veikseną paspaudę ir ilgai palaikę ant vieno elemento, o tuomet neatleisdami piršto, tempkite jį žemyn per kitus elementus, kad juos pažymėtumėte. Trečias būdas, kaip pažymėti kelis elementus, yra paspausti ir ilgai palaikyti ant vieno elemento, tuomet paspausti ir ilgai palaikyti ant kito elemento, ir viskas, kas yra tarp šių dviejų elementų, bus pažymėta. Jei norite pažymėti visus elementus, paspauskite ir ilgai palaikykite ant vieno elemento, o tuomet viršutiniame kairiajame kampe spustelėkite ant pažymėtų elementų skaitiklio. Tai viską pažymės arba nuims žymėjimą nuo visų elementų.</string>
     <string name="faq_10_title_commons">Aš įsigijau programėlę, bet negaliu jos atsisiųsti kitame įrenginyje.</string>
     <string name="faq_10_text_commons">Pabandykite išvalyti „Google Play“ programėlės podėlį ir paleiskite savo įrenginį iš naujo. Tai yra „Google Play“ triktis, kuri nėra susijusi su įsigyta programėle.</string>

@@ -192,13 +192,7 @@
     <string name="simple_renaming">Canvi de nom senzill</string>
     <string name="pattern_renaming">Patró</string>
     <string name="string_to_add">Text a afegir</string>
-    <string name="rename_date_time_pattern">%Y - any
-\n%M - mes
-\n%D - dia
-\n%h - hora
-\n%m - minut
-\n%s - segon
-\n%i - nombre augmentant des d\'1</string>
+    <string name="rename_date_time_pattern">%Y - any \n%M - mes \n%D - dia \n%h - hora \n%m - minut \n%s - segon \n%i - nombre augmentant des d\'1</string>
     <string name="filename_without_txt">Nom del fitxer (sense .txt)</string>
     <string name="filename_without_json">Nom del fitxer (sense .json)</string>
     <string name="filename_without_zip">Nom del fitxer (sense .zip)</string>
@@ -261,8 +255,8 @@
     <string name="confirm_storage_access_text">Trieu la carpeta superior de la targeta SD a la pantalla següent, per a atorgar accés d\'escriptura</string>
     <string name="confirm_storage_access_text_sd">Si no veieu la targeta SD, proveu això</string>
     <string name="confirm_storage_access_android_text">Permeteu que l\'aplicació accedeixi a l\'emmagatzematge seleccionat prement «Utilitza aquesta carpeta» a la part inferior de la pantalla següent.</string>
-    <string name="confirm_storage_access_android_text_specific">Permeteu l\'accés a «<b>%s</b>» prement «<b>Utilitza aquesta carpeta</b>» a la part inferior de la pantalla següent.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Premeu «<b>Desa</b>» a la part inferior de la pantalla següent per a crear la carpeta nova.</string>
+    <string name="confirm_storage_access_android_text_specific">Permeteu l\'accés a «&lt;b&gt;%s&lt;/b&gt;» prement «&lt;b&gt;Utilitza aquesta carpeta&lt;/b&gt;» a la part inferior de la pantalla següent.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Premeu «&lt;b&gt;Desa&lt;/b&gt;» a la part inferior de la pantalla següent per a crear la carpeta nova.</string>
     <string name="confirm_selection">Confirmeu la selecció</string>
     <string name="loading">S\'està carregant…</string>
     <string name="access_storage_prompt">Si no concediu accés de l\'aplicació a tots els fitxers és possible que no funcioni bé.</string>
@@ -335,7 +329,7 @@
     <string name="undo_changes">Desfés els canvis</string>
     <string name="undo_changes_confirmation">Confirmeu que voleu desfer els canvis?</string>
     <string name="cannot_be_undone">Aquesta acció no es pot desfer.</string>
-    <string name="save_before_closing">Hi ha canvis no desats. Els voleu desar abans de sortir\?</string>
+    <string name="save_before_closing">Hi ha canvis no desats. Els voleu desar abans de sortir?</string>
     <string name="global_theme_success">Colors actualitzats correctament. S\'ha afegit un tema nou anomenat «Compartit». Feu-lo servir per a actualitzar tots els colors de l\'aplicació en el futur.</string>
     <string name="light_theme">Clar</string>
     <string name="dark_theme">Fosc</string>
@@ -432,8 +426,7 @@
     <string name="please_enter_pin">Introduïu un PIN</string>
     <string name="wrong_pin">PIN incorrecte</string>
     <string name="pin_must_be_4_digits_long">El PIN ha de tenir almenys 4 dígits</string>
-    <string name="too_many_incorrect_attempts">Massa intents incorrectes de desbloqueig.
-\nProveu de nou dintre de %d segons.</string>
+    <string name="too_many_incorrect_attempts">Massa intents incorrectes de desbloqueig. \nProveu de nou dintre de %d segons.</string>
     <string name="repeat_pin">Repetiu el PIN</string>
     <string name="pattern">Patró</string>
     <string name="insert_pattern">Introduïu el patró</string>
@@ -681,7 +674,7 @@
     <string name="excluded">(exclòs)</string>
     <string name="manage_excluded_folders">Gestiona les carpetes excloses</string>
     <string name="remove_all">Elimina-ho tot</string>
-    <string name="remove_all_description">Elimino totes les carpetes de la llista d\'excloses\? Això no eliminarà les carpetes.</string>
+    <string name="remove_all_description">Elimino totes les carpetes de la llista d\'excloses? Això no eliminarà les carpetes.</string>
     <string name="temporarily_show_excluded">Mostra temporalment els exclosos</string>
     <string name="stop_showing_excluded">Deixa de mostrar els exclosos</string>
     <string name="manage_shown_tabs">Gestiona les pestanyes mostrades</string>
@@ -724,14 +717,7 @@
     <string name="backups">Còpies de seguretat</string>
     <string name="enable_automatic_backups">Activa les còpies de seguretat automàtiques</string>
     <string name="manage_automatic_backups">Gestió de les còpies de seguretat automàtiques</string>
-    <string name="date_time_pattern_info">Podeu emprar els patrons següents per a donar nom automàticament als fitxers:
-\n
-\n%Y - any
-\n%M - mes
-\n%D - dia
-\n%h - hora
-\n%m - minut
-\n%s - segon</string>
+    <string name="date_time_pattern_info">Podeu emprar els patrons següents per a donar nom automàticament als fitxers: \n \n%Y - any \n%M - mes \n%D - dia \n%h - hora \n%m - minut \n%s - segon</string>
     <string name="usb_detected">Sembla que hi ha un dispositiu USB connectat al vostre dispositiu. Per a assegurar que els fitxers apareguin adequadament, cal atorgar permisos addicionals.</string>
     <string name="confirm_usb_storage_access_text">Seleccioneu la carpeta arrel del dispositiu USB a la pantalla següent per a atorgar l\'accés</string>
     <string name="wrong_root_selected_usb">S\'ha seleccionat una carpeta incorrecta, seleccioneu la carpeta principal del dispositiu USB</string>
@@ -821,8 +807,7 @@
     <string name="read_it">Llegiu-ho</string>
     <string name="read_faq">Llegiu les preguntes més freqüents</string>
     <string name="thank_you">Gràcies</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Hola,<br><br>
             només informar-vos que recentment s\'ha publicat una aplicació nova:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -830,8 +815,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Podeu baixar-la prement els títols o les icones.<br><br>
             Gràcies
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Llançador d\'aplicacions</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendari</string>
@@ -849,24 +833,22 @@
     <string name="sms_messenger_short">Missatges SMS</string>
     <string name="thank_you_short">Gràcies</string>
     <string name="voice_recorder_short">Enregistrador de veu</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Sembla que aquesta versió de l\'aplicació està malmesa. Baixeu la versió original <a href="%s">aquí</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Preguntes més freqüents</string>
     <string name="before_asking_question">Abans de fer una pregunta, primer llegiu les</string>
-    <string name="faq_1_title_commons">Com és que no veig aquest giny a la llista de ginys\?</string>
+    <string name="faq_1_title_commons">Com és que no veig aquest giny a la llista de ginys?</string>
     <string name="faq_1_text_commons">Probablement, perquè heu mogut l\'aplicació a una targeta SD. Hi ha una limitació del sistema d\'Android que oculta els ginys de l\'aplicació en aquest cas. L\'única solució és moure l\'aplicació a l\'emmagatzematge intern a través de la configuració del dispositiu.</string>
-    <string name="faq_2_title_commons">Vull ajudar-vos, però no puc donar diners. Hi ha res més que pugui fer\?</string>
-    <string name="faq_3_title_commons">He suprimit alguns fitxers per error, com els puc recuperar\?</string>
+    <string name="faq_2_title_commons">Vull ajudar-vos, però no puc donar diners. Hi ha res més que pugui fer?</string>
+    <string name="faq_3_title_commons">He suprimit alguns fitxers per error, com els puc recuperar?</string>
     <string name="faq_3_text_commons">Malauradament, no podeu fer-ho. Els fitxers se suprimeixen a l\'instant després del diàleg de confirmació, no hi ha cap paperera disponible.</string>
-    <string name="faq_4_title_commons">No m\'agraden els colors del giny, puc canviar-los\?</string>
+    <string name="faq_4_title_commons">No m\'agraden els colors del giny, puc canviar-los?</string>
     <string name="faq_4_text_commons">Sí, mentre arrossegueu un giny a la pantalla d\'inici apareixerà una pantalla de configuració de ginys. Veureu quadrats de color a l\'extrem inferior esquerre, només cal prémer-los per a seleccionar un color nou. També podeu utilitzar el control lliscant per a ajustar l\'alfa.</string>
-    <string name="faq_5_title_commons">Puc restaurar d\'alguna manera els fitxers suprimits\?</string>
+    <string name="faq_5_title_commons">Puc restaurar d\'alguna manera els fitxers suprimits?</string>
     <string name="faq_5_text_commons">Si es van suprimir totalment, no els podeu recuperar. Tanmateix, la paperera de reciclatge està activada de manera predeterminada i mou els fitxers a la paperera en lloc de suprimir-los immediatament.</string>
     <string name="faq_6_title_commons">Ha desaparegut la icona del menú d\'aplicacions. Què puc fer?</string>
-    <string name="faq_7_title_commons">Els diners s\'han descomptat del meu compte bancari, però no puc baixar l\'aplicació. Què puc fer\?</string>
+    <string name="faq_7_title_commons">Els diners s\'han descomptat del meu compte bancari, però no puc baixar l\'aplicació. Què puc fer?</string>
     <string name="faq_7_text_commons">Google gestiona completament els pagaments, i alguns cops això genera problemes en el seu sistema. Només cal que netegeu la memòria cau de l\'aplicació Google Play i reinicieu el dispositiu, després torneu a intentar baixar-la.</string>
     <string name="faq_9_title_commons">Com puc seleccionar diversos elements alhora?</string>
     <string name="faq_9_text_commons">Hi ha diverses maneres de fer-ho. La primera és iniciar el mode de selecció prement prolongadament un element i, a continuació, fer clic breu sobre els altres per a seleccionar-los. La segona forma és similar a la selecció d\'elements en els ordinadors amb un ratolí, només cal que inicieu el mode de selecció prement prolongadament un element i, tot seguit, arrossegueu-lo amb el dit cap a altres elements per a seleccionar-los. La tercera manera de seleccionar diversos elements consisteix a prémer prolongadament un element, després prémer prolongadament un altre i se seleccionarà tot el que hi ha entre els dos. Si voleu seleccionar tots els elements; només cal que premeu prolongadament un element i, a continuació, feu clic al comptador d\'elements seleccionats a l\'extrem superior esquerre. Això seleccionarà o anul·larà la selecció de tot.</string>
@@ -995,8 +977,7 @@
     <string name="general_settings">General</string>
     <string name="notification_sound">So de notificació</string>
     <string name="text">Text</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="social">Social</string>
     <string name="donate_short">Gaudiu de Fossify? Ajudeu el desenvolupament de les nostres aplicacions lliures d\'anuncis comprant la &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. També activarà les lletres personalitzades i la personalització compartida de totes les aplicacions Fossify. Gràcies per la vostra ajuda!</string>
     <string name="app_icon_color_warning">Atenció: És possible que alguns llançadors no gestionin correctament la personalització de la icona de l\'aplicació. Si la icona desapareix, intenteu llançar l\'aplicació a través de Google Play o d\'un giny, si és accessible. Després del llançament, restaureu el color predeterminat de la icona verda #106D1F. En casos extrems, pot ser necessària la reinstal·lació de l\'aplicació.</string>

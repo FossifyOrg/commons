@@ -258,7 +258,7 @@
     <string name="confirm_storage_access_text">Yazma erişimi vermek için lütfen bir sonraki ekranda SD kartın kök klasörünü seçin</string>
     <string name="confirm_storage_access_text_sd">SD kartı görmüyorsanız, bunu deneyin</string>
     <string name="confirm_storage_access_android_text">Lütfen alttaki \'Bu klasörü kullan\' seçeneğine basarak uygulamanın seçilen depolama alanına erişmesine izin verin.</string>
-    <string name="confirm_storage_access_android_text_specific">Lütfen bir sonraki ekranda \'<b>Bu klasörü kullan</b>\' seçeneğine basarak \'<b>%s</b>\' erişimine izin verin.</string>
+    <string name="confirm_storage_access_android_text_specific">Lütfen bir sonraki ekranda \'&lt;b&gt;Bu klasörü kullan&lt;/b&gt;\' seçeneğine basarak \'&lt;b&gt;%s&lt;/b&gt;\' erişimine izin verin.</string>
     <string name="confirm_create_doc_for_new_folder_text">Yeni klasörü oluşturmak için lütfen sonraki ekranın altındaki \'&lt;b&gt;Kaydet&lt;/b&gt;\' düğmesine basın.</string>
     <string name="confirm_selection">Seçimi onayla</string>
     <string name="loading">Yükleniyor…</string>
@@ -307,7 +307,7 @@
     <string name="gps_coordinates">GPS koordinatları</string>
     <string name="altitude">Rakım</string>
     <string name="remove_exif">EXIF\'i kaldır</string>
-    <string name="remove_exif_confirmation">GPS koordinatları, kamera modeli vb. EXIF değerlerini kaldırmak istediğinizden emin misiniz\?</string>
+    <string name="remove_exif_confirmation">GPS koordinatları, kamera modeli vb. EXIF değerlerini kaldırmak istediğinizden emin misiniz?</string>
     <string name="exif_removed">EXIF değerleri başarıyla kaldırıldı</string>
     <string name="background_color">Arka plan rengi</string>
     <string name="text_color">Metin rengi</string>
@@ -331,10 +331,8 @@
     <string name="save_before_closing">Kaydedilmemiş değişiklikleriniz var. Çıkmadan önce kaydedilsin mi?</string>
     <string name="apply_to_all_apps">Temayı tüm Fossify uygulamalarına uygula</string>
     <string name="app_icon_color_warning">Dikkat: Bazı başlatıcılar uygulama simgesi özelleştirmesini doğru şekilde yapamayabilir. Simge kaybolursa, uygulamayı Google Play veya erişilebiliyorsa bir widget aracılığıyla başlatmayı deneyin. Başlattıktan sonra, öntanımlı #106D1F yeşil simge rengini geri yükleyin. Aşırı durumlarda, uygulamanın yeniden kurulması gerekebilir.</string>
-    <string name="global_theme_success">"Renkler başarıyla güncellendi. 'Paylaşılan' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın."</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Lütfen bu özelliği kullanmak ve geliştirme sürecine destek olmak için <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Teşekkürler</a> uygulamasını satın alın. Teşekkür ederiz!
-        ]]></string>
+    <string name="global_theme_success">Renkler başarıyla güncellendi. \'Paylaşılan\' adlı yeni bir Tema eklendi, lütfen gelecekte tüm uygulama renklerini güncellemek için onu kullanın.</string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Lütfen bu özelliği kullanmak ve geliştirme sürecine destek olmak için <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Teşekkürler</a> uygulamasını satın alın. Teşekkür ederiz!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">Aydınlık</string>
     <string name="dark_theme">Karanlık</string>
     <string name="auto_theme">Otomatik</string>
@@ -430,8 +428,7 @@
     <string name="please_enter_pin">Lütfen PIN\'i girin</string>
     <string name="wrong_pin">Yanlış PIN</string>
     <string name="pin_must_be_4_digits_long">PIN en az 4 basamaklı olmalıdır</string>
-    <string name="too_many_incorrect_attempts">Çok fazla hatalı kilit açma denemesi.
-\n%d saniye içinde tekrar deneyin.</string>
+    <string name="too_many_incorrect_attempts">Çok fazla hatalı kilit açma denemesi. \n%d saniye içinde tekrar deneyin.</string>
     <string name="repeat_pin">PIN\'i tekrar gir</string>
     <string name="pattern">Desen</string>
     <string name="insert_pattern">Deseni çiz</string>
@@ -660,7 +657,7 @@
     <string name="excluded">(hariç)</string>
     <string name="manage_excluded_folders">Hariç tutulan klasörleri yönet</string>
     <string name="remove_all">Tümünü kaldır</string>
-    <string name="remove_all_description">Tüm klasörler hariç tutulanlar listesinden kaldırılsın mı\? Bu klasörleri silmez.</string>
+    <string name="remove_all_description">Tüm klasörler hariç tutulanlar listesinden kaldırılsın mı? Bu klasörleri silmez.</string>
     <string name="temporarily_show_excluded">Hariç tutulanları geçici olarak göster</string>
     <string name="stop_showing_excluded">Hariç tutulanları göstermeyi durdur</string>
     <string name="manage_shown_tabs">Gösterilen sekmeleri yönet</string>
@@ -702,14 +699,7 @@
     <string name="backups">Yedeklemeler</string>
     <string name="enable_automatic_backups">Otomatik yedeklemeleri etkinleştir</string>
     <string name="manage_automatic_backups">Otomatik yedeklemeleri yönet</string>
-    <string name="date_time_pattern_info">Dosyanızı otomatik olarak adlandırmak için aşağıdaki desenleri kullanabilirsiniz:
-\n
-\n%Y - yıl
-\n%M - ay
-\n%D - gün
-\n%h - saat
-\n%m - dakika
-\n%s - saniye</string>
+    <string name="date_time_pattern_info">Dosyanızı otomatik olarak adlandırmak için aşağıdaki desenleri kullanabilirsiniz: \n \n%Y - yıl \n%M - ay \n%D - gün \n%h - saat \n%m - dakika \n%s - saniye</string>
     <string name="usb_detected">Aygıtınıza takılı bir USB aygıtınız var gibi görünüyor. Dosyalarının düzgün görünmesini sağlamak için ek izinler vermeniz gerekiyor.</string>
     <string name="confirm_usb_storage_access_text">Erişim vermek için lütfen bir sonraki ekranda USB aygıtının kök klasörünü seçin</string>
     <string name="wrong_root_selected_usb">Yanlış klasör seçildi, lütfen USB aygıtınızın kök klasörünü seçin</string>
@@ -800,8 +790,7 @@
     <string name="read_it">Oku</string>
     <string name="read_faq">SSS\'yi oku</string>
     <string name="thank_you">Teşekkürler</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Selam,<br><br>
             kısa bir süre önce yeni uygulamamın yayınlandığını bilmenizi istiyorum:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -809,8 +798,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Başlığa basarak indirebilirsiniz.<br><br>
             Teşekkürler
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Uygulama Başlatıcı</string>
     <string name="calculator_short">Hesap Makinesi</string>
     <string name="calendar_short">Takvim</string>
@@ -829,22 +817,18 @@
     <string name="sms_messenger_short">SMS İletiler</string>
     <string name="thank_you_short">Teşekkürler</string>
     <string name="voice_recorder_short">Ses Kaydedici</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Uygulama sürümünüz bozuk görünüyor. Lütfen <a href="%s">buradan</a> orijinal sürümünü indirin.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Sık sorulan sorular</string>
     <string name="before_asking_question">Bir soru sormadan önce, lütfen şurayı okuyun:</string>
     <string name="faq_1_title_commons">Uygulamanın widget\'ını widget\'lar listesinde neden göremiyorum?</string>
     <string name="faq_1_text_commons">Büyük olasılıkla uygulamayı SD karta taşıdığınız içindir. Bu durumda verilen uygulama widget\'larını gizleyen bir Android sistem sınırlaması var. Tek çözüm, aygıt ayarlarınızı kullanarak uygulamayı Dahili Depolama birimine geri taşımaktır.</string>
     <string name="faq_2_title_commons">Seni desteklemek istiyorum ama para bağışlayamıyorum. Yapabileceğim başka bir şey var mı?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
+    <string name="faq_2_text_commons"><![CDATA[
             Evet tabi ki. Uygulamalar hakkında farkındalığı artırabilir veya iyi geri bildirim ve puanlar verebilirsiniz. Ayrıca, uygulamaları yeni bir dile çevirerek veya sadece mevcut çevirileri güncelleyerek de yardımcı olabilirsiniz.
             Çeviri rehberi <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
-        ]]>
-    </string>
+        ]]></string>
     <string name="faq_3_title_commons">Bazı dosyaları yanlışlıkla sildim, onları nasıl kurtarabilirim?</string>
     <string name="faq_3_text_commons">Ne yazık ki, yapamazsınız. Onay penceresinden sonra dosyalar anında silinir, kullanılabilir çöp kutusu yoktur.</string>
     <string name="faq_4_title_commons">Widget renklerini beğenmedim, değiştirebilir miyim?</string>
@@ -863,13 +847,11 @@
     <string name="translation">Çeviri</string>
     <string name="development">Geliştirme</string>
     <string name="other_help">Diğer yardımlar</string>
-    <string name="contributors_label">
-        <![CDATA[
+    <string name="contributors_label"><![CDATA[
             Bu liste, yalnızca buna değil, Fossify paketindeki herhangi bir uygulamaya belirgin şekilde yardımcı olan herkesi içerir. Çeviriler gönüllüler tarafından yapılır,
             siz de yardım etmek isterseniz bize bildirin. Çeviri rehberi <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">bu sayfadadır</a> veya herhangi bir sorunuz varsa <a href="mailto:hello@fossify.org">hello@fossify.org</a> adresinden bize ulaşın.
             Tüm katkıda bulunanlara ve diğer destekçilere teşekkürler!
-        ]]>
-    </string>
+        ]]></string>
     <string name="translation_arabic">Arapça</string>
     <string name="translation_azerbaijani">Azerice</string>
     <string name="translation_bengali">Bengalce</string>
@@ -921,7 +903,7 @@
     <string name="glide_title">Glide (görüntü yükleme ve önbellekleme)</string>
     <string name="picasso_title">Picasso (görüntü yükleme ve önbellekleme)</string>
     <string name="cropper_title">Android Image Cropper (görüntü kırpma ve döndürme)</string>
-    <string name="rtl_viewpager_title">RtlViewPager (sağdan sola  kaydırma)</string>
+    <string name="rtl_viewpager_title">RtlViewPager (sağdan sola kaydırma)</string>
     <string name="joda_title">Joda-Time (Java tarih değiştirme)</string>
     <string name="stetho_title">Stetho (hata ayıklama veritabanları)</string>
     <string name="otto_title">Otto (etkinlik veri yolu)</string>
@@ -969,8 +951,7 @@
     <string name="genre">Tür</string>
     <string name="exif">EXIF</string>
     <string name="notification_sound">Bildirim sesi</string>
-    <string name="copyright">v %1$s
-\nTelif hakkı © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nTelif hakkı © Fossify %2$d</string>
     <string name="alarm">Alarm</string>
     <string name="translation_esperanto">Esperanto</string>
     <string name="translation_chuvash">Çuvaşça</string>

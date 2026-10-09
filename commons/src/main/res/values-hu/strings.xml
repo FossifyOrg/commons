@@ -194,13 +194,7 @@
     <string name="simple_renaming">Egyszerű átnevezés</string>
     <string name="pattern_renaming">Minta</string>
     <string name="string_to_add">Hozzáadandó szöveg</string>
-    <string name="rename_date_time_pattern">%Y – év
-\n%M – hónap
-\n%D – nap
-\n%h – óra
-\n%m – perc
-\n%s – másodperc
-\n%i – 1-től induló számláló</string>
+    <string name="rename_date_time_pattern">%Y – év \n%M – hónap \n%D – nap \n%h – óra \n%m – perc \n%s – másodperc \n%i – 1-től induló számláló</string>
     <string name="filename_without_txt">Fájlnév (.txt nélkül)</string>
     <string name="filename_without_json">Fájlnév (.json nélkül)</string>
     <string name="filename_without_zip">Fájlnév (.zip nélkül)</string>
@@ -263,8 +257,8 @@
     <string name="confirm_storage_access_text">Válassza ki az SD-kártya gyökérmappáját a következő képernyőn, hogy írási hozzáférést adjon</string>
     <string name="confirm_storage_access_text_sd">Ha nem látja az SD-kártyát, próbálja meg ezt</string>
     <string name="confirm_storage_access_android_text">Engedélyezze a következő képernyőn, hogy az alkalmazás hozzáférjen a kiválasztott tárolóhoz, úgy hogy a „Mappa használata” gombra kattint lent.</string>
-    <string name="confirm_storage_access_android_text_specific">Engedélyezze a(z) „<b>%s</b>” elérését a következő képernyő alján lévő „<b>Mappa használata</b>” gombra kattintással.</string>
-    <string name="confirm_create_doc_for_new_folder_text">A mappa létrehozásához kattintson a következő képernyőn alján lévő „<b>Mentés</b>” gombra.</string>
+    <string name="confirm_storage_access_android_text_specific">Engedélyezze a(z) „&lt;b&gt;%s&lt;/b&gt;” elérését a következő képernyő alján lévő „&lt;b&gt;Mappa használata&lt;/b&gt;” gombra kattintással.</string>
+    <string name="confirm_create_doc_for_new_folder_text">A mappa létrehozásához kattintson a következő képernyőn alján lévő „&lt;b&gt;Mentés&lt;/b&gt;” gombra.</string>
     <string name="confirm_selection">Kiválasztás megerősítése</string>
     <string name="loading">Betöltés…</string>
     <string name="access_storage_prompt">Adjon engedélyt az alkalmazásnak, hogy elérje az összes fájlját, enélkül lehet, hogy nem fog jól működni.</string>
@@ -311,7 +305,7 @@
     <string name="gps_coordinates">GPS koordináták</string>
     <string name="altitude">Magasság</string>
     <string name="remove_exif">EXIF-értékek eltávolítása</string>
-    <string name="remove_exif_confirmation">Biztos, hogy eltávolítja az EXIF-értékeket, mint a GPS koordináták, a kameramodell, stb.\?</string>
+    <string name="remove_exif_confirmation">Biztos, hogy eltávolítja az EXIF-értékeket, mint a GPS koordináták, a kameramodell, stb.?</string>
     <string name="exif_removed">Az EXIF-értékek sikeresen eltávolítva</string>
     <string name="background_color">Háttérszín</string>
     <string name="text_color">Szöveg színe</string>
@@ -330,7 +324,7 @@
     <string name="save">Mentés</string>
     <string name="discard">Elvetés</string>
     <string name="undo_changes">Változások visszavonása</string>
-    <string name="undo_changes_confirmation">Biztos, hogy visszavonja a módosításait\?</string>
+    <string name="undo_changes_confirmation">Biztos, hogy visszavonja a módosításait?</string>
     <string name="cannot_be_undone">Ez a művelet nem vonható vissza.</string>
     <string name="save_before_closing">Nem mentette a változtatásokat. Menti a kilépés előtt?</string>
     <string name="global_theme_success">A színek sikeresen frissültek. Hozzáadott egy új, „Közös” nevű témát, a jövőben ezt használja az összes alkalmazás színének frissítéséhez.</string>
@@ -410,10 +404,10 @@
     <string name="use_custom_sorting">Egyéni rendezés használata</string>
     <string name="change_order">Sorrend módosítása</string>
     <string name="more_options">További lehetőségek</string>
-    <string name="proceed_with_deletion">Biztos, hogy folytatja a törlést\?</string>
-    <string name="deletion_confirmation">Biztos, hogy törli ezt: %s\?</string>
+    <string name="proceed_with_deletion">Biztos, hogy folytatja a törlést?</string>
+    <string name="deletion_confirmation">Biztos, hogy törli ezt: %s?</string>
     <string name="move_to_recycle_bin_confirmation">Biztos, hogy áthelyezi a(z) %s fájlt a Lomtárba?</string>
-    <string name="are_you_sure_delete">Biztos, hogy törli ezt az elemet\?</string>
+    <string name="are_you_sure_delete">Biztos, hogy törli ezt az elemet?</string>
     <string name="are_you_sure_recycle_bin">Biztos, hogy áthelyezi ezt az elemet a Lomtárba?</string>
     <string name="do_not_ask_again">Ne kérdezze újra ebben a munkamenetben</string>
     <string name="do_not_show_again">Ne jelenítse meg újra</string>
@@ -429,8 +423,7 @@
     <string name="please_enter_pin">Írjon be egy PIN-kódot</string>
     <string name="wrong_pin">Hibás PIN-kód</string>
     <string name="pin_must_be_4_digits_long">A PIN-kódnak legalább 4 számjegyűnek kell lennie</string>
-    <string name="too_many_incorrect_attempts">Túl sok helytelen feloldási próbálkozás.
-\nPróbálja újra %d másodperc múlva.</string>
+    <string name="too_many_incorrect_attempts">Túl sok helytelen feloldási próbálkozás. \nPróbálja újra %d másodperc múlva.</string>
     <string name="repeat_pin">PIN-kód újra</string>
     <string name="pattern">Minta</string>
     <string name="insert_pattern">Minta megadása</string>
@@ -580,8 +573,7 @@
     </plurals>
     <string name="alarm_goes_off_in">A riasztásig hátralévő idő:\n%s</string>
     <string name="reminder_triggers_in">Az emlékeztető aktiválásáig hátralévő idő:\n%s</string>
-    <string name="time_remaining">Hátralévő idő:
-\n%s</string>
+    <string name="time_remaining">Hátralévő idő: \n%s</string>
     <string name="alarm_warning">Győződjön meg róla, hogy a riasztás megfelelően működik, mielőtt napi szinten használná. Az akkumulátoroptimalizálással kapcsolatos rendszerkorlátozások miatt helytelenül is működhetnek.</string>
     <string name="reminder_warning">Győződjön meg róla, hogy az emlékeztetők megfelelően működnek, mielőtt napi szinten használná. Az akkumulátoroptimalizálással kapcsolatos rendszerkorlátozások miatt helytelenül is működhetnek.</string>
     <string name="notifications_disabled">Az alkalmazás értesítései le vannak tiltva. Lépjen be az eszköz beállításaiba, és engedélyezze ezeket.</string>
@@ -698,14 +690,7 @@
     <string name="backups">Biztonsági mentések</string>
     <string name="enable_automatic_backups">Automatikus biztonsági mentések engedélyezése</string>
     <string name="manage_automatic_backups">Automatikus biztonsági mentések kezelése</string>
-    <string name="date_time_pattern_info">A következő mintákat használhatja a fájl automatikus elnevezéséhez:
-\n
-\n%Y - év
-\n%M - hónap
-\n%D - nap
-\n%h - óra
-\n%m - perc
-\n%s - másodperc</string>
+    <string name="date_time_pattern_info">A következő mintákat használhatja a fájl automatikus elnevezéséhez: \n \n%Y - év \n%M - hónap \n%D - nap \n%h - óra \n%m - perc \n%s - másodperc</string>
     <string name="usb_detected">Úgy tűnik, hogy az eszközéhez egy USB-s eszköz van csatlakoztatva. További engedélyeket kell megadnia, hogy a fájlok megfelelően jelenjenek meg.</string>
     <string name="confirm_usb_storage_access_text">Válassza ki az USB-s eszköz gyökérmappáját a következő képernyőn, hogy hozzáférést biztosítson</string>
     <string name="wrong_root_selected_usb">Hibás mappát választott ki, válassza ki az USB-s eszköz gyökérmappáját</string>
@@ -794,15 +779,7 @@
     <string name="read_it">Elolvasás</string>
     <string name="read_faq">GYIK elolvasása</string>
     <string name="thank_you">Köszönjük</string>
-    <string name="new_app"><![CDATA[
-            Üdv!<br><br>
-            Csak tájékoztatni szeretnénk, hogy megjelent néhány új alkalmazás:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            A címeikre vagy ikonjaikra kattintva töltheti le őket.<br><br>
-            Köszönjük!
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            Üdv!<br><br>\n            Csak tájékoztatni szeretnénk, hogy megjelent néhány új alkalmazás:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            A címeikre vagy ikonjaikra kattintva töltheti le őket.<br><br>\n            Köszönjük!\n        "]]></string>
     <string name="app_launcher_short">Alkalmazásindító</string>
     <string name="calculator_short">Számológép</string>
     <string name="calendar_short">Naptár</string>
@@ -821,24 +798,22 @@
     <string name="sms_messenger_short">SMS üzenetküldő</string>
     <string name="thank_you_short">Köszönöm</string>
     <string name="voice_recorder_short">Hangrögzítő</string>
-    <string name="sideloaded_app"><![CDATA[
-            Úgy tűnik, hogy az alkalmazásverziója megsérült. Töltse le az eredeti verziót <a href="%s">innen</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Úgy tűnik, hogy az alkalmazásverziója megsérült. Töltse le az eredeti verziót <a href="%s">innen</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">Gyakran Ismételt Kérdések</string>
     <string name="before_asking_question">Mielőtt feltenne egy kérdést, először olvassa el ezt:</string>
-    <string name="faq_1_title_commons">Miért nem látom az alkalmazás modulját a modulok között\?</string>
+    <string name="faq_1_title_commons">Miért nem látom az alkalmazás modulját a modulok között?</string>
     <string name="faq_1_text_commons">Valószínűleg azért, mert áthelyezte az alkalmazást egy SD-kártyára. Van egy androidos rendszerkorlátozás, amely ebben az esetben elrejti az adott alkalmazás moduljait. Az egyetlen megoldás az alkalmazás visszahelyezése a belső tárolóra az eszköz beállításaiban.</string>
-    <string name="faq_2_title_commons">Szeretném támogatni, de nem tudok pénzt adományozni. Van még valami, amit tehetek\?</string>
-    <string name="faq_3_title_commons">Tévedésből töröltem néhány fájlt, hogyan tudom helyreállítani\?</string>
+    <string name="faq_2_title_commons">Szeretném támogatni, de nem tudok pénzt adományozni. Van még valami, amit tehetek?</string>
+    <string name="faq_3_title_commons">Tévedésből töröltem néhány fájlt, hogyan tudom helyreállítani?</string>
     <string name="faq_3_text_commons">Sajnos nem lehet. A fájlok azonnal törlődnek a megerősítő párbeszédablak után, ott nem érhető el Lomtár.</string>
-    <string name="faq_4_title_commons">Nem tetszik a modul színe, meg tudom változtatni őket\?</string>
+    <string name="faq_4_title_commons">Nem tetszik a modul színe, meg tudom változtatni őket?</string>
     <string name="faq_4_text_commons">Igen, amikor egy modult futtat a kezdőképernyőn, akkor megjelenik a modulbeállító képernyő. A bal alsó sarokban színes négyzetek láthatók, csak nyomja meg az egyiket, és új színt választhat. Használhatja a csúszkát az alfa beállításához is.</string>
-    <string name="faq_5_title_commons">Helyre tudom állítani a törölt fájlokat\?</string>
+    <string name="faq_5_title_commons">Helyre tudom állítani a törölt fájlokat?</string>
     <string name="faq_5_text_commons">Ha valóban törölve lettek, akkor nem lehet visszaállítani. Viszont alapértelmezetten be van kapcsolva a Lomtár, így a törölt fájlok egyszerűen a Lomtárba kerülnek ahelyett, hogy ténylegesen törlődnének.</string>
     <string name="faq_6_title_commons">Az alkalmazásindító ikon eltűnt. Mit tehetek?</string>
-    <string name="faq_7_title_commons">A pénzt levonták a bankszámlámról, de mégsem tudom letölteni az alkalmazást. Mit tehetek\?</string>
+    <string name="faq_7_title_commons">A pénzt levonták a bankszámlámról, de mégsem tudom letölteni az alkalmazást. Mit tehetek?</string>
     <string name="faq_7_text_commons">A fizetéseket teljesen a Google kezeli, és néha problémák vannak a rendszerükkel. Csak törölje a Google Play alkalmazása gyorsítótárát és indítsa újra az eszközé, majd próbálja újra letölteni.</string>
-    <string name="faq_9_title_commons">Hogyan tudok egyszerre több elemet kiválasztani\?</string>
+    <string name="faq_9_title_commons">Hogyan tudok egyszerre több elemet kiválasztani?</string>
     <string name="faq_9_text_commons">Több mód is van rá. Megnyomhatja hosszan az első elemet, majd röviden megérintheti a továbbiakat. Lehet az egérrel ellátott számítógépekhez hasonlóan egy elemet hosszan megnyomva megkezdeni a kijelölést, majd – az ujjat közben nem felengedve – húzással kijelölni a többit. Egy harmadik lehetőség hosszan megnyomni az első elemet, majd szintén hosszan megnyomni az utolsót: ez a kettő közötti összes elemet kijelöli. Ha minden elemet egyszerre ki akar jelölni, nyomja meg hosszan bármelyik elemet, majd érintse meg a bal felső sarokban lévő számlálót, ez minden elemet kijelöl, vagy minden elem kijelölését törli.</string>
     <string name="faq_10_title_commons">Megvásároltam az alkalmazást, de nem tudom letölteni egy másik eszközön.</string>
     <string name="faq_10_text_commons">Próbálja üríteni a Google Play alkalmazás gyorsítótárát és indítsa újra az eszközét. Ez valami Google Play hiba, nem az alkalmazással kapcsolatos.</string>
@@ -940,19 +915,10 @@
     <string name="deletion_confirmation_short">Törli: %s?</string>
     <string name="purchase_simple_thank_you">Fossify Köszönet megvásárlása</string>
     <string name="notification_sound">Értesítési hang</string>
-    <string name="contributors_label"><![CDATA[
-            A lista mindenkit tartalmaz, aki észrevehető mértékben segített a Fossify csomag bármelyik alkalmazásában, nem csak ebben. A fordításokat önkéntesek kezelik,
-            tudassa velünk, ha Ön is segítene. A fordítási útmutató <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ezen a webhelyen</a> található, de ha kérdése van, akkor a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címen is felteheti.
-            Köszönjük az összes közreműködőnknek és támogatónknak!
-        ]]></string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Igen, természetesen. Népszerűsítheti az alkalmazásokat, adhat visszajelzést róluk és értékelheti őket. Le is fordíthatja az alkalmazásokat a saját nyelvére, vagy frissítheti a meglévő fordításokat.
-            A fordítási útmutató megtalálható <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ezen a webhelyen</a>, vagy ha kérdése van, akkor írjon nekünk a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címre.
-        ]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020A lista mindenkit tartalmaz, aki észrevehető mértékben segített a Fossify csomag bármelyik alkalmazásában, nem csak ebben. A fordításokat önkéntesek kezelik,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020tudassa velünk, ha Ön is segítene. A fordítási útmutató <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ezen a webhelyen</a> található, de ha kérdése van, akkor a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címen is felteheti.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Köszönjük az összes közreműködőnknek és támogatónknak!\n \u0020 \u0020 \u0020 \u0020]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Igen, természetesen. Népszerűsítheti az alkalmazásokat, adhat visszajelzést róluk és értékelheti őket. Le is fordíthatja az alkalmazásokat a saját nyelvére, vagy frissítheti a meglévő fordításokat.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020A fordítási útmutató megtalálható <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ezen a webhelyen</a>, vagy ha kérdése van, akkor írjon nekünk a <a href="mailto:hello@fossify.org">hello@fossify.org</a> címre.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="app_icon_color_warning">Figyelem: egyes indítók lehet, hogy nem helyesen kezelik az ikonok testreszábását. Ha az ikon eltűnik, próbálja a Google Playen vagy egy modulon keresztül elindítani, ha elérhető. Indítás után állítsa vissza az alapértelmezett zöld (#106D1F) ikonszínt. Extrém esetekben az alkalmazás újratelepítése is szükséges lehet.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Vásárolja meg a <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Köszönet</a> alkalmazást a funkció feloldásához, és a fejlesztés támogatásához. Köszönjük!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA["\n            Vásárolja meg a <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Köszönet</a> alkalmazást a funkció feloldásához, és a fejlesztés támogatásához. Köszönjük!\n        "]]></string>
     <string name="system_default">Rendszer alapértelmezése</string>
     <string name="enter_password">Adja meg a jelszót</string>
     <string name="password">Jelszó</string>
@@ -961,8 +927,7 @@
     <string name="usb">USB</string>
     <string name="november">november</string>
     <string name="december">december</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="donate_short">Támogasson minket a &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Köszönet&lt;/a&gt; alkalmazás megvásárlásával, ez feloldja az összes alkalmazásfunkciót is, köztük a színek testreszabását.</string>
     <string name="update_thank_you">Frissítse a Fossify Köszönet alkalmazást a legfrissebb verzióra</string>
     <string name="translation_breton">Breton</string>

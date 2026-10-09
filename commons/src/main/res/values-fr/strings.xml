@@ -9,9 +9,9 @@
     <string name="save_as">Enregistrer sous</string>
     <string name="file_saved">Enregistrement du fichier réussi</string>
     <string name="invalid_file_format">Format de fichier non valide</string>
-    <string name="out_of_memory_error">Erreur : mémoire insuffisante</string>
-    <string name="an_error_occurred">Une erreur s\'est produite : %s</string>
-    <string name="error">Erreur : %s</string>
+    <string name="out_of_memory_error">Erreur : mémoire insuffisante</string>
+    <string name="an_error_occurred">Une erreur s\'est produite : %s</string>
+    <string name="error">Erreur : %s</string>
     <string name="open_with">Ouvrir avec</string>
     <string name="edit_with">Modifier avec</string>
     <string name="edit">Modifier</string>
@@ -22,7 +22,7 @@
     <string name="copy_to_clipboard">Copier dans le presse-papiers</string>
     <string name="copy_number_to_clipboard">Copier le numéro dans le presse-papiers</string>
     <string name="value_copied_to_clipboard">Valeur copiée dans le presse-papiers</string>
-    <string name="value_copied_to_clipboard_show">Valeur copiée dans le presse-papiers :\n%s</string>
+    <string name="value_copied_to_clipboard_show">Valeur copiée dans le presse-papiers :\n%s</string>
     <string name="dial_number">Composer le numéro</string>
     <string name="unknown">Inconnu</string>
     <string name="always">Toujours</string>
@@ -113,7 +113,7 @@
     <string name="import_blocked_numbers">Importer des numéros bloqués</string>
     <string name="must_make_default_dialer">Vous devez définir cette application comme application de numérotation par défaut afin de pouvoir utiliser les numéros bloqués.</string>
     <string name="set_as_default">Définir par défaut</string>
-    <string name="block_confirmation">Voulez-vous vraiment bloquer \"%s\" ?</string>
+    <string name="block_confirmation">Voulez-vous vraiment bloquer \"%s\" ?</string>
     <string name="block_unknown_calls">Bloquer les appels des contacts non enregistrés</string>
     <string name="block_hidden_calls">Bloquer les appels des numéros masqués</string>
     <string name="block_unknown_messages">Bloquer les messages des contacts non enregistrés</string>
@@ -191,13 +191,7 @@
     <string name="simple_renaming">Renommer simplement</string>
     <string name="pattern_renaming">Modèle</string>
     <string name="string_to_add">Texte à ajouter</string>
-    <string name="rename_date_time_pattern">%Y - année
-\n%M - mois
-\n%D - jour
-\n%h - heure
-\n%m - minute
-\n%s - seconde
-\n%i - l\'incrémentation débute à 1</string>
+    <string name="rename_date_time_pattern">%Y - année \n%M - mois \n%D - jour \n%h - heure \n%m - minute \n%s - seconde \n%i - l\'incrémentation débute à 1</string>
     <string name="filename_without_txt">Nom de fichier (sans .txt)</string>
     <string name="filename_without_json">Nom de fichier (sans .json)</string>
     <string name="filename_without_zip">Nom de fichier (sans .zip)</string>
@@ -227,8 +221,7 @@
     <string name="could_not_create_folder">Impossible de créer le dossier \"%s\"</string>
     <string name="could_not_create_file">Impossible de créer le fichier \"%s\"</string>
     <string name="no_new_items">Aucun nouvel élément n\'a été trouvé</string>
-    <string name="no_space">L\'espace de stockage de la destination est insuffisant.
-\nEspace nécessaire : %1$s, espace disponible : %2$s</string>
+    <string name="no_space">L\'espace de stockage de la destination est insuffisant. \nEspace nécessaire : %1$s, espace disponible : %2$s</string>
     <string name="system_service_disabled">Le service système de sélection des fichiers et dossiers est indisponible</string>
     <string name="create_new">Créer un nouveau</string>
     <string name="folder">Dossier</string>
@@ -239,7 +232,7 @@
     <string name="empty_name">Veuillez saisir un nom</string>
     <string name="unknown_error_occurred">Une erreur inconnue s\'est produite</string>
     <string name="file_already_exists">Le fichier \"%s\" existe déjà</string>
-    <string name="file_already_exists_overwrite">Le fichier \"%s\" existe déjà. Voulez-vous l\'écraser \?</string>
+    <string name="file_already_exists_overwrite">Le fichier \"%s\" existe déjà. Voulez-vous l\'écraser ?</string>
     <string name="folder_already_exists">Le dossier \"%s\" existe déjà</string>
     <string name="merge">Fusionner</string>
     <string name="keep_both">Conserver les deux</string>
@@ -259,8 +252,8 @@
     <string name="confirm_storage_access_text">Veuillez sélectionner le dossier racine de la carte SD sur le prochain écran, pour accorder les droits en écriture</string>
     <string name="confirm_storage_access_text_sd">Si vous n\'apercevez pas la carte SD, essayez ceci</string>
     <string name="confirm_storage_access_android_text">Veuillez autoriser l\'application à accéder au stockage sélectionné sur l\'écran suivant en appuyant sur \"Utiliser ce dossier\" en bas de l\'écran.</string>
-    <string name="confirm_storage_access_android_text_specific">Veuillez autoriser l\'accès à \'<b>%s</b>\' sur l\'écran suivant en appuyant sur \'<b>Utiliser ce dossier</b>\' en bas de l\'écran.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Veuillez appuyer sur \"<b>Enregistrer</b>\" en bas de l\'écran suivant pour créer le nouveau dossier.</string>
+    <string name="confirm_storage_access_android_text_specific">Veuillez autoriser l\'accès à \'&lt;b&gt;%s&lt;/b&gt;\' sur l\'écran suivant en appuyant sur \'&lt;b&gt;Utiliser ce dossier&lt;/b&gt;\' en bas de l\'écran.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Veuillez appuyer sur \"&lt;b&gt;Enregistrer&lt;/b&gt;\" en bas de l\'écran suivant pour créer le nouveau dossier.</string>
     <string name="confirm_selection">Confirmer la sélection</string>
     <string name="loading">Chargement…</string>
     <string name="access_storage_prompt">Veuillez accorder à notre application l\'accès à tous vos fichiers. Elle pourrait ne pas fonctionner correctement sans cela.</string>
@@ -310,7 +303,7 @@
     <string name="song_title">Titre de la chanson</string>
     <string name="gps_coordinates">Coordonnées GPS</string>
     <string name="remove_exif">Supprimer les métadonnées EXIF</string>
-    <string name="remove_exif_confirmation">Voulez-vous vraiment supprimer les métadonnées EXIF, comme les coordonnées GPS, le modèle d\'appareil photo, etc \?</string>
+    <string name="remove_exif_confirmation">Voulez-vous vraiment supprimer les métadonnées EXIF, comme les coordonnées GPS, le modèle d\'appareil photo, etc ?</string>
     <string name="exif_removed">Les valeurs EXIF ont été correctement supprimées</string>
     <string name="background_color">Couleur de l\'arrière-plan</string>
     <string name="text_color">Couleur du texte</string>
@@ -329,10 +322,10 @@
     <string name="save">Enregistrer</string>
     <string name="discard">Annuler</string>
     <string name="undo_changes">Annuler les modifications</string>
-    <string name="undo_changes_confirmation">Voulez-vous vraiment annuler vos modifications \?</string>
+    <string name="undo_changes_confirmation">Voulez-vous vraiment annuler vos modifications ?</string>
     <string name="cannot_be_undone">Cette action ne peut pas être annulée.</string>
-    <string name="save_before_closing">Certaines modifications ne sont pas enregistrées. Voulez-vous les enregistrer avant de quitter \?</string>
-    <string name="app_icon_color_warning">Attention : Certains lanceurs peuvent ne pas manipuler correctement la personnalisation de l\'icône d\'application. Si l\'icône disparaît, essayez de lancer l\'application via Google Play ou un widget, si accessible. Après le lancement, restaurer la couleur d\'icône verte par défaut #106D1F. Dans les cas extrêmes, réinstaller l\'application peut être nécessaire.</string>
+    <string name="save_before_closing">Certaines modifications ne sont pas enregistrées. Voulez-vous les enregistrer avant de quitter ?</string>
+    <string name="app_icon_color_warning">Attention : Certains lanceurs peuvent ne pas manipuler correctement la personnalisation de l\'icône d\'application. Si l\'icône disparaît, essayez de lancer l\'application via Google Play ou un widget, si accessible. Après le lancement, restaurer la couleur d\'icône verte par défaut #106D1F. Dans les cas extrêmes, réinstaller l\'application peut être nécessaire.</string>
     <string name="global_theme_success">Actualisation des couleurs réussie. Un nouveau thème nommé \"Partagé\" a été ajouté. Veuillez utiliser dorénavant ce thème pour actualiser les couleurs de toutes les applications.</string>
     <string name="light_theme">Clair</string>
     <string name="dark_theme">Sombre</string>
@@ -410,29 +403,28 @@
     <string name="use_custom_sorting">Utiliser le tri personnalisé</string>
     <string name="change_order">Modifier l\'ordre</string>
     <string name="more_options">Plus d\'options</string>
-    <string name="proceed_with_deletion">Voulez-vous vraiment procéder à la suppression \?</string>
-    <string name="deletion_confirmation">Voulez-vous vraiment supprimer %s \?</string>
-    <string name="deletion_confirmation_short">Supprimer %s \?</string>
-    <string name="move_to_recycle_bin_confirmation">Voulez-vous vraiment déplacer %s dans la corbeille ?</string>
-    <string name="are_you_sure_delete">Voulez-vous vraiment supprimer cet élément \?</string>
-    <string name="are_you_sure_recycle_bin">Voulez-vous vraiment déplacer cet élément dans la corbeille ?</string>
+    <string name="proceed_with_deletion">Voulez-vous vraiment procéder à la suppression ?</string>
+    <string name="deletion_confirmation">Voulez-vous vraiment supprimer %s ?</string>
+    <string name="deletion_confirmation_short">Supprimer %s ?</string>
+    <string name="move_to_recycle_bin_confirmation">Voulez-vous vraiment déplacer %s dans la corbeille ?</string>
+    <string name="are_you_sure_delete">Voulez-vous vraiment supprimer cet élément ?</string>
+    <string name="are_you_sure_recycle_bin">Voulez-vous vraiment déplacer cet élément dans la corbeille ?</string>
     <string name="do_not_ask_again">Ne plus demander pour cette session</string>
     <string name="do_not_show_again">Ne plus montrer</string>
     <string name="yes">Oui</string>
     <string name="no">Non</string>
     <string name="maybe">Peut-être</string>
     <plurals name="delete_warning">
-        <item quantity="one">ATTENTION : vous supprimez %d dossier</item>
-        <item quantity="many">ATTENTION  : vous supprimez %d dossiers</item>
-        <item quantity="other">ATTENTION : vous supprimez %d dossiers</item>
+        <item quantity="one">ATTENTION : vous supprimez %d dossier</item>
+        <item quantity="many">ATTENTION : vous supprimez %d dossiers</item>
+        <item quantity="other">ATTENTION : vous supprimez %d dossiers</item>
     </plurals>
     <string name="pin">Code PIN</string>
     <string name="enter_pin">Saisir un code PIN</string>
     <string name="please_enter_pin">Veuillez saisir un code PIN</string>
     <string name="wrong_pin">Code PIN erroné</string>
-    <string name="pin_must_be_4_digits_long">Le code PIN doit comporter au moins 4 chiffres</string>
-    <string name="too_many_incorrect_attempts">Trop de tentatives infructueuses de déverrouillage.
-\nEssayez de nouveau dans %d secondes.</string>
+    <string name="pin_must_be_4_digits_long">Le code PIN doit comporter au moins 4 chiffres</string>
+    <string name="too_many_incorrect_attempts">Trop de tentatives infructueuses de déverrouillage. \nEssayez de nouveau dans %d secondes.</string>
     <string name="repeat_pin">Saisissez à nouveau le code PIN</string>
     <string name="pattern">Schéma</string>
     <string name="insert_pattern">Dessiner un schéma</string>
@@ -609,12 +601,9 @@
         <item quantity="many">%d ans</item>
         <item quantity="other">%d ans</item>
     </plurals>
-    <string name="alarm_goes_off_in">Temps restant jusqu\'au déclenchement de l\'alarme :
-\n%s</string>
-    <string name="reminder_triggers_in">Temps restant jusqu\'au déclenchement du rappel :
-\n%s</string>
-    <string name="time_remaining">Temps restant :
-\n%s</string>
+    <string name="alarm_goes_off_in">Temps restant jusqu\'au déclenchement de l\'alarme : \n%s</string>
+    <string name="reminder_triggers_in">Temps restant jusqu\'au déclenchement du rappel : \n%s</string>
+    <string name="time_remaining">Temps restant : \n%s</string>
     <string name="alarm_warning">Veuillez vous assurer que l\'alarme fonctionne correctement avant de vous y fier. Elle pourrait mal se comporter en raison des restrictions du système liées à l\'économie de la batterie.</string>
     <string name="reminder_warning">Veuillez vous assurer que les rappels fonctionnent correctement avant de vous y fier. Vérifiez la batterie de votre appareil, ainsi que les paramètres des notifications. Rien ne doit entraver l\'affichage des rappels ni stopper l\'application en arrière-plan.</string>
     <string name="notifications_disabled">Les notifications de cette application sont désactivées. Veuillez les activer depuis les paramètres de votre appareil.</string>
@@ -644,7 +633,7 @@
     <string name="medium">Moyenne</string>
     <string name="large">Grande</string>
     <string name="extra_large">Très grande</string>
-    <string name="password_protect_hidden_items">Protéger les éléments cachés par une identification</string>
+    <string name="password_protect_hidden_items">Protéger l\'affichage des éléments cachés</string>
     <string name="password_protect_whole_app">Protéger l\'application par une identification</string>
     <string name="password_protect_file_deletion">Protéger la suppression et le déplacement des fichiers par une identification</string>
     <string name="keep_last_modified">Conserver l\'ancienne date de modification lors des opérations sur les fichiers</string>
@@ -689,7 +678,7 @@
     <string name="excluded">(exclu)</string>
     <string name="manage_excluded_folders">Gérer les dossiers exclus</string>
     <string name="remove_all">Tout supprimer</string>
-    <string name="remove_all_description">Voulez-vous vraiment supprimer tous les dossiers de la liste d\'exclusions \? Ceci ne supprimera pas les dossiers, ni leur contenu.</string>
+    <string name="remove_all_description">Voulez-vous vraiment supprimer tous les dossiers de la liste d\'exclusions ? Ceci ne supprimera pas les dossiers, ni leur contenu.</string>
     <string name="temporarily_show_excluded">Afficher les dossiers exclus</string>
     <string name="stop_showing_excluded">Cacher les dossiers exclus</string>
     <string name="manage_shown_tabs">Gérer les onglets affichés</string>
@@ -705,7 +694,7 @@
     <string name="restore_all_files">Restaurer tous les fichiers</string>
     <string name="recycle_bin_emptied">Vidage de la corbeille réussi</string>
     <string name="files_restored_successfully">Restauration des fichiers réussie</string>
-    <string name="empty_recycle_bin_confirmation">Voulez-vous vraiment vider la corbeille ? Les fichiers seront irrécupérables.</string>
+    <string name="empty_recycle_bin_confirmation">Voulez-vous vraiment vider la corbeille ? Les fichiers seront irrécupérables.</string>
     <string name="recycle_bin_empty">La corbeille est vide</string>
     <string name="moving_recycle_bin_items_disabled">Le déplacement des éléments de la corbeille est désactivé. Veuillez utiliser la fonction de restauration.</string>
     <string name="show_the_recycle_bin">Afficher la corbeille</string>
@@ -731,14 +720,7 @@
     <string name="backups">Sauvegardes</string>
     <string name="enable_automatic_backups">Activer les sauvegardes automatiques</string>
     <string name="manage_automatic_backups">Gérer les sauvegardes automatiques</string>
-    <string name="date_time_pattern_info">Vous pouvez utiliser les modèles suivants pour nommer votre fichier automatiquement :
-\n
-\n%Y - année
-\n%M - mois
-\n%D - jour
-\n%h - heure
-\n%m - minute
-\n%s - seconde</string>
+    <string name="date_time_pattern_info">Vous pouvez utiliser les modèles suivants pour nommer votre fichier automatiquement : \n \n%Y - année \n%M - mois \n%D - jour \n%h - heure \n%m - minute \n%s - seconde</string>
     <string name="usb_detected">Il semblerait qu\'un périphérique USB soit connecté à votre appareil. Pour vous assurer que les fichiers de ce périphérique s\'affichent correctement, vous devez accorder des autorisations supplémentaires.</string>
     <string name="confirm_usb_storage_access_text">Veuillez sélectionner le dossier racine du périphérique USB, sur l\'écran suivant, pour en accorder l\'accès</string>
     <string name="wrong_root_selected_usb">Mauvais dossier sélectionné. Veuillez sélectionner le dossier racine du périphérique USB</string>
@@ -798,7 +780,7 @@
     <string name="friday_short">Ven.</string>
     <string name="saturday_short">Sam.</string>
     <string name="sunday_short">Dim.</string>
-    <string name="it_is_free">Elle est gratuite jusqu\'au : %s. Si vous la téléchargez avant cette date, vous pourrez l\'utiliser gratuitement à vie.</string>
+    <string name="it_is_free">Elle est gratuite jusqu\'au : %s. Si vous la téléchargez avant cette date, vous pourrez l\'utiliser gratuitement à vie.</string>
     <string name="more_info">Plus d\'informations</string>
     <string name="upgrade">Mettre à jour</string>
     <string name="upgrade_calendar">Vous devez migrer manuellement les évènements stockés localement en les exportant dans un fichier \".ics\", puis en les important. Vous trouverez les boutons d\'exportation/importation dans le menu de l\'écran principal.</string>
@@ -820,8 +802,8 @@
     <string name="hello">Bonjour :)</string>
     <string name="about_footer">Codée avec ❤️ en Slovaquie</string>
     <string name="additional_info">Informations supplémentaires</string>
-    <string name="app_version">Version de l\'application : %s</string>
-    <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
+    <string name="app_version">Version de l\'application : %s</string>
+    <string name="device_os">Système d\'exploitation de l\'appareil : %s</string>
     <string name="purchase">Acheter</string>
     <string name="update_thank_you">Veuillez mettre à jour Fossify Thank You</string>
     <string name="before_asking_question_read_faq">Avant de poser une question, veuillez tout d\'abord vérifier les paramètres de l\'application et lire la foire aux questions. Il est possible que la solution s\'y trouve.</string>
@@ -829,15 +811,7 @@
     <string name="read_it">Consultez-la</string>
     <string name="read_faq">Consulter la FAQ</string>
     <string name="thank_you">Merci</string>
-    <string name="new_app"><![CDATA[
-            Salut,<br><br>
-            Je voulais juste vous signaler que de nouvelles applications ont été lancées récemment :<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            Vous pouvez les télécharger en appuyant sur leurs titres ou icônes.<br><br>
-            Merci
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            Salut,<br><br>\n            Je voulais juste vous signaler que de nouvelles applications ont été lancées récemment :<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            Vous pouvez les télécharger en appuyant sur leurs titres ou icônes.<br><br>\n            Merci\n        "]]></string>
     <string name="app_launcher_short">Lanceur d\'applications</string>
     <string name="calculator_short">Calculatrice</string>
     <string name="calendar_short">Agenda</string>
@@ -854,24 +828,22 @@
     <string name="sms_messenger_short">Messagerie SMS</string>
     <string name="thank_you_short">Merci</string>
     <string name="voice_recorder_short">Enregistreur vocal</string>
-    <string name="sideloaded_app"><![CDATA[
-            La version de votre application semble corrompue. Merci de télécharger la version originale <a href="%s">ici</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020La version de votre application semble corrompue. Merci de télécharger la version originale <a href="%s">ici</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">Foire aux questions</string>
     <string name="before_asking_question">Avant de poser une question, veuillez tout d\'abord consulter la</string>
-    <string name="faq_1_title_commons">Comment se fait-il que je ne voie pas ce widget d\'application dans la liste des widgets ?</string>
+    <string name="faq_1_title_commons">Comment se fait-il que je ne voie pas ce widget d\'application dans la liste des widgets ?</string>
     <string name="faq_1_text_commons">C\'est probablement parce que vous avez déplacé l\'application sur une carte SD. Dans ce cas, il existe une limitation du système Android qui masque les widgets des applications concernées. La seule solution consiste à déplacer l\'application vers le stockage interne via les paramètres de votre appareil.</string>
-    <string name="faq_2_title_commons">Je souhaiterais vous apporter mon soutien, mais je ne peux pas vous donner d\'argent. Y a-t-il autre chose que je puisse faire \?</string>
-    <string name="faq_3_title_commons">J\'ai supprimé certains fichiers par erreur. Comment puis-je les récupérer \?</string>
+    <string name="faq_2_title_commons">Je souhaiterais vous apporter mon soutien, mais je ne peux pas vous donner d\'argent. Y a-t-il autre chose que je puisse faire ?</string>
+    <string name="faq_3_title_commons">J\'ai supprimé certains fichiers par erreur. Comment puis-je les récupérer ?</string>
     <string name="faq_3_text_commons">Malheureusement, vous ne le pouvez pas. Les fichiers sont supprimés immédiatement après l\'apparition de la fenêtre de confirmation de suppression. De plus, aucune corbeille n\'est disponible.</string>
-    <string name="faq_4_title_commons">Je n\'aime pas les couleurs du widget. Puis-je les modifier \?</string>
+    <string name="faq_4_title_commons">Je n\'aime pas les couleurs du widget. Puis-je les modifier ?</string>
     <string name="faq_4_text_commons">Oui, lorsque vous faites glisser un widget sur votre écran d\'accueil, une fenêtre de configuration apparaît. Vous verrez des carrés colorés dans le coin inférieur gauche. Appuyez simplement dessus pour choisir une nouvelle couleur. Vous pouvez également utiliser le curseur pour ajuster la transparence.</string>
-    <string name="faq_5_title_commons">Puis-je restaurer d’une manière ou d’une autre des fichiers supprimés \?</string>
+    <string name="faq_5_title_commons">Puis-je restaurer d’une manière ou d’une autre des fichiers supprimés ?</string>
     <string name="faq_5_text_commons">S\'ils ont vraiment été supprimés, vous ne le pouvez pas les récupérer. Cependant, la corbeille étant activée par défaut, les fichiers seront simplement déplacés dans la corbeille au lieu d\'être supprimés.</string>
-    <string name="faq_6_title_commons">L\'icône du lanceur d\'applications a disparu. Que puis-je faire \?</string>
-    <string name="faq_7_title_commons">L\'argent a bien été débité de mon compte bancaire, mais je ne peux pas télécharger l\'application. Que puis-je faire \?</string>
+    <string name="faq_6_title_commons">L\'icône du lanceur d\'applications a disparu. Que puis-je faire ?</string>
+    <string name="faq_7_title_commons">L\'argent a bien été débité de mon compte bancaire, mais je ne peux pas télécharger l\'application. Que puis-je faire ?</string>
     <string name="faq_7_text_commons">Les paiements sont entièrement gérés par Google. Leur système informatique peut parfois se heurter à quelques problèmes. Effacez simplement le cache de votre application \"Google Play\". Ensuite, redémarrez votre appareil. Enfin, téléchargez de nouveau l\'application.</string>
-    <string name="faq_9_title_commons">Comment puis-je sélectionner plusieurs éléments à la fois \?</string>
+    <string name="faq_9_title_commons">Comment puis-je sélectionner plusieurs éléments à la fois ?</string>
     <string name="faq_9_text_commons">Il existe plusieurs façons de procéder. La première consiste à démarrer le mode de sélection en appuyant longuement sur un élément, puis à cliquer brièvement sur les autres pour les sélectionner. La deuxième méthode est similaire à la sélection d\'éléments sur un ordinateur avec une souris. Démarrez simplement le mode de sélection en appuyant longuement sur un élément, puis, avec votre doigt toujours vers le bas, faites-le glisser sur d\'autres éléments pour les sélectionner. La troisième façon de sélectionner plusieurs éléments consiste à appuyer longuement sur un élément, puis à appuyer longuement sur un autre. Le reste sera alors sélectionné. Si vous souhaitez sélectionner tous les éléments, appuyez longuement sur un élément, puis cliquez sur le compteur d\'éléments sélectionnés dans le coin supérieur gauche. Cela sélectionnera ou désélectionnera l\'ensemble.</string>
     <string name="faq_10_title_commons">J\'ai acheté l\'application, mais je ne peux pas la télécharger sur un autre appareil.</string>
     <string name="faq_10_text_commons">Essayez de vider le cache de votre application \"Google Play\", puis redémarrez votre appareil. C\'est un bogue de \"Google Play\" qui survient par moment et qui n\'est pas vraiment lié à l\'application en elle-même.</string>
@@ -956,19 +928,15 @@
     <string name="start_free_trial">Commencer l\'essai gratuit</string>
     <string name="trial_expires_soon">Votre période d\'essai expire bientôt.</string>
     <string name="unlock_for_one_final_day">Déverrouiller l\'application pour un dernier jour</string>
-    <string name="welcome_to_app_name">Bienvenue sur %s !</string>
+    <string name="welcome_to_app_name">Bienvenue sur %s !</string>
     <plurals name="trial_expires_days">
         <item quantity="one">Votre période d\'essai expire dans %d jour.</item>
         <item quantity="many">Votre période d\'essai expire dans %d jours.</item>
         <item quantity="other">Votre période d\'essai expire dans %d jours.</item>
     </plurals>
-    <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les deux heures qui suivent son achat, le remboursement sera automatique. À tout moment, si vous souhaitez un remboursement, contactez-nous à l\'adresse électronique suivante : hello@fossify.org et vous l\'obtiendrez dans les plus brefs délais. Cela facilite l\'essai de nos applications :)</string>
+    <string name="pro_app_refund">N\'oubliez pas que si vous désinstallez une application payante dans les deux heures qui suivent son achat, le remboursement sera automatique. À tout moment, si vous souhaitez un remboursement, contactez-nous à l\'adresse électronique suivante : hello@fossify.org et vous l\'obtiendrez dans les plus brefs délais. Cela facilite l\'essai de nos applications :)</string>
     <string name="developer_description">Une suite d\'applications Android simples, à code source ouvert, comprenant des widgets personnalisables, sans publicités ni permissions inutiles.</string>
-    <string name="contributors_label"><![CDATA[
-Cette liste contient toutes les personnes qui ont sensiblement contribué à une application de la suite Fossify, et pas seulement celle-ci. Les traductions sont assurées par des bénévoles,
-            faites-nous savoir si vous souhaitez aider aussi. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.
-            Merci à tous les contributeurs et tous ceux qui nous soutiennent !
-        ]]></string>
+    <string name="contributors_label"><![CDATA[\nCette liste contient toutes les personnes qui ont sensiblement contribué à une application de la suite Fossify, et pas seulement celle-ci. Les traductions sont assurées par des bénévoles,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020faites-nous savoir si vous souhaitez aider aussi. Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ce site web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Merci à tous les contributeurs et tous ceux qui nous soutiennent !\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="notes">Notes</string>
     <string name="transparent">Transparent</string>
     <string name="notification">Notification</string>
@@ -1000,10 +968,7 @@ Cette liste contient toutes les personnes qui ont sensiblement contribué à une
     <string name="translation_bengali">Bengali</string>
     <string name="translation_breton">Breton</string>
     <string name="translation_hindi">Hindi</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Oui bien sûr. Vous pouvez nous aider en partageant les applications ou en laissant des notes et commentaires positifs. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue, ou simplement en mettant à jour certaines traductions existantes.
-            Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ce site Web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Oui bien sûr. Vous pouvez nous aider en partageant les applications ou en laissant des notes et commentaires positifs. Vous pouvez également nous aider en traduisant les applications dans une nouvelle langue, ou simplement en mettant à jour certaines traductions existantes.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Le guide de traduction se trouve sur <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ce site Web</a>, ou contactez-nous simplement à <a href="mailto:hello@fossify.org">hello@fossify.org</a> si vous avez des questions.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="translation_catalan">Catalan</string>
     <string name="translation_basque">Basque</string>
     <string name="translation_tamil">Tamil</string>
@@ -1049,9 +1014,7 @@ Cette liste contient toutes les personnes qui ont sensiblement contribué à une
     <string name="select_font_file">Sélectionner le fichier de police de caractère…</string>
     <string name="invalid_font_file">Fichier de police de caractère invalide</string>
     <string name="badge_deprecated">(déprécié)</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Veuillez acheter <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pour utiliser cette fonctionnalité et soutenir le développement. Merci !
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Veuillez acheter <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> pour utiliser cette fonctionnalité et soutenir le développement. Merci !\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="label_with_badge">%1$s %2$s</string>
     <string name="mammoth_title">Mammoth (convertisseur DOCX)</string>
     <string name="commonmark_title">CommonMark (analyseur Markdown)</string>

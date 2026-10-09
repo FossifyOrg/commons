@@ -99,11 +99,13 @@
     <plurals name="column_counts">
         <item quantity="one">%d stĺpec</item>
         <item quantity="few">%d stĺpce</item>
+        <item quantity="many">%d stĺpcov</item>
         <item quantity="other">%d stĺpcov</item>
     </plurals>
     <plurals name="row_counts">
         <item quantity="one">%d riadok</item>
         <item quantity="few">%d riadky</item>
+        <item quantity="many">%d riadkov</item>
         <item quantity="other">%d riadkov</item>
     </plurals>
     <string name="manage_blocked_numbers">Spravovať blokované čísla</string>
@@ -257,7 +259,7 @@
     <string name="confirm_storage_access_text">Pre poskytnutie práva na zápis prosím zvoľte na nasledujúcej obrazovke základný priečǐnok SD karty</string>
     <string name="confirm_storage_access_text_sd">Ak nevidíte SD kartu, skúste toto</string>
     <string name="confirm_storage_access_android_text">Prosím povoľte prístup ku zvolenému úložisku na nasledujúcej obrazovke stlačením spodného tlačidla \"Použiť tento priečinok\".</string>
-    <string name="confirm_storage_access_android_text_specific">Prosím povoľte prístup ku \'<b>%s</b>\' na nasledujúcej obrazovke stlačením spodného tlačidla \"<b>Použiť tento priečinok</b>\".</string>
+    <string name="confirm_storage_access_android_text_specific">Prosím povoľte prístup ku \'&lt;b&gt;%s&lt;/b&gt;\' na nasledujúcej obrazovke stlačením spodného tlačidla \"&lt;b&gt;Použiť tento priečinok&lt;/b&gt;\".</string>
     <string name="confirm_create_doc_for_new_folder_text">Pre vytvorenie nového priečinka prosím stlačte \'&lt;b&gt;Uložiť&lt;/b&gt;\' na spodku nasledujúcej obrazovky.</string>
     <string name="confirm_selection">Potvrdiť výber</string>
     <string name="loading">Načítavanie…</string>
@@ -265,21 +267,25 @@
     <plurals name="items">
         <item quantity="one">%d položka</item>
         <item quantity="few">%d položky</item>
+        <item quantity="many">%d položiek</item>
         <item quantity="other">%d položiek</item>
     </plurals>
     <plurals name="delete_items">
         <item quantity="one">%d položku</item>
         <item quantity="few">%d položky</item>
+        <item quantity="many">%d položiek</item>
         <item quantity="other">%d položiek</item>
     </plurals>
     <plurals name="deleting_items">
         <item quantity="one">Odstraňuje sa %d položka</item>
         <item quantity="few">Odstraňujú sa %d položky</item>
+        <item quantity="many">Odstraňuje sa %d položiek</item>
         <item quantity="other">Odstraňuje sa %d položiek</item>
     </plurals>
     <plurals name="delete_contacts">
         <item quantity="one">%d kontakt</item>
         <item quantity="few">%d kontakty</item>
+        <item quantity="many">%d kontaktov</item>
         <item quantity="other">%d kontaktov</item>
     </plurals>
     <string name="select_storage">Zvoľte úložisko</string>
@@ -290,8 +296,7 @@
     <string name="root">Koreňový priečinok</string>
     <string name="wrong_root_selected">Bol zvolený nesprávny priečinok, prosím zvoľte hlavný priečinok SD karty</string>
     <string name="sd_card_usb_same">Cesta k SD karte a USB zariadeniu nesmie byť rovnaká</string>
-    <string name="app_on_sd_card">Vyzerá to tak, že máte aplikáciu nainštalovanú na SD karte, čo spôsobí nedostupnosť widgetov. Ani ich neuvidíte na zozname dostupných widgetov.
-        Ide o systémové obmedzenie, čiže ak chcete widgety používať, musíte presunúť aplikáciu späť na internú pamäť.</string>
+    <string name="app_on_sd_card">Vyzerá to tak, že máte aplikáciu nainštalovanú na SD karte, čo spôsobí nedostupnosť widgetov. Ani ich neuvidíte na zozname dostupných widgetov. Ide o systémové obmedzenie, čiže ak chcete widgety používať, musíte presunúť aplikáciu späť na internú pamäť.</string>
     <string name="wrong_folder_selected">Zvolili ste zlý priečinok, prosím zvoľte \'%s\'</string>
     <string name="properties">Vlastnosti</string>
     <string name="path">Cesta</string>
@@ -334,9 +339,7 @@
     <string name="cannot_be_undone">Táto akcia sa nedá vrátiť späť.</string>
     <string name="save_before_closing">Máte neuložené zmeny. Chcete ich uložiť pred ukončením?</string>
     <string name="global_theme_success">Farby boli úspešne aktualizované. Bola pridaná nová \'Zdieľaná\' téma, prosím použite ju pri ďalšej úprave farieb.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Prosím zakúpte si <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Jednoduché ďakujem</a> na odomknutie tejto funkcie a podporu vývoja. Vďaka!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">Svetlá</string>
     <string name="dark_theme">Tmavá</string>
     <string name="auto_theme">Automatická</string>
@@ -428,14 +431,14 @@
     <plurals name="delete_warning">
         <item quantity="one">UPOZORNENIE: Chystáte sa vymazať %d priečinok</item>
         <item quantity="few">UPOZORNENIE: Chystáte sa vymazať %d priečinky</item>
+        <item quantity="many">UPOZORNENIE: Chystáte sa vymazať %d priečinkov</item>
         <item quantity="other">UPOZORNENIE: Chystáte sa vymazať %d priečinkov</item>
     </plurals>
     <string name="enter_pin">Zadajte PIN</string>
     <string name="please_enter_pin">Prosím zadajte PIN</string>
     <string name="wrong_pin">Nesprávny PIN</string>
     <string name="pin_must_be_4_digits_long">PIN musí byť dlhý aspoň 4 číslice</string>
-    <string name="too_many_incorrect_attempts">Príliš veľa nesprávnych pokusov o odomknutie.
-\nSkúste znova o %d sekúnd.</string>
+    <string name="too_many_incorrect_attempts">Príliš veľa nesprávnych pokusov o odomknutie. \nSkúste znova o %d sekúnd.</string>
     <string name="repeat_pin">Zopakujte PIN</string>
     <string name="pattern">Vzor</string>
     <string name="insert_pattern">Zadajte vzor</string>
@@ -474,141 +477,169 @@
     <plurals name="seconds">
         <item quantity="one">%d sekunda</item>
         <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekúnd</item>
         <item quantity="other">%d sekúnd</item>
     </plurals>
     <plurals name="minutes">
         <item quantity="one">%d minúta</item>
         <item quantity="few">%d minúty</item>
+        <item quantity="many">%d minút</item>
         <item quantity="other">%d minút</item>
     </plurals>
     <plurals name="hours">
         <item quantity="one">%d hodina</item>
         <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodín</item>
         <item quantity="other">%d hodín</item>
     </plurals>
     <plurals name="days">
         <item quantity="one">%d deň</item>
         <item quantity="few">%d dni</item>
+        <item quantity="many">%d dní</item>
         <item quantity="other">%d dní</item>
     </plurals>
     <plurals name="weeks">
         <item quantity="one">%d týždeň</item>
         <item quantity="few">%d týždne</item>
+        <item quantity="many">%d týždňov</item>
         <item quantity="other">%d týždňov</item>
     </plurals>
     <plurals name="months">
         <item quantity="one">%d mesiac</item>
         <item quantity="few">%d mesiace</item>
+        <item quantity="many">%d mesiacov</item>
         <item quantity="other">%d mesiacov</item>
     </plurals>
     <plurals name="years">
         <item quantity="one">%d rok</item>
         <item quantity="few">%d roky</item>
+        <item quantity="many">%d rokov</item>
         <item quantity="other">%d rokov</item>
     </plurals>
     <plurals name="in_seconds">
         <item quantity="one">%d sekundu</item>
         <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekúnd</item>
         <item quantity="other">%d sekúnd</item>
     </plurals>
     <plurals name="in_minutes">
         <item quantity="one">%d minútu</item>
         <item quantity="few">%d minúty</item>
+        <item quantity="many">%d minút</item>
         <item quantity="other">%d minút</item>
     </plurals>
     <plurals name="in_hours">
         <item quantity="one">%d hodinu</item>
         <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodín</item>
         <item quantity="other">%d hodín</item>
     </plurals>
     <plurals name="in_days">
         <item quantity="one">%d deň</item>
         <item quantity="few">%d dni</item>
+        <item quantity="many">%d dní</item>
         <item quantity="other">%d dní</item>
     </plurals>
     <plurals name="in_weeks">
         <item quantity="one">%d týždeň</item>
         <item quantity="few">%d týždne</item>
+        <item quantity="many">%d týždňov</item>
         <item quantity="other">%d týždňov</item>
     </plurals>
     <plurals name="in_months">
         <item quantity="one">%d mesiac</item>
         <item quantity="few">%d mesiace</item>
+        <item quantity="many">%d mesiacov</item>
         <item quantity="other">%d mesiacov</item>
     </plurals>
     <plurals name="in_years">
         <item quantity="one">%d rok</item>
         <item quantity="few">%d roky</item>
+        <item quantity="many">%d rokov</item>
         <item quantity="other">%d rokov</item>
     </plurals>
     <plurals name="seconds_before">
         <item quantity="one">%d sekundu vopred</item>
         <item quantity="few">%d sekundy vopred</item>
+        <item quantity="many">%d sekúnd vopred</item>
         <item quantity="other">%d sekúnd vopred</item>
     </plurals>
     <plurals name="minutes_before">
         <item quantity="one">%d minútu vopred</item>
         <item quantity="few">%d minúty vopred</item>
+        <item quantity="many">%d minút vopred</item>
         <item quantity="other">%d minút vopred</item>
     </plurals>
     <plurals name="hours_before">
         <item quantity="one">%d hodinu vopred</item>
         <item quantity="few">%d hodiny vopred</item>
+        <item quantity="many">%d hodín vopred</item>
         <item quantity="other">%d hodín vopred</item>
     </plurals>
     <plurals name="days_before">
         <item quantity="one">%d deň vopred</item>
         <item quantity="few">%d dni vopred</item>
+        <item quantity="many">%d dní vopred</item>
         <item quantity="other">%d dní vopred</item>
     </plurals>
     <plurals name="weeks_before">
         <item quantity="one">%d týždeň vopred</item>
         <item quantity="few">%d týždne vopred</item>
+        <item quantity="many">%d týždňov vopred</item>
         <item quantity="other">%d týždňov vopred</item>
     </plurals>
     <plurals name="months_before">
         <item quantity="one">%d mesiac vopred</item>
         <item quantity="few">%d mesiace vopred</item>
+        <item quantity="many">%d mesiacov vopred</item>
         <item quantity="other">%d mesiacov vopred</item>
     </plurals>
     <plurals name="years_before">
         <item quantity="one">%d rok vopred</item>
         <item quantity="few">%d roky vopred</item>
+        <item quantity="many">%d rokov vopred</item>
         <item quantity="other">%d rokov vopred</item>
     </plurals>
     <plurals name="by_seconds">
         <item quantity="one">%d sekundu</item>
         <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekúnd</item>
         <item quantity="other">%d sekúnd</item>
     </plurals>
     <plurals name="by_minutes">
         <item quantity="one">%d minútu</item>
         <item quantity="few">%d minúty</item>
+        <item quantity="many">%d minút</item>
         <item quantity="other">%d minút</item>
     </plurals>
     <plurals name="by_hours">
         <item quantity="one">%d hodinu</item>
         <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodín</item>
         <item quantity="other">%d hodín</item>
     </plurals>
     <plurals name="by_days">
         <item quantity="one">%d deň</item>
         <item quantity="few">%d dni</item>
+        <item quantity="many">%d dni</item>
         <item quantity="other">%d dni</item>
     </plurals>
     <plurals name="by_weeks">
         <item quantity="one">%d týždeň</item>
         <item quantity="few">%d týždne</item>
+        <item quantity="many">%d týždňov</item>
         <item quantity="other">%d týždňov</item>
     </plurals>
     <plurals name="by_months">
         <item quantity="one">%d mesiac</item>
         <item quantity="few">%d mesiace</item>
+        <item quantity="many">%d mesiacov</item>
         <item quantity="other">%d mesiacov</item>
     </plurals>
     <plurals name="by_years">
         <item quantity="one">%d rok</item>
         <item quantity="few">%d roky</item>
+        <item quantity="many">%d rokov</item>
         <item quantity="other">%d rokov</item>
     </plurals>
     <string name="alarm_goes_off_in">Zostávajúci čas do zvonenia budíka:\n%s</string>
@@ -688,7 +719,7 @@
     <string name="excluded">(vylúčené)</string>
     <string name="manage_excluded_folders">Spravovať vylúčené priečinky</string>
     <string name="remove_all">Odstrániť všetky</string>
-    <string name="remove_all_description">Odstrániť všetky priečinky zo zoznamu vylúčených\? Táto operácia neodstráni samotný obsah priečinkov.</string>
+    <string name="remove_all_description">Odstrániť všetky priečinky zo zoznamu vylúčených? Táto operácia neodstráni samotný obsah priečinkov.</string>
     <string name="temporarily_show_excluded">Dočasne zobraziť vylúčené</string>
     <string name="stop_showing_excluded">Ukončiť zobrazovanie vylúčených</string>
     <string name="manage_shown_tabs">Spravovať zobrazené karty</string>
@@ -810,8 +841,7 @@
     <string name="read_it">Prečítať</string>
     <string name="read_faq">Prečítať FAQ</string>
     <string name="thank_you">Ďakujeme</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Zdravím,<br><br>
             iba vám oznamujeme, že boli nedávno vydané nové aplikácie:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -819,8 +849,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Viete ich stiahnuť kliknutím na ich názov, alebo ikonku.<br><br>
             Vďaka
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Spúšťač aplikácií</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendár</string>
@@ -839,23 +868,18 @@
     <string name="sms_messenger_short">SMS správy</string>
     <string name="thank_you_short">Ďakujem</string>
     <string name="voice_recorder_short">Nahrávač zvuku</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Zdá sa, že vaša verzia apky je poškodená. Prosím stiahnite originálnu verziu <a href="%s">odtiaľ</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Predtým, ako sa niečo opýtate si prosíme preštudujte</string>
     <string name="faq_1_title_commons">Prečo nevidím widget tejto apky na zozname widgetov?</string>
-    <string name="faq_1_text_commons">Je to pravdepodobne spôsobené tým, že ste apku presunuli na SD kartu. Ide o systémové obmedzenie, ktoré v tomto prípade skryje widget apky.
-        Jediným riešením je presunutie apky späť na internú pamäť cez nastavnenia zariadenia.</string>
+    <string name="faq_1_text_commons">Je to pravdepodobne spôsobené tým, že ste apku presunuli na SD kartu. Ide o systémové obmedzenie, ktoré v tomto prípade skryje widget apky. Jediným riešením je presunutie apky späť na internú pamäť cez nastavnenia zariadenia.</string>
     <string name="faq_2_title_commons">Chcem vás podporiť, ale neviem poslať peniaze. Viem pre vás urobiť aj niečo iné?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
+    <string name="faq_2_text_commons"><![CDATA[
             Áno, samozrejme. Môžete napr. šíriť apky medzi známymi, alebo nám poslať užitočnú odozvu a hodnotenia. Viete pomôcť aj preložením apiek do nových jazykov, alebo upraviť existujúce preklady.
             Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tejto webstránke</a>, alebo nám v prípade potreby napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="faq_3_title_commons">Náhodou som vymazal niektoré súbory, viem ich obnoviť?</string>
     <string name="faq_3_text_commons">Žiaľ, nie. Súbory sú mazané okamžite po potvrdení, nie je dostupný žiadny smetný kôš.</string>
     <string name="faq_4_title_commons">Nepáčia sa mi farby widgetu, viem ich zmeniť?</string>
@@ -866,22 +890,18 @@
     <string name="faq_7_title_commons">Peniaze som mal stiahnuté z účtu, ale neviem stiahnuť aplikáciu. Čo s tým?</string>
     <string name="faq_7_text_commons">Platby sú plne spravované Googlom, ich systém z času na čas nefunguje. Skúste vymazať cache apky Google Play, reštartujte zariadenie a skúste apku opäť stiahnuť.</string>
     <string name="faq_9_title_commons">Akým spôsobom viem naraz označiť viacero položiek?</string>
-    <string name="faq_9_text_commons">Existuje viacero spôsobov. Prvým je aktivovanie označovacieho módu dlhým podržaním jednej položky, následne viete označiť ďalšie krátkymi ťuknutiami. Druhý spôsob je podobný označovaniu položiek myšou na PC. Dlhým podržaním označte jednu položku a bez dvihnutia prsta
-        ho potiahnite cez ďalšie položky, to ich označí. Tretím spôsobom je dlhé podržanie jednej položky, následne dlhé podržanie inej položky. Označí to všetko medzi týmito 2 položkami. Ak chcete označiť všetko, aktivujte označovací mód dlhým podržaním jednej položky,
-        potom kliknite na počítadlo označených položiek v ľavom hornom rohu. To označí, resp. odznačí všetko.</string>
+    <string name="faq_9_text_commons">Existuje viacero spôsobov. Prvým je aktivovanie označovacieho módu dlhým podržaním jednej položky, následne viete označiť ďalšie krátkymi ťuknutiami. Druhý spôsob je podobný označovaniu položiek myšou na PC. Dlhým podržaním označte jednu položku a bez dvihnutia prsta ho potiahnite cez ďalšie položky, to ich označí. Tretím spôsobom je dlhé podržanie jednej položky, následne dlhé podržanie inej položky. Označí to všetko medzi týmito 2 položkami. Ak chcete označiť všetko, aktivujte označovací mód dlhým podržaním jednej položky, potom kliknite na počítadlo označených položiek v ľavom hornom rohu. To označí, resp. odznačí všetko.</string>
     <string name="faq_10_title_commons">Kúpil som si apku, neviem ju ale stiahnuť na inom zariadení.</string>
     <string name="faq_10_text_commons">Skúste vymazať cache apky Google Play a reštartovať vaše zariadenie. Ide o nejakú chybu v Google Play, nie v samotnej apke.</string>
     <string name="contributors">Prispievatelia</string>
     <string name="translation">Preklad</string>
     <string name="development">Vývoj</string>
     <string name="other_help">Iná pomoc</string>
-    <string name="contributors_label">
-        <![CDATA[
+    <string name="contributors_label"><![CDATA[
             Tento zoznam obsahuje každého, kto citeľne pomohol ktorejkoľvek apke z celej sady Fossify, nie iba tejto apke. Preklady sú spracovávané dobrovoľníkmi,
             dajte nám vedieť, ak chcete pomôcť tiež. Návod na prekladanie je na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tejto webstránke</a>, alebo ak máte nejaké otázky, tak nám jednoducho napíšte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
             Ďakujeme všetkým prispievateľom a iným podporovateľom!
-        ]]>
-    </string>
+        ]]></string>
     <string name="translation_arabic">Arabčina</string>
     <string name="translation_azerbaijani">Azerbajdžančina</string>
     <string name="translation_bengali">Bengálčina</string>
@@ -968,6 +988,7 @@
     <plurals name="trial_expires_days">
         <item quantity="one">Vaša skúšobná doba uplynie o %d deň.</item>
         <item quantity="few">Vaša skúšobná doba uplynie o %d dni.</item>
+        <item quantity="many">Vaša skúšobná doba uplynie o %d dní.</item>
         <item quantity="other">Vaša skúšobná doba uplynie o %d dní.</item>
     </plurals>
     <string name="pro_app_refund">Nezabudnite, že ak odinštalujete platenú verziu do 2 hodín, peniaze vám budú automaticky vrátené. Ak ich budete chcieť späť hocikedy neskôr, len nám dajte vedieť na hello@fossify.org. To vám zabezpečí jednoduchý spôsob na ich vyskúšanie :)</string>

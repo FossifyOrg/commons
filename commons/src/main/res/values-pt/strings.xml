@@ -230,8 +230,8 @@
     <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo passo para conceder acesso de escrita</string>
     <string name="confirm_storage_access_text_sd">Se você não encontrar o cartão SD, tente isto</string>
     <string name="confirm_storage_access_android_text">Por favor, permita que o aplicativo acesse o armazenamento utilizando o botão \"Use esta pasta\" no canto inferior da próxima tela.</string>
-    <string name="confirm_storage_access_android_text_specific">Por favor, permita o acesso a \'<b>%s</b>\' no próximo ecrã pressionando \'<b>Usar esta pasta</b>\' no canto inferior.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Por favor, pressione \'<b>Save</b>\' no canto inferior da próxima nela para criar uma nova pasta.</string>
+    <string name="confirm_storage_access_android_text_specific">Por favor, permita o acesso a \'&lt;b&gt;%s&lt;/b&gt;\' no próximo ecrã pressionando \'&lt;b&gt;Usar esta pasta&lt;/b&gt;\' no canto inferior.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Por favor, pressione \'&lt;b&gt;Save&lt;/b&gt;\' no canto inferior da próxima nela para criar uma nova pasta.</string>
     <string name="confirm_selection">Confirmar seleção</string>
     <string name="loading">Carregando…</string>
     <string name="access_storage_prompt">Conceda ao nosso aplicativo acesso a todos os seus ficheiros, ele pode não funcionar bem sem ele.</string>
@@ -304,9 +304,7 @@
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não salvas. Salvar antes de sair?</string>
     <string name="global_theme_success">O tema atual foi aplicado com sucesso a todos os aplicativos Fossify. Quaisquer alterações futuras neste tema serão sincronizadas automaticamente.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Agradecimento Fossify</a> para usar esta função e apoiar o desenvolvimento. Obrigado!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA["\n            Compre <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Agradecimento Fossify</a> para usar esta função e apoiar o desenvolvimento. Obrigado!\n        "]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Escuro</string>
     <string name="auto_theme">Auto</string>
@@ -768,15 +766,7 @@
     <string name="read_it">Ler</string>
     <string name="read_faq">Leia as Perguntas Frequentes</string>
     <string name="thank_you">Obrigado</string>
-    <string name="new_app"><![CDATA[
-            Olá,<br><br>
-            Gostariamos de avisar que lançamos um novo app recentemente:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            Pode descarregá-lo pressionando o título.<br><br>
-            Obrigado
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            Olá,<br><br>\n            Gostariamos de avisar que lançamos um novo app recentemente:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            Pode descarregá-lo pressionando o título.<br><br>\n            Obrigado\n        "]]></string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
     <string name="camera_short">Câmara</string>
@@ -794,9 +784,7 @@
     <string name="sms_messenger_short">Mensagens SMS</string>
     <string name="thank_you_short">Obrigado</string>
     <string name="voice_recorder_short">Gravador de Voz</string>
-    <string name="sideloaded_app"><![CDATA[
-            Parece que a sua versão do app está corrompida. Por favor, descarregue a versão original <a href="%s">aqui</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Parece que a sua versão do app está corrompida. Por favor, descarregue a versão original <a href="%s">aqui</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">Perguntas Frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro as</string>
     <string name="faq_1_title_commons">Por que não vejo o widget deste aplicativo na lista de widgets?</string>
@@ -804,7 +792,7 @@
     <string name="faq_2_title_commons">Gostaria de apoiá-los, mas não posso doar dinheiro. Há algo mais que eu possa fazer?</string>
     <string name="faq_3_title_commons">Exclui alguns ficheiros por engano, como posso recuperá-los?</string>
     <string name="faq_3_text_commons">Infelizmente, você não pode. Os ficheiros são apagados instantaneamente após a caixa de diálogo de confirmação, não há lixeira disponível.</string>
-    <string name="faq_4_title_commons">Não gosto das cores do widget, posso mudá-las\?</string>
+    <string name="faq_4_title_commons">Não gosto das cores do widget, posso mudá-las?</string>
     <string name="faq_4_text_commons">Sim, enquanto você arrasta um widget em sua tela inicial, uma tela de configuração do widget aparece. Verá quadrados coloridos no canto inferior esquerdo, basta pressioná-los para escolher uma nova cor. Também pode usar o controle deslizante para ajustar a transparência (alfa).</string>
     <string name="faq_5_title_commons">Posso restaurar de alguma forma os ficheiros apagados?</string>
     <string name="faq_5_text_commons">Se eles foram realmente apagados, não poderá recuperá-los. No entanto, o lixo está ativado por predefinição e move os ficheiros para o lixo em vez de apagá-los imediatamente.</string>
@@ -1002,16 +990,9 @@
     <string name="allow_notifications_files">Deve permitir que a app exiba notificações, caso contrário, ele não poderá mostrar a barra de progresso.</string>
     <string name="app_icon_color_warning">Cuidado: Certos lançadores podem não lidar corretamente com a personalização do ícone da app. Se o ícone desaparecer, tente iniciar a app pelo Google Play ou por um widget, se acessível. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar a app.</string>
     <string name="reorder_items_by_dragging">Reordenar elementos arrastando</string>
-    <string name="faq_2_text_commons"><![CDATA[
-Sim, claro. Pode espalhar a informação sobre as apps ou dar um bom feedback e avaliações. Também pode ajudar traduzindo as apps para um novo idioma ou apenas atualizando algumas traduções existentes.
-O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
-]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\nSim, claro. Pode espalhar a informação sobre as apps ou dar um bom feedback e avaliações. Também pode ajudar traduzindo as apps para um novo idioma ou apenas atualizando algumas traduções existentes.\nO guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.\n]]></string>
     <string name="faq_6_text_commons">Este problema surge quando o seu lançador não suporta totalmente a personalização de ícones. Tente iniciar a app pelo Google Play ou um widget, se acessível. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar a app.</string>
-    <string name="contributors_label"><![CDATA[
-Esta lista contém todos que ajudaram visivelmente qualquer app dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,
-nos avise se também quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
-Obrigado a todos os contribuidores e outros apoiadores!
-]]></string>
+    <string name="contributors_label"><![CDATA[\nEsta lista contém todos que ajudaram visivelmente qualquer app dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,\nnos avise se também quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.\nObrigado a todos os contribuidores e outros apoiadores!\n]]></string>
     <string name="translation_chuvash">Chuvache</string>
     <plurals name="files_saved">
         <item quantity="one">Ficheiro gravado com sucesso</item>

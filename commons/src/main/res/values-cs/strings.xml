@@ -21,8 +21,7 @@
     <string name="copy_to_clipboard">Zkopírovat do schránky</string>
     <string name="copy_number_to_clipboard">Zkopírovat číslo do schránky</string>
     <string name="value_copied_to_clipboard">Hodnota byla zkopírována do schránky</string>
-    <string name="value_copied_to_clipboard_show">Hodnota byla zkopírována do schránky:
-\n%s</string>
+    <string name="value_copied_to_clipboard_show">Hodnota byla zkopírována do schránky: \n%s</string>
     <string name="dial_number">Vytočit číslo</string>
     <string name="unknown">Neznámé</string>
     <string name="always">Vždy</string>
@@ -45,8 +44,8 @@
     <string name="number">Číslo</string>
     <string name="no_contacts_found">Nenalezeny žádné kontakty</string>
     <string name="request_the_required_permissions">Vyžádat potřebná oprávnění</string>
-    <string name="no_access_to_contacts">Aplikace nemohla získat přístup k vašim kontaktům</string>
-    <string name="no_phone_call_permission">Aplikace nemá oprávnění pro zahájení telefonních hovorů. Prosím, poskytněte jej v nastavení zařízení</string>
+    <string name="no_access_to_contacts">Aplikace nemohla získat přístup k vašim kontaktům</string>
+    <string name="no_phone_call_permission">Aplikace nemá oprávnění pro zahájení telefonních hovorů. Prosím, poskytněte jej v nastavení zařízení</string>
     <string name="insert_text_here">Sem vložte text</string>
     <string name="call_person">Zavolat %s</string>
     <string name="confirm_calling_person">Potvrďte volání %s</string>
@@ -101,11 +100,13 @@
     <plurals name="column_counts">
         <item quantity="one">%d sloupec</item>
         <item quantity="few">%d sloupce</item>
+        <item quantity="many">%d sloupců</item>
         <item quantity="other">%d sloupců</item>
     </plurals>
     <plurals name="row_counts">
         <item quantity="one">%d řádek</item>
         <item quantity="few">%d řádky</item>
+        <item quantity="many">%d řádků</item>
         <item quantity="other">%d řádků</item>
     </plurals>
     <string name="manage_blocked_numbers">Spravovat blokovaná čísla</string>
@@ -153,9 +154,9 @@
     <string name="filter">Filtr</string>
     <string name="no_items_found">Nenalezeny žádné položky.</string>
     <string name="change_filter">Změnit filtr</string>
-    <string name="no_storage_permissions">Je vyžadováno oprávnění pro přístup k úložišti</string>
+    <string name="no_storage_permissions">Je vyžadováno oprávnění pro přístup k úložišti</string>
     <string name="no_contacts_permission">Je vyžadováno oprávnění pro přístup ke kontaktům</string>
-    <string name="no_camera_permissions">Je vyžadováno oprávnění pro přístup k fotoaparátu</string>
+    <string name="no_camera_permissions">Je vyžadováno oprávnění pro přístup k fotoaparátu</string>
     <string name="no_audio_permissions">Je vyžadováno oprávnění pro přístup ke zvuku</string>
     <string name="no_permission">Žádné oprávnění</string>
     <string name="allow_notifications_reminders">Musíte aplikaci povolit zobrazování upozornění, jinak nemůže zobrazovat připomenutí.</string>
@@ -175,7 +176,7 @@
     <string name="rename_file_error">Nepodařilo se přejmenovat soubor</string>
     <string name="rename_folder_error">Nepodařilo se přejmenovat složku</string>
     <string name="rename_folder_empty">Název složky nesmí být prázdný</string>
-    <string name="rename_folder_exists">Složka s tímto názvem již existuje</string>
+    <string name="rename_folder_exists">Složka s tímto názvem již existuje</string>
     <string name="rename_folder_root">Nelze přejmenovat kořenovou složku úložiště</string>
     <string name="rename_folder_ok">Složka byla úspěšně přejmenována</string>
     <string name="renaming_folder">Přejmenování složky</string>
@@ -189,13 +190,7 @@
     <string name="simple_renaming">Jednoduché přejmenování</string>
     <string name="pattern_renaming">Vzor</string>
     <string name="string_to_add">Text k přidání</string>
-    <string name="rename_date_time_pattern">%Y – rok
-\n%M – měsíc
-\n%D – den
-\n%h – hodina
-\n%m – minuta
-\n%s – sekunda
-\n%i – číslo narůstající od 1</string>
+    <string name="rename_date_time_pattern">%Y – rok \n%M – měsíc \n%D – den \n%h – hodina \n%m – minuta \n%s – sekunda \n%i – číslo narůstající od 1</string>
     <string name="filename_without_txt">Název souboru (bez „.txt“)</string>
     <string name="filename_without_json">Název souboru (bez „.json“)</string>
     <string name="filename_without_zip">Název souboru (bez „.zip“)</string>
@@ -227,14 +222,13 @@
     <string name="could_not_create_folder">Nepodařilo se vytvořit složku %s</string>
     <string name="could_not_create_file">Nepodařilo se vytvořit soubor %s</string>
     <string name="no_new_items">Nenalezeny žádné nové položky</string>
-    <string name="no_space">V cílové složce není dostatek místa.
-\nJe potřeba %1$s, k dispozici %2$s</string>
-    <string name="system_service_disabled">Systémová služba pro výběr souborů a složek není k dispozici</string>
+    <string name="no_space">V cílové složce není dostatek místa. \nJe potřeba %1$s, k dispozici %2$s</string>
+    <string name="system_service_disabled">Systémová služba pro výběr souborů a složek není k dispozici</string>
     <string name="create_new">Vytvořit nový</string>
     <string name="folder">Složka</string>
     <string name="file">Soubor</string>
     <string name="create_new_folder">Vytvořit novou složku</string>
-    <string name="name_taken">Soubor nebo složka s tímto názvem již existuje</string>
+    <string name="name_taken">Soubor nebo složka s tímto názvem již existuje</string>
     <string name="invalid_name">Název obsahuje neplatné znaky</string>
     <string name="empty_name">Zadejte prosím název</string>
     <string name="unknown_error_occurred">Vyskytla se neznámá chyba</string>
@@ -245,43 +239,47 @@
     <string name="keep_both">Zachovat oba</string>
     <string name="overwrite">Přepsat</string>
     <string name="skip">Přeskočit</string>
-    <string name="append">Ponechat s „_1“</string>
+    <string name="append">Ponechat s „_1“</string>
     <string name="apply_to_all">Použít pro všechny</string>
-    <string name="system_folder_restriction">Systém neumožňuje operaci v této složce, vyberte prosím jinou</string>
+    <string name="system_folder_restriction">Systém neumožňuje operaci v této složce, vyberte prosím jinou</string>
     <string name="system_folder_copy_restriction">Systém neumožňuje kopírování do této složky, vyberte prosím jinou</string>
-    <string name="rename_in_sd_card_system_restriction">Systém neumožňuje přejmenování v této složce</string>
-    <string name="rename_internal_system_restriction">Nelze přejmenovat složky přímo na interním úložišti, pouze v podsložkách</string>
+    <string name="rename_in_sd_card_system_restriction">Systém neumožňuje přejmenování v této složce</string>
+    <string name="rename_internal_system_restriction">Nelze přejmenovat složky přímo na interním úložišti, pouze v podsložkách</string>
     <string name="cannot_rename_folder">Nelze přejmenovat tuto složku</string>
     <string name="select_folder">Zvolte složku</string>
     <string name="select_file">Zvolte soubor</string>
-    <string name="confirm_storage_access_title">Potvrďte přístup k externímu úložišti</string>
+    <string name="confirm_storage_access_title">Potvrďte přístup k externímu úložišti</string>
     <string name="confirm_folder_access_title">Potvrďte přístup ke složce</string>
-    <string name="confirm_storage_access_text">Pro poskytnutí oprávnění k zápisu na následující obrazovce zvolte kořenový adresář SD karty</string>
+    <string name="confirm_storage_access_text">Pro poskytnutí oprávnění k zápisu na následující obrazovce zvolte kořenový adresář SD karty</string>
     <string name="confirm_storage_access_text_sd">Pokud SD kartu nevidíte, vyzkoušejte následující</string>
-    <string name="confirm_storage_access_android_text">Povolte aplikaci přístup k vybranému úložišti stisknutím „Použít tuto složku“ na další obrazovce dole.</string>
-    <string name="confirm_storage_access_android_text_specific">Povolte prosím přístup k „<b>%s</b>“ stisknutím „<b>Použít tuto složku</b>“ ve spodní části další obrazovky.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Pro vytvoření nové složky stiskněte \'<b>Uložit</b>\' na další obrazovce dole.</string>
+    <string name="confirm_storage_access_android_text">Povolte aplikaci přístup k vybranému úložišti stisknutím „Použít tuto složku“ na další obrazovce dole.</string>
+    <string name="confirm_storage_access_android_text_specific">Povolte prosím přístup k „&lt;b&gt;%s&lt;/b&gt;“ stisknutím „&lt;b&gt;Použít tuto složku&lt;/b&gt;“ ve spodní části další obrazovky.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Pro vytvoření nové složky stiskněte \'&lt;b&gt;Uložit&lt;/b&gt;\' na další obrazovce dole.</string>
     <string name="confirm_selection">Potvrdit výběr</string>
     <string name="loading">Načítání…</string>
     <string name="access_storage_prompt">Prosím, poskytněte aplikaci přístup ke všem vašim souborům. Bez toho nemusí fungovat dobře.</string>
     <plurals name="items">
         <item quantity="one">%d položka</item>
         <item quantity="few">%d položky</item>
+        <item quantity="many">%d položek</item>
         <item quantity="other">%d položek</item>
     </plurals>
     <plurals name="delete_items">
         <item quantity="one">%d položku</item>
         <item quantity="few">%d položky</item>
+        <item quantity="many">%d položek</item>
         <item quantity="other">%d položek</item>
     </plurals>
     <plurals name="deleting_items">
         <item quantity="one">Odstraňuje se %d položka</item>
         <item quantity="few">Odstraňují se %d položky</item>
+        <item quantity="many">Odstraňuje se %d položek</item>
         <item quantity="other">Odstraňuje se %d položek</item>
     </plurals>
     <plurals name="delete_contacts">
         <item quantity="one">%d kontakt</item>
         <item quantity="few">%d kontakty</item>
+        <item quantity="many">%d kontaktů</item>
         <item quantity="other">%d kontaktů</item>
     </plurals>
     <string name="select_storage">Zvolit úložiště</string>
@@ -289,8 +287,8 @@
     <string name="internal">Interní</string>
     <string name="sd_card">SD karta</string>
     <string name="wrong_root_selected">Zvolena nesprávná složka. Prosím, vyberte kořenový adresář SD karty</string>
-    <string name="sd_card_usb_same">Cesta k SD kartě a USB zařízení se nemohou shodovat</string>
-    <string name="app_on_sd_card">Zdá se, že máte aplikaci nainstalovanou na SD kartě, widgety proto nebudou dostupné. Neuvidíte je ani v seznamu dostupných widgetů. Jedná se o systémové omezení. Proto, pokud chcete widgety používat, musíte aplikaci přesunout zpět do interního úložiště.</string>
+    <string name="sd_card_usb_same">Cesta k SD kartě a USB zařízení se nemohou shodovat</string>
+    <string name="app_on_sd_card">Zdá se, že máte aplikaci nainstalovanou na SD kartě, widgety proto nebudou dostupné. Neuvidíte je ani v seznamu dostupných widgetů. Jedná se o systémové omezení. Proto, pokud chcete widgety používat, musíte aplikaci přesunout zpět do interního úložiště.</string>
     <string name="wrong_folder_selected">Vybrána nesprávná složka. Prosím, vyberte cestu „%s“</string>
     <string name="properties">Vlastnosti</string>
     <string name="path">Cesta</string>
@@ -309,7 +307,7 @@
     <string name="gps_coordinates">GPS souřadnice</string>
     <string name="altitude">Nadmořská výška</string>
     <string name="remove_exif">Odstranit EXIF</string>
-    <string name="remove_exif_confirmation">Jste si jisti, že chcete odstranit hodnoty EXIF, jako jsou souřadnice GPS, model fotoaparátu atd.\?</string>
+    <string name="remove_exif_confirmation">Jste si jisti, že chcete odstranit hodnoty EXIF, jako jsou souřadnice GPS, model fotoaparátu atd.?</string>
     <string name="exif_removed">EXIF hodnoty úspěšně odstraněny</string>
     <string name="background_color">Barva pozadí</string>
     <string name="text_color">Barva písma</string>
@@ -330,7 +328,7 @@
     <string name="undo_changes">Vrátit změny</string>
     <string name="undo_changes_confirmation">Opravdu chcete vrátit změny?</string>
     <string name="cannot_be_undone">Tuto akci nelze vrátit zpět.</string>
-    <string name="save_before_closing">Máte neuložené změny. Chcete je před ukončením uložit\?</string>
+    <string name="save_before_closing">Máte neuložené změny. Chcete je před ukončením uložit?</string>
     <string name="global_theme_success">Barvy úspěšně aktualizovány. Byl přidán nový motiv „Sdílený“, v budoucnu jej prosím použijte pro úpravu barev u všech Jednoduchých aplikací zároveň.</string>
     <string name="light_theme">Světlý</string>
     <string name="dark_theme">Tmavý</string>
@@ -405,10 +403,10 @@
     <string name="full_name">Celé jméno</string>
     <string name="use_custom_sorting">Použít vlastní třídění</string>
     <string name="change_order">Změnit pořadí</string>
-    <string name="proceed_with_deletion">Opravdu chcete pokračovat v mazání\?</string>
-    <string name="deletion_confirmation">Opravdu chcete smazat  %s?</string>
+    <string name="proceed_with_deletion">Opravdu chcete pokračovat v mazání?</string>
+    <string name="deletion_confirmation">Opravdu chcete smazat %s?</string>
     <string name="move_to_recycle_bin_confirmation">Opravdu chcete přesunout %s do koše?</string>
-    <string name="are_you_sure_delete">Opravdu chcete smazat tuto položku\?</string>
+    <string name="are_you_sure_delete">Opravdu chcete smazat tuto položku?</string>
     <string name="are_you_sure_recycle_bin">Opravdu chcete přesunout tuto položku do koše?</string>
     <string name="do_not_ask_again">V této relaci se již znovu neptat</string>
     <string name="do_not_show_again">Neukazovat znovu</string>
@@ -418,6 +416,7 @@
     <plurals name="delete_warning">
         <item quantity="one">UPOZORNĚNÍ: Chystáte se smazat %d složku</item>
         <item quantity="few">UPOZORNĚNÍ: Chystáte se smazat %d složky</item>
+        <item quantity="many">UPOZORNĚNÍ: Chystáte se smazat %d složek</item>
         <item quantity="other">UPOZORNĚNÍ: Chystáte se smazat %d složek</item>
     </plurals>
     <string name="enter_pin">Zadejte PIN</string>
@@ -436,13 +435,13 @@
     <string name="authenticate">Ověřit</string>
     <string name="authentication_failed">Ověření selhalo</string>
     <string name="authentication_blocked">Ověření je blokováno, zkuste to prosím později</string>
-    <string name="no_fingerprints_registered">Nejsou registrovány žádné otisky prstu, prosím, přidejte nějaké v nastavení svého zařízení</string>
+    <string name="no_fingerprints_registered">Nejsou registrovány žádné otisky prstu, prosím, přidejte nějaké v nastavení svého zařízení</string>
     <string name="go_to_settings">Přejít do nastavení</string>
     <string name="protection_setup_successfully">Heslo bylo úspěšně nastaveno. Pokud jej zapomenete, přeinstalujte prosím aplikaci.</string>
-    <string name="fingerprint_setup_successfully">Ochrana byla úspěšně nastavena. V případě problémů s jejím resetováním, prosím, přeinstalujte aplikaci.</string>
+    <string name="fingerprint_setup_successfully">Ochrana byla úspěšně nastavena. V případě problémů s jejím resetováním, prosím, přeinstalujte aplikaci.</string>
     <string name="lock_folder">Uzamknout složku</string>
     <string name="unlock_folder">Odemknout složku</string>
-    <string name="lock_folder_notice">Tato ochrana funguje pouze v této aplikaci, nemá za cíl nahradit šifrování složky fungující napříč systémem.</string>
+    <string name="lock_folder_notice">Tato ochrana funguje pouze v této aplikaci, nemá za cíl nahradit šifrování složky fungující napříč systémem.</string>
     <string name="password">Heslo</string>
     <string name="add_password">Přidat heslo</string>
     <string name="empty_password_new">Zadejte prosím heslo</string>
@@ -460,147 +459,174 @@
     <plurals name="seconds">
         <item quantity="one">%d sekunda</item>
         <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
         <item quantity="other">%d sekund</item>
     </plurals>
     <plurals name="minutes">
         <item quantity="one">%d minuta</item>
         <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
         <item quantity="other">%d minut</item>
     </plurals>
     <plurals name="hours">
         <item quantity="one">%d hodina</item>
         <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodin</item>
         <item quantity="other">%d hodin</item>
     </plurals>
     <plurals name="days">
         <item quantity="one">%d den</item>
         <item quantity="few">%d dny</item>
+        <item quantity="many">%d dní</item>
         <item quantity="other">%d dní</item>
     </plurals>
     <plurals name="weeks">
         <item quantity="one">%d týden</item>
         <item quantity="few">%d týdny</item>
+        <item quantity="many">%d týdnů</item>
         <item quantity="other">%d týdnů</item>
     </plurals>
     <plurals name="months">
         <item quantity="one">%d měsíc</item>
         <item quantity="few">%d měsíce</item>
+        <item quantity="many">%d měsíců</item>
         <item quantity="other">%d měsíců</item>
     </plurals>
     <plurals name="years">
         <item quantity="one">%d rok</item>
         <item quantity="few">%d roky</item>
+        <item quantity="many">%d let</item>
         <item quantity="other">%d let</item>
     </plurals>
     <plurals name="in_seconds">
         <item quantity="one">%d sekundu</item>
         <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
         <item quantity="other">%d sekund</item>
     </plurals>
     <plurals name="in_minutes">
         <item quantity="one">%d minutu</item>
         <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
         <item quantity="other">%d minut</item>
     </plurals>
     <plurals name="in_hours">
         <item quantity="one">%d hodinu</item>
         <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodin</item>
         <item quantity="other">%d hodin</item>
     </plurals>
     <plurals name="in_days">
         <item quantity="one">%d den</item>
         <item quantity="few">%d dny</item>
+        <item quantity="many">%d dní</item>
         <item quantity="other">%d dní</item>
     </plurals>
     <plurals name="in_weeks">
         <item quantity="one">%d týden</item>
         <item quantity="few">%d týdny</item>
+        <item quantity="many">%d týdnů</item>
         <item quantity="other">%d týdnů</item>
     </plurals>
     <plurals name="in_months">
         <item quantity="one">%d měsíc</item>
         <item quantity="few">%d měsíce</item>
+        <item quantity="many">%d měsíců</item>
         <item quantity="other">%d měsíců</item>
     </plurals>
     <plurals name="in_years">
         <item quantity="one">%d rok</item>
         <item quantity="few">%d roky</item>
+        <item quantity="many">%d let</item>
         <item quantity="other">%d let</item>
     </plurals>
     <plurals name="seconds_before">
         <item quantity="one">%d sekundu před</item>
         <item quantity="few">%d sekundy před</item>
+        <item quantity="many">%d sekund před</item>
         <item quantity="other">%d sekund před</item>
     </plurals>
     <plurals name="minutes_before">
         <item quantity="one">%d minutu před</item>
         <item quantity="few">%d minuty před</item>
+        <item quantity="many">%d minut před</item>
         <item quantity="other">%d minut před</item>
     </plurals>
     <plurals name="hours_before">
         <item quantity="one">%d hodinu před</item>
         <item quantity="few">%d hodiny před</item>
+        <item quantity="many">%d hodin před</item>
         <item quantity="other">%d hodin před</item>
     </plurals>
     <plurals name="days_before">
         <item quantity="one">%d den před</item>
         <item quantity="few">%d dny před</item>
+        <item quantity="many">%d dnů před</item>
         <item quantity="other">%d dnů před</item>
     </plurals>
     <plurals name="weeks_before">
         <item quantity="one">%d týden před</item>
         <item quantity="few">%d týdny před</item>
+        <item quantity="many">%d týdnů před</item>
         <item quantity="other">%d týdnů před</item>
     </plurals>
     <plurals name="months_before">
         <item quantity="one">%d měsíc před</item>
         <item quantity="few">%d měsíce před</item>
+        <item quantity="many">%d měsíců před</item>
         <item quantity="other">%d měsíců před</item>
     </plurals>
     <plurals name="years_before">
         <item quantity="one">%d rok před</item>
         <item quantity="few">%d roky před</item>
+        <item quantity="many">%d let před</item>
         <item quantity="other">%d let před</item>
     </plurals>
     <plurals name="by_seconds">
         <item quantity="one">%d sekundu</item>
         <item quantity="few">%d sekundy</item>
+        <item quantity="many">%d sekund</item>
         <item quantity="other">%d sekund</item>
     </plurals>
     <plurals name="by_minutes">
         <item quantity="one">%d minutu</item>
         <item quantity="few">%d minuty</item>
+        <item quantity="many">%d minut</item>
         <item quantity="other">%d minut</item>
     </plurals>
     <plurals name="by_hours">
         <item quantity="one">%d hodinu</item>
         <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodin</item>
         <item quantity="other">%d hodin</item>
     </plurals>
     <plurals name="by_days">
         <item quantity="one">%d den</item>
         <item quantity="few">%d dny</item>
+        <item quantity="many">%d dnů</item>
         <item quantity="other">%d dnů</item>
     </plurals>
     <plurals name="by_weeks">
         <item quantity="one">%d týden</item>
         <item quantity="few">%d týdny</item>
+        <item quantity="many">%d týdnů</item>
         <item quantity="other">%d týdnů</item>
     </plurals>
     <plurals name="by_months">
         <item quantity="one">%d měsíc</item>
         <item quantity="few">%d měsíce</item>
+        <item quantity="many">%d měsíců</item>
         <item quantity="other">%d měsíců</item>
     </plurals>
     <plurals name="by_years">
         <item quantity="one">%d rok</item>
         <item quantity="few">%d roky</item>
+        <item quantity="many">%d let</item>
         <item quantity="other">%d let</item>
     </plurals>
     <string name="alarm_goes_off_in">Zbývající čas do zvonění budíku:\n%s</string>
     <string name="reminder_triggers_in">Zbývající čas do zobrazení připomínky:\n%s</string>
-    <string name="time_remaining">Zbývající čas:
-\n%s</string>
+    <string name="time_remaining">Zbývající čas: \n%s</string>
     <string name="alarm_warning">Před spoléháním se na budík se prosím ujistěte, že funguje správně. Některá systémová omezení spojená se zvýšením výdrže baterie mohou způsobovat problémy.</string>
     <string name="reminder_warning">Před spoléháním se na připomínky se prosím ujistěte, že fungují správně. Zkontrolujte na svém zařízení nastavení baterie a oznamování, zda tam není nic blokujícího připomínky nebo ukončujícího aplikace běžící na pozadí.</string>
     <string name="notifications_disabled">Oznámení této aplikace jsou vypnuta. Pro jejich povolení prosím přejděte do nastavení svého zařízení.</string>
@@ -634,12 +660,12 @@
     <string name="password_protect_file_deletion">Chránit heslem mazání a přesouvání souborů</string>
     <string name="keep_last_modified">Zachovat původní čas poslední úpravy při souborových operacích</string>
     <string name="show_info_bubble">Zobrazit informační bublinu při prohlížení položek tažením posuvníku</string>
-    <string name="prevent_phone_from_sleeping">Zabránit uspání zařízení dokud je aplikace v popředí</string>
+    <string name="prevent_phone_from_sleeping">Zabránit uspání zařízení dokud je aplikace v popředí</string>
     <string name="skip_delete_confirmation">Vždy přeskočit potvrzení mazání souborů</string>
     <string name="enable_pull_to_refresh">Povolit obnovení seznamu tažením shora</string>
     <string name="use_24_hour_time_format">Použít 24hodinový formát času</string>
     <string name="change_date_and_time_format">Změnit formát data a času</string>
-    <string name="sunday_first">Začátek týdne v neděli</string>
+    <string name="sunday_first">Začátek týdne v neděli</string>
     <string name="start_week_on">Začátek týdne</string>
     <string name="widgets">Widgety</string>
     <string name="use_same_snooze">Vždy použít stejný čas odložení</string>
@@ -674,7 +700,7 @@
     <string name="excluded">(vyloučené)</string>
     <string name="manage_excluded_folders">Spravovat vyloučené složky</string>
     <string name="remove_all">Odstranit všechny</string>
-    <string name="remove_all_description">Odstranit všechny složky ze seznamu vyloučených\? Tato operace neodstraní obsah složek.</string>
+    <string name="remove_all_description">Odstranit všechny složky ze seznamu vyloučených? Tato operace neodstraní obsah složek.</string>
     <string name="temporarily_show_excluded">Dočasně zobrazit vyloučené</string>
     <string name="stop_showing_excluded">Přestat zobrazovat vyloučené</string>
     <string name="manage_shown_tabs">Spravovat zobrazené karty</string>
@@ -718,14 +744,7 @@
     <string name="backups">Zálohy</string>
     <string name="enable_automatic_backups">Povolit automatické zálohování</string>
     <string name="manage_automatic_backups">Spravovat automatické zálohování</string>
-    <string name="date_time_pattern_info">K automatickému pojmenování souboru můžete použít následující vzory:
-\n
-\n%Y – rok
-\n%M – měsíc
-\n%D – den
-\n%h – hodiny
-\n%m – minuta
-\n%s – sekunda</string>
+    <string name="date_time_pattern_info">K automatickému pojmenování souboru můžete použít následující vzory: \n \n%Y – rok \n%M – měsíc \n%D – den \n%h – hodiny \n%m – minuta \n%s – sekunda</string>
     <string name="usb_detected">Zdá se, že ke svému zařízení máte připojeno USB zařízení. Pro správné zobrazení jeho souborů jsou potřeba další oprávnění.</string>
     <string name="confirm_usb_storage_access_text">Pro povolení přístupu prosím na následující obrazovce zvolte kořenový adresář USB zařízení</string>
     <string name="wrong_root_selected_usb">Zvolena nesprávná složka, vyberte prosím kořenový adresář USB zařízení</string>
@@ -814,8 +833,7 @@
     <string name="read_it">Přečíst</string>
     <string name="read_faq">Přečíst ČKO</string>
     <string name="thank_you">Děkujeme</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Zdravím,<br><br>
             pouze bych vám chtěl oznámit, že byla nedávno uveřejněna nová aplikace:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -823,8 +841,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Stáhnete ji klepnutím na název.<br><br>
             Děkuji
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Spouštěč aplikací</string>
     <string name="calculator_short">Kalkulačka</string>
     <string name="calendar_short">Kalendář</string>
@@ -843,16 +860,13 @@
     <string name="sms_messenger_short">SMS zprávy</string>
     <string name="thank_you_short">Děkujeme</string>
     <string name="voice_recorder_short">Hlasový záznamník</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Zdá se, že vaše verze aplikace je poškozená. Prosím stáhněte originální verzi <a href="%s">zde</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Často kladené otázky</string>
     <string name="before_asking_question">Před položením otázky si prosím prvně přečtěte</string>
     <string name="faq_1_title_commons">Proč nevidím widget této aplikace v přehledu widgetů?</string>
-    <string name="faq_1_text_commons">Je velmi pravděpodobné, že jste aplikaci přesunuli na SD kartu. Jde o omezení systému Android, které v takovém případě skryje widget dané aplikace.
-        Jediným řešením je přesunutí aplikace zpět do interního úložiště skrze nastavení vašeho zařízení.</string>
+    <string name="faq_1_text_commons">Je velmi pravděpodobné, že jste aplikaci přesunuli na SD kartu. Jde o omezení systému Android, které v takovém případě skryje widget dané aplikace. Jediným řešením je přesunutí aplikace zpět do interního úložiště skrze nastavení vašeho zařízení.</string>
     <string name="faq_2_title_commons">Chtěl bych vás podpořit, ale nemohu peněžně. Mohu pomoci i jiným způsobem?</string>
     <string name="faq_3_title_commons">Nechtěně jsem smazal některé soubory, jak je mohu obnovit?</string>
     <string name="faq_3_text_commons">Bohužel nemůžete. Soubory jsou smazány okamžitě po potvrzovacím dialogu, žádný koš není k dispozici.</string>
@@ -912,6 +926,7 @@
     <plurals name="trial_expires_days">
         <item quantity="one">Vaše zkušební doba vyprší za %d den.</item>
         <item quantity="few">Vaše zkušební doba vyprší za %d dny.</item>
+        <item quantity="many">Vaše zkušební doba vyprší za %d dnů.</item>
         <item quantity="other">Vaše zkušební doba vyprší za %d dnů.</item>
     </plurals>
     <string name="pro_app_refund">Nezapomeňte, že pokud odinstalujete kteroukoliv placenou aplikaci do 2 hodin, budou vám automaticky vráceny peníze. Pokud budete chtít vrátit platbu kdykoliv později, kontaktujte nás prosím na hello@fossify.org . Tímto vám nic nebrání aplikace plně ozkoušet :)</string>
@@ -945,8 +960,7 @@
     <string name="show_line_numbers">Zobrazit čísla řádků</string>
     <string name="more_options">Další možnosti</string>
     <string name="deletion_confirmation_short">Odstranit %s?</string>
-    <string name="too_many_incorrect_attempts">Příliš mnoho nesprávných pokusů o odemknutí.
-\nZkuste to znovu za %d sekund.</string>
+    <string name="too_many_incorrect_attempts">Příliš mnoho nesprávných pokusů o odemknutí. \nZkuste to znovu za %d sekund.</string>
     <string name="enter_password">Zadejte heslo</string>
     <string name="seconds_letter">%ds</string>
     <string name="minutes_letter">%dm</string>
@@ -957,14 +971,10 @@
     <string name="text">Text</string>
     <string name="usb">USB</string>
     <string name="saturday_letter">S</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="donate_short">Líbí se vám Fossify? Podpořte vývoj naší aplikace bez reklam zakoupením aplikace &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Poděkování Fossify&lt;/a&gt;. Zároveň s tím se vám aktivují vlastní písma a sdílené přizpůsobení napříč aplikacemi Fossify. Děkujeme za vaši podporu!</string>
     <string name="update_thank_you">Aktualizujte prosím aplikaci Poděkování Fossify na nejnovější verzi</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Ano, samozřejmě. Rozšiřte povědomí o aplikacích nebo nám dejte zpětnou vazbu a hodnocení. Můžete také pomoci s překladem aplikací do nového jazyka, nebo aktualizací některého z existujících.
-            Návod k překladu naleznete na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tomto webu</a>. Pokud máte nějaké dotazy, můžete nás také kontaktovat na adrese <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Ano, samozřejmě. Rozšiřte povědomí o aplikacích nebo nám dejte zpětnou vazbu a hodnocení. Můžete také pomoci s překladem aplikací do nového jazyka, nebo aktualizací některého z existujících.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Návod k překladu naleznete na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tomto webu</a>. Pokud máte nějaké dotazy, můžete nás také kontaktovat na adrese <a href="mailto:hello@fossify.org">hello@fossify.org</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="other_help">Další informace</string>
     <string name="translation_arabic">Arabština</string>
     <string name="translation_german">Němčina</string>
@@ -995,14 +1005,8 @@
     <string name="pin_must_be_4_digits_long">PIN musí být dlouhý alespoň 4 znaky</string>
     <string name="allow_alarm_sleep_timer">Musíte aplikaci povolit přístup k interním budíkům, jinak nemůže vypnout aplikaci po časovači spánku.</string>
     <string name="website">Webové stránky</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Pro použití této funkce si prosíme zakupte <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Poděkování Fossify</a> a podpořte vývoj. Děkujeme!
-        ]]></string>
-    <string name="contributors_label"><![CDATA[
-            Tento seznam obsahuje všechny, kteří významněji pomohli u jakékoli aplikace ze sady Fossify, nejen u této. Překlady jsou spravovány dobrovolníky,
-            dejte nám vědět, pokud chcete také přispět. Návod k překladu se nachází na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tomto webu</a>. Pokud máte nějaké dotazy, můžete nás také kontaktovat na adrese <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
-            Děkujeme všem přispěvatelům a dalším podporovatelům!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Pro použití této funkce si prosíme zakupte <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Poděkování Fossify</a> a podpořte vývoj. Děkujeme!\n \u0020 \u0020 \u0020 \u0020]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Tento seznam obsahuje všechny, kteří významněji pomohli u jakékoli aplikace ze sady Fossify, nejen u této. Překlady jsou spravovány dobrovolníky,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020dejte nám vědět, pokud chcete také přispět. Návod k překladu se nachází na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tomto webu</a>. Pokud máte nějaké dotazy, můžete nás také kontaktovat na adrese <a href="mailto:hello@fossify.org">hello@fossify.org</a>.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Děkujeme všem přispěvatelům a dalším podporovatelům!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="translation_azerbaijani">Ázerbájdžánština</string>
     <string name="translation_bengali">Bengálština</string>
     <string name="translation_breton">Bretonština</string>

@@ -262,8 +262,8 @@
     <string name="confirm_storage_access_text">Щоб надати доступ на запис, оберіть кореневу теку SD-карти на наступному екрані</string>
     <string name="confirm_storage_access_text_sd">Якщо ви не бачите SD-карту, спробуйте це</string>
     <string name="confirm_storage_access_android_text">Будь ласка, дозвольте застосунку отримати доступ до вибраного сховища на наступному екрані, натиснувши «Використовувати цю теку» внизу.</string>
-    <string name="confirm_storage_access_android_text_specific">Будь ласка, надайте доступ до «<b>%s</b>» на наступному екрані, натиснувши «<b>Використовувати цю теку</b>» внизу.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Будь ласка, натисніть \'<b>Зберегти</b>\' внизу наступного екрана, щоб створити нову теку.</string>
+    <string name="confirm_storage_access_android_text_specific">Будь ласка, надайте доступ до «&lt;b&gt;%s&lt;/b&gt;» на наступному екрані, натиснувши «&lt;b&gt;Використовувати цю теку&lt;/b&gt;» внизу.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Будь ласка, натисніть \'&lt;b&gt;Зберегти&lt;/b&gt;\' внизу наступного екрана, щоб створити нову теку.</string>
     <string name="confirm_selection">Підтвердіть вибір</string>
     <string name="loading">Завантаження…</string>
     <string name="access_storage_prompt">Будь ласка, надайте даному застосунку доступ до ваших файлів, без цього він може несправно працювати.</string>
@@ -320,7 +320,7 @@
     <string name="gps_coordinates">GPS координати</string>
     <string name="altitude">Висота над рівнем моря</string>
     <string name="remove_exif">Видалити EXIF</string>
-    <string name="remove_exif_confirmation">Ви впевнені, що хочете видалити значення EXIF, як-от координати GPS, модель камери тощо\?</string>
+    <string name="remove_exif_confirmation">Ви впевнені, що хочете видалити значення EXIF, як-от координати GPS, модель камери тощо?</string>
     <string name="exif_removed">Значення EXIF успішно видалено</string>
     <string name="background_color">Колір фону</string>
     <string name="text_color">Колір тексту</string>
@@ -441,8 +441,7 @@
     <string name="please_enter_pin">Будь ласка, введіть PIN</string>
     <string name="wrong_pin">Невірний PIN</string>
     <string name="pin_must_be_4_digits_long">PIN-код має містити принаймні 4 цифри</string>
-    <string name="too_many_incorrect_attempts">Забагато неправильних спроб розблокування.
-\nПовторіть спробу через %d секунд.</string>
+    <string name="too_many_incorrect_attempts">Забагато неправильних спроб розблокування. \nПовторіть спробу через %d секунд.</string>
     <string name="repeat_pin">Повторіть PIN</string>
     <string name="pattern">Шаблон</string>
     <string name="insert_pattern">Вставити шаблон</string>
@@ -651,8 +650,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Сигнал будильника зазвучить через:\n%s</string>
     <string name="reminder_triggers_in">Час до того, як спрацює нагадування:\n%s</string>
-    <string name="time_remaining">Час, що залишився:
-\n%s</string>
+    <string name="time_remaining">Час, що залишився: \n%s</string>
     <string name="alarm_warning">Переконайтеся, що будильник працює коректно, перед тим, як на нього покладатися. Він може не спрацювати через системні обмеження, пов\'язані з економією заряду батареї.</string>
     <string name="reminder_warning">Переконайтеся, що нагадування працюють коректно, перед тим, як на них покладатися. Вони можуть не спрацювати через системні обмеження, пов\'язані з економією заряду батареї.</string>
     <string name="notifications_disabled">Сповіщення від цього застосунку заборонені. Перейдіть до налаштувань пристрою, щоб їх увімкнути.</string>
@@ -728,7 +726,7 @@
     <string name="excluded">(виключено)</string>
     <string name="manage_excluded_folders">Керування виключеними теками</string>
     <string name="remove_all">Видалити все</string>
-    <string name="remove_all_description">Видалити всі теки зі списку виключених\? Це не видалить теки з пристрою.</string>
+    <string name="remove_all_description">Видалити всі теки зі списку виключених? Це не видалить теки з пристрою.</string>
     <string name="temporarily_show_excluded">Тимчасово показати вилучені</string>
     <string name="stop_showing_excluded">Припинити показ вилучених</string>
     <string name="manage_shown_tabs">Керування вкладками, що відображаються</string>
@@ -772,14 +770,7 @@
     <string name="backups">Резервні копії</string>
     <string name="enable_automatic_backups">Увімкнути автоматичне резервне копіювання</string>
     <string name="manage_automatic_backups">Керувати автоматичними резервними копіями</string>
-    <string name="date_time_pattern_info">Ви можете використовувати наведені нижче шаблони для автоматичного присвоєння імені файлу:
-\n
-\n%Y - рік
-\n%M - місяць
-\n%D - день
-\n%h - година
-\n%m - хвилина
-\n%s - секунда</string>
+    <string name="date_time_pattern_info">Ви можете використовувати наведені нижче шаблони для автоматичного присвоєння імені файлу: \n \n%Y - рік \n%M - місяць \n%D - день \n%h - година \n%m - хвилина \n%s - секунда</string>
     <string name="usb_detected">Здається, до вашого пристрою приєднано USB-пристрій. Для коректного відображення його файлів вам необхідно надати додаткові дозволи.</string>
     <string name="confirm_usb_storage_access_text">Будь ласка, оберіть кореневу теку USB-пристрою далі, щоб надати доступ</string>
     <string name="wrong_root_selected_usb">Обрано невірну теку, будь ласка, оберіть кореневу теку вашого USB-пристрою</string>
@@ -870,15 +861,7 @@
     <string name="read_it">Прочитати</string>
     <string name="read_faq">Читати ЧаПи</string>
     <string name="thank_you">Подяка</string>
-    <string name="new_app"><![CDATA[
-            Привіт,<br><br>
-            просто повідомляю, що нещодавно було випущено кілька нових застосунків:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            Ви можете завантажити їх, натиснувши на їхні назви або значки.<br><br>
-            Дякую
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            Привіт,<br><br>\n            просто повідомляю, що нещодавно було випущено кілька нових застосунків:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            Ви можете завантажити їх, натиснувши на їхні назви або значки.<br><br>\n            Дякую\n        "]]></string>
     <string name="app_launcher_short">Лаунчер</string>
     <string name="calculator_short">Калькулятор</string>
     <string name="calendar_short">Календар</string>
@@ -897,9 +880,7 @@
     <string name="sms_messenger_short">SMS Повідомлення</string>
     <string name="thank_you_short">Подяка</string>
     <string name="voice_recorder_short">Диктофон</string>
-    <string name="sideloaded_app"><![CDATA[
-            Схоже, версія вашого застосунку пошкоджена. Завантажте оригінальну версію <a href="%s">тут</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Схоже, версія вашого застосунку пошкоджена. Завантажте оригінальну версію <a href="%s">тут</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">Часті питання - ЧаПи</string>
     <string name="before_asking_question">Перш ніж запитувати, будь ласка, прочитайте</string>
     <string name="faq_1_title_commons">Чому я не бачу віджета цього застосунку в списку віджетів?</string>
@@ -915,9 +896,7 @@
     <string name="faq_7_title_commons">Гроші списано з мого банківського рахунку, проте я не можу завантажити застосунок. Що мені робити?</string>
     <string name="faq_7_text_commons">Сплатою рахунків цілком керує Google, у їхній системі трапляються збої час від часу. Для початку очистіть кеш застосунку Google Play та перезапустіть ваш пристрій, потім спробуйте завантажити його знову.</string>
     <string name="faq_9_title_commons">Як мені обрати декілька елементів одразу?</string>
-    <string name="faq_9_text_commons">Ви можете це зробити кількома способами. Перший спосіб - увімкнути режим виділення, натиснувши тривалий час на одному з елементів, потім виділяти інші коротким натисненням на них. Другий спосіб подібний до обирання елементів на комп\'ютері з допомогою мишки,
-        увімкніть режим виділення, натиснувши тривалий час на одному з елементів, потім, не відпускаючи пальця, проведіть ним по інших елементах для вибору. Третій спосіб виділити декілька елементів - тривале натиснення на одному елементі, потім тривале натиснення на іншому, і все, що розміщене між ними, буде виділене. Якщо ви
-        хочете виділити всі елементи, тривалим натисненням виділіть один елемент, потім натисніть на лічильник елементів у верхньому лівому куті. Ця дія виділить або відмінить виділення всіх елементів.</string>
+    <string name="faq_9_text_commons">Ви можете це зробити кількома способами. Перший спосіб - увімкнути режим виділення, натиснувши тривалий час на одному з елементів, потім виділяти інші коротким натисненням на них. Другий спосіб подібний до обирання елементів на комп\'ютері з допомогою мишки, увімкніть режим виділення, натиснувши тривалий час на одному з елементів, потім, не відпускаючи пальця, проведіть ним по інших елементах для вибору. Третій спосіб виділити декілька елементів - тривале натиснення на одному елементі, потім тривале натиснення на іншому, і все, що розміщене між ними, буде виділене. Якщо ви хочете виділити всі елементи, тривалим натисненням виділіть один елемент, потім натисніть на лічильник елементів у верхньому лівому куті. Ця дія виділить або відмінить виділення всіх елементів.</string>
     <string name="faq_10_title_commons">Я придбав застосунок, проте не можу завантажити його на іншому пристрою.</string>
     <string name="faq_10_text_commons">Спробуйте очистити кеш вашого застосунку Google Play і перезапустіть ваш пристрій. Це помилка в роботі Google Play, що насправді не пов\'язана з самим застосунком.</string>
     <string name="contributors">Помічники</string>
@@ -1017,18 +996,9 @@
     <string name="pro_app_refund">Пам\'ятайте: якщо ви видалите будь-який платний застосунок протягом 2 годин, вам буде автоматично повернена сума покупки. Якщо ви захочете повернути гроші пізніше, сконтактуйте з нами за адресою hello@fossify.org, і ви їх отримаєте. Таким чином ви можете легко спробувати застосунок :)</string>
     <string name="developer_description">Група простих Android-застосунків з відкритим вихідним кодом, персоналізованими віджетами, без реклами та непотрібних дозволів.</string>
     <string name="purchase_simple_thank_you">Придбайте Fossify Thank You</string>
-    <string name="contributors_label"><![CDATA[
-            У цьому списку зазначені всі, хто помітно допоміг будь-якому застосунку з набору Fossify, а не лише цьому. Перекладами займаються волонтери.
-            Дайте нам знати, якщо теж хочете допомогти. Посібник із перекладу доступний на <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">цьому сайті</a>, або просто напишіть нам на <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас є запитання.
-            Дякуємо всім вкладникам і всім, хто нас підтримує!
-        ]]></string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Так, звісно. Ви можете розповідати про застосунки або залишати позитивні відгуки й оцінки. Також можна допомогти, переклавши застосунки новою мовою або просто оновивши наявні переклади.
-            Інструкція з перекладу доступна на <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">цьому сайті</a>. Якщо у вас виникли запитання, просто напишіть нам на адресу <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
-        ]]></string>
-    <string name="purchase_thank_you"><![CDATA[
-            Придбайте <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, щоб користуватися цією функцією та підтримати розробку. Дякуємо!
-        ]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020У цьому списку зазначені всі, хто помітно допоміг будь-якому застосунку з набору Fossify, а не лише цьому. Перекладами займаються волонтери.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Дайте нам знати, якщо теж хочете допомогти. Посібник із перекладу доступний на <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">цьому сайті</a>, або просто напишіть нам на <a href="mailto:hello@fossify.org">hello@fossify.org</a>, якщо у вас є запитання.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Дякуємо всім вкладникам і всім, хто нас підтримує!\n \u0020 \u0020 \u0020 \u0020]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Так, звісно. Ви можете розповідати про застосунки або залишати позитивні відгуки й оцінки. Також можна допомогти, переклавши застосунки новою мовою або просто оновивши наявні переклади.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Інструкція з перекладу доступна на <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">цьому сайті</a>. Якщо у вас виникли запитання, просто напишіть нам на адресу <a href="mailto:hello@fossify.org">hello@fossify.org</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Придбайте <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, щоб користуватися цією функцією та підтримати розробку. Дякуємо!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="donate_short">Подобається Fossify? Підтримайте розробку наших застосунків без реклами, придбавши &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. Це також дасть змогу використовувати власні шрифти та спільні налаштування в усіх застосунках Fossify. Дякуємо за вашу підтримку!</string>
     <string name="pin">PIN</string>
     <string name="ok">OK</string>
@@ -1036,8 +1006,7 @@
     <string name="apply_to_all_apps">Застосувати тему до всіх програм Fossify</string>
     <string name="week_number_short">тиж.</string>
     <string name="usb">USB</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="update_thank_you">Будь ласка, оновіть Fossify Thank You до останньої версії</string>
     <string name="faq_6_text_commons">Ця проблема виникає, коли ваш лаунчер не повністю підтримує персоналізацію значків. Спробуйте запустити застосунок через Google Play або віджет, якщо він доступний. Після запуску, відновіть стандартний зелений колір значка #106D1F. В окремих випадках може знадобитись перевстановлення застосунку.</string>
     <string name="app_icon_color_warning">Увага: деякі лаунчери можуть неправильно обробляти налаштування кольору значка застосунку. Якщо вона зникне, спробуйте запустити застосунок через Google Play або віджет, якщо він доступний. Після запуску відновіть стандартний зелений колір #106D1F. В окремих випадках може знадобитись перевстановлення застосунку.</string>

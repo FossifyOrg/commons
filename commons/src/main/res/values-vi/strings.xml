@@ -236,8 +236,8 @@
     <string name="confirm_storage_access_text">Hãy chọn thư mục trên cùng của thẻ SD trên màn hình tiếp theo để cấp quyền ghi</string>
     <string name="confirm_storage_access_text_sd">Nếu bạn không thấy thẻ SD, hãy thử</string>
     <string name="confirm_storage_access_android_text">Vui lòng cho phép ứng dụng truy cập vào bộ nhớ đã chọn trên màn hình tiếp theo bằng cách nhấn \'Sử dụng thư mục này\' ở dưới cùng.</string>
-    <string name="confirm_storage_access_android_text_specific">Vui lòng cho phép \'<b>%s</b>\' trên màn hình tiếp theo bằng cách nhấn \'<b>Sử dụng thư mục này</b>\' ở dưới cùng.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Vui lòng nhấn \'<b>Lưu</b>\' ở dưới cùng của màn hình tiếp theo để tạo thư mục mới.</string>
+    <string name="confirm_storage_access_android_text_specific">Vui lòng cho phép \'&lt;b&gt;%s&lt;/b&gt;\' trên màn hình tiếp theo bằng cách nhấn \'&lt;b&gt;Sử dụng thư mục này&lt;/b&gt;\' ở dưới cùng.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Vui lòng nhấn \'&lt;b&gt;Lưu&lt;/b&gt;\' ở dưới cùng của màn hình tiếp theo để tạo thư mục mới.</string>
     <string name="confirm_selection">Xác nhận lựa chọn</string>
     <string name="loading">Đang tải…</string>
     <string name="access_storage_prompt">Hãy cấp quyền để ứng dụng có thể truy cập mọi tệp của bạn.</string>
@@ -290,7 +290,7 @@
     <string name="save_before_closing">Bạn có các thay đổi chưa lưu. Lưu trước khi thoát?</string>
     <string name="global_theme_success">Chủ đề hiện tại đã được áp dụng thành công cho tất cả ứng dụng Fossify. Bất kỳ thay đổi nào trong tương lai đối với chủ đề này sẽ được đồng bộ hóa tự động.</string>
     <string name="purchase_thank_you"><![CDATA[
-            Hãy mua ứng dụng <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> để dùng tính năng này và hỗ trợ nhà phát triển. Cảm ơn!
+            Hãy mua <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> để dùng tính năng này và hỗ trợ nhà phát triển. Cảm ơn!
         ]]></string>
     <string name="light_theme">Sáng</string>
     <string name="dark_theme">Tối</string>
@@ -371,8 +371,7 @@
     <string name="please_enter_pin">Vui lòng nhập mã PIN</string>
     <string name="wrong_pin">Sai PIN</string>
     <string name="pin_must_be_4_digits_long">Mã PIN phải dài ít nhất 4 chữ số</string>
-    <string name="too_many_incorrect_attempts">Quá nhiều lần thử sai.
-\nThử lại sau %d giây.</string>
+    <string name="too_many_incorrect_attempts">Quá nhiều lần thử sai. \nThử lại sau %d giây.</string>
     <string name="repeat_pin">Lặp lại mã PIN</string>
     <string name="pattern">Mẫu hình</string>
     <string name="insert_pattern">Vẽ mẫu hình</string>
@@ -407,8 +406,7 @@
     <string name="days_raw">ngày</string>
     <string name="alarm_goes_off_in">Thời gian còn lại cho đến khi báo thức kêu: \n%s</string>
     <string name="reminder_triggers_in">Thời gian còn lại cho đến khi nhắc nhở kích hoạt: \n%s</string>
-    <string name="time_remaining">Thời gian còn lại:
-\n%s</string>
+    <string name="time_remaining">Thời gian còn lại: \n%s</string>
     <string name="alarm_warning">Hãy chắc chắn rằng báo thức hoạt động đúng trước khi dựa vào nó. Nó có thể hoạt động sai do hạn chế hệ thống liên quan đến tiết kiệm pin.</string>
     <string name="reminder_warning">Hãy chắc chắn rằng các lời nhắc hoạt động đúng trước khi dựa vào chúng. Chúng có thể hoạt động sai do hạn chế hệ thống liên quan đến tiết kiệm pin.</string>
     <string name="notifications_disabled">Ứng dụng này đã bị vô hiệu hóa thông báo. Vui lòng vào cài đặt thiết bị của bạn để mở lại.</string>
@@ -501,8 +499,8 @@
     <string name="hide_the_recycle_bin">Ẩn Thùng rác</string>
     <string name="open_the_recycle_bin">Mở Thùng rác</string>
     <string name="skip_the_recycle_bin">Xóa tệp luôn, khỏi cho vào Thùng rác</string>
-    <string name="importing">Đang nhập… </string>
-    <string name="exporting">Đang xuất… </string>
+    <string name="importing">Đang nhập…</string>
+    <string name="exporting">Đang xuất…</string>
     <string name="importing_successful">Nhập thành công</string>
     <string name="exporting_successful">Xuất thành công</string>
     <string name="importing_failed">Nhập thất bại</string>
@@ -588,12 +586,10 @@
             <a href="%1$s">%2$s</a><br><br>
             <a href="%3$s">%4$s</a><br><br>
             <a href="%5$s">%6$s</a><br><br>
-            Bạn có thể tải xuống bằng cách nhấn vào biểu tượng hoặc tên chúng.<br><br>
-            Cám ơn
+            Bạn có thể tải chúng xuống bằng cách nhấn vào tên hoặc biểu tượng của chúng.<br><br>
+            Cảm ơn
         ]]></string>
-    <string name="sideloaded_app"><![CDATA[
-            Có vẻ như phiên bản ứng dụng của bạn bị hỏng. Vui lòng tải phiên bản gốc <a href="%s">tại đây</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Có vẻ như phiên bản ứng dụng của bạn bị hỏng. Vui lòng tải phiên bản gốc <a href="%s">tại đây</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">Câu hỏi thường gặp</string>
     <string name="before_asking_question">Trước khi bạn đặt câu hỏi, hãy đọc</string>
     <string name="faq_1_title_commons">Tại sao tôi không thấy widget app này trong danh sách widget?</string>
@@ -771,12 +767,12 @@
     <string name="date_time_pattern_info">Bạn có thể sử dụng các mẫu sau để đặt tên tệp tự động.:\n\n%Y - năm\n%M - tháng\n%D - ngày\n%h - giờ\n%m - phút\n%s - giây</string>
     <string name="faq_2_text_commons"><![CDATA[
             Tất nhiên rồi. Bạn có thể chia sẻ thông tin về ứng dụng hoặc xếp hạng và đánh giá tích cực. Bạn cũng có thể giúp đỡ bằng cách dịch ứng dụng sang ngôn ngữ mới, hoặc chỉ cần cập nhật một số bản dịch hiện có.
-            Xem hướng dẫn dịch thuật <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tại đây</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
+            Hướng dẫn dịch thuật có tại <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">trang web này</a>, hoặc liên hệ qua <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
         ]]></string>
     <string name="contributors_label"><![CDATA[
-            Danh sách này gồm những người đã đóng góp đáng kể cho bất kỳ ứng dụng nào của Fossify, không chỉ riêng ứng dụng này. Việc dịch thuật được thực hiện bởi các tình nguyện viên.
-            Hãy cho chúng tôi biết nếu bạn cũng muốn đóng góp. Xem hướng dẫn dịch thuật <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tại đây</a>, hoặc liên hệ <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
-            Xin cảm ơn tất cả những người đóng góp và ủng hộ khác!
+            Danh sách này gồm những người đã đóng góp đáng kể cho bất kỳ ứng dụng nào của Fossify, không chỉ riêng ứng dụng này. Việc dịch thuật được thực hiện bởi các tình nguyện viên,
+            cho chúng tôi biết nếu bạn cũng muốn đóng góp. Xem hướng dẫn dịch thuật tại <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">trang web này</a>, hoặc liên hệ qua <a href="mailto:hello@fossify.org">hello@fossify.org</a> nếu bạn có câu hỏi khác.
+            Xin cảm ơn tất cả những người đóng góp và hỗ trợ!
         ]]></string>
     <string name="m3u_parser_title">M3U Parser (xử lý tệp danh sách phát m3u)</string>
     <string name="more_fossify_apps">Bộ ứng dụng Fossify</string>
@@ -867,7 +863,7 @@
     <string name="october_short">Th10</string>
     <string name="november_short">Th11</string>
     <string name="december_short">Th12</string>
-    <string name="donate_short">Ủng hộ bằng cách mua &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, điều này sẽ mở khóa tất cả tính năng của ứng dụng, bao gồm tùy chỉnh màu sắc.</string>
+    <string name="donate_short">Thích Fossify? Ủng hộ việc phát triển các ứng dụng không có quảng cáo của chúng tôi bằng cách mua &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. Nó cho phép sử dụng phông chữ tùy chỉnh và chia sẻ tùy chỉnh giữa các ứng dụng Fossify. Cảm ơn sự hỗ trợ của bạn!</string>
     <string name="update_thank_you">Vui lòng cập nhật Fossify Thank You lên phiên bản mới nhất</string>
     <string name="thank_you">Cảm ơn bạn</string>
     <string name="app_launcher_short">Trình khởi động ứng dụng</string>
@@ -965,4 +961,6 @@
     <string name="commonmark_title">CommonMark (Markdown parser)</string>
     <string name="jsoup_title">jsoup (HTML parser)</string>
     <string name="commons_csv_title">Apache Commons CSV (CSV parser)</string>
+    <string name="donation_prompt">Nếu bạn thích sử dụng ứng dụng này, vui lòng cân nhắc hỗ trợ việc phát triển Fossify.</string>
+    <string name="rate_app_prompt">Bạn thấy ứng dụng tốt? Hãy đánh giá ứng dụng trên Google Play.</string>
 </resources>

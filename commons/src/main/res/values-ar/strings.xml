@@ -308,7 +308,7 @@
     <string name="root">الروت</string>
     <string name="wrong_root_selected">تم تحديد مجلد خاطئ ، يرجى تحديد المجلد الأصلي لبطاقة الذاكرة (SD)</string>
     <string name="sd_card_usb_same">لا يمكن أن تكون مسارات بطاقة الذاكرة (SD) و جهاز الـ (USB) متماثلة</string>
-    <string name="app_on_sd_card">يبدو أن التطبيق مثبت على بطاقة الذاكرة (SD) ، مما يجعل تطبيقات (الويدجت) غير متاحة. ولن تراها حتى على قائمة (الويدجت) المتاحة. إنها أحد قيود النظام ، لذلك إذا كنت تريد استخدام (تطبيقات الويدجت) ، فيجب عليك نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية.</string>
+    <string name="app_on_sd_card">يبدو أن التطبيق مثبت على بطاقة الذاكرة (SD) ، مما يجعل تطبيقات (الويدجت) غير متاحة. ولن تراها حتى على قائمة (الويدجت) المتاحة. إنها أحد قيود النظام ، لذلك إذا كنت تريد استخدام (تطبيقات الويدجت) ، فيجب عليك نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية.</string>
     <string name="wrong_folder_selected">تم تحديد مجلد خاطئ ، يرجى تحديد المسار \"%s\"</string>
     <string name="properties">الخصائص</string>
     <string name="path">المسار</string>
@@ -444,8 +444,7 @@
     <string name="please_enter_pin">يرجى إدخال رمز الـ PIN</string>
     <string name="wrong_pin">رمز الـ PIN غير صحيح</string>
     <string name="pin_must_be_4_digits_long">PIN يجب أن يكون على الأقل 4 أرقام طويلة</string>
-    <string name="too_many_incorrect_attempts">عدد كبير جدًا من محاولات إلغاء القفل غير الصحيحة.
-\nحاول مرة أخرى خلال %d ثانية.</string>
+    <string name="too_many_incorrect_attempts">عدد كبير جدًا من محاولات إلغاء القفل غير الصحيحة. \nحاول مرة أخرى خلال %d ثانية.</string>
     <string name="repeat_pin">تكرار رمز الـ PIN</string>
     <string name="pattern">النمط</string>
     <string name="insert_pattern">إدراج النمط</string>
@@ -704,8 +703,7 @@
     </plurals>
     <string name="alarm_goes_off_in">الوقت المتبقي حتي ينطفئ المنبه:\n%s</string>
     <string name="reminder_triggers_in">الوقت المتبقي حتي يتم تشغيل التذكير:\n%s</string>
-    <string name="time_remaining">الوقت المتبقي:
-\n%s</string>
+    <string name="time_remaining">الوقت المتبقي: \n%s</string>
     <string name="alarm_warning">يرجى التأكد من أن المنبه يعمل بشكل صحيح قبل الإعتماد عليه. قد يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
     <string name="reminder_warning">يرجى التأكد من أن التذكيرات تعمل بشكل صحيح قبل الإعتماد عليها قد يسيء التصرف بسبب قيود النظام المتعلقة بتوفير البطارية.</string>
     <string name="notifications_disabled">تم تعطيل إشعارات هذا التطبيق. يرجى الإنتقال إلى إعدادات جهازك لتمكينها.</string>
@@ -768,7 +766,7 @@
     <string name="saving_label">جارٍ الحفظ</string>
     <string name="startup">بدء التشغيل</string>
     <string name="text">النص</string>
-    <string name="migrating"> إعدادات التصدير / الإستيراد</string>
+    <string name="migrating">إعدادات التصدير / الإستيراد</string>
     <string name="quality">الجودة</string>
     <string name="main_screen">الصفحة الرئيسيّة</string>
     <string name="thumbnails">الصور المصغّرة</string>
@@ -822,14 +820,7 @@
     <string name="backups">النسخ الاحتياطية</string>
     <string name="enable_automatic_backups">تمكين النسخ الاحتياطي التلقائي</string>
     <string name="manage_automatic_backups">إدارة النسخ الاحتياطية التلقائية</string>
-    <string name="date_time_pattern_info">يمكنك استخدام الأنماط التالية لتسمية الملف تلقائيا:
-\n
-\n%Y - السنة
-\n%M - الشهر
-\n%D - اليوم
-\n%h - ساعة
-\n%m - دقيقة
-\n%s - الثانية</string>
+    <string name="date_time_pattern_info">يمكنك استخدام الأنماط التالية لتسمية الملف تلقائيا: \n \n%Y - السنة \n%M - الشهر \n%D - اليوم \n%h - ساعة \n%m - دقيقة \n%s - الثانية</string>
     <string name="usb">الـ USB</string>
     <string name="usb_detected">يبدو أن لديك جهاز USB متصل بجهازك. للتأكد من ظهور ملفاته بشكل صحيح، تحتاج إلى منح أذونات إضافية.</string>
     <string name="confirm_usb_storage_access_text">يرجى إختيار المجلد العلوي لجهاز الـ USB على الشاشة التالية ، لمنح صلاحيات الوصول</string>
@@ -904,8 +895,7 @@
     <string name="read_it">اقرأها</string>
     <string name="read_faq">إقرأ الأسئلة المتداولة</string>
     <string name="thank_you">شكراً جزيلاً</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             مهلاً,<br><br>
             فقط لإخبارك أنه تم إصدار تطبيق جديد مؤخراً:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -913,8 +903,7 @@
             <a href="%5$s">%6$s</a><br><br>
             يمكنك تنزيله بالضغط على العنوان.<br><br>
             شكراً
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">مشغل التطبيق</string>
     <string name="calculator_short">الحاسبة</string>
     <string name="calendar_short">التقويم</string>
@@ -933,15 +922,13 @@
     <string name="sms_messenger_short">الرسائل القصيرة</string>
     <string name="thank_you_short">شكرًا لك</string>
     <string name="voice_recorder_short">مسجل الصوت</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
 يبدو أن إصدار التطبيق تالف. يرجى تنزيل الإصدار الأصلي<a href="%s">من هنا</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">الأسئلة المتداولة</string>
     <string name="before_asking_question">قبل أن تسأل سؤالاً ، يرجى قراءة أولاً</string>
     <string name="faq_1_title_commons">كيف لا أرى هذه التطبيقات في قائمة التطبيقات المصغّرة (الويدجت)؟</string>
-    <string name="faq_1_text_commons">وهو على الأرجح لأنك قمت بنقل التطبيق على بطاقة الذاكرة (SD) هناك حد لنظام أندرويد يقوم باخفاء (الويدجت) للتطبيق المحدد           في هذه الحالة يتمثل الحل الوحيد في نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية من خلال إعدادات جهازك.</string>
+    <string name="faq_1_text_commons">وهو على الأرجح لأنك قمت بنقل التطبيق على بطاقة الذاكرة (SD) هناك حد لنظام أندرويد يقوم باخفاء (الويدجت) للتطبيق المحدد في هذه الحالة يتمثل الحل الوحيد في نقل التطبيق مرة أخرى إلى وحدة التخزين الداخلية من خلال إعدادات جهازك.</string>
     <string name="faq_2_title_commons">أريد ان أدعمكم لكن لا يمكنني التبرع بالمال هل هناك أي شيء آخر يمكنني فعله ؟</string>
     <string name="faq_3_title_commons">قمت بحذف بعض الملفات عن طريق الخطأ، كيف يمكنني إسترجاعها؟</string>
     <string name="faq_3_text_commons">للأسف، لا يمكنك. يتم حذف الملفات فوراً بعد مربع حوار التأكيد، لا توجد سلة محذوفات متاحة.</string>
@@ -969,7 +956,7 @@
     <string name="joda_title">جودا تايم (إستبدال تاريخ الجافا)</string>
     <string name="stetho_title">ستيثو (تصحيح قواعد البيانات)</string>
     <string name="otto_title">أوتو (ناقل الأحداث)</string>
-    <string name="photoview_title">عرض الصورة (الصور المتحركة "GIF" القابلة للتكبير)</string>
+    <string name="photoview_title">عرض الصورة (الصور المتحركة GIF القابلة للتكبير)</string>
     <string name="pattern_title">نمط الحماية</string>
     <string name="reprint_title">بصمة الحماية</string>
     <string name="gif_drawable_title">تحميل الصور المتحركة (GIF)</string>
@@ -1040,7 +1027,7 @@
     <string name="reorder_items_by_dragging">إعادة ترتيب العناصر بالسحب</string>
     <string name="during_day_at">خلال اليوم في الساعة %1$02d:%2$02d</string>
     <string name="copyright">الإصدار %1$s\nحقوق الطبع والنشر © Fossify %2$d</string>
-    <string name="donate_short">ادعمنا بشراء &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt; من فضلك، سيفتح ذلك أيضًا جميع ميزات التطبيق بما في ذلك تخصيص الألوان.</string>
+    <string name="donate_short">تستمتع باستخدام Fossify؟ ادعم تطوير تطبيقاتنا الخالية من الإعلانات من خلال شراء &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. سيتيح لك ذلك أيضًا استخدام الخطوط المخصصة والتخصيص المشترك عبر تطبيقات Fossify. شكرًا لك على دعمك!</string>
     <string name="platforms">المنصات</string>
     <string name="confirm_storage_access_restricted_text">بسبب قيود النظام، هذا المجلد غير متوفر.</string>
     <string name="confirm_storage_access_restricted_text_open_system">فتح في تطبيق النظام</string>
@@ -1123,15 +1110,8 @@
     <string name="translation_lithuanian">الليتوانية</string>
     <string name="more_fossify_apps">المزيد من تطبيقات Fossify</string>
     <string name="rate_this_app">قيّم هذا التطبيق</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            نعم، بالطبع. يمكنك نشر الكلمة عن التطبيقات أو تقديم ملاحظات وتقييمات جيدة. يمكنك أيضًا المساعدة بترجمة التطبيقات إلى لغة جديدة، أو تحديث بعض الترجمات الحالية.
-            دليل الترجمة موجود على <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:hello@fossify.org">hello@fossify.org</a> إذا كانت لديك أي أسئلة.
-        ]]></string>
-    <string name="contributors_label"><![CDATA[
-            تحتوي هذه القائمة على كل من ساعد بشكل ملحوظ في أي تطبيق ضمن مجموعة Fossify، وليس هذا التطبيق فقط. تتم الترجمات بواسطة متطوعين،
-            أخبرنا إذا كنت تريد المساعدة أيضًا. دليل الترجمة موجود على <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">هذا الموقع</a>، أو تواصل معنا على <a href="mailto:hello@fossify.org">hello@fossify.org</a> إذا كانت لديك أي أسئلة.
-            شكرًا لجميع المساهمين والداعمين الآخرين!
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA["<![CDATA\n            نعم، بالطبع. يمكنك نشر الكلمة عن التطبيقات أو تقديم ملاحظات وتقييمات جيدة. يمكنك أيضًا المساعدة بترجمة التطبيقات إلى لغة جديدة، أو تحديث بعض الترجمات الحالية.\n            دليل الترجمة موجود على <a href=\"https://github.com/FossifyOrg/General-Discussion#contributing-translations\">هذا الموقع</a>، أو تواصل معنا على <a href=\"mailto:hello@fossify.org\">hello@fossify.org</a> إذا كانت لديك أي أسئلة.\n        ]]]]><![CDATA[>"]]></string>
+    <string name="contributors_label"><![CDATA["<![CDATA\n            تحتوي هذه القائمة على كل من ساعد بشكل ملحوظ في أي تطبيق ضمن مجموعة Fossify، وليس هذا التطبيق فقط. تتم الترجمات بواسطة متطوعين،\n            أخبرنا إذا كنت تريد المساعدة أيضًا. دليل الترجمة موجود على <a href=\"https://github.com/FossifyOrg/General-Discussion#contributing-translations\">هذا الموقع</a>، أو تواصل معنا على <a href=\"mailto:hello@fossify.org\">hello@fossify.org</a> إذا كانت لديك أي أسئلة.\n            شكرًا لجميع المساهمين والداعمين الآخرين!\n        ]]]]><![CDATA[>"]]></string>
     <string name="translation_spanish">الإسبانية</string>
     <string name="translation_slovenian">السلوفينية</string>
     <string name="translation_serbian">الصربية</string>
@@ -1166,4 +1146,6 @@
     <string name="commonmark_title">CommonMark (محلّل Markdown)</string>
     <string name="jsoup_title">jsoup (محلّل HTML)</string>
     <string name="commons_csv_title">Apache Commons CSV (محلّل CSV)</string>
+    <string name="rate_app_prompt">هل يعجبك التطبيق؟ يُرجى تقييمه على Google Play.</string>
+    <string name="donation_prompt">إذا كنت تستمتع باستخدام هذا التطبيق، فيُرجى التفكير في دعم تطوير تطبيق Fossify.</string>
 </resources>

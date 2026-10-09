@@ -196,7 +196,7 @@
     <string name="pattern_renaming">Patrón</string>
     <string name="string_to_add">Texto para agregar</string>
     <string name="rename_date_time_pattern">%Y - Año\n%M - Mes\n%D - Día\n%h - Hora\n%m - Minuto\n%s - Segundo\n%i - número aumentando desde 1</string>
-    <string name="filename_without_txt">Nombre del archivo (sin .txt) </string>
+    <string name="filename_without_txt">Nombre del archivo (sin .txt)</string>
     <string name="filename_without_json">Nombre del archivo (sin .json)</string>
     <string name="filename_without_zip">Nombre del archivo (sin .zip)</string>
     <string name="cannot_hide_files">A partir de Android 11 ya no se pueden ocultar archivos y carpetas así</string>
@@ -258,8 +258,8 @@
     <string name="confirm_storage_access_text">Por favor, elija la carpeta raíz de la tarjeta SD en la próxima pantalla para conceder el acceso de escritura</string>
     <string name="confirm_storage_access_text_sd">Si no ve la tarjeta SD, pruebe esto</string>
     <string name="confirm_storage_access_android_text">Permita a la aplicacion acceder al almacenamiento seleccionado en la pantalla siguiente presionando «Usar esta carpeta» en la parte inferior.</string>
-    <string name="confirm_storage_access_android_text_specific">Permita el acceso a «<b>%s</b>» en la siguiente pantalla presionando «<b>Usar esta carpeta</b>» en la parte inferior.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Presione «<b>Guardar</b>» en la parte inferior de la pantalla siguiente para crear la carpeta nueva.</string>
+    <string name="confirm_storage_access_android_text_specific">Permita el acceso a «&lt;b&gt;%s&lt;/b&gt;» en la siguiente pantalla presionando «&lt;b&gt;Usar esta carpeta&lt;/b&gt;» en la parte inferior.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Presione «&lt;b&gt;Guardar&lt;/b&gt;» en la parte inferior de la pantalla siguiente para crear la carpeta nueva.</string>
     <string name="confirm_selection">Confirmar la selección</string>
     <string name="loading">Cargando…</string>
     <string name="access_storage_prompt">Por favor conceda a nuestra aplicación el acceso a todos los archivos, es posible que no funcione bien sin ella.</string>
@@ -291,8 +291,7 @@
     <string name="root">Raíz ( Root)</string>
     <string name="wrong_root_selected">Carpeta incorrecta seleccionada, seleccione la carpeta principal de su tarjeta SD</string>
     <string name="sd_card_usb_same">Las rutas de la tarjeta SD y del dispositivo USB no pueden ser las mismas</string>
-    <string name="app_on_sd_card">Parece que tienes la aplicación instalada en una tarjeta SD, lo que hace que los widgets de la aplicación no estén disponibles. Ni siquiera los verás en la lista de widgets disponibles.
-        Es una limitación del sistema, por lo que si deseas usar los widgets, debes volver a colocar la aplicación en el almacenamiento interno.</string>
+    <string name="app_on_sd_card">Parece que tienes la aplicación instalada en una tarjeta SD, lo que hace que los widgets de la aplicación no estén disponibles. Ni siquiera los verás en la lista de widgets disponibles. Es una limitación del sistema, por lo que si deseas usar los widgets, debes volver a colocar la aplicación en el almacenamiento interno.</string>
     <string name="wrong_folder_selected">Se seleccionó una carpeta incorrecta; seleccione la ruta «%s»</string>
     <string name="properties">Propiedades</string>
     <string name="path">Ruta</string>
@@ -312,7 +311,7 @@
     <string name="gps_coordinates">Coordenadas GPS</string>
     <string name="altitude">Altitud</string>
     <string name="remove_exif">Eliminar el EXIF</string>
-    <string name="remove_exif_confirmation">¿Estás seguro de que quieres eliminar los valores EXIF como las coordenadas GPS, el modelo de la cámara, etc.\?</string>
+    <string name="remove_exif_confirmation">¿Estás seguro de que quieres eliminar los valores EXIF como las coordenadas GPS, el modelo de la cámara, etc.?</string>
     <string name="exif_removed">Valores EXIF eliminados con éxito</string>
     <string name="background_color">Color del fondo</string>
     <string name="text_color">Color del texto</string>
@@ -336,9 +335,7 @@
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
     <string name="app_icon_color_warning">Precaución: Es posible que algunos lanzadores no gestionen correctamente la personalización de los iconos de las aplicaciones. Si el icono desaparece, intente iniciar la aplicación a través de Google Play o un widget, si es accesible. Una vez iniciada, restaura el icono verde #106D1F predeterminado. En casos extremos, puede ser necesario reinstalar la aplicación.</string>
     <string name="global_theme_success">El tema actual se ha aplicado correctamente a todas las aplicaciones de Fossify. Cualquier cambio futuro en este tema se sincronizará automáticamente.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Adquiera <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para usar esta función y apoyar el desarrollo. ¡Gracias!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Adquiera <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para usar esta función y apoyar el desarrollo. ¡Gracias!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>
     <string name="auto_light_dark_theme">Claro / Negro automático</string>
@@ -415,7 +412,7 @@
     <string name="use_custom_sorting">Utilizar la ordenación personalizada</string>
     <string name="change_order">Cambiar el orden</string>
     <string name="more_options">Más opciones</string>
-    <string name="proceed_with_deletion">¿Estás seguro de que quieres proceder a la eliminación\?</string>
+    <string name="proceed_with_deletion">¿Estás seguro de que quieres proceder a la eliminación?</string>
     <string name="deletion_confirmation">¿Estas seguro que quieres borrar %s?</string>
     <string name="move_to_recycle_bin_confirmation">¿Seguro que quieres mover %s a la papelera de reciclaje?</string>
     <string name="are_you_sure_delete">¿Seguro que quieres eliminar este elemento?</string>
@@ -433,8 +430,7 @@
     <string name="please_enter_pin">Por favor introduzca PIN</string>
     <string name="wrong_pin">PIN erróneo</string>
     <string name="pin_must_be_4_digits_long">El código PIN debe tener al menos 4 dígitos</string>
-    <string name="too_many_incorrect_attempts">Demasiados intentos de desbloqueo incorrectos.
-\nInténtelo de nuevo en %d segundos.</string>
+    <string name="too_many_incorrect_attempts">Demasiados intentos de desbloqueo incorrectos. \nInténtelo de nuevo en %d segundos.</string>
     <string name="repeat_pin">Repetir PIN</string>
     <string name="pattern">Patrón</string>
     <string name="insert_pattern">Inserte Patrón</string>
@@ -444,7 +440,7 @@
     <string name="fingerprint">Huella</string>
     <string name="add_fingerprint">Añadir huella</string>
     <string name="place_finger">Por favor pon el dedo en el lector de huellas</string>
-    <string name="open_biometric_dialog">Abrir cuadro de verificación de ID biométrica </string>
+    <string name="open_biometric_dialog">Abrir cuadro de verificación de ID biométrica</string>
     <string name="authenticate">Autenticar</string>
     <string name="authentication_failed">Autenticación fallida</string>
     <string name="authentication_blocked">Autenticación bloqueada, por favor intente de nuevo en un momento</string>
@@ -609,8 +605,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Tiempo restante hasta que suene la alarma:\n%s</string>
     <string name="reminder_triggers_in">Tiempo restante hasta que se active el recordatorio:\n%s</string>
-    <string name="time_remaining">Tiempo restante: 
-\n%s</string>
+    <string name="time_remaining">Tiempo restante: \n%s</string>
     <string name="alarm_warning">Asegúrese de que la alarma funcione correctamente antes de confiar en ella. Podría comportarse mal debido a las restricciones del sistema relacionadas con el ahorro de batería.</string>
     <string name="reminder_warning">Asegúrese de que los recordatorios funcionen correctamente antes de confiar en ellos. Podrían portarse mal debido a las restricciones del sistema relacionadas con el ahorro de batería.</string>
     <string name="notifications_disabled">Las notificaciones de esta aplicación están deshabilitadas. Vaya a la configuración de su dispositivo para habilitarlos.</string>
@@ -683,7 +678,7 @@
     <string name="excluded">(no incluido)</string>
     <string name="manage_excluded_folders">Gestionar carpetas excluidas</string>
     <string name="remove_all">Eliminar todo</string>
-    <string name="remove_all_description">¿Eliminar todas las carpetas de la lista de excluidas\? Nota: Esto no borrará las carpetas.</string>
+    <string name="remove_all_description">¿Eliminar todas las carpetas de la lista de excluidas? Nota: Esto no borrará las carpetas.</string>
     <string name="temporarily_show_excluded">Mostrar excluidos temporalmente</string>
     <string name="stop_showing_excluded">Dejar de mostrar excluidos</string>
     <string name="manage_shown_tabs">Administrar pestañas mostradas</string>
@@ -726,14 +721,7 @@
     <string name="backups">Copias de seguridad</string>
     <string name="enable_automatic_backups">Habilitar las copias de seguridad automáticas</string>
     <string name="manage_automatic_backups">Gestionar las copias de seguridad automáticas</string>
-    <string name="date_time_pattern_info">Puede utilizar los siguientes patrones para nombrar su archivo automáticamente:
-\n
-\n%Y - año
-\n%M - mes
-\n%D - día
-\n%h - hora
-\n%m - minuto
-\n%s - segundo</string>
+    <string name="date_time_pattern_info">Puede utilizar los siguientes patrones para nombrar su archivo automáticamente: \n \n%Y - año \n%M - mes \n%D - día \n%h - hora \n%m - minuto \n%s - segundo</string>
     <string name="usb_detected">Parece que tienes un dispositivo USB conectado a tu dispositivo. Para asegurar que sus archivos aparezcan correctamente, debes otorgar permisos adicionales.</string>
     <string name="confirm_usb_storage_access_text">Elija la carpeta raíz del dispositivo USB en la siguiente pantalla para otorgar acceso</string>
     <string name="wrong_root_selected_usb">Carpeta incorrecta, seleccione la carpeta raíz de su dispositivo USB</string>
@@ -794,8 +782,7 @@
     <string name="invite_via">Invitar con</string>
     <string name="donate">Donar</string>
     <string name="follow_us">Síguenos</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="support">Soporte</string>
     <string name="help_us">Ayúdenos</string>
     <string name="other">Otro</string>
@@ -812,8 +799,7 @@
     <string name="read_it">Leer</string>
     <string name="read_faq">Leer Preguntas Frecuentes</string>
     <string name="thank_you">Gracias</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Hola,<br><br>
             sólo te informamos que recientemente se ha lanzado una nueva aplicación:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -821,8 +807,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Puedes descargarla presionando el título.<br><br>
             Gracias
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Lanzador de aplicaciones</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendario</string>
@@ -841,23 +826,18 @@
     <string name="sms_messenger_short">Mensajero SMS</string>
     <string name="thank_you_short">Gracias</string>
     <string name="voice_recorder_short">Grabadora de voz</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Parece que la versión de tu aplicación está dañada. Por favor descargue la versión original <a href="%s">aquí</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Preguntas frecuentes</string>
     <string name="before_asking_question">Antes de hacer una pregunta, primero lea las</string>
     <string name="faq_1_title_commons">¿Cómo es que no veo este widget de aplicaciones en la lista de widgets?</string>
-    <string name="faq_1_text_commons">Lo más probable es que haya movido la aplicación en una tarjeta SD. Hay una limitación del sistema Android que oculta los widgets de la aplicación dada
-        en ese caso. La única solución es volver a colocar la aplicación en el almacenamiento interno a través de la configuración de su dispositivo.</string>
+    <string name="faq_1_text_commons">Lo más probable es que haya movido la aplicación en una tarjeta SD. Hay una limitación del sistema Android que oculta los widgets de la aplicación dada en ese caso. La única solución es volver a colocar la aplicación en el almacenamiento interno a través de la configuración de su dispositivo.</string>
     <string name="faq_2_title_commons">Quiero apoyarte, pero no puedo donar dinero. ¿Hay algo mas que pueda hacer?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
+    <string name="faq_2_text_commons"><![CDATA[
             Sí, por supuesto. Puede correr la voz sobre las aplicaciones o dar buenos comentarios y calificaciones. También puede ayudar traduciendo las aplicaciones a un nuevo idioma o simplemente actualizando algunas traducciones existentes.
              La guía para traducir se encuentra en <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">este sitio web</a>, o simplemente contáctenos en <a href="mailto:hello@fossify.org">hello@fossify.org</a> si tiene alguna pregunta.
-        ]]>
-    </string>
+        ]]></string>
     <string name="faq_3_title_commons">Borré algunos archivos por error, ¿cómo puedo recuperarlos?</string>
     <string name="faq_3_text_commons">Tristemente, no puedes. Los archivos se eliminan instantáneamente después del diálogo de confirmación, no hay papelera disponible.</string>
     <string name="faq_4_title_commons">No me gustan los colores del widget, ¿puedo cambiarlos?</string>
@@ -869,22 +849,18 @@
     <string name="faq_7_title_commons">El dinero se ha deducido de mi cuenta bancaria, pero no puedo descargar la aplicación. ¿Qué puedo hacer?</string>
     <string name="faq_7_text_commons">Los pagos son manejados completamente por Google, su sistema falla de vez en cuando. Simplemente borre el caché de su aplicación Google Play y reinicie su dispositivo, luego intente descargarlo nuevamente.</string>
     <string name="faq_9_title_commons">¿Cómo puedo seleccionar varios elementos a la vez?</string>
-    <string name="faq_9_text_commons">Hay varias formas de hacerlo. La primera es iniciar el modo de selección pulsando durante mucho tiempo un elemento, luego pulse brevemente en otros elementos para seleccionarlos. La segunda forma es similar a seleccionar elementos en PCs con un ratón,
-        solo tiene que iniciar el modo de selección pulsando durante mucho tiempo un elemento, luego, con el dedo aún hacia abajo, arrástrelo por otros elementos para seleccionar. La tercera forma de seleccionar varios elementos es presionar durante mucho tiempo un elemento, luego presionando prolongadamente otro y todo lo demás se selecciona. Si
-        desea seleccionar todos los elementos, solo mantén presionado un elemento, luego pulse en el contador de elementos seleccionados en la esquina superior izquierda. Eso seleccionará o anulará la selección de todo.</string>
+    <string name="faq_9_text_commons">Hay varias formas de hacerlo. La primera es iniciar el modo de selección pulsando durante mucho tiempo un elemento, luego pulse brevemente en otros elementos para seleccionarlos. La segunda forma es similar a seleccionar elementos en PCs con un ratón, solo tiene que iniciar el modo de selección pulsando durante mucho tiempo un elemento, luego, con el dedo aún hacia abajo, arrástrelo por otros elementos para seleccionar. La tercera forma de seleccionar varios elementos es presionar durante mucho tiempo un elemento, luego presionando prolongadamente otro y todo lo demás se selecciona. Si desea seleccionar todos los elementos, solo mantén presionado un elemento, luego pulse en el contador de elementos seleccionados en la esquina superior izquierda. Eso seleccionará o anulará la selección de todo.</string>
     <string name="faq_10_title_commons">He comprado la aplicación, pero no puedo descargarla en otro dispositivo.</string>
     <string name="faq_10_text_commons">Intenta borrando la caché de la aplicación de Google Play Store y reiniciando tu dispositivo. Es un error de Google Play, no de la aplicación.</string>
     <string name="contributors">Contribuyentes</string>
     <string name="translation">Traducción</string>
     <string name="development">Desarrollo</string>
     <string name="other_help">Otra ayuda</string>
-    <string name="contributors_label">
-        <![CDATA[
+    <string name="contributors_label"><![CDATA[
             Esta lista contiene a todos los que ayudaron notablemente a cualquier aplicación dentro de la suite Fossify, no solo a esta. Las traducciones son manejadas por voluntarios,
              Háganos saber si usted también quiere ayudar. La guía para traducir se encuentra en <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">este sitio web</a>, o simplemente contáctenos en <a href="mailto:hello@fossify.org">hello@fossify.org</a> si tiene alguna pregunta.
              ¡Gracias a todos los contribuyentes y otros patrocinadores! 
-        ]]>
-    </string>
+        ]]></string>
     <string name="translation_arabic">Árabe</string>
     <string name="translation_azerbaijani">Azerbaiyan</string>
     <string name="translation_bengali">Bengalí</string>

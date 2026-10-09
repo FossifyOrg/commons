@@ -49,8 +49,7 @@
     <string name="error">त्रुटि: %s</string>
     <string name="no_app_found">कोई वैध ऐप नहीं मिला</string>
     <string name="value_copied_to_clipboard">मान क्लिपबोर्ड पर कॉपी किया गया</string>
-    <string name="value_copied_to_clipboard_show">मूल्य क्लिपबोर्ड पर कॉपी किया गया:
-\n%s</string>
+    <string name="value_copied_to_clipboard_show">मूल्य क्लिपबोर्ड पर कॉपी किया गया: \n%s</string>
     <string name="no_phone_call_permission">ऐप के पास फोन कॉल आरंभ करने की अनुमति नहीं है, कृपया डिवाइस सेटिंग में इसे प्रदान करें</string>
     <string name="download">डाउनलोड</string>
     <string name="request_the_required_permissions">आवश्यक अनुमतियों का अनुरोध करें</string>
@@ -106,13 +105,7 @@
     <string name="rename_folder_error">फोल्डर नाम नहीं बदला जा सका</string>
     <string name="rename_folder_empty">फोल्डर नाम खाली नहीं होना चाहिए</string>
     <string name="rename_folder_exists">उस नाम का एक फोल्डर पहले से मौजूद है</string>
-    <string name="rename_date_time_pattern">%Y - वर्ष
-\n%M - महीना
-\n%D - दिन
-\n%h - घंटा
-\n%m - मिनट
-\n%s - दूसरा
-\n%i - संख्या 1 से बढ़ रही है</string>
+    <string name="rename_date_time_pattern">%Y - वर्ष \n%M - महीना \n%D - दिन \n%h - घंटा \n%m - मिनट \n%s - दूसरा \n%i - संख्या 1 से बढ़ रही है</string>
     <string name="cannot_hide_files">Android 11 से शुरू करके आप अब इस तरह की फाइलें और फोल्डर छिपा नहीं सकते</string>
     <string name="moving">स्थानांतरण…</string>
     <string name="moving_success">फाइलें सफलतापूर्वक स्थानांतरित हुईं</string>
@@ -275,8 +268,7 @@
     <string name="no_files_selected">कोई फाइलें चयनित नहीं</string>
     <string name="could_not_create_folder">फोल्डर %s नहीं बनाया जा सका</string>
     <string name="no_new_items">कोई नया सामान नहीं मिला</string>
-    <string name="no_space">गंतव्य पर पर्याप्त स्थान उपलब्ध नहीं है।
-\nआवश्यक %1$s, उपलब्ध %2$s</string>
+    <string name="no_space">गंतव्य पर पर्याप्त स्थान उपलब्ध नहीं है। \nआवश्यक %1$s, उपलब्ध %2$s</string>
     <string name="create_new">नया बनाएं</string>
     <string name="folder">फोल्डर</string>
     <string name="create_new_folder">नया फोल्डर बनाएं</string>
@@ -301,8 +293,8 @@
     <string name="confirm_storage_access_android_text">कृपया नीचे \'इस फोल्डर का उपयोग करें\' दबाकर ऐप को अगली स्क्रीन पर चयनित स्टोरेज तक पहुंचने की अनुमति दें।</string>
     <string name="excluded">(छोड़ा गया)</string>
     <string name="thumbnails">थंबनेल</string>
-    <string name="confirm_storage_access_android_text_specific">कृपया नीचे \'<b>इस फोल्डर का उपयोग करें</b>\' दबाकर अगली स्क्रीन पर \'<b>%s</b>\' तक पहुंचने की अनुमति दें।</string>
-    <string name="confirm_create_doc_for_new_folder_text">कृपया नया फोल्डर बनाने के लिए अगली स्क्रीन के नीचे \'<b>सहेजें</b>\' दबाएं।</string>
+    <string name="confirm_storage_access_android_text_specific">कृपया नीचे \'&lt;b&gt;इस फोल्डर का उपयोग करें&lt;/b&gt;\' दबाकर अगली स्क्रीन पर \'&lt;b&gt;%s&lt;/b&gt;\' तक पहुंचने की अनुमति दें।</string>
+    <string name="confirm_create_doc_for_new_folder_text">कृपया नया फोल्डर बनाने के लिए अगली स्क्रीन के नीचे \'&lt;b&gt;सहेजें&lt;/b&gt;\' दबाएं।</string>
     <string name="confirm_selection">चयन की पुष्टि करें</string>
     <string name="app_on_sd_card">ऐसा लगता है कि आपने ऐप को SD कार्ड पर इंस्टॉल कर लिया है, जिससे ऐप विजेट अनुपलब्ध हैं। आप उन्हें उपलब्ध विजेट की सूची में भी नहीं देखेंगे। यह एक सिस्टम सीमा है, इसलिए यदि आप विजेट का उपयोग करना चाहते हैं, तो आपको ऐप को आंतरिक स्टोरेज पर वापस ले जाना होगा।</string>
     <string name="faq_1_text_commons">इसकी सबसे अधिक संभावना इसलिए है क्योंकि आपने ऐप को SD कार्ड पर स्थानांतरित कर दिया है। एक Android सिस्टम सीमा है जो उस स्थिति में दिए गए ऐप विजेट को छुपा देती है। एकमात्र समाधान यह है कि ऐप को अपनी डिवाइस सेटिंग्स के माध्यम से आंतरिक स्टोरेज पर वापस ले जाएं।</string>
@@ -322,9 +314,7 @@
     <string name="cannot_be_undone">यह कार्रवाई पूर्ववत नहीं की जा सकती।</string>
     <string name="save_before_closing">आपके पास सहेजे नहीं गए परिवर्तन हैं। बाहर निकलने से पहले सहेजें?</string>
     <string name="apply_to_all_apps">सभी Fossify ऐप्स पर रंग लागू करें</string>
-    <string name="purchase_thank_you"><![CDATA[
-                           कृपया इस प्रकार्य को अनलॉक करने और विकास का समर्थन करने के लिए <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> खरीदें। धन्यवाद!
-                     ]]></string>
+    <string name="purchase_thank_you"><![CDATA["\n                           कृपया इस प्रकार्य को अनलॉक करने और विकास का समर्थन करने के लिए <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a> खरीदें। धन्यवाद!\n                     "]]></string>
     <string name="dark_red">गहरा लाल</string>
     <string name="stop_showing_hidden">छुपे हुए मीडिया को दिखाना बंद करें</string>
     <string name="remove">हटाएं</string>
@@ -419,8 +409,8 @@
     <string name="gallery_short">गैलरी</string>
     <string name="flashlight_short">फ़्लैशलाइट</string>
     <string name="keyboard_short">कीबोर्ड</string>
-    <string name="sideloaded_app">ऐसा लगता है कि आपका ऐप वर्शन दूषित है। कृपया मूल वर्शन &lt;a href=%s&gt;यहां&lt;/a&gt; से डाउनलोड करें।</string>
-    <string name="faq_2_text_commons">हाँ बिल्कुल। आप ऐप्स के बारे में प्रचार कर सकते हैं या अच्छी प्रतिक्रिया और रेटिंग दे सकते हैं। आप ऐप्स को नई भाषा में अनुवाद करके या बस कुछ मौजूदा अनुवादों को अपडेट करके भी सहायता कर सकते हैं। अनुवाद करने की मार्गदर्शिका &lt;a href=https://github.com/FossifyOrg/general-Discussion#contributing-translations&gt;इस वेबसाइट&lt;/a&gt; पर है, या यदि आपके कोई प्रश्न हैं तो बस &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; पर हमसे संपर्क करें।</string>
+    <string name="sideloaded_app"><![CDATA[ऐसा लगता है कि आपका ऐप वर्शन दूषित है। कृपया मूल वर्शन <a href=%s>यहां</a> से डाउनलोड करें।]]></string>
+    <string name="faq_2_text_commons"><![CDATA[हाँ बिल्कुल। आप ऐप्स के बारे में प्रचार कर सकते हैं या अच्छी प्रतिक्रिया और रेटिंग दे सकते हैं। आप ऐप्स को नई भाषा में अनुवाद करके या बस कुछ मौजूदा अनुवादों को अपडेट करके भी सहायता कर सकते हैं। अनुवाद करने की मार्गदर्शिका <a href=https://github.com/FossifyOrg/general-Discussion#contributing-translations>इस वेबसाइट</a> पर है, या यदि आपके कोई प्रश्न हैं तो बस <a href=mailto:hello@fossify.org>hello@fossify.org</a> पर हमसे संपर्क करें।]]></string>
     <string name="faq_3_title_commons">मैंने गलती से कुछ फाइलें हटा दी हैं, मैं उन्हें कैसे पुनर्प्राप्त कर सकता हूं?</string>
     <string name="faq_4_text_commons">हां, जैसे ही आप किसी विजेट को अपनी होम स्क्रीन पर खींचते हैं तो एक विजेट विन्यास स्क्रीन दिखाई देती है। आपको निचले बाएं कोने पर रंगीन वर्ग दिखाई देंगे, नया रंग चुनने के लिए बस उन्हें दबाएं। आप अल्फा को समायोजित करने के लिए स्लाइडर का भी उपयोग कर सकते हैं।</string>
     <string name="glide_title">Glide (छवि लोडिंग और कैशिंग)</string>
@@ -432,7 +422,7 @@
     <string name="trial_expires_soon">आपका परीक्षण शीघ्र ही समाप्त हो रहा है।</string>
     <string name="unlock_for_one_final_day">एक आखिरी दिन के लिए ऐप को अनलॉक करें</string>
     <string name="pro_app_refund">यह न भूलें कि यदि आप किसी भी भुगतान किए गए ऐप को 2 घंटे के भीतर अनइंस्टॉल करते हैं, तो आपको स्वचालित रूप से धनवापसी कर दी जाएगी। यदि आप बाद में कभी भी रिफंड चाहते हैं, तो बस hello@fossify.org पर हमसे संपर्क करें और आपको यह मिल जाएगा। इससे इसे आज़माना आसान हो जाता है :)</string>
-    <string name="contributors_label">इस सूची में वे सभी लोग शामिल हैं जिन्होंने केवल इस ऐप को ही नहीं, बल्कि Fossify suite के भीतर किसी भी ऐप की उल्लेखनीय रूप से सहायता की। अनुवाद स्वयंसेवकों द्वारा किया जाता है, यदि आप भी सहायता करना चाहते हैं तो हमें बताएं। अनुवाद करने की मार्गदर्शिका &lt;a href=https://github.com/FossifyOrg/general-Discussion#contributing-translations&gt;this website&lt;/a&gt; पर है, या यदि आपके कोई प्रश्न हैं तो बस &lt;a href=mailto:hello@fossify.org&gt;hello@fossify.org&lt;/a&gt; पर हमसे संपर्क करें। सभी योगदानकर्ताओं और अन्य समर्थकों को धन्यवाद!</string>
+    <string name="contributors_label"><![CDATA[इस सूची में वे सभी लोग शामिल हैं जिन्होंने केवल इस ऐप को ही नहीं, बल्कि Fossify suite के भीतर किसी भी ऐप की उल्लेखनीय रूप से सहायता की। अनुवाद स्वयंसेवकों द्वारा किया जाता है, यदि आप भी सहायता करना चाहते हैं तो हमें बताएं। अनुवाद करने की मार्गदर्शिका <a href=https://github.com/FossifyOrg/general-Discussion#contributing-translations>this website</a> पर है, या यदि आपके कोई प्रश्न हैं तो बस <a href=mailto:hello@fossify.org>hello@fossify.org</a> पर हमसे संपर्क करें। सभी योगदानकर्ताओं और अन्य समर्थकों को धन्यवाद!]]></string>
     <string name="iso_speed">ISO गति</string>
     <string name="use_default">तयशुदा उपयोग करें</string>
     <string name="default_color">तयशुदा</string>
@@ -446,12 +436,9 @@
         <item quantity="one">%d वर्ष</item>
         <item quantity="other">%d वर्ष</item>
     </plurals>
-    <string name="alarm_goes_off_in">अलार्म बजने तक शेष समय:
-\n%s</string>
-    <string name="reminder_triggers_in">अनुस्मारक ट्रिगर होने तक शेष समय:
-\n%s</string>
-    <string name="time_remaining">शेष समय:
-\n%s</string>
+    <string name="alarm_goes_off_in">अलार्म बजने तक शेष समय: \n%s</string>
+    <string name="reminder_triggers_in">अनुस्मारक ट्रिगर होने तक शेष समय: \n%s</string>
+    <string name="time_remaining">शेष समय: \n%s</string>
     <string name="alarm_warning">कृपया इस पर भरोसा करने से पहले सुनिश्चित करें कि अलार्म ठीक से काम करता है। बैटरी बचत से संबंधित सिस्टम प्रतिबंधों के कारण यह गलत व्यवहार कर सकता है।</string>
     <string name="reminder_warning">कृपया अनुस्मारक पर भरोसा करने से पहले सुनिश्चित करें कि वे ठीक से काम करते हैं। अपने डिवाइस की बैटरी और अधिसूचना सेटिंग्स की जांच करें, यदि कोई अनुस्मारक को अवरुद्ध नहीं कर रहा है, या पृष्ठभूमि में ऐप को बंद नहीं कर रहा है।</string>
     <string name="notifications_disabled">इस एप्लिकेशन की सूचनाएं अक्षम हैं। कृपया उन्हें सक्षम करने के लिए अपनी डिवाइस सेटिंग में जाएं।</string>
@@ -578,8 +565,7 @@
     <string name="enter_pin">PIN दर्ज करें</string>
     <string name="wrong_pin">गलत PIN</string>
     <string name="pin_must_be_4_digits_long">PIN कम से कम 4 अंक लंबा होना चाहिए</string>
-    <string name="too_many_incorrect_attempts">बहुत सारे गलत खोलने के प्रयास।
-\n%d सेकंड में पुनः प्रयास करें।</string>
+    <string name="too_many_incorrect_attempts">बहुत सारे गलत खोलने के प्रयास। \n%d सेकंड में पुनः प्रयास करें।</string>
     <string name="biometrics">बॉयोमेट्रिक्स</string>
     <string name="fingerprint">फिंगरप्रिंट</string>
     <string name="authenticate">प्रमाणित करें</string>
@@ -786,14 +772,7 @@
     <string name="manage_automatic_backups">स्वचालित बैकअप प्रबंधित करें</string>
     <string name="usb">USB</string>
     <string name="usb_detected">ऐसा लगता है कि आपके डिवाइस से एक USB डिवाइस जुड़ा हुआ है। यह सुनिश्चित करने के लिए कि इसकी फाइलें ठीक से दिखाई दें, आपको अतिरिक्त अनुमतियां देने की आवश्यकता है।</string>
-    <string name="date_time_pattern_info">आप अपनी फाइल को स्वचालित रूप से नाम देने के लिए निम्नलिखित प्रतिमान का उपयोग कर सकते हैं:
-\n
-\n%Y - वर्ष
-\n%M - महीना
-\n%D - दिन
-\n%h - घंटा
-\n%m - मिनट
-\n%s - दूसरा</string>
+    <string name="date_time_pattern_info">आप अपनी फाइल को स्वचालित रूप से नाम देने के लिए निम्नलिखित प्रतिमान का उपयोग कर सकते हैं: \n \n%Y - वर्ष \n%M - महीना \n%D - दिन \n%h - घंटा \n%m - मिनट \n%s - दूसरा</string>
     <string name="confirm_usb_storage_access_text">पहुंच प्रदान करने के लिए कृपया अगली स्क्रीन पर USB डिवाइस का शीर्ष फोल्डर चुनें</string>
     <string name="wrong_root_selected_usb">गलत फोल्डर चयनित, कृपया अपने USB डिवाइस का मुख्य फोल्डर चुनें</string>
     <string name="february_short">फर</string>
@@ -834,8 +813,7 @@
     <string name="upgrade">अपग्रेड</string>
     <string name="upgrade_calendar">आपको स्थानीय रूप से संग्रहीत ईवेंट को .ics फ़ाइल में निर्यात करके, फिर आयात करके मैन्युअल रूप से प्रवासन करना होगा। आप मुख्य स्क्रीन मेनू पर निर्यात/आयात दोनों बटन पा सकते हैं।</string>
     <string name="donate">दान करें</string>
-    <string name="copyright">v %1$s
-\nकॉपीराइट © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nकॉपीराइट © Fossify %2$d</string>
     <string name="other">अन्य</string>
     <string name="hello">नमस्ते :)</string>
     <string name="privacy_policy">गोपनीयता नीति</string>
@@ -848,7 +826,7 @@
     <string name="update_thank_you">कृपया Fossify Thank You को नवीनतम संस्करण में अपडेट करें</string>
     <string name="before_asking_question_read_faq">कोई प्रश्न पूछने से पहले, कृपया ऐप सेटिंग जांचें और पहले अक्सर पूछे जाने वाले प्रश्न पढ़ें। शायद समाधान वहीं है।</string>
     <string name="make_sure_latest">यह भी सुनिश्चित करें कि आप नवीनतम ऐप संस्करण का उपयोग कर रहे हैं।</string>
-    <string name="new_app">अरे,&lt;br&gt;&lt;br&gt; मैं आपको बता रहा हूं कि हाल ही में कुछ नए ऐप्स जारी किए गए हैं:&lt;br&gt;&lt;br&gt; &lt;a href=%1$s&gt;%2$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%3$s&gt;%4$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; &lt;a href=%5$s&gt;%6$s&lt;/a&gt;&lt;br&gt;&lt;br&gt; आप इन्हें डाउनलोड कर सकते हैं उनके शीर्षक या चिह्न दबाकर।&lt;br&gt;&lt;br&gt; धन्यवाद</string>
+    <string name="new_app"><![CDATA[अरे,<br><br> मैं आपको बता रहा हूं कि हाल ही में कुछ नए ऐप्स जारी किए गए हैं:<br><br> <a href=%1$s>%2$s</a><br><br> <a href=%3$s>%4$s</a><br><br> <a href=%5$s>%6$s</a><br><br> आप इन्हें डाउनलोड कर सकते हैं उनके शीर्षक या चिह्न दबाकर।<br><br> धन्यवाद]]></string>
     <string name="app_launcher_short">ऐप लॉन्चर</string>
     <string name="calculator_short">कैलकुलेटर</string>
     <string name="calendar_short">कैलेंडर</string>

@@ -193,13 +193,7 @@
     <string name="simple_renaming">Lihtne ümbernimetamine</string>
     <string name="pattern_renaming">Muster</string>
     <string name="string_to_add">Lisatav tekst</string>
-    <string name="rename_date_time_pattern">%Y - aasta
-\n%M - kuu
-\n%D - päev
-\n%h - tund
-\n%m - minut
-\n%s - sekund
-\n%i - loendur alates 1\'st</string>
+    <string name="rename_date_time_pattern">%Y - aasta \n%M - kuu \n%D - päev \n%h - tund \n%m - minut \n%s - sekund \n%i - loendur alates 1\'st</string>
     <string name="filename_without_txt">Failinimi (ilma .txt laiendita)</string>
     <string name="filename_without_json">Failinimi (ilma .json laiendita)</string>
     <string name="filename_without_zip">Failinimi (ilma .zip laiendita)</string>
@@ -262,8 +256,8 @@
     <string name="confirm_storage_access_text">Ligipääsu lubamiseks palun vali järgmises vaates SD-kaardi juurkaust</string>
     <string name="confirm_storage_access_text_sd">Kui sa SD-kaarti ei näe, siis proovi sellist võimalust</string>
     <string name="confirm_storage_access_android_text">Valitud salvestusruumile ligipääsu saamiseks vali järgmise vaate allosas „Kasuta seda kausta“.</string>
-    <string name="confirm_storage_access_android_text_specific">Vajutades järgmise vaate all ääres asuvat „<b>Kasuta seda kausta</b>“ luba ligipääs „<b>%s</b>“ kaustale.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Uue kausta loomiseks palun klõpsi järgmise vaata all ääres olevat „<b>Salvesta</b>“ nuppu.</string>
+    <string name="confirm_storage_access_android_text_specific">Vajutades järgmise vaate all ääres asuvat „&lt;b&gt;Kasuta seda kausta&lt;/b&gt;“ luba ligipääs „&lt;b&gt;%s&lt;/b&gt;“ kaustale.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Uue kausta loomiseks palun klõpsi järgmise vaata all ääres olevat „&lt;b&gt;Salvesta&lt;/b&gt;“ nuppu.</string>
     <string name="confirm_selection">Kinnita valik</string>
     <string name="loading">Laadin…</string>
     <string name="access_storage_prompt">Palun anna rakendusele õigused lugeda kõiki sinu faile, vastasel juhul ta ei toimi eriti hästi.</string>
@@ -309,7 +303,7 @@
     <string name="gps_coordinates">GPS-koordinaadid</string>
     <string name="altitude">Kõrgus</string>
     <string name="remove_exif">Kustuta EXIF-väljad</string>
-    <string name="remove_exif_confirmation">Kas sa oled kindel, et soovid kustutada EXIF väljade väärtused nagu näiteks asukoha koordinaadid, kaamera mudel, jmt\?</string>
+    <string name="remove_exif_confirmation">Kas sa oled kindel, et soovid kustutada EXIF väljade väärtused nagu näiteks asukoha koordinaadid, kaamera mudel, jmt?</string>
     <string name="exif_removed">EXIF-väljade kustutamine õnnestus</string>
     <string name="background_color">Taustavärv</string>
     <string name="text_color">Teksti värv</string>
@@ -328,9 +322,9 @@
     <string name="save">Salvesta</string>
     <string name="discard">Loobu</string>
     <string name="undo_changes">Tühista muudatused</string>
-    <string name="undo_changes_confirmation">Kas oled kindel, et soovid oma muudatusi tühistada\?</string>
+    <string name="undo_changes_confirmation">Kas oled kindel, et soovid oma muudatusi tühistada?</string>
     <string name="cannot_be_undone">Seda tegevust ei saa tagasi pöörata.</string>
-    <string name="save_before_closing">Sul on salvestamata muudatusi. Kas salvestame enne väljumist\?</string>
+    <string name="save_before_closing">Sul on salvestamata muudatusi. Kas salvestame enne väljumist?</string>
     <string name="global_theme_success">Värvide uuendamine õnnestus. Lisasime uue „Jagatud“ teema - edaspidisel värvide muutmisel palun kasuta seda.</string>
     <string name="light_theme">Hele</string>
     <string name="dark_theme">Tume</string>
@@ -409,10 +403,10 @@
     <string name="use_custom_sorting">Kasuta sinu loodud järjestust</string>
     <string name="change_order">Muuda järjekorda</string>
     <string name="more_options">Lisavalikud</string>
-    <string name="proceed_with_deletion">Kas oled kindel, et soovid kustutamist jätkata\?</string>
-    <string name="deletion_confirmation">Kas sa oled kindel, et soovid %s kustutada\?</string>
+    <string name="proceed_with_deletion">Kas oled kindel, et soovid kustutamist jätkata?</string>
+    <string name="deletion_confirmation">Kas sa oled kindel, et soovid %s kustutada?</string>
     <string name="move_to_recycle_bin_confirmation">Kas sa oled kindel, et soovid „%s“ visata prügikasti?</string>
-    <string name="are_you_sure_delete">Kas sa oled kindel, et soovid selle faili kustutada\?</string>
+    <string name="are_you_sure_delete">Kas sa oled kindel, et soovid selle faili kustutada?</string>
     <string name="are_you_sure_recycle_bin">Kas sa oled kindel, et soovid selle faili prügikasti visata?</string>
     <string name="do_not_ask_again">Selles sessioonis ära rohkem seda küsi</string>
     <string name="do_not_show_again">Ära näita uuesti</string>
@@ -427,8 +421,7 @@
     <string name="please_enter_pin">Palun sisesta PIN-kood</string>
     <string name="wrong_pin">Vale PIN-kood</string>
     <string name="pin_must_be_4_digits_long">PIN-kood peab olema vähemalt 4 numbri pikkune</string>
-    <string name="too_many_incorrect_attempts">Liiga palju ebaõnnestunud lukust lahtivõtmise katseid.
-\nPalun proovi uuesti %d sekundi pärast.</string>
+    <string name="too_many_incorrect_attempts">Liiga palju ebaõnnestunud lukust lahtivõtmise katseid. \nPalun proovi uuesti %d sekundi pärast.</string>
     <string name="repeat_pin">Korda PIN-koodi</string>
     <string name="pattern">Muster</string>
     <string name="insert_pattern">Joonista muster</string>
@@ -575,8 +568,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Äratuseni jäänud aeg:\n%s</string>
     <string name="reminder_triggers_in">Meeldetuletuseni jäänud aeg:\n%s</string>
-    <string name="time_remaining">Järelejäänud aeg:
-\n%s</string>
+    <string name="time_remaining">Järelejäänud aeg: \n%s</string>
     <string name="alarm_warning">Palun veendu, et alarm töötab korralikult, enne kui sa sellega arvestad. Alarm võib aku säästmisega seotud süsteemipiirangute tõttu valesti käituda.</string>
     <string name="reminder_warning">Palun veendu, et meeldetuletused töötavad korralikult, enne kui sa sellega arvestad. Kontrolli oma nutiseadme aku ja teavituse seadistusi, kas midagi ei blokeeri meeldetuletusi ega sulge taustal töötavat rakendust.</string>
     <string name="notifications_disabled">Selle rakenduse teavitused on välja lülitatud. Nende lubamiseks ava oma nutiseadme seadistused.</string>
@@ -651,7 +643,7 @@
     <string name="excluded">(välistatud)</string>
     <string name="manage_excluded_folders">Halda välistatud kaustu</string>
     <string name="remove_all">Eemalda kõik</string>
-    <string name="remove_all_description">Kas eemaldame kõik kaustad välistatud kaustade loendist\? See tegevus ei kustuta kaustu.</string>
+    <string name="remove_all_description">Kas eemaldame kõik kaustad välistatud kaustade loendist? See tegevus ei kustuta kaustu.</string>
     <string name="temporarily_show_excluded">Näita ajutiselt välja jäetud</string>
     <string name="stop_showing_excluded">Lõpeta näitamine välistatud</string>
     <string name="manage_shown_tabs">Halda näidatavaid vahekaarte</string>
@@ -693,14 +685,7 @@
     <string name="backups">Varundus</string>
     <string name="enable_automatic_backups">Kasuta automaatset varundust</string>
     <string name="manage_automatic_backups">Halda automaatset varundust</string>
-    <string name="date_time_pattern_info">Failide nimede automaatsel loomisel saad kasutada järgnevaid asendusi:
-\n
-\n%Y - aasta
-\n%M - kuu
-\n%D - päev
-\n%h - tund
-\n%m - minut
-\n%s - sekund</string>
+    <string name="date_time_pattern_info">Failide nimede automaatsel loomisel saad kasutada järgnevaid asendusi: \n \n%Y - aasta \n%M - kuu \n%D - päev \n%h - tund \n%m - minut \n%s - sekund</string>
     <string name="usb_detected">Tundub, et sinu nutiseadme küljes on USB-seade. Selleks, et seal asuvad failid oleks korrektselt loetavad, pead lubama täiendavad õigusi.</string>
     <string name="confirm_usb_storage_access_text">Ligipääsu andmiseks palun vali järgmises vaates USB-seadme juurkaust (ülemine kaust)</string>
     <string name="wrong_root_selected_usb">Valisid vale kausta, palun vali USB-seadme juurkaust</string>
@@ -747,8 +732,7 @@
     <string name="invite_via">Saada kutse rakendusega</string>
     <string name="donate">Toeta meid</string>
     <string name="follow_us">Jälgi meid</string>
-    <string name="copyright">v %1$s
-\nAutoriõigused © Fossify (Lihtsad mobiiitarvikud) %2$d</string>
+    <string name="copyright">v %1$s \nAutoriõigused © Fossify (Lihtsad mobiiitarvikud) %2$d</string>
     <string name="support">Kasutajatugi</string>
     <string name="help_us">Osale arenduses</string>
     <string name="social">Sotsiaalmeedia</string>
@@ -766,15 +750,7 @@
     <string name="read_it">Loe järgnevat</string>
     <string name="read_faq">Loe korduma kippuvaid küsimusi</string>
     <string name="thank_you">Suur tänu</string>
-    <string name="new_app"><![CDATA[
-            Hei,<br><br>
-            tahtsime lihtsalt teada anda, et oleme hiljuti teinud mõned uued rakendused:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            Klõpsides ikooni või nimel saad sa neid alla laadida.<br><br>
-            Tänud
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            Hei,<br><br>\n            tahtsime lihtsalt teada anda, et oleme hiljuti teinud mõned uued rakendused:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            Klõpsides ikooni või nimel saad sa neid alla laadida.<br><br>\n            Tänud\n        "]]></string>
     <string name="app_launcher_short">Rakenduste käivitaja</string>
     <string name="calculator_short">Kalkulaator</string>
     <string name="calendar_short">Kalender</string>
@@ -793,24 +769,22 @@
     <string name="sms_messenger_short">SMS sõnumid</string>
     <string name="thank_you_short">Suur tänu</string>
     <string name="voice_recorder_short">Helisalvestaja</string>
-    <string name="sideloaded_app"><![CDATA[
-            Tundub sinu hetkel kasutatav rakenduse variant on vigane. Palun laadi algupärane versioon <a href="%s">siit</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Tundub sinu hetkel kasutatav rakenduse variant on vigane. Palun laadi algupärane versioon <a href="%s">siit</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">Korduma kippuvad küsimused</string>
     <string name="before_asking_question">Enne küsimuse kirjutamist palun loe esmalt järgnevat lehte</string>
-    <string name="faq_1_title_commons">Kuidas ma ei näe seda rakenduste vidinat kõikide vidinate loendis\?</string>
+    <string name="faq_1_title_commons">Kuidas ma ei näe seda rakenduste vidinat kõikide vidinate loendis?</string>
     <string name="faq_1_text_commons">Tõenäoliselt juhtus nii, et teisaldasid rakenduse SD-kaardile. On olemas Android-süsteemi piirang, mis sellisel juhul peidab antud rakenduse vidinad. Ainus lahendus on teisaldada rakendus tagasi sisemälusse kasutades nutiseadme seadistusi.</string>
-    <string name="faq_2_title_commons">Ma tahan teid toetada, kuid ma ei saa raha annetada. Kas ma saan veel midagi teha\?</string>
-    <string name="faq_3_title_commons">Ma kustutasin kogemata mõned failid, kuidas saan neid taastada\?</string>
+    <string name="faq_2_title_commons">Ma tahan teid toetada, kuid ma ei saa raha annetada. Kas ma saan veel midagi teha?</string>
+    <string name="faq_3_title_commons">Ma kustutasin kogemata mõned failid, kuidas saan neid taastada?</string>
     <string name="faq_3_text_commons">Kahjuks ei saa. Failid kustutatakse koheselt pärast topeltkinnitust ning prügikasti ei ole kasutusel.</string>
-    <string name="faq_4_title_commons">Mulle ei meeldi vidinate värvid, kas ma saan neid muuta\?</string>
+    <string name="faq_4_title_commons">Mulle ei meeldi vidinate värvid, kas ma saan neid muuta?</string>
     <string name="faq_4_text_commons">Jah, kui lohistad vidinat oma koduekraanile, ilmub vidina seadistusvaade. Sa näed vasakus alumises nurgas värvilisi ruute, ning uue värvi valimiseks vajuta neid. Lisaks saade läbipaistvuse kohendamiseks kasutada liugurit.</string>
-    <string name="faq_5_title_commons">Kas ma mingil viisil saan kustutatud faile taastada\?</string>
+    <string name="faq_5_title_commons">Kas ma mingil viisil saan kustutatud faile taastada?</string>
     <string name="faq_5_text_commons">Kui need on tõesti kustutatud, ei saa sa neid taastada. Siiski on vaikimisi kasutusel prügikast ning kustutatud failid esialgu lõpliku kustutamise asemel teisaldatakse sinna.</string>
-    <string name="faq_6_title_commons">Rakenduse käivitaja ikoon kadus. Mida ma saan teha\?</string>
-    <string name="faq_7_title_commons">Raha on minu pangakontolt maha kantud, kuid ma ei saa rakendust alla laadida. Mida ma saan teha\?</string>
+    <string name="faq_6_title_commons">Rakenduse käivitaja ikoon kadus. Mida ma saan teha?</string>
+    <string name="faq_7_title_commons">Raha on minu pangakontolt maha kantud, kuid ma ei saa rakendust alla laadida. Mida ma saan teha?</string>
     <string name="faq_7_text_commons">Makseid teostab täielikult Google, nende süsteemis esineb aeg-ajalt tõrkeid. Lihtsalt tühjenda oma Google Play rakenduse vahemälu ja taaskäivita seade, seejärel proovi rakendust uuesti alla laadida.</string>
-    <string name="faq_9_title_commons">Kuidas ma saan valida mitu objekti korraga\?</string>
+    <string name="faq_9_title_commons">Kuidas ma saan valida mitu objekti korraga?</string>
     <string name="faq_9_text_commons">Selleks on mitu võimalust. Esimene neist on valikurežiimi käivitamine, vajutades pikalt ühe objektile ja seejärel teiste valimine lühikese vajutusega. Teine viis on sarnane arvutites kasutatavale sisu valimisele hiirega, lihtsalt alusta valimist vajutades pikalt ühele kirjel, seejärel lohista teiste kirjete valimiseks sõrmega üle nende. Kolmas viis mitme kirje valimiseks on ühe kirje pikalt vajutamine, seejärel teise kirje pikalt vajutamine ja kõik vahepealsed kirjed saavad ka valituks. Kui soovid valida kõik kirjed, vajuta pikalt ühte kirjet, seejärel klõpsa vasakus ülanurgas asuval valitud kirjete loenduril. See valib või tühistab kõikide kirjete valiku.</string>
     <string name="faq_10_title_commons">Ma olen rakenduse ostnud, kuid ma ei saa seda teise seadmesse alla laadida.</string>
     <string name="faq_10_text_commons">Proovi tühjendada Google Play rakenduse vahemälu ja taaskäivita nutiseade. See on ilmselt mingi Google Play tõrge, mis ei ole tegelikult seotud rakenduse endaga.</string>
@@ -907,11 +881,7 @@
     <string name="hours_letter">%dt</string>
     <string name="friday_letter">R</string>
     <string name="update_thank_you">Palun uuenda rakendus Fossify Suur Tänu viimase versioonini</string>
-    <string name="contributors_label"><![CDATA[
-            Selles loendis on kõik, kes aitasid märgatavalt arendada või tõlkida mis tahes rakendust komplektis „Fossify nutitarvikud“.Tõlkimisega tegelevad vabatahtlikud,
-            anna meile teada, kui soovid ka osaleda. Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">meie Githubi lehel</a> või kui sul on küsimusi, siis võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
-            Aitäh kõigile panustajatele ja teistele toetajatele!
-        ]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Selles loendis on kõik, kes aitasid märgatavalt arendada või tõlkida mis tahes rakendust komplektis „Fossify nutitarvikud“.Tõlkimisega tegelevad vabatahtlikud,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020anna meile teada, kui soovid ka osaleda. Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">meie Githubi lehel</a> või kui sul on küsimusi, siis võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Aitäh kõigile panustajatele ja teistele toetajatele!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="app_icon_color_warning">Hoiatus: Mõned käivitajad ei käsitse rakenduste ikoonide kohandamist korralikult. Kui ikoon kaob, proovi käivitada rakendus Google Play\'st või mõne muu olemasoleva vidina abil. Kui oled käivitanud rakenduse, seadista lihtsalt ikooni vaikimisi roheline toon #106D1F tagasi. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
     <string name="faq_6_text_commons">Selle põhjuseks on asjaolu, et see käivitaja ei toeta ikoonide kohandamist korralikult. Proovi käivitada rakendus Google Play või mõne sarnase saadaoleva vidina abil. Peale käivitamist, seadista lihtsalt tagasi ikooni vaikimisi roheline toon #106D1F. Halvemal juhul pead rakenduse võib-olla uuesti paigaldama.</string>
     <string name="audio">Audio</string>
@@ -940,9 +910,7 @@
     <string name="genre">Žanr</string>
     <string name="f_number">F-number</string>
     <string name="apply_to_all_apps">Kasuta seda kujundust kõikides Fossify rakendustes</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Selle funktsionaalsuse kasutamiseks ja meie arendustöö toetamiseks palun osta <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Suur Tänu</a>. Täname sind juba ette!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA["\n            Selle funktsionaalsuse kasutamiseks ja meie arendustöö toetamiseks palun osta <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Suur Tänu</a>. Täname sind juba ette!\n        "]]></string>
     <string name="deletion_confirmation_short">Kas kustutame %s?</string>
     <string name="pin">PIN</string>
     <string name="enter_password">Sisesta salasõna</string>
@@ -967,10 +935,7 @@
     <string name="sunday_letter">P</string>
     <string name="monday_short">Esmasp</string>
     <string name="sunday_short">Pühap</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Jah, muidugi. Sa saad rakendust teistele tutvustada või jagada head tagasisidet ja hinnanguid. Samuti saad aidata ka rakenduste tõlkimisega uude keelde või lihtsalt mõne olemasoleva tõlke ajakohastamisega.
-            Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">siin lehel</a> või küsimuste puhul lihtsalt võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Jah, muidugi. Sa saad rakendust teistele tutvustada või jagada head tagasisidet ja hinnanguid. Samuti saad aidata ka rakenduste tõlkimisega uude keelde või lihtsalt mõne olemasoleva tõlke ajakohastamisega.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Tõlkimise juhend asub <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">siin lehel</a> või küsimuste puhul lihtsalt võta meiega ühendust aadressil <a href="mailto:hello@fossify.org">hello@fossify.org</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="translation_esperanto">esperanto</string>
     <string name="translation_chuvash">tšuvašši</string>
     <string name="translation_gujarati">gudžarati</string>

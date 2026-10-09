@@ -12,8 +12,7 @@
     <string name="no_app_found">找不到應用程式</string>
     <string name="set_as">設為</string>
     <string name="value_copied_to_clipboard">複製數值</string>
-    <string name="value_copied_to_clipboard_show">複製數值:
-\n%s</string>
+    <string name="value_copied_to_clipboard_show">複製數值: \n%s</string>
     <string name="unknown">未知的</string>
     <string name="always">總是</string>
     <string name="never">從不</string>
@@ -160,7 +159,6 @@
         <item quantity="other">%d個項目刪除中</item>
     </plurals>
     <plurals name="delete_contacts">
-        <item quantity="one">%d個聯絡人</item>
         <item quantity="other">%d個聯絡人</item>
     </plurals>
     <string name="select_storage">選擇儲存空間</string>
@@ -206,9 +204,7 @@
     <string name="cannot_be_undone">此動作無法復原。</string>
     <string name="save_before_closing">尚未儲存變更，離開前是否儲存？</string>
     <string name="global_theme_success">目前主題已成功套用到所有 Fossify 應用程式。未來對此主題的任何變更都將自動同步。</string>
-    <string name="purchase_thank_you"><![CDATA[
-            請購買 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 以使用此功能並支持開發者。謝謝！
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020請購買 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 以使用此功能並支持開發者。謝謝！\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">淺色主題</string>
     <string name="dark_theme">深色主題</string>
     <string name="dark_red">暗紅主題</string>
@@ -539,8 +535,7 @@
     <string name="read_it">讀它</string>
     <string name="read_faq">閱讀FAQ</string>
     <string name="thank_you">感謝</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             嗨，<br><br>
             告訴你最近有一個新的應用程式剛發布:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -548,8 +543,7 @@
             <a href="%5$s">%6$s</a><br><br>
             點標題下載來試試看吧<br><br>
             謝謝
-        ]]>
-    </string>
+        ]]></string>
     <string name="calculator_short">計算機</string>
     <string name="calendar_short">行事曆</string>
     <string name="camera_short">相機</string>
@@ -561,11 +555,9 @@
     <string name="gallery_short">相簿</string>
     <string name="music_player_short">音樂播放器</string>
     <string name="notes_short">筆記</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             你的應用程式版本似乎是損壞的。請從 <a href="%s">這裡</a> 下載原始版本。
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">常見問題</string>
     <string name="before_asking_question">在你發問之前，請先閱讀</string>
     <string name="faq_1_title_commons">為什麼我在小工具列表中沒看到這個應用程式的小工具？</string>
@@ -737,7 +729,7 @@
     <string name="allow_full_screen_notifications_reminders">您必須允許應用程式顯示全螢幕通知，否則可能會錯過一些提醒。</string>
     <string name="allow_notifications_voice_recorder">您必須允許應用程式顯示通知，否則無法錄製音訊。</string>
     <string name="grant_permission">授予權限</string>
-    <string name="confirm_create_doc_for_new_folder_text">請在下一頁點選下方的「<b>儲存</b>」以建立新的資料夾。</string>
+    <string name="confirm_create_doc_for_new_folder_text">請在下一頁點選下方的「&lt;b&gt;儲存&lt;/b&gt;」以建立新的資料夾。</string>
     <string name="solarized">Solarized</string>
     <string name="pin_item">釘選項目</string>
     <string name="unpin_item">取消釘選項目</string>
@@ -801,11 +793,7 @@
     <string name="faq_9_text_commons">有幾種方法可以做到。第一種是長按一個項目以啟動選取模式，然後點選其他項目來選取它們。第二種類似於在電腦上用滑鼠選擇項目，長按一個項目以啟動選取模式，然後手指不放開拖曳至其他項目上進行選取。第三種方法是先長按一個項目，然後再長按另一個項目，中間的所有內容都會被選取。如果您想選取所有項目，只需長按一個項目，然後點選左上角的已選取項目計數器，即可全選或取消全選。</string>
     <string name="translation">翻譯</string>
     <string name="development">開發</string>
-    <string name="contributors_label"><![CDATA[
-            此清單包含所有對 Fossify 套件中任何應用程式提供明顯幫助的人，不僅僅是這個應用程式。翻譯是由志工處理的，如果您也想幫忙，請告訴我們。
-            翻譯指南位於 <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。
-            感謝所有貢獻者和其他支持者！
-        ]]></string>
+    <string name="contributors_label"><![CDATA["\n            此清單包含所有對 Fossify 套件中任何應用程式提供明顯幫助的人，不僅僅是這個應用程式。翻譯是由志工處理的，如果您也想幫忙，請告訴我們。\n            翻譯指南位於 <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。\n            感謝所有貢獻者和其他支持者！\n        "]]></string>
     <string name="translation_belarusian">白俄羅斯文</string>
     <string name="translation_bulgarian">保加利亞文</string>
     <string name="translation_catalan">加泰隆尼亞語</string>
@@ -831,7 +819,7 @@
     <string name="rename_in_sd_card_system_restriction">系統不允許在此資料夾中重新命名</string>
     <string name="rename_internal_system_restriction">無法直接重新命名內部儲存空間中的資料夾，只能重新命名子資料夾</string>
     <string name="confirm_storage_access_android_text">請在下一頁點選下方的「使用此資料夾」來允許應用程式存取所選的儲存空間。</string>
-    <string name="confirm_storage_access_android_text_specific">請在下一頁點選下方的「<b>使用此資料夾</b>」來允許應用程式存取「<b>%s</b>」。</string>
+    <string name="confirm_storage_access_android_text_specific">請在下一頁點選下方的「&lt;b&gt;使用此資料夾&lt;/b&gt;」來允許應用程式存取「&lt;b&gt;%s&lt;/b&gt;」。</string>
     <string name="confirm_folder_access_title">確認資料夾存取權</string>
     <string name="loading">載入中…</string>
     <string name="storage">儲存空間</string>
@@ -903,10 +891,7 @@
     <string name="unlock_for_one_final_day">解鎖應用程式到最後一天</string>
     <string name="welcome_to_app_name">歡迎使用 %s！</string>
     <string name="faq_6_text_commons">當您的啟動器不完全支援圖示自訂時，就會發生此問題。請嘗試透過 Google Play 或小工具（如果有的話）啟動應用程式。啟動後，請將應用程式圖示顏色還原為預設的綠色 #106D1F。在極少數情況下，可能會需要重新安裝應用程式。</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            當然可以。您可以幫忙宣傳應用程式，或者提供良好的意見回饋和評分。您也可以幫忙將應用程式翻譯成新的語言，或者更新現有的翻譯。.
-            翻譯指南位於<a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA["\n            當然可以。您可以幫忙宣傳應用程式，或者提供良好的意見回饋和評分。您也可以幫忙將應用程式翻譯成新的語言，或者更新現有的翻譯。.\n            翻譯指南位於<a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。\n        "]]></string>
     <string name="faq_9_title_commons">如何一次選取多個項目？</string>
     <string name="faq_10_title_commons">我已購買應用程式，但無法在其他裝置上下載。</string>
     <string name="developer_description">一系列簡單、開放原始碼的 Android 應用程式，具有可自訂的小工具，沒有廣告和不必要的權限。</string>

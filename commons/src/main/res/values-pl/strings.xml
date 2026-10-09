@@ -258,7 +258,7 @@
     <string name="confirm_storage_access_text">Wybierz folder główny karty pamięci na następnym ekranie, aby przyznać dostęp.</string>
     <string name="confirm_storage_access_text_sd">Jeśli nie widzisz karty pamięci, spróbuj tego:</string>
     <string name="confirm_storage_access_android_text">Zezwól na dostęp do wybranej pamięci na następnym ekranie, naciskając „Użyj tego folderu” na dole.</string>
-    <string name="confirm_storage_access_android_text_specific">Zezwól na dostęp do „<b>%s</b>” na następnym ekranie, naciskając „<b>Użyj tego folderu</b>” na dole.</string>
+    <string name="confirm_storage_access_android_text_specific">Zezwól na dostęp do „&lt;b&gt;%s&lt;/b&gt;” na następnym ekranie, naciskając „&lt;b&gt;Użyj tego folderu&lt;/b&gt;” na dole.</string>
     <string name="confirm_create_doc_for_new_folder_text">Naciśnij „&lt;b&gt;Zapisz&lt;/b&gt;” na dole następnego ekranu, aby utworzyć nowy folder.</string>
     <string name="confirm_selection">Potwierdź wybór</string>
     <string name="loading">Ładowanie…</string>
@@ -315,7 +315,7 @@
     <string name="gps_coordinates">Współrzędne GPS</string>
     <string name="altitude">Wysokość</string>
     <string name="remove_exif">Usuń dane EXIF</string>
-    <string name="remove_exif_confirmation">Czy usunąć dane EXIF, takie jak współrzędne GPS, model aparatu itp.\?</string>
+    <string name="remove_exif_confirmation">Czy usunąć dane EXIF, takie jak współrzędne GPS, model aparatu itp.?</string>
     <string name="exif_removed">Dane EXIF zostały usunięte</string>
     <string name="background_color">Kolor tła</string>
     <string name="text_color">Kolor tekstu</string>
@@ -334,12 +334,11 @@
     <string name="save">Zapisz</string>
     <string name="discard">Odrzuć</string>
     <string name="undo_changes">Cofnij zmiany</string>
-    <string name="undo_changes_confirmation">Czy cofnąć zmiany\?</string>
+    <string name="undo_changes_confirmation">Czy cofnąć zmiany?</string>
     <string name="cannot_be_undone">Tej akcji nie można cofnąć.</string>
     <string name="save_before_closing">Masz niezapisane zmiany. Czy zapisać je przed wyjściem?</string>
     <string name="apply_to_all_apps">Zastosuj motyw we wszystkich aplikacjach Fossify</string>
-    <string name="app_icon_color_warning">Uwaga: Pewne launchery mogą nie obsługiwać prawidłowo zmiany ikon aplikacji. Jeśli ikona zniknie, spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny.
-        Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
+    <string name="app_icon_color_warning">Uwaga: Pewne launchery mogą nie obsługiwać prawidłowo zmiany ikon aplikacji. Jeśli ikona zniknie, spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny. Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
     <string name="global_theme_success">Obecny motyw został zastosowany do wszystkich aplikacji Fossify. Wszelkie przyszłe zmiany tego motywu będą synchronizowane automatycznie.</string>
     <string name="purchase_thank_you"><![CDATA[
             Kup aplikację <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>, aby używać tej funkcji i wesprzeć rozwój. Dziękujemy!
@@ -421,11 +420,11 @@
     <string name="use_custom_sorting">Użyj własnego sortowania</string>
     <string name="change_order">Zmień kolejność</string>
     <string name="more_options">Więcej opcji</string>
-    <string name="proceed_with_deletion">Czy kontynuować usuwanie\?</string>
-    <string name="deletion_confirmation">Czy usunąć %s\?</string>
-    <string name="deletion_confirmation_short">Czy usunąć %s\?</string>
+    <string name="proceed_with_deletion">Czy kontynuować usuwanie?</string>
+    <string name="deletion_confirmation">Czy usunąć %s?</string>
+    <string name="deletion_confirmation_short">Czy usunąć %s?</string>
     <string name="move_to_recycle_bin_confirmation">Czy przenieść %s do kosza?</string>
-    <string name="are_you_sure_delete">Czy usunąć ten element\?</string>
+    <string name="are_you_sure_delete">Czy usunąć ten element?</string>
     <string name="are_you_sure_recycle_bin">Czy przenieść ten element do kosza?</string>
     <string name="do_not_ask_again">Nie pytaj więcej w tej sesji</string>
     <string name="do_not_show_again">Nie pokazuj ponownie</string>
@@ -442,8 +441,7 @@
     <string name="please_enter_pin">Wprowadź PIN</string>
     <string name="wrong_pin">Nieprawidłowy PIN</string>
     <string name="pin_must_be_4_digits_long">PIN musi mieć co najmniej 4 cyfry</string>
-    <string name="too_many_incorrect_attempts">Zbyt wiele błędnych prób odblokowania.
-\nSpróbuj ponownie za %d sek.</string>
+    <string name="too_many_incorrect_attempts">Zbyt wiele błędnych prób odblokowania. \nSpróbuj ponownie za %d sek.</string>
     <string name="repeat_pin">Wprowadź PIN ponownie</string>
     <string name="pattern">Wzór</string>
     <string name="insert_pattern">Wprowadź wzór</string>
@@ -726,7 +724,7 @@
     <string name="excluded">(wykluczone)</string>
     <string name="manage_excluded_folders">Zarządzaj wykluczonymi folderami</string>
     <string name="remove_all">Usuń wszystko</string>
-    <string name="remove_all_description">Czy usunąć wszystkie foldery z listy wykluczonych\? Nie spowoduje to fizycznego usunięcia folderów.</string>
+    <string name="remove_all_description">Czy usunąć wszystkie foldery z listy wykluczonych? Nie spowoduje to fizycznego usunięcia folderów.</string>
     <string name="temporarily_show_excluded">Tymczasowo pokaż wykluczone foldery</string>
     <string name="stop_showing_excluded">Przestań pokazywać wykluczone foldery</string>
     <string name="manage_shown_tabs">Zarządzaj pokazywanymi kartami</string>
@@ -770,14 +768,7 @@
     <string name="backups">Kopie zapasowe</string>
     <string name="enable_automatic_backups">Włącz automatyczne kopie zapasowe</string>
     <string name="manage_automatic_backups">Zarządzaj automatycznymi kopiami zapasowymi</string>
-    <string name="date_time_pattern_info">Możesz użyć następujących wzorców, aby automatycznie nazywać swój plik:
-\n
-\n%Y — rok
-\n%M — miesiąc
-\n%D — dzień
-\n%h — godzina
-\n%m — minuta
-\n%s — sekunda</string>
+    <string name="date_time_pattern_info">Możesz użyć następujących wzorców, aby automatycznie nazywać swój plik: \n \n%Y — rok \n%M — miesiąc \n%D — dzień \n%h — godzina \n%m — minuta \n%s — sekunda</string>
     <string name="usb_detected">Wygląda na to, że masz podpiętą pamięć USB. Aby mieć pewność, że pliki na niej będą poprawnie widoczne, przyznaj aplikacji dodatkowe uprawnienia.</string>
     <string name="confirm_usb_storage_access_text">Wybierz folder główny pamięci USB na następnym ekranie, aby przyznać dostęp.</string>
     <string name="wrong_root_selected_usb">Wybrano nieprawidłowy folder. Wybierz folder główny pamięci USB.</string>
@@ -849,8 +840,7 @@
     <string name="invite_via">Zaproś za pomocą:</string>
     <string name="donate">Przekaż datek</string>
     <string name="follow_us">Śledź nas</string>
-    <string name="copyright">Wersja %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">Wersja %1$s \nCopyright © Fossify %2$d</string>
     <string name="support">Wsparcie</string>
     <string name="help_us">Pomóż nam</string>
     <string name="social">Portale społecznościowe</string>
@@ -890,31 +880,26 @@
     <string name="sms_messenger_short">Wiadomości SMS</string>
     <string name="thank_you_short">Podziękowanie</string>
     <string name="voice_recorder_short">Rejestrator głosu</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Wygląda na to, że Twoja wersja aplikacji jest uszkodzona/zmodyfikowana. Pobierz <a href="%s">stąd</a> oryginalną wersję.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Często zadawane pytania (FAQ)</string>
     <string name="before_asking_question">Zanim zadasz pytanie, przeczytaj najpierw</string>
-    <string name="faq_1_title_commons">Dlaczego nie widzę widżetu tej aplikacji na liście widżetów\?</string>
+    <string name="faq_1_title_commons">Dlaczego nie widzę widżetu tej aplikacji na liście widżetów?</string>
     <string name="faq_1_text_commons">Jest to najprawdopodobniej spowodowane przeniesieniem aplikacji na kartę pamięci. Istnieje ograniczenie systemu Android, które w takim przypadku ukrywa widżety danej aplikacji. Jedynym rozwiązaniem jest przeniesienie aplikacji z powrotem do pamięci wewnętrznej za pomocą ustawień urządzenia.</string>
     <string name="faq_2_title_commons">Chcę Was wesprzeć, ale nie mam jak wpłacić pieniędzy. Czy mogę zrobić coś innego?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
+    <string name="faq_2_text_commons"><![CDATA[
             Oczywiście. Możesz powiedzieć światu o naszych aplikacjach lub podzielić się opinią i oceną w Sklepie Google Play. Możesz też pomóc, tłumacząc aplikacje na nowy język lub po prostu zaktualizować istniejące tłumaczenia.
             Instrukcja jak tłumaczyć znajduje się na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tej stronie</a>, albo po prostu skontaktuj się z nami pod adresem <a href="mailto:hello@fossify.org">hello@fossify.org</a>, jeśli masz jakiekolwiek pytania.
-        ]]>
-    </string>
+        ]]></string>
     <string name="faq_3_title_commons">Przypadkowo usunąłem kilka plików. Mogę je jakoś odzyskać?</string>
     <string name="faq_3_text_commons">Niestety, nie możesz. Pliki są usuwane natychmiast po potwierdzeniu w oknie dialogowym. System Android nie ma wbudowanego kosza.</string>
-    <string name="faq_4_title_commons">Nie podobają mi się kolory widżetów. Czy mogę je zmienić\?</string>
+    <string name="faq_4_title_commons">Nie podobają mi się kolory widżetów. Czy mogę je zmienić?</string>
     <string name="faq_4_text_commons">Tak. Po przeciągnięciu widżetu na ekran główny pojawia się okno jego konfiguracji. Zobaczysz na nim kolorowe kółka w lewym dolnym rogu, za pomocą których możesz wybrać nowe kolory. Możesz też użyć suwaka do ustawienia poziomu przezroczystości.</string>
     <string name="faq_5_title_commons">Czy mogę jakoś odzyskać usunięte pliki?</string>
     <string name="faq_5_text_commons">Jeśli faktycznie zostały usunięte, to już nie możesz ich odzyskać. Jednakże domyślnie jest włączony kosz, dzięki czemu pliki zostaną przeniesione do niego zamiast zostać usunięte natychmiast.</string>
     <string name="faq_6_title_commons">Z launchera zniknęła ikona aplikacji. Co mogę zrobić?</string>
-    <string name="faq_6_text_commons">Ten problem się pojawia, gdy Twój launcher nie obsługuje w pełni zmiany ikon aplikacji. Spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny.
-        Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
+    <string name="faq_6_text_commons">Ten problem się pojawia, gdy Twój launcher nie obsługuje w pełni zmiany ikon aplikacji. Spróbuj uruchomić aplikację przez Google Play lub przez widżet, jeśli jest dostępny. Po uruchomieniu przywróć domyślny zielony kolor ikony (#106D1F). W wyjątkowych przypadkach konieczne może okazać się przeinstalowanie aplikacji.</string>
     <string name="faq_7_title_commons">Pieniądze zostały odjęte z mojego konta bankowego, ale nie mogę pobrać aplikacji. Co mogę zrobić?</string>
     <string name="faq_7_text_commons">Płatności są w pełni obsługiwane przez Google, ich system szwankuje od czasu do czasu. Wystarczy wyczyścić pamięć podręczną aplikacji Google Play i zrestartować urządzenie, a następnie ponowić próbę pobrania.</string>
     <string name="faq_9_title_commons">Jak mogę wybrać wiele elementów jednocześnie?</string>
@@ -925,13 +910,11 @@
     <string name="translation">Tłumaczenie</string>
     <string name="development">Rozwój</string>
     <string name="other_help">Inna pomoc</string>
-    <string name="contributors_label">
-        <![CDATA[
+    <string name="contributors_label"><![CDATA[
             Ta lista zawiera wszystkich, którzy zauważalnie pomogli przy którejkolwiek z prostych aplikacji od Fossify, nie tylko przy tej. Tłumaczeniami zajmują się wolontariusze;
             daj nam znać, jeśli też chcesz pomóc. Instrukcja jak tłumaczyć znajduje się na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tej stronie</a>, albo po prostu skontaktuj się z nami pod adresem <a href="mailto:hello@fossify.org">hello@fossify.org</a>, jeśli masz jakiekolwiek pytania.
             Dziękuję wszystkim współtwórcom i innym wspierającym!
-        ]]>
-    </string>
+        ]]></string>
     <string name="translation_arabic">arabski</string>
     <string name="translation_azerbaijani">azerski</string>
     <string name="translation_bengali">bengalski</string>

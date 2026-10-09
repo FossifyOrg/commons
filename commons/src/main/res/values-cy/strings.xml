@@ -183,8 +183,7 @@
     <string name="root">Craidd</string>
     <string name="wrong_root_selected">Dewiswyd y ffolder anghywir. Dewisa ffolder craidd dy gerdyn SD</string>
     <string name="sd_card_usb_same">Rhaid bod llwybrau\'r cerdyn SD a\'r ddyfais USB yn wahanol</string>
-    <string name="app_on_sd_card">Mae\'n ymddangos dy fod wedi gosod yr ap ar gerdyn SD, gan olygu nad yw teclynnau\'r ap ar gael. Ni fyddan nhw hyd yn oed ymddangos ar y rhestr o declynnau ar gael.
-        Mae hyn yn gyfyngiad gan y system, felly os wyt eisiau defnyddio\'r teclynnau, rhaid symud yr ap i storfa fewnol dy ddyfais.</string>
+    <string name="app_on_sd_card">Mae\'n ymddangos dy fod wedi gosod yr ap ar gerdyn SD, gan olygu nad yw teclynnau\'r ap ar gael. Ni fyddan nhw hyd yn oed ymddangos ar y rhestr o declynnau ar gael. Mae hyn yn gyfyngiad gan y system, felly os wyt eisiau defnyddio\'r teclynnau, rhaid symud yr ap i storfa fewnol dy ddyfais.</string>
     <string name="properties">Priodweddau</string>
     <string name="path">Llwybr</string>
     <string name="items_selected">Eitemau a ddewiswyd</string>
@@ -214,9 +213,7 @@
     <string name="undo_changes_confirmation">Wyt ti yn bendant eisiau dad-wneud a cholli dy newidiadau?</string>
     <string name="save_before_closing">Mae gennyt newidiadau heb eu cadw. Cadw cyn gadael?</string>
     <string name="global_theme_success">Diweddarwyd y lliwiau yn llwyddiannus. Mae thema newydd o\'r enw \'Rhennir\' wedi ei ychwanegu. Defnyddia honno i ddiweddaru lliwiau pob ap yn y dyfodol.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Pryna <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> i ddatgloi’r nodwedd hon a chefnogi datblygiad, os gweli’n dda. Diolch!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Pryna <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> i ddatgloi’r nodwedd hon a chefnogi datblygiad, os gweli’n dda. Diolch!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">Golau</string>
     <string name="dark_theme">Tywyll</string>
     <string name="solarized">Solareiddiwyd</string>
@@ -672,8 +669,7 @@
     <string name="device_os">System y ddyfais: %s</string>
     <string name="purchase">Prynu</string>
     <string name="before_asking_question_read_faq">Cyn gofyn cwestiwn, gwiria osodiadau\'r ap a\'r atebion i Gwestiynau Cyffredin yn gyntaf. Gall fod y datrysiad yno.</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             S\'mae,<br><br>
             Jyst yn rhoi gwybod i ti am ap newydd wedi\'i ryddhau yn ddiweddar:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -681,13 +677,10 @@
             <a href="%5$s">%6$s</a><br><br>
             Gellir ei lawrlwytho gan glicio\'r teitl.<br><br>
             Hwyl.
-        ]]>
-    </string>
-    <string name="sideloaded_app">
-        <![CDATA[
+        ]]></string>
+    <string name="sideloaded_app"><![CDATA[
             Mae\'n ymddangos bod fersiwn dy ap yn llwgr. Lawrlwytha\'r fersiwn gwreiddiol <a href="%s">yma</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Cwestiynau cyffredin</string>
     <string name="before_asking_question">Cyn ofyn cwestiwn, gweler y</string>
     <string name="faq_1_title_commons">Pam nad ydw i\'n gweld teclyn yr ap hwn yn y rhestr teclynnau?</string>

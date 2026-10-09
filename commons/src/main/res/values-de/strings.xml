@@ -71,10 +71,10 @@
     <string name="choose_file">Datei auswählen</string>
     <string name="record_audio">Audio aufnehmen</string>
     <string name="record_video">Video aufnehmen</string>
-    <string name="updating">Aktualisieren …</string>
+    <string name="updating">Aktualisieren …</string>
     <string name="phone_storage">Gerätespeicher</string>
     <string name="phone_storage_hidden">Gerätespeicher (nicht sichtbar für andere Apps)</string>
-    <string name="scanning">Durchsuchen …</string>
+    <string name="scanning">Durchsuchen …</string>
     <string name="birthday">Geburtstag</string>
     <string name="anniversary">Jahrestag</string>
     <string name="home">Privat</string>
@@ -119,7 +119,7 @@
     <string name="block_hidden_calls">Anrufe von unterdrückten Nummern blockieren</string>
     <string name="block_unknown_messages">Nachrichten von Nummern, die nicht in den Kontakten gespeichert sind, blockieren</string>
     <string name="block_hidden_messages">Nachrichten von unterdrückten Nummern blockieren</string>
-    <string name="add_blocked_number_helper_text">Gib eine Nummer oder ein Muster (z. B. *12345*, +1*8888) ein, um alle Anrufe und Nachrichten von Nummern zu blockieren, die dem Muster entsprechen.</string>
+    <string name="add_blocked_number_helper_text">Gib eine Nummer oder ein Muster (z. B. *12345*, +1*8888) ein, um alle Anrufe und Nachrichten von Nummern zu blockieren, die dem Muster entsprechen.</string>
     <string name="must_make_default_caller_id_app">Unbekannte Nummern können ohne Anrufer-ID-Berechtigung nicht blockiert werden.</string>
     <string name="block_contact">Kontakt blockieren</string>
     <string name="block_contact_success">Kontakt blockiert</string>
@@ -191,13 +191,7 @@
     <string name="simple_renaming">Einfaches Umbenennen</string>
     <string name="pattern_renaming">Muster</string>
     <string name="string_to_add">Anzufügender Text</string>
-    <string name="rename_date_time_pattern">%Y - Jahr
-\n%M - Monat
-\n%D - Tag
-\n%h - Stunde
-\n%m - Minute
-\n%s - Sekunde
-\n%i - Zähler, aufsteigend ab 1</string>
+    <string name="rename_date_time_pattern">%Y - Jahr \n%M - Monat \n%D - Tag \n%h - Stunde \n%m - Minute \n%s - Sekunde \n%i - Zähler, aufsteigend ab 1</string>
     <string name="filename_without_txt">Dateiname (ohne .txt)</string>
     <string name="filename_without_json">Dateiname (ohne .json)</string>
     <string name="filename_without_zip">Dateiname (ohne .zip)</string>
@@ -215,17 +209,17 @@
     <string name="please_select_destination">Bitte Ziel auswählen</string>
     <string name="source_and_destination_same">Quell- und Zielpfad sind identisch</string>
     <string name="copy_failed">Die Dateien konnten nicht kopiert werden</string>
-    <string name="copying">Kopieren …</string>
+    <string name="copying">Kopieren …</string>
     <string name="copying_success">Datei(en) erfolgreich kopiert</string>
     <string name="copying_success_one">Datei erfolgreich kopiert</string>
     <string name="copy_move_failed">Es ist ein Fehler aufgetreten</string>
-    <string name="moving">Verschieben …</string>
+    <string name="moving">Verschieben …</string>
     <string name="moving_success">Datei(en) erfolgreich verschoben</string>
     <string name="moving_success_one">Datei erfolgreich verschoben</string>
     <string name="moving_success_partial">Einige Dateien konnten nicht verschoben werden</string>
     <string name="copying_success_partial">Einige Dateien konnten nicht kopiert werden</string>
     <string name="no_files_selected">Keine Dateien ausgewählt</string>
-    <string name="saving">Speichern …</string>
+    <string name="saving">Speichern …</string>
     <string name="could_not_create_folder">Ordner %s konnte nicht erstellt werden</string>
     <string name="could_not_create_file">Datei %s konnte nicht erstellt werden</string>
     <string name="no_new_items">Keine neuen Elemente gefunden</string>
@@ -260,10 +254,10 @@
     <string name="confirm_storage_access_text">Bitte am nächsten Bildschirm das Hauptverzeichnis der SD-Karte auswählen, um Schreibzugriff zu gewähren</string>
     <string name="confirm_storage_access_text_sd">Wenn die SD-Karte nicht angezeigt wird, Folgendes versuchen</string>
     <string name="confirm_storage_access_android_text">Bitte am unteren Rand des nächsten Bildschirms der App durch Drücken auf „Diesen Ordner verwenden“ den Zugriff auf den ausgewählten Speicher gewähren.</string>
-    <string name="confirm_storage_access_android_text_specific">Bitte den Zugriff auf „<b>%s</b>“ gewähren, indem im nächsten Bildschirm unten auf „<b>Diesen Ordner verwenden</b>“ gedrückt wird.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Bitte am unteren Rand des nächsten Bildschirms auf „<b>Speichern</b>“ drücken, um den neuen Ordner zu erstellen.</string>
+    <string name="confirm_storage_access_android_text_specific">Bitte den Zugriff auf „&lt;b&gt;%s&lt;/b&gt;“ gewähren, indem im nächsten Bildschirm unten auf „&lt;b&gt;Diesen Ordner verwenden&lt;/b&gt;“ gedrückt wird.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Bitte am unteren Rand des nächsten Bildschirms auf „&lt;b&gt;Speichern&lt;/b&gt;“ drücken, um den neuen Ordner zu erstellen.</string>
     <string name="confirm_selection">Auswahl bestätigen</string>
-    <string name="loading">Wird geladen …</string>
+    <string name="loading">Wird geladen …</string>
     <string name="access_storage_prompt">Bitte unserer App Zugriff auf alle Dateien gewähren, da sie sonst möglicherweise nicht richtig funktioniert.</string>
     <plurals name="items">
         <item quantity="one">%d Element</item>
@@ -289,8 +283,7 @@
     <string name="root">Hauptverzeichnis</string>
     <string name="wrong_root_selected">Falscher Ordner ausgewählt, bitte Hauptverzeichnis der SD-Karte auswählen</string>
     <string name="sd_card_usb_same">SD-Karten- und USB-Gerätepfad dürfen nicht identisch sein</string>
-    <string name="app_on_sd_card">Die App wurde anscheinend auf der SD-Karte installiert, daher sind die Widgets nicht verfügbar. Sie werden auch in der Liste der Widgets nicht angezeigt.
-        Dies ist systemseitig so beschränkt. Für die Verwendung der Widgets muss die App wieder im internen Speicher installiert werden.</string>
+    <string name="app_on_sd_card">Die App wurde anscheinend auf der SD-Karte installiert, daher sind die Widgets nicht verfügbar. Sie werden auch in der Liste der Widgets nicht angezeigt. Dies ist systemseitig so beschränkt. Für die Verwendung der Widgets muss die App wieder im internen Speicher installiert werden.</string>
     <string name="wrong_folder_selected">Falscher Ordner ausgewählt, bitte Pfad „%s“ wählen</string>
     <string name="properties">Eigenschaften</string>
     <string name="path">Pfad</string>
@@ -309,7 +302,7 @@
     <string name="gps_coordinates">GPS-Koordinaten</string>
     <string name="altitude">Höhe</string>
     <string name="remove_exif">Exif-Daten entfernen</string>
-    <string name="remove_exif_confirmation">Sollen wirklich alle Exif-Daten, wie z. B. GPS-Koordinaten oder Kameramodell, entfernt werden?</string>
+    <string name="remove_exif_confirmation">Sollen wirklich alle Exif-Daten, wie z. B. GPS-Koordinaten oder Kameramodell, entfernt werden?</string>
     <string name="exif_removed">Exif-Daten erfolgreich entfernt</string>
     <string name="background_color">Hintergrundfarbe</string>
     <string name="text_color">Schriftfarbe</string>
@@ -328,15 +321,13 @@
     <string name="save">Speichern</string>
     <string name="discard">Verwerfen</string>
     <string name="undo_changes">Änderungen verwerfen</string>
-    <string name="undo_changes_confirmation">Sollen wirklich alle Änderungen verworfen werden\?</string>
+    <string name="undo_changes_confirmation">Sollen wirklich alle Änderungen verworfen werden?</string>
     <string name="cannot_be_undone">Diese Aktion kann nicht rückgängig gemacht werden.</string>
     <string name="save_before_closing">Du hast ungespeicherte Änderungen. Speichern vor dem Beenden?</string>
     <string name="apply_to_all_apps">Farbschema auf alle Fossify-Apps anwenden</string>
     <string name="app_icon_color_warning">Achtung! Bestimmte Launcher können das Anpassen von App-Symbolen nicht richtig verarbeiten. Wenn das Symbol verschwindet, versuche, falls möglich, die App über Google Play oder ein Widget zu starten. Stelle nach dem Start die grüne Standard-Symbolfarbe #106D1F wieder her. In extremen Fällen kann es notwendig sein, die App neu zu installieren.</string>
     <string name="global_theme_success">Das aktuelle Farbschema wurde erfolgreich auf alle Fossify-Apps angewendet. Alle zukünftigen Änderungen an diesem Farbschema werden automatisch synchronisiert.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Bitte kaufe <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> um diese Funktion nutzen zu können und die Entwicklung zu unterstützen. Vielen Dank!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Bitte kaufe <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> um diese Funktion nutzen zu können und die Entwicklung zu unterstützen. Vielen Dank!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">Hell</string>
     <string name="dark_theme">Dunkel</string>
     <string name="auto_light_dark_theme">Auto hell / dunkel</string>
@@ -412,9 +403,9 @@
     <string name="use_custom_sorting">Benutzerdefiniertes Sortieren anwenden</string>
     <string name="change_order">Reihenfolge ändern</string>
     <string name="more_options">Weitere Optionen</string>
-    <string name="proceed_with_deletion">Soll wirklich mit dem Löschen fortgefahren werden\?</string>
+    <string name="proceed_with_deletion">Soll wirklich mit dem Löschen fortgefahren werden?</string>
     <string name="deletion_confirmation">Soll wirklich %s gelöscht werden?</string>
-    <string name="deletion_confirmation_short">%s löschen\?</string>
+    <string name="deletion_confirmation_short">%s löschen?</string>
     <string name="move_to_recycle_bin_confirmation">Soll wirklich %s in den Papierkorb verschoben werden?</string>
     <string name="are_you_sure_delete">Soll wirklich dieses Element gelöscht werden?</string>
     <string name="are_you_sure_recycle_bin">Soll wirklich dieses Element in den Papierkorb verschoben werden?</string>
@@ -431,8 +422,7 @@
     <string name="please_enter_pin">Bitte eine PIN eingeben</string>
     <string name="wrong_pin">Falsche PIN</string>
     <string name="pin_must_be_4_digits_long">Die PIN muss mindestens 4-stellig sein</string>
-    <string name="too_many_incorrect_attempts">Zu viele falsche Entsperrversuche.
-\nVersuche es in %d Sekunden erneut.</string>
+    <string name="too_many_incorrect_attempts">Zu viele falsche Entsperrversuche. \nVersuche es in %d Sekunden erneut.</string>
     <string name="repeat_pin">PIN wiederholen</string>
     <string name="pattern">Muster</string>
     <string name="insert_pattern">Muster zeichnen</string>
@@ -586,8 +576,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Zeit bis Alarm:\n%s</string>
     <string name="reminder_triggers_in">Verbleibende Zeit bis Alarm ausgelöst wird:\n%s</string>
-    <string name="time_remaining">Verbleibende Zeit:
-\n%s</string>
+    <string name="time_remaining">Verbleibende Zeit: \n%s</string>
     <string name="alarm_warning">Bitte vergewissere dich, dass der Alarm zuverlässig funktioniert, bevor du dich auf ihn verlässt. Er könnte wegen Systemeinschränkungen, wie der Stromsparfunktion, fehlschlagen.</string>
     <string name="reminder_warning">Bitte vergewissere dich, dass die Erinnerungen zuverlässig funktionieren, bevor du dich darauf verlässt. Überprüfe die Geräteakku- und Benachrichtigungseinstellungen, ob nichts die Erinnerungen sperrt oder die App im Hintergrund beendet.</string>
     <string name="notifications_disabled">Benachrichtigungen für diese App sind deaktiviert. Wechsle in die Systemeinstellungen und aktiviere sie.</string>
@@ -662,7 +651,7 @@
     <string name="excluded">(ausgeschlossen)</string>
     <string name="manage_excluded_folders">Ausgeschlossene Ordner verwalten</string>
     <string name="remove_all">Alle entfernen</string>
-    <string name="remove_all_description">Alle Ordner aus der Liste ausgeschlossener Ordner entfernen\? Die Ordner selbst werden dabei nicht gelöscht.</string>
+    <string name="remove_all_description">Alle Ordner aus der Liste ausgeschlossener Ordner entfernen? Die Ordner selbst werden dabei nicht gelöscht.</string>
     <string name="temporarily_show_excluded">Ausgeschlossenes temporär anzeigen</string>
     <string name="stop_showing_excluded">Ausgeschlossenes wieder verbergen</string>
     <string name="manage_shown_tabs">Anzuzeigende Tabs festlegen</string>
@@ -690,8 +679,8 @@
         <item quantity="one">%d Element wird in den Papierkorb verschoben</item>
         <item quantity="other">%d Elemente werden in den Papierkorb verschoben</item>
     </plurals>
-    <string name="importing">Importieren …</string>
-    <string name="exporting">Exportieren …</string>
+    <string name="importing">Importieren …</string>
+    <string name="exporting">Exportieren …</string>
     <string name="importing_successful">Importieren erfolgreich</string>
     <string name="exporting_successful">Exportieren erfolgreich</string>
     <string name="importing_failed">Importieren fehlgeschlagen</string>
@@ -704,14 +693,7 @@
     <string name="backups">Sicherungen</string>
     <string name="enable_automatic_backups">Automatische Sicherungen aktivieren</string>
     <string name="manage_automatic_backups">Automatische Sicherungen verwalten</string>
-    <string name="date_time_pattern_info">Du kannst die folgenden Muster verwenden, um deine Datei automatisch zu benennen:
-\n
-\n%Y – Jahr
-\n%M – Monat
-\n%D – Tag
-\n%h – Stunde
-\n%m – Minute
-\n%s – Sekunde</string>
+    <string name="date_time_pattern_info">Du kannst die folgenden Muster verwenden, um deine Datei automatisch zu benennen: \n \n%Y – Jahr \n%M – Monat \n%D – Tag \n%h – Stunde \n%m – Minute \n%s – Sekunde</string>
     <string name="usb_detected">Es sieht so aus, als hättest du ein USB-Gerät an dein Gerät angeschlossen. Du musst zusätzliche Berechtigungen erteilen, damit die Dateien korrekt angezeigt werden.</string>
     <string name="confirm_usb_storage_access_text">Bitte das Hauptverzeichnis des USB-Geräts auf der folgenden Seite wählen, um Zugriff zu gewähren</string>
     <string name="wrong_root_selected_usb">Falscher Ordner gewählt, bitte das Hauptverzeichnis des USB-Geräts wählen</string>
@@ -787,15 +769,7 @@
     <string name="read_it">Bitte lesen</string>
     <string name="read_faq">Häufige gestellte Fragen</string>
     <string name="thank_you">Dankeschön</string>
-    <string name="new_app"><![CDATA[
-            Hey,<br><br>
-            ich wollte dich nur darauf hinweisen, dass kürzlich einige neue Apps veröffentlicht wurden:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            Du kannst sie herunterladen, indem du auf den Titel oder das Icon drückst.<br><br>
-            Danke
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            Hey,<br><br>\n            ich wollte dich nur darauf hinweisen, dass kürzlich einige neue Apps veröffentlicht wurden:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            Du kannst sie herunterladen, indem du auf den Titel oder das Icon drückst.<br><br>\n            Danke\n        "]]></string>
     <string name="app_launcher_short">App-Startprogramm</string>
     <string name="calculator_short">Rechner</string>
     <string name="calendar_short">Kalender</string>
@@ -814,9 +788,7 @@
     <string name="sms_messenger_short">SMS-Messenger</string>
     <string name="thank_you_short">Dankeschön</string>
     <string name="voice_recorder_short">Diktiergerät</string>
-    <string name="sideloaded_app"><![CDATA[
-            Deine App-Version scheint beschädigt zu sein. Bitte lade dir die Originalversion <a href="%s">hier</a> herunter.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Deine App-Version scheint beschädigt zu sein. Bitte lade dir die Originalversion <a href="%s">hier</a> herunter.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">Häufig gestellte Fragen</string>
     <string name="before_asking_question">Bevor du eine Frage stellst, lies bitte zuerst die</string>
     <string name="faq_1_title_commons">Weshalb sehe ich das Widget dieser App nicht in der Liste der Widgets?</string>
@@ -824,7 +796,7 @@
     <string name="faq_2_title_commons">Ich möchte euch unterstützen, jedoch ist es mir nicht möglich, Geld zu spenden. Gibt es eine andere Möglichkeit?</string>
     <string name="faq_3_title_commons">Ich habe versehentlich einige Dateien gelöscht. Wie kann ich diese wiederherstellen?</string>
     <string name="faq_3_text_commons">Unglücklicherweise gar nicht. Dateien werden sofort nach dem Bestätigungsdialog gelöscht, da ein Papierkorb nicht vorhanden ist.</string>
-    <string name="faq_4_title_commons">Ich mag die Farben des Widgets nicht. Kann ich sie ändern\?</string>
+    <string name="faq_4_title_commons">Ich mag die Farben des Widgets nicht. Kann ich sie ändern?</string>
     <string name="faq_4_text_commons">Ja, wenn du ein Widget auf der Startseite ziehst, erscheint ein Konfigurationsmenü. In der linken unteren Ecke sind farbige Kästchen. Drücke auf sie und wähle eine neue Farbe. Außerdem kannst du den Regler nutzen, um den Alphaparameter (Transparenz) einzustellen.</string>
     <string name="faq_5_title_commons">Kann ich gelöschte Dateien wiederherstellen?</string>
     <string name="faq_5_text_commons">Wurden die Dateien endgültig gelöscht, können sie nicht wiederhergestellt werden. Der Papierkorb ist jedoch standardmäßig aktiviert und Dateien werden in den Papierkorb verschoben, anstatt direkt gelöscht.</string>
@@ -952,8 +924,7 @@
     <string name="saturday_letter">S</string>
     <string name="sunday_letter">S</string>
     <string name="website">Website</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="other_help">Sonstige Hilfe</string>
     <string name="translation_bengali">Bengalisch</string>
     <string name="update_thank_you">Bitte aktualisiere Fossify Thank You auf die neueste Version</string>
@@ -962,16 +933,9 @@
     <string name="translation_hindi">Hindi</string>
     <string name="otto_title">Otto (Eventbus)</string>
     <string name="donate_short">Gefällt dir Fossify? Unterstütze die Entwicklung unserer werbefreien Apps, indem du &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt; erwirbst. Damit werden außerdem eigene Schriftarten und die gemeinsame Anpassung aller Fossify-Apps ermöglicht. Vielen Dank für deine Unterstützung!</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Ja, natürlich. Du kannst die Apps weiterempfehlen oder gute Bewertungen abgeben. Du kannst auch helfen, indem du die Apps in eine neue Sprache übersetzt oder einfach einige bestehende Übersetzungen aktualisierst.
-            Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Ja, natürlich. Du kannst die Apps weiterempfehlen oder gute Bewertungen abgeben. Du kannst auch helfen, indem du die Apps in eine neue Sprache übersetzt oder einfach einige bestehende Übersetzungen aktualisierst.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="faq_6_text_commons">Dieses Problem tritt auf, wenn dein Launcher das Anpassen der Symbole nicht vollständig unterstützt. Versuche, die App über Google Play oder ein Widget zu starten, falls dies möglich ist. Stelle nach dem Start die standardmäßige grüne Symbolfarbe #106D1F wieder her. In extremen Fällen kann eine Neuinstallation der App erforderlich sein.</string>
-    <string name="contributors_label"><![CDATA[
-            Diese Liste enthält alle Personen, die bei irgendeiner App innerhalb der Fossify-Suite merklich geholfen haben, nicht nur bei dieser. Die Übersetzungen werden von Freiwilligen erledigt,
-            sag uns Bescheid, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.
-            Vielen Dank an alle Mitwirkenden und sonstigen Unterstützer!
-        ]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Diese Liste enthält alle Personen, die bei irgendeiner App innerhalb der Fossify-Suite merklich geholfen haben, nicht nur bei dieser. Die Übersetzungen werden von Freiwilligen erledigt,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020sag uns Bescheid, wenn auch du helfen willst. Die Anleitung zum Übersetzen findest du auf <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">dieser Website</a>, oder kontaktiere uns einfach unter <a href="mailto:hello@fossify.org">hello@fossify.org</a>, wenn du Fragen hast.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Vielen Dank an alle Mitwirkenden und sonstigen Unterstützer!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="translation_esperanto">Esperanto</string>
     <string name="translation_chuvash">Tschuwaschisch</string>
     <string name="translation_gujarati">Gujarati</string>
@@ -1008,7 +972,7 @@
     <string name="font">Schriftart</string>
     <string name="app_font">App-Schriftart</string>
     <string name="font_monospace">Monospace</string>
-    <string name="select_font_file">Schriftartdatei auswählen …</string>
+    <string name="select_font_file">Schriftartdatei auswählen …</string>
     <string name="invalid_font_file">Ungültige Schriftartdatei</string>
     <string name="edit_contact">Kontakt bearbeiten</string>
     <string name="on_contact_click">Beim Klicken auf den Kontakt</string>

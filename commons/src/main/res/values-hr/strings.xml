@@ -20,8 +20,7 @@
     <string name="copy_to_clipboard">Kopiraj u međuspremnik</string>
     <string name="copy_number_to_clipboard">Kopiraj broj u međuspremnik</string>
     <string name="value_copied_to_clipboard">Vrijednost je kopirana u međuspremnik</string>
-    <string name="value_copied_to_clipboard_show">Vrijednost je kopirana u međuspremnik:
-\n%s</string>
+    <string name="value_copied_to_clipboard_show">Vrijednost je kopirana u međuspremnik: \n%s</string>
     <string name="dial_number">Nazovi broj</string>
     <string name="unknown">Nepoznato</string>
     <string name="always">Uvijek</string>
@@ -174,13 +173,7 @@
     <string name="simple_renaming">Jednostavno preimenovanje</string>
     <string name="pattern_renaming">Uzorak</string>
     <string name="string_to_add">Tekst za dodavanje</string>
-    <string name="rename_date_time_pattern">%Y – godina
-\n%M – mjesec
-\n%D – dan
-\n%h – sat
-\n%m – minuta
-\n%s – sekunda
-\n%i – broj se povećava od 1</string>
+    <string name="rename_date_time_pattern">%Y – godina \n%M – mjesec \n%D – dan \n%h – sat \n%m – minuta \n%s – sekunda \n%i – broj se povećava od 1</string>
     <string name="filename_without_txt">Naziv datoteke (bez .txt)</string>
     <string name="filename_without_json">Naziv datoteke (bez .json)</string>
     <string name="filename_without_zip">Naziv datoteke (bez .zip)</string>
@@ -212,8 +205,7 @@
     <string name="could_not_create_folder">Nije moguće stvoriti mapu %s</string>
     <string name="could_not_create_file">Nije moguće stvoriti datoteku %s</string>
     <string name="no_new_items">Nisu pronađene nove stavke</string>
-    <string name="no_space">Odredište nema dovoljno slobodnog prostora.
-\nPotreban %1$s, dostupan %2$s</string>
+    <string name="no_space">Odredište nema dovoljno slobodnog prostora. \nPotreban %1$s, dostupan %2$s</string>
     <string name="system_service_disabled">Usluga sustava za odabir datoteka i mapa nije dostupna</string>
     <string name="create_new">Stvori novo</string>
     <string name="folder">Mapa</string>
@@ -244,8 +236,8 @@
     <string name="confirm_storage_access_text">Za dozvoljavanje pisanja odaberi početnu mapu SD kartice na sljedećem ekranu</string>
     <string name="confirm_storage_access_text_sd">Ako ne vidiš SD karticu, probaj ovo</string>
     <string name="confirm_storage_access_android_text">Dopusti aplikaciji pristup odabranoj memoriji na sljedećem ekranu pritiskom na „Koristi ovu mapu” na dnu ekrana.</string>
-    <string name="confirm_storage_access_android_text_specific">Dopusti pristup memoriji „<b>%s</b>” na sljedećem ekranu pritiskom na „<b>Koristi ovu mapu</b>” na dnu ekrana.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Za stvaranje nove mape pritisni „<b>Spremi</b>” na dnu sljedećeg ekrana.</string>
+    <string name="confirm_storage_access_android_text_specific">Dopusti pristup memoriji „&lt;b&gt;%s&lt;/b&gt;” na sljedećem ekranu pritiskom na „&lt;b&gt;Koristi ovu mapu&lt;/b&gt;” na dnu ekrana.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Za stvaranje nove mape pritisni „&lt;b&gt;Spremi&lt;/b&gt;” na dnu sljedećeg ekrana.</string>
     <string name="confirm_selection">Potvrdi odabir</string>
     <string name="loading">Učitavanje …</string>
     <string name="access_storage_prompt">Dozvoli našoj aplikaciji pristup svim tvojim datotekama. Bez toga aplikacija možda neće dobro raditi.</string>
@@ -275,8 +267,7 @@
     <string name="sd_card">SD kartica</string>
     <string name="wrong_root_selected">Odabrana je pogrešana mapa. Odaberi glavnu mapu tvoje SD kartice</string>
     <string name="sd_card_usb_same">Putanje SD kartice i USB uređaja ne mogu biti iste</string>
-    <string name="app_on_sd_card">Čini se da je aplikacija instalirana na SD karticu, što čini widgete aplikacije nedostupnim. Nećete ih čak ni vidjeti na popisu dostupnih widgeta.
-        To je ograničenje sustava, pa ako želite upotrebljavati widgete, morate vratiti aplikaciju na unutarnju pohranu..</string>
+    <string name="app_on_sd_card">Čini se da je aplikacija instalirana na SD karticu, što čini widgete aplikacije nedostupnim. Nećete ih čak ni vidjeti na popisu dostupnih widgeta. To je ograničenje sustava, pa ako želite upotrebljavati widgete, morate vratiti aplikaciju na unutarnju pohranu..</string>
     <string name="wrong_folder_selected">Odabrana je pogrešna mapa. Odaberi putanju „%s”</string>
     <string name="properties">Svojstva</string>
     <string name="path">Putanja</string>
@@ -317,9 +308,7 @@
     <string name="cannot_be_undone">Ova se radnja ne može poništiti.</string>
     <string name="save_before_closing">Imaš nespremljene promjene. Želiš li ih spremiti prije izlaska?</string>
     <string name="global_theme_success">Uspješno ažurirane boje. Nova tema pod nazivom \'Shared\' je dodana, molimo koristite ju za ažuriranje svih boja u aplikaciji u budućnosti.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Kupi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Hvala</a> za korištenje ove funkcije te za podržavanje razvoja. Hvala!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Kupi <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Hvala</a> za korištenje ove funkcije te za podržavanje razvoja. Hvala!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">Svijetla</string>
     <string name="dark_theme">Tamna</string>
     <string name="auto_theme">Automatski</string>
@@ -393,7 +382,7 @@
     <string name="change_order">Promijeni redoslijed</string>
     <string name="proceed_with_deletion">Jeste li sigurni da želite nastaviti s brisanjem?</string>
     <string name="deletion_confirmation">Jeste li sigurni da želite izbrisati %s?</string>
-    <string name="deletion_confirmation_short">Izbrisati %s\?</string>
+    <string name="deletion_confirmation_short">Izbrisati %s?</string>
     <string name="move_to_recycle_bin_confirmation">Jeste li sigurni da želite premjestiti %s u koš za smeće?</string>
     <string name="are_you_sure_delete">Jeste li sigurni da želite izbrisati ovu stavku?</string>
     <string name="are_you_sure_recycle_bin">Jeste li sigurni da želite premjestiti ovu stavku u koš za smeće?</string>
@@ -445,7 +434,7 @@
     <string name="minutes_raw">minute</string>
     <string name="hours_raw">sati</string>
     <string name="days_raw">dani</string>
-    <string name="minutes_letter">%d min</string>
+    <string name="minutes_letter">%d min</string>
     <string name="week_number_short">tj.</string>
     <plurals name="seconds">
         <item quantity="one">%d sekunda</item>
@@ -589,8 +578,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Preostalo vrijeme do pokretanja alarma:\n%s</string>
     <string name="reminder_triggers_in">Preostalo vrijeme do pokretanja podsjetnika:\n%s</string>
-    <string name="time_remaining">Preostalo vrijeme:
-\n%s</string>
+    <string name="time_remaining">Preostalo vrijeme: \n%s</string>
     <string name="alarm_warning">Provjeri ispravno funkcioniranje alarma. Mogao bi neispravno raditi zbog ograničenja sustava vezanih uz štednju baterije.</string>
     <string name="reminder_warning">Pazite da podsjetnici ispravno rade prije nego što se oslonite na njih. Moglo bi se dogoditi pogreška zbog ograničenja sustava vezanih uz štednju baterije.</string>
     <string name="notifications_disabled">Obavijesti ove aplikacije su deaktivirane. Aktiviraj ih u postavkama uređaja.</string>
@@ -664,7 +652,7 @@
     <string name="excluded">(isključene)</string>
     <string name="manage_excluded_folders">Upravljaj isključenim mapama</string>
     <string name="remove_all">Ukloni sve</string>
-    <string name="remove_all_description">Želiš li ukloniti sve mape s popisa isključenih\? Ovo neće izbrisati mape.</string>
+    <string name="remove_all_description">Želiš li ukloniti sve mape s popisa isključenih? Ovo neće izbrisati mape.</string>
     <string name="temporarily_show_excluded">Privremeno prikaži isključene</string>
     <string name="stop_showing_excluded">Prekini prikazivanje isključenih</string>
     <string name="manage_shown_tabs">Upravljaj prikazanim karticama</string>
@@ -705,14 +693,7 @@
     <string name="backups">Sigurnosne kopije</string>
     <string name="enable_automatic_backups">Aktiviraj automatsko spremanje sigurnosnih kopija</string>
     <string name="manage_automatic_backups">Upravljaj automatskim spremanjem sigurnosnih kopija</string>
-    <string name="date_time_pattern_info">Za automatsko imenovanje datoteke možeš koristiti sljedeće elemente:
-\n
-\n%Y – godina
-\n%M – mjesec
-\n%D – dan
-\n%h – sat
-\n%m – minuta
-\n%s – sekunda</string>
+    <string name="date_time_pattern_info">Za automatsko imenovanje datoteke možeš koristiti sljedeće elemente: \n \n%Y – godina \n%M – mjesec \n%D – dan \n%h – sat \n%m – minuta \n%s – sekunda</string>
     <string name="usb_detected">Čini se da na uređaj imate priključen USB uređaj. Da biste provjerili prikazuju li se datoteke ispravno, morate dodijeliti dodatna dopuštenja.</string>
     <string name="confirm_usb_storage_access_text">Molimo odaberite root mapu USB uređaja na sljedećem zaslonu, kako biste odobrili pristup</string>
     <string name="wrong_root_selected_usb">Odabrana je pogrešna mapa. Odaberite glavnu mapu USB uređaja</string>
@@ -802,15 +783,7 @@
     <string name="read_it">Pročitajte</string>
     <string name="read_faq">Pročitaj ČPP</string>
     <string name="thank_you">Hvala</string>
-    <string name="new_app"><![CDATA[
-            Hej,<br><br>
-            nedavno su objavljene nove aplikacije:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            Možeš ih preuzeti pritiskom na njihove naslove ili ikone.<br><br>
-            Hvala
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            Hej,<br><br>\n            nedavno su objavljene nove aplikacije:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            Možeš ih preuzeti pritiskom na njihove naslove ili ikone.<br><br>\n            Hvala\n        "]]></string>
     <string name="app_launcher_short">Pokretač aplikacija</string>
     <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Kalendar</string>
@@ -828,16 +801,13 @@
     <string name="notes_short">Bilješke</string>
     <string name="thank_you_short">Hvala</string>
     <string name="voice_recorder_short">Diktafon</string>
-    <string name="sideloaded_app"><![CDATA[
-            Čini se da je tvoja verzija aplikacije oštećena. Preuzmi izvornu verziju <a href=%s>ovdje</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA["\n            Čini se da je tvoja verzija aplikacije oštećena. Preuzmi izvornu verziju <a href=%s>ovdje</a>.\n        "]]></string>
     <string name="frequently_asked_questions">Često postavljenja pitanja</string>
     <string name="before_asking_question">Prije postavljanja pitanja, najprije pročitaj</string>
-    <string name="faq_1_title_commons">Zašto ne vidim widgete ove aplikacije u popisu widgeta\?</string>
-    <string name="faq_1_text_commons">Najvjerojatnije zato jer ste premjestili aplikaciju na SD karticu. Postoji ograničenje Android sustava koje skriva dane widgete aplikacije u tom slučaju.
-        Jedino je rješenje vratiti aplikaciju na internu pohranu putem postavki uređaja.</string>
+    <string name="faq_1_title_commons">Zašto ne vidim widgete ove aplikacije u popisu widgeta?</string>
+    <string name="faq_1_text_commons">Najvjerojatnije zato jer ste premjestili aplikaciju na SD karticu. Postoji ograničenje Android sustava koje skriva dane widgete aplikacije u tom slučaju. Jedino je rješenje vratiti aplikaciju na internu pohranu putem postavki uređaja.</string>
     <string name="faq_2_title_commons">Želim Vam pomoći, ali ne mogu donirati novac. Ima li još nešto što mogu učiniti?</string>
-    <string name="faq_3_title_commons">Slučajno sam izbrisao/la neke datoteke. Kako ih mogu obnoviti\?</string>
+    <string name="faq_3_title_commons">Slučajno sam izbrisao/la neke datoteke. Kako ih mogu obnoviti?</string>
     <string name="faq_3_text_commons">Nažalost, ne možete. Datoteke se brišu odmah nakon dijaloškog okvira za potvrdu, nema dostupnog koša za smeće.</string>
     <string name="faq_4_title_commons">Ne sviđa mi se boja widgeta, mogu li ih promijeniti?</string>
     <string name="faq_4_text_commons">Da, kada povlačite widget na početnom zaslonu, pojavit će se zaslon za konfiguraciju widgeta. U donjem lijevom kutu vidjet ćete obojene kvadrate, samo ih pritisnite da biste odabrali novu boju. Možete koristiti i klizač za podešavanje alphe.</string>
@@ -983,17 +953,15 @@
     <string name="allow_access_more_media">Dozvoli pristup daljnjim medijima</string>
     <string name="more_options">Više opcija</string>
     <string name="pin">PIN</string>
-    <string name="too_many_incorrect_attempts">Previše netočnih pokušaja otključavanja.
-\nPokušaj ponovo za %d sekunde.</string>
-    <string name="seconds_letter">%d s</string>
-    <string name="hours_letter">%d h</string>
+    <string name="too_many_incorrect_attempts">Previše netočnih pokušaja otključavanja. \nPokušaj ponovo za %d sekunde.</string>
+    <string name="seconds_letter">%d s</string>
+    <string name="hours_letter">%d h</string>
     <string name="alarm">Alarm</string>
     <string name="start_week_on">Početak tjedna je</string>
     <string name="files_tab">Datoteke</string>
     <string name="recent_files_tab">Nedavne datoteke</string>
     <string name="usb">USB</string>
-    <string name="copyright">v %1$s
-\nAutorska prava © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nAutorska prava © Fossify %2$d</string>
     <string name="update_thank_you">Ažuriraj aplikaciju Fossify hvala na najnoviju verziju</string>
     <string name="exoplayer_title">ExoPlayer (video player)</string>
     <string name="sms_messenger_short">SMS Messenger</string>
@@ -1002,15 +970,8 @@
     <string name="app_icon_color_warning">Oprez: Određeni pokretači možda neće ispravno rukovati prilagodbom ikone aplikacije. Ako ikona nestane, pokušaj pokrenuti aplikaciju putem Google Playa ili widgeta. Nakon pokretanja obnovi standardnu zelenu boju ikone #106D1F. U ekstremnim slučajevima može biti potrebno ponovo instalirati aplikaciju.</string>
     <string name="faq_10_text_commons">Pokušaj izbrisati predmemoriju aplikacije Google Play i ponovo pokrenuti uređaj. To je neka greška Google Playa, koja nije povezana sa samom aplikacijom.</string>
     <string name="donate_short">Podrži nas kupnjom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify hvala&lt;/a&gt;. Time će se otključati sve funkcije aplikacije uključujući prilagođavanje boja.</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Da naravno. Možete širiti vijest o aplikacijama ili slati povratne informacije i ocjene. Također možete pomoći prevođenjem aplikacija na novi jezik ili aktualizirati postojeće prijevode.
-            Vodič za prevođenje nalazi se na <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>ovoj web stranici</a> ili nas kontaktiraj na <a href=mailto:hello@fossify.org>hello@fossify.org</a> ako imaš pitanja.
-        ]]></string>
-    <string name="contributors_label"><![CDATA[
-            Ovaj popis sadrži sve osobe koje su značajno pomogli bilo kojoj aplikaciji unutar paketa Fossify, ne samo ovoj. Prijevode obavljaju volonteri,
-            javi nam ako želiš pomoći. Vodič za prevođenje nalazi se na <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>ovoj web stranici</a> ili nas kontaktiraj na <a href=mailto:hello@fossify.org>hello@fossify.org</a> ako imaš pitanja.
-            Hvala svim suradnicima i ostalim podržavateljima!
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA["\n            Da naravno. Možete širiti vijest o aplikacijama ili slati povratne informacije i ocjene. Također možete pomoći prevođenjem aplikacija na novi jezik ili aktualizirati postojeće prijevode.\n            Vodič za prevođenje nalazi se na <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>ovoj web stranici</a> ili nas kontaktiraj na <a href=mailto:hello@fossify.org>hello@fossify.org</a> ako imaš pitanja.\n        "]]></string>
+    <string name="contributors_label"><![CDATA["\n            Ovaj popis sadrži sve osobe koje su značajno pomogli bilo kojoj aplikaciji unutar paketa Fossify, ne samo ovoj. Prijevode obavljaju volonteri,\n            javi nam ako želiš pomoći. Vodič za prevođenje nalazi se na <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>ovoj web stranici</a> ili nas kontaktiraj na <a href=mailto:hello@fossify.org>hello@fossify.org</a> ako imaš pitanja.\n            Hvala svim suradnicima i ostalim podržavateljima!\n        "]]></string>
     <string name="translation_chuvash">Čuvaški</string>
     <string name="translation_esperanto">Esperanto</string>
     <string name="translation_gujarati">Gudžaratski</string>
@@ -1031,7 +992,7 @@
     <string name="confirm_storage_access_restricted_text_not_found">Aplikacija za upravljanje datotekama sustava nije pronađena.</string>
     <string name="number_of_items">Broj stavki</string>
     <string name="reorder_items_by_dragging">Promijeni redoslijed stavki povlačenjem</string>
-    <string name="days_letter">%d d</string>
+    <string name="days_letter">%d d</string>
     <string name="requires_fossify_thank_you">Zahtijeva Fossify Hvala</string>
     <string name="more_fossify_apps">Još Fossify aplikacija</string>
     <string name="rate_this_app">Ocijeni ovu aplikaciju</string>

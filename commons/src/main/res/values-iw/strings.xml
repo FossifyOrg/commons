@@ -276,7 +276,7 @@
     <string name="excluded">(מוחרגת)</string>
     <string name="manage_excluded_folders">נהל תיקיות מוחרגות</string>
     <string name="remove_all">להסיר הכול</string>
-    <string name="remove_all_description">להסיר את כל התיקיות מרשימת החרגות\? פעולה זו לא תמחק את התיקיות.</string>
+    <string name="remove_all_description">להסיר את כל התיקיות מרשימת החרגות? פעולה זו לא תמחק את התיקיות.</string>
     <string name="temporarily_show_excluded">הצג זמנית פריטים מוחרגים</string>
     <string name="stop_showing_excluded">הפסק להציג החרגות</string>
     <string name="default_tab_to_open">לשונית פתיחה בהפעלת האפליקציה</string>
@@ -609,9 +609,7 @@
     </plurals>
     <string name="files_count">סך כל הקבצים</string>
     <string name="duration">משך</string>
-    <string name="purchase_thank_you"><![CDATA[
-אנא רכשו <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">תודה Fossify</a> כדי להשתמש בתכונה זו ולתמוך בפיתוח. תודה!
-]]></string>
+    <string name="purchase_thank_you"><![CDATA[\nאנא רכשו <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">תודה Fossify</a> כדי להשתמש בתכונה זו ולתמוך בפיתוח. תודה!\n]]></string>
     <string name="apply_to_all_apps">החלת עיצוב על כל אפליקציות Fossify</string>
     <string name="solarized">‌</string>
     <string name="whats_new_disclaimer">* רק העדכונים הגדולים יותר מופיעים כאן, תמיד יש גם כמה שיפורים קטנים יותר</string>
@@ -668,9 +666,7 @@
     <string name="follow_us">עקוב אחרינו</string>
     <string name="support">תמיכה</string>
     <string name="update_thank_you">אנא עדכן את Fossify Thank לגרסה האחרונה</string>
-    <string name="sideloaded_app"><![CDATA[
-            נראה שגרסת האפליקציה שלך פגומה. אנא הורד את הגרסה המקורית <a href="%s">כאן</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020נראה שגרסת האפליקציה שלך פגומה. אנא הורד את הגרסה המקורית <a href="%s">כאן</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="faq_4_title_commons">אני לא אוהב את צבעי הווידג\'ט, האם אני יכול לשנות אותם?</string>
     <string name="translation_central_kurdish">כורדית מרכזית</string>
     <string name="translation_bengali">בנגלית</string>
@@ -694,15 +690,7 @@
     <string name="trial_expires_soon">תקופת הניסיון שלך תסתיים בקרוב.</string>
     <string name="espresso_title">Espresso (כלי עזר לבדיקות)</string>
     <string name="leak_canary_title">Leak Canary (מאתר דליפות זיכרון)</string>
-    <string name="new_app"><![CDATA[
-            היי,<br><br>
-            רק רציתי ליידע אתכם שאפליקציות חדשות שוחררו לאחרונה:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            אתם יכולים להוריד אותן על ידי לחיצה על הכותרות או הסמלים שלהן.<br><br>
-            תודה
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            היי,<br><br>\n            רק רציתי ליידע אתכם שאפליקציות חדשות שוחררו לאחרונה:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            אתם יכולים להוריד אותן על ידי לחיצה על הכותרות או הסמלים שלהן.<br><br>\n            תודה\n        "]]></string>
     <string name="faq_1_text_commons">סביר להניח שזה בגלל שהעברת את האפליקציה לכרטיס SD. במקרה כזה, יש מגבלה של מערכת אנדרואיד שמסתירה את ווידג\'טי האפליקציה הנתונים. הפתרון היחיד הוא להעביר את האפליקציה בחזרה לאחסון הפנימי דרך הגדרות המכשיר.</string>
     <string name="developer_description">קבוצה של אפליקציות אנדרואיד פשוטות בקוד פתוח עם ווידג\'טים הניתנים להתאמה אישית, ללא פרסומות או הרשאות מיותרות.</string>
     <string name="translation_ukrainian">אוקראינית</string>
@@ -783,8 +771,8 @@
     <string name="append">הוסף עם \'_1\'</string>
     <string name="confirm_folder_access_title">אשר גישה לתיקייה</string>
     <string name="confirm_storage_access_android_text">אנא אפשר לאפליקציה גישה לאחסון שנבחר במסך הבא על ידי לחיצה על \'השתמש בתיקייה זו\' בתחתית.</string>
-    <string name="confirm_storage_access_android_text_specific">אנא אפשר גישה ל-\'<b>%s</b>\' במסך הבא על ידי לחיצה על \'<b>השתמש בתיקייה זו</b>\' בתחתית.</string>
-    <string name="confirm_create_doc_for_new_folder_text">אנא לחץ על \'<b>שמור</b>\' בתחתית המסך הבא כדי ליצור את התיקייה החדשה.</string>
+    <string name="confirm_storage_access_android_text_specific">אנא אפשר גישה ל-\'&lt;b&gt;%s&lt;/b&gt;\' במסך הבא על ידי לחיצה על \'&lt;b&gt;השתמש בתיקייה זו&lt;/b&gt;\' בתחתית.</string>
+    <string name="confirm_create_doc_for_new_folder_text">אנא לחץ על \'&lt;b&gt;שמור&lt;/b&gt;\' בתחתית המסך הבא כדי ליצור את התיקייה החדשה.</string>
     <string name="wrong_root_selected">נבחרה תיקייה שגויה, אנא בחר את התיקייה הראשית של כרטיס ה-SD שלך</string>
     <string name="wrong_folder_selected">נבחרה תיקייה שגויה, אנא בחר נתיב \'%s\'</string>
     <string name="iso_speed">ISO מהירות</string>
@@ -907,10 +895,7 @@
     <string name="keyboard_short">מקלדת</string>
     <string name="launcher_short">משגר</string>
     <string name="frequently_asked_questions">שאלות נפוצות</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            כן, כמובן. אתה יכול לפרסם את האפליקציות או לתת משוב ודירוגים טובים. תוכל גם לעזור על ידי תרגום האפליקציות לשפה חדשה, או פשוט לעדכן תרגומים קיימים.
-            המדריך לתרגום נמצא <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">באתר זה</a>, או פשוט צור קשר איתנו בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש לך שאלות כלשהן.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020כן, כמובן. אתה יכול לפרסם את האפליקציות או לתת משוב ודירוגים טובים. תוכל גם לעזור על ידי תרגום האפליקציות לשפה חדשה, או פשוט לעדכן תרגומים קיימים.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020המדריך לתרגום נמצא <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">באתר זה</a>, או פשוט צור קשר איתנו בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש לך שאלות כלשהן.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="translation_spanish">ספרדית</string>
     <string name="translation_welsh">וולשית</string>
     <string name="translation_danish">דנית</string>
@@ -1010,11 +995,7 @@
     <string name="reminder_warning">אנא ודא שהתזכורות פועלות כראוי לפני שאתה סומך עליהן. בדוק את הגדרות הסוללה וההתראות של המכשיר שלך, אם אין שום דבר שחוסם את התזכורות, או סוגר את האפליקציה ברקע.</string>
     <string name="alarm_goes_off_in">זמן שנותר עד שהשעון המעורר יצלצל:\n%s</string>
     <string name="trial_expired">תקופת הניסיון הסתיימה</string>
-    <string name="contributors_label"><![CDATA[
-            רשימה זו כוללת את כל מי שעזר באופן בולט לכל אפליקציה בחבילת Fossify, לא רק זו. תרגומים מטופלים על ידי מתנדבים,
-            ספרו לנו אם גם אתם רוצים לעזור. המדריך לתרגום נמצא בכתובת <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">באתר זה</a>, או פשוט צרו איתנו קשר בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש לכם שאלות.
-            תודה לכל התורמים ולתומכים אחרים!
-        ]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020רשימה זו כוללת את כל מי שעזר באופן בולט לכל אפליקציה בחבילת Fossify, לא רק זו. תרגומים מטופלים על ידי מתנדבים,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020ספרו לנו אם גם אתם רוצים לעזור. המדריך לתרגום נמצא בכתובת <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">באתר זה</a>, או פשוט צרו איתנו קשר בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש לכם שאלות.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020תודה לכל התורמים ולתומכים אחרים!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="requires_fossify_thank_you">דורש Fossify תודה</string>
     <string name="evalex_title">EvalEx (הערכה של ביטויים מתמטיים)</string>
     <plurals name="files_saved">

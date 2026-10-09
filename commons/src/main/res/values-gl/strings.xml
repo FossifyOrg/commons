@@ -166,13 +166,7 @@
     <string name="simple_renaming">Renomeado simple</string>
     <string name="pattern_renaming">Patrón</string>
     <string name="string_to_add">Texto a engadir</string>
-    <string name="rename_date_time_pattern">%Y - ano 
-\n%M - mes 
-\n%D - día 
-\n%h - hora
-\n%m - minuto 
-\n%s - segundo 
-\n%i - o número aumenta dende 1</string>
+    <string name="rename_date_time_pattern">%Y - ano \n%M - mes \n%D - día \n%h - hora \n%m - minuto \n%s - segundo \n%i - o número aumenta dende 1</string>
     <string name="filename_without_txt">Nome do ficheiro (sen .txt)</string>
     <string name="filename_without_json">Nome do ficheiro (sen .json)</string>
     <string name="filename_without_zip">Nome do ficheiro (sen .zip)</string>
@@ -235,8 +229,8 @@
     <string name="confirm_storage_access_text">Por favor, escolle a carpeta raíz da tarxeta SD na próxima pantalla para conceder o acceso de escritura</string>
     <string name="confirm_storage_access_text_sd">Se non ves a tarxeta SD, proba isto</string>
     <string name="confirm_storage_access_android_text">Permite que a aplicación acceda ao almacenamento seleccionado na seguinte pantalla premendo \"Usar este cartafol\" na parte inferior.</string>
-    <string name="confirm_storage_access_android_text_specific">Concede acceso a \'<b>%s</b>\' na seguinte pantalla premendo en \'<b>Usar este cartafol</b>\' na parte inferior.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Preme \"<b>Gardar</b>\" na parte inferior da seguinte pantalla para crear o novo cartafol.</string>
+    <string name="confirm_storage_access_android_text_specific">Concede acceso a \'&lt;b&gt;%s&lt;/b&gt;\' na seguinte pantalla premendo en \'&lt;b&gt;Usar este cartafol&lt;/b&gt;\' na parte inferior.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Preme \"&lt;b&gt;Gardar&lt;/b&gt;\" na parte inferior da seguinte pantalla para crear o novo cartafol.</string>
     <string name="confirm_selection">Confirmar a selección</string>
     <string name="loading">Cargando…</string>
     <string name="access_storage_prompt">Concédelle á nosa aplicación acceso a todolos teus ficheiros, porque sen ela pode que non funcione ben.</string>
@@ -263,8 +257,7 @@
     <string name="root">Raíz (Root)</string>
     <string name="wrong_root_selected">Seleccionouse o cartafol incorrecto; por favor, escolle o cartafol raíz da túa tarxeta SD</string>
     <string name="sd_card_usb_same">Os directorios da tarxeta SD e do dispositivo USB non poden coincidir</string>
-    <string name="app_on_sd_card">Parece que tes o aplicativo instalado na tarxeta SD, o que ocasiona que os widgets do aplicativo non estean dispoñibles. Non os verás na lista de widgets dispoñibles.
-        Isto é unha limitación do sistema, así que se queres usar os widgets, tes que mover o aplicativo ao almacenamento interno.</string>
+    <string name="app_on_sd_card">Parece que tes o aplicativo instalado na tarxeta SD, o que ocasiona que os widgets do aplicativo non estean dispoñibles. Non os verás na lista de widgets dispoñibles. Isto é unha limitación do sistema, así que se queres usar os widgets, tes que mover o aplicativo ao almacenamento interno.</string>
     <string name="wrong_folder_selected">Seleccionouse un cartafol errado, selecciona o camiño \'%s\'</string>
     <string name="properties">Propiedades</string>
     <string name="path">Camiño</string>
@@ -283,7 +276,7 @@
     <string name="song_title">Título da canción</string>
     <string name="gps_coordinates">Coordenadas GPS</string>
     <string name="remove_exif">Eliminar EXIF</string>
-    <string name="remove_exif_confirmation">Estás seguro de que queres eliminar valores EXIF como as coordenadas GPS, o modelo de cámara, etc.\?</string>
+    <string name="remove_exif_confirmation">Estás seguro de que queres eliminar valores EXIF como as coordenadas GPS, o modelo de cámara, etc.?</string>
     <string name="exif_removed">Os valores EXIF elimináronse correctamente</string>
     <string name="background_color">A cor do fondo</string>
     <string name="text_color">Cor do texto</string>
@@ -529,8 +522,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Tempo que falta para que soe a alarma:\n%s</string>
     <string name="reminder_triggers_in">Tempo que falta para o recordatorio:\n%s</string>
-    <string name="time_remaining">Tempo restante: 
-\n%s</string>
+    <string name="time_remaining">Tempo restante: \n%s</string>
     <string name="alarm_warning">Por favor, asegúrate de que a alarma funciona correctamente antes de confiares nela. Pode non funcionar ben debido a restricións do sistema relacionadas co aforro de batería.</string>
     <string name="reminder_warning">Por favor, asegúrate de que os recordatorios funcionan correctamente antes de confiares neles. Poden non funcionar ben debido a restricións do sistema relacionadas co aforro de batería.</string>
     <string name="notifications_disabled">As notificacións desta aplicación están desactivadas. Accede á configuración do teu dispositivo para activalos.</string>
@@ -602,7 +594,7 @@
     <string name="excluded">(excluído)</string>
     <string name="manage_excluded_folders">Xestionar cartafoles excluídos</string>
     <string name="remove_all">Eliminar todos</string>
-    <string name="remove_all_description">Eliminar todos os cartafoles da lista de excluídos\? Isto non borrará os cartafoles.</string>
+    <string name="remove_all_description">Eliminar todos os cartafoles da lista de excluídos? Isto non borrará os cartafoles.</string>
     <string name="temporarily_show_excluded">Exclúese temporalmente</string>
     <string name="stop_showing_excluded">Deixar de mostralos excluídos</string>
     <string name="manage_shown_tabs">Xestionalas pestanas mostradas</string>
@@ -715,8 +707,7 @@
     <string name="read_it">Ler</string>
     <string name="read_faq">Ler Preguntas Máis Frecuentes</string>
     <string name="thank_you">Grazas</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Ola,<br><br>
             simplemente informámosche de que se lanzaron recentemente novos aplicativos:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -724,8 +715,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Podes descargalas premendo no seu título ou icona.<br><br>
             Grazas
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Lanzador de aplicacións</string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Almanaque</string>
@@ -742,24 +732,22 @@
     <string name="sms_messenger_short">Mensaxería SMS</string>
     <string name="thank_you_short">Grazas</string>
     <string name="voice_recorder_short">Gravadora de voz</string>
-    <string name="sideloaded_app"><![CDATA[
-            Parece que a versión da túa aplicación está estragada. Descarga a versión orixinal <a href="%s">aquí</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Parece que a versión da túa aplicación está estragada. Descarga a versión orixinal <a href="%s">aquí</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">Preguntas máis frecuentes</string>
     <string name="before_asking_question">Antes de facer unha pregunta, lea primeiro</string>
-    <string name="faq_1_title_commons">Como é que non vexo este widget de aplicacións na lista de widgets\?</string>
+    <string name="faq_1_title_commons">Como é que non vexo este widget de aplicacións na lista de widgets?</string>
     <string name="faq_1_text_commons">O máis probable é porque moveches a aplicación nunha tarxeta SD. Hai unha limitación do sistema Android que oculta os widgets da aplicación nese caso. A única solución é mover a aplicación de novo ao Almacenamento interno mediante a configuración do dispositivo.</string>
-    <string name="faq_2_title_commons">Quero apoialo, pero non podo doar cartos. Hai algo máis que podo facer\?</string>
-    <string name="faq_3_title_commons">Borrei algúns ficheiros por erro, como podo recuperalos\?</string>
+    <string name="faq_2_title_commons">Quero apoialo, pero non podo doar cartos. Hai algo máis que podo facer?</string>
+    <string name="faq_3_title_commons">Borrei algúns ficheiros por erro, como podo recuperalos?</string>
     <string name="faq_3_text_commons">Por desgraza, non podes. Os ficheiros elimínanse ao instante despois do diálogo de confirmación, non atoparas ningún lixo dispoñible.</string>
-    <string name="faq_4_title_commons">Non me gustan as cores do widget, podo cambialas\?</string>
+    <string name="faq_4_title_commons">Non me gustan as cores do widget, podo cambialas?</string>
     <string name="faq_4_text_commons">Si, mentres arrastras un widget na túa pantalla de inicio aparecerá unha pantalla de configuración do widgets. Verás cadrados de cores na esquina inferior esquerda, só tes que premelos para escoller unha nova cor. Tamén podes usalo control deslizante para axustarlo alfa.</string>
-    <string name="faq_5_title_commons">Podo restaurar dalgún xeito os ficheiros eliminados\?</string>
+    <string name="faq_5_title_commons">Podo restaurar dalgún xeito os ficheiros eliminados?</string>
     <string name="faq_5_text_commons">Se realmente foron eliminados, non podes recuperalos. Porén, hai unha papeleira de reciclaxe activada por defecto, o que fará que os ficheiros só se movan na papeleira en lugar de eliminalos.</string>
-    <string name="faq_6_title_commons">A icona do iniciador de aplicacións desapareceu. Que podo facer\?</string>
-    <string name="faq_7_title_commons">O diñeiro foi deducido da miña conta bancaria, pero non podo descargala aplicación. Que podo facer\?</string>
+    <string name="faq_6_title_commons">A icona do iniciador de aplicacións desapareceu. Que podo facer?</string>
+    <string name="faq_7_title_commons">O diñeiro foi deducido da miña conta bancaria, pero non podo descargala aplicación. Que podo facer?</string>
     <string name="faq_7_text_commons">Os pagos están xestionados por Google, o seu sistema falla de cando en vez. Só tes que borrar a memoria tobo da aplicación Google Play e reinicialo dispositivo e, despois, tentar descargalo de novo.</string>
-    <string name="faq_9_title_commons">Como podo seleccionar varios elementos dunha soa vez\?</string>
+    <string name="faq_9_title_commons">Como podo seleccionar varios elementos dunha soa vez?</string>
     <string name="faq_9_text_commons">Atoparas diferentes formas de facelo. O primeiro é iniciar o modo de selección mantendo presionado un elemento e, a continuación, premendo brevemente sobre outros para seleccionalos. A segunda forma é semellante a seleccionar elementos nos ordenadores cun rato, só tes que iniciar o modo de selección mantendo presionado un elemento e, a continuación, co dedo aínda para abaixo arrástralo por outros elementos para seleccionalo. A terceira forma de seleccionar varios elementos é premendo un elemento durante moito tempo, despois premendo outro e seleccionando todo o que hai entre eles. Se queres seleccionar todos os elementos, só tes que premer un elemento e, a continuación, fai clic no contador de elementos seleccionados na esquina superior esquerda. Isto seleccionará ou deseleccionará todo.</string>
     <string name="faq_10_title_commons">Merquei a aplicación, pero non podo descargala noutro dispositivo.</string>
     <string name="faq_10_text_commons">Proba a borrar a memoria tobo da aplicación Google Play e reinicia o dispositivo. É un fallo de Google Play, que non está realmente relacionado coa propia aplicación.</string>
@@ -855,10 +843,7 @@
     <string name="pro_app_refund">Non esquezas que se desinstalas calquera app de pago antes de 2 horas, devolveránseche os cartos automáticamente. Se queres unha devolución máis tarde, contáctanos en hello@fossify.org e terala. Isto fai que sexa fácil probala :)</string>
     <string name="developer_description">Un grupo de aplicacións Android sinxelas e de código aberto con widgets persoalizables, sen anuncios e permisos innecesarios.</string>
     <string name="audio">Audio</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Claro que si. Podes falarlle á xente sobre as aplicacións ou valoralas positivamente. Tamén podes colaborar traducíndoas ao teu idioma ou actualizando e mantendo as xa existentes.
-            Aquí tes a guía para traducir <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">nesta web</a>, ou contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se queres facer algunha pregunta.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Claro que si. Podes falarlle á xente sobre as aplicacións ou valoralas positivamente. Tamén podes colaborar traducíndoas ao teu idioma ou actualizando e mantendo as xa existentes.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Aquí tes a guía para traducir <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">nesta web</a>, ou contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se queres facer algunha pregunta.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <plurals name="files_saved">
         <item quantity="one">Ficheiro gardado correctamente</item>
         <item quantity="other">Ficheiros gardados correctamente</item>
@@ -896,9 +881,7 @@
     <string name="altitude">Altitude</string>
     <string name="apply_to_all_apps">Aplicar o tema a todas as apps Fossify</string>
     <string name="app_icon_color_warning">Precaución: Certos Lanzadores non xestionan correctamente a personalización. Se a icona desparece, intenta iniciar a app a través de Google Play ou un widget, se está accesible. Despois de iniciar, restablece a cor verde #106D1F. En casos extremos pode que precises reinstalar a app.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Por favor merca <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para usar esta característica e axudar ao desenvolvemento. Grazas!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Por favor merca <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para usar esta característica e axudar ao desenvolvemento. Grazas!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="auto_theme">Auto</string>
     <string name="white">Branco</string>
     <string name="allow_access_more_media">Permitir acceso a máis multimedia</string>
@@ -993,11 +976,7 @@
     <string name="badge_deprecated">(retirada)</string>
     <string name="label_with_badge">%1$s %2$s</string>
     <string name="faq_6_text_commons">Este problema xurde cando o lanzador non é compatible coa personalización das iconas. Intenta iniciar a app a través de Google Play ou un widget, se é accesible. Após iniciala, restablece a cor verde #106D1F orixinal. En casos extremos pode ser preciso ter que reinstalar a aplicación.</string>
-    <string name="contributors_label"><![CDATA[
-            Nesta lista están todas as persoas que colaborarón significativamente con Fossify, non só esta app. As traducións fanas persoas voluntarias,
-            contacta con nós se tamén queres axudar. As instruccións para traducir están <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">nesta páxina web</a>, ou simplemente contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tes algunha pregunta.
-            Grazas a todas as colaboradoras e persoas que nos apoian!
-        ]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Nesta lista están todas as persoas que colaborarón significativamente con Fossify, non só esta app. As traducións fanas persoas voluntarias,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020contacta con nós se tamén queres axudar. As instruccións para traducir están <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">nesta páxina web</a>, ou simplemente contacta con nós en <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tes algunha pregunta.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Grazas a todas as colaboradoras e persoas que nos apoian!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="edit_contact">Editar contacto</string>
     <string name="on_contact_click">Ao tocar no contacto</string>
     <string name="call_contact">Chamar</string>

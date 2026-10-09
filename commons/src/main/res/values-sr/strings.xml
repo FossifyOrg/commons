@@ -111,7 +111,7 @@
     <string name="export_blocked_numbers">Извезите блокиране бројеве</string>
     <string name="import_blocked_numbers">Увезите блокиране бројеве</string>
     <string name="must_make_default_dialer">Морате да подесите ову апликацију као подразумевану апликацију за бирање бројева да бисте користили блокиране бројеве.</string>
-    <string name="block_confirmation">Да ли сте сигурни да желите да блокирате \"%s\"\?</string>
+    <string name="block_confirmation">Да ли сте сигурни да желите да блокирате \"%s\"?</string>
     <string name="block_unknown_calls">Блокирајте позиве из несачуваних контаката</string>
     <string name="block_hidden_calls">Блокирај позиве са скривених бројева</string>
     <string name="block_unknown_messages">Блокирајте поруке од несачуваних контаката</string>
@@ -152,13 +152,7 @@
     <string name="simple_renaming">Једноставно преименовање</string>
     <string name="pattern_renaming">Шаблон</string>
     <string name="string_to_add">Текст за додавање</string>
-    <string name="rename_date_time_pattern">%Y - година 
-\n%M - месец 
-\n%D - дан 
-\n%h - сат 
-\n%m - минут
-\n%s - секунда 
-\n%i - број се повећава са 1</string>
+    <string name="rename_date_time_pattern">%Y - година \n%M - месец \n%D - дан \n%h - сат \n%m - минут \n%s - секунда \n%i - број се повећава са 1</string>
     <string name="filename_without_txt">Име датотеке (без .ткт)</string>
     <string name="filename_without_json">Име датотеке (без .јсон)</string>
     <string name="filename_without_zip">Име датотеке (без .зип-а)</string>
@@ -190,8 +184,7 @@
     <string name="could_not_create_folder">Не могу да направим фасциклу %s</string>
     <string name="could_not_create_file">Не могу да направим датотеку %s</string>
     <string name="no_new_items">Нису пронађене нове ставке</string>
-    <string name="no_space">Одредиште нема довољно слободног простора.
-\nПотребан %1$s, доступан %2$s</string>
+    <string name="no_space">Одредиште нема довољно слободног простора. \nПотребан %1$s, доступан %2$s</string>
     <string name="system_service_disabled">Системска услуга за избор датотека и фасцикли је недоступна</string>
     <string name="create_new">Направи ново</string>
     <string name="folder">Фасцикла</string>
@@ -222,8 +215,8 @@
     <string name="confirm_storage_access_text">Изаберите почетну фасциклу СД картице на следећем екрану, да дозволите записивање</string>
     <string name="confirm_storage_access_text_sd">Ако не видите СД картицу, пробајте ово</string>
     <string name="confirm_storage_access_android_text">Дозволите апликацији да приступи изабраном складишту на следећем екрану притиском на „Користи овај фолдер“ на дну.</string>
-    <string name="confirm_storage_access_android_text_specific">Дозволите приступ \'<b>%s</b>\' на следећем екрану притиском на \'<b>Користите ову фасциклу</b>\' на дну.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Молимо притисните\'<b>Уштедјети </b>\' на дну следећег екрана да бисте креирали нову фасциклу.</string>
+    <string name="confirm_storage_access_android_text_specific">Дозволите приступ \'&lt;b&gt;%s&lt;/b&gt;\' на следећем екрану притиском на \'&lt;b&gt;Користите ову фасциклу&lt;/b&gt;\' на дну.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Молимо притисните\'&lt;b&gt;Уштедјети &lt;/b&gt;\' на дну следећег екрана да бисте креирали нову фасциклу.</string>
     <string name="confirm_selection">Потврдите одабир</string>
     <string name="loading">Учитавање…</string>
     <string name="access_storage_prompt">Дозволите нашој апликацији приступ свим вашим датотекама, без тога можда неће добро функционисати.</string>
@@ -273,7 +266,7 @@
     <string name="song_title">Име песме</string>
     <string name="gps_coordinates">ГПС координате</string>
     <string name="remove_exif">Уклоните ЕКСИФ</string>
-    <string name="remove_exif_confirmation">Да ли сте сигурни да желите уклонити ЕКСИФ вредности као што су ГПС координате, модел камере итд\?</string>
+    <string name="remove_exif_confirmation">Да ли сте сигурни да желите уклонити ЕКСИФ вредности као што су ГПС координате, модел камере итд?</string>
     <string name="exif_removed">ЕКСИФ вредности су успешно уклоњене</string>
     <string name="background_color">Боја позадине</string>
     <string name="text_color">Боја текста</string>
@@ -296,9 +289,7 @@
     <string name="cannot_be_undone">Ова радња се не може опозвати.</string>
     <string name="save_before_closing">Имате несачуване измене. Сачувај пре изласка?</string>
     <string name="global_theme_success">Боје су ажуриране успешно. Нова тема под именом \'Shared\' је додата, молимо вас да је користите за ажурирање свих боја у будућности.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Молимо вас купите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> да бисте откључали ову функцију и подржали наш развој. Хвала вам!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Молимо вас купите <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> да бисте откључали ову функцију и подржали наш развој. Хвала вам!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">Светла</string>
     <string name="dark_theme">Тамна</string>
     <string name="auto_light_dark_theme">Ауто светло / тамно</string>
@@ -556,8 +547,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Преостало време до активације аларма:\n%s</string>
     <string name="reminder_triggers_in">Преостало време до активације подсетника:\n%s</string>
-    <string name="time_remaining">Преостало време:
-\n%s</string>
+    <string name="time_remaining">Преостало време: \n%s</string>
     <string name="alarm_warning">Проверите да ли аларм ради како треба пре него што кренете да се ослањате на њега. Дешава се да не ради како треба због ограничења у систему која се односе на уштеду батерије.</string>
     <string name="reminder_warning">Уверите се да подсетник ради како треба пре него што кренете да се ослањате на њега. Дешава се да не ради како треба због ограничења у систему која се односе на уштеду батерије.</string>
     <string name="notifications_disabled">Обавештења ове апликације су онемогућена. У подешавањима уређаја их можете укључити.</string>
@@ -629,7 +619,7 @@
     <string name="excluded">(изузето)</string>
     <string name="manage_excluded_folders">Управљај изузетим фасциклама</string>
     <string name="remove_all">Уклони све</string>
-    <string name="remove_all_description">Уклони све фасцикле са листе изузетих\? Ово неће обрисати фасцикле.</string>
+    <string name="remove_all_description">Уклони све фасцикле са листе изузетих? Ово неће обрисати фасцикле.</string>
     <string name="temporarily_show_excluded">Привремено је искључена емисија</string>
     <string name="stop_showing_excluded">Престани да се приказује искључено</string>
     <string name="manage_shown_tabs">Управљајте приказаним картицама</string>
@@ -737,8 +727,7 @@
     <string name="read_it">Прочитајте</string>
     <string name="read_faq">Прочитајте ФАК</string>
     <string name="thank_you">Хвала вам</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Поздрав,<br><br>
             само вас обавештавамо да је нова апликација објављена:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -746,8 +735,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Можете је преузети притиском на наслов.<br><br>
             Хвала
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Покретач апликација</string>
     <string name="calculator_short">Калкулатор</string>
     <string name="calendar_short">Календар</string>
@@ -765,11 +753,9 @@
     <string name="sms_messenger_short">СМС Мессенгер</string>
     <string name="thank_you_short">Хвала вам</string>
     <string name="voice_recorder_short">Диктафон</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Изгледа да је верзија ваше апликације у квару. Молимо вас преузмите оригиналну верзију <a href="%s">овде</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Најчешће постављена питања</string>
     <string name="before_asking_question">Пре него поставите питање, прво прочитајте</string>
     <string name="faq_1_title_commons">Зашто не видим виџете ове апликације у листи виџета?</string>
@@ -782,9 +768,9 @@
     <string name="faq_5_title_commons">Да ли могу да повратим обрисане фајлове?</string>
     <string name="faq_5_text_commons">Ако су заиста избрисани, не можете. Међутим, постоји подразумевано омогућена корпа за отпатке, то ће проузроковати да се датотеке једноставно преместе у корпу уместо да их се бришу.</string>
     <string name="faq_6_title_commons">Икона покретача апликација је нестала. Шта да урадим?</string>
-    <string name="faq_7_title_commons">Новац је скинут са мог банковног рачуна, али не могу да преузмем апликацију. Шта могу да урадим\?</string>
+    <string name="faq_7_title_commons">Новац је скинут са мог банковног рачуна, али не могу да преузмем апликацију. Шта могу да урадим?</string>
     <string name="faq_7_text_commons">Плаћања у потпуности обавља Гоогле, њихов систем повремено квари. Само обришите кеш апликације Гоогле Плаи и поново покрените уређај, а затим покушајте поново да га преузмете.</string>
-    <string name="faq_9_title_commons">Како могу да изаберем више ставки одједном\?</string>
+    <string name="faq_9_title_commons">Како могу да изаберем више ставки одједном?</string>
     <string name="faq_9_text_commons">Постоји више начина да се то уради. Први је покретање режима селекције дугим притиском на једну ставку, а затим кратким кликом на друге да бисте их изабрали. Други начин је сличан одабиру ставки на рачунарима помоћу миша, само покрените режим селекције дугим притиском на једну ставку, а затим је прстом и даље доле превуците преко других ставки да бисте изабрали. Трећи начин одабира више ставки је дуго притискање једне ставке, затим дуго притискање друге и све између се бира. Ако желите да изаберете све ставке, само дуго притисните једну ставку, а затим кликните на бројач изабраних ставки у горњем левом углу. То ће све изабрати или поништити избор.</string>
     <string name="faq_10_title_commons">Купио сам апликацију, али не могу да је преузмем на другом уређају.</string>
     <string name="faq_10_text_commons">Покушајте да обришете кеш апликације Гоогле Плаи и поново покренете уређај. То је нека грешка у Гоогле Плаи-у, која није баш повезана са самом апликацијом.</string>

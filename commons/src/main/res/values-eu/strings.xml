@@ -252,8 +252,8 @@
     <string name="confirm_storage_access_text">Hautatu SD txartelaren karpeta nagusia hurrengo pantailan, idazteko baimena emateko</string>
     <string name="confirm_storage_access_text_sd">SD txartela ez badakusazu, saiatu honekin</string>
     <string name="confirm_storage_access_android_text">Mesedez, baimendu aplikazioari hurrengo pantailan hautatutako biltegian sartzea beheko \'Erabili karpeta hau\' sakatuta.</string>
-    <string name="confirm_storage_access_android_text_specific">Mesedez, baimendu hurrengo pantailako \'<b>%s</b>\' atzitzea beheko \'<b>Erabili karpeta hau</b>\' sakatuta.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Sakatu \'<b>Gorde</b>\' hurrengo pantailaren behealdean karpeta berria sortzeko.</string>
+    <string name="confirm_storage_access_android_text_specific">Mesedez, baimendu hurrengo pantailako \'&lt;b&gt;%s&lt;/b&gt;\' atzitzea beheko \'&lt;b&gt;Erabili karpeta hau&lt;/b&gt;\' sakatuta.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Sakatu \'&lt;b&gt;Gorde&lt;/b&gt;\' hurrengo pantailaren behealdean karpeta berria sortzeko.</string>
     <string name="confirm_selection">Berretsi hautaketa</string>
     <string name="loading">Kargatzen…</string>
     <string name="access_storage_prompt">Eman gure aplikazioari zure fitxategi guztietarako sarbidea, baliteke hura gabe ondo ez funtzionatzea.</string>
@@ -281,8 +281,7 @@
     <string name="root">Erroa</string>
     <string name="wrong_root_selected">Okerreko karpeta hautatu da, hautatu SD txartelaren erro-karpeta</string>
     <string name="sd_card_usb_same">SD txartelaren eta USB gailuaren bideak ezin dira berdinak izan</string>
-    <string name="app_on_sd_card">Badirudi aplikazioa SD txartel batean instalatu duzula, horrek aplikazioen widgetak erabilgarri egotea ekiditen du. Ezingo dituzu erabilgarri dauden widgeten zerrendan ikusi.
-        Sistemaren muga da, beraz, widgetak erabili nahi badituzu, aplikazioa barneko biltegiratzera mugitu behar duzu.</string>
+    <string name="app_on_sd_card">Badirudi aplikazioa SD txartel batean instalatu duzula, horrek aplikazioen widgetak erabilgarri egotea ekiditen du. Ezingo dituzu erabilgarri dauden widgeten zerrendan ikusi. Sistemaren muga da, beraz, widgetak erabili nahi badituzu, aplikazioa barneko biltegiratzera mugitu behar duzu.</string>
     <string name="wrong_folder_selected">Karpeta okerra hautatu da, mesedez hautatu \'%s\' bidea</string>
     <string name="properties">Propietateak</string>
     <string name="path">Bide-izena</string>
@@ -302,7 +301,7 @@
     <string name="gps_coordinates">GPS koordinatuak</string>
     <string name="altitude">Altitudea</string>
     <string name="remove_exif">Kendu EXIF</string>
-    <string name="remove_exif_confirmation">Ziur EXIF balioak kendu nahi dituzula GPS koordenatuak, kamera-modeloa, etab.\?</string>
+    <string name="remove_exif_confirmation">Ziur EXIF balioak kendu nahi dituzula GPS koordenatuak, kamera-modeloa, etab.?</string>
     <string name="exif_removed">EXIF balioak behar bezala kendu dira</string>
     <string name="background_color">Hondoaren kolorea</string>
     <string name="text_color">Testuaren kolorea</string>
@@ -415,8 +414,7 @@
     <string name="please_enter_pin">Sartu PINa, mesedez</string>
     <string name="wrong_pin">Okerreko PIN</string>
     <string name="pin_must_be_4_digits_long">PINak gutxienez 4 digitu izan behar ditu</string>
-    <string name="too_many_incorrect_attempts">Desblokeatzeko saiakera oker gehiegi.
-\nSaiatu berriro %d segundo barru.</string>
+    <string name="too_many_incorrect_attempts">Desblokeatzeko saiakera oker gehiegi. \nSaiatu berriro %d segundo barru.</string>
     <string name="repeat_pin">Errpeikatu PIN</string>
     <string name="pattern">Eredua</string>
     <string name="insert_pattern">Sartu eredua</string>
@@ -563,8 +561,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Alarma itzaltzeko geratzen den denbora:\n%s</string>
     <string name="reminder_triggers_in">Oroigarria azaltzeko geratzen den denbora:\n%s</string>
-    <string name="time_remaining">Falta den denbora:
-\n%s</string>
+    <string name="time_remaining">Falta den denbora: \n%s</string>
     <string name="alarm_warning">Ziurtatu alarma ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
     <string name="reminder_warning">Ziurtatu oroigarria ondo dabilela. Arazoak egon daitezke bateria aurreztearekin zerikusia duten sistemaren murrizketak direla-eta.</string>
     <string name="notifications_disabled">Aplikazio honen jakinarazpenak desgaituta daude. Gailuko ezarpenetan gaitu ditzakezu.</string>
@@ -599,7 +596,7 @@
     <string name="show_info_bubble">Erakutsi informazio-burbuila elementu higigarrietan korritze-barra arrastatuz</string>
     <string name="prevent_phone_from_sleeping">Eragotzi mugikorra lo geratzea aplikazio hau atzeko planoan dagoen bitartean</string>
     <string name="skip_delete_confirmation">Saltatu ezabatzeko konfirmazio elkarrizketa-koadroa beti</string>
-    <string name="enable_pull_to_refresh">Gaitu "behera egin freskatzeko" goiko aldetik</string>
+    <string name="enable_pull_to_refresh">Gaitu behera egin freskatzeko goiko aldetik</string>
     <string name="use_24_hour_time_format">Erabili 24 orduko ordu-formatua</string>
     <string name="change_date_and_time_format">Aldatu data- eta ordu-formatua</string>
     <string name="sunday_first">Hasi astea igandean</string>
@@ -637,7 +634,7 @@
     <string name="excluded">(baztertuta)</string>
     <string name="manage_excluded_folders">Kudeatu baztertutako karpetak</string>
     <string name="remove_all">Kendu guztiak</string>
-    <string name="remove_all_description">Kendu karpeta guztiak baztertutako zerrendatik\? Honek ez ditu karpetak ezabatuko.</string>
+    <string name="remove_all_description">Kendu karpeta guztiak baztertutako zerrendatik? Honek ez ditu karpetak ezabatuko.</string>
     <string name="temporarily_show_excluded">Erakutsi aldi baterako baztertuta</string>
     <string name="stop_showing_excluded">Utzi baztertutakoak erakusten</string>
     <string name="manage_shown_tabs">Kudeatu erakutsitako fitxak</string>
@@ -679,14 +676,7 @@
     <string name="backups">Babeskopiak</string>
     <string name="enable_automatic_backups">Gaitu babeskopia automatikoak</string>
     <string name="manage_automatic_backups">Kudeatu babeskopia automatikoak</string>
-    <string name="date_time_pattern_info">Eredu hauek erabil ditzakezu fitxategia automatikoki izendatzeko:
-\n
-\n%Y - urtea
-\n%M - hilabetea
-\n%D - eguna
-\n%h - ordu
-\n%m - minutu
-\n%s - segundo</string>
+    <string name="date_time_pattern_info">Eredu hauek erabil ditzakezu fitxategia automatikoki izendatzeko: \n \n%Y - urtea \n%M - hilabetea \n%D - eguna \n%h - ordu \n%m - minutu \n%s - segundo</string>
     <string name="usb_detected">Badirudi USB gailuren bat konektatuta duzula zure gailura. Fitxategiak ondo agertzen direla ziurtatzeko, baimen gehigarriak eman behar dituzu.</string>
     <string name="confirm_usb_storage_access_text">Hautatu USB gailuaren karpeta nagusia hurrengo pantailan, baimena emateko</string>
     <string name="wrong_root_selected_usb">Karpeta okerra hautatu da, hautatu USB gailuaren erro-karpeta</string>
@@ -761,8 +751,7 @@
     <string name="read_it">Irakurri</string>
     <string name="read_faq">Irakurri FAQ atala</string>
     <string name="thank_you">Eskerrik asko</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Aupa,<br><br>
             hainbat aplikazio berri argitaratu berri dira:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -770,8 +759,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Izenburuetan edota ikonoetan klik eginez deskargatu ditzakezu.<br><br>
             Eskerrik asko
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Aplikazio abiarazlea</string>
     <string name="calculator_short">Kalkulagailua</string>
     <string name="calendar_short">Egutegia</string>
@@ -790,16 +778,14 @@
     <string name="sms_messenger_short">SMS mezularia</string>
     <string name="thank_you_short">Eskerrik asko</string>
     <string name="voice_recorder_short">Grabagailua</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Badirudi zure aplikazioaren bertsioa hondatuta dagoela. Deskargatu bertsio originala <a href="%s">hemen</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Maiz egindako galderak</string>
     <string name="before_asking_question">Galdera bat egin aurretik, irakurri</string>
-    <string name="faq_1_title_commons">Zer dela eta ez dut aplikazioen trepeta hau trepeten zerrendan ikusten\?</string>
+    <string name="faq_1_title_commons">Zer dela eta ez dut aplikazioen trepeta hau trepeten zerrendan ikusten?</string>
     <string name="faq_1_text_commons">Litekeena da aplikazioa SD txartelera eraman duzulako. Kasu horretan, emandako aplikazioen trepetak ezkutatzen dituen Android sistemaren muga bat dago. Irtenbide bakarra zure gailuaren ezarpenen bidez aplikazioa Barne Biltegira eramatea da.</string>
-    <string name="faq_2_title_commons">Lagundu nahi zaitut, baina ezin dut dirurik eman. Ba al dago beste ezer egin dezaket\?</string>
+    <string name="faq_2_title_commons">Lagundu nahi zaitut, baina ezin dut dirurik eman. Ba al dago beste ezer egin dezaket?</string>
     <string name="third_party_licences">Hirugarrenen lizentziak</string>
     <string name="kotlin_title">Kotlin (programazio-hizkuntza)</string>
     <string name="glide_title">Glide (irudiak kargatzea eta cachean gordetzea)</string>
@@ -862,8 +848,7 @@
     <string name="october_short">Urr.</string>
     <string name="november_short">Aza.</string>
     <string name="december_short">Abe.</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="notification_sound">Jakinarazpen soinua</string>
     <string name="pager">Bilagailua</string>
     <string name="purchase_simple_thank_you">Erosi Fossify Thank You</string>

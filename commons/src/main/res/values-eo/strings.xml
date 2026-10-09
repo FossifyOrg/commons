@@ -340,7 +340,7 @@
     <string name="file_already_exists">La dosiero \"%s\" jam ekzistas</string>
     <string name="file_already_exists_overwrite">La dosiero \"%s\" jam ekzistas. Ĉu anstataŭigi ĝin?</string>
     <string name="overwrite">Anstataŭigi</string>
-    <string name="confirm_storage_access_android_text_specific">Bonvolu permesi atingon al \"<b>%s</b>\" je la sekva ekrano per premi \"<b>Uzi tiun ĉi dosierujon</b>\" sube.</string>
+    <string name="confirm_storage_access_android_text_specific">Bonvolu permesi atingon al \"&lt;b&gt;%s&lt;/b&gt;\" je la sekva ekrano per premi \"&lt;b&gt;Uzi tiun ĉi dosierujon&lt;/b&gt;\" sube.</string>
     <string name="skip">Salti</string>
     <string name="confirm_storage_access_android_text">Bonvolu permesi al la aplikaĵo atingon al la elektita memoro je la sekva ekrano per premi \"Uzi tiun ĉi dosierujon\" sube.</string>
     <string name="append">Aldoni la sufikson \"_1\"</string>
@@ -356,7 +356,7 @@
     <string name="confirm_folder_access_title">Konfirmi atingon de dosierujo</string>
     <string name="confirm_storage_access_text">Bonvolu elekti la radikan dosierujon de la SD-karto je la sekva ekrano por koncedi skribaliron</string>
     <string name="confirm_storage_access_text_sd">Se vi ne vidas la SD-karton, provu tion ĉi</string>
-    <string name="confirm_create_doc_for_new_folder_text">Bonvolu premi \"<b>Konservi</b>\" je la malsupro de la sekva ekrano por krei la novan dosierujon.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Bonvolu premi \"&lt;b&gt;Konservi&lt;/b&gt;\" je la malsupro de la sekva ekrano por krei la novan dosierujon.</string>
     <string name="confirm_selection">Konfirmi elekton</string>
     <string name="loading">Ŝargado…</string>
     <string name="resolution">Distingivo</string>
@@ -430,9 +430,7 @@
     <string name="undo_changes_confirmation">Ĉu vi vere volas malfari viajn ŝanĝojn?</string>
     <string name="cannot_be_undone">Oni ne povas malfari tiun ĉi akcion.</string>
     <string name="save_before_closing">Estas nekonservitaj ŝanĝoj. Ĉu konservi ilin antaŭ eliri?</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Bonvolu aĉeti <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a> por uzi ĉi tiun funkcion kaj subteni la programadon. Dankon!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Bonvolu aĉeti <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Dankon</a> por uzi ĉi tiun funkcion kaj subteni la programadon. Dankon!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">Hela</string>
     <string name="dark_theme">Malhela</string>
     <string name="auto_theme">Aŭtomata</string>
@@ -862,24 +860,14 @@
     <string name="known_issues">Konataj problemoj</string>
     <string name="keyboard_short">Klavaro</string>
     <string name="thank_you">Dankon</string>
-    <string name="new_app"><![CDATA[
-            He,<br><br>
-            Ni nur sciigas vin, ke ni lastatempe eldonis kelkajn novajn aplikaĵojn:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            Vi povas elŝuti ilin per frapeti iliajn titolojn aŭ bildsimbolojn.<br><br>
-            Dankon
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            He,<br><br>\n            Ni nur sciigas vin, ke ni lastatempe eldonis kelkajn novajn aplikaĵojn:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            Vi povas elŝuti ilin per frapeti iliajn titolojn aŭ bildsimbolojn.<br><br>\n            Dankon\n        "]]></string>
     <string name="launcher_short">Lanĉilo</string>
     <string name="file_manager_short">Dosieradministrilo</string>
     <string name="flashlight_short">Lanterno</string>
     <string name="dialer_short">Ciferilo</string>
     <string name="draw_short">Desegno</string>
     <string name="sms_messenger_short">SMS-mesaĝilo</string>
-    <string name="sideloaded_app"><![CDATA[
-            Ŝajnas, ke la versio de via aplikaĵo estas difektita. Bonvolu elŝuti la originan version <a href="%s">ĉi tie</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Ŝajnas, ke la versio de via aplikaĵo estas difektita. Bonvolu elŝuti la originan version <a href="%s">ĉi tie</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="donate_to_fossify">Donaci al Fossify</string>
     <string name="all_fossify_apps">Ĉiuj aplikaĵoj de Fossify</string>
     <string name="voice_recorder_short">Sonregistrilo</string>
@@ -891,10 +879,7 @@
     <string name="little_to_no_fee">Malmultekosta aŭ senpaga</string>
     <string name="fee_up_to_pct">Pago ĝis %1$d%%</string>
     <string name="cryptocurrency">Ĉifrovaluto</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Jes, kompreneble. Vi povus mencii niajn aplikaĵojn al aliuloj, bone taksi ilin aŭ doni al ni utilajn komentojn. Vi ankaŭ povus helpi nin traduki la aplikaĵojn en novan lingvon aŭ simple ĝisdatigi tiujn kiuj jam ekzistas.
-            La tradukada gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Jes, kompreneble. Vi povus mencii niajn aplikaĵojn al aliuloj, bone taksi ilin aŭ doni al ni utilajn komentojn. Vi ankaŭ povus helpi nin traduki la aplikaĵojn en novan lingvon aŭ simple ĝisdatigi tiujn kiuj jam ekzistas.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020La tradukada gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ĉi tie</a>, aŭ simple kontaktu nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="faq_3_title_commons">Mi senvole forigis kelkajn dosierojn. Kiel mi povas restaŭri ilin?</string>
     <string name="faq_9_title_commons">Kiel mi povas elekti multajn elementojn samtempe?</string>
     <string name="faq_3_text_commons">Tio bedaŭrinde ne eblas. Dosieroj estas tuje forigitaj post la konfirma dialogo, kaj neniu rubujo ekzistas.</string>
@@ -920,11 +905,7 @@
     <string name="translation_central_kurdish">Centra kurda</string>
     <string name="translation_kabyle">Kabila</string>
     <string name="translation">Tradukado</string>
-    <string name="contributors_label"><![CDATA[
-            Tiu ĉi listo enhavas ĉiujn kiuj rimarkeble helpis iun ajn aplikaĵon de Fossify, ne nur tiu ĉi. La tradukado estas traktita pro volontuloj.
-            Sciigu nin se vi ankaŭ ŝatus helpi nin. La traduka gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ĉi tie</a>, aŭ vi povas kontakti nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.
-            Dankon al ĉiuj kontribuantoj kaj aliaj subtenantoj!
-        ]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Tiu ĉi listo enhavas ĉiujn kiuj rimarkeble helpis iun ajn aplikaĵon de Fossify, ne nur tiu ĉi. La tradukado estas traktita pro volontuloj.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Sciigu nin se vi ankaŭ ŝatus helpi nin. La traduka gvido troviĝas <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">ĉi tie</a>, aŭ vi povas kontakti nin je <a href="mailto:hello@fossify.org">hello@fossify.org</a> se vi havas demandojn.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Dankon al ĉiuj kontribuantoj kaj aliaj subtenantoj!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="m3u_parser_title">M3U Parser (traktado de dosieroj de m3u-ludlistoj)</string>
     <string name="android_lame_title">AndroidLame (mp3-kodilo)</string>
     <string name="trial_expired">Provo finiĝis</string>

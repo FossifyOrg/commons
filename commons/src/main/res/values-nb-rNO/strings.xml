@@ -394,8 +394,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Tid igjen til alarmen går:\n%s</string>
     <string name="reminder_triggers_in">Tid som gjenstår til påminnelsen utløser:\n%s</string>
-    <string name="time_remaining">Tid igjen:
-\n%s</string>
+    <string name="time_remaining">Tid igjen: \n%s</string>
     <string name="alarm_warning">Sørg for at alarmen fungerer ordentlig før du stoler på den. Den kan fungere dårlig på grunn av systembegrensninger relatert til batterisparing.</string>
     <string name="reminder_warning">Sørg for at påminnelsene fungerer riktig før du stoler på dem. De kan fungere dårlig på grunn av systembegrensninger relatert til batterisparing.</string>
     <string name="dismiss">Slå av</string>
@@ -455,7 +454,7 @@
     <string name="excluded">(ekskludert)</string>
     <string name="manage_excluded_folders">Håndter ekskluderte mapper</string>
     <string name="remove_all">Fjern alle</string>
-    <string name="remove_all_description">Fjerne alle mapper fra listen av ekskluderte\? Dette sletter ikke mappene.</string>
+    <string name="remove_all_description">Fjerne alle mapper fra listen av ekskluderte? Dette sletter ikke mappene.</string>
     <string name="temporarily_show_excluded">Vis ekskluderte midlertidig</string>
     <string name="stop_showing_excluded">Stopp å vise ekskluderte</string>
     <string name="restore_this_file">Gjenopprett denne filen</string>

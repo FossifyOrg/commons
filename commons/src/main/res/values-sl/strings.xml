@@ -110,7 +110,7 @@
     <string name="import_blocked_numbers">Uvozi blokirane številke</string>
     <string name="must_make_default_dialer">Če želite uporabljati blokirane številke, je potrebno to aplikacijo nastaviti kot privzeto aplikacijo za klicanje.</string>
     <string name="set_as_default">Nastavi kot privzeto</string>
-    <string name="block_confirmation">Ste prepričani, da želite blokirati \"%s\"\?</string>
+    <string name="block_confirmation">Ste prepričani, da želite blokirati \"%s\"?</string>
     <string name="block_unknown_calls">Blokiraj klice s številk, ki niso v stikih</string>
     <string name="block_unknown_messages">Blokiraj sporočila s številk, ki niso v stikih</string>
     <string name="add_blocked_number_helper_text">Vnesite številko ali vzorec (npr. *12345*, +1*8888), da se blokirajo vsi klici in sporočila iz številk, ki ustrezajo vzorcu.</string>
@@ -165,13 +165,7 @@
     <string name="simple_renaming">Enostavno preimenovanje</string>
     <string name="pattern_renaming">Vzorec</string>
     <string name="string_to_add">Besedilo za dodajanje</string>
-    <string name="rename_date_time_pattern">%Y - leto
-\n%M - mesec
-\n%D - dan
-\n%h - ura
-\n%m - minuta
-\n%s - sekunda
-\n%i - število, ki narašča od 1</string>
+    <string name="rename_date_time_pattern">%Y - leto \n%M - mesec \n%D - dan \n%h - ura \n%m - minuta \n%s - sekunda \n%i - število, ki narašča od 1</string>
     <string name="filename_without_txt">Ime datoteke (brez .txt)</string>
     <string name="filename_without_json">Ime datoteke (brez .json)</string>
     <string name="filename_without_zip">Ime datoteke (brez .zip)</string>
@@ -203,8 +197,7 @@
     <string name="could_not_create_folder">Mape %s ni bilo mogoče ustvariti</string>
     <string name="could_not_create_file">Datoteke %s ni bilo mogoče ustvariti</string>
     <string name="no_new_items">Novi predmeti niso bili najdeni</string>
-    <string name="no_space">Destinacija nima na voljo dovolj prostora.
-\nZahtevano %1$s, na razpolago %2$s</string>
+    <string name="no_space">Destinacija nima na voljo dovolj prostora. \nZahtevano %1$s, na razpolago %2$s</string>
     <string name="system_service_disabled">Sistemska storitev za izbiranje datotek in map ni na voljo</string>
     <string name="create_new">Ustvari novo</string>
     <string name="folder">Mapa</string>
@@ -236,7 +229,7 @@
     <string name="confirm_storage_access_text_sd">Če SD kartica ni vidna, poskusite to</string>
     <string name="confirm_storage_access_android_text">Na naslednjem zaslonu dovolite aplikaciji dostop do izbrane shrambe tako, da na dnu pritisnete \"Uporabi to mapo\".</string>
     <string name="confirm_storage_access_android_text_specific">Na naslednjem zaslonu dovolite dostop do mape »&lt;b&gt;%s&lt;/b&gt;« tako, da na dnu pritisnete »&lt;b&gt;Uporabi to mapo&lt;/b&gt;«.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Pritisnite \'<b>Shrani</b>\' na dnu naslednjega zaslona, da ustvarite novo mapo.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Pritisnite \'&lt;b&gt;Shrani&lt;/b&gt;\' na dnu naslednjega zaslona, da ustvarite novo mapo.</string>
     <string name="confirm_selection">Potrdi izbor</string>
     <string name="loading">Nalaganje…</string>
     <string name="access_storage_prompt">Naši aplikaciji omogočite dostop do vseh datotek, saj sicer ne bo delovala dobro.</string>
@@ -291,7 +284,7 @@
     <string name="gps_coordinates">GPS koordinate</string>
     <string name="altitude">Nadmorska višina</string>
     <string name="remove_exif">Odstranite EXIF</string>
-    <string name="remove_exif_confirmation">Ste prepričani, da želite odstraniti EXIF podatke, kot so GPS koordinate, model fotoaparata itd.\?</string>
+    <string name="remove_exif_confirmation">Ste prepričani, da želite odstraniti EXIF podatke, kot so GPS koordinate, model fotoaparata itd.?</string>
     <string name="exif_removed">Vrednosti EXIF so uspešno odstranjene</string>
     <string name="background_color">Barva ozadja</string>
     <string name="text_color">Barva besedila</string>
@@ -384,9 +377,9 @@
     <string name="surname">Priimek</string>
     <string name="use_custom_sorting">Uporabi razvrščanje po meri</string>
     <string name="change_order">Spremeni vrstni red</string>
-    <string name="proceed_with_deletion">Ste prepričani, da nadaljujete brisanje\?</string>
+    <string name="proceed_with_deletion">Ste prepričani, da nadaljujete brisanje?</string>
     <string name="deletion_confirmation">Res želite izbrisati \'%s\'?</string>
-    <string name="deletion_confirmation_short">Izbriši %s\?</string>
+    <string name="deletion_confirmation_short">Izbriši %s?</string>
     <string name="move_to_recycle_bin_confirmation">Ali ste prepričani, da želite %s premakniti v koš?</string>
     <string name="are_you_sure_delete">Res želite izbrisati ta element?</string>
     <string name="are_you_sure_recycle_bin">Ali ste prepričani, da želite premakniti ta element v koš?</string>
@@ -601,12 +594,9 @@
         <item quantity="few">%d leta</item>
         <item quantity="other">%d let</item>
     </plurals>
-    <string name="alarm_goes_off_in">Čas do sprožitve alarma:
-\n%s</string>
-    <string name="reminder_triggers_in">Čas do sprožitve opomnika:
-\n%s</string>
-    <string name="time_remaining">Preostali čas:
-\n%s</string>
+    <string name="alarm_goes_off_in">Čas do sprožitve alarma: \n%s</string>
+    <string name="reminder_triggers_in">Čas do sprožitve opomnika: \n%s</string>
+    <string name="time_remaining">Preostali čas: \n%s</string>
     <string name="alarm_warning">Predlagamo, da alarm preizkusite, preden se nanj zanesete. Alarm lahko zataji zaradi sistemskih omejitev, povezanih z varčevanjem baterije.</string>
     <string name="reminder_warning">Predlagamo, da opomnike preizkusite, preden se na njih zanesete. Opomniki lahko zatajijo zaradi sistemskih omejitev, povezanih z varčevanjem baterije.</string>
     <string name="notifications_disabled">Obvestila so za to aplikacijo onemogočena. Vklopite jih lahko v nastavitvah naprave.</string>
@@ -679,7 +669,7 @@
     <string name="excluded">(izključeno)</string>
     <string name="manage_excluded_folders">Urejaj izključene mape</string>
     <string name="remove_all">Odstrani vse</string>
-    <string name="remove_all_description">Odstranim vse mape iz seznama izključenih\? Mape ne bodo izbrisane.</string>
+    <string name="remove_all_description">Odstranim vse mape iz seznama izključenih? Mape ne bodo izbrisane.</string>
     <string name="temporarily_show_excluded">Začasno prikaži izključeno</string>
     <string name="stop_showing_excluded">Prenehaj prikazovati izključeno</string>
     <string name="manage_shown_tabs">Upravljaj prikazane zavihke</string>
@@ -722,14 +712,7 @@
     <string name="backups">Varnostne kopije</string>
     <string name="enable_automatic_backups">Omogoči samodejne varnostne kopije</string>
     <string name="manage_automatic_backups">Upravljaj samodejne varnostne kopije</string>
-    <string name="date_time_pattern_info">Uporabite lahko naslednje parametre za samodejno poimenovanje datoteke:
-\n
-\n%Y - leto
-\n%M - mesec
-\n%D - dan
-\n%h - ura
-\n%m - minuta
-\n%s - sekunda</string>
+    <string name="date_time_pattern_info">Uporabite lahko naslednje parametre za samodejno poimenovanje datoteke: \n \n%Y - leto \n%M - mesec \n%D - dan \n%h - ura \n%m - minuta \n%s - sekunda</string>
     <string name="usb_detected">Kaže, da imate v napravo priključen USB pogon. Da zagotovite pravilno prikazovanje datotek, morate odobriti dodatna dovoljenja.</string>
     <string name="confirm_usb_storage_access_text">Izberitre korensko mapo USB pogona na naslednjem zaslonu, da odobrite dostop</string>
     <string name="wrong_root_selected_usb">Izbrana napačna mapa. Prosimo, izberite začetno mapo na vašem USB pogonu</string>
@@ -803,8 +786,7 @@
     <string name="read_it">Preberite</string>
     <string name="read_faq">Preberi pogosta vprašanja</string>
     <string name="thank_you">Hvala</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Pozdravljeni,<br><br>
             želimo vam sporočiti, da smo pred kratkim objavili novo aplikacijo:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -812,8 +794,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Prenesete jo lahko s klikom na naslov.<br><br>
             Hvala
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Zaganjalnik aplikacij</string>
     <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Koledar</string>
@@ -832,11 +813,9 @@
     <string name="sms_messenger_short">SMS sporočila</string>
     <string name="thank_you_short">Hvala</string>
     <string name="voice_recorder_short">Snemalnik</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Izgleda, da je vaša verzija aplikacije pokvarjena. Prosimo naložite originalno verzijo od <a href="%s">tukaj</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Pogosta vprašanja</string>
     <string name="before_asking_question">Preden postavite vprašanje, preberite</string>
     <string name="faq_1_title_commons">Zakaj aplikacije ne vidim na seznamu pripomočkov?</string>
@@ -849,9 +828,9 @@
     <string name="faq_5_title_commons">Lahko kako obnovim izbrisane datoteke?</string>
     <string name="faq_5_text_commons">Če so bile res izbrisane, jih ne morete obnoviti. Vendar pa je koš privzeto omogočen in datoteke premakne vanj, namesto da bi jih takoj izbrisal.</string>
     <string name="faq_6_title_commons">Ikona v zaganjalniku je izginila. Kaj lahko naredim?</string>
-    <string name="faq_7_title_commons">Denar je bil odtegnjen z mojega bančnega računa, vendar aplikacije ne morem prenesti. Kaj lahko storim\?</string>
+    <string name="faq_7_title_commons">Denar je bil odtegnjen z mojega bančnega računa, vendar aplikacije ne morem prenesti. Kaj lahko storim?</string>
     <string name="faq_7_text_commons">Plačila v celoti obdeluje Google, njihov sistem pa se občasno zaplete. Počistite predpomnilnik aplikacije Google Play in znova zaženite napravo, nato pa poskusite znova prenesti aplikacijo.</string>
-    <string name="faq_9_title_commons">Kako lahko izberem več elementov hkrati\?</string>
+    <string name="faq_9_title_commons">Kako lahko izberem več elementov hkrati?</string>
     <string name="faq_9_text_commons">To lahko storite na več načinov. Prvi je, da začnete izbiro z dolgim pritiskom na en element, nato pa s kratkim klikom na druge elemente, da jih izberete. Drugi način je podoben izbiranju elementov na osebnih računalnikih z miško: način izbiranja zaženete tako, da dolgo pritisnete en element, nato pa ga s prstom še vedno vlečete navzdol čez druge elemente, da jih izberete. Tretji način izbiranja več elementov je, da dolgo pritisnete en element, nato dolgo pritisnete drugega in vse, kar je vmes, bo izbrano. Če želite izbrati vse elemente, preprosto dolgo pritisnite en element, nato pa kliknite na števec izbranih elementov v zgornjem levem kotu. Tako boste izbrali ali preklicali izbor vseh elementov.</string>
     <string name="faq_10_title_commons">Aplikacijo sem kupil, vendar je ne morem prenesti v drugo napravo.</string>
     <string name="faq_10_text_commons">Poskusite počistiti predpomnilnik aplikacije Google Play in znova zaženite napravo. Gre za napako v storitvi Google Play, ki ni povezana s samo aplikacijo.</string>
@@ -959,9 +938,7 @@
     <string name="exif">EXIF</string>
     <string name="apply_to_all_apps">Uporabi temo za vse aplikacije Fossify</string>
     <string name="app_icon_color_warning">Pozor: Nekateri zaganjalniki morda ne bodo pravilno prilagodili ikon aplikacij. Če ikona izgine, poskusite zagnati aplikacijo prek trgovine Google Play ali pripomočka, če je na voljo. Po zagonu obnovite privzeto zeleno barvo ikone #106D1F. V skrajnih primerih bo morda potrebna ponovna namestitev aplikacije.</string>
-    <string name="purchase_thank_you"><![CDATA[
-Za uporabo te funkcije in podporo razvoju kupite aplikacijo <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. Hvala!
-]]></string>
+    <string name="purchase_thank_you"><![CDATA[\nZa uporabo te funkcije in podporo razvoju kupite aplikacijo <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a>. Hvala!\n]]></string>
     <string name="allow_access_more_media">Dovoli dostop do več medijev</string>
     <string name="show_line_numbers">Prikaži številke vrstic</string>
     <string name="hide_line_numbers">Skrij številke vrstic</string>
@@ -1030,16 +1007,9 @@ Za uporabo te funkcije in podporo razvoju kupite aplikacijo <a href="https://pla
     <string name="cryptocurrency">Kriptovalute</string>
     <string name="badge_deprecated">(zastarelo)</string>
     <string name="label_with_badge">%1$s %2$s</string>
-    <string name="faq_2_text_commons"><![CDATA[
-Da, seveda. Lahko širite glas o aplikacijah ali podate dobre povratne informacije in ocene. Pomagate lahko tudi s prevajanjem aplikacij v nov jezik ali pa preprosto posodobite nekatere obstoječe prevode.
-Vodnik za prevajanje je na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tej spletni strani</a> ali pa nas preprosto kontaktirajte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>, če imate kakršna koli vprašanja.
-]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\nDa, seveda. Lahko širite glas o aplikacijah ali podate dobre povratne informacije in ocene. Pomagate lahko tudi s prevajanjem aplikacij v nov jezik ali pa preprosto posodobite nekatere obstoječe prevode.\nVodnik za prevajanje je na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tej spletni strani</a> ali pa nas preprosto kontaktirajte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>, če imate kakršna koli vprašanja.\n]]></string>
     <string name="faq_6_text_commons">Do te težave pride, če vaš zaganjalnik ne podpira v celoti prilagajanja ikon. Poskusite zagnati aplikacijo prek trgovine Google Play ali pripomočka, če je na voljo. Po zagonu obnovite privzeto zeleno barvo ikone #106D1F. V skrajnih primerih bo morda potrebna ponovna namestitev aplikacije.</string>
-    <string name="contributors_label"><![CDATA[
-Ta seznam vsebuje vse, ki so opazno pomagali kateri koli aplikaciji v paketu Fossify, ne le tej. Prevode opravljajo prostovoljci,
-sporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tej spletni strani</a> ali pa nas preprosto kontaktirajte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>, če imate kakršna koli vprašanja.
-Hvala vsem sodelujočim in drugim podpornikom!
-]]></string>
+    <string name="contributors_label"><![CDATA[\nTa seznam vsebuje vse, ki so opazno pomagali kateri koli aplikaciji v paketu Fossify, ne le tej. Prevode opravljajo prostovoljci,\nsporočite nam, če želite pomagati tudi vi. Vodnik za prevajanje je na <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">tej spletni strani</a> ali pa nas preprosto kontaktirajte na <a href="mailto:hello@fossify.org">hello@fossify.org</a>, če imate kakršna koli vprašanja.\nHvala vsem sodelujočim in drugim podpornikom!\n]]></string>
     <string name="translation_arabic">Arabščina</string>
     <string name="translation_azerbaijani">Azerbajdžanščina</string>
     <string name="translation_belarusian">Beloruščina</string>

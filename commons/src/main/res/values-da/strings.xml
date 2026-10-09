@@ -2,7 +2,7 @@
 <resources>
     <string name="cancel">Annullér</string>
     <string name="close">Luk</string>
-    <string name="back">Tilbage </string>
+    <string name="back">Tilbage</string>
     <string name="nothing">Intet</string>
     <string name="later">Senere</string>
     <string name="save_as">Gem som</string>
@@ -251,7 +251,7 @@
     <string name="confirm_storage_access_text">Vælg SD-kortets rodmappe på næste side for at give skriveadgang til den</string>
     <string name="confirm_storage_access_text_sd">Hvis ikke du kan se SD-kortet kan du prøve dette</string>
     <string name="confirm_storage_access_android_text">Tillad appen at få adgang til det valgte lager på det næste skærmbillede ved at trykke på \'Brug denne mappe\' nederst.</string>
-    <string name="confirm_storage_access_android_text_specific">Tillad adgang til \"<b>%s</b>\" på det næste skærmbillede ved at trykke på \"<b>Brug denne mappe</b>\" nederst på skærmen.</string>
+    <string name="confirm_storage_access_android_text_specific">Tillad adgang til \"&lt;b&gt;%s&lt;/b&gt;\" på det næste skærmbillede ved at trykke på \"&lt;b&gt;Brug denne mappe&lt;/b&gt;\" nederst på skærmen.</string>
     <string name="confirm_create_doc_for_new_folder_text">Tryk på \'&lt;b&gt;Save&lt;/b&gt;\' nederst på det næste skærmbillede for at oprette den nye mappe.</string>
     <string name="confirm_selection">Bekræft valg</string>
     <string name="loading">Indlæser…</string>
@@ -279,8 +279,7 @@
     <string name="root">Rod</string>
     <string name="wrong_root_selected">Forkert mappe valgt, vælg rodmappen på SD-kortet</string>
     <string name="sd_card_usb_same">Stierne til SD-kortet og USB-enheden kan ikke være ens</string>
-    <string name="app_on_sd_card">Det ser ud til at du har appen installeret på et SD-kort. Det gør at appens widget ikke er tilgængelig og ikke kan ses på listen med widgets.
-        Dette skyldes en begrænsning i systemet, så hvis du vil bruge appens widgets må du flytte appen tilbage til det interne lager.</string>
+    <string name="app_on_sd_card">Det ser ud til at du har appen installeret på et SD-kort. Det gør at appens widget ikke er tilgængelig og ikke kan ses på listen med widgets. Dette skyldes en begrænsning i systemet, så hvis du vil bruge appens widgets må du flytte appen tilbage til det interne lager.</string>
     <string name="wrong_folder_selected">Forkert mappe valgt. Vælg stien \'%s\'</string>
     <string name="properties">Egenskaber</string>
     <string name="path">Sti</string>
@@ -322,9 +321,7 @@
     <string name="cannot_be_undone">Handlingen kan ikke fortrydes.</string>
     <string name="save_before_closing">Du har ændringer der ikke er gemt. Vil du gemme dem?</string>
     <string name="global_theme_success">Farverne er ændret. Et nyt udseende kaldet \"Tilpasset\" er tilføjet, brug det ved opdatering af alle app-farver fremover.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Køb <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> for at bruge denne funktion og understøtte appens udvikling. Tak!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Køb <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> for at bruge denne funktion og understøtte appens udvikling. Tak!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">Lys</string>
     <string name="dark_theme">Mørk</string>
     <string name="auto_light_dark_theme">Auto lyst / mørkt</string>
@@ -631,7 +628,7 @@
     <string name="excluded">(ekskluderet)</string>
     <string name="manage_excluded_folders">Administrer ekskluderede mapper</string>
     <string name="remove_all">Fjern alle</string>
-    <string name="remove_all_description">Fjern alle fra listen med ekskluderede mapper\? Det vil ikke slette mapperne.</string>
+    <string name="remove_all_description">Fjern alle fra listen med ekskluderede mapper? Det vil ikke slette mapperne.</string>
     <string name="temporarily_show_excluded">Vis midlertidigt ekskluderede</string>
     <string name="stop_showing_excluded">Stop visning af ekskluderede</string>
     <string name="manage_shown_tabs">Administrer viste faner</string>
@@ -742,8 +739,7 @@
     <string name="read_it">Læs det</string>
     <string name="read_faq">Read OSS</string>
     <string name="thank_you">Tak skal du have</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Hej<br><br>
             - synes lige du skulle vide at der er kommet en ny app:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -751,8 +747,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Du kan downloade den med et klik på titlen.<br><br>
             Tak
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Appstarter</string>
     <string name="calculator_short">Lommeregner</string>
     <string name="calendar_short">Kalender</string>
@@ -769,48 +764,40 @@
     <string name="sms_messenger_short">Beskeder</string>
     <string name="thank_you_short">Tak skal du have</string>
     <string name="voice_recorder_short">Lydoptager</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Det ser ud til at din app-version er beskadiget. <a href="%s">Download den originale version her</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">Ofte stillede spørgsmål</string>
     <string name="before_asking_question">Inden du stiller et spørgsmål bedes du først læse</string>
     <string name="faq_1_title_commons">Hvorfor kan jeg ikke se denne app\'s widget på listen med widgets?</string>
     <string name="faq_1_text_commons">Det er sikkert fordi du har flyttet appen til et SD-kort. Der er en begrænsning i Androidsystemet der i så fald skjuler appens widget. Eneste løsning er at flytte appen tilbage til det interne lager via indstillingerne på din enhed.</string>
     <string name="faq_2_title_commons">Jeg vil gerne støtte dig, men jeg kan ikke donere penge. Er der andet jeg kan gøre?</string>
-    <string name="faq_2_text_commons">
-        <![CDATA[
+    <string name="faq_2_text_commons"><![CDATA[
             Ja, selvfølgelig. Du kan sprede budskabet om vores apps eller give god feedback og gode vurderinger. Du kan også hjælpe ved at oversætte apps til et nyt sprog eller blot opdatere nogle af de eksisterende oversættelser.
             Vejledningen til oversættelse findes på <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">dette websted</a>, eller mail til os på adressen <a href="mailto:hello@fossify.org">hello@fossify.org</a>, hvis du har spørgsmål.
-        ]]>
-    </string>
+        ]]></string>
     <string name="faq_3_title_commons">Jeg fik slettet nogle filer ved en fejl, hvordan kan jeg gendanne dem?</string>
     <string name="faq_3_text_commons">Det kan du desværre ikke. Filer er væk så snart sletningen er bekræftet, og der er ingen papirkurv.</string>
     <string name="faq_4_title_commons">Jeg bryder mig ikke om farverne på widget\'en, kan jeg ændre dem?</string>
     <string name="faq_4_text_commons">Jep. Når du føjer en widget til din skærm kommer muligheden for at konfigurere den frem. I nederste venstre hjørne finder du farvede kvadrater, klik på dem og vælg en ny farve. Du kan justere alfa med skyderen.</string>
     <string name="faq_5_title_commons">Kan jeg gendanne slettede filer?</string>
     <string name="faq_5_text_commons">Nej, ikke hvis de virkelig er slettet. Men som standard er papirkurven aktiveret, i den opbevares \"slettede\" filer, så der vil du kunne finde dem igen.</string>
-    <string name="faq_6_title_commons">App-launcher\'ens ikon forsvandt. Hvad gør jeg\?</string>
+    <string name="faq_6_title_commons">App-launcher\'ens ikon forsvandt. Hvad gør jeg?</string>
     <string name="faq_7_title_commons">Pengene er trukket fra min bankkoto, men jeg kan ikke downloade appen. Hvad gør jeg nu?</string>
     <string name="faq_7_text_commons">Betalinger håndteres af Google, men deres system fejler af og til. Ryd cachen til din Google Play-app og genstart din enhed. Prøv så at downloade appen igen.</string>
     <string name="faq_9_title_commons">Hvordan kan jeg vælge flere elementer på én gang?</string>
-    <string name="faq_9_text_commons">Der er flere måder at gøre det på. Den første er at starte valgtilstanden ved at trykke længe på et element og derefter klikke kort på andre elementer for at vælge dem. Den anden måde svarer til at vælge elementer på en pc med en mus.
-        Du skal bare starte valgtilstanden ved at trykke længe på et element og derefter mens fingeren stadig er nede, trække den hen over andre elementer for at vælge dem. Den tredje måde at vælge flere elementer på er ved at trykke længe på et element og derefter trykke længe på et andet element, og alt derimellem bliver valgt. Hvis du
-        vil vælge alle elementer, skal du blot trykke længe på et element og derefter klikke på tælleren for det valgte element øverst til venstre i hjørnet. Det vil vælge eller fravælge alting.</string>
+    <string name="faq_9_text_commons">Der er flere måder at gøre det på. Den første er at starte valgtilstanden ved at trykke længe på et element og derefter klikke kort på andre elementer for at vælge dem. Den anden måde svarer til at vælge elementer på en pc med en mus. Du skal bare starte valgtilstanden ved at trykke længe på et element og derefter mens fingeren stadig er nede, trække den hen over andre elementer for at vælge dem. Den tredje måde at vælge flere elementer på er ved at trykke længe på et element og derefter trykke længe på et andet element, og alt derimellem bliver valgt. Hvis du vil vælge alle elementer, skal du blot trykke længe på et element og derefter klikke på tælleren for det valgte element øverst til venstre i hjørnet. Det vil vælge eller fravælge alting.</string>
     <string name="faq_10_title_commons">Jeg har købt appen, men jeg kan ikke downloade den på en anden enhed.</string>
     <string name="faq_10_text_commons">Prøv at rydde din Google Play-appcache og genstarte din enhed. Det er en fejl i Google Play, som ikke har noget med selve appen at gøre.</string>
     <string name="contributors">Bidragydere</string>
     <string name="translation">Oversættelse</string>
     <string name="development">Udvikling</string>
     <string name="other_help">Anden hjælp</string>
-    <string name="contributors_label">
-        <![CDATA[
+    <string name="contributors_label"><![CDATA[
             Denne liste indeholder alle, der har hjulpet med en app i Fossify-pakken, ikke kun denne. Oversættelser håndteres af frivillige,
             så lad os vide, hvis du også vil hjælpe. Vejledningen til oversættelse findes på <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">denne hjemmeside</a>, eller send en mail til <a href="mailto:hello@fossify.org">hello@fossify.org</a>, hvis du har spørgsmål.
             Tak til alle bidragydere og andre støtter!
-        ]]>
-    </string>
+        ]]></string>
     <string name="translation_arabic">Arabisk</string>
     <string name="translation_azerbaijani">Aserbajdsjansk</string>
     <string name="translation_bengali">Bengalsk</string>

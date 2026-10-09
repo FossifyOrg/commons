@@ -195,7 +195,7 @@
     <string name="cannot_hide_files">От Android 11 нататък вече не можете да скривате файлове и папки по този начин</string>
     <string name="copy">Копиране</string>
     <string name="move">Преместване</string>
-    <string name="copy_move">Копиране / преместване</string>
+    <string name="copy_move">Копиране / преместване</string>
     <string name="copy_to">Копиране към…</string>
     <string name="move_to">Преместване към…</string>
     <string name="source">Изходна папка</string>
@@ -251,8 +251,8 @@
     <string name="confirm_storage_access_text">За да предоставите достъп за запис, на следващия екран изберете кореновата папка на SD картата</string>
     <string name="confirm_storage_access_text_sd">Ако не виждате SD картата, опитайте това</string>
     <string name="confirm_storage_access_android_text">Моля, позволете на приложението да има достъп до избраното хранилище на следващия екран, като натиснете \'Използвайте тази папка\' в долната част.</string>
-    <string name="confirm_storage_access_android_text_specific">Разрешете достъп до „<b>%s</b>“ на следващия екран, като докоснете „<b>Използвайте тази папка</b>“ в долната част на екрана.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Моля, натиснете \'<b>Запазване</b>\' в долната част на следващия екран, за да създадете новата папка.</string>
+    <string name="confirm_storage_access_android_text_specific">Разрешете достъп до „&lt;b&gt;%s&lt;/b&gt;“ на следващия екран, като докоснете „&lt;b&gt;Използвайте тази папка&lt;/b&gt;“ в долната част на екрана.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Моля, натиснете \'&lt;b&gt;Запазване&lt;/b&gt;\' в долната част на следващия екран, за да създадете новата папка.</string>
     <string name="confirm_selection">Потвърждаване на избора</string>
     <string name="loading">Зареждане…</string>
     <string name="access_storage_prompt">Моля, предоставете достъп на нашето приложение до всички ваши файлове, то може да не работи добре без него.</string>
@@ -299,7 +299,7 @@
     <string name="gps_coordinates">Координати на GPS</string>
     <string name="altitude">Надморска височина</string>
     <string name="remove_exif">Премахване на EXIF</string>
-    <string name="remove_exif_confirmation">Сигурни ли сте, че искате да премахнете EXIF стойностите като GPS координати, модел на камерата и т.н.\?</string>
+    <string name="remove_exif_confirmation">Сигурни ли сте, че искате да премахнете EXIF стойностите като GPS координати, модел на камерата и т.н.?</string>
     <string name="exif_removed">EXIF стойностите са премахнати</string>
     <string name="background_color">Цвят на фона</string>
     <string name="text_color">Цвят на текста</string>
@@ -318,14 +318,14 @@
     <string name="save">Запазване</string>
     <string name="discard">Не</string>
     <string name="undo_changes">Отмени промените</string>
-    <string name="undo_changes_confirmation">Сигурни ли сте, че искате да отмените промените\?</string>
+    <string name="undo_changes_confirmation">Сигурни ли сте, че искате да отмените промените?</string>
     <string name="cannot_be_undone">Действието е необратимо.</string>
-    <string name="save_before_closing">Има незапазени промени. Запазване преди изход\?</string>
+    <string name="save_before_closing">Има незапазени промени. Запазване преди изход?</string>
     <string name="global_theme_success">Текущата тема е приложена на всички приложения на Fossify. Бъдещите промени на темата ще бъдат синхронизирани автоматично.</string>
     <string name="light_theme">Светла</string>
     <string name="dark_theme">Тъмна</string>
     <string name="auto_theme">Автоматична</string>
-    <string name="auto_light_dark_theme">Автоматично светла / тъмна</string>
+    <string name="auto_light_dark_theme">Автоматично светла / тъмна</string>
     <string name="solarized">Слънчева</string>
     <string name="dark_red">Тъмно червена</string>
     <string name="white">Бяла</string>
@@ -559,8 +559,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Време до включване на будилника:\n%s</string>
     <string name="reminder_triggers_in">Време до показване на напомнянето:\n%s</string>
-    <string name="time_remaining">Оставащо време:
-\n%s</string>
+    <string name="time_remaining">Оставащо време: \n%s</string>
     <string name="alarm_warning">Преди да започнете да разчитате на будилника се уверете, че той работи добре. Причина за неправилна работа може да бъдат системните ограничения, свързани със запазването на батерията.</string>
     <string name="reminder_warning">Преди да започнете да разчитате на напомнянията се уверете, че работят добре. Проверете настройките на батерията и известията дали нещо не забранява напомнянията или би попречило на работата на приложението във фонов режим.</string>
     <string name="notifications_disabled">Известията на приложението са изключени. Отворете настройките на устройството и ги включете.</string>
@@ -751,7 +750,7 @@
     <string name="invite_via">Препоръка с помощта на</string>
     <string name="donate">Дарения</string>
     <string name="follow_us">Последвайте ни</string>
-    <string name="copyright">v %1$s\nАвторски права © Fossify %2$d</string>
+    <string name="copyright">v %1$s\nАвторски права © Fossify %2$d</string>
     <string name="support">Поддръжка</string>
     <string name="help_us">Помогнете ни</string>
     <string name="social">Общност</string>
@@ -789,19 +788,19 @@
     <string name="sideloaded_app"><![CDATA[Изглежда, че приложението е повредено. Изтеглете оригиналното приложение <a href=%s>от тук</a>.]]></string>
     <string name="frequently_asked_questions">Често задавани въпроси</string>
     <string name="before_asking_question">Преди да зададете въпрос, първо прочетете</string>
-    <string name="faq_1_title_commons">Как така не виждам това приспособление за приложения в списъка с приспособления\?</string>
+    <string name="faq_1_title_commons">Как така не виждам това приспособление за приложения в списъка с приспособления?</string>
     <string name="faq_1_text_commons">Най -вероятно е, защото сте преместили приложението на SD картата. В този случай има ограничение на Android системата, което крие дадените приспособления за приложенията. Единственото решение е да преместите приложението обратно във вътрешното хранилище чрез настройките на вашето устройство.</string>
-    <string name="faq_2_title_commons">Искам да Ви подкрепя, но не мога да даря пари. Има ли нещо друго, което мога да направя\?</string>
-    <string name="faq_3_title_commons">Изтрих някои файлове по погрешка, как мога да ги възстановя\?</string>
+    <string name="faq_2_title_commons">Искам да Ви подкрепя, но не мога да даря пари. Има ли нещо друго, което мога да направя?</string>
+    <string name="faq_3_title_commons">Изтрих някои файлове по погрешка, как мога да ги възстановя?</string>
     <string name="faq_3_text_commons">За съжаление не можете. Файловете се изтриват незабавно след диалоговия прозорец за потвърждение, няма наличено копие в кошчето.</string>
-    <string name="faq_4_title_commons">Не харесвам цветовете на приспособленията, мога ли да ги променя\?</string>
+    <string name="faq_4_title_commons">Не харесвам цветовете на приспособленията, мога ли да ги променя?</string>
     <string name="faq_4_text_commons">Да, докато плъзнете приспособлението на началния си екран, се появява екран за конфигурация на приспособлението. Ще видите цветни квадратчета в долния ляв ъгъл, просто ги натиснете, за да изберете нов цвят. Можете да използвате плъзгача и за регулиране на алфа-та.</string>
-    <string name="faq_5_title_commons">Мога ли по някакъв начин да възстановя изтритите файлове\?</string>
+    <string name="faq_5_title_commons">Мога ли по някакъв начин да възстановя изтритите файлове?</string>
     <string name="faq_5_text_commons">Ако наистина бяа премахнати, нямаше да можете да ги възстановите. Въпреки това, по подразбиране кошчето е включено, така че файловете да бъдат премествани в кошчето, вместо премахвани.</string>
-    <string name="faq_6_title_commons">Иконата за стартиране на приложението изчезна. Какво мога да направя\?</string>
-    <string name="faq_7_title_commons">Парите са приспаднати от банковата ми сметка, но не мога да изтегля приложението. Какво мога да направя\?</string>
+    <string name="faq_6_title_commons">Иконата за стартиране на приложението изчезна. Какво мога да направя?</string>
+    <string name="faq_7_title_commons">Парите са приспаднати от банковата ми сметка, но не мога да изтегля приложението. Какво мога да направя?</string>
     <string name="faq_7_text_commons">Плащанията се обработват изцяло от Google, системната им има гличове от време на време. Просто изчистете кеша на приложението Google Play и рестартирайте устройството си, след което отново го изтегляте.</string>
-    <string name="faq_9_title_commons">Как мога да избера няколко елемента наведнъж\?</string>
+    <string name="faq_9_title_commons">Как мога да избера няколко елемента наведнъж?</string>
     <string name="faq_10_title_commons">Закупих приложението, но не мога да го изтегля на друго устройство.</string>
     <string name="faq_10_text_commons">Опитай да изчистиш кеша на Google Play приложението и да рестартираш устройството. Това е някакъв проблем с Google Play, който всъщност не е свързан със самото приложение.</string>
     <string name="contributors">Доброволци</string>
@@ -930,7 +929,7 @@
     <string name="donate_to_fossify">Даряване на Fossify</string>
     <string name="platforms">Платформи</string>
     <string name="little_to_no_fee">Почти без такси</string>
-    <string name="fee_up_to_pct">Такса до %1$d %%</string>
+    <string name="fee_up_to_pct">Такса до %1$d %%</string>
     <string name="pattern_title">PatternLockView (защита с форми)</string>
     <string name="reprint_title">Reprint (защита с пръстов отпечатък)</string>
     <string name="gif_drawable_title">Gif Drawable (зареждане на GIF)</string>

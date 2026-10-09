@@ -23,7 +23,7 @@
     <string name="never">ஒருபோதுமில்லை</string>
     <string name="details">விவரங்கள்</string>
     <string name="notes">குறிப்புகள்</string>
-    <string name="deleting_folder"> \'%s\' கோப்புறையை நீக்குகிறது</string>
+    <string name="deleting_folder">\'%s\' கோப்புறையை நீக்குகிறது</string>
     <string name="none">ஏதுமில்லை</string>
     <string name="label">சிட்டை</string>
     <string name="transparent">ஒளிபுகும்</string>
@@ -283,7 +283,7 @@
     <string name="excluded">(விலக்கப்பட்டது)</string>
     <string name="manage_excluded_folders">விலக்கிய அடைவுகளை நிர்வகி</string>
     <string name="remove_all">எல்லாம் நீக்கு</string>
-    <string name="remove_all_description">விலக்கப்பட்டவை பட்டியலிலிருந்து எல்லா அடைவுகளையும் நீக்கவா\? இது அடைவுகளை அழிக்காது.</string>
+    <string name="remove_all_description">விலக்கப்பட்டவை பட்டியலிலிருந்து எல்லா அடைவுகளையும் நீக்கவா? இது அடைவுகளை அழிக்காது.</string>
     <string name="manage_shown_tabs">காட்டப்படும் தாவல்களை நிர்வகி</string>
     <string name="contacts_tab">தொடர்புகள்</string>
     <string name="favorites_tab">பிடித்தமானவை</string>

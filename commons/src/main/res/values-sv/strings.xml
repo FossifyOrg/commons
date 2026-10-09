@@ -226,8 +226,7 @@
     <string name="could_not_create_folder">Det gick inte att skapa mappen %s</string>
     <string name="could_not_create_file">Det gick inte att skapa filen %s</string>
     <string name="no_new_items">Inga nya objekt hittades</string>
-    <string name="no_space">Otillräckligt med utrymme.
-\nBehövs %1$s, tillgängligt %2$s</string>
+    <string name="no_space">Otillräckligt med utrymme. \nBehövs %1$s, tillgängligt %2$s</string>
     <string name="system_service_disabled">Systemtjänst för att välja filer och mappar är inte tillgänglig</string>
     <string name="create_new">Skapa ny</string>
     <string name="folder">Mapp</string>
@@ -258,8 +257,8 @@
     <string name="confirm_storage_access_text">Välj rotmappen på ditt SD-kort på nästa skärm, för att bevilja skrivrättigheter</string>
     <string name="confirm_storage_access_text_sd">Om du inte ser SD-kortet, prova detta</string>
     <string name="confirm_storage_access_android_text">Ge appen åtkomst till det valda lagringsutrymmet genom att trycka på \'Använd den här mappen\' längst ned på nästa skärm.</string>
-    <string name="confirm_storage_access_android_text_specific">Tillåt åtkomst till \'<b>%s</b>\' genom att trycka på \'<b>Använd den här mappen</b>\' längst ned på nästa skärm.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Tryck på \'<b>Spara</b>\' längst ned på nästa skärm för att skapa den nya mappen.</string>
+    <string name="confirm_storage_access_android_text_specific">Tillåt åtkomst till \'&lt;b&gt;%s&lt;/b&gt;\' genom att trycka på \'&lt;b&gt;Använd den här mappen&lt;/b&gt;\' längst ned på nästa skärm.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Tryck på \'&lt;b&gt;Spara&lt;/b&gt;\' längst ned på nästa skärm för att skapa den nya mappen.</string>
     <string name="confirm_selection">Bekräfta val</string>
     <string name="loading">Läser in…</string>
     <string name="access_storage_prompt">Ge appen åtkomst till alla dina filer, annars kanske den inte fungerar som den ska.</string>
@@ -328,9 +327,7 @@
     <string name="cannot_be_undone">Denna åtgärd kan inte ångras.</string>
     <string name="save_before_closing">Du har ändringar som inte är sparade. Spara innan du lämnar?</string>
     <string name="global_theme_success">Färgerna har uppdaterats. Ett nytt Tema som heter \'Delat\' har lagts till, använd det för att uppdatera alla apparnas färger i framtiden.</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Köp <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> om du vill använda den här funktionen och stödja utvecklingen. Tack!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Köp <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> om du vill använda den här funktionen och stödja utvecklingen. Tack!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="light_theme">Ljust</string>
     <string name="dark_theme">Mörkt</string>
     <string name="auto_theme">Automatiskt</string>
@@ -410,7 +407,7 @@
     <string name="more_options">Fler alternativ</string>
     <string name="proceed_with_deletion">Är du säker på att du vill fortsätta med borttagningen?</string>
     <string name="deletion_confirmation">Är du säker på att du vill ta bort %s?</string>
-    <string name="deletion_confirmation_short">Vill du ta bort %s\?</string>
+    <string name="deletion_confirmation_short">Vill du ta bort %s?</string>
     <string name="move_to_recycle_bin_confirmation">Är du säker på att du vill flytta %s till papperskorgen?</string>
     <string name="are_you_sure_delete">Är du säker på att du vill ta bort det här objektet?</string>
     <string name="are_you_sure_recycle_bin">Är du säker på att du vill flytta det här objektet till papperskorgen?</string>
@@ -428,8 +425,7 @@
     <string name="please_enter_pin">Ange en PIN-kod</string>
     <string name="wrong_pin">Du har angett fel PIN-kod</string>
     <string name="pin_must_be_4_digits_long">PIN-koden måste vara minst fyra siffror lång</string>
-    <string name="too_many_incorrect_attempts">För många felaktiga upplåsningsförsök.
-\nFörsök igen om %d sekunder.</string>
+    <string name="too_many_incorrect_attempts">För många felaktiga upplåsningsförsök. \nFörsök igen om %d sekunder.</string>
     <string name="repeat_pin">Upprepa PIN-kod</string>
     <string name="pattern">Mönster</string>
     <string name="insert_pattern">Rita mönster</string>
@@ -654,7 +650,7 @@
     <string name="excluded">(utesluten)</string>
     <string name="manage_excluded_folders">Hantera uteslutna mappar</string>
     <string name="remove_all">Ta bort alla</string>
-    <string name="remove_all_description">Vill du ta bort alla mappar från uteslutningslistan\? Detta raderar inte mapparna.</string>
+    <string name="remove_all_description">Vill du ta bort alla mappar från uteslutningslistan? Detta raderar inte mapparna.</string>
     <string name="temporarily_show_excluded">Visa uteslutna mappar tillfälligt</string>
     <string name="stop_showing_excluded">Sluta visa uteslutna mappar</string>
     <string name="manage_shown_tabs">Välj vilka flikar som ska visas</string>
@@ -696,14 +692,7 @@
     <string name="backups">Säkerhetskopieringar</string>
     <string name="enable_automatic_backups">Aktivera automatiska säkerhetskopieringar</string>
     <string name="manage_automatic_backups">Hantera automatiska säkerhetskopieringar</string>
-    <string name="date_time_pattern_info">Du kan använda följande mönster för att namnge filen automatiskt:
-\n
-\n%Y - år
-\n%M - månad
-\n%D - dag
-\n%h - timme
-\n%m - minut
-\n%s - sekund</string>
+    <string name="date_time_pattern_info">Du kan använda följande mönster för att namnge filen automatiskt: \n \n%Y - år \n%M - månad \n%D - dag \n%h - timme \n%m - minut \n%s - sekund</string>
     <string name="usb_detected">Du verkar ha en USB-enhet ansluten till din enhet. För att se till att dess filer visas korrekt måste du ge ytterligare behörigheter.</string>
     <string name="confirm_usb_storage_access_text">Välj rotmappen på USB-enheten på nästa skärm, för att ge åtkomst</string>
     <string name="wrong_root_selected_usb">Du har valt fel mapp, välj rotmappen på din USB-enhet</string>
@@ -771,8 +760,7 @@
     <string name="read_it">Läs</string>
     <string name="read_faq">Läs FAQ</string>
     <string name="thank_you">Tack</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Hej,<br><br>
             jag vill bara meddela att en ny app nyligen har publicerats:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -780,8 +768,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Du kan hämta den genom att trycka på titeln.<br><br>
             Tack
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Programstartare</string>
     <string name="calculator_short">Kalkylator</string>
     <string name="calendar_short">Kalender</string>
@@ -800,24 +787,22 @@
     <string name="sms_messenger_short">Meddelanden</string>
     <string name="thank_you_short">Tack</string>
     <string name="voice_recorder_short">Röstinspelare</string>
-    <string name="sideloaded_app"><![CDATA[
-            Det verkar som om din appversion är skadad. Ladda ner originalversionen <a href="%s">här</a>.
-        ]]></string>
+    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Det verkar som om din appversion är skadad. Ladda ner originalversionen <a href="%s">här</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="frequently_asked_questions">Frågor och svar</string>
     <string name="before_asking_question">Innan du ställer en fråga, läs först</string>
-    <string name="faq_1_title_commons">Hur kommer det sig att jag inte ser den här appwidgeten på listan över widgets\?</string>
+    <string name="faq_1_title_commons">Hur kommer det sig att jag inte ser den här appwidgeten på listan över widgets?</string>
     <string name="faq_1_text_commons">Det beror mest troligt på att du flyttade appen på ett SD-kort. Det finns en Android-systembegränsning som döljer de givna appwidgetarna i så fall. Den enda lösningen är att flytta appen tillbaka till den interna lagringen via dina enhetsinställningar.</string>
-    <string name="faq_2_title_commons">Jag vill stödja dig, men jag kan inte donera pengar. Finns det något annat jag kan göra\?</string>
-    <string name="faq_3_title_commons">Jag raderade några filer av misstag, hur kan jag återställa dem\?</string>
+    <string name="faq_2_title_commons">Jag vill stödja dig, men jag kan inte donera pengar. Finns det något annat jag kan göra?</string>
+    <string name="faq_3_title_commons">Jag raderade några filer av misstag, hur kan jag återställa dem?</string>
     <string name="faq_3_text_commons">Tyvärr kan du inte. Filer raderas direkt efter bekräftelsedialogrutan, det finns ingen papperskorg tillgänglig.</string>
-    <string name="faq_4_title_commons">Jag gillar inte widgetfärgerna, kan jag ändra dem\?</string>
+    <string name="faq_4_title_commons">Jag gillar inte widgetfärgerna, kan jag ändra dem?</string>
     <string name="faq_4_text_commons">Jadå, när du drar en widget på din startskärm visas en widgetkonfigurationsskärm. Du kommer att se färgade rutor i det nedre vänstra hörnet, tryck bara på dem för att välja en ny färg. Du kan också använda skjutreglaget för att justera alfa.</string>
-    <string name="faq_5_title_commons">Kan jag på något sätt återställa raderade filer\?</string>
+    <string name="faq_5_title_commons">Kan jag på något sätt återställa raderade filer?</string>
     <string name="faq_5_text_commons">Om de verkligen har raderats kan du inte återställa dem. Men papperskorgen är aktiverad som standard och filer flyttas till den istället för att raderas omedelbart.</string>
-    <string name="faq_6_title_commons">Appstartikonen försvann. Vad kan jag göra\?</string>
-    <string name="faq_7_title_commons">Pengarna har dragits från mitt bankkonto, men jag kan inte ladda ner appen. Vad kan jag göra\?</string>
+    <string name="faq_6_title_commons">Appstartikonen försvann. Vad kan jag göra?</string>
+    <string name="faq_7_title_commons">Pengarna har dragits från mitt bankkonto, men jag kan inte ladda ner appen. Vad kan jag göra?</string>
     <string name="faq_7_text_commons">Betalningar hanteras till fullo av Google, deras system har fel då och då. Rensa bara Google Play-appens cache och starta om enheten och försök sedan ladda ner den igen.</string>
-    <string name="faq_9_title_commons">Hur kan jag välja flera objekt samtidigt\?</string>
+    <string name="faq_9_title_commons">Hur kan jag välja flera objekt samtidigt?</string>
     <string name="faq_9_text_commons">Det finns flera sätt att göra det på. Den första är att starta valläget genom att trycka länge på ett objekt, sedan kortklicka på andra för att välja dem. Det andra sättet liknar att välja objekt på datorer med en mus, starta bara valläget genom att trycka länge på ett objekt, och sedan med fingret nedåt och dra det över andra objekt för att välja. Det tredje sättet att välja flera objekt är att länge trycka på ett objekt, sedan länge på ett annat och allt däremellan väljs. Om du vill markera alla objekt, tryck bara länge på ett objekt och klicka sedan på den valda objekträknaren i det övre vänstra hörnet. Det kommer att välja eller avmarkera allt.</string>
     <string name="faq_10_title_commons">Jag har köpt appen, men jag kan inte ladda ner den på en annan enhet.</string>
     <string name="faq_10_text_commons">Testa att rensa Google Play-appens cacheminne och starta om enheten. Det är något Google Play-fel, inte riktigt relaterat till själva appen.</string>
@@ -982,17 +967,10 @@
     <string name="donate_short">Stöd oss genom att köpa &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, detta låser också upp alla appfunktioner inklusive färganpassning.</string>
     <string name="app_icon_color_warning">Varning! Vissa startprogram hanterar kanske inte anpassning av appikoner korrekt. Om ikonen försvinner kan du, om det är möjligt, prova att starta appen via Google Play eller en widget. När du har startat appen återställer du ikonens gröna standardfärg #106D1F. I extrema fall kan det vara nödvändigt att installera om appen.</string>
     <string name="faq_6_text_commons">Det här problemet uppstår när startprogrammet inte har fullt stöd för ikonanpassning. Prova att starta appen via Google Play eller en widget, om det är möjligt. När du har startat appen återställer du ikonens gröna standardfärg #106D1F. I extrema fall kan det vara nödvändigt att installera om appen.</string>
-    <string name="contributors_label"><![CDATA[
-            Den här listan innehåller alla som på ett märkbart sätt har bidragit till någon Fossify-app, inte bara den här. Översättningarna hanteras av volontärer,
-            kontakta oss om du också vill hjälpa till. Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.
-            Tack till alla bidragsgivare och andra supportrar!
-        ]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Den här listan innehåller alla som på ett märkbart sätt har bidragit till någon Fossify-app, inte bara den här. Översättningarna hanteras av volontärer,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020kontakta oss om du också vill hjälpa till. Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Tack till alla bidragsgivare och andra supportrar!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="enables_more_customization">Möjliggör mer anpassning</string>
     <string name="translation_latvian">Lettiska</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Ja, naturligtvis. Du kan sprida information om apparna eller ge bra feedback och betyg. Du kan också hjälpa till genom att översätta apparna till ett nytt språk eller bara uppdatera några befintliga översättningar.
-            Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Ja, naturligtvis. Du kan sprida information om apparna eller ge bra feedback och betyg. Du kan också hjälpa till genom att översätta apparna till ett nytt språk eller bara uppdatera några befintliga översättningar.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <plurals name="files_saved">
         <item quantity="one">Filen har sparats</item>
         <item quantity="other">Filerna har sparats</item>

@@ -226,8 +226,8 @@
     <string name="confirm_storage_access_text">Silakan pilih folder root dari kartu SD pada layar berikutnya, untuk memberi akses penyimpanan</string>
     <string name="confirm_storage_access_text_sd">Jika Anda tidak melihat kartu SD, cobalah ini</string>
     <string name="confirm_storage_access_android_text">Mohon izinkan aplikasi mengakses penyimpanan yang dipilih pada layar berikutnya dengan mengetuk \'Gunakan folder ini\' di bawah.</string>
-    <string name="confirm_storage_access_android_text_specific">Harap izinkan akses ke \'<b>%s</b>\' pada layar berikutnya dengan menekan \'<b>Gunakan folder ini</b>\' di bagian bawah.</string>
-    <string name="confirm_create_doc_for_new_folder_text">Mohon tekan \'<b>Simpan</b>\' di bawah pada layar berikutnya untuk membuat folder baru.</string>
+    <string name="confirm_storage_access_android_text_specific">Harap izinkan akses ke \'&lt;b&gt;%s&lt;/b&gt;\' pada layar berikutnya dengan menekan \'&lt;b&gt;Gunakan folder ini&lt;/b&gt;\' di bagian bawah.</string>
+    <string name="confirm_create_doc_for_new_folder_text">Mohon tekan \'&lt;b&gt;Simpan&lt;/b&gt;\' di bawah pada layar berikutnya untuk membuat folder baru.</string>
     <string name="confirm_selection">Konfirmasi pilihan</string>
     <string name="loading">Memuat…</string>
     <string name="access_storage_prompt">Mohon berikan aplikasi ini akses ke semua file Anda, mungkin tidak bekerja tanpa itu.</string>
@@ -241,7 +241,6 @@
         <item quantity="other">Menghapus %d item</item>
     </plurals>
     <plurals name="delete_contacts">
-        <item quantity="one">%d kontak</item>
         <item quantity="other">%d kontak</item>
     </plurals>
     <string name="select_storage">Pilih penyimpanan</string>
@@ -249,8 +248,7 @@
     <string name="sd_card">Kartu SD</string>
     <string name="wrong_root_selected">Folder salah, silakan pilih folder root kartu SD anda</string>
     <string name="sd_card_usb_same">Jalur kartu SD dan perangkat USB tidak boleh sama</string>
-    <string name="app_on_sd_card">Kelihatannya anda memasang aplikasi ini di kartu SD, sehingga widget tidak tersedia. Anda tidak akan melihatnya di daftar widget yang tersedia.
-        Ini adalah keterbatasan sistem, jika anda ingin menggunakan widget, anda harus memindahkan aplikasi ke penyimpanan internal.</string>
+    <string name="app_on_sd_card">Kelihatannya anda memasang aplikasi ini di kartu SD, sehingga widget tidak tersedia. Anda tidak akan melihatnya di daftar widget yang tersedia. Ini adalah keterbatasan sistem, jika anda ingin menggunakan widget, anda harus memindahkan aplikasi ke penyimpanan internal.</string>
     <string name="wrong_folder_selected">Folder yang dipilih salah, mohon pilih jalur \'%s\'</string>
     <string name="properties">Properti</string>
     <string name="path">Jalur</string>
@@ -269,7 +267,7 @@
     <string name="gps_coordinates">Koordinat GPS</string>
     <string name="altitude">Ketinggian</string>
     <string name="remove_exif">Hapus EXIF</string>
-    <string name="remove_exif_confirmation">Apakah Anda ingin menghapus nilai EXIF seperti koordinat GPS, model kamera dll\?</string>
+    <string name="remove_exif_confirmation">Apakah Anda ingin menghapus nilai EXIF seperti koordinat GPS, model kamera dll?</string>
     <string name="exif_removed">Nilai EXIF berhasil dihapus</string>
     <string name="background_color">Warna latar belakang</string>
     <string name="text_color">Warna teks</string>
@@ -483,8 +481,7 @@
     </plurals>
     <string name="alarm_goes_off_in">Sisa waktu hingga alarm berbunyi:\n%s</string>
     <string name="reminder_triggers_in">Sisa waktu hingga pengingat muncul:\n%s</string>
-    <string name="time_remaining">Waktu tersisa: 
-\n%s</string>
+    <string name="time_remaining">Waktu tersisa: \n%s</string>
     <string name="alarm_warning">Silakan pastikan alarm berfungsi dengan baik sebelum menggunakannya. Bisa saja terjadi salah tindakan karena keterbatasan sistem terkait penghematan baterai.</string>
     <string name="reminder_warning">Silakan pastikan pengingat berfungsi dengan baik sebelum menggunakannya. Bisa saja terjadi salah tindakan karena keterbatasan sistem terkait penghematan baterai.</string>
     <string name="notifications_disabled">Notifikasi aplikasi ini dinonaktifkan. Silakan buka pengaturan perangkat untuk mengaktifkannya.</string>
@@ -554,7 +551,7 @@
     <string name="excluded">(tidak disertakan)</string>
     <string name="manage_excluded_folders">Kelola folder yang dikecualikan</string>
     <string name="remove_all">Buang semua</string>
-    <string name="remove_all_description">Buang semua folder dari daftar pengecualian\? Ini tidak akan menghapus folder tersebut.</string>
+    <string name="remove_all_description">Buang semua folder dari daftar pengecualian? Ini tidak akan menghapus folder tersebut.</string>
     <string name="temporarily_show_excluded">Tampilkan sementara yang tidak termasuk</string>
     <string name="stop_showing_excluded">Berhenti menampilkan yang tidak termasuk</string>
     <string name="manage_shown_tabs">Kelola tab yang ditampilkan</string>
@@ -593,14 +590,7 @@
     <string name="backups">Cadangan</string>
     <string name="enable_automatic_backups">Aktifkan cadangan otomatis</string>
     <string name="manage_automatic_backups">Kelola cadangan otomatis</string>
-    <string name="date_time_pattern_info">Anda dapat menggunakan pola berikut untuk menamai berkas Anda secara otomatis:
-\n
-\n%Y - tahun
-\n%M - bulan
-\n%D - hari
-\n%h - jam
-\n%m - menit
-\n%s - detik</string>
+    <string name="date_time_pattern_info">Anda dapat menggunakan pola berikut untuk menamai berkas Anda secara otomatis: \n \n%Y - tahun \n%M - bulan \n%D - hari \n%h - jam \n%m - menit \n%s - detik</string>
     <string name="usb_detected">Sepertinya anda memiliki perangkat USB di perangkat anda. Untuk memastikan berkas ditampilkan dengan benar, anda perlu memberi izin akses tambahan.</string>
     <string name="confirm_usb_storage_access_text">Silakan pilih folder root perangkat USB di layar berikutnya untuk memberi izin akses</string>
     <string name="wrong_root_selected_usb">Folder yang dipilih salah, silakan pilih folder root perangkat USB</string>
@@ -669,8 +659,7 @@
     <string name="read_it">Baca</string>
     <string name="read_faq">Baca FAQ</string>
     <string name="thank_you">Terima kasih</string>
-    <string name="new_app">
-        <![CDATA[
+    <string name="new_app"><![CDATA[
             Hai,<br><br>
             hanya memberitahu ada aplikasi baru dirilis:<br><br>
             <a href="%1$s">%2$s</a><br><br>
@@ -678,8 +667,7 @@
             <a href="%5$s">%6$s</a><br><br>
             Anda bisa mengunduhnya dengan menekan judulnya.<br><br>
             Terima kasih
-        ]]>
-    </string>
+        ]]></string>
     <string name="app_launcher_short">Peluncur Aplikasi</string>
     <string name="calculator_short">Kalkulator</string>
     <string name="calendar_short">Kalender</string>
@@ -695,16 +683,13 @@
     <string name="sms_messenger_short">Perpesanan SMS</string>
     <string name="thank_you_short">Terima Kasih</string>
     <string name="voice_recorder_short">Perekam Suara</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             Sepertinya versi aplikasi anda rusak. Silakan unduh versi original <a href="%s">di sini</a>.
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">FAQ</string>
     <string name="before_asking_question">Sebelum anda bertanya, silakan baca</string>
     <string name="faq_1_title_commons">Kenapa saya tidak melihat widget aplikasi ini di daftar widget?</string>
-    <string name="faq_1_text_commons">Kemungkinan besar karena anda memindahkan aplikasi ke kartu SD. Ada keterbatasan sistem Android yang akan menyembunyikan widget aplikasi
-        karena hal tersebut. Satu-satunya solusi adalah memindahkannya kembali ke Penyimpanan Internal melalui pengaturan perangkat anda.</string>
+    <string name="faq_1_text_commons">Kemungkinan besar karena anda memindahkan aplikasi ke kartu SD. Ada keterbatasan sistem Android yang akan menyembunyikan widget aplikasi karena hal tersebut. Satu-satunya solusi adalah memindahkannya kembali ke Penyimpanan Internal melalui pengaturan perangkat anda.</string>
     <string name="faq_2_title_commons">Saya ingin mendukung Anda, tetapi saya tidak bisa berdonasi. Adakah cara lain yang bisa saya lakukan?</string>
     <string name="faq_3_title_commons">Saya tidak sengaja menghapus berkas, bagaimana saya memulihkannya?</string>
     <string name="faq_3_text_commons">Sayangnya, Anda tidak bisa. File dihapus secara instan setelah dialog konfirmasi, tidak ada tempat sampah yang tersedia.</string>
@@ -715,7 +700,7 @@
     <string name="faq_6_title_commons">Ikon launcher aplikasi menghilang. Apa yang bisa saya lakukan?</string>
     <string name="faq_7_title_commons">Rekening bank saya telah berkurang, tetapi saya tidak bisa mengunduh aplikasi. Apa yang bisa saya lakukan?</string>
     <string name="faq_7_text_commons">Pembayaran sepenuhnya dikelola oleh Google, sistem mereka terkadang tidak bekerja sebagaimana mestinya. Cukup hapus cache apl Google Play dan mulai ulang perangkat anda, lalu ulangi mengunduh.</string>
-    <string name="faq_9_title_commons">Bagaimana saya bisa memilih beberapa item sekaligus\?</string>
+    <string name="faq_9_title_commons">Bagaimana saya bisa memilih beberapa item sekaligus?</string>
     <string name="faq_9_text_commons">Ada beberapa cara untuk melakukan itu. Cara pertama adalah memulai mode pemilihan dengan menekan lama satu item, kemudian klik pendek pada item lain untuk memilihnya. Cara kedua mirip dengan memilih item pada PC dengan mouse, cukup mulai mode pemilihan dengan menekan lama satu item, kemudian dengan jari Anda masih di bawah seret ke item lain untuk memilih. Cara ketiga untuk memilih beberapa item adalah dengan menekan lama satu item, kemudian menekan lama item lainnya dan semua yang ada di antaranya akan dipilih. Jika Anda ingin memilih semua item, cukup tekan lama satu item, kemudian klik pada penghitung item yang dipilih di sudut kiri atas. Itu akan memilih atau membatalkan pemilihan semua item.</string>
     <string name="faq_10_title_commons">Saya telah membeli aplikasinya, tetapi saya tidak bisa mengunduhnya di perangkat lain.</string>
     <string name="faq_10_text_commons">Coba bersihkan cache aplikasi Google Play Anda dan mulai ulang perangkat Anda. Ini adalah kesalahan Google Play, tidak benar-benar terkait dengan aplikasi itu sendiri.</string>
@@ -791,27 +776,18 @@
     <string name="translation_vietnamese">Vietnam</string>
     <string name="app_icon_color_warning">Peringatan: Beberapa peluncur tidak dapat menangani perubahan ikon aplikasi dengan benar. Jika ikon hilang, coba luncurkan aplikasi melalui Google Play atau widget jika tersedia. Setelah meluncurkan, pulihkan warna ikon hijau #106D1F bawaan. Dalam kasus tertentu, memasang ulang aplikasi dapat dilakukan.</string>
     <string name="add_number_to_contact">Tambahkan nomor ke kontak</string>
-    <string name="purchase_thank_you"><![CDATA[
-            Silakan beli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> untuk menggunakan fitur ini dan mendukung pengembangan. Terima kasih!
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Silakan beli <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> untuk menggunakan fitur ini dan mendukung pengembangan. Terima kasih!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="exif">EXIF</string>
     <string name="default_color">Bawaan</string>
     <string name="august_short">Agu</string>
     <string name="september_short">Sep</string>
     <string name="october_short">Okt</string>
     <string name="november_short">Nov</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            Ya, tentu. Anda dapat membantu menyebarkan info tentang aplikasi atau memberikan umpan balik dan penilaian yang baik. Anda juga dapat membantu dengan menerjemahkan aplikasi ke bahasa baru, atau cukup memperbarui beberapa terjemahan yang sudah ada.
-           Panduan penerjemahan ada di <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika ada pertanyaan.
-        ]]></string>
+    <string name="faq_2_text_commons"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Ya, tentu. Anda dapat membantu menyebarkan info tentang aplikasi atau memberikan umpan balik dan penilaian yang baik. Anda juga dapat membantu dengan menerjemahkan aplikasi ke bahasa baru, atau cukup memperbarui beberapa terjemahan yang sudah ada.\n \u0020 \u0020 \u0020 \u0020 \u0020 Panduan penerjemahan ada di <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika ada pertanyaan.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="december_short">Des</string>
     <string name="platforms">Platform</string>
     <string name="faq_6_text_commons">Isu ini muncul ketika peluncur Anda tidak mendukung kustomisasi ikon secara penuh. Coba luncurkan aplikasi melalui Google Play atau widget jika tersedia. Setelah meluncurkan, pulihkan warna ikon hijau #106D1F bawaan. Dalam beberapa kasus, memasang ulang aplikasi dapat dilakukan.</string>
-    <string name="contributors_label"><![CDATA[
-            Daftar ini berisi semua orang yang secara nyata membantu aplikasi apa pun dalam rangkaian Fossify, bukan hanya aplikasi ini. Terjemahan ditangani oleh relawan,
-            beri tahu kami jika Anda juga ingin membantu. Panduan penerjemahan ada di <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika ada pertanyaan.
-            Terima kasih kepada semua kontributor dan pendukung lainnya!
-        ]]></string>
+    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Daftar ini berisi semua orang yang secara nyata membantu aplikasi apa pun dalam rangkaian Fossify, bukan hanya aplikasi ini. Terjemahan ditangani oleh relawan,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020beri tahu kami jika Anda juga ingin membantu. Panduan penerjemahan ada di <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">situs web ini</a>, atau hubungi kami di <a href="mailto:hello@fossify.org">hello@fossify.org</a> jika ada pertanyaan.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Terima kasih kepada semua kontributor dan pendukung lainnya!\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="translation_indonesian">Indonesia</string>
     <string name="translation_chinese_hk">Cina (Hong Kong)</string>
     <string name="translation_italian">Italia</string>
@@ -857,8 +833,7 @@
     <string name="deletion_confirmation_short">Hapus %s?</string>
     <string name="pin">PIN</string>
     <string name="pin_must_be_4_digits_long">PIN setidaknya harus 4 digit</string>
-    <string name="too_many_incorrect_attempts">Terlalu banyak percobaan pembukaan salah.
-\nCoba lagi dalam %d detik.</string>
+    <string name="too_many_incorrect_attempts">Terlalu banyak percobaan pembukaan salah. \nCoba lagi dalam %d detik.</string>
     <string name="empty_password_new">Silakan masukkan kata sandi</string>
     <string name="enter_password">Masukkan kata sandi</string>
     <string name="password">Kata sandi</string>
@@ -879,8 +854,7 @@
     <string name="april">April</string>
     <string name="september">September</string>
     <string name="website">Situs web</string>
-    <string name="copyright">v %1$s
-\nHak cipta © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nHak cipta © Fossify %2$d</string>
     <string name="support">Dukungan</string>
     <string name="help_us">Bantu kami</string>
     <string name="social">Sosial</string>

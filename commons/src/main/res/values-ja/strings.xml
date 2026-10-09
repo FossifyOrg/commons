@@ -194,8 +194,7 @@
     <string name="could_not_create_folder">フォルダ %s を作成できません</string>
     <string name="could_not_create_file">ファイル %s を作成できません</string>
     <string name="no_new_items">新しいアイテムは見つかりませんでした</string>
-    <string name="no_space">保存先に十分な空き容量がありません。
-\n必要容量 %1$s, 空き容量 %2$s</string>
+    <string name="no_space">保存先に十分な空き容量がありません。 \n必要容量 %1$s, 空き容量 %2$s</string>
     <string name="system_service_disabled">ファイルとフォルダを選択するためのシステムサービスが利用できません</string>
     <string name="create_new">新規作成</string>
     <string name="folder">フォルダ</string>
@@ -227,7 +226,7 @@
     <string name="confirm_storage_access_text_sd">SDカードの内容が表示されない場合は、こちらをお試しください</string>
     <string name="confirm_storage_access_android_text">次の画面で、下部にある [このフォルダを使用] を押して、選択したストレージへのアクセスをアプリに許可してください。</string>
     <string name="confirm_storage_access_android_text_specific">次の画面で、下部にある [&lt;b&gt;このフォルダを使用&lt;/b&gt;] を押して、 [&lt;b&gt;%s&lt;/b&gt;] へのアクセスをアプリに許可してください。</string>
-    <string name="confirm_create_doc_for_new_folder_text">次の画面で、下部にある [<b>保存</b>] を押して、新しいフォルダを作成してください。</string>
+    <string name="confirm_create_doc_for_new_folder_text">次の画面で、下部にある [&lt;b&gt;保存&lt;/b&gt;] を押して、新しいフォルダを作成してください。</string>
     <string name="confirm_selection">選択を確認</string>
     <string name="loading">読み込み中…</string>
     <string name="access_storage_prompt">[すべてのファイルへのアクセス] をアプリに許可してください。許可をしないとうまく機能しない可能性があります。</string>
@@ -293,9 +292,7 @@
     <string name="cannot_be_undone">この操作は元に戻せません。</string>
     <string name="save_before_closing">保存していない変更があります。保存しますか？</string>
     <string name="global_theme_success">現在のテーマがFossifyの全アプリに適用されました。今後テーマに変更を行った場合、変更は自動的に同期されます。</string>
-    <string name="purchase_thank_you"><![CDATA[
-            この機能のロックを解除して開発者をサポートするには、<a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>アプリを購入してください。
-        ]]></string>
+    <string name="purchase_thank_you"><![CDATA["\n            この機能のロックを解除して開発者をサポートするには、<a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Fossify Thank You</a>アプリを購入してください。\n        "]]></string>
     <string name="light_theme">ライト</string>
     <string name="dark_theme">ダーク</string>
     <string name="auto_theme">自動</string>
@@ -500,8 +497,7 @@
     </plurals>
     <string name="alarm_goes_off_in">アラームが鳴るまでの時間:\n%s</string>
     <string name="reminder_triggers_in">リマインダー発動までの時間:\n%s</string>
-    <string name="time_remaining">残り時間: 
-\n%s</string>
+    <string name="time_remaining">残り時間: \n%s</string>
     <string name="alarm_warning">アラームの動作を確認して使用してください。バッテリー節約に関連したシステムの制限によって、誤動作が発生する場合があります。</string>
     <string name="reminder_warning">リマインダーの動作を確認して使用してください。リマインダーを妨げるものはないか、アプリがバックグラウンドで閉じられないか、デバイスの通知設定と電池設定を確認してください。</string>
     <string name="notifications_disabled">アプリの通知が無効となっています。設定から有効に変更してください。</string>
@@ -575,7 +571,7 @@
     <string name="excluded">(除外)</string>
     <string name="manage_excluded_folders">除外フォルダの管理</string>
     <string name="remove_all">すべて解除</string>
-    <string name="remove_all_description">除外するフォルダの登録をすべて解除しますか\? フォルダ自体は削除されません。</string>
+    <string name="remove_all_description">除外するフォルダの登録をすべて解除しますか? フォルダ自体は削除されません。</string>
     <string name="temporarily_show_excluded">除外項目を一時的に表示</string>
     <string name="stop_showing_excluded">除外項目の表示を中止</string>
     <string name="manage_shown_tabs">表示するタブを管理</string>
@@ -672,7 +668,7 @@
     <string name="friday_short">金</string>
     <string name="saturday_short">土</string>
     <string name="sunday_short">日</string>
-    <string name="it_is_free">%sまで無料です。それまでにダウンロードすれば、永久に無料でご利用いただけます。 </string>
+    <string name="it_is_free">%sまで無料です。それまでにダウンロードすれば、永久に無料でご利用いただけます。</string>
     <string name="more_info">詳細を確認</string>
     <string name="upgrade">アップグレード</string>
     <string name="upgrade_calendar">ローカルに保存されたイベントは、手動で.icsファイルにエクスポートしてインポートする必要があります。インポート/エクスポートボタンはメイン画面のメニューにあります。</string>
@@ -699,15 +695,7 @@
     <string name="read_it">見る</string>
     <string name="read_faq">FAQ</string>
     <string name="thank_you">ありがとうございます</string>
-    <string name="new_app"><![CDATA[
-            こんにちは、<br><br>
-            最近、新しいアプリをいくつかリリースしたのでお知らせします:<br><br>
-            <a href="%1$s">%2$s</a><br><br>
-            <a href="%3$s">%4$s</a><br><br>
-            <a href="%5$s">%6$s</a><br><br>
-            アイコンかタイトルをタップするだけでダウンロードできます。<br><br>
-            ありがとうございます
-        ]]></string>
+    <string name="new_app"><![CDATA["\n            こんにちは、<br><br>\n            最近、新しいアプリをいくつかリリースしたのでお知らせします:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            アイコンかタイトルをタップするだけでダウンロードできます。<br><br>\n            ありがとうございます\n        "]]></string>
     <string name="app_launcher_short">アプリランチャー</string>
     <string name="calculator_short">電卓</string>
     <string name="calendar_short">カレンダー</string>
@@ -725,11 +713,9 @@
     <string name="notes_short">メモ</string>
     <string name="sms_messenger_short">ショートメール</string>
     <string name="voice_recorder_short">ボイスレコーダー</string>
-    <string name="sideloaded_app">
-        <![CDATA[
+    <string name="sideloaded_app"><![CDATA[
             アプリのバージョンが破損しているようです。オリジナル版を<a href="%s">ここから</a>ダウンロードしてください。
-        ]]>
-    </string>
+        ]]></string>
     <string name="frequently_asked_questions">よくある質問</string>
     <string name="before_asking_question">質問する前に、こちらをお読みください</string>
     <string name="faq_1_title_commons">ウィジェットのリストにこのアプリが表示されないのはなぜですか？</string>
@@ -792,8 +778,7 @@
     <plurals name="trial_expires_days">
         <item quantity="other">試用期間の残りは %d 日です。</item>
     </plurals>
-    <string name="pro_app_refund">どのアプリでも、購入後２時間以内にアンインストールすると自動的に払い戻しされることを覚えていてください。それ以降に払い戻しが必要な場合は、こちらにお問い合わせください。hello@fossify.org
-お試ししやすいかと思います :)</string>
+    <string name="pro_app_refund">どのアプリでも、購入後２時間以内にアンインストールすると自動的に払い戻しされることを覚えていてください。それ以降に払い戻しが必要な場合は、こちらにお問い合わせください。hello@fossify.org お試ししやすいかと思います :)</string>
     <string name="developer_description">広告や不要な権限がなく、カスタマイズ可能なウィジェットを備えたシンプルな複数のオープンソースAndroidアプリ。</string>
     <string name="ok">OK</string>
     <string name="notification_sound">通知音</string>
@@ -829,8 +814,7 @@
     <string name="hours_letter">%d時間</string>
     <string name="theme_and_colors">テーマと色</string>
     <string name="skip_the_recycle_bin">ごみ箱に入れずに直接ファイルを削除</string>
-    <string name="copyright">v %1$s
-\nCopyright © Fossify %2$d</string>
+    <string name="copyright">v %1$s \nCopyright © Fossify %2$d</string>
     <string name="all_fossify_apps">Fossifyの全アプリ</string>
     <string name="thank_you_short">ありがとうございます</string>
     <string name="cryptocurrency">暗号通貨</string>
@@ -915,21 +899,10 @@
     <string name="purchase_simple_thank_you">Simple Thank Youを購入</string>
     <string name="translation_lithuanian">リトアニア語</string>
     <string name="translation_nepali">ネパール語</string>
-    <string name="faq_2_text_commons"><![CDATA[
-            はい、もちろんです。アプリについて広めたり、良いフィードバックと評価を行ったり、または翻訳に参加したりしていただけます。
-            翻訳のガイドは<a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>このウェブサイト</a>にあります。質問があれば、<a href=mailto:hello@fossify.org>hello@fossify.org</a>までご連絡ください。
-        ]]></string>
-    <string name="date_time_pattern_info">以下の変数を使ってファイルの名前を自動的に設定できます。
-\n
-\n%Y - 年
-\n%M - 月
-\n%D - 日
-\n%h - 時
-\n%m - 分
-\n%s - 秒</string>
+    <string name="faq_2_text_commons"><![CDATA["\n            はい、もちろんです。アプリについて広めたり、良いフィードバックと評価を行ったり、または翻訳に参加したりしていただけます。\n            翻訳のガイドは<a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>このウェブサイト</a>にあります。質問があれば、<a href=mailto:hello@fossify.org>hello@fossify.org</a>までご連絡ください。\n        "]]></string>
+    <string name="date_time_pattern_info">以下の変数を使ってファイルの名前を自動的に設定できます。 \n \n%Y - 年 \n%M - 月 \n%D - 日 \n%h - 時 \n%m - 分 \n%s - 秒</string>
     <string name="faq_6_text_commons">この問題は、使用しているランチャーがアイコンのカスタマイズを完全にサポートしていない場合に生じます。Google Play、または、利用可能な場合はウィジェットからアプリを起動してみてください。開始したら、既定の緑のアイコンの色 #106D1F を復元してください。ごくまれに、アプリの再インストールが必要になる場合があります。</string>
-    <string name="too_many_incorrect_attempts">間違ったロック解除の試行回数が多すぎます。
-\n%d秒後に再度試してください。</string>
+    <string name="too_many_incorrect_attempts">間違ったロック解除の試行回数が多すぎます。 \n%d秒後に再度試してください。</string>
     <string name="version_placeholder">バージョン %s</string>
     <string name="donate_short">&lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;を購入して私たちを援助してください。アプリには、全アプリで色をカスタマイズするなどの機能もあります。</string>
     <string name="update_thank_you">Fossify Thank Youを最新バージョンに更新してください</string>
