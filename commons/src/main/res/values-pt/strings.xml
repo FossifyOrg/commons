@@ -2,11 +2,11 @@
 <resources>
     <string name="cancel">Cancelar</string>
     <string name="close">Fechar</string>
-    <string name="back">Voltar</string>
+    <string name="back">Recuar</string>
     <string name="nothing">Nada</string>
     <string name="later">Mais tarde</string>
-    <string name="save_as">Salvar como</string>
-    <string name="file_saved">Ficheiro salvo com sucesso</string>
+    <string name="save_as">Guardar como</string>
+    <string name="file_saved">Ficheiro guardado com sucesso</string>
     <string name="invalid_file_format">Formato de ficheiro inválido</string>
     <string name="out_of_memory_error">Memória insuficiente</string>
     <string name="an_error_occurred">Ocorreu um erro: %s</string>
@@ -607,7 +607,7 @@
     <string name="sunday_first">Iniciar a semana no Domingo</string>
     <string name="use_same_snooze">Sempre usar o mesmo tempo de soneca</string>
     <string name="snooze_time">Tempo de soneca</string>
-    <string name="vibrate_on_button_press">Vibrar ao pressionar um botão</string>
+    <string name="vibrate_on_button_press">Vibrar ao premir um botão</string>
     <string name="move_items_into_recycle_bin">Mover elementos apagados para o lixo</string>
     <string name="recycle_bin_cleaning_interval">Intervalo de limpeza do lixo</string>
     <string name="empty_recycle_bin">Esvaziar o lixo</string>
