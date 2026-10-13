@@ -509,7 +509,7 @@
             감사합니다
         ]]></string>
     <string name="sideloaded_app"><![CDATA[
-            앱 버전이 손상된 것 같습니다. <a href="%s">여기</a>에서 정식 버전을 다운로드하세요..
+            앱 버전이 손상된 것 같습니다. <a href="%s">여기</a>에서 정식 버전을 다운로드하세요.
         ]]></string>
     <string name="frequently_asked_questions">자주 묻는 질문</string>
     <string name="faq_1_title_commons">위젯 목록에 이 앱이 표시되지 않으면 어떻게 해야 하나요?</string>
