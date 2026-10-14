@@ -589,7 +589,9 @@
             Bạn có thể tải chúng xuống bằng cách nhấn vào tên hoặc biểu tượng của chúng.<br><br>
             Cảm ơn
         ]]></string>
-    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Có vẻ như phiên bản ứng dụng của bạn bị hỏng. Vui lòng tải phiên bản gốc <a href="%s">tại đây</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
+    <string name="sideloaded_app"><![CDATA[
+            Có vẻ như phiên bản ứng dụng của bạn bị hỏng. Vui lòng tải phiên bản gốc <a href="%s">tại đây</a>.
+        ]]></string>
     <string name="frequently_asked_questions">Câu hỏi thường gặp</string>
     <string name="before_asking_question">Trước khi bạn đặt câu hỏi, hãy đọc</string>
     <string name="faq_1_title_commons">Tại sao tôi không thấy widget app này trong danh sách widget?</string>
