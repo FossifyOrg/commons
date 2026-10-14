@@ -14,7 +14,7 @@
     <string name="open_with">Abrir com</string>
     <string name="edit_with">Editar com</string>
     <string name="edit">Editar</string>
-    <string name="no_app_found">Nenhum aplicação encontrada</string>
+    <string name="no_app_found">Nenhuma aplicação encontrada</string>
     <string name="no_browser_found">Nenhum navegador encontrado</string>
     <string name="no_email_client_found">Nenhuma aplicação de e-mail encontrada</string>
     <string name="set_as">Definir como</string>
@@ -109,7 +109,7 @@
     <string name="import_blocked_numbers">Importar números bloqueados</string>
     <string name="must_make_default_dialer">Tem que tornar esta aplicação como padrão para poder bloquear números.</string>
     <string name="set_as_default">Definir como padrão</string>
-    <string name="block_confirmation">Tema certeza de que deseja bloquear \"%s\"?</string>
+    <string name="block_confirmation">Tem certeza de que deseja bloquear \"%s\"?</string>
     <string name="block_unknown_calls">Bloquear chamadas de números não associados aos contactos</string>
     <string name="block_unknown_messages">Bloquear mensagens de números não associados aos contactos</string>
     <string name="add_blocked_number_helper_text">Digite um número ou um padrão (ex. *12345*, +1*8888) para bloquear todas as chamadas e mensagens de números correspondentes.</string>
@@ -160,7 +160,7 @@
     <string name="filename_cannot_be_empty">O nome do ficheiro não pode estar vazio</string>
     <string name="filename_invalid_characters">O nome do ficheiro contém caracteres inválidos</string>
     <string name="filename_invalid_characters_placeholder">O nome do ficheiro \'%s\' contém caracteres inválidos</string>
-    <string name="extension_cannot_be_empty">A extensão não pode fiar vazia</string>
+    <string name="extension_cannot_be_empty">A extensão não pode ficar vazia</string>
     <string name="source_file_doesnt_exist">Ficheiro de origem %s não existe</string>
     <string name="prepend_filenames">Adicionar texto ao início do nome dos ficheiros</string>
     <string name="append_filenames">Adicionar texto ao fim do nome dos ficheiros</string>
@@ -220,7 +220,7 @@
     <string name="apply_to_all">Aplicar a todos os conflitos</string>
     <string name="system_folder_restriction">O sistema não permite a operação nesta pasta, por favor escolha outra</string>
     <string name="system_folder_copy_restriction">O sistema não permite copiar para esta pasta, por favor, escolha outra</string>
-    <string name="rename_in_sd_card_system_restriction">O sistema não permite que alterar o nome da pasta</string>
+    <string name="rename_in_sd_card_system_restriction">O sistema não permite alterar nomes nesta pasta</string>
     <string name="rename_internal_system_restriction">Não é possível mudar o nome de pastas diretamente no armazenamento interno, apenas subpastas</string>
     <string name="cannot_rename_folder">Não foi possível mudar o nome desta pasta</string>
     <string name="select_folder">Selecione uma pasta</string>
@@ -230,7 +230,7 @@
     <string name="confirm_storage_access_text">Por favor escolha a pasta raiz do cartão SD no próximo passo para conceder acesso de escrita</string>
     <string name="confirm_storage_access_text_sd">Se não encontra o cartão SD, tente isto</string>
     <string name="confirm_storage_access_android_text">Deve permitir o acesso ao armazenamento utilizando o botão \"Utilizar esta pasta\" abaixo.</string>
-    <string name="confirm_storage_access_android_text_specific">Deve permitir o acesso a \'&lt;b&gt;%s&lt;/b&gt;\' no próximo ecrã, premindo\'&lt;b&gt;Utilizar esta pasta&lt;/b&gt;\' abaixo.</string>
+    <string name="confirm_storage_access_android_text_specific">Deve permitir o acesso a \'&lt;b&gt;%s&lt;/b&gt;\' no próximo ecrã, premindo \'&lt;b&gt;Utilizar esta pasta&lt;/b&gt;\' abaixo.</string>
     <string name="confirm_create_doc_for_new_folder_text">Prima \'&lt;b&gt;Guardar&lt;/b&gt;\' no próximo ecrã para criar uma pasta.</string>
     <string name="confirm_selection">Confirmar seleção</string>
     <string name="loading">A carregar…</string>
@@ -248,7 +248,7 @@
     <plurals name="deleting_items">
         <item quantity="one">A eliminar %d item</item>
         <item quantity="many">A eliminar %d itens</item>
-        <item quantity="other">A elimininar %d itens</item>
+        <item quantity="other">A eliminar %d itens</item>
     </plurals>
     <plurals name="delete_contacts">
         <item quantity="one">%d contacto</item>
@@ -291,7 +291,7 @@
     <string name="foreground_color">Cor de primeiro plano</string>
     <string name="app_icon_color">Cor do ícone</string>
     <string name="bottom_navigation_bar_color">Cor da barra de navegação inferior</string>
-    <string name="restore_defaults">Reoor predefinições</string>
+    <string name="restore_defaults">Repor predefinições</string>
     <string name="use_default">Utilizar predefinição</string>
     <string name="default_color">Padrão</string>
     <string name="change_color">Mudar cor</string>
@@ -303,7 +303,7 @@
     <string name="undo_changes_confirmation">Tem a certeza de que deseja desfazer as alterações?</string>
     <string name="cannot_be_undone">Esta ação não pode ser revertida.</string>
     <string name="save_before_closing">Existem alterações não guardadas. Guardar antes de sair?</string>
-    <string name="global_theme_success">O tema atual foi aplicado com sucesso a todos as aplicações Fossify. Quaisquer alterações futuras neste tema serão sincronizadas automaticamente.</string>
+    <string name="global_theme_success">O tema atual foi aplicado com sucesso a todas as aplicações Fossify. Quaisquer alterações futuras neste tema serão sincronizadas automaticamente.</string>
     <string name="purchase_thank_you"><![CDATA[
             Adquira <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para poder utilizar esta funcionalidade e apoiar no desenvolvimento!
         ]]></string>
@@ -659,7 +659,7 @@
     <string name="files_restored_successfully">Os ficheiros foram restaurados com sucesso</string>
     <string name="empty_recycle_bin_confirmation">Tem a certeza de que deseja limpar a reciclagem? Os ficheiros serão removidos permanentemente.</string>
     <string name="recycle_bin_empty">A reciclagem está vazia</string>
-    <string name="moving_recycle_bin_items_disabled">A recuperação de ficheiros existentes na reciclagem está desativada. Utilize a opção Restaurar.</string>
+    <string name="moving_recycle_bin_items_disabled">A movimentação de ficheiros existentes na reciclagem está desativada. Utilize a opção Restaurar.</string>
     <string name="show_the_recycle_bin">Mostrar reciclagem</string>
     <string name="hide_the_recycle_bin">Ocultar reciclagem</string>
     <string name="open_the_recycle_bin">Abrir reciclagem</string>
@@ -987,7 +987,7 @@
     <string name="allow_notifications_voice_recorder">Deve permitir que a aplicação mostre notificações. Caso contrário, não será possível gravar áudio.</string>
     <string name="allow_notifications_incoming_messages">Deve permitir que a aplicação mostre notificações. Caso contrário, não será possível mostrar as mensagens recebidas.</string>
     <string name="allow_alarm_scheduled_messages">Deve permitir que a aplicação aceda aos alarmes internos. Caso contrário, não será possível agendar o envio de mensagens.</string>
-    <string name="allow_alarm_sleep_timer">Deve permitir que a aplicação aceda aos alarmes internos. Caso contrário, não será possível fechar a aplicação ao ativar o temporizador.</string>
+    <string name="allow_alarm_sleep_timer">Deve permitir que a aplicação aceda aos alarmes internos. Caso contrário, não será possível fechar a aplicação ao terminar o temporizador.</string>
     <string name="allow_location_permission">Deve permitir que a aplicação aceda à localização.</string>
     <string name="allow_notifications_files">Deve permitir que a aplicação mostre notificações. Caso contrário, não será possível mostrar a barra de progresso.</string>
     <string name="app_icon_color_warning">Cuidado: alguns \'launchers\' podem não lidar corretamente com a personalização do ícone. Se o ícone desaparecer, tente iniciar a aplicação pelo Google Play ou por um widget. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar a aplicação.</string>
