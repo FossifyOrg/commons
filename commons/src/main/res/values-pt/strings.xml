@@ -590,13 +590,13 @@
     <string name="customize_notifications">Personalizar notificações</string>
     <string name="use_english_language">Usar o idioma inglês</string>
     <string name="language">Idioma</string>
-    <string name="show_hidden_items">Exibir elementos ocultos</string>
+    <string name="show_hidden_items">Mostrar itens ocultos</string>
     <string name="font_size">Tamanho do texto</string>
     <string name="small">Pequeno</string>
     <string name="medium">Médio</string>
     <string name="large">Grande</string>
     <string name="extra_large">Muito grande</string>
-    <string name="password_protect_hidden_items">Proteger com palavra-passe a visualização de itens ocultos</string>
+    <string name="password_protect_hidden_items">Proteger com palavra-passe a exibição de itens ocultos</string>
     <string name="password_protect_whole_app">Proteger com palavra-passe todo o app</string>
     <string name="password_protect_file_deletion">Proteger com palavra-passe as operações de excluir e mover ficheiros</string>
     <string name="keep_last_modified">Manter o valor antigo da última modificação nas operações de ficheiro</string>
