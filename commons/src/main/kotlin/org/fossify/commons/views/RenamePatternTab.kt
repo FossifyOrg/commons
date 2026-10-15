@@ -100,7 +100,13 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
                                 ignoreClicks = false
                                 if (android30Format != Android30RenameFormat.NONE) {
                                     currentIncrementalNumber = incrementalNumber
-                                    renameAllFiles(validPaths.drop(index), useMediaFileExtension, android30Format, newNameRaw, callback)
+                                    renameAllFiles(
+                                        validPaths.drop(index),
+                                        useMediaFileExtension,
+                                        android30Format,
+                                        newNameRaw,
+                                        callback
+                                    )
                                 } else {
                                     callback(false)
                                 }
@@ -203,7 +209,8 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
                 try {
                     uris.forEachIndexed { index, uri ->
                         val path = validPaths[index]
-                        val newFileName = getNewPath(path, useMediaFileExtension, renamePattern)?.getFilenameFromPath() ?: return@forEachIndexed
+                        val newFileName = getNewPath(path, useMediaFileExtension, renamePattern)
+                            ?.getFilenameFromPath() ?: return@forEachIndexed
                         when (android30Format) {
                             Android30RenameFormat.SAF -> {
                                 val sourceFile = File(path).toFileDirItem(context)
