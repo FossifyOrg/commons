@@ -785,7 +785,7 @@
     <string name="sms_messenger_short">Съобщения</string>
     <string name="thank_you_short">Благодарим ви</string>
     <string name="voice_recorder_short">Диктофон</string>
-    <string name="sideloaded_app"><![CDATA[Изглежда, че приложението е повредено. Изтеглете оригиналното приложение <a href="%s">от тук</a>.]]></string>
+    <string name="sideloaded_app"><![CDATA[Изглежда, че приложението е повредено. Изтеглете оригиналното приложение <a href="%s">оттук</a>.]]></string>
     <string name="frequently_asked_questions">Често задавани въпроси</string>
     <string name="before_asking_question">Преди да зададете въпрос, първо прочетете</string>
     <string name="faq_1_title_commons">Как така не виждам това приспособление за приложения в списъка с приспособления?</string>
