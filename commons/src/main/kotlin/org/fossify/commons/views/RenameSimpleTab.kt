@@ -114,6 +114,19 @@ class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(co
         }
     }
 
+    private fun getNewFileName(path: String, appendString: Boolean, stringToAdd: String): String {
+        val fullName = path.getFilenameFromPath()
+        val dotAt = fullName.lastIndexOf(".").takeIf { it != -1 } ?: fullName.length
+        val name = fullName.substring(0, dotAt)
+        val extension = if (fullName.contains(".")) ".${fullName.getFilenameExtension()}" else ""
+
+        return if (appendString) {
+            "$name$stringToAdd$extension"
+        } else {
+            "$stringToAdd$fullName"
+        }
+    }
+
     private fun renameAllFiles(
         paths: List<String>,
         appendString: Boolean,
@@ -122,30 +135,26 @@ class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(co
         callback: (success: Boolean) -> Unit
     ) {
         val fileDirItems = paths.map { File(it).toFileDirItem(context) }
-        val uriPairs = context.getUrisPathsFromFileDirItems(fileDirItems)
-        val validPaths = uriPairs.first
-        val uris = uriPairs.second
-        val activity = activity
-        activity?.updateSDK30Uris(uris) { success ->
-            if (success) {
+        val activity = activity ?: return
+        context.resolveMediaStoreUris(fileDirItems) { resolution ->
+            if (resolution.unresolved.isNotEmpty()) {
+                activity.toast(R.string.unknown_error_occurred)
+                callback(false)
+                return@resolveMediaStoreUris
+            }
+
+            val resolved = resolution.resolved
+            activity.updateSDK30Uris(resolution.uris) { success ->
+                if (!success) {
+                    callback(false)
+                    return@updateSDK30Uris
+                }
+
                 try {
-                    uris.forEachIndexed { index, uri ->
-                        val path = validPaths[index]
-
-                        val fullName = path.getFilenameFromPath()
-                        var dotAt = fullName.lastIndexOf(".")
-                        if (dotAt == -1) {
-                            dotAt = fullName.length
-                        }
-
-                        val name = fullName.substring(0, dotAt)
-                        val extension = if (fullName.contains(".")) ".${fullName.getFilenameExtension()}" else ""
-
-                        val newName = if (appendString) {
-                            "$name$stringToAdd$extension"
-                        } else {
-                            "$stringToAdd$fullName"
-                        }
+                    resolved.forEach { resolvedUri ->
+                        val path = resolvedUri.fileDirItem.path
+                        val uri = resolvedUri.uri
+                        val newName = getNewFileName(path, appendString, stringToAdd)
 
                         when (android30Format) {
                             Android30RenameFormat.SAF -> {
@@ -180,7 +189,7 @@ class RenameSimpleTab(context: Context, attrs: AttributeSet) : RelativeLayout(co
                                 activity.runOnUiThread {
                                     callback(true)
                                 }
-                                return@forEachIndexed
+                                return@forEach
                             }
                         }
                     }
