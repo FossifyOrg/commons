@@ -882,7 +882,7 @@
     <string name="pdf_view_pager_title">PDFViewPager (PDF-visare)</string>
     <string name="pdf_viewer_title">Android PdfViewer (PDF-visare)</string>
     <string name="m3u_parser_title">M3U Parser (m3u spellista filhantering)</string>
-    <string name="android_lame_title">Android Lame (mp3 encoder)</string>
+    <string name="android_lame_title">AndroidLame (MP3-kodare)</string>
     <string name="zip4j_title">Zip4j (ZIP-komprimering och dekomprimering)</string>
     <string name="trial_expired">Prövotiden har löpt ut</string>
     <string name="start_free_trial">Starta gratis prövotid</string>
@@ -964,7 +964,7 @@
     <string name="evalex_title">EvalEx (utvärdering av matematiska uttryck)</string>
     <string name="requires_fossify_thank_you">Kräver Fossify Thank You</string>
     <string name="string_to_add">Text som ska läggas till</string>
-    <string name="donate_short">Stöd oss genom att köpa &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, detta låser också upp alla appfunktioner inklusive färganpassning.</string>
+    <string name="donate_short">Gillar du Fossify? Stöd utvecklingen av våra reklamfria appar genom att köpa &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. Det aktiverar också anpassade teckensnitt och gemensamma anpassningar för Fossify-apparna. Tack för ditt stöd!</string>
     <string name="app_icon_color_warning">Varning! Vissa startprogram hanterar kanske inte anpassning av appikoner korrekt. Om ikonen försvinner kan du, om det är möjligt, prova att starta appen via Google Play eller en widget. När du har startat appen återställer du ikonens gröna standardfärg #106D1F. I extrema fall kan det vara nödvändigt att installera om appen.</string>
     <string name="faq_6_text_commons">Det här problemet uppstår när startprogrammet inte har fullt stöd för ikonanpassning. Prova att starta appen via Google Play eller en widget, om det är möjligt. När du har startat appen återställer du ikonens gröna standardfärg #106D1F. I extrema fall kan det vara nödvändigt att installera om appen.</string>
     <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Den här listan innehåller alla som på ett märkbart sätt har bidragit till någon Fossify-app, inte bara den här. Översättningarna hanteras av volontärer,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020kontakta oss om du också vill hjälpa till. Översättningsguiden finns på <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">den här webbplatsen</a>, kontakta oss på <a href="mailto:hello@fossify.org">hello@fossify.org</a> om du har några frågor.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Tack till alla bidragsgivare och andra supportrar!\n \u0020 \u0020 \u0020 \u0020]]></string>
