@@ -877,7 +877,9 @@
     <string name="dialer_short">Ciferilo</string>
     <string name="draw_short">Desegno</string>
     <string name="sms_messenger_short">SMS-mesaĝilo</string>
-    <string name="sideloaded_app"><![CDATA["<![CDATA]\n            Ŝajnas, ke la versio de via aplikaĵo estas difektita. Bonvolu elŝuti la originan version <a href=\"%s\">ĉi tie</a>.\n        ]]]]><![CDATA[>"]]></string>
+    <string name="sideloaded_app"><![CDATA[
+            Ŝajnas, ke la versio de via aplikaĵo estas difektita. Bonvolu elŝuti la originan version <a href="%s">ĉi tie</a>.
+        ]]></string>
     <string name="donate_to_fossify">Donaci al Fossify</string>
     <string name="all_fossify_apps">Ĉiuj aplikaĵoj de Fossify</string>
     <string name="voice_recorder_short">Sonregistrilo</string>
