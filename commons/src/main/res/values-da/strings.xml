@@ -954,7 +954,7 @@
     <string name="support">Support</string>
     <string name="social">Social</string>
     <string name="version_placeholder">Version %s</string>
-    <string name="donate_short">Støt os ved at købe &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank you&lt;/a&gt;. Det låser også op for alle appens funktioner, herunder tilpasning af farver.</string>
+    <string name="donate_short">Kan du lide Fossify? Støt udviklingen af vores reklamefrie apps ved at købe &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank you&lt;/a&gt;. Det låser også op for brugerdefinerede skrifttyper og delt tilpasning på tværs af Fossify apps. Tak for støtten!</string>
     <string name="update_thank_you">Opdater venligst Fossify Thank You til den nyeste version</string>
     <string name="all_fossify_apps">Alle Fossify apps</string>
     <string name="launcher_short">Launcher</string>
@@ -995,4 +995,6 @@
     <string name="call_contact">Ring til kontakt</string>
     <string name="view_contact">Vis kontaktdetaljer</string>
     <string name="font_monospace">Fastbredde</string>
+    <string name="rate_app_prompt">Kan du lide appen? Venligst bedøm den på Google Play.</string>
+    <string name="donation_prompt">Hvis du kan lide at bruge denne app, så overvej venligst at støtte udviklingen af Fossify.</string>
 </resources>
