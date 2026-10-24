@@ -340,7 +340,9 @@
     <string name="apply_to_all_apps">ใช้ธีมกับแอป Fossify ทั้งหมด</string>
     <string name="app_icon_color_warning">ข้อควรระวัง: Launcher บางตัวอาจจัดการการปรับแต่งไอคอนแอปได้ไม่ถูกต้อง หากไอคอนหายไป ให้ลองเปิดแอปผ่าน Google Play หรือวิดเจ็ตหากใช้งานได้ หลังจากเปิดแล้ว ให้คืนค่าสีไอคอนสีเขียวเริ่มต้น #106D1F ในกรณีร้ายแรง อาจต้องติดตั้งแอปใหม่</string>
     <string name="global_theme_success">ธีมปัจจุบันถูกนำไปใช้กับแอป Fossify ทั้งหมดเรียบร้อยแล้ว การเปลี่ยนแปลงธีมในอนาคตจะซิงค์โดยอัตโนมัติ</string>
-    <string name="purchase_thank_you"><![CDATA["<![CDATA\n            กรุณาซื้อ <a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\">Fossify Thank You</a> เพื่อใช้ฟีเจอร์นี้และสนับสนุนการพัฒนา ขอบคุณ!\n        ]]]]><![CDATA[>"]]></string>
+    <string name="purchase_thank_you"><![CDATA[
+            กรุณาซื้อ <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> เพื่อใช้ฟีเจอร์นี้และสนับสนุนการพัฒนา ขอบคุณ!
+        ]]></string>
     <string name="light_theme">สว่าง</string>
     <string name="dark_theme">มืด</string>
     <string name="auto_theme">อัตโนมัติ</string>
