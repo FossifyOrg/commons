@@ -997,7 +997,7 @@
     <string name="social">Družabna omrežja</string>
     <string name="other">Ostalo</string>
     <string name="version_placeholder">Različica %s</string>
-    <string name="donate_short">Podprite nas z nakupom aplikacije &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt;, s čimer boste odklenili tudi vse funkcije aplikacije, vključno s prilagajanjem barv.</string>
+    <string name="donate_short">Vam je Fossify všeč? Podprite nas z nakupom aplikacije &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;, s čimer boste odklenili tudi vse funkcije aplikacije, vključno s prilagajanjem barv. Hvala za vašo podporo!</string>
     <string name="update_thank_you">Posodobite Fossify Thank You na najnovejšo različico</string>
     <string name="all_fossify_apps">Vse aplikacije Fossify</string>
     <string name="donate_to_fossify">Darujte Kavdori</string>
@@ -1068,4 +1068,5 @@
     <string name="commonmark_title">CommonMark (razčlenjevalnik Markdown)</string>
     <string name="jsoup_title">jsoup (razčlenjevalnik HTML)</string>
     <string name="commons_csv_title">Apache Commons CSV (razčlenjevalnik CSV)</string>
+    <string name="rate_app_prompt">Vam je aplikacija všeč? Potem jo prosimo ocenite v Trgovini Play.</string>
 </resources>
