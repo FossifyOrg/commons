@@ -1020,4 +1020,5 @@
     <string name="commonmark_title">CommonMark (analyseur Markdown)</string>
     <string name="jsoup_title">jsoup (analyseur HTML)</string>
     <string name="commons_csv_title">Apache Commons CSV (analyseur CSV)</string>
+    <string name="rate_app_prompt">Vous aimez cette appli ? Merci de laisser un avis sur Google Play.</string>
 </resources>
