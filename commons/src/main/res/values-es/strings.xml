@@ -335,7 +335,9 @@
     <string name="save_before_closing">Tiene cambios sin aplicar. ¿Guardar antes de salir?</string>
     <string name="app_icon_color_warning">Precaución: Es posible que algunos lanzadores no gestionen correctamente la personalización de los iconos de las aplicaciones. Si el icono desaparece, intente iniciar la aplicación a través de Google Play o un widget, si es accesible. Una vez iniciada, restaura el icono verde #106D1F predeterminado. En casos extremos, puede ser necesario reinstalar la aplicación.</string>
     <string name="global_theme_success">El tema actual se ha aplicado correctamente a todas las aplicaciones de Fossify. Cualquier cambio futuro en este tema se sincronizará automáticamente.</string>
-    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Adquiera <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para usar esta función y apoyar el desarrollo. ¡Gracias!\n \u0020 \u0020 \u0020 \u0020]]></string>
+    <string name="purchase_thank_you"><![CDATA[
+            Por favor, adquiere <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> para usar esta función y apoyar el desarrollo. ¡Gracias!
+        ]]></string>
     <string name="light_theme">Claro</string>
     <string name="dark_theme">Oscuro</string>
     <string name="auto_light_dark_theme">Claro / Negro automático</string>
@@ -628,7 +630,7 @@
     <string name="use_english_language">Usar el idioma inglés</string>
     <string name="language">Idioma</string>
     <string name="show_hidden_items">Mostrar elementos ocultos</string>
-    <string name="font_size">Tamaño de fuente</string>
+    <string name="font_size">Tamaño de la fuente</string>
     <string name="small">Pequeña</string>
     <string name="medium">Mediana</string>
     <string name="large">Grande</string>
@@ -988,7 +990,7 @@
     <string name="website">Página web</string>
     <string name="social">Social</string>
     <string name="update_thank_you">Por favor, actualice Fossify Thank You a la última versión</string>
-    <string name="donate_short">Apóyanos comprando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; por favor, también desbloqueará todas las características de la app incluyendo la personalización de colores.</string>
+    <string name="donate_short">¿Te gusta Fossify? Apoya el desarrollo de nuestras aplicaciones sin anuncios comprando &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;. También habilitará fuentes personalizadas y la personalización compartida entre las aplicaciones de Fossify. ¡Muchas gracias por tu apoyo!</string>
     <string name="translation_bulgarian">Búlgaro</string>
     <string name="translation_chuvash">Chuvasio</string>
     <string name="translation_gujarati">Guyaratí</string>
@@ -1037,4 +1039,6 @@
     <string name="commonmark_title">CommonMark (analizador Markdown)</string>
     <string name="jsoup_title">jsoup (analizador HTML)</string>
     <string name="commons_csv_title">Apache Commons CSV (analizador CSV)</string>
+    <string name="rate_app_prompt">¿Te gusta la aplicación? Por favor, valórala en Google Play.</string>
+    <string name="donation_prompt">Si disfrutas usando esta aplicación, considera apoyar el desarrollo de Fossify.</string>
 </resources>
