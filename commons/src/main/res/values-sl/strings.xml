@@ -939,7 +939,7 @@
     <string name="apply_to_all_apps">Uporabi temo za vse aplikacije Fossify</string>
     <string name="app_icon_color_warning">Pozor: Nekateri zaganjalniki morda ne bodo pravilno prilagodili ikon aplikacij. Če ikona izgine, poskusite zagnati aplikacijo prek trgovine Google Play ali pripomočka, če je na voljo. Po zagonu obnovite privzeto zeleno barvo ikone #106D1F. V skrajnih primerih bo morda potrebna ponovna namestitev aplikacije.</string>
     <string name="purchase_thank_you"><![CDATA[ 
-            Za uporabo te funkcije kupite aplikacijo <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> in tako podprite Fossifyev razvoj. Hvala!
+            Za uporabo te funkcije kupite aplikacijo <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> in tako podprite razvoj Kavdore. Hvala!
         ]]></string>
     <string name="allow_access_more_media">Dovoli dostop do več medijev</string>
     <string name="show_line_numbers">Prikaži številke vrstic</string>
@@ -1078,5 +1078,5 @@
     <string name="jsoup_title">jsoup (razčlenjevalnik HTML)</string>
     <string name="commons_csv_title">Apache Commons CSV (razčlenjevalnik CSV)</string>
     <string name="rate_app_prompt">Vam je aplikacija všeč? Potem jo prosimo ocenite v Trgovini Play.</string>
-    <string name="donation_prompt">Če vam je ta aplikacija všeč, bi nas veselilo, če bi podprli Fossifyev razvoj.</string>
+    <string name="donation_prompt">Če vam je ta aplikacija všeč, bi nas veselilo, če bi podprli razvoj Kavdore.</string>
 </resources>
