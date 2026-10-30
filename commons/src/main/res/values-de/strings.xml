@@ -71,10 +71,10 @@
     <string name="choose_file">Datei auswählen</string>
     <string name="record_audio">Audio aufnehmen</string>
     <string name="record_video">Video aufnehmen</string>
-    <string name="updating">Aktualisieren …</string>
+    <string name="updating">Wird aktualisiert …</string>
     <string name="phone_storage">Gerätespeicher</string>
     <string name="phone_storage_hidden">Gerätespeicher (nicht sichtbar für andere Apps)</string>
-    <string name="scanning">Durchsuchen …</string>
+    <string name="scanning">Wird durchsucht …</string>
     <string name="birthday">Geburtstag</string>
     <string name="anniversary">Jahrestag</string>
     <string name="home">Privat</string>
@@ -209,17 +209,17 @@
     <string name="please_select_destination">Bitte Ziel auswählen</string>
     <string name="source_and_destination_same">Quell- und Zielpfad sind identisch</string>
     <string name="copy_failed">Die Dateien konnten nicht kopiert werden</string>
-    <string name="copying">Kopieren …</string>
+    <string name="copying">Wird kopiert …</string>
     <string name="copying_success">Datei(en) erfolgreich kopiert</string>
     <string name="copying_success_one">Datei erfolgreich kopiert</string>
     <string name="copy_move_failed">Es ist ein Fehler aufgetreten</string>
-    <string name="moving">Verschieben …</string>
+    <string name="moving">Wird verschoben …</string>
     <string name="moving_success">Datei(en) erfolgreich verschoben</string>
     <string name="moving_success_one">Datei erfolgreich verschoben</string>
     <string name="moving_success_partial">Einige Dateien konnten nicht verschoben werden</string>
     <string name="copying_success_partial">Einige Dateien konnten nicht kopiert werden</string>
     <string name="no_files_selected">Keine Dateien ausgewählt</string>
-    <string name="saving">Speichern …</string>
+    <string name="saving">Wird gespeichert …</string>
     <string name="could_not_create_folder">Ordner %s konnte nicht erstellt werden</string>
     <string name="could_not_create_file">Datei %s konnte nicht erstellt werden</string>
     <string name="no_new_items">Keine neuen Elemente gefunden</string>
@@ -679,8 +679,8 @@
         <item quantity="one">%d Element wird in den Papierkorb verschoben</item>
         <item quantity="other">%d Elemente werden in den Papierkorb verschoben</item>
     </plurals>
-    <string name="importing">Importieren …</string>
-    <string name="exporting">Exportieren …</string>
+    <string name="importing">Wird importiert …</string>
+    <string name="exporting">Wird exportiert …</string>
     <string name="importing_successful">Importieren erfolgreich</string>
     <string name="exporting_successful">Exportieren erfolgreich</string>
     <string name="importing_failed">Importieren fehlgeschlagen</string>
