@@ -264,7 +264,7 @@
     <string name="portrait_column_count">Niver a golonennoù \"Poltred\"</string>
     <string name="landscape_column_count">Niver a golonennoù \"Gweledva\"</string>
     <string name="change_cover_image">Cheñch skeudenn ar golo</string>
-    <string name="select_photo">Choaz ul luc\'hskeudenn</string>
+    <string name="select_photo">Diuzañ ul luc\'hskeudenn</string>
     <plurals name="column_counts">
         <item quantity="one">%d golonenn</item>
         <item quantity="two">%d golonenn</item>
@@ -415,4 +415,21 @@
     <string name="cropper_title">Android Image Cropper (krennañ ha treiñ skeudennoù)</string>
     <string name="are_you_sure_delete">Ha sur oc\'h e fell deoc\'h dilemel an elfenn-mañ ?</string>
     <string name="move_items_into_recycle_bin">Kas an elfennoù dilamet er pod-lastez</string>
+    <string name="cannot_hide_files">Adalek Android 11 ne c\'hellit ket mui kuzhat ar restroù hag an teuliadoù gant an doare-mañ</string>
+    <string name="copy_failed">Dibosupl eilañ ar restroù</string>
+    <string name="system_service_disabled">Dihegerz eo ar servij evit diuzañ ar restroù hag an teuliadoù</string>
+    <string name="create_new">Krouiñ unan nevez</string>
+    <string name="create_new_folder">Krouiñ un teuliad nevez</string>
+    <string name="name_taken">Ur restr pe un teuliad gant an anv-se zo anezhañ dija</string>
+    <string name="invalid_name">Arouezennoù direizh zo e-barzh an anv</string>
+    <string name="empty_name">Enankit un anv mar-plij</string>
+    <string name="unknown_error_occurred">C\'hoarvezet ez eus ur fazi dianav</string>
+    <string name="file_already_exists">Ar restr \"%s\" \'zo anezhañ dija</string>
+    <string name="file_already_exists_overwrite">Ar restr \"%s\" \'zo anezhañ dija. Erlec\'hiañ ?</string>
+    <string name="folder_already_exists">An teuliad \"%s\" \'zo anezhañ dija</string>
+    <string name="keep_both">Mirout an daou</string>
+    <string name="overwrite">Erlec\'hiañ</string>
+    <string name="skip">Lezel a-gostez</string>
+    <string name="append">Ouzhpennañ \'_1\' er fin</string>
+    <string name="apply_to_all">Arloañ d\'an holl</string>
 </resources>
