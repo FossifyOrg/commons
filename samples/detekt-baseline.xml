@@ -4,7 +4,6 @@
   <CurrentIssues>
     <ID>MaxLineLength:MainActivity.kt$MainActivity$faqItems.add(FAQItem(org.fossify.commons.R.string.faq_2_title_commons, org.fossify.commons.R.string.faq_2_text_commons))</ID>
     <ID>MaxLineLength:MainActivity.kt$MainActivity$faqItems.add(FAQItem(org.fossify.commons.R.string.faq_6_title_commons, org.fossify.commons.R.string.faq_6_text_commons))</ID>
-    <ID>MaxLineLength:MainActivity.kt$MainActivity$val showMoreApps = onEventValue { !resources.getBoolean(org.fossify.commons.R.bool.hide_google_relations) }</ID>
     <ID>MaxLineLength:MainScreen.kt$customTopBar</ID>
     <ID>MaxLineLength:TestDialogActivity.kt$TestDialogActivity$//todo create helper for private fun createFolder(path: String, alertDialog: AlertDialog) to extract bundled logic</ID>
     <ID>MaxLineLength:TestDialogActivity.kt$TestDialogActivity$AddOrEditBlockedNumberAlertDialog(alertDialogState = this, blockedNumber = null, deleteBlockedNumber = {}) {}</ID>
