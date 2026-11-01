@@ -45,7 +45,6 @@
     <ID>ComposableParamOrder:SimpleLazyListScaffold.kt$SimpleScaffold</ID>
     <ID>ComposableParamOrder:SimpleScaffoldTopBar.kt$SimpleNavigationIcon</ID>
     <ID>ComposableParamOrder:SimpleScaffoldTopBar.kt$SimpleScaffoldTopBar</ID>
-    <ID>ComposableParamOrder:UpgradeToProDialog.kt$UpgradeToProAlertDialog</ID>
     <ID>ComposableParamOrder:WhatsNewDialog.kt$WhatsNewAlertDialog</ID>
     <ID>ComposableParamOrder:WritePermissionDialog.kt$WritePermissionAlertDialog</ID>
     <ID>ComposableParamOrder:WritePermissionDialog.kt$WritePermissionImage</ID>
@@ -320,7 +319,6 @@
     <ID>MagicNumber:Activity.kt$60</ID>
     <ID>MagicNumber:ActivityExtensions.kt$10</ID>
     <ID>MagicNumber:ActivityExtensions.kt$100</ID>
-    <ID>MagicNumber:ActivityExtensions.kt$30</ID>
     <ID>MagicNumber:ActivityExtensions.kt$50</ID>
     <ID>MagicNumber:BaseConfig.kt$BaseConfig$10</ID>
     <ID>MagicNumber:BaseSimpleActivity.kt$BaseSimpleActivity$10</ID>
@@ -1006,12 +1004,10 @@
     <ID>MaxLineLength:BaseConfig.kt$BaseConfig$set(showCheckmarksOnSwitches) = prefs.edit().putBoolean(SHOW_CHECKMARKS_ON_SWITCHES, showCheckmarksOnSwitches).apply()</ID>
     <ID>MaxLineLength:BaseConfig.kt$BaseConfig$set(showOnlyContactsWithNumbers) = prefs.edit().putBoolean(SHOW_ONLY_CONTACTS_WITH_NUMBERS, showOnlyContactsWithNumbers).apply()</ID>
     <ID>MaxLineLength:BaseConfig.kt$BaseConfig$set(wasFolderLockingNoticeShown) = prefs.edit().putBoolean(WAS_FOLDER_LOCKING_NOTICE_SHOWN, wasFolderLockingNoticeShown).apply()</ID>
-    <ID>MaxLineLength:BaseConfig.kt$BaseConfig$set(wasInitialUpgradeToProShown) = prefs.edit().putBoolean(WAS_INITIAL_UPGRADE_TO_PRO_SHOWN, wasInitialUpgradeToProShown).apply()</ID>
     <ID>MaxLineLength:BaseConfig.kt$BaseConfig$set(wasLocalAccountInitialized) = prefs.edit().putBoolean(WAS_LOCAL_ACCOUNT_INITIALIZED, wasLocalAccountInitialized).apply()</ID>
     <ID>MaxLineLength:BaseConfig.kt$BaseConfig$set(wasMessengerRecorderShown) = prefs.edit().putBoolean(WAS_MESSENGER_RECORDER_SHOWN, wasMessengerRecorderShown).apply()</ID>
     <ID>MaxLineLength:BaseConfig.kt$BaseConfig$set(wasReminderWarningShown) = prefs.edit().putBoolean(WAS_REMINDER_WARNING_SHOWN, wasReminderWarningShown).apply()</ID>
     <ID>MaxLineLength:BaseConfig.kt$BaseConfig$set(wasSortingByNumericValueAdded) = prefs.edit().putBoolean(WAS_SORTING_BY_NUMERIC_VALUE_ADDED, wasSortingByNumericValueAdded).apply()</ID>
-    <ID>MaxLineLength:BaseConfig.kt$BaseConfig$set(wasUpgradedFromFreeShown) = prefs.edit().putBoolean(WAS_UPGRADED_FROM_FREE_SHOWN, wasUpgradedFromFreeShown).apply()</ID>
     <ID>MaxLineLength:BaseSecurityTab.kt$BaseSecurityTab$updateTitle(context.getString(R.string.too_many_incorrect_attempts, count), context.getColor(R.color.md_red))</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$// synchronous return value determines only if we are showing the SAF dialog, callback result tells if the SD or OTG permission has been granted</ID>
     <ID>MaxLineLength:BaseSimpleActivity.kt$BaseSimpleActivity$// this file is guaranteed to be on the internal storage, so just delete it this way</ID>
@@ -1087,7 +1083,6 @@
     <ID>MaxLineLength:Context-styling.kt$showCheckmarksOnSwitches = cursor.getIntValue(MyContentProvider.COL_SHOW_CHECKMARKS_ON_SWITCHES) != 0</ID>
     <ID>MaxLineLength:Context.kt$// if media content uri is null, get our custom uri like content://org.fossify.gallery.provider/external_files/emulated/0/DCIM/IMG_20171104_233915.jpg</ID>
     <ID>MaxLineLength:Context.kt$fun</ID>
-    <ID>MaxLineLength:Context.kt$fun Context.getCanAppBeUpgraded()</ID>
     <ID>MaxLineLength:Context.kt$fun Context.getDefaultAlarmSound(type: Int)</ID>
     <ID>MaxLineLength:Context.kt$fun Context.getFormattedMinutes(minutes: Int, showBefore: Boolean = true)</ID>
     <ID>MaxLineLength:Context.kt$fun Context.getMyContentProviderCursorLoader()</ID>
@@ -1272,7 +1267,6 @@
     <ID>MaxLineLength:String.kt$spannableString.setSpan(ForegroundColorSpan(primaryColor), startIndex, endIndex, Spannable.SPAN_EXCLUSIVE_INCLUSIVE)</ID>
     <ID>MaxLineLength:Theme.kt$Theme.Companion$textColorInt = if (isSPlus()) colorResource(R.color.you_neutral_text_color).toArgb() else (if (isInDarkThemeAndSurfaceIsNotLitWell()) Color.White else Color.Black).toArgb()</ID>
     <ID>MaxLineLength:ThemeExtensions.kt$fun</ID>
-    <ID>MaxLineLength:UpgradeToProDialog.kt$UpgradeToProDialog$activity</ID>
     <ID>MaxLineLength:VcfExporter.kt$VcfExporter$val</ID>
     <ID>MaxLineLength:VcfExporter.kt$VcfExporter$val photoByteArray = MediaStore.Images.Media.getBitmap(activity.contentResolver, Uri.parse(contact.thumbnailUri)).getByteArray()</ID>
     <ID>MaxLineLength:WritePermissionDialog.kt$.</ID>
@@ -1469,7 +1463,6 @@
     <ID>UnusedPrivateMember:DonateDialog.kt$@Composable @MyDevices private fun DonateAlertDialogPreview()</ID>
     <ID>UnusedPrivateMember:EnterPasswordDialog.kt$@MyDevices @Composable private fun EnterPasswordAlertDialogPreview()</ID>
     <ID>UnusedPrivateMember:FAQScreen.kt$@MyDevices @Composable private fun FAQScreenPreview()</ID>
-    <ID>UnusedPrivateMember:FeatureLockedDialog.kt$@Composable @MyDevices private fun FeatureLockedAlertDialogPreview()</ID>
     <ID>UnusedPrivateMember:FileConflictDialog.kt$@MyDevices @Composable private fun FileConflictAlertDialogPreview()</ID>
     <ID>UnusedPrivateMember:FolderLockingNoticeDialog.kt$@Composable @MyDevices private fun FolderLockingNoticeAlertDialogPreview()</ID>
     <ID>UnusedPrivateMember:LicenseScreen.kt$@Composable @MyDevices private fun LicenseScreenPreview()</ID>
@@ -1494,7 +1487,6 @@
     <ID>UnusedPrivateMember:SimpleDropDownMenuItem.kt$@MyDevices @Composable private fun SimpleDropDownMenuItemPreview()</ID>
     <ID>UnusedPrivateMember:SimpleLazyListScaffold.kt$@MyDevices @Composable private fun SimpleLazyListScaffoldPreview()</ID>
     <ID>UnusedPrivateMember:SimpleScaffoldTopBar.kt$@Composable @MyDevices private fun SimpleScaffoldTopBarPreview()</ID>
-    <ID>UnusedPrivateMember:UpgradeToProDialog.kt$@MyDevices @Composable private fun UpgradeToProAlertDialogPreview()</ID>
     <ID>UnusedPrivateMember:WhatsNewDialog.kt$@MyDevices @Composable private fun WhatsNewAlertDialogPreview()</ID>
     <ID>UnusedPrivateMember:WritePermissionDialog.kt$@Composable @MyDevices private fun WritePermissionAlertDialogPreview(@PreviewParameter(WritePermissionDialogModePreviewParameter::class) mode: WritePermissionDialog.WritePermissionDialogMode)</ID>
     <ID>UnusedPrivateProperty:CustomizationActivity.kt$CustomizationActivity.Companion$private const val THEME_SOLARIZED = 2</ID>
@@ -1586,8 +1578,6 @@
     <ID>WildcardImport:ExportBlockedNumbersDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:ExportSettingsDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:FAQScreen.kt$import androidx.compose.foundation.layout.*</ID>
-    <ID>WildcardImport:FeatureLockedDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
-    <ID>WildcardImport:FeatureLockedDialog.kt$import org.fossify.commons.extensions.*</ID>
     <ID>WildcardImport:File.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:FileConflictDialog.kt$import androidx.compose.foundation.layout.*</ID>
     <ID>WildcardImport:FileConflictDialog.kt$import androidx.compose.runtime.*</ID>
@@ -1650,7 +1640,6 @@
     <ID>WildcardImport:String.kt$import org.fossify.commons.helpers.*</ID>
     <ID>WildcardImport:Theme.kt$import androidx.compose.material3.*</ID>
     <ID>WildcardImport:Theme.kt$import androidx.compose.runtime.*</ID>
-    <ID>WildcardImport:UpgradeToProDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
     <ID>WildcardImport:WhatsNewDialog.kt$import org.fossify.commons.compose.alert_dialog.*</ID>
     <ID>WildcardImport:WritePermissionDialog.kt$import androidx.compose.foundation.layout.*</ID>
   </CurrentIssues>
