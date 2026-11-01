@@ -768,7 +768,15 @@
     <string name="read_it">Ler</string>
     <string name="read_faq">Leia as Perguntas Frequentes</string>
     <string name="thank_you">Obrigado</string>
-    <string name="new_app"><![CDATA["\n            Olá,<br><br>\n            Gostariamos de avisar que lançamos um novo app recentemente:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            Pode descarregá-lo pressionando o título.<br><br>\n            Obrigado\n        "]]></string>
+    <string name="new_app"><![CDATA[
+            Olá,<br><br>
+            Gostaríamos de avisar que lançamos uma nova app recentemente:<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            Pode descarregá-la pressionando o título.<br><br>
+            Obrigado
+        ]]></string>
     <string name="calculator_short">Calculadora</string>
     <string name="calendar_short">Calendário</string>
     <string name="camera_short">Câmara</string>
@@ -1018,4 +1026,7 @@
     <string name="rate_this_app">Avalie esta app</string>
     <string name="badge_deprecated">(obsoleto)</string>
     <string name="translation_latvian">Letão</string>
+    <string name="rate_app_prompt">Está a gostar da app? Por favor avalie na Google Play.</string>
+    <string name="donation_prompt">Se gosta de usar esta app, por favor considere suportar o desenvolvimento do Fossify.</string>
+    <string name="mammoth_title">Mammoth (conversor DOCX)</string>
 </resources>
