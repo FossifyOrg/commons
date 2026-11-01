@@ -86,10 +86,10 @@
     <string name="file_saved">Restr enrollet gant berzh</string>
     <plurals name="files_saved">
         <item quantity="one">Restr enrollet gant berzh</item>
-        <item quantity="two">Restr enrollet gant berzh</item>
-        <item quantity="few">Restr enrollet gant berzh</item>
-        <item quantity="many">Restr enrollet gant berzh</item>
-        <item quantity="other">Restr enrollet gant berzh</item>
+        <item quantity="two">Restroù enrollet gant berzh</item>
+        <item quantity="few">Restroù enrollet gant berzh</item>
+        <item quantity="many">Restroù enrollet gant berzh</item>
+        <item quantity="other">Restroù enrollet gant berzh</item>
     </plurals>
     <string name="invalid_file_format">Direizh eo furmad ar restr</string>
     <string name="out_of_memory_error">Fazi memor ebet ken</string>
@@ -387,7 +387,7 @@
     <string name="no_space">N\'eus ket mui plas a-walc\'h e-barzh an arvoned.\nEzhomm zo %1$s, chom a ra %2$s</string>
     <string name="keyboard_short">Touchennaoueg</string>
     <string name="translation_croatian">Kroateg</string>
-    <string name="surname">Lesanv</string>
+    <string name="surname">Anv-familh</string>
     <string name="translation_hindi">Hindieg</string>
     <string name="file">Restr</string>
     <string name="social">Sokial</string>
@@ -413,6 +413,6 @@
     <string name="before_asking_question">A-raok sevel ur goulenn, lennit da gentañ ar</string>
     <string name="translation_arabic">Arabeg</string>
     <string name="cropper_title">Android Image Cropper (krennañ ha treiñ skeudennoù)</string>
-    <string name="are_you_sure_delete">Ha sur oc\'h e fell deoc\'h dilemel an eflenn-mañ ?</string>
+    <string name="are_you_sure_delete">Ha sur oc\'h e fell deoc\'h dilemel an elfenn-mañ ?</string>
     <string name="move_items_into_recycle_bin">Kas an elfennoù dilamet er pod-lastez</string>
 </resources>
