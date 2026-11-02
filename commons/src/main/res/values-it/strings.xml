@@ -330,7 +330,9 @@
     <string name="apply_to_all_apps">Applica il tema a tutte le app di Fossify</string>
     <string name="app_icon_color_warning">Attenzione: alcuni launcher potrebbero non gestire correttamente la personalizzazione dell\'icona dell\'app. Se l\'icona scompare, prova ad avviare l\'applicazione tramite Google Play o un widget, se accessibile. Dopo l\'avvio, ripristina il colore predefinito dell\'icona verde #106D1F. In casi estremi, potrebbe essere necessario reinstallare l\'applicazione.</string>
     <string name="global_theme_success">Colori aggiornati correttamente. È stato aggiunto un nuovo tema chiamato \'Condiviso\', usare questo per aggiornare tutti i colori dell\'app in futuro.</string>
-    <string name="purchase_thank_you"><![CDATA["\n            Acquista <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Fossify</a> per usare questa funzione e supportare lo sviluppo. Grazie!\n        "]]></string>
+    <string name="purchase_thank_you"><![CDATA[
+            Acquista <a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou>Grazie Fossify</a> per usare questa funzione e supportare lo sviluppo. Grazie!
+        ]]></string>
     <string name="light_theme">Chiaro</string>
     <string name="dark_theme">Scuro</string>
     <string name="auto_light_dark_theme">Auto chiaro / scuro</string>
@@ -364,7 +366,7 @@
     <string name="print">Stampa</string>
     <string name="shortcut">Scorciatoia</string>
     <string name="create_shortcut">Crea scorciatoia</string>
-    <string name="add_number_to_contact">Aggiungi numero al contatto</string>
+    <string name="add_number_to_contact">Aggiungi numero ai contatti</string>
     <string name="view_contact_details">Vedi dettagli del contatto</string>
     <string name="call_from_sim_1">Chiama dalla SIM 1</string>
     <string name="call_from_sim_2">Chiama dalla SIM 2</string>
@@ -791,7 +793,7 @@
     <string name="additional_info">Informazioni aggiuntive</string>
     <string name="app_version">Versione app: %s</string>
     <string name="device_os">SO dispositivo: %s</string>
-    <string name="donate_short">Per favore, sostienici acquistando &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Grazie Fossify&lt;/a&gt;, sbloccherà anche tutte le funzionalità dell\'app, inclusa la personalizzazione del colore.</string>
+    <string name="donate_short">Ti piace Fossify? Sostieni lo sviluppo delle nostre app senza pubblicità acquistando &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Grazie Fossify&lt;/a&gt;. L\'acquisto abiliterà anche i font personalizzati e la personalizzazione condivisa tra le app Fossify. Grazie per il tuo supporto!</string>
     <string name="purchase">Acquista</string>
     <string name="update_thank_you">Aggiorna Grazie Fossify alla versione più recente</string>
     <string name="before_asking_question_read_faq">Prima di fare una domanda, controlla le impostazioni dell\'app e le domande frequenti. Magari si trova la soluzione.</string>
