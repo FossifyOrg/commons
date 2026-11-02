@@ -12,6 +12,7 @@ import android.content.Intent
 import android.content.Intent.EXTRA_STREAM
 import android.content.pm.ApplicationInfo
 import android.content.pm.PackageManager
+import android.media.MediaScannerConnection
 import android.media.RingtoneManager
 import android.net.Uri
 import android.os.Build
@@ -89,6 +90,7 @@ import java.io.FileOutputStream
 import java.io.IOException
 import java.io.OutputStream
 import java.util.TreeSet
+import java.util.concurrent.atomic.AtomicInteger
 
 fun Activity.appLaunched(appId: String) {
     baseConfig.internalStoragePath = getInternalStoragePath()
@@ -979,6 +981,56 @@ fun Activity.rescanPaths(paths: List<String>, callback: (() -> Unit)? = null) {
     applicationContext.rescanPaths(paths, callback)
 }
 
+private fun BaseSimpleActivity.readRenameMediaEntries(path: String): List<Pair<Long, String>> {
+    if (isRPlus()) return emptyList()
+    val oldPath = File(path).canonicalPath
+    val prefix = "$oldPath/"
+    val entries = ArrayList<Pair<Long, String>>()
+    contentResolver.query(
+        MediaStore.Files.getContentUri("external"),
+        arrayOf(MediaStore.MediaColumns._ID, MediaStore.MediaColumns.DATA),
+        "${MediaStore.MediaColumns.DATA} = ? OR substr(${MediaStore.MediaColumns.DATA}, 1, ?) = ?",
+        arrayOf(oldPath, prefix.length.toString(), prefix), null
+    )?.use { cursor ->
+        while (cursor.moveToNext()) entries.add(cursor.getLong(0) to cursor.getString(1))
+    } ?: throw IOException("Could not read media entries before renaming")
+    return entries
+}
+
+private fun BaseSimpleActivity.refreshRenamedPath(
+    oldPath: String,
+    newPath: String,
+    entries: List<Pair<Long, String>>,
+    callback: ((Boolean, Android30RenameFormat) -> Unit)?
+) {
+    try {
+        val oldMediaPath = File(oldPath).canonicalPath
+        val newMediaPath = File(newPath).canonicalPath
+        // Older providers scan descendants when a directory entry moves, so move the child entries first.
+        for ((id, path) in entries.sortedByDescending { it.second.length }) {
+            val renamedPath = newMediaPath + path.removePrefix(oldMediaPath)
+            val values = ContentValues().apply {
+                put(MediaStore.MediaColumns.DATA, renamedPath)
+                put(MediaStore.MediaColumns.DISPLAY_NAME, renamedPath.getFilenameFromPath())
+                put(MediaStore.MediaColumns.TITLE, renamedPath.getFilenameFromPath())
+            }
+            contentResolver.update(MediaStore.Files.getContentUri("external"), values,
+                "_id = ? AND ${MediaStore.MediaColumns.DATA} = ?", arrayOf(id.toString(), path))
+        }
+        val paths = getPaths(File(newMediaPath))
+        val remaining = AtomicInteger(paths.size)
+        // Scan the new paths once. A missing old path can match a sibling on older Android versions.
+        MediaScannerConnection.scanFile(applicationContext, paths.toTypedArray(), null) { _, _ ->
+            if (remaining.decrementAndGet() == 0) {
+                runOnUiThread { callback?.invoke(true, Android30RenameFormat.NONE) }
+            }
+        }
+    } catch (e: Exception) {
+        showErrorToast(e)
+        runOnUiThread { callback?.invoke(false, Android30RenameFormat.NONE) }
+    }
+}
+
 fun BaseSimpleActivity.renameFile(
     oldPath: String,
     newPath: String,
@@ -1019,18 +1071,10 @@ fun BaseSimpleActivity.renameFile(
 
                 try {
                     ensureBackgroundThread {
+                        val mediaEntries = readRenameMediaEntries(oldPath)
                         val success = renameDocumentSdk30(oldPath, newPath)
                         if (success) {
-                            updateInMediaStore(oldPath, newPath)
-                            rescanPath(newPath) {
-                                runOnUiThread {
-                                    callback?.invoke(true, Android30RenameFormat.NONE)
-                                }
-                                if (!oldPath.equals(newPath, true)) {
-                                    deleteFromMediaStore(oldPath)
-                                }
-                                scanPathRecursively(newPath)
-                            }
+                            refreshRenamedPath(oldPath, newPath, mediaEntries, callback)
                         } else {
                             runOnUiThread {
                                 callback?.invoke(false, Android30RenameFormat.NONE)
@@ -1062,6 +1106,13 @@ fun BaseSimpleActivity.renameFile(
 
             try {
                 ensureBackgroundThread {
+                    val mediaEntries = try {
+                        readRenameMediaEntries(oldPath)
+                    } catch (e: Exception) {
+                        showErrorToast(e)
+                        runOnUiThread { callback?.invoke(false, Android30RenameFormat.NONE) }
+                        return@ensureBackgroundThread
+                    }
                     try {
                         DocumentsContract.renameDocument(applicationContext.contentResolver, document.uri, newPath.getFilenameFromPath())
                     } catch (ignored: FileNotFoundException) {
@@ -1072,16 +1123,10 @@ fun BaseSimpleActivity.renameFile(
                         return@ensureBackgroundThread
                     }
 
-                    updateInMediaStore(oldPath, newPath)
-                    rescanPaths(arrayListOf(oldPath, newPath)) {
-                        if (!baseConfig.keepLastModified) {
-                            updateLastModified(newPath, System.currentTimeMillis())
-                        }
-                        deleteFromMediaStore(oldPath)
-                        runOnUiThread {
-                            callback?.invoke(true, Android30RenameFormat.NONE)
-                        }
+                    if (!baseConfig.keepLastModified) {
+                        updateLastModified(newPath, System.currentTimeMillis())
                     }
+                    refreshRenamedPath(oldPath, newPath, mediaEntries, callback)
                 }
             } catch (e: Exception) {
                 showErrorToast(e)
@@ -1101,7 +1146,9 @@ private fun BaseSimpleActivity.renameCasually(
 ) {
     val oldFile = File(oldPath)
     val newFile = File(newPath)
+    val mediaEntries: List<Pair<Long, String>>
     val tempFile = try {
+        mediaEntries = readRenameMediaEntries(oldPath)
         createTempFile(oldFile) ?: return
     } catch (exception: Exception) {
         if (isRPlus() && exception is java.nio.file.FileSystemException) {
@@ -1142,31 +1189,10 @@ private fun BaseSimpleActivity.renameCasually(
     val oldToTempSucceeds = oldFile.renameTo(tempFile)
     val tempToNewSucceeds = tempFile.renameTo(newFile)
     if (oldToTempSucceeds && tempToNewSucceeds) {
-        if (newFile.isDirectory) {
-            updateInMediaStore(oldPath, newPath)
-            rescanPath(newPath) {
-                runOnUiThread {
-                    callback?.invoke(true, Android30RenameFormat.NONE)
-                }
-                if (!oldPath.equals(newPath, true)) {
-                    deleteFromMediaStore(oldPath)
-                }
-                scanPathRecursively(newPath)
-            }
-        } else {
-            if (!baseConfig.keepLastModified) {
-                newFile.setLastModified(System.currentTimeMillis())
-            }
-            updateInMediaStore(oldPath, newPath)
-            scanPathsRecursively(arrayListOf(newPath)) {
-                if (!oldPath.equals(newPath, true)) {
-                    deleteFromMediaStore(oldPath)
-                }
-                runOnUiThread {
-                    callback?.invoke(true, Android30RenameFormat.NONE)
-                }
-            }
+        if (!newFile.isDirectory && !baseConfig.keepLastModified) {
+            newFile.setLastModified(System.currentTimeMillis())
         }
+        refreshRenamedPath(oldPath, newPath, mediaEntries, callback)
     } else {
         tempFile.delete()
         newFile.delete()

@@ -22,7 +22,6 @@ import java.util.Locale
 
 class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(context, attrs), RenameTab {
     var ignoreClicks = false
-    var stopLooping = false     // we should request the permission on Android 30+ for all uris at once, not one by one
     var currentIncrementalNumber = 1
     var numbersCnt = 0
     var activity: BaseSimpleActivity? = null
@@ -43,7 +42,6 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
     }
 
     override fun dialogConfirmed(useMediaFileExtension: Boolean, callback: (success: Boolean) -> Unit) {
-        stopLooping = false
         if (ignoreClicks) {
             return
         }
@@ -79,40 +77,53 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
                 }
 
                 ignoreClicks = true
-                var pathsCnt = validPaths.size
-                numbersCnt = pathsCnt.toString().length
-                for (path in validPaths) {
-                    if (stopLooping) {
-                        return@checkManageMediaOrHandleSAFDialogSdk30
+                numbersCnt = validPaths.size.toString().length
+                fun renameNext(index: Int) {
+                    if (index == validPaths.size) {
+                        ignoreClicks = false
+                        callback(true)
+                        return
                     }
-
+                    val path = validPaths[index]
+                    val incrementalNumber = currentIncrementalNumber
                     try {
-                        val newPath = getNewPath(path, useMediaFileExtension) ?: continue
+                        val newPath = getNewPath(path, useMediaFileExtension, newNameRaw)
+                        if (newPath == null) {
+                            ignoreClicks = false
+                            callback(false)
+                            return
+                        }
                         activity?.renameFile(path, newPath, true) { success, android30Format ->
                             if (success) {
-                                pathsCnt--
-                                if (pathsCnt == 0) {
-                                    callback(true)
-                                }
+                                renameNext(index + 1)
                             } else {
                                 ignoreClicks = false
                                 if (android30Format != Android30RenameFormat.NONE) {
-                                    currentIncrementalNumber = 1
-                                    stopLooping = true
-                                    renameAllFiles(validPaths, useMediaFileExtension, android30Format, callback)
+                                    currentIncrementalNumber = incrementalNumber
+                                    renameAllFiles(
+                                        validPaths.drop(index),
+                                        useMediaFileExtension,
+                                        android30Format,
+                                        newNameRaw,
+                                        callback
+                                    )
+                                } else {
+                                    callback(false)
                                 }
                             }
                         }
                     } catch (e: Exception) {
                         activity?.showErrorToast(e)
+                        ignoreClicks = false
+                        callback(false)
                     }
                 }
-                stopLooping = false
+                renameNext(0)
             }
         }
     }
 
-    private fun getNewPath(path: String, useMediaFileExtension: Boolean): String? {
+    private fun getNewPath(path: String, useMediaFileExtension: Boolean, renamePattern: String): String? {
         try {
             val exif = ExifInterface(path)
             var dateTime = if (isNougatPlus()) {
@@ -140,7 +151,7 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
             val minutes = (cal.get(Calendar.MINUTE)).ensureTwoDigits()
             val seconds = (cal.get(Calendar.SECOND)).ensureTwoDigits()
 
-            var newName = binding.renameItemsValue.value
+            var newName = renamePattern
                 .replace("%Y", year, false)
                 .replace("%M", month, false)
                 .replace("%D", day, false)
@@ -185,6 +196,7 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
         paths: List<String>,
         useMediaFileExtension: Boolean,
         android30Format: Android30RenameFormat,
+        renamePattern: String,
         callback: (success: Boolean) -> Unit,
     ) {
         val fileDirItems = paths.map { File(it).toFileDirItem(context) }
@@ -197,7 +209,8 @@ class RenamePatternTab(context: Context, attrs: AttributeSet) : RelativeLayout(c
                 try {
                     uris.forEachIndexed { index, uri ->
                         val path = validPaths[index]
-                        val newFileName = getNewPath(path, useMediaFileExtension)?.getFilenameFromPath() ?: return@forEachIndexed
+                        val newFileName = getNewPath(path, useMediaFileExtension, renamePattern)
+                            ?.getFilenameFromPath() ?: return@forEachIndexed
                         when (android30Format) {
                             Android30RenameFormat.SAF -> {
                                 val sourceFile = File(path).toFileDirItem(context)
