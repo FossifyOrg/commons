@@ -323,11 +323,17 @@ class CopyMoveTask(
     // if we delete multiple files from Downloads folder on Android 11 or 12 without being a Media Management app, show the confirmation dialog just once
     private fun deleteProtectedFiles() {
         if (mFileDirItemsToDelete.isNotEmpty()) {
-            val fileUris = activity.getFileUrisFromFileDirItems(mFileDirItemsToDelete)
-            activity.deleteSDK30Uris(fileUris) { success ->
-                if (success) {
-                    mFileDirItemsToDelete.forEach {
-                        activity.deleteFromMediaStore(it.path)
+            activity.resolveMediaStoreUris(mFileDirItemsToDelete) { resolution ->
+                val fileUris = resolution.uris
+                if (fileUris.isEmpty()) {
+                    return@resolveMediaStoreUris
+                }
+
+                activity.deleteSDK30Uris(fileUris) { success ->
+                    if (success) {
+                        resolution.resolved.forEach {
+                            activity.deleteFromMediaStore(it.fileDirItem.path)
+                        }
                     }
                 }
             }
