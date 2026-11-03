@@ -939,7 +939,7 @@
     <string name="apply_to_all_apps">Uporabi temo za vse aplikacije Fossify</string>
     <string name="app_icon_color_warning">Pozor: Nekateri zaganjalniki morda ne bodo pravilno prilagodili ikon aplikacij. Če ikona izgine, poskusite zagnati aplikacijo prek trgovine Google Play ali pripomočka, če je na voljo. Po zagonu obnovite privzeto zeleno barvo ikone #106D1F. V skrajnih primerih bo morda potrebna ponovna namestitev aplikacije.</string>
     <string name="purchase_thank_you"><![CDATA[ 
-            Za uporabo te funkcije kupite aplikacijo <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> in tako podprite razvoj Fossifya.  Hvala!
+            Za uporabo te funkcije kupite aplikacijo <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> in tako podprite razvoj projekta Fossify.  Hvala!
         ]]></string>
     <string name="allow_access_more_media">Dovoli dostop do več medijev</string>
     <string name="show_line_numbers">Prikaži številke vrstic</string>
