@@ -992,4 +992,5 @@
     <string name="commonmark_title">CommonMark (Markdown analizatzailea)</string>
     <string name="jsoup_title">jsoup (HTML analizatzailea)</string>
     <string name="commons_csv_title">Apache Commons CSV (CSV analizatzailea)</string>
+    <string name="donation_prompt">Aplikazio hau erabiltzea gustatzen bazaizu, kontuan hartu Fossify-ren garapena laguntzea.</string>
 </resources>
