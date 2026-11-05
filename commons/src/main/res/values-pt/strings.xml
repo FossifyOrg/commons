@@ -794,7 +794,9 @@
     <string name="sms_messenger_short">Mensagens SMS</string>
     <string name="thank_you_short">Obrigado</string>
     <string name="voice_recorder_short">Gravador de Voz</string>
-    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020Parece que a sua versão do app está corrompida. Por favor, descarregue a versão original <a href="%s">aqui</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
+    <string name="sideloaded_app"><![CDATA[
+            Parece que a sua versão do app está corrompida. Por favor, transfira a versão original <a href="%s">aqui</a>.
+        ]]></string>
     <string name="frequently_asked_questions">Perguntas Frequentes</string>
     <string name="before_asking_question">Antes de fazer uma pergunta, leia primeiro as</string>
     <string name="faq_1_title_commons">Por que não vejo o widget deste aplicativo na lista de widgets?</string>
@@ -1000,9 +1002,16 @@
     <string name="allow_notifications_files">Deve permitir que a aplicação mostre notificações. Caso contrário, não será possível mostrar a barra de progresso.</string>
     <string name="app_icon_color_warning">Cuidado: alguns \'launchers\' podem não lidar corretamente com a personalização do ícone. Se o ícone desaparecer, tente iniciar a aplicação pelo Google Play ou por um widget. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar a aplicação.</string>
     <string name="reorder_items_by_dragging">Reordenar itens por arrasto</string>
-    <string name="faq_2_text_commons"><![CDATA[\nSim, claro. Pode espalhar a informação sobre as apps ou dar um bom feedback e avaliações. Também pode ajudar traduzindo as apps para um novo idioma ou apenas atualizando algumas traduções existentes.\nO guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.\n]]></string>
+    <string name="faq_2_text_commons"><![CDATA[
+            Sim, claro. Pode espalhar a informação sobre as apps ou dar um bom feedback e avaliações. Também pode ajudar ao traduzir as apps para um novo idioma ou apenas atualizando algumas traduções existentes.
+            O guia para tradução está em <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
+        ]]></string>
     <string name="faq_6_text_commons">Este problema surge quando o seu lançador não suporta totalmente a personalização de ícones. Tente iniciar a app pelo Google Play ou um widget, se acessível. Após iniciar, restaure a cor verde padrão do ícone #106D1F. Em casos extremos, pode ser necessário reinstalar a app.</string>
-    <string name="contributors_label"><![CDATA[\nEsta lista contém todos que ajudaram visivelmente qualquer app dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,\nnos avise se também quiser ajudar também. O guia para tradução está <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.\nObrigado a todos os contribuidores e outros apoiadores!\n]]></string>
+    <string name="contributors_label"><![CDATA[
+            Esta lista contém todos os que ajudaram visivelmente qualquer app dentro do pacote Fossify, não apenas este. As traduções são feitas por voluntários,
+            avise-nos se também quiser ajudar também. O guia para tradução está em <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">neste site</a>, ou entre em contato conosco em <a href="mailto:hello@fossify.org">hello@fossify.org</a> se tiver alguma dúvida.
+            Obrigado a todos os contribuidores e outros apoiantes!
+        ]]></string>
     <string name="translation_chuvash">Chuvache</string>
     <plurals name="files_saved">
         <item quantity="one">Ficheiro guardado com sucesso</item>
