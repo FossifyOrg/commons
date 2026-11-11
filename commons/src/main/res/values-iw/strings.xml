@@ -356,7 +356,7 @@
     <string name="donate">תרום</string>
     <string name="additional_info">מידע נוסף</string>
     <string name="calculator_short">מחשבון</string>
-    <string name="calendar_short">יומן</string>
+    <string name="calendar_short">לוח שנה</string>
     <string name="camera_short">מצלמה</string>
     <string name="clock_short">שעון</string>
     <string name="contacts_short">אנשי קשר</string>
@@ -579,7 +579,7 @@
     <string name="zip4j_title">Zip4j (דחיסה וחילוץ ZIP)</string>
     <string name="pro_app_refund">זכור שאם תסיר כל אפליקציה בתשלום בתוך שעתיים, תקבל החזר כספי אוטומטי. אם תרצה החזר בכל עת מאוחר יותר, פשוט צור איתנו קשר בכתובת hello@fossify.org ותקבל אותו. זה מקל על ההתנסות :)</string>
     <string name="before_asking_question_read_faq">לפני שאתה שואל שאלה, אנא בדוק את הגדרות האפליקציה וקרא תחילה את השאלות הנפוצות. אולי הפתרון נמצא שם.</string>
-    <string name="donate_short">תמכו בנו על ידי רכישת &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; בבקשה, זה גם יפתח את כל תכונות האפליקציה כולל התאמה אישית של צבעים.</string>
+    <string name="donate_short">כיף לך להשתמש ביישומים של Fossify? אפשר לתמוך בפיתוח היישומים נטולי הפרסומות שלנו בעזרת רכישת „&lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;הוקרת תודה ל־Fossify&lt;/a&gt;”. התרומה גם תוסיף את האפשרות להשתמש גופנים מותאמים אישית ולסנכרן את העדפות הסגנון בין יישומי Fossify. תודה רבה על התמיכה!</string>
     <string name="translation_belarusian">בלארוסית</string>
     <string name="glide_title">Glide (טעינה ושמירת תמונות במטמון)</string>
     <string name="gesture_views_title">Gesture Views (תמונות ניתנות להגדלה)</string>
@@ -609,7 +609,9 @@
     </plurals>
     <string name="files_count">סך כל הקבצים</string>
     <string name="duration">משך</string>
-    <string name="purchase_thank_you"><![CDATA[\nאנא רכשו <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">תודה Fossify</a> כדי להשתמש בתכונה זו ולתמוך בפיתוח. תודה!\n]]></string>
+    <string name="purchase_thank_you"><![CDATA[
+            נא לרכוש את <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">הוקרת תודה ל־Fossify</a> כדי להשתמש בתכונה זו ולתמוך בפיתוח. תודה רבה!
+        ]]></string>
     <string name="apply_to_all_apps">החלת עיצוב על כל אפליקציות Fossify</string>
     <string name="solarized">‌</string>
     <string name="whats_new_disclaimer">* רק העדכונים הגדולים יותר מופיעים כאן, תמיד יש גם כמה שיפורים קטנים יותר</string>
@@ -665,7 +667,7 @@
     <string name="invite_friends">הזמינו חברים</string>
     <string name="follow_us">עקוב אחרינו</string>
     <string name="support">תמיכה</string>
-    <string name="update_thank_you">אנא עדכן את Fossify Thank לגרסה האחרונה</string>
+    <string name="update_thank_you">נא לעדכן את „הוקרת תודה ל־Fossify” לגרסה החדשה</string>
     <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020נראה שגרסת האפליקציה שלך פגומה. אנא הורד את הגרסה המקורית <a href="%s">כאן</a>.\n \u0020 \u0020 \u0020 \u0020]]></string>
     <string name="faq_4_title_commons">אני לא אוהב את צבעי הווידג\'ט, האם אני יכול לשנות אותם?</string>
     <string name="translation_central_kurdish">כורדית מרכזית</string>
@@ -909,7 +911,7 @@
     <string name="faq_6_title_commons">סמל משגר האפליקציות נעלם. מה אני יכול לעשות?</string>
     <string name="faq_7_title_commons">הכסף ירד מחשבון הבנק שלי, אבל אני לא מצליח להוריד את האפליקציה. מה אני יכול לעשות?</string>
     <string name="faq_4_text_commons">כן, כשאתה גורר ווידג\'ט על מסך הבית, יופיע מסך הגדרות ווידג\'ט. תראה ריבועים צבעוניים בפינה השמאלית התחתונה, פשוט הקש עליהם כדי לבחור צבע חדש. אתה יכול להשתמש במחוון גם כדי להתאים את האלפא.</string>
-    <string name="purchase_simple_thank_you">רכישת Fossify Thank You</string>
+    <string name="purchase_simple_thank_you">רכישת „הוקרת תודה ל־Fossify”</string>
     <string name="faq_2_title_commons">אני רוצה לתמוך בך, אבל אני לא יכולה לתרום כסף. האם יש משהו אחר שאני יכולה לעשות?</string>
     <string name="event_bus_title">Event Bus (תקשורת בתוך האפליקציה)</string>
     <plurals name="by_minutes">
@@ -995,8 +997,12 @@
     <string name="reminder_warning">אנא ודא שהתזכורות פועלות כראוי לפני שאתה סומך עליהן. בדוק את הגדרות הסוללה וההתראות של המכשיר שלך, אם אין שום דבר שחוסם את התזכורות, או סוגר את האפליקציה ברקע.</string>
     <string name="alarm_goes_off_in">זמן שנותר עד שהשעון המעורר יצלצל:\n%s</string>
     <string name="trial_expired">תקופת הניסיון הסתיימה</string>
-    <string name="contributors_label"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020רשימה זו כוללת את כל מי שעזר באופן בולט לכל אפליקציה בחבילת Fossify, לא רק זו. תרגומים מטופלים על ידי מתנדבים,\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020ספרו לנו אם גם אתם רוצים לעזור. המדריך לתרגום נמצא בכתובת <a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">באתר זה</a>, או פשוט צרו איתנו קשר בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש לכם שאלות.\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020תודה לכל התורמים ולתומכים אחרים!\n \u0020 \u0020 \u0020 \u0020]]></string>
-    <string name="requires_fossify_thank_you">דורש Fossify תודה</string>
+    <string name="contributors_label"><![CDATA[
+            רשימה זו כוללת את כל מי שעזרו באופן בולט לכל יישום במארז של Fossify, לא רק ליישום הזה. התרגומים נעשים בהתנדבות,
+            אפשר ליצור איתנו קשר אם מעניין אותך לעזור גם. המדריך לתרגום נמצא ב<a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">אתר זה</a>, או שאפשר פשוט ליצור איתנו קשר בכתובת <a href="mailto:hello@fossify.org">hello@fossify.org</a> אם יש שאלות.
+            תודה לכל התורמים ולתומכים אחרים!
+        ]]></string>
+    <string name="requires_fossify_thank_you">דורש „הוקרת תודה ב־Fossify”</string>
     <string name="evalex_title">EvalEx (הערכה של ביטויים מתמטיים)</string>
     <plurals name="files_saved">
         <item quantity="one">הקובץ נשמר בהצלחה</item>
@@ -1016,4 +1022,6 @@
     <string name="on_contact_click">כפתור יצירת קשר</string>
     <string name="call_contact">חייג לאיש קשר</string>
     <string name="view_contact">צפה בפרטי התקשרות</string>
+    <string name="rate_app_prompt">כיף לך להשתמש ביישום? אפשר לדרג אותו ב־Google Play.</string>
+    <string name="donation_prompt">אם כיף לך להשתמש ביישום, נא לשקול לתמוך בפיתוח של Fossify.</string>
 </resources>
