@@ -17,12 +17,12 @@
     <string name="edit">編輯</string>
     <string name="no_app_found">找不到應用程式</string>
     <string name="no_browser_found">找不到瀏覽器</string>
-    <string name="no_email_client_found">找不到短訊用戶端</string>
+    <string name="no_email_client_found">找不到電郵應用程式</string>
     <string name="set_as">設為</string>
     <string name="copy_to_clipboard">複製至剪貼簿</string>
     <string name="copy_number_to_clipboard">複製電話號碼</string>
-    <string name="value_copied_to_clipboard">複製數值</string>
-    <string name="value_copied_to_clipboard_show">複製數值: \n%s</string>
+    <string name="value_copied_to_clipboard">已複製數值至剪貼簿</string>
+    <string name="value_copied_to_clipboard_show">已複製數值至剪貼簿：\n%s</string>
     <string name="dial_number">撥打電話號碼</string>
     <string name="unknown">未知的</string>
     <string name="always">總是</string>
@@ -38,7 +38,7 @@
     <string name="download">下載</string>
     <string name="notification">通知</string>
     <string name="notifications">通知</string>
-    <string name="email">電子信箱</string>
+    <string name="email">電郵</string>
     <string name="previous">上一首</string>
     <string name="playpause">播放 / 暫停</string>
     <string name="next">下一首</string>
@@ -120,7 +120,7 @@
     <string name="search">搜尋</string>
     <string name="type_2_characters">輸入兩個字以上來開始搜尋。</string>
     <string name="filter">篩選</string>
-    <string name="no_items_found">未發現相符的檔案。</string>
+    <string name="no_items_found">找不到相符的項目。</string>
     <string name="change_filter">更改篩選條件</string>
     <string name="no_storage_permissions">儲存空間權限是必要的</string>
     <string name="no_contacts_permission">聯絡人權限是必要的</string>
@@ -154,8 +154,8 @@
     <string name="copy">複製</string>
     <string name="move">移動</string>
     <string name="copy_move">複製 / 移動</string>
-    <string name="copy_to">複製</string>
-    <string name="move_to">移動</string>
+    <string name="copy_to">複製至</string>
+    <string name="move_to">移至</string>
     <string name="source">來源</string>
     <string name="destination">目標</string>
     <string name="select_destination">選擇目標</string>
@@ -196,7 +196,7 @@
     <string name="overwrite">覆蓋</string>
     <string name="skip">跳過</string>
     <string name="append">附加 \'_1\'</string>
-    <string name="apply_to_all">新增至全部衝突</string>
+    <string name="apply_to_all">套用至全部</string>
     <string name="system_folder_restriction">系統不允許在此資料夾中執行操作，請選擇其他資料夾</string>
     <string name="system_folder_copy_restriction">系統不允許複製到此資料夾，請選擇其他資料夾</string>
     <string name="rename_in_sd_card_system_restriction">系統不允許在此資料夾中重新命名</string>
@@ -213,7 +213,7 @@
     <string name="confirm_create_doc_for_new_folder_text">請在下一頁點選下方的「&lt;b&gt;儲存&lt;/b&gt;」以建立新的資料夾。</string>
     <string name="confirm_selection">確認選擇</string>
     <string name="loading">載入中…</string>
-    <string name="access_storage_prompt">請授予我們的 app 對所有檔案的存取權，否則其可能無法正常運作。</string>
+    <string name="access_storage_prompt">請授予本應用程式存取所有檔案的權限，否則可能無法正常運作。</string>
     <plurals name="items">
         <item quantity="other">%d個項目</item>
     </plurals>
@@ -240,13 +240,13 @@
     <string name="items_selected">選擇的項目</string>
     <string name="direct_children_count">子目錄數</string>
     <string name="files_count">總檔案數</string>
-    <string name="resolution">解析度</string>
+    <string name="resolution">解像度</string>
     <string name="duration">時間長度</string>
     <string name="artist">演唱者</string>
     <string name="album">專輯</string>
     <string name="focal_length">焦距</string>
     <string name="exposure_time">曝光時間</string>
-    <string name="iso_speed">ISO速度</string>
+    <string name="iso_speed">ISO 感光度</string>
     <string name="f_number">光圈</string>
     <string name="camera">相機</string>
     <string name="song_title">歌名</string>
@@ -267,15 +267,15 @@
     <string name="use_default">使用預設</string>
     <string name="default_color">預設</string>
     <string name="change_color">改變顏色</string>
-    <string name="theme">主題</string>
-    <string name="changing_color_description">改變顏色將切換成[自訂]主題</string>
+    <string name="theme">應用程式主題</string>
+    <string name="changing_color_description">更改顏色將會切換至「自訂」主題</string>
     <string name="save">儲存</string>
     <string name="discard">丟棄</string>
     <string name="undo_changes">恢復變更</string>
     <string name="undo_changes_confirmation">確定要恢復變更嗎?</string>
     <string name="cannot_be_undone">此操作無法撤回。</string>
     <string name="save_before_closing">尚未儲存變更。離開前是否儲存?</string>
-    <string name="global_theme_success">色彩更新成功。新增了一個名為 \'Shared\' 的新主題，以後請使用那個來更新全部應用程式顏色。</string>
+    <string name="global_theme_success">已成功將目前主題套用至所有 Fossify 應用程式。日後對此主題所作的任何更改都會自動同步。</string>
     <string name="light_theme">淺色主題</string>
     <string name="dark_theme">深色主題</string>
     <string name="auto_theme">自動</string>
@@ -285,7 +285,7 @@
     <string name="white">白色主題</string>
     <string name="black_white">黑白主題</string>
     <string name="custom">自訂</string>
-    <string name="shared">分享</string>
+    <string name="shared">共用</string>
     <string name="system_default">系統預設</string>
     <string name="whats_new">更新了什麼</string>
     <string name="whats_new_disclaimer">*此處僅列出大更新，尚有一些小改善</string>
@@ -301,12 +301,12 @@
     <string name="unhide">取消隱藏</string>
     <string name="hide_folder">隱藏資料夾</string>
     <string name="unhide_folder">取消隱藏資料夾</string>
-    <string name="temporarily_show_hidden">暫停隱藏項目</string>
-    <string name="stop_showing_hidden">繼續隱藏項目</string>
+    <string name="temporarily_show_hidden">暫時顯示隱藏項目</string>
+    <string name="stop_showing_hidden">停止顯示隱藏媒體</string>
     <string name="maximum_share_reached">你不能一次分享這麼多內容</string>
     <string name="empty_and_disable_recycle_bin">清空並停用回收桶</string>
     <string name="undo">復原</string>
-    <string name="redo">取消復原</string>
+    <string name="redo">重做</string>
     <string name="print">列印</string>
     <string name="shortcut">捷徑</string>
     <string name="create_shortcut">建立捷徑</string>
@@ -314,13 +314,13 @@
     <string name="view_contact_details">檢視聯絡人詳細資料</string>
     <string name="call_from_sim_1">使用 SIM 卡 1 撥號</string>
     <string name="call_from_sim_2">使用 SIM 卡 2 撥號</string>
-    <string name="toggle_filename">顯示檔案名稱</string>
+    <string name="toggle_filename">切換顯示檔案名稱</string>
     <string name="move_to_top">移至最前</string>
     <string name="move_to_bottom">移至最後</string>
     <string name="pin_item">釘選項目</string>
     <string name="unpin_item">取消釘選項目</string>
     <string name="send_sms">傳送短訊</string>
-    <string name="send_email">傳送短訊</string>
+    <string name="send_email">傳送電郵</string>
     <string name="call">通話</string>
     <string name="contact_details">聯絡人詳細資料</string>
     <string name="add_contact">新增聯絡人</string>
@@ -376,8 +376,8 @@
     <string name="authenticate">驗證</string>
     <string name="authentication_failed">驗證失敗</string>
     <string name="authentication_blocked">驗證被限制，請稍後再重試</string>
-    <string name="no_fingerprints_registered">你尚未有登錄的指紋，請在裝置的[設定]內新增</string>
-    <string name="go_to_settings">前往[設定]</string>
+    <string name="no_fingerprints_registered">您尚未登記任何指紋，請在裝置的「設定」中新增</string>
+    <string name="go_to_settings">前往「設定」</string>
     <string name="protection_setup_successfully">密碼設置成功。若遺忘了，請重新安裝應用程式。</string>
     <string name="fingerprint_setup_successfully">保護設定成功。如果重設時發生問題，請重新安裝應用程式。</string>
     <string name="lock_folder">上鎖資料夾</string>
@@ -480,7 +480,7 @@
     <string name="reminder_triggers_in">提醒觸發剩餘時間:\n%s</string>
     <string name="time_remaining">剩餘時間：\n%s</string>
     <string name="alarm_warning">依靠鬧鐘功能之前，請先確認是否正常運作，有可能因為省電相關的系統限制而導致失靈。</string>
-    <string name="reminder_warning">依靠提醒功能之前，請先確認是否正常運作，有可能因為省電相關的系統限制而導致失靈。</string>
+    <string name="reminder_warning">依賴提醒功能前，請先確認其運作正常。請檢查裝置的電池與通知設定，確保沒有設定阻擋提醒或在背景關閉應用程式。</string>
     <string name="notifications_disabled">這應用程式的通知被停用了。請到你的裝置設定中去啟用。</string>
     <string name="alarm">鬧鐘</string>
     <string name="snooze">延遲</string>
@@ -495,8 +495,8 @@
     <string name="during_day_at">白天 %1$02d:%2$02d</string>
     <string name="settings">設定</string>
     <string name="general_settings">一般</string>
-    <string name="color_customization">自訂色彩</string>
-    <string name="customize_colors">自訂顏色</string>
+    <string name="color_customization">外觀與體驗</string>
+    <string name="customize_colors">自訂外觀</string>
     <string name="customize_widget_colors">自訂小工具顏色</string>
     <string name="customize_notifications">自訂通知</string>
     <string name="use_english_language">強制使用英語</string>
@@ -507,9 +507,9 @@
     <string name="medium">中</string>
     <string name="large">大</string>
     <string name="extra_large">特大</string>
-    <string name="password_protect_hidden_items">保護隱藏的項目</string>
-    <string name="password_protect_whole_app">保護應用程式</string>
-    <string name="password_protect_file_deletion">保護檔案刪除和移動</string>
+    <string name="password_protect_hidden_items">以密碼保護隱藏項目的顯示</string>
+    <string name="password_protect_whole_app">以密碼保護整個應用程式</string>
+    <string name="password_protect_file_deletion">以密碼保護檔案刪除與移動</string>
     <string name="keep_last_modified">變更檔案後仍保留原有的最後修改日期</string>
     <string name="show_info_bubble">拖曳滾動條時，顯示訊息氣泡</string>
     <string name="prevent_phone_from_sleeping">當程式在前景使用時，防止手機進入睡眠</string>
@@ -517,7 +517,7 @@
     <string name="enable_pull_to_refresh">啟用頂部下拉更新</string>
     <string name="use_24_hour_time_format">使用24小時制</string>
     <string name="change_date_and_time_format">更改日期和時間格式</string>
-    <string name="sunday_first">每周由星期日開始</string>
+    <string name="sunday_first">每週由星期日開始</string>
     <string name="widgets">小工具</string>
     <string name="use_same_snooze">總是使用相同延遲間隔</string>
     <string name="snooze_time">延遲時間</string>
@@ -542,7 +542,7 @@
     <string name="startup">啟動</string>
     <string name="text">文字</string>
     <string name="migrating">搬移</string>
-    <string name="quality">品質</string>
+    <string name="quality">質素</string>
     <string name="main_screen">主畫面</string>
     <string name="thumbnails">縮圖</string>
     <string name="list_view">清單檢視</string>
@@ -553,8 +553,8 @@
     <string name="manage_excluded_folders">管理排除的資料夾</string>
     <string name="remove_all">移除全部</string>
     <string name="remove_all_description">是否將排除列表中的所有資料夾都移除？這不會刪除資料夾。</string>
-    <string name="temporarily_show_excluded">暫停排除項目</string>
-    <string name="stop_showing_excluded">繼續排除項目</string>
+    <string name="temporarily_show_excluded">暫時顯示已排除項目</string>
+    <string name="stop_showing_excluded">停止顯示已排除項目</string>
     <string name="manage_shown_tabs">管理顯示的頁面</string>
     <string name="default_tab_to_open">應用程式啟動時要開啟的分頁</string>
     <string name="contacts_tab">聯絡人</string>
@@ -571,7 +571,7 @@
     <string name="files_restored_successfully">檔案已成功還原</string>
     <string name="empty_recycle_bin_confirmation">你確定要清空回收桶嗎?檔案將會永久消失。</string>
     <string name="recycle_bin_empty">回收桶是空的</string>
-    <string name="moving_recycle_bin_items_disabled">移動回收桶項目的功能已停用，請使用復原</string>
+    <string name="moving_recycle_bin_items_disabled">移動回收桶項目的功能已停用。請使用復原。</string>
     <string name="show_the_recycle_bin">顯示回收桶</string>
     <string name="hide_the_recycle_bin">隱藏回收桶</string>
     <plurals name="moving_items_into_bin">
@@ -581,7 +581,7 @@
     <string name="exporting">正在匯出…</string>
     <string name="importing_successful">匯入成功</string>
     <string name="exporting_successful">匯出成功</string>
-    <string name="importing_failed">匯入成功</string>
+    <string name="importing_failed">匯入失敗</string>
     <string name="exporting_failed">匯出失敗</string>
     <string name="importing_some_entries_failed">部分項目匯入失敗</string>
     <string name="exporting_some_entries_failed">部分項目匯出失敗</string>
@@ -643,7 +643,7 @@
     <string name="about">關於</string>
     <string name="website">網站</string>
     <string name="website_label">觀看原始碼</string>
-    <string name="email_label">傳送您的反饋或建議</string>
+    <string name="email_label">傳送您的意見或建議至</string>
     <string name="invite_friends">邀請朋友</string>
     <string name="share_text">嘿，來試試看「%1$s」吧！ %2$s</string>
     <string name="invite_via">邀請</string>
@@ -654,20 +654,28 @@
     <string name="help_us">幫助我們</string>
     <string name="social">社群平台</string>
     <string name="other">其他</string>
-    <string name="privacy_policy">隱私政策</string>
+    <string name="privacy_policy">私隱政策</string>
     <string name="version_placeholder">版本 %s</string>
-    <string name="hello">哈囉 :)</string>
+    <string name="hello">你好 :)</string>
     <string name="about_footer">在斯洛伐克用 ❤️ 製作</string>
     <string name="additional_info">進階資訊</string>
     <string name="app_version">應用程式版本: %s</string>
     <string name="device_os">裝置系統: %s</string>
     <string name="purchase">購買</string>
-    <string name="before_asking_question_read_faq">在您發問前，請先檢查程式設定及閱讀[常見問題]。或許解決方法就在那裡。</string>
+    <string name="before_asking_question_read_faq">發問前，請先檢查應用程式設定並閱讀「常見問題」，或許當中已有解決方法。</string>
     <string name="make_sure_latest">並且確保您正使用最新的應用程式版本。</string>
-    <string name="read_it">讀它</string>
+    <string name="read_it">前往閱讀</string>
     <string name="read_faq">閱讀FAQ</string>
     <string name="thank_you">感謝</string>
-    <string name="new_app"><![CDATA["\n            嗨，<br><br>\n            告訴你最近有一個新的應用程式剛發布:<br><br>\n            <a href=\"%1$s\">%2$s</a><br><br>\n            <a href=\"%3$s\">%4$s</a><br><br>\n            <a href=\"%5$s\">%6$s</a><br><br>\n            點標題下載來試試看吧<br><br>\n            謝謝\n        "]]></string>
+    <string name="new_app"><![CDATA[
+            你好，<br><br>
+            通知您最近發布了幾款新應用程式：<br><br>
+            <a href="%1$s">%2$s</a><br><br>
+            <a href="%3$s">%4$s</a><br><br>
+            <a href="%5$s">%6$s</a><br><br>
+            點擊標題或圖示即可下載。<br><br>
+            謝謝
+        ]]></string>
     <string name="app_launcher_short">應用程式啟動器</string>
     <string name="calculator_short">計算機</string>
     <string name="calendar_short">行事曆</string>
@@ -686,16 +694,18 @@
     <string name="sms_messenger_short">短訊</string>
     <string name="thank_you_short">感謝您</string>
     <string name="voice_recorder_short">錄音機</string>
-    <string name="sideloaded_app"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020你的應用程式版本似乎是損壞的。請從 <a href="%s">這裡</a> 下載原始版本。\n \u0020 \u0020 \u0020 \u0020]]></string>
+    <string name="sideloaded_app"><![CDATA[
+            您的應用程式版本似乎已損毀。請在<a href="%s">此處</a>下載原始版本。
+        ]]></string>
     <string name="frequently_asked_questions">常見問題</string>
     <string name="before_asking_question">在你發問之前，請先閱讀</string>
     <string name="faq_1_title_commons">為什麼我在小工具列表中沒看到這應用程式的小工具?</string>
     <string name="faq_1_text_commons">這很可能是因為你把應用程式移動到SD卡。那樣的話，有個隱藏特定程式小工具的Android系統限制存在。 只有一個解決方法，就是經由你的裝置設定，把應用程式移動回內部儲存空間。</string>
     <string name="faq_2_title_commons">我想要支持您，但我無法捐款。還有什麼我能做的嗎?</string>
     <string name="faq_3_title_commons">我誤刪了一些檔案，如何復原?</string>
-    <string name="faq_3_text_commons">不幸地，沒有辦法。檔案經確認後就立即刪除了，沒有垃圾筒可用。</string>
+    <string name="faq_3_text_commons">很遺憾，無法復原。檔案在確認對話框後便會立即刪除，並沒有垃圾桶可用。</string>
     <string name="faq_4_title_commons">我不喜歡小工具的顏色，我能更改嗎?</string>
-    <string name="faq_4_text_commons">可啊，當你在主畫面拖動小工具時，會出現小工具設置畫面。你會在左下角看到顏色方塊，點下去再挑個新顏色就好了。你也能用拉條來調整透明度。</string>
+    <string name="faq_4_text_commons">可以。當您將小工具拖曳至主畫面時，會出現小工具設定畫面。點選左下角的顏色方塊即可選擇新顏色，亦可使用滑桿調整透明度。</string>
     <string name="faq_5_title_commons">我有辦法恢復被刪除的檔案嗎?</string>
     <string name="faq_5_text_commons">如果它們確實被刪除了，那沒辦法。然而，預設情況下啟用了回收桶，使得檔案並沒有被刪除，只是被移動到桶內。</string>
     <string name="faq_6_title_commons">應用程式啟動器上的圖示消失了。我該怎麼辦?</string>
@@ -720,7 +730,7 @@
     <string name="stetho_title">Stetho（除錯資料庫）</string>
     <string name="otto_title">Otto（事件匯流排）</string>
     <string name="photoview_title">PhotoView（可縮放的 GIF）</string>
-    <string name="pattern_title">PatternLockView（模式保護）</string>
+    <string name="pattern_title">PatternLockView（圖形鎖保護）</string>
     <string name="reprint_title">Reprint（指紋保護）</string>
     <string name="gif_drawable_title">Gif Drawable（載入 GIF）</string>
     <string name="autofittextview_title">AutoFitTextView（調整文字大小）</string>
@@ -728,21 +738,21 @@
     <string name="espresso_title">Espresso（測試助理程式）</string>
     <string name="gson_title">Gson（JSON 解析器）</string>
     <string name="leak_canary_title">Leak Canary（記憶體洩露偵測器）</string>
-    <string name="number_picker_title">Number Picker（可自訂的號碼挑選器）</string>
+    <string name="number_picker_title">Number Picker（可自訂的數字選擇器）</string>
     <string name="exoplayer_title">ExoPlayer（影片播放器）</string>
-    <string name="sanselan_title">Apache Sanselan（讀取圖片詮釋資料）</string>
-    <string name="filters_title">Android Photo Filters（圖片過濾器）</string>
+    <string name="sanselan_title">Apache Sanselan（讀取圖片中繼資料）</string>
+    <string name="filters_title">Android Photo Filters（圖片濾鏡）</string>
     <string name="gesture_views_title">Gesture Views（可縮放的圖片）</string>
     <string name="indicator_fast_scroll_title">Indicator Fast Scroll（滾動條上字母）</string>
     <string name="event_bus_title">Event Bus（應用程式溝通）</string>
-    <string name="audio_record_view_title">Audio Record View (音訊視覺化)</string>
+    <string name="audio_record_view_title">Audio Record View（音訊視覺化）</string>
     <string name="sms_mms_title">SMS MMS（短訊和多媒體訊息處理）</string>
     <string name="apng_title">APNG Android（動態 WebP 支援）</string>
     <string name="pdf_view_pager_title">PDFViewPager（PDF 檢視器）</string>
     <string name="pdf_viewer_title">Android PdfViewer（PDF 檢視器）</string>
     <string name="m3u_parser_title">M3U Parser（m3u 播放清單檔案處理）</string>
     <string name="android_lame_title">AndroidLame（mp3 編碼器）</string>
-    <string name="pro_app_refund">別忘記如果您在2小時內解除安裝任何付費應用程式，將會自動被退款。若您在之後隨時想退款，只要透過 @fossify.org 聯絡我們，即可收到退款。這麼一來輕鬆就能試用了 :)</string>
+    <string name="pro_app_refund">別忘記，如果您在 2 小時內解除安裝任何付費應用程式，將會自動獲得退款。若您日後隨時想申請退款，只需電郵至 hello@fossify.org 聯絡我們即可獲退回款項，讓您安心試用 :)</string>
     <string name="developer_description">一系列簡單、開放原始碼的 Android 應用程式，具有可自訂的小工具，沒有廣告和不必要的權限。</string>
     <string name="format_phone_numbers">設定電話號碼格式</string>
     <string name="search_contacts">搜尋聯絡人</string>
@@ -802,9 +812,11 @@
     <string name="internal_storage">內部儲存空間</string>
     <string name="genre">類型</string>
     <string name="exif">EXIF</string>
-    <string name="apply_to_all_apps">將顏色套用至所有 Fossify 應用程式</string>
+    <string name="apply_to_all_apps">將主題套用至所有 Fossify 應用程式</string>
     <string name="app_icon_color_warning">注意：某些啟動器可能無法正確處理應用程式圖示自訂。如果圖示消失，請嘗試透過 Google Play 或小工具（如果有的話）來啟動應用程式。啟動後，請將應用程式圖示顏色還原為預設的綠色 #106D1F。在極少數情況下，可能會需要重新安裝應用程式。</string>
-    <string name="purchase_thank_you"><![CDATA[\n \u0020 \u0020 \u0020 \u0020 \u0020 \u0020請購買 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 來解鎖此功能及支持開發者。謝謝!\n \u0020 \u0020 \u0020 \u0020]]></string>
+    <string name="purchase_thank_you"><![CDATA[
+            請購買 <a href="https://play.google.com/store/apps/details?id=org.fossify.thankyou">Fossify Thank You</a> 以使用此功能並支持開發工作。謝謝！
+        ]]></string>
     <string name="allow_access_more_media">允許存取更多媒體</string>
     <string name="show_line_numbers">顯示行號</string>
     <string name="hide_line_numbers">隱藏行號</string>
@@ -834,8 +846,8 @@
     <string name="theme_and_colors">主題與色彩</string>
     <string name="notification_sound">通知音效</string>
     <string name="start_week_on">一週起始日</string>
-    <string name="open_the_recycle_bin">開啟資源回收筒</string>
-    <string name="skip_the_recycle_bin">略過資源回收筒，直接刪除檔案</string>
+    <string name="open_the_recycle_bin">開啟回收桶</string>
+    <string name="skip_the_recycle_bin">略過回收桶，直接刪除檔案</string>
     <string name="backups">備份</string>
     <string name="enable_automatic_backups">啟用自動備份</string>
     <string name="manage_automatic_backups">管理自動備份</string>
@@ -856,25 +868,32 @@
     <string name="known_issues">已知問題</string>
     <string name="more_fossify_apps">更多 Fossify 應用程式</string>
     <string name="rate_this_app">為此應用程式評分</string>
-    <string name="donate_short">請透過購買 &lt;a href=https://play.google.com/store/apps/details?id=org.fossify.thankyou&gt;Fossify Thank You&lt;/a&gt; 來支援我們，這也將解鎖所有應用程式功能，包括顏色自訂。</string>
+    <string name="donate_short">喜歡使用 Fossify 嗎？歡迎購買 &lt;a href=\"https://play.google.com/store/apps/details?id=org.fossify.thankyou\"&gt;Fossify Thank You&lt;/a&gt;，支持我們開發無廣告應用程式，同時啟用自訂字體及跨 Fossify 應用程式共用自訂設定。感謝您的支持！</string>
     <string name="update_thank_you">請將 Fossify Thank You 更新到最新版本</string>
     <string name="all_fossify_apps">所有 Fossify 應用程式</string>
     <string name="donate_to_fossify">贊助 Fossify</string>
-    <string name="platforms">平臺</string>
+    <string name="platforms">平台</string>
     <string name="little_to_no_fee">很少或沒有費用</string>
     <string name="fee_up_to_pct">費用最高 %1$d%%</string>
     <string name="cryptocurrency">加密貨幣</string>
-    <string name="faq_2_text_commons"><![CDATA["\n            當然可以。您可以幫忙宣傳應用程式，或者提供良好的意見回饋和評分。您也可以幫忙將應用程式翻譯成新的語言，或者更新現有的翻譯。.\n            翻譯指南位於<a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。\n        "]]></string>
+    <string name="faq_2_text_commons"><![CDATA[
+            當然可以。您可以幫忙推廣這些應用程式，或給予好評及意見。您亦可以協助將應用程式翻譯成新語言，或更新現有譯文。
+            翻譯指南載於<a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">這個網站</a>；如有任何疑問，歡迎直接電郵至 <a href="mailto:hello@fossify.org">hello@fossify.org</a> 聯絡我們。
+        ]]></string>
     <string name="faq_6_text_commons">當您的啟動器不完全支援圖示自訂時，就會發生此問題。請嘗試透過 Google Play 或小工具（如果有的話）啟動應用程式。啟動後，請將應用程式圖示顏色還原為預設的綠色 #106D1F。在極少數情況下，可能會需要重新安裝應用程式。</string>
-    <string name="contributors_label"><![CDATA["\n            此清單包含所有對 Fossify 套件中任何應用程式提供明顯幫助的人，不僅僅是這個應用程式。翻譯是由志工處理的，如果您也想幫忙，請告訴我們。\n            翻譯指南位於 <a href=https://github.com/FossifyOrg/General-Discussion#contributing-translations>這個網站</a>，或者如果您有任何問題，可以直接透過 <a href=mailto:hello@fossify.org>hello@fossify.org</a> 聯絡我們。\n            感謝所有貢獻者和其他支持者！\n        "]]></string>
+    <string name="contributors_label"><![CDATA[
+            此名單包含對 Fossify 系列中任何應用程式有顯著貢獻的人士，並非只限於此應用程式。翻譯工作由義工負責，
+            如果您也想參與協助，歡迎隨時聯絡我們。翻譯指南載於<a href="https://github.com/FossifyOrg/General-Discussion#contributing-translations">這個網站</a>；如有任何疑問，可直接電郵至 <a href="mailto:hello@fossify.org">hello@fossify.org</a>
+           聯絡我們。感謝所有貢獻者及支持者！
+        ]]></string>
     <string name="translation_arabic">阿拉伯文</string>
-    <string name="translation_azerbaijani">亞塞拜然文</string>
+    <string name="translation_azerbaijani">阿塞拜疆文</string>
     <string name="translation_belarusian">白俄羅斯文</string>
     <string name="translation_bengali">孟加拉文</string>
     <string name="translation_breton">布列塔尼語</string>
     <string name="translation_bulgarian">保加利亞文</string>
-    <string name="translation_central_kurdish">中庫德語</string>
-    <string name="translation_catalan">加泰隆尼亞語</string>
+    <string name="translation_central_kurdish">中庫爾德語</string>
+    <string name="translation_catalan">加泰羅尼亞語</string>
     <string name="translation_chuvash">楚瓦什語</string>
     <string name="translation_czech">捷克文</string>
     <string name="translation_esperanto">世界語</string>
@@ -891,10 +910,10 @@
     <string name="translation_galician">加利西亞文</string>
     <string name="translation_gujarati">古吉拉特文</string>
     <string name="translation_hindi">印地文</string>
-    <string name="translation_croatian">克羅埃西亞文</string>
+    <string name="translation_croatian">克羅地亞文</string>
     <string name="translation_hungarian">匈牙利文</string>
     <string name="translation_indonesian">印尼文</string>
-    <string name="translation_italian">義大利文</string>
+    <string name="translation_italian">意大利文</string>
     <string name="translation_hebrew">希伯來文</string>
     <string name="translation_japanese">日文</string>
     <string name="translation_kabyle">卡拜爾語</string>
@@ -909,16 +928,16 @@
     <string name="translation_romanian">羅馬尼亞文</string>
     <string name="translation_russian">俄文</string>
     <string name="translation_slovak">斯洛伐克文</string>
-    <string name="translation_slovenian">斯洛維尼亞文</string>
+    <string name="translation_slovenian">斯洛文尼亞文</string>
     <string name="translation_serbian">塞爾維亞文</string>
     <string name="translation_swedish">瑞典文</string>
-    <string name="translation_tamil">坦米爾語</string>
+    <string name="translation_tamil">泰米爾語</string>
     <string name="translation_turkish">土耳其文</string>
     <string name="translation_ukrainian">烏克蘭文</string>
     <string name="translation_vietnamese">越南文</string>
-    <string name="translation_chinese_hk">正體中文（香港）</string>
+    <string name="translation_chinese_hk">繁體中文（香港）</string>
     <string name="translation_chinese_cn">簡體中文</string>
-    <string name="translation_chinese_tw">正體中文（台灣）</string>
+    <string name="translation_chinese_tw">繁體中文（台灣）</string>
     <string name="zip4j_title">Zip4j（ZIP 壓縮和解壓縮）</string>
     <string name="evalex_title">EvalEx（數學表達式評估）</string>
     <string name="trial_expired">試用期已結束</string>
@@ -933,4 +952,17 @@
     <string name="on_contact_click">點擊聯絡人</string>
     <string name="call_contact">打電話給聯絡人</string>
     <string name="view_contact">顯示聯絡人資料</string>
+    <string name="font">字體</string>
+    <string name="app_font">應用程式字體</string>
+    <string name="font_monospace">等寬字體</string>
+    <string name="select_font_file">選擇字體檔案…</string>
+    <string name="invalid_font_file">無效的字體檔案</string>
+    <string name="rate_app_prompt">喜歡使用此應用程式嗎？請到 Google Play 為我們評分。</string>
+    <string name="donation_prompt">如果您喜歡使用此應用程式，請考慮支持 Fossify 的開發工作。</string>
+    <string name="badge_deprecated">（已棄用）</string>
+    <string name="label_with_badge">%1$s %2$s</string>
+    <string name="mammoth_title">Mammoth（DOCX 轉換器）</string>
+    <string name="commonmark_title">CommonMark（Markdown 解析器）</string>
+    <string name="jsoup_title">jsoup（HTML 解析器）</string>
+    <string name="commons_csv_title">Apache Commons CSV（CSV 解析器）</string>
 </resources>
